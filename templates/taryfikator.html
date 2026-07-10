@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Taryfikator{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<div class="tar-page">
+
+  <!-- ====== Nagłówek: logo + tytuł ====== -->
+  <header class="tar-topbar">
+    <a href="{{ url_for('index') }}" class="tar-back" aria-label="Powrót do menu głównego">&lsaquo;</a>
+    <img src="{{ url_for('static', filename='img/taryfikator/logo-taryfikator.png') }}" alt="" class="tar-logo">
+    <div class="tar-brand">
+      <h1 class="tar-title">TARYFIKATOR</h1>
+      <p class="tar-subtitle">KWOTY&nbsp;&nbsp;ILOŚĆ PUNKTÓW&nbsp;&nbsp;OPIS WYKROCZEŃ</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <!-- ====== Pasek wyszukiwania (przyklejony) ====== -->
+  <div class="tar-sticky">
+    <div class="tar-searchbar">
+      <button type="button" class="tar-ico-btn" id="tar-filter-toggle" aria-expanded="false" aria-controls="tar-filter-row" aria-label="Kategorie">
+        <svg viewBox="0 0 24 24" class="tar-ico"><path d="M4 6h16M4 12h16M4 18h16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+      </button>
+      <button type="button" class="tar-ico-btn" id="tar-fav-toggle" aria-label="Tylko ulubione">
+        <img src="{{ url_for('static', filename='img/star-empty.png') }}" alt="" id="tar-fav-toggle-icon" class="tar-fav-icon">
+      </button>
+      <span class="tar-search-caret" aria-hidden="true"></span>
+      <input
+        type="text"
+        id="tar-search-input"
+        class="tar-search-input"
+        placeholder="WYSZUKAJ TO CZEGO POTRZEBUJESZ:"
+        autocomplete="off"
+      >
+    </div>
+
+    <div class="tar-toolbar2">
+      <button type="button" class="tar-cat-btn" id="tar-cat-open" aria-controls="tar-filter-row">
+        <span class="tar-cat-label">Kategoria:</span>
+        <span class="tar-filter-current" id="tar-filter-current">Wszystkie</span>
+        <span class="tar-filter-caret" id="tar-filter-caret" aria-hidden="true">▾</span>
+      </button>
+      <button type="button" class="tar-clear-filter" id="tar-clear-filter" hidden>Wyczyść</button>
+      <label class="tar-sort">
+        <select id="tar-sort-select" class="tar-sort-select" aria-label="Sortuj">
+          <option value="default">Sortuj ▾</option>
+          <option value="mandat-desc">Mandat ↓</option>
+          <option value="mandat-asc">Mandat ↑</option>
+          <option value="punkty-desc">Punkty ↓</option>
+          <option value="nazwa">Nazwa A–Z</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="tar-filter-row is-collapsed" id="tar-filter-row" hidden>
+      <button type="button" class="tar-chip is-active" data-slug="">Wszystkie</button>
+      {% for kat in kategorie %}
+        <button type="button" class="tar-chip" data-slug="{{ kat.slug }}">
+          <img src="{{ url_for('static', filename='img/taryfikator/' + kat.ikona) }}" alt="" class="tar-chip-ikona">
+          {{ kat.nazwa }}
+        </button>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- ====== Ramka z listą (boczne szyny) ====== -->
+  <main class="tar-frame">
+    <div class="tar-frame-head"><span class="tar-liczba" id="tar-liczba"></span></div>
+    <ul class="tar-lista" id="tar-lista"></ul>
+    <p class="tar-brak" id="tar-brak" hidden>Brak wykroczeń spełniających kryteria.</p>
+  </main>
+</div>
+
+<!-- ====== Karta szczegółów (modal) ====== -->
+<div class="tar-modal-overlay" id="tar-modal-overlay" hidden>
+  <div class="tar-modal" role="dialog" aria-modal="true" aria-labelledby="tar-modal-title">
+    <div class="tar-modal-head">
+      <div class="tar-modal-head-txt">
+        <h2 class="tar-modal-title" id="tar-modal-title">Szczegóły wykroczenia</h2>
+        <p class="tar-modal-kategoria" id="tar-modal-kategoria"></p>
+      </div>
+      <button type="button" class="tar-star-btn tar-modal-star" id="tar-modal-star" aria-label="Dodaj do ulubionych">
+        <img src="{{ url_for('static', filename='img/star-empty.png') }}" alt="" id="tar-modal-star-icon">
+        <span class="tar-modal-star-hint">Dodaj do ulub.</span>
+      </button>
+    </div>
+    <div class="tar-modal-body" id="tar-modal-body"></div>
+    <button type="button" class="tar-modal-close" id="tar-modal-close">&#8618;&nbsp; Zamknij</button>
+  </div>
+</div>
+
+<script>
+  window.TARYFIKATOR_API_URL = "{{ url_for('api_taryfikator') }}";
+  window.STAR_FULL_URL = "{{ url_for('static', filename='img/star-full.png') }}";
+  window.STAR_EMPTY_URL = "{{ url_for('static', filename='img/star-empty.png') }}";
+</script>
+<script src="{{ url_for('static', filename='js/taryfikator.js') }}" defer></script>
+{% endblock %}

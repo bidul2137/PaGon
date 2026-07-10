@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Menu{% endblock %}
+
+{% block content %}
+<div class="app-shell">
+
+  <header class="status-bar">
+    <p>DATA: <span id="live-data">{{ data }}</span></p>
+    <p>GODZINA: <span id="live-godzina">{{ godzina }}</span></p>
+    <p>UŻYTKOWNIK: <span>{{ uzytkownik }}</span></p>
+  </header>
+
+  <main class="menu-grid">
+
+    <a href="#" class="menu-item item-konto">
+      <span class="label">Twoje konto</span>
+      <span class="badge-wrap">
+        <img class="badge" src="{{ url_for('static', filename='img/konto.png') }}" alt="Twoje konto">
+      </span>
+    </a>
+
+    <a href="{{ url_for('taryfikator') }}" class="menu-item item-taryfikator">
+      <span class="badge-wrap">
+        <img class="badge" src="{{ url_for('static', filename='img/taryfikator.png') }}" alt="Taryfikator">
+      </span>
+      <span class="label">Taryfikator</span>
+    </a>
+
+    <div class="menu-item item-logo">
+      <div class="logo-circle">
+        <img src="{{ url_for('static', filename='img/logo.png') }}" alt="PaGon">
+      </div>
+    </div>
+
+    <a href="#" class="menu-item item-pomoce">
+      <span class="badge-wrap">
+        <img class="badge" src="{{ url_for('static', filename='img/pomoce-linki.png') }}" alt="Pomoce / Linki">
+      </span>
+      <span class="label">Pomoce/Linki</span>
+    </a>
+
+    <a href="{{ url_for('przepisy') }}" class="menu-item item-przepisy">
+      <span class="badge-wrap">
+        <img class="badge" src="{{ url_for('static', filename='img/przepisy.png') }}" alt="Przepisy">
+      </span>
+      <span class="label">Przepisy</span>
+    </a>
+
+  </main>
+</div>
+{% endblock %}

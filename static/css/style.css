@@ -1,0 +1,1390 @@
+/* ---------- Reset / podstawy ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "JetBrains Mono", "Courier New", monospace;
+  background: #060d1c;
+  color: #dce8fb;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ---------- Zmienne ---------- */
+:root {
+  --bg-deep: #060d1c;
+  --bg-panel: #0a1730;
+  --text-label: #d9e6fb;
+  --text-dim: #7d92b3;
+  --glow-soft: rgba(255, 255, 255, 0.35);
+  --glow-strong: rgba(255, 255, 255, 0.6);
+
+  --badge-max: 128px;
+  --logo-max: 224px;
+}
+
+/* ---------- Tlo strony (poza "telefonem") ---------- */
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: radial-gradient(circle at 50% 30%, #0d1c3a 0%, #060d1c 65%);
+}
+
+/* ---------- Panel aplikacji (ramka telefonu) ---------- */
+.app-shell {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(120, 160, 220, 0.16) 0%, rgba(6, 13, 28, 0) 45%),
+    var(--bg-deep);
+}
+
+@media (min-width: 560px) {
+  .app-shell {
+    margin: 24px 0;
+    min-height: calc(100vh - 48px);
+    border-radius: 28px;
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.06),
+      0 30px 80px rgba(0, 0, 0, 0.55);
+  }
+}
+
+/* ---------- Pasek statusu (data / godzina / uzytkownik) ---------- */
+.status-bar {
+  position: absolute;
+  top: clamp(16px, 4vw, 28px);
+  left: clamp(16px, 5vw, 28px);
+  margin: 0;
+  font-size: clamp(11px, 2.8vw, 13px);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-label);
+  text-transform: uppercase;
+}
+
+.status-bar p {
+  margin: 0;
+}
+
+.status-bar span {
+  color: var(--text-dim);
+}
+
+/* ---------- Siatka menu (krzyz) ---------- */
+.menu-grid {
+  flex: 1;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  align-items: start;
+  /* kolumny w proporcjach: boczna / srodkowa (szersza) / boczna
+     -- zawsze sumuja sie do 100% szerokosci kontenera, wiec siatka
+     nigdy nie jest szersza niz .app-shell (bez wzgledu na viewport) */
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.7fr) minmax(0, 1fr);
+  grid-template-areas:
+    ".            konto      ."
+    "taryfikator  logo       pomoce"
+    ".            przepisy   .";
+  column-gap: clamp(8px, 3vw, 20px);
+  row-gap: clamp(22px, 6vw, 44px);
+  padding: clamp(76px, 20vw, 120px) clamp(10px, 3vw, 20px) clamp(32px, 6vw, 56px);
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: clamp(8px, 2vw, 14px);
+  cursor: pointer;
+}
+
+.item-konto { grid-area: konto; }
+.item-taryfikator { grid-area: taryfikator; }
+.item-logo { grid-area: logo; }
+.item-pomoce { grid-area: pomoce; }
+.item-przepisy { grid-area: przepisy; }
+
+/* ---------- Etykiety ---------- */
+.label {
+  font-size: clamp(10px, 2.6vw, 14px);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--text-label);
+  max-width: 100%;
+  /* lamanie tylko na naturalnych granicach (spacja, "/"),
+     nigdy w srodku slowa jak wczesniej z "POMOCE/LINK" + "I" */
+  overflow-wrap: normal;
+  word-break: keep-all;
+  hyphens: none;
+}
+
+/* ---------- Odznaki (4 ikony boczne) ---------- */
+.badge-wrap {
+  display: block;
+  width: 100%;
+  max-width: var(--badge-max);
+  aspect-ratio: 1;
+  margin-inline: auto;
+}
+
+.badge {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  filter:
+    drop-shadow(0 0 10px var(--glow-soft))
+    drop-shadow(0 0 26px rgba(255, 255, 255, 0.22));
+  transition: transform 0.18s ease, filter 0.18s ease;
+}
+
+.menu-item:hover .badge,
+.menu-item:focus-visible .badge {
+  transform: scale(1.06);
+  filter:
+    drop-shadow(0 0 14px var(--glow-strong))
+    drop-shadow(0 0 34px rgba(255, 255, 255, 0.32));
+}
+
+.menu-item:active .badge {
+  transform: scale(0.97);
+}
+
+/* ---------- Centralne logo ---------- */
+.logo-circle {
+  width: 100%;
+  max-width: var(--logo-max);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    circle at 50% 45%,
+    #ffffff 0%,
+    #eef4ff 38%,
+    rgba(238, 244, 255, 0.15) 68%,
+    rgba(238, 244, 255, 0) 75%
+  );
+  box-shadow: 0 0 70px 12px rgba(255, 255, 255, 0.3);
+  transition: transform 0.18s ease;
+}
+
+.item-logo:hover .logo-circle {
+  transform: scale(1.03);
+}
+
+.logo-circle img {
+  width: 58%;
+}
+
+/* ---------- Focus / dostepnosc ---------- */
+.menu-item:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.6);
+  outline-offset: 6px;
+  border-radius: 50%;
+}
+
+/* ---------- Bardzo male ekrany ---------- */
+@media (max-width: 340px) {
+  .menu-grid {
+    column-gap: clamp(10px, 4vw, 18px);
+  }
+}
+
+/* =========================================================
+   Zakladka PRZEPISY
+   ========================================================= */
+
+.sub-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: clamp(18px, 5vw, 28px) clamp(16px, 5vw, 24px) 4px;
+}
+
+.back-to-menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-label);
+  font-size: 20px;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.back-to-menu:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateX(-2px);
+}
+
+.sub-title {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+  font-size: clamp(15px, 4vw, 18px);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-label);
+  font-weight: 600;
+}
+
+.sub-header-spacer {
+  width: 34px;
+  flex-shrink: 0;
+}
+
+/* ---------- Pasek wyszukiwania ---------- */
+.przepisy-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px clamp(16px, 5vw, 24px) 4px;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+}
+
+.search-icon {
+  font-size: 16px;
+  opacity: 0.7;
+  flex-shrink: 0;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-label);
+  font-family: inherit;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
+.search-input::placeholder {
+  color: var(--text-dim);
+}
+
+/* ---------- Ekran kafelkow kategorii ---------- */
+.przepisy-main {
+  flex: 1;
+  padding: 8px clamp(16px, 5vw, 24px) 32px;
+  overflow-y: auto;
+}
+
+.kategorie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(10px, 3vw, 16px);
+  margin-top: 12px;
+}
+
+.kategoria-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  padding: 16px 8px;
+  min-height: 132px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 18px;
+  transition: background 0.15s ease, transform 0.15s ease, border-color 0.15s ease;
+}
+
+.kategoria-tile:hover,
+.kategoria-tile:focus-visible {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.18);
+  transform: translateY(-2px);
+}
+
+.kategoria-tile:active {
+  transform: translateY(0);
+}
+
+.kategoria-ikona {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.25));
+}
+
+.kategoria-nazwa {
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  color: var(--text-label);
+}
+
+/* ---------- Widok listy rekordow / wynikow wyszukiwania ---------- */
+.rekordy-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 14px 0 12px;
+  flex-wrap: wrap;
+}
+
+.rekordy-kontekst {
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  color: var(--text-label);
+  text-transform: uppercase;
+}
+
+.wroc-link {
+  font-size: 12px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.wroc-link:hover {
+  color: var(--text-label);
+}
+
+.rekordy-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.rekord-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  padding: 14px 16px;
+}
+
+.rekord-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.rekord-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-label);
+}
+
+.rekord-article {
+  font-size: 11px;
+  color: #f0b429;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.rekord-kategoria-tag {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.rekord-content {
+  margin: 8px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-dim);
+}
+
+.rekord-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.keyword-tag {
+  font-size: 10px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--text-dim);
+  letter-spacing: 0.02em;
+}
+
+.brak-wynikow {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+/* ---------- Przycisk "Otworz PDF" ---------- */
+.pdf-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 4px 0 16px;
+  padding: 14px 18px;
+  background: rgba(240, 180, 41, 0.12);
+  border: 1px solid rgba(240, 180, 41, 0.4);
+  border-radius: 16px;
+  color: #f0b429;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.pdf-button:hover,
+.pdf-button:focus-visible {
+  background: rgba(240, 180, 41, 0.2);
+  transform: translateY(-1px);
+}
+
+.pdf-button:active {
+  transform: translateY(0);
+}
+
+.pdf-icon {
+  font-size: 16px;
+}
+
+/* =========================================================
+   Zakladka TARYFIKATOR
+   ========================================================= */
+
+/* ---------- Przyklejony pasek: wyszukiwarka + filtr ---------- */
+.tar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--bg-deep);
+  padding-bottom: 4px;
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.6);
+}
+
+.tar-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px clamp(16px, 5vw, 24px) 2px;
+}
+
+.tar-filter-toggle {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 12px;
+  color: var(--text-dim);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.tar-filter-toggle.is-active {
+  border-color: rgba(240, 180, 41, 0.45);
+}
+
+.tar-filter-toggle-text {
+  color: var(--text-dim);
+}
+
+.tar-filter-current {
+  flex: 1;
+  text-align: left;
+  color: var(--text-label);
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tar-filter-caret {
+  color: var(--text-dim);
+  font-size: 12px;
+}
+
+.tar-clear-filter {
+  flex-shrink: 0;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 11px;
+  color: #f0b429;
+  background: rgba(240, 180, 41, 0.12);
+  border: 1px solid rgba(240, 180, 41, 0.4);
+  border-radius: 12px;
+}
+
+/* ---------- Pasek filtrow kategorii (chipy) ---------- */
+.tar-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  overflow-y: auto;
+  max-height: 46vh;
+  padding: 6px clamp(16px, 5vw, 24px) 8px;
+  margin-bottom: 2px;
+  scrollbar-width: thin;
+}
+
+.tar-filter-row.is-collapsed {
+  display: none;
+}
+
+/* ---------- Sortowanie ---------- */
+.tar-sort {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--text-dim);
+}
+
+.tar-sort-select {
+  font-family: inherit;
+  font-size: 11px;
+  color: var(--text-label);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 5px 8px;
+}
+
+.tar-sort-select option {
+  color: #0a1730;
+}
+
+.tar-filter-row::-webkit-scrollbar {
+  display: none;
+}
+
+.tar-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  padding: 8px 14px;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  color: var(--text-dim);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.tar-chip:hover {
+  background: rgba(255, 255, 255, 0.09);
+  color: var(--text-label);
+}
+
+.tar-chip.is-active {
+  background: rgba(240, 180, 41, 0.16);
+  border-color: rgba(240, 180, 41, 0.5);
+  color: #f0b429;
+}
+
+.tar-chip-ikona {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* ---------- Pasek narzedziowy (ulubione + licznik) ---------- */
+.tar-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 8px clamp(16px, 5vw, 24px) 4px;
+}
+
+.tar-fav-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.tar-fav-toggle:hover {
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.tar-fav-toggle.is-active {
+  background: rgba(240, 180, 41, 0.16);
+  border-color: rgba(240, 180, 41, 0.5);
+  color: #f0b429;
+}
+
+.tar-fav-toggle-icon {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.tar-liczba {
+  font-size: 11px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+/* ---------- Lista wykroczen ---------- */
+.tar-lista {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tar-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  padding: 14px 16px;
+}
+
+.tar-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tar-card-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-label);
+}
+
+.tar-card-staty {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin-top: 10px;
+}
+
+.tar-staty-mandat,
+.tar-staty-recydywa,
+.tar-staty-punkty {
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.tar-staty-mandat {
+  color: #f0b429;
+  font-weight: 600;
+}
+
+.tar-staty-recydywa {
+  color: #e06868;
+  font-weight: 600;
+}
+
+.tar-staty-punkty {
+  color: var(--text-dim);
+}
+
+.tar-wiecej-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-label);
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.tar-wiecej-btn:hover,
+.tar-wiecej-btn:focus-visible {
+  background: rgba(255, 255, 255, 0.13);
+}
+
+.tar-wiecej-btn:active {
+  transform: translateY(1px);
+}
+
+/* ---------- Przycisk gwiazdki (ulubione) ---------- */
+.tar-star-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.tar-star-btn img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.tar-star-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.tar-star-btn:active {
+  transform: scale(0.9);
+}
+
+.tar-star-btn.is-active img {
+  filter: drop-shadow(0 0 6px rgba(240, 180, 41, 0.6));
+}
+
+/* ---------- Modal "Szczegoly wykroczenia" ---------- */
+.tar-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(3, 7, 16, 0.72);
+  backdrop-filter: blur(2px);
+  padding: 0;
+}
+
+.tar-modal-overlay[hidden] {
+  display: none;
+}
+
+@media (min-width: 560px) {
+  .tar-modal-overlay {
+    align-items: center;
+    padding: 24px;
+  }
+}
+
+.tar-modal {
+  width: 100%;
+  max-width: 480px;
+  max-height: 86vh;
+  overflow-y: auto;
+  background: var(--bg-panel);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px 24px 0 0;
+  padding: clamp(18px, 5vw, 26px);
+  box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 560px) {
+  .tar-modal {
+    border-radius: 22px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.55);
+  }
+}
+
+.tar-modal-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.tar-modal-title {
+  flex: 1;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-label);
+}
+
+.tar-modal-kategoria {
+  margin: 8px 0 0;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #f0b429;
+}
+
+.tar-modal-body {
+  margin-top: 16px;
+}
+
+.tar-modal-opis {
+  margin: 0 0 14px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-label);
+}
+
+.tar-modal-kwalifikacja {
+  margin: 0 0 14px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+
+.tar-modal-kwalifikacja strong {
+  color: var(--text-label);
+}
+
+.tar-modal-zrodla {
+  margin: 14px 0 0;
+  font-size: 10px;
+  line-height: 1.6;
+  color: var(--text-dim);
+  opacity: 0.8;
+}
+
+/* Blok kwot / punktów */
+.tar-modal-kwoty {
+  margin: 0 0 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tar-modal-kwoty-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 9px 12px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.tar-modal-kwoty-row:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.tar-modal-kwoty-label {
+  color: var(--text-dim);
+}
+
+.tar-modal-kwoty-val {
+  color: var(--text-label);
+  font-weight: 600;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Treść przepisów (rozwinięta kwalifikacja) */
+.tar-modal-przepisy-title {
+  margin: 0 0 8px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.tar-modal-przepis {
+  margin: 0 0 10px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border-left: 2px solid rgba(120, 170, 255, 0.5);
+  border-radius: 8px;
+}
+
+.tar-modal-przepis-head {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-label);
+  margin-bottom: 4px;
+}
+
+.tar-modal-przepis-body {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text-label);
+  opacity: 0.92;
+}
+
+.tar-modal-close {
+  display: block;
+  width: 100%;
+  margin-top: 22px;
+  padding: 13px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-label);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 14px;
+  transition: background 0.15s ease;
+}
+
+.tar-modal-close:hover,
+.tar-modal-close:focus-visible {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+/* ============================================================
+   TARYFIKATOR — nowa szata graficzna (wg PSD) 
+   Zakres: .tar-page i elementy .tar-* / .tar-modal-*
+   ============================================================ */
+.tar-page {
+  --t-bg: #0b132b;
+  --t-bg2: #0a1020;
+  --t-panel: #131d38;
+  --t-panel2: #1c2541;
+  --t-gold: #e0b23a;
+  --t-gold-2: #f3ce5c;
+  --t-head: #d9e3f5;
+  --t-text: #c1cfe6;
+  --t-dim: #74849f;
+  --t-line: rgba(140,170,215,0.22);
+  --t-line-2: rgba(150,180,225,0.35);
+  --t-mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  --t-title: "Share Tech Mono", "JetBrains Mono", ui-monospace, monospace;
+
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(120% 60% at 50% -8%, rgba(60,90,150,0.28) 0%, rgba(11,19,43,0) 55%),
+    var(--t-bg);
+  color: var(--t-text);
+  font-family: var(--t-mono);
+  padding: 14px clamp(12px, 4vw, 22px) 40px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 560px) {
+  .tar-page {
+    margin: 24px auto;
+    min-height: calc(100vh - 48px);
+    border-radius: 28px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.06), 0 30px 80px rgba(0,0,0,0.55);
+  }
+}
+
+/* ---------- Nagłówek ---------- */
+.tar-topbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0 6px;
+}
+.tar-back {
+  position: absolute;
+  top: 2px;
+  left: -2px;
+  font-size: 26px;
+  line-height: 1;
+  color: var(--t-dim);
+  text-decoration: none;
+  padding: 4px 8px;
+}
+.tar-back:hover { color: var(--t-text); }
+.tar-logo {
+  width: 78px;
+  height: 78px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-left: 18px;
+}
+.tar-brand { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+@media (max-width: 360px) {
+  .tar-logo { width: 62px; height: 62px; margin-left: 12px; }
+  .tar-topbar { gap: 10px; }
+}
+.tar-title {
+  margin: 0;
+  font-family: var(--t-title);
+  font-size: clamp(22px, 7vw, 34px);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: var(--t-head);
+  line-height: 1.05;
+  padding-bottom: 6px;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(90deg, var(--t-gold) 0%, rgba(224,178,58,0.15) 70%, transparent 100%) 1;
+  width: fit-content;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.tar-subtitle {
+  margin: 2px 0 0;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  color: var(--t-dim);
+  text-transform: uppercase;
+}
+
+.tar-rule {
+  height: 2px;
+  margin: 10px 0 12px;
+  background: linear-gradient(90deg, transparent, var(--t-line-2) 12%, var(--t-line-2) 88%, transparent);
+  border-radius: 2px;
+}
+
+/* ---------- Sticky: pasek wyszukiwania ---------- */
+.tar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--t-bg);
+  padding-bottom: 8px;
+}
+.tar-searchbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  background: linear-gradient(180deg, #1a2647 0%, #131d38 100%);
+  border: 1px solid var(--t-line-2);
+  border-radius: 10px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.05), 0 6px 14px -8px rgba(0,0,0,0.7);
+}
+.tar-ico-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px; height: 30px;
+  flex-shrink: 0;
+  background: transparent;
+  border: none;
+  color: var(--t-gold);
+  cursor: pointer;
+}
+.tar-ico { width: 22px; height: 22px; }
+.tar-ico-btn.is-active { color: var(--t-gold-2); }
+.tar-fav-icon { width: 22px; height: 22px; object-fit: contain; }
+.tar-search-caret {
+  width: 1px; height: 20px;
+  background: var(--t-line-2);
+  flex-shrink: 0;
+  margin: 0 2px;
+}
+.tar-search-input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--t-text);
+  font-family: var(--t-mono);
+  font-size: 13px;
+  letter-spacing: 0.06em;
+}
+.tar-search-input::placeholder { color: #8a99b6; letter-spacing: 0.08em; }
+
+/* ---------- Toolbar: kategoria / sort ---------- */
+.tar-toolbar2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+.tar-cat-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  font-family: var(--t-mono);
+  font-size: 12px;
+  color: var(--t-dim);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--t-line);
+  border-radius: 9px;
+  cursor: pointer;
+}
+.tar-cat-btn.is-active { border-color: rgba(224,178,58,0.5); }
+.tar-cat-label { color: var(--t-dim); }
+.tar-filter-current { flex: 1; text-align: left; color: var(--t-head); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tar-filter-caret { color: var(--t-gold); }
+.tar-clear-filter {
+  flex-shrink: 0;
+  padding: 8px 11px;
+  font-family: var(--t-mono);
+  font-size: 11px;
+  color: var(--t-gold);
+  background: rgba(224,178,58,0.12);
+  border: 1px solid rgba(224,178,58,0.4);
+  border-radius: 9px;
+  cursor: pointer;
+}
+.tar-sort-select {
+  font-family: var(--t-mono);
+  font-size: 11px;
+  color: var(--t-text);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--t-line);
+  border-radius: 9px;
+  padding: 8px 8px;
+  cursor: pointer;
+}
+.tar-sort-select option { color: #0a1730; }
+
+/* ---------- Chipy kategorii (zwijane) ---------- */
+.tar-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  overflow-y: auto;
+  max-height: 44vh;
+  padding: 10px 2px 6px;
+  scrollbar-width: thin;
+}
+.tar-filter-row.is-collapsed { display: none; }
+.tar-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  padding: 8px 13px;
+  font-family: var(--t-mono);
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  color: var(--t-text);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--t-line);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.tar-chip:hover { background: rgba(255,255,255,0.09); }
+.tar-chip.is-active { background: rgba(224,178,58,0.16); border-color: rgba(224,178,58,0.55); color: var(--t-gold-2); }
+.tar-chip-ikona { width: 15px; height: 15px; object-fit: contain; }
+
+/* ---------- Ramka listy z bocznymi szynami ---------- */
+.tar-frame {
+  position: relative;
+  margin-top: 6px;
+  padding: 6px 12px 20px;
+  min-height: 40vh;
+}
+.tar-frame::before, .tar-frame::after {
+  content: "";
+  position: absolute;
+  top: 0; bottom: 8px;
+  width: 3px;
+  border-radius: 3px;
+  background: linear-gradient(180deg, var(--t-line-2) 0%, rgba(140,170,215,0.12) 22%, rgba(140,170,215,0.12) 100%);
+}
+.tar-frame::before { left: -2px; }
+.tar-frame::after { right: -2px; }
+.tar-frame-head { display: flex; justify-content: flex-end; padding: 2px 0 8px; }
+.tar-liczba { font-size: 10px; letter-spacing: 0.1em; color: var(--t-dim); text-transform: uppercase; }
+.tar-brak { text-align: center; color: var(--t-dim); font-size: 12px; padding: 30px 10px; }
+
+.tar-lista { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+
+/* ---------- Karta na liście ---------- */
+.tar-card {
+  position: relative;
+  padding: 13px 14px;
+  background: linear-gradient(180deg, #14203c 0%, #101a30 100%);
+  border: 1px solid var(--t-line);
+  border-left: 3px solid var(--t-gold);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.tar-card-top { display: flex; align-items: flex-start; gap: 10px; }
+.tar-card-title { flex: 1; font-size: 13px; line-height: 1.4; color: var(--t-head); }
+.tar-star-btn { background: transparent; border: none; padding: 2px; cursor: pointer; flex-shrink: 0; }
+.tar-star-btn img { width: 20px; height: 20px; object-fit: contain; display: block; }
+.tar-card-staty { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 10px; font-size: 12px; }
+.tar-staty-mandat { color: var(--t-gold-2); font-weight: 600; }
+.tar-staty-recydywa { color: #d98a3a; }
+.tar-staty-punkty { color: var(--t-text); }
+.tar-wiecej-btn {
+  margin-top: 11px;
+  padding: 7px 16px;
+  font-family: var(--t-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #0b132b;
+  background: linear-gradient(180deg, var(--t-gold-2), var(--t-gold));
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+/* ---------- Modal / karta szczegółów ---------- */
+.tar-modal-overlay {
+  position: fixed; inset: 0;
+  z-index: 60;
+  display: flex; align-items: flex-end; justify-content: center;
+  background: rgba(4,8,18,0.72);
+  backdrop-filter: blur(3px);
+  padding: 0;
+}
+.tar-modal-overlay[hidden] { display: none; }
+@media (min-width: 560px) { .tar-modal-overlay { align-items: center; padding: 20px; } }
+
+.tar-modal {
+  width: 100%;
+  max-width: 560px;
+  max-height: 92vh;
+  overflow-y: auto;
+  background:
+    radial-gradient(120% 40% at 50% 0%, rgba(60,90,150,0.18) 0%, transparent 60%),
+    linear-gradient(180deg, #101b33 0%, #0b1225 100%);
+  border: 1px solid var(--t-line-2);
+  border-radius: 18px 18px 0 0;
+  padding: 20px clamp(16px, 5vw, 26px) 22px;
+  font-family: var(--t-mono);
+  color: var(--t-text);
+}
+@media (min-width: 560px) { .tar-modal { border-radius: 18px; } }
+
+.tar-modal-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.tar-modal-head-txt { text-align: center; flex: 1; }
+.tar-modal-title { margin: 0; font-size: 18px; font-weight: 600; letter-spacing: 0.04em; color: #8fb2ff; }
+.tar-modal-kategoria { margin: 3px 0 0; font-size: 11px; letter-spacing: 0.05em; color: var(--t-dim); }
+.tar-modal-star { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.tar-modal-star img { width: 26px; height: 26px; }
+.tar-modal-star-hint { font-size: 8px; color: var(--t-dim); letter-spacing: 0.03em; }
+
+.tar-modal-nazwa {
+  margin: 16px 0 4px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #7fa8ff;
+  font-weight: 600;
+}
+.tar-modal-artykul {
+  margin: 0 0 16px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--t-dim);
+  letter-spacing: 0.03em;
+}
+
+/* siatka ikon 2x2 */
+.tar-card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 14px;
+  margin: 6px 0 18px;
+}
+.tar-grid-cell { display: flex; align-items: center; gap: 12px; }
+.tar-grid-ico { width: 34px; height: 34px; flex-shrink: 0; color: #cfdaf0; }
+.tar-grid-ico svg { width: 100%; height: 100%; display: block; }
+.tar-grid-val { font-size: 20px; font-weight: 600; color: var(--t-head); letter-spacing: 0.02em; }
+.tar-grid-val.is-gold { color: var(--t-gold-2); }
+.tar-grid-val.is-dim { color: var(--t-dim); font-size: 17px; }
+
+/* kwalifikacja prawna */
+.tar-modal-kwalifikacja { margin: 0 0 12px; font-size: 12px; line-height: 1.6; color: var(--t-dim); }
+.tar-modal-kwalifikacja strong { color: var(--t-text); }
+.tar-modal-przepisy-title {
+  margin: 6px 0 8px;
+  font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--t-dim);
+}
+.tar-modal-przepis {
+  margin: 0 0 9px; padding: 10px 12px;
+  background: rgba(255,255,255,0.035);
+  border-left: 2px solid rgba(224,178,58,0.5);
+  border-radius: 8px;
+}
+.tar-modal-przepis-head { font-size: 12px; font-weight: 600; color: var(--t-head); margin-bottom: 4px; }
+.tar-modal-przepis-body { font-size: 12px; line-height: 1.6; color: var(--t-text); opacity: 0.92; }
+.tar-modal-opis { margin: 0 0 12px; font-size: 12px; line-height: 1.6; color: var(--t-text); }
+.tar-modal-zrodla { margin: 14px 0 0; font-size: 9px; line-height: 1.6; color: var(--t-dim); opacity: 0.8; }
+
+.tar-modal-close {
+  display: block;
+  margin: 20px auto 0;
+  padding: 12px 34px;
+  font-family: var(--t-mono);
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  color: #0b132b;
+  background: linear-gradient(180deg, #cfe0ff, #a9c4ef);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.tar-modal-close:hover { filter: brightness(1.05); }
+
+/* artykuł pod tytułem na karcie listy */
+.tar-card-artykul {
+  margin-top: 4px;
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--t-dim);
+  letter-spacing: 0.02em;
+}
