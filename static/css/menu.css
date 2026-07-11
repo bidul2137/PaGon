@@ -1,0 +1,69 @@
+/* ===================================================================
+   MENU GŁÓWNE — diamond (import z Claude Design: Menu PaGon)
+   =================================================================== */
+.menu-page{
+  --m-gold:#ce9e2f;
+  --m-text:#c4d0de;
+  --m-offset:clamp(96px, 34vw, 156px);
+  --m-icon:clamp(82px, 25vw, 116px);
+  --m-orb:clamp(112px, 34vw, 150px);
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  padding:28px 16px;
+  color:var(--m-text);
+  font-family:"IBM Plex Sans",system-ui,sans-serif;
+  line-height:1.5;
+  background:radial-gradient(120% 90% at 50% -10%,#101a3a 0%,#0b132b 55%,#070d1e 100%);
+}
+
+.menu-page .screen{
+  position:relative;width:100%;max-width:440px;min-height:calc(100vh - 56px);overflow:hidden;
+  background:linear-gradient(180deg,#0d1730 0%,#0a1128 100%);
+  border:1px solid rgba(196,208,222,.22);border-radius:26px;
+  box-shadow:0 30px 80px rgba(0,0,0,.55),inset 0 1px 0 rgba(196,208,222,.08);
+  padding:26px 24px 30px;display:flex;flex-direction:column;
+}
+
+/* ===== nagłówek statusu ===== */
+.menu-page .status{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;letter-spacing:.06em;line-height:1.9;flex:none}
+.menu-page .status p{margin:0}
+.menu-page .status .k{color:var(--m-gold)}
+.menu-page .status .v{color:var(--m-text);text-transform:uppercase}
+
+/* ===== diamond ===== */
+.menu-page .diamond{flex:1;position:relative;min-height:520px}
+
+/* orb PaGon */
+.menu-page .orb-wrap{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center}
+.menu-page .orb-halo{position:absolute;inset:-26px;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle,rgba(200,220,250,.55) 0%,rgba(150,185,235,.18) 45%,transparent 70%)}
+.menu-page .orb{position:relative;width:var(--m-orb);height:var(--m-orb);border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  background:radial-gradient(circle at 50% 40%,#ffffff 0%,#e9f0fb 46%,#b9cdec 100%);
+  box-shadow:0 0 0 1px rgba(255,255,255,.6),0 0 34px 6px rgba(180,205,245,.6),0 0 80px 14px rgba(120,160,220,.4),inset 0 -8px 24px rgba(120,150,200,.35);
+  animation:orbPulse 4.5s ease-in-out infinite}
+.menu-page .orb img{width:64%;height:auto;display:block}
+@keyframes orbPulse{0%,100%{opacity:.9;transform:scale(1)}50%{opacity:1;transform:scale(1.03)}}
+
+/* przyciski-ikony */
+.menu-page .di{position:absolute;display:flex;align-items:center;justify-content:center;
+  background:none;border:0;cursor:pointer;padding:0;transition:transform .18s ease}
+.menu-page .di:hover,.menu-page .di:focus-visible{transform:translate(-50%,-50%) scale(1.06)}
+.menu-page .di-ico{display:block;width:var(--m-icon);height:var(--m-icon);border-radius:50%;overflow:hidden;
+  box-shadow:0 0 0 1px rgba(150,185,235,.25),0 0 26px rgba(120,160,220,.28)}
+.menu-page .di-ico img{width:100%;height:100%;object-fit:cover;display:block}
+.menu-page .di-label{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;
+  font-family:"IBM Plex Mono",monospace;font-size:12.5px;font-weight:700;letter-spacing:.15em;
+  color:var(--m-text);text-transform:uppercase}
+
+.menu-page .di-top{top:calc(50% - var(--m-offset));left:50%;transform:translate(-50%,-50%)}
+.menu-page .di-top .di-label{bottom:calc(100% + 10px)}
+.menu-page .di-left{top:50%;left:calc(50% - var(--m-offset));transform:translate(-50%,-50%)}
+.menu-page .di-left .di-label{top:calc(100% + 10px)}
+.menu-page .di-right{top:50%;left:calc(50% + var(--m-offset));transform:translate(-50%,-50%)}
+.menu-page .di-right .di-label{top:calc(100% + 10px)}
+.menu-page .di-bottom{top:calc(50% + var(--m-offset));left:50%;transform:translate(-50%,-50%)}
+.menu-page .di-bottom .di-label{top:calc(100% + 10px)}

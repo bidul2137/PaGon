@@ -1,0 +1,142 @@
+/* ===================================================================
+   TWOJE KONTO — Profil PaGon (import z Claude Design)
+   =================================================================== */
+.konto-page{
+  --color-bg-dark:#0b132b;
+  --color-bg-panel:#1c2541;
+  --color-text:#c4d0de;
+  --color-accent:#ce9e2f;
+  --accent-dark:#b7891f;
+  --glow:rgba(150,185,235,.9);
+  --danger:#d67b6f;
+  --k-border:1px solid rgba(196,208,222,.15);
+  --k-radius:14px;
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  padding:28px 16px;
+  color:var(--color-text);
+  font-family:"IBM Plex Sans",system-ui,sans-serif;
+  line-height:1.5;
+  background:radial-gradient(120% 90% at 50% -10%,#101a3a 0%,#0b132b 55%,#070d1e 100%);
+}
+.konto-page a{color:var(--color-accent);text-decoration:none}
+.konto-page a:hover{color:var(--accent-dark)}
+.konto-page h1,.konto-page h2,.konto-page h3{margin:0;color:var(--color-text)}
+.konto-page button{font-family:inherit}
+.konto-page :focus-visible{outline:2px solid var(--color-accent);outline-offset:2px}
+
+/* ===== ramka ekranu ===== */
+.konto-page .screen{position:relative;width:100%;max-width:440px;min-height:calc(100vh - 56px);overflow:hidden;
+  background:linear-gradient(180deg,#0d1730 0%,#0a1128 100%);
+  border:1px solid rgba(196,208,222,.22);border-radius:26px;
+  box-shadow:0 30px 80px rgba(0,0,0,.55),inset 0 1px 0 rgba(196,208,222,.08)}
+
+/* ===== HOME ===== */
+.konto-page .home{padding:34px 26px 30px;display:flex;flex-direction:column;align-items:center}
+
+.konto-page .ring-wrap{position:relative;margin-bottom:26px}
+.konto-page .ring-halo{position:absolute;inset:-46px;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle,rgba(150,185,235,.34) 0%,rgba(150,185,235,.12) 42%,transparent 68%)}
+.konto-page .ring{position:relative;width:158px;height:158px;border-radius:50%;overflow:hidden;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+  background:radial-gradient(circle at 50% 42%,#1b2a52 0%,#0b132b 72%);
+  border:2px solid rgba(210,222,238,.9);
+  box-shadow:0 0 0 1px rgba(196,208,222,.18),0 0 26px 3px rgba(150,185,235,.6),0 0 70px 12px rgba(120,160,220,.32),inset 0 0 34px rgba(120,160,220,.28)}
+.konto-page .ring img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.konto-page .ring-ph{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;letter-spacing:.12em;
+  color:rgba(210,222,238,.85);padding:0 14px;text-transform:uppercase}
+.konto-page .ring-initials{font-size:52px;font-weight:600;letter-spacing:.02em;color:#e6edf6}
+.konto-page .ring-overlay{position:absolute;inset:0;border:0;cursor:pointer;color:#e6edf6;
+  background:rgba(7,13,30,.72);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;
+  font-size:12px;font-weight:600;letter-spacing:.04em;opacity:0;transition:opacity .2s}
+.konto-page .ring:hover .ring-overlay,.konto-page .ring-overlay:focus-visible{opacity:1}
+
+.konto-page .id-panel{width:100%;border:var(--k-border);border-radius:var(--k-radius);
+  background:rgba(28,37,65,.4);padding:22px 20px;text-align:center;margin-bottom:26px}
+.konto-page .username{font-size:21px;font-weight:600;letter-spacing:.01em;word-break:break-word}
+.konto-page .acct-row{margin-top:12px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.konto-page .acct-badge{display:inline-flex;align-items:center;gap:7px;font-family:"IBM Plex Mono",monospace;
+  font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:6px 14px;border-radius:999px}
+.konto-page .acct-badge.premium{color:var(--color-accent);background:rgba(206,158,47,.12);border:1px solid rgba(206,158,47,.45);
+  box-shadow:0 0 18px rgba(206,158,47,.22)}
+.konto-page .acct-badge.standard{color:rgba(196,208,222,.8);background:rgba(196,208,222,.07);border:1px solid rgba(196,208,222,.2)}
+.konto-page .upgrade-link{font-size:12.5px;font-weight:600;letter-spacing:.02em;color:var(--color-accent);
+  background:none;border:0;cursor:pointer;padding:2px}
+.konto-page .upgrade-link:hover{color:var(--accent-dark)}
+
+.konto-page .brand{position:relative;display:flex;align-items:center;justify-content:center;gap:9px;width:100%;margin:2px 0 28px;color:#dce6f2}
+.konto-page .brand-img{position:relative;display:block;height:auto;max-width:82%;margin:0 auto}
+
+.konto-page .menu{width:100%;display:flex;flex-direction:column;gap:14px}
+.konto-page .menu-btn{width:100%;border:1px solid rgba(196,208,222,.28);border-radius:12px;
+  background:rgba(196,208,222,.03);color:var(--color-text);
+  padding:17px 18px;font-size:14.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  cursor:pointer;transition:border-color .2s,background .2s,color .2s,box-shadow .2s}
+.konto-page .menu-btn:hover{border-color:var(--color-accent);color:var(--color-accent);
+  background:rgba(206,158,47,.06);box-shadow:0 0 22px rgba(206,158,47,.14)}
+.konto-page .menu-btn.danger:hover{border-color:var(--danger);color:var(--danger);
+  background:rgba(214,123,111,.07);box-shadow:0 0 22px rgba(214,123,111,.14)}
+.konto-page .menu-btn.accent{border-color:rgba(206,158,47,.55);color:var(--color-accent);background:rgba(206,158,47,.07)}
+.konto-page .menu-btn.accent:hover{border-color:var(--color-accent);background:rgba(206,158,47,.14);box-shadow:0 0 22px rgba(206,158,47,.2)}
+
+/* ===== OVERLAY / podstrony ===== */
+.konto-page .overlay{position:absolute;inset:0;background:linear-gradient(180deg,#0d1730 0%,#0a1128 100%);
+  display:flex;flex-direction:column;animation:kontoSlideIn .28s cubic-bezier(.2,.7,.3,1);z-index:5}
+.konto-page .overlay[hidden]{display:none}
+@keyframes kontoSlideIn{from{transform:translateX(100%)}to{transform:translateX(0)}}
+.konto-page .ov-head{display:flex;align-items:center;gap:12px;padding:20px 22px;border-bottom:var(--k-border);flex:none}
+.konto-page .back-btn{width:38px;height:38px;flex:none;display:flex;align-items:center;justify-content:center;
+  border:1px solid rgba(196,208,222,.22);border-radius:10px;background:transparent;color:var(--color-text);
+  cursor:pointer;transition:border-color .2s,color .2s}
+.konto-page .back-btn:hover{border-color:var(--color-accent);color:var(--color-accent)}
+.konto-page .ov-title{font-size:16px;font-weight:600;letter-spacing:.02em}
+.konto-page .ov-body{padding:24px 22px 28px;overflow-y:auto;flex:1}
+
+.konto-page .field{margin-bottom:18px}
+.konto-page .field label{display:block;font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+  color:rgba(196,208,222,.7);margin-bottom:7px}
+.konto-page .input{width:100%;font-family:inherit;font-size:14px;color:var(--color-text);
+  background:var(--color-bg-dark);border:var(--k-border);border-radius:10px;padding:12px 13px;
+  transition:border-color .2s,box-shadow .2s}
+.konto-page .input:hover{border-color:rgba(196,208,222,.3)}
+.konto-page .input:focus{border-color:var(--color-accent);box-shadow:0 0 0 3px rgba(206,158,47,.15);outline:none}
+.konto-page .field-hint{margin:7px 0 0;font-size:12px;color:rgba(196,208,222,.5)}
+.konto-page .field-err{margin:7px 0 0;font-size:12px;color:var(--danger)}
+
+.konto-page .pw-field{position:relative}
+.konto-page .pw-field .input{padding-right:46px}
+.konto-page .pw-toggle{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:34px;height:34px;
+  display:flex;align-items:center;justify-content:center;border:0;background:transparent;
+  color:rgba(196,208,222,.6);cursor:pointer;border-radius:6px;transition:color .2s}
+.konto-page .pw-toggle:hover{color:var(--color-accent)}
+.konto-page .strength{margin:-6px 0 18px}
+.konto-page .strength-track{height:6px;border-radius:999px;background:rgba(196,208,222,.12);overflow:hidden}
+.konto-page .strength-bar{height:100%;border-radius:999px;width:0;transition:width .25s,background .25s}
+.konto-page .strength-meta{display:flex;justify-content:space-between;margin-top:7px;font-size:12px;color:rgba(196,208,222,.6)}
+.konto-page .strength-label{font-weight:600}
+.konto-page .strength-label--strong{color:var(--color-accent)}
+
+.konto-page .btn{width:100%;font-size:14px;font-weight:600;letter-spacing:.03em;border-radius:11px;padding:14px 18px;
+  cursor:pointer;border:1px solid transparent;transition:background .2s,color .2s,border-color .2s,transform .1s}
+.konto-page .btn:active{transform:translateY(1px)}
+.konto-page .btn--primary{background:var(--color-accent);color:var(--color-bg-dark);border-color:var(--color-accent);margin-top:6px}
+.konto-page .btn--primary:hover{background:var(--accent-dark);border-color:var(--accent-dark)}
+.konto-page .btn--danger{background:rgba(214,123,111,.14);color:var(--danger);border-color:rgba(214,123,111,.5)}
+.konto-page .btn--danger:hover{background:var(--danger);color:#160d0c}
+.konto-page .btn--danger:disabled{opacity:.4;cursor:not-allowed;background:rgba(214,123,111,.08);color:rgba(214,123,111,.6)}
+.konto-page .btn--ghost{background:transparent;color:var(--color-text);border-color:rgba(196,208,222,.28);margin-top:12px}
+.konto-page .btn--ghost:hover{border-color:var(--color-accent);color:var(--color-accent)}
+
+.konto-page .toast{margin-top:14px;font-size:13px;font-weight:500;text-align:center;min-height:1em}
+.konto-page .toast--success{color:var(--color-accent)}
+.konto-page .toast--error{color:var(--danger)}
+
+.konto-page .about-logo{display:flex;flex-direction:column;align-items:center;gap:14px;margin:10px 0 22px;text-align:center}
+.konto-page .about-ver{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.08em;color:rgba(196,208,222,.55)}
+
+.konto-page .danger-note{border:1px solid rgba(214,123,111,.4);background:rgba(214,123,111,.08);border-radius:12px;
+  padding:16px;font-size:13.5px;color:#e3b0a8;margin-bottom:20px}
+.konto-page .danger-note strong{color:var(--danger)}

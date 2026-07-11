@@ -1,0 +1,169 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Twoje konto{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/konto.css') }}">
+
+<div class="konto-page">
+  <div class="screen">
+
+    <!-- ================= HOME ================= -->
+    <div class="home" id="konto-home">
+      <div class="ring-wrap">
+        <div class="ring-halo"></div>
+        <div class="ring" id="konto-ring">
+          <img id="konto-avatar-img" alt="Avatar" hidden>
+          <span class="ring-initials" id="konto-initials" hidden></span>
+          <span class="ring-ph" id="konto-placeholder">|Miejsce na avatar|</span>
+          <button type="button" class="ring-overlay" id="konto-avatar-pick" aria-label="Zmień avatar">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <span>Zmień avatar</span>
+          </button>
+        </div>
+      </div>
+      <input type="file" accept="image/*" id="konto-avatar-input" style="display:none">
+
+      <div class="id-panel">
+        <div class="username" id="konto-username">j.kowalski</div>
+        <div class="acct-row" id="konto-badge"></div>
+      </div>
+
+      <div class="brand">
+        <img class="brand-img" src="{{ url_for('static', filename='img/logo-pagon-light.png') }}" alt="PaGon" width="200">
+      </div>
+
+      <nav class="menu">
+        <button type="button" class="menu-btn accent" id="btn-create" data-view="create">Utwórz konto</button>
+        <button type="button" class="menu-btn" data-view="password">Zmień hasło</button>
+        <button type="button" class="menu-btn" data-view="email">Zmień email</button>
+        <button type="button" class="menu-btn" data-view="about">O aplikacji</button>
+        <button type="button" class="menu-btn danger" data-view="delete">Usuń konto</button>
+      </nav>
+    </div>
+
+    <!-- ================= UTWÓRZ KONTO ================= -->
+    <div class="overlay" id="ov-create" hidden>
+      <div class="ov-head">
+        <button type="button" class="back-btn" data-back aria-label="Wróć"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg></button>
+        <h2 class="ov-title">Utwórz konto</h2>
+      </div>
+      <div class="ov-body">
+        <div class="field">
+          <label for="cr-nick">Nazwa użytkownika</label>
+          <input id="cr-nick" class="input" type="text" placeholder="np. j.kowalski">
+        </div>
+        <div class="field">
+          <label for="cr-email">Adres e-mail</label>
+          <input id="cr-email" class="input" type="email" placeholder="imie.nazwisko@policja.gov.pl">
+          <p class="field-err" id="cr-email-err" hidden>Nieprawidłowy format adresu e-mail</p>
+        </div>
+        <div class="field">
+          <label for="cr-pw">Hasło</label>
+          <div class="pw-field">
+            <input id="cr-pw" class="input" type="password" placeholder="Min. 8 znaków">
+            <button type="button" class="pw-toggle" data-pwtoggle="cr-pw" aria-label="Pokaż lub ukryj hasło"></button>
+          </div>
+        </div>
+        <button type="button" class="btn btn--primary" id="btn-do-create">Utwórz konto</button>
+        <p class="toast" id="cr-toast"></p>
+      </div>
+    </div>
+
+    <!-- ================= ZMIEŃ HASŁO ================= -->
+    <div class="overlay" id="ov-password" hidden>
+      <div class="ov-head">
+        <button type="button" class="back-btn" data-back aria-label="Wróć"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg></button>
+        <h2 class="ov-title">Zmień hasło</h2>
+      </div>
+      <div class="ov-body">
+        <div class="field">
+          <label for="pw-cur">Aktualne hasło</label>
+          <div class="pw-field">
+            <input id="pw-cur" class="input" type="password" placeholder="Wpisz aktualne hasło">
+            <button type="button" class="pw-toggle" data-pwtoggle="pw-cur" aria-label="Pokaż lub ukryj hasło"></button>
+          </div>
+        </div>
+        <div class="field" style="margin-bottom:10px">
+          <label for="pw-new">Nowe hasło</label>
+          <div class="pw-field">
+            <input id="pw-new" class="input" type="password" placeholder="Min. 8 znaków">
+            <button type="button" class="pw-toggle" data-pwtoggle="pw-new" aria-label="Pokaż lub ukryj hasło"></button>
+          </div>
+        </div>
+        <div class="strength" id="pw-strength" hidden>
+          <div class="strength-track"><div class="strength-bar" id="pw-strength-bar"></div></div>
+          <div class="strength-meta"><span>Siła hasła</span><span class="strength-label" id="pw-strength-label"></span></div>
+        </div>
+        <div class="field">
+          <label for="pw-rep">Powtórz nowe hasło</label>
+          <div class="pw-field">
+            <input id="pw-rep" class="input" type="password" placeholder="Powtórz nowe hasło">
+            <button type="button" class="pw-toggle" data-pwtoggle="pw-rep" aria-label="Pokaż lub ukryj hasło"></button>
+          </div>
+        </div>
+        <button type="button" class="btn btn--primary" id="btn-do-password">Zmień hasło</button>
+        <p class="toast" id="pw-toast"></p>
+      </div>
+    </div>
+
+    <!-- ================= ZMIEŃ EMAIL ================= -->
+    <div class="overlay" id="ov-email" hidden>
+      <div class="ov-head">
+        <button type="button" class="back-btn" data-back aria-label="Wróć"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg></button>
+        <h2 class="ov-title">Zmień email</h2>
+      </div>
+      <div class="ov-body">
+        <div class="field">
+          <label>Aktualny adres e-mail</label>
+          <input class="input" id="em-current" type="email" readonly style="opacity:.7;cursor:default">
+        </div>
+        <div class="field">
+          <label for="em-new">Nowy adres e-mail</label>
+          <input id="em-new" class="input" type="email" placeholder="imie.nazwisko@policja.gov.pl">
+          <p class="field-err" id="em-err" hidden>Nieprawidłowy format adresu e-mail</p>
+        </div>
+        <button type="button" class="btn btn--primary" id="btn-do-email">Zapisz nowy email</button>
+        <p class="toast" id="em-toast"></p>
+      </div>
+    </div>
+
+    <!-- ================= O APLIKACJI ================= -->
+    <div class="overlay" id="ov-about" hidden>
+      <div class="ov-head">
+        <button type="button" class="back-btn" data-back aria-label="Wróć"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg></button>
+        <h2 class="ov-title">O aplikacji</h2>
+      </div>
+      <div class="ov-body">
+        <div class="about-logo">
+          <div class="brand" style="margin:0">
+            <img class="brand-img" src="{{ url_for('static', filename='img/logo-pagon-light.png') }}" alt="PaGon" width="240">
+          </div>
+          <span class="about-ver">Taryfikator PaGon &middot; Wersja ALPHA 0.1 &middot; 10.07.26</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= USUŃ KONTO ================= -->
+    <div class="overlay" id="ov-delete" hidden>
+      <div class="ov-head">
+        <button type="button" class="back-btn" data-back aria-label="Wróć"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg></button>
+        <h2 class="ov-title">Usuń konto</h2>
+      </div>
+      <div class="ov-body">
+        <div class="danger-note">Ta operacja jest <strong>nieodwracalna</strong>. Wszystkie Twoje dane, wyniki testów i statystyki zostaną trwale usunięte.</div>
+        <div class="field">
+          <label for="del-input">Aby potwierdzić, wpisz <strong style="color:var(--danger)">USUŃ</strong></label>
+          <input id="del-input" class="input" type="text" placeholder="USUŃ">
+        </div>
+        <button type="button" class="btn btn--danger" id="btn-do-delete" disabled>Usuń konto na stałe</button>
+        <button type="button" class="btn btn--ghost" data-back>Anuluj</button>
+        <p class="toast toast--error" id="del-toast"></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/konto.js') }}" defer></script>
+{% endblock %}

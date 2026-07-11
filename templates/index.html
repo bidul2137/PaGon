@@ -2,50 +2,55 @@
 {% block title %}PaGon — Menu{% endblock %}
 
 {% block content %}
-<div class="app-shell">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/menu.css') }}">
 
-  <header class="status-bar">
-    <p>DATA: <span id="live-data">{{ data }}</span></p>
-    <p>GODZINA: <span id="live-godzina">{{ godzina }}</span></p>
-    <p>UŻYTKOWNIK: <span>{{ uzytkownik }}</span></p>
-  </header>
+<div class="menu-page">
+  <div class="screen">
 
-  <main class="menu-grid">
-
-    <a href="#" class="menu-item item-konto">
-      <span class="label">Twoje konto</span>
-      <span class="badge-wrap">
-        <img class="badge" src="{{ url_for('static', filename='img/konto.png') }}" alt="Twoje konto">
-      </span>
-    </a>
-
-    <a href="{{ url_for('taryfikator') }}" class="menu-item item-taryfikator">
-      <span class="badge-wrap">
-        <img class="badge" src="{{ url_for('static', filename='img/taryfikator.png') }}" alt="Taryfikator">
-      </span>
-      <span class="label">Taryfikator</span>
-    </a>
-
-    <div class="menu-item item-logo">
-      <div class="logo-circle">
-        <img src="{{ url_for('static', filename='img/logo.png') }}" alt="PaGon">
-      </div>
+    <!-- ===== nagłówek / status ===== -->
+    <div class="status">
+      <p><span class="k">DATA:</span> <span class="v" id="live-data">{{ data }}</span></p>
+      <p><span class="k">GODZINA:</span> <span class="v" id="live-godzina">{{ godzina }}</span></p>
+      <p><span class="k">UŻYTKOWNIK:</span> <span class="v">{{ uzytkownik }}</span></p>
     </div>
 
-    <a href="#" class="menu-item item-pomoce">
-      <span class="badge-wrap">
-        <img class="badge" src="{{ url_for('static', filename='img/pomoce-linki.png') }}" alt="Pomoce / Linki">
-      </span>
-      <span class="label">Pomoce/Linki</span>
-    </a>
+    <!-- ===== diamond menu ===== -->
+    <div class="diamond">
 
-    <a href="{{ url_for('przepisy') }}" class="menu-item item-przepisy">
-      <span class="badge-wrap">
-        <img class="badge" src="{{ url_for('static', filename='img/przepisy.png') }}" alt="Przepisy">
-      </span>
-      <span class="label">Przepisy</span>
-    </a>
+      <!-- CENTER: orb PaGon -->
+      <div class="orb-wrap">
+        <div class="orb-halo"></div>
+        <div class="orb">
+          <img src="{{ url_for('static', filename='img/logo-pagon-mark.png') }}" alt="PaGon">
+        </div>
+      </div>
 
-  </main>
+      <!-- TOP: Twoje konto -->
+      <a href="{{ url_for('konto') }}" class="di di-top" aria-label="Twoje konto">
+        <span class="di-ico"><img src="{{ url_for('static', filename='img/ic-konto.png') }}" alt="Twoje konto"></span>
+        <span class="di-label">Twoje konto</span>
+      </a>
+
+      <!-- LEFT: Taryfikator -->
+      <a href="{{ url_for('taryfikator') }}" class="di di-left" aria-label="Taryfikator">
+        <span class="di-ico"><img src="{{ url_for('static', filename='img/ic-taryfikator.png') }}" alt="Taryfikator"></span>
+        <span class="di-label">Taryfikator</span>
+      </a>
+
+      <!-- RIGHT: Pomoce / Linki -->
+      <a href="#" class="di di-right" aria-label="Pomoce i linki">
+        <span class="di-ico"><img src="{{ url_for('static', filename='img/ic-pomoce.png') }}" alt="Pomoce i linki"></span>
+        <span class="di-label">Pomoce / Linki</span>
+      </a>
+
+      <!-- BOTTOM: Przepisy -->
+      <a href="{{ url_for('przepisy') }}" class="di di-bottom" aria-label="Przepisy">
+        <span class="di-ico"><img src="{{ url_for('static', filename='img/ic-przepisy.png') }}" alt="Przepisy"></span>
+        <span class="di-label">Przepisy</span>
+      </a>
+
+    </div>
+  </div>
 </div>
 {% endblock %}

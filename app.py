@@ -129,5 +129,15 @@ def api_taryfikator():
     return jsonify(dane)
 
 
+@app.route("/konto")
+def konto():
+    """Zakladka Twoje konto (profil uzytkownika).
+
+    Widok jest w calosci obslugiwany po stronie klienta (static/js/konto.js,
+    stan w localStorage). Bez backendu uwierzytelniania -- akcje demo.
+    """
+    return render_template("konto.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
