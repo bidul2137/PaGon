@@ -4,49 +4,49 @@
   {
    "slug": "prawo-o-ruchu-drogowym",
    "nazwa": "Prawo o ruchu drogowym",
-   "ikona": "prawooruchudrogowymicon.png",
+   "ikona": "PRD",
    "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19970980602/U/D19970602Lj.pdf"
   },
   {
    "slug": "kodeks-wykroczen",
    "nazwa": "Kodeks Wykroczeń",
-   "ikona": "kodekswykroczenicon.png",
+   "ikona": "KW",
    "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19710120114/U/D19710114Lj.pdf"
   },
   {
    "slug": "kontrola-ruchu-drogowego",
    "nazwa": "Rozporządzenie ws. kontroli ruchu drogowego",
-   "ikona": "kat-kontrola-ruchu-drogowego.png",
+   "ikona": "KRD",
    "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20190002141/O/D20192141.pdf"
   },
   {
    "slug": "wykonywanie-uprawnien",
    "nazwa": "Rozporządzenie ws. postępowania przy wykonywaniu niektórych uprawnień policjantów",
-   "ikona": "kat-wykonywanie-uprawnien.png",
+   "ikona": "RWU",
    "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20230002535/O/D20232535.pdf"
   },
   {
    "slug": "zarzadzenie-kgp-30",
    "nazwa": "Zarządzenie nr 30 KGP",
-   "ikona": "zarzadzenienr30kgpicon.png",
+   "ikona": "Z30",
    "pdf": "https://edziennik.policja.gov.pl/eli/DU_KGP/2017/64/ogl/pol/pdf"
   },
   {
    "slug": "ustawa-o-spb",
    "nazwa": "Ustawa o ŚPB",
-   "ikona": "srodkiprzymusubezposredniegoicon.png",
+   "ikona": "ŚPB",
    "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000244/U/D20260244Lj.pdf"
   },
   {
    "slug": "ustawa-o-policji",
    "nazwa": "Ustawa o Policji",
-   "ikona": "ustawaopolicjiicon.png",
+   "ikona": "UoP",
    "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19900300179/U/D19900179Lj.pdf"
   },
   {
    "slug": "kodeks-karny",
    "nazwa": "Kodeks Karny",
-   "ikona": "kodekskarnyicon.png",
+   "ikona": "KK",
    "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19970880553/U/D19970553Lj.pdf"
   }
  ],

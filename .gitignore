@@ -3,3 +3,4 @@ __pycache__/
 .venv/
 venv/
 .pa_token
+static/pdf_cache/

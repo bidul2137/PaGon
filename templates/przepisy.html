@@ -46,7 +46,13 @@
       <div class="prz-tiles">
         {% for kat in kategorie %}
           <a href="{{ url_for('przepisy', kategoria=kat.slug) }}" class="prz-tile">
-            <img class="prz-tile-ico" src="{{ url_for('static', filename='img/przepisy/' + kat.ikona) }}" alt="{{ kat.nazwa }}">
+            <span class="prz-tile-ico prz-badge">
+              <svg class="prz-badge-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3.5" y="3" width="17" height="18" rx="2.5"/>
+                <line x1="7" y1="7" x2="17" y2="7"/>
+                <text x="12" y="15.9" text-anchor="middle" font-weight="700" font-size="7" fill="currentColor" stroke="none" textLength="11.5" lengthAdjust="spacingAndGlyphs">{{ kat.ikona }}</text>
+              </svg>
+            </span>
             <span class="prz-tile-name">{{ kat.nazwa }}</span>
           </a>
         {% endfor %}

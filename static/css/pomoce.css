@@ -1,0 +1,19 @@
+/* ===================================================================
+   POMOCE / LINKI — dopełnienie stylu Przepisów (przepisy.css)
+   Kafelki bez ikon + przycisk otwarcia linku.
+   =================================================================== */
+
+/* kafelek Pomoce/Linki — ikona SVG u góry, nazwa pod spodem */
+.pom-tile{gap:14px;min-height:158px;justify-content:flex-start}
+.pom-tile-ico{display:inline-flex;align-items:center;justify-content:center}
+.pom-tile-svg{width:46px;height:46px;color:var(--t-text);
+  filter:drop-shadow(0 0 8px rgba(150,185,235,.22));transition:color .15s ease}
+.pom-tile:hover .pom-tile-svg{color:var(--t-gold-2)}
+.pom-tile .prz-tile-name{font-size:12.5px;line-height:1.35}
+
+/* przycisk „Otwórz” pod linkiem */
+.pom-link-btn{display:inline-flex;align-items:center;gap:7px;margin-top:11px;
+  padding:8px 14px;font-family:var(--t-mono);font-size:12px;font-weight:600;letter-spacing:.05em;
+  color:#0b132b;background:linear-gradient(180deg,var(--t-gold-2),var(--t-gold));
+  border:none;border-radius:999px;text-decoration:none}
+.pom-link-btn:hover{filter:brightness(1.05)}

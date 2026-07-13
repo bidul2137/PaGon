@@ -1,19 +1,51 @@
 import json
+import ssl
+import urllib.request
 from datetime import datetime
 from pathlib import Path
 
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, Response, redirect, abort
 
 app = Flask(__name__)
 
 BASE_DIR = Path(__file__).resolve().parent
 PRZEPISY_JSON = BASE_DIR / "data" / "przepisy.json"
 TARYFIKATOR_JSON = BASE_DIR / "data" / "taryfikator.json"
+POMOCE_JSON = BASE_DIR / "data" / "pomoce.json"
+
+# Zewnetrzne PDF-y serwowane "inline" (przez wlasny serwer, aby nie wymuszaly pobierania
+# i nie byly blokowane naglowkami X-Frame-Options / CORS zrodla).
+PDF_ZRODLA = {
+    "dowod-osobisty": "https://www.gov.pl/documents/1963407/2777240/weryfikacja_autentycznosci_dowodu_osobistego_25_06_2019.pdf",
+    "paszport": "https://www.gov.pl/attachment/f5d4924e-edbf-4f59-a7dd-d503da10af12",
+}
+
+# Lokalny cache pobranych PDF-ow (po 1. udanym pobraniu dziala offline i zawsze inline).
+PDF_CACHE_DIR = BASE_DIR / "static" / "pdf_cache"
+
+
+def _pobierz_pdf(url):
+    """Pobiera PDF probujac najpierw z weryfikacja SSL, potem bez (typowy problem
+    certyfikatow na Windows). Zwraca bajty albo None przy niepowodzeniu."""
+    for ctx in (ssl.create_default_context(), ssl._create_unverified_context()):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=25, context=ctx) as resp:
+                return resp.read()
+        except Exception:
+            continue
+    return None
 
 
 def load_przepisy():
     """Wczytuje kategorie i rekordy z pliku JSON (bez bazy danych)."""
     with open(PRZEPISY_JSON, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_pomoce():
+    """Wczytuje kategorie i linki 'Pomoce / Linki' z pliku JSON."""
+    with open(POMOCE_JSON, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -107,6 +139,102 @@ def przepisy():
         kategoria=None,
         query="",
         rekordy=[],
+    )
+
+
+@app.route("/pomoce")
+def pomoce():
+    """Zakladka Pomoce / Linki.
+
+    Uklad jak w Przepisach: kafelki kategorii, lista linkow w kategorii,
+    oraz wyszukiwanie po nazwie / opisie / keywords.
+    """
+    dane = load_pomoce()
+    kategorie = dane["kategorie"]
+    linki = dane.get("linki", [])
+
+    kategoria_slug = request.args.get("kategoria", "").strip() or None
+    query = request.args.get("q", "").strip()
+    aktualna_kategoria = find_kategoria(kategorie, kategoria_slug) if kategoria_slug else None
+
+    def szukaj_linkow(items, q, slug=None):
+        ql = q.strip().lower()
+        out = []
+        for r in items:
+            if slug and r.get("category") != slug:
+                continue
+            hay = " ".join(
+                [r.get("title", ""), r.get("description", ""), " ".join(r.get("keywords", []))]
+            ).lower()
+            if ql in hay:
+                out.append(r)
+        return out
+
+    if query:
+        return render_template(
+            "pomoce.html", widok="wyszukiwanie", kategorie=kategorie,
+            kategoria=aktualna_kategoria, query=query,
+            linki=szukaj_linkow(linki, query, kategoria_slug),
+        )
+
+    if kategoria_slug:
+        return render_template(
+            "pomoce.html", widok="linki", kategorie=kategorie,
+            kategoria=aktualna_kategoria, query="",
+            linki=[r for r in linki if r.get("category") == kategoria_slug],
+        )
+
+    return render_template(
+        "pomoce.html", widok="kafelki", kategorie=kategorie,
+        kategoria=None, query="", linki=[],
+    )
+
+
+@app.route("/pomoce/pdf/<klucz>")
+def pomoce_pdf(klucz):
+    """Pobiera zewnetrzny PDF po stronie serwera i podaje go 'inline'.
+
+    Dzieki temu dokument wyswietla sie w przegladarce (a nie pobiera), oraz
+    dziala z tego samego origin (brak blokad X-Frame-Options / CORS zrodla).
+    Kolejnosc: cache lokalny -> pobranie i zapis do cache -> strona z osadzonym PDF.
+    """
+    url = PDF_ZRODLA.get(klucz)
+    if not url:
+        abort(404)
+
+    def inline(dane):
+        return Response(
+            dane,
+            mimetype="application/pdf",
+            headers={"Content-Disposition": f'inline; filename="{klucz}.pdf"'},
+        )
+
+    cache_path = PDF_CACHE_DIR / f"{klucz}.pdf"
+
+    # 1) z lokalnego cache -> dziala offline, zawsze inline
+    if cache_path.exists():
+        return inline(cache_path.read_bytes())
+
+    # 2) pobierz raz, zapisz do cache, podaj inline
+    dane = _pobierz_pdf(url)
+    if dane:
+        try:
+            PDF_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+            cache_path.write_bytes(dane)
+        except Exception:
+            pass
+        return inline(dane)
+
+    # 3) ostatecznosc: osadz PDF w stronie zamiast wymuszac pobieranie
+    return Response(
+        "<!doctype html><meta charset='utf-8'><title>Podgląd PDF</title>"
+        "<style>html,body{margin:0;height:100%;background:#0b132b}</style>"
+        f"<object data='{url}' type='application/pdf' width='100%' height='100%'>"
+        "<p style='color:#c1cfe6;font-family:sans-serif;padding:20px'>"
+        "Nie udało się wyświetlić dokumentu w podglądzie. "
+        f"<a style='color:#e0b23a' href='{url}' target='_blank' rel='noopener'>"
+        "Otwórz w nowej karcie</a></p></object>",
+        mimetype="text/html",
     )
 
 

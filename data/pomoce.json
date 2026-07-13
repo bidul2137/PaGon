@@ -1,0 +1,33 @@
+{
+ "_uwaga": "Pomoce / Linki. Kategoria: {slug, nazwa, ikona (klucz SVG z szablonu), url}. url ustawiony -> kafelek otwiera link w nowej karcie; url=null -> kafelek prowadzi do podstrony kategorii z listą 'linki'. PDF-y podawane są przez route /pomoce/pdf/<klucz> (wyświetlanie inline).",
+ "kategorie": [
+  { "slug": "sprawdzenie-uprawnien", "nazwa": "Link do sprawdzenia uprawnień", "ikona": "sprawdzenie-uprawnien", "url": "https://moj.gov.pl/uslugi/engine/ng/index?xFormsAppName=UprawnieniaKierowcow&xFormsOrigin=EXTERNAL" },
+  { "slug": "sprawdzenie-oc-ufg", "nazwa": "Link do sprawdzenia OC w UFG", "ikona": "sprawdzenie-oc-ufg", "url": "https://www.ufg.pl/infoportal/faces/oracle/webcenter/portalapp/pagehierarchy/Page190.jspx?_afrLoop=18243572069179245&_afrWindowMode=0&_adf.ctrl-state=c1mfmhk74_21" },
+  { "slug": "historia-pojazdu", "nazwa": "Link do sprawdzenia historii pojazdu", "ikona": "historia-pojazdu", "url": "https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search" },
+  { "slug": "ograniczenia-12t", "nazwa": "Link do ograniczeń ruchu pow. 12t", "ikona": "ograniczenia-12t", "url": "https://www.gov.pl/web/infrastruktura/ograniczenia-w-ruchu" },
+  { "slug": "mapa-gddkia", "nazwa": "Mapa GDDKIA", "ikona": "mapa-gddkia", "url": "https://drogi.gddkia.gov.pl/mapy/mapa-informacji-drogowej" },
+  { "slug": "prado", "nazwa": "PRADO (autentyczność dokumentów)", "ikona": "prado", "url": "https://www.consilium.europa.eu/prado/pl/search-by-document-country.html" },
+  { "slug": "weryfikacja-dowodu", "nazwa": "Weryfikacja dowodu osobistego", "ikona": "weryfikacja-dowodu", "url": null },
+  { "slug": "weryfikacja-prawa-jazdy-ue", "nazwa": "Weryfikacja praw jazdy na terenie UE", "ikona": "weryfikacja-prawa-jazdy-ue", "url": "https://op.europa.eu/pl/publication-detail/-/publication/ae58b7c9-4716-46e2-8868-2920735bc95d/language-pl" },
+  { "slug": "weryfikacja-paszportu", "nazwa": "Weryfikacja paszportu", "ikona": "weryfikacja-paszportu", "url": "/pomoce/pdf/paszport" },
+  { "slug": "honorowane-zagraniczne-pj", "nazwa": "Honorowane zagraniczne PJ", "ikona": "honorowane-zagraniczne-pj", "url": null },
+  { "slug": "zatrzymanie-prawa-jazdy", "nazwa": "Zatrzymywanie prawa jazdy", "ikona": "zatrzymanie-prawa-jazdy", "url": null },
+  { "slug": "zatrzymanie-prawa-jazdy-zagr", "nazwa": "Zatrzymywanie prawa jazdy zagranicznego", "ikona": "zatrzymanie-prawa-jazdy-zagr", "url": null }
+ ],
+ "linki": [
+  {
+   "category": "weryfikacja-dowodu",
+   "title": "Weryfikacja autentyczności dowodu osobistego (PDF)",
+   "url": "/pomoce/pdf/dowod-osobisty",
+   "description": "Materiał gov.pl — cechy i zabezpieczenia dowodu osobistego (wyświetla się w przeglądarce).",
+   "keywords": ["dowód osobisty", "zabezpieczenia", "gov.pl"]
+  },
+  {
+   "category": "weryfikacja-dowodu",
+   "title": "Sprawdź autentyczność mObywatel (mWeryfikator)",
+   "url": "https://weryfikator.mobywatel.gov.pl/",
+   "description": "Webowy weryfikator mDowodu — sprawdzenie autentyczności dokumentu okazanego w aplikacji mObywatel (kod QR).",
+   "keywords": ["mObywatel", "aplikacja"]
+  }
+ ]
+}

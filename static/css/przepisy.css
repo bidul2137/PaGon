@@ -26,6 +26,13 @@
 }
 .prz-tile:hover{border-color:rgba(224,178,58,.5);box-shadow:0 0 22px rgba(224,178,58,.12);transform:translateY(-2px)}
 .prz-tile-ico{width:64px;height:64px;object-fit:contain;filter:drop-shadow(0 0 8px rgba(150,185,235,.25))}
+
+/* ikona-dokument z napisem (KK, KW, UoP…) — styl konturowy jak w Pomoce/Linki */
+.prz-badge{display:inline-flex;align-items:center;justify-content:center;filter:none}
+.prz-badge-svg{width:58px;height:58px;color:var(--t-text);
+  filter:drop-shadow(0 0 8px rgba(150,185,235,.22));transition:color .15s ease}
+.prz-badge-svg text{font-family:var(--t-mono);letter-spacing:.02em}
+.prz-tile:hover .prz-badge-svg{color:var(--t-gold-2)}
 .prz-tile-name{font-size:12px;line-height:1.35;font-weight:600;letter-spacing:.02em;color:var(--t-head)}
 
 /* ===== nagłówek listy rekordów ===== */
