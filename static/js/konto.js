@@ -71,7 +71,9 @@
       }
     }
 
-    // "Utwórz konto" tylko gdy konto nieutworzone
+    // "Zaloguj" / "Utwórz konto" tylko gdy konto nieutworzone
+    var loginBtn = $("btn-login");
+    if (loginBtn) loginBtn.style.display = state.accountCreated ? "none" : "";
     $("btn-create").style.display = state.accountCreated ? "none" : "";
 
     // "Wyloguj" tylko gdy zalogowany
@@ -86,10 +88,11 @@
   }
 
   // ---------- Widoki ----------
-  var overlays = ["ov-create", "ov-password", "ov-email", "ov-about", "ov-delete"];
+  var overlays = ["ov-login", "ov-create", "ov-password", "ov-email", "ov-about", "ov-delete"];
   function hideAll() { overlays.forEach(function (id) { $(id).hidden = true; }); }
   function showView(view) {
     hideAll();
+    if (view === "login") { $("lg-nick").value = ""; $("lg-pw").value = ""; toastEl("lg-toast", null); }
     if (view === "create") { $("cr-nick").value = ""; $("cr-email").value = ""; $("cr-pw").value = ""; $("cr-email-err").hidden = true; toastEl("cr-toast", null); }
     if (view === "password") { $("pw-cur").value = ""; $("pw-new").value = ""; $("pw-rep").value = ""; $("pw-strength").hidden = true; toastEl("pw-toast", null); }
     if (view === "email") { $("em-current").value = state.email; $("em-new").value = ""; $("em-err").hidden = true; toastEl("em-toast", null); }
@@ -183,6 +186,23 @@
     toastEl("cr-toast", toast);
   }
 
+  function doLogin() {
+    var nick = $("lg-nick").value.trim(), pw = $("lg-pw").value;
+    var toast;
+    if (!nick) toast = { type: "error", msg: "Podaj nazwę użytkownika lub e-mail" };
+    else if (!pw) toast = { type: "error", msg: "Podaj hasło" };
+    else toast = { type: "success", msg: "Zalogowano" };
+    if (toast.type === "success") {
+      state.accountCreated = true;
+      state.nickname = EMAIL_RE.test(nick) ? nick.split("@")[0] : nick;
+      if (EMAIL_RE.test(nick)) state.email = nick;
+      save();
+      renderHome();
+      setTimeout(function () { hideAll(); }, 900);
+    }
+    toastEl("lg-toast", toast);
+  }
+
   function doLogout() {
     state = Object.assign({}, DEFAULTS);
     save();
@@ -241,6 +261,7 @@
       $("btn-do-delete").disabled = $("del-input").value.trim().toUpperCase() !== "USUŃ";
     });
     // akcje
+    $("btn-do-login").addEventListener("click", doLogin);
     $("btn-do-create").addEventListener("click", doCreateAccount);
     $("btn-do-password").addEventListener("click", doChangePassword);
     $("btn-do-email").addEventListener("click", doSaveEmail);

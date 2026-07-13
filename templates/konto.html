@@ -35,7 +35,8 @@
       </div>
 
       <nav class="menu">
-        <button type="button" class="menu-btn accent" id="btn-create" data-view="create">Utwórz konto</button>
+        <button type="button" class="menu-btn accent" id="btn-login" data-view="login">Zaloguj</button>
+        <button type="button" class="menu-btn" id="btn-create" data-view="create">Utwórz konto</button>
         <button type="button" class="menu-btn" data-view="password">Zmień hasło</button>
         <button type="button" class="menu-btn" data-view="email">Zmień email</button>
         <button type="button" class="menu-btn" data-view="about">O aplikacji</button>
@@ -69,6 +70,29 @@
         </div>
         <button type="button" class="btn btn--primary" id="btn-do-create">Utwórz konto</button>
         <p class="toast" id="cr-toast"></p>
+      </div>
+    </div>
+
+    <!-- ================= ZALOGUJ ================= -->
+    <div class="overlay" id="ov-login" hidden>
+      <div class="ov-head">
+        <button type="button" class="back-btn" data-back aria-label="Wróć"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg></button>
+        <h2 class="ov-title">Zaloguj</h2>
+      </div>
+      <div class="ov-body">
+        <div class="field">
+          <label for="lg-nick">Nazwa użytkownika lub e-mail</label>
+          <input id="lg-nick" class="input" type="text" placeholder="np. j.kowalski">
+        </div>
+        <div class="field">
+          <label for="lg-pw">Hasło</label>
+          <div class="pw-field">
+            <input id="lg-pw" class="input" type="password" placeholder="Wpisz hasło">
+            <button type="button" class="pw-toggle" data-pwtoggle="lg-pw" aria-label="Pokaż lub ukryj hasło"></button>
+          </div>
+        </div>
+        <button type="button" class="btn btn--primary" id="btn-do-login">Zaloguj</button>
+        <p class="toast" id="lg-toast"></p>
       </div>
     </div>
 
