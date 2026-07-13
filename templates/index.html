@@ -12,7 +12,7 @@
     <div class="status">
       <p><span class="k">DATA:</span> <span class="v" id="live-data">{{ data }}</span></p>
       <p><span class="k">GODZINA:</span> <span class="v" id="live-godzina">{{ godzina }}</span></p>
-      <p><span class="k">UŻYTKOWNIK:</span> <span class="v">{{ uzytkownik }}</span></p>
+      <p><span class="k">UŻYTKOWNIK:</span> <span class="v" id="live-uzytkownik">{{ uzytkownik }}</span></p>
     </div>
 
     <!-- ===== diamond menu ===== -->
@@ -53,4 +53,16 @@
     </div>
   </div>
 </div>
+
+<script>
+  (function () {
+    try {
+      var raw = localStorage.getItem("pagon_konto");
+      var el = document.getElementById("live-uzytkownik");
+      if (!el) return;
+      var s = raw ? JSON.parse(raw) : null;
+      el.textContent = (s && s.accountCreated && s.nickname) ? s.nickname : "Gość";
+    } catch (e) {}
+  })();
+</script>
 {% endblock %}

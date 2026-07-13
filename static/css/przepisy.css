@@ -1,0 +1,59 @@
+/* ===================================================================
+   PRZEPISY — styl spójny z Taryfikatorem (wg PSD)
+   Wykorzystuje chrome .tar-page/.tar-topbar/.tar-searchbar/.tar-frame
+   ze style.css; poniżej tylko elementy specyficzne dla Przepisów.
+   =================================================================== */
+
+/* pasek wyszukiwania (formularz GET) */
+.tar-page .prz-searchbar{margin-bottom:0}
+.tar-page .prz-search-icon{display:inline-flex;align-items:center;justify-content:center;
+  width:26px;height:26px;flex-shrink:0;color:var(--t-gold);font-size:16px}
+
+/* ===== kafelki kategorii ===== */
+.prz-tiles{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+  padding:6px 0 4px;
+}
+.prz-tile{
+  display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:12px;
+  text-align:center;padding:18px 12px 16px;min-height:150px;
+  background:linear-gradient(180deg,#14203c 0%,#101a30 100%);
+  border:1px solid var(--t-line);border-radius:12px;
+  color:var(--t-text);text-decoration:none;
+  transition:border-color .15s ease,box-shadow .15s ease,transform .12s ease;
+}
+.prz-tile:hover{border-color:rgba(224,178,58,.5);box-shadow:0 0 22px rgba(224,178,58,.12);transform:translateY(-2px)}
+.prz-tile-ico{width:64px;height:64px;object-fit:contain;filter:drop-shadow(0 0 8px rgba(150,185,235,.25))}
+.prz-tile-name{font-size:12px;line-height:1.35;font-weight:600;letter-spacing:.02em;color:var(--t-head)}
+
+/* ===== nagłówek listy rekordów ===== */
+.prz-rekordy-head{display:flex;flex-direction:column;gap:8px;padding:4px 0 12px}
+.prz-kontekst{margin:0;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--t-gold)}
+.prz-wroc{display:inline-flex;align-items:center;gap:6px;align-self:flex-start;
+  font-size:12px;color:var(--t-dim);text-decoration:none}
+.prz-wroc:hover{color:var(--t-text)}
+
+.prz-pdf-btn{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;margin:0 0 14px;
+  padding:9px 16px;font-family:var(--t-mono);font-size:12px;font-weight:600;letter-spacing:.05em;
+  color:#0b132b;background:linear-gradient(180deg,var(--t-gold-2),var(--t-gold));
+  border:none;border-radius:999px;text-decoration:none}
+.prz-pdf-btn:hover{filter:brightness(1.05)}
+
+/* ===== karty rekordów ===== */
+.prz-lista{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.prz-rekord{padding:13px 14px;background:linear-gradient(180deg,#14203c 0%,#101a30 100%);
+  border:1px solid var(--t-line);border-left:3px solid var(--t-gold);border-radius:10px}
+.prz-rekord-top{display:flex;flex-direction:column;gap:3px}
+.prz-rekord-title{font-size:13px;line-height:1.4;color:var(--t-head);font-weight:600}
+.prz-rekord-article{font-size:11px;color:var(--t-dim);letter-spacing:.02em}
+.prz-rekord-tag{display:inline-block;margin-top:6px;font-size:10px;letter-spacing:.05em;
+  color:var(--t-gold-2);background:rgba(224,178,58,.12);border:1px solid rgba(224,178,58,.35);
+  border-radius:999px;padding:2px 9px}
+.prz-rekord-content{margin:9px 0 0;font-size:12px;line-height:1.6;color:var(--t-text)}
+.prz-keywords{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.prz-kw-tag{font-size:10px;color:var(--t-dim);background:rgba(255,255,255,.05);
+  border:1px solid var(--t-line);border-radius:999px;padding:2px 9px}
+
+.prz-brak{text-align:center;color:var(--t-dim);font-size:12px;padding:30px 10px}

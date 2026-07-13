@@ -41,7 +41,10 @@
 
   // ---------- Render HOME ----------
   function renderHome() {
-    $("konto-username").textContent = state.nickname || "";
+    var guest = !state.accountCreated;
+
+    // nazwa: "Gość" do czasu założenia konta
+    $("konto-username").textContent = guest ? "Gość" : (state.nickname || "Gość");
 
     // plakietka konta
     var badge = $("konto-badge");
@@ -52,14 +55,20 @@
       badge.innerHTML = '<span class="acct-badge standard">Konto Standardowe</span>';
     }
 
-    // avatar
-    var img = $("konto-avatar-img"), ini = $("konto-initials"), ph = $("konto-placeholder");
-    if (state.avatarUrl) {
-      img.src = state.avatarUrl; img.hidden = false; ini.hidden = true; ph.hidden = true;
-    } else if (state.nickname) {
-      ini.textContent = initials(state.nickname); ini.hidden = false; img.hidden = true; ph.hidden = true;
+    // avatar / ring
+    var img = $("konto-avatar-img"), ini = $("konto-initials"), msg = $("konto-placeholder"), pick = $("konto-avatar-pick");
+    if (guest) {
+      // przed założeniem konta: komunikat zamiast inicjałów, brak zmiany avatara
+      msg.textContent = "Załóż konto aby ustawić swoje zdjęcie profilowe";
+      msg.hidden = false; img.hidden = true; ini.hidden = true;
+      if (pick) pick.style.display = "none";
     } else {
-      ph.hidden = false; img.hidden = true; ini.hidden = true;
+      if (pick) pick.style.display = "";
+      if (state.avatarUrl) {
+        img.src = state.avatarUrl; img.hidden = false; ini.hidden = true; msg.hidden = true;
+      } else {
+        ini.textContent = initials(state.nickname); ini.hidden = false; img.hidden = true; msg.hidden = true;
+      }
     }
 
     // "Utwórz konto" tylko gdy konto nieutworzone
