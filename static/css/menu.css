@@ -4,9 +4,9 @@
 .menu-page{
   --m-gold:#ce9e2f;
   --m-text:#c4d0de;
-  --m-offset:clamp(96px, 34vw, 156px);
-  --m-icon:clamp(82px, 25vw, 116px);
-  --m-orb:clamp(112px, 34vw, 150px);
+  --m-offset:clamp(72px, 30vw, 128px);
+  --m-icon:clamp(76px, 24vw, 108px);
+  --m-orb:clamp(104px, 32vw, 142px);
   width:100%;
   min-height:100vh;
   display:flex;
@@ -56,8 +56,12 @@
   box-shadow:0 0 0 1px rgba(150,185,235,.25),0 0 26px rgba(120,160,220,.28)}
 .menu-page .di-ico img{width:100%;height:100%;object-fit:cover;display:block}
 .menu-page .di-label{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;
-  font-family:"IBM Plex Mono",monospace;font-size:12.5px;font-weight:700;letter-spacing:.15em;
-  color:var(--m-text);text-transform:uppercase}
+  font-family:"IBM Plex Mono",monospace;font-size:clamp(10px,3vw,12.5px);font-weight:700;
+  letter-spacing:.1em;color:var(--m-text);text-transform:uppercase}
+/* boczne etykiety mogą się zawinąć, żeby nie wychodziły poza krawędź ekranu */
+.menu-page .di-left .di-label,
+.menu-page .di-right .di-label{white-space:normal;text-align:center;width:max-content;
+  max-width:clamp(92px,32vw,160px);line-height:1.25}
 
 .menu-page .di-top{top:calc(50% - var(--m-offset));left:50%;transform:translate(-50%,-50%)}
 .menu-page .di-top .di-label{bottom:calc(100% + 10px)}

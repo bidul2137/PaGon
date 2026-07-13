@@ -18,6 +18,7 @@ POMOCE_JSON = BASE_DIR / "data" / "pomoce.json"
 PDF_ZRODLA = {
     "dowod-osobisty": "https://www.gov.pl/documents/1963407/2777240/weryfikacja_autentycznosci_dowodu_osobistego_25_06_2019.pdf",
     "paszport": "https://www.gov.pl/attachment/f5d4924e-edbf-4f59-a7dd-d503da10af12",
+    "prawa-jazdy-ue": "https://op.europa.eu/o/opportal-service/download-handler?identifier=ae58b7c9-4716-46e2-8868-2920735bc95d&format=pdf&language=pl&productionSystem=cellar&part=",
 }
 
 # Lokalny cache pobranych PDF-ow (po 1. udanym pobraniu dziala offline i zawsze inline).
@@ -30,7 +31,7 @@ def _pobierz_pdf(url):
     for ctx in (ssl.create_default_context(), ssl._create_unverified_context()):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=25, context=ctx) as resp:
+            with urllib.request.urlopen(req, timeout=60, context=ctx) as resp:
                 return resp.read()
         except Exception:
             continue

@@ -8,7 +8,7 @@
   { "slug": "mapa-gddkia", "nazwa": "Mapa GDDKIA", "ikona": "mapa-gddkia", "url": "https://drogi.gddkia.gov.pl/mapy/mapa-informacji-drogowej" },
   { "slug": "prado", "nazwa": "PRADO (autentyczność dokumentów)", "ikona": "prado", "url": "https://www.consilium.europa.eu/prado/pl/search-by-document-country.html" },
   { "slug": "weryfikacja-dowodu", "nazwa": "Weryfikacja dowodu osobistego", "ikona": "weryfikacja-dowodu", "url": null },
-  { "slug": "weryfikacja-prawa-jazdy-ue", "nazwa": "Weryfikacja praw jazdy na terenie UE", "ikona": "weryfikacja-prawa-jazdy-ue", "url": "https://op.europa.eu/pl/publication-detail/-/publication/ae58b7c9-4716-46e2-8868-2920735bc95d/language-pl" },
+  { "slug": "weryfikacja-prawa-jazdy-ue", "nazwa": "Weryfikacja praw jazdy na terenie UE", "ikona": "weryfikacja-prawa-jazdy-ue", "url": "/pomoce/pdf/prawa-jazdy-ue" },
   { "slug": "weryfikacja-paszportu", "nazwa": "Weryfikacja paszportu", "ikona": "weryfikacja-paszportu", "url": "/pomoce/pdf/paszport" },
   { "slug": "honorowane-zagraniczne-pj", "nazwa": "Honorowane zagraniczne PJ", "ikona": "honorowane-zagraniczne-pj", "url": null },
   { "slug": "zatrzymanie-prawa-jazdy", "nazwa": "Zatrzymywanie prawa jazdy", "ikona": "zatrzymanie-prawa-jazdy", "url": null },
