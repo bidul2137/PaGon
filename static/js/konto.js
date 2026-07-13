@@ -73,6 +73,16 @@
 
     // "Utwórz konto" tylko gdy konto nieutworzone
     $("btn-create").style.display = state.accountCreated ? "none" : "";
+
+    // "Wyloguj" tylko gdy zalogowany
+    var logout = $("btn-logout");
+    if (logout) logout.style.display = state.accountCreated ? "" : "none";
+
+    // przyciski dostępne dopiero po założeniu konta
+    ["password", "email", "delete"].forEach(function (v) {
+      var b = document.querySelector('.menu-btn[data-view="' + v + '"]');
+      if (b) b.style.display = state.accountCreated ? "" : "none";
+    });
   }
 
   // ---------- Widoki ----------
@@ -173,6 +183,13 @@
     toastEl("cr-toast", toast);
   }
 
+  function doLogout() {
+    state = Object.assign({}, DEFAULTS);
+    save();
+    hideAll();
+    renderHome();
+  }
+
   function doDelete() {
     toastEl("del-toast", { type: "error", msg: "Konto zostało zgłoszone do usunięcia (demo)." });
     $("del-input").value = ""; $("btn-do-delete").disabled = true;
@@ -228,6 +245,8 @@
     $("btn-do-password").addEventListener("click", doChangePassword);
     $("btn-do-email").addEventListener("click", doSaveEmail);
     $("btn-do-delete").addEventListener("click", doDelete);
+    var logoutBtn = $("btn-logout");
+    if (logoutBtn) logoutBtn.addEventListener("click", doLogout);
   }
 
   renderHome();
