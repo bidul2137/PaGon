@@ -15,6 +15,13 @@
       <h1 class="tar-title">PRZEPISY</h1>
       <p class="tar-subtitle">USTAWY&nbsp;&nbsp;KODEKSY&nbsp;&nbsp;ZARZĄDZENIA&nbsp;&nbsp;ROZPORZĄDZENIA</p>
     </div>
+    <button type="button" class="prz-pdf-toggle" id="prz-pdf-toggle" aria-label="Dokumenty offline (PDF)" aria-haspopup="dialog">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+        <path d="M14 2v6h6"></path>
+      </svg>
+      <span class="prz-pdf-badge">PDF</span>
+    </button>
   </header>
 
   <div class="tar-rule"></div>
@@ -43,9 +50,17 @@
   <main class="tar-frame">
 
     {% if widok == "kafelki" %}
-      <div class="prz-tiles">
+      <div class="prz-tiles" id="prz-tiles">
         {% for kat in kategorie %}
-          <a href="{{ url_for('przepisy', kategoria=kat.slug) }}" class="prz-tile">
+          <a href="{{ url_for('przepisy', kategoria=kat.slug) }}" class="prz-tile"
+             data-slug="{{ kat.slug }}" data-title="{{ kat.nazwa }}" data-abbr="{{ kat.ikona }}"
+             data-pakiet="{{ kat.pakiet }}"{% if kat.pakiet == 'dodatkowa' %} hidden{% endif %}>
+            <button type="button" class="prz-star" data-slug="{{ kat.slug }}"
+                    aria-label="Dodaj {{ kat.nazwa }} do ulubionych" aria-pressed="false">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                <path class="prz-star-path" d="M12 17.3l-5.4 3.1 1.4-6.1-4.6-4.1 6.2-.6L12 3.9l2.4 5.7 6.2.6-4.6 4.1 1.4 6.1z"/>
+              </svg>
+            </button>
             <span class="prz-tile-ico prz-badge">
               <svg class="prz-badge-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
                 <rect x="3.5" y="3" width="17" height="18" rx="2.5"/>
@@ -104,5 +119,47 @@
     {% endif %}
 
   </main>
+
+  <!-- ====== Dokumenty offline (modal) ====== -->
+  <div class="prz-docs" id="prz-docs-modal" hidden>
+    <div class="prz-docs-backdrop" data-close></div>
+    <div class="prz-docs-panel" role="dialog" aria-modal="true" aria-label="Dokumenty offline">
+      <div class="prz-docs-head">
+        <h2 class="prz-docs-title">Dokumenty offline</h2>
+        <button type="button" class="prz-docs-close" data-close aria-label="Zamknij">&times;</button>
+      </div>
+      <p class="prz-docs-hint">Zaznacz dokumenty, które mają być dostępne offline. Tylko zaznaczone pojawią się jako kafelki na liście przepisów.</p>
+      <div class="prz-docs-search">
+        <span class="prz-docs-search-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3"></path></svg>
+        </span>
+        <input type="text" id="prz-docs-search" class="prz-docs-search-input"
+               placeholder="Szukaj dokumentu…" autocomplete="off" aria-label="Szukaj dokumentu">
+      </div>
+      <ul class="prz-docs-list">
+        {% for kat in kategorie %}
+          <li class="prz-doc" data-slug="{{ kat.slug }}" data-pakiet="{{ kat.pakiet }}">
+            <span class="prz-doc-badge">{{ kat.ikona }}</span>
+            <div class="prz-doc-info">
+              <span class="prz-doc-title">{{ kat.nazwa }}</span>
+              <span class="prz-doc-meta">
+                <span class="prz-doc-status">—</span>
+                {% if kat.rozmiar %}<span class="prz-doc-size">· {{ kat.rozmiar }}</span>{% endif %}
+              </span>
+            </div>
+            <label class="prz-doc-switch">
+              <input type="checkbox" class="prz-doc-check" data-slug="{{ kat.slug }}"
+                     aria-label="Pobierz „{{ kat.nazwa }}” do trybu offline">
+              <span class="prz-doc-slider" aria-hidden="true"></span>
+            </label>
+          </li>
+        {% endfor %}
+      </ul>
+      <p class="prz-docs-empty" hidden>Brak dokumentów pasujących do wyszukiwania.</p>
+    </div>
+  </div>
+
 </div>
+
+<script src="{{ url_for('static', filename='js/przepisy.js') }}" defer></script>
 {% endblock %}

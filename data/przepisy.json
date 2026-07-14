@@ -5,49 +5,280 @@
    "slug": "prawo-o-ruchu-drogowym",
    "nazwa": "Prawo o ruchu drogowym",
    "ikona": "PRD",
-   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19970980602/U/D19970602Lj.pdf"
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19970980602/U/D19970602Lj.pdf",
+   "pakiet": "glowna"
   },
   {
    "slug": "kodeks-wykroczen",
    "nazwa": "Kodeks Wykroczeń",
    "ikona": "KW",
-   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19710120114/U/D19710114Lj.pdf"
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19710120114/U/D19710114Lj.pdf",
+   "pakiet": "glowna"
   },
   {
    "slug": "kontrola-ruchu-drogowego",
    "nazwa": "Rozporządzenie ws. kontroli ruchu drogowego",
    "ikona": "KRD",
-   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20190002141/O/D20192141.pdf"
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20190002141/O/D20192141.pdf",
+   "pakiet": "glowna"
   },
   {
    "slug": "wykonywanie-uprawnien",
    "nazwa": "Rozporządzenie ws. postępowania przy wykonywaniu niektórych uprawnień policjantów",
    "ikona": "RWU",
-   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20230002535/O/D20232535.pdf"
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20230002535/O/D20232535.pdf",
+   "pakiet": "glowna"
   },
   {
    "slug": "zarzadzenie-kgp-30",
    "nazwa": "Zarządzenie nr 30 KGP",
    "ikona": "Z30",
-   "pdf": "https://edziennik.policja.gov.pl/eli/DU_KGP/2017/64/ogl/pol/pdf"
+   "pdf": "https://edziennik.policja.gov.pl/eli/DU_KGP/2017/64/ogl/pol/pdf",
+   "pakiet": "glowna"
   },
   {
    "slug": "ustawa-o-spb",
    "nazwa": "Ustawa o ŚPB",
    "ikona": "ŚPB",
-   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000244/U/D20260244Lj.pdf"
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000244/U/D20260244Lj.pdf",
+   "pakiet": "glowna"
   },
   {
    "slug": "ustawa-o-policji",
    "nazwa": "Ustawa o Policji",
    "ikona": "UoP",
-   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19900300179/U/D19900179Lj.pdf"
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19900300179/U/D19900179Lj.pdf",
+   "pakiet": "glowna"
   },
   {
    "slug": "kodeks-karny",
    "nazwa": "Kodeks Karny",
    "ikona": "KK",
-   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19970880553/U/D19970553Lj.pdf"
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19970880553/U/D19970553Lj.pdf",
+   "pakiet": "glowna"
+  },
+  {
+   "slug": "ustawa-o-bezp-imprez-masowych",
+   "nazwa": "Ustawa o bezpieczeństwie imprez masowych",
+   "ikona": "BIM",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20090620504/U/D20090504Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "687.1 kB"
+  },
+  {
+   "slug": "ustawa-o-trzezwosci",
+   "nazwa": "Ustawa o wychowaniu w trzeźwości i przeciwdziałaniu alkoholizmowi",
+   "ikona": "TRZ",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19820350230/U/D19820230Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "770.2 kB"
+  },
+  {
+   "slug": "ustawa-o-ochronie-zdrowia-tyton",
+   "nazwa": "Ustawa o ochronie zdrowia przed następstwami używania tytoniu",
+   "ikona": "TYT",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19960100055/U/D19960055Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "776.7 kB"
+  },
+  {
+   "slug": "ustawa-o-ochronie-zwierzat",
+   "nazwa": "Ustawa o ochronie zwierząt",
+   "ikona": "OZW",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19971110724/U/D19970724Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "646 kB"
+  },
+  {
+   "slug": "ustawa-o-broni-i-amunicji",
+   "nazwa": "Ustawa o broni i amunicji",
+   "ikona": "BiA",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19990530549/U/D19990549Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "465.2 kB"
+  },
+  {
+   "slug": "ustawa-o-przeciwdzialaniu-narkomanii",
+   "nazwa": "Ustawa o przeciwdziałaniu narkomanii",
+   "ikona": "UPN",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20051791485/U/D20051485Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "986.2 kB"
+  },
+  {
+   "slug": "ustawa-o-transporcie-drogowym",
+   "nazwa": "Ustawa o transporcie drogowym",
+   "ikona": "UTD",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20011251371/U/D20011371Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "1.5 MB"
+  },
+  {
+   "slug": "ustawa-o-kierujacych-pojazdami",
+   "nazwa": "Ustawa o kierujących pojazdami",
+   "ikona": "UKP",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20110300151/U/D20110151Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "1.4 MB"
+  },
+  {
+   "slug": "ustawa-o-ochronie-osob-i-mienia",
+   "nazwa": "Ustawa o ochronie osób i mienia",
+   "ikona": "OOM",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19971140740/U/D19970740Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "695.5 kB"
+  },
+  {
+   "slug": "ustawa-o-ochronie-zeglugi-portow",
+   "nazwa": "Ustawa o ochronie żeglugi i portów morskich",
+   "ikona": "OŻP",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20240000597/U/D20240597Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "736 kB"
+  },
+  {
+   "slug": "ustawa-o-dowodach-osobistych",
+   "nazwa": "Ustawa o dowodach osobistych",
+   "ikona": "UDO",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20101671131/U/D20101131Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "727.1 kB"
+  },
+  {
+   "slug": "ustawa-o-rybactwie-srodladowym",
+   "nazwa": "Ustawa o rybactwie śródlądowym",
+   "ikona": "RYB",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19850210091/U/D19850091Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "365.21 kB"
+  },
+  {
+   "slug": "rozp-zsd-cz2",
+   "nazwa": "Rozporządzenie ws. szczegółowych warunków ZSD (część 2)",
+   "ikona": "ZSD2",
+   "pdf": null,
+   "pakiet": "dodatkowa",
+   "rozmiar": "28 MB"
+  },
+  {
+   "slug": "rozp-znaki-i-sygnaly",
+   "nazwa": "Rozporządzenie ws. znaków i sygnałów drogowych",
+   "ikona": "ZiS",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20190002310/O/D20192310.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": ""
+  },
+  {
+   "slug": "rozp-usuwanie-pojazdow",
+   "nazwa": "Rozporządzenie ws. usuwania pojazdów",
+   "ikona": "UsP",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20240001278/O/D20241278.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "126.6 kB"
+  },
+  {
+   "slug": "rozp-badania-alkohol",
+   "nazwa": "Rozporządzenie ws. badań na zawartość alkoholu w organizmie",
+   "ikona": "BAO",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20180002472/O/D20182472.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "263.9 kB"
+  },
+  {
+   "slug": "rozp-badania-substancje",
+   "nazwa": "Rozporządzenie ws. badań na obecność substancji",
+   "ikona": "BnS",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20220002685/O/D20222685.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "196.7 kB"
+  },
+  {
+   "slug": "rozp-badania-alkohol-pracownik",
+   "nazwa": "Rozporządzenie ws. badań na obecność alkoholu w organizmie pracownika",
+   "ikona": "BAP",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20230000317/O/D20230317.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "391.1 kB"
+  },
+  {
+   "slug": "rozp-grzywny-mandaty",
+   "nazwa": "Rozporządzenie zm. ws. wysokości grzywien (mandaty)",
+   "ikona": "GRZ",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210002484/O/D20212484.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "541.5 kB"
+  },
+  {
+   "slug": "rozp-ewidencja-kierujacych",
+   "nazwa": "Rozporządzenie ws. ewidencji kierujących naruszających przepisy ruchu drogowego",
+   "ikona": "EWK",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000724/O/D20260724.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "597.3 kB"
+  },
+  {
+   "slug": "rozp-psy-konie-sluzbowe",
+   "nazwa": "Rozporządzenie ws. psów i koni służbowych w Policji",
+   "ikona": "PsK",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210002467/O/D20212467.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "455.1 kB"
+  },
+  {
+   "slug": "kpw",
+   "nazwa": "Kodeks postępowania w sprawach o wykroczenia",
+   "ikona": "KPW",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20011061148/U/D20011148Lj.pdf",
+   "pakiet": "glowna"
+  },
+  {
+   "slug": "kpk",
+   "nazwa": "Kodeks postępowania karnego",
+   "ikona": "KPK",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19970890555/U/D19970555Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "2.3 MB"
+  },
+  {
+   "slug": "kpa",
+   "nazwa": "Kodeks postępowania administracyjnego",
+   "ikona": "KPA",
+   "pdf": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19600300168/U/D19600168Lj.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "615.3 kB"
+  },
+  {
+   "slug": "wytyczne-nr3-kgp",
+   "nazwa": "Wytyczne nr 3 KGP",
+   "ikona": "W3",
+   "pdf": "https://edziennik.policja.gov.pl/DU_KGP/2021/32/akt.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "1.3 MB"
+  },
+  {
+   "slug": "wytyczne-nr4-kgp",
+   "nazwa": "Wytyczne nr 4 KGP",
+   "ikona": "W4",
+   "pdf": "https://edziennik.policja.gov.pl/DU_KGP/2018/82/akt.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "420.7 kB"
+  },
+  {
+   "slug": "zarzadzenie-nr91-kgp",
+   "nazwa": "Zarządzenie nr 91 KGP (psy służbowe)",
+   "ikona": "Z91",
+   "pdf": "https://edziennik.policja.gov.pl/DU_KGP/2022/225/akt.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "8.2 MB"
+  },
+  {
+   "slug": "zarzadzenie-nr38-kgp",
+   "nazwa": "Zarządzenie nr 38 KGP (statystyka zdarzeń drogowych)",
+   "ikona": "Z38",
+   "pdf": "https://edziennik.policja.gov.pl/DU_KGP/2021/181/oryginal/akt.pdf",
+   "pakiet": "dodatkowa",
+   "rozmiar": "1.6 MB"
   }
  ],
  "rekordy": []

@@ -203,7 +203,8 @@
     "jest",
     "utrzymany",
     "należyty",
-    "sposób"
+    "sposób",
+    "nie"
    ],
    "summary": "Kierowanie pojazdem, który nie jest utrzymany w należyty sposób.",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -225,7 +226,13 @@
    "code": null,
    "keywords": [
     "zanieczyszczanie",
-    "lasu"
+    "lasu",
+    "śmieci",
+    "odpady",
+    "wyrzucanie",
+    "zanieczyszczenie",
+    "brud",
+    "wysypisko"
    ],
    "summary": "Zanieczyszczanie lasu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -246,7 +253,12 @@
    "points_max": 0,
    "code": null,
    "keywords": [
-    "szalbierstwo"
+    "szalbierstwo",
+    "wyłudzenie",
+    "przejazdu",
+    "pożywienia",
+    "innego",
+    "świadczenia"
    ],
    "summary": "Szalbierstwo",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -273,8 +285,15 @@
     "publicznego",
     "spoczynku",
     "nocnego",
-    "albo",
-    "wywoływanie"
+    "wywoływanie",
+    "zgorszenia",
+    "miejscu",
+    "publicznym",
+    "hałas",
+    "cisza",
+    "spokój",
+    "głośno",
+    "krzyk"
    ],
    "summary": "Zakłócenie spokoju, porządku publicznego, spoczynku nocnego albo wywoływanie zgorszenia w miejscu publicznym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -300,7 +319,14 @@
     "warunków",
     "jakich",
     "ruch",
-    "odbywa"
+    "odbywa",
+    "prędkość",
+    "przekroczenie",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Niedostosowanie prędkości do warunków w jakich ruch się odbywa",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -346,13 +372,16 @@
    "code": "D 02",
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "pojazdem",
     "zakazu",
     "korzystania",
     "drogi",
-    "przejazdu"
+    "przejazdu",
+    "pojazdu",
+    "uprzywilejowanego",
+    "droga",
+    "życia"
    ],
    "summary": "Naruszenie przez kierującego pojazdem zakazu korzystania z drogi przejazdu pojazdu uprzywilejowanego (droga życia)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -380,7 +409,9 @@
     "zagrożenia",
     "naruszeniem",
     "czynności",
-    "narządu"
+    "narządu",
+    "ciała",
+    "kierującego"
    ],
    "summary": "Niezachowanie należytej ostrożności i spowodowanie zagrożenia z naruszeniem czynności narządu ciała przez kierującego pojazdem mechanicznym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -408,7 +439,20 @@
     "chodniku",
     "przejściu",
     "pieszych",
-    "pojazdem"
+    "pojazdem",
+    "innym",
+    "niż",
+    "mechaniczny",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie zakazu jazdy wzdłuż po chodniku lub przejściu dla pieszych pojazdem innym niż mechaniczny",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -461,10 +505,15 @@
     "wyrobów",
     "tytoniowych",
     "nowatorskich",
-    "wyrobów",
-    "tytoniowych",
     "papierosów",
-    "elektronicznych"
+    "elektronicznych",
+    "miejscach",
+    "objętych",
+    "zakaze",
+    "papierosy",
+    "tytoń",
+    "e-papieros",
+    "zakaz palenia"
    ],
    "summary": "Palenie wyrobów tytoniowych, nowatorskich wyrobów tytoniowych lub papierosów elektronicznych w miejscach objętych zakazem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -489,7 +538,11 @@
     "przywłaszczenie",
     "cudzej",
     "rzeczy",
-    "ruchomej"
+    "ruchomej",
+    "zabór",
+    "kradnie",
+    "złodziej",
+    "ukradł"
    ],
    "summary": "Kradzież lub przywłaszczenie cudzej rzeczy ruchomej",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -517,7 +570,9 @@
     "podjęcie",
     "pracy",
     "wbrew",
-    "obowiązkowi"
+    "obowiązkowi",
+    "zachowania",
+    "trzeźwości"
    ],
    "summary": "Wywołanie niebezpieczeństwa dla życia lub zdrowia / podjęcie pracy wbrew obowiązkowi zachowania trzeźwości",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -540,7 +595,9 @@
    "keywords": [
     "żebranie",
     "miejscu",
-    "publicznym"
+    "publicznym",
+    "żebractwo",
+    "żebrak"
    ],
    "summary": "Żebranie w miejscu publicznym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -563,7 +620,11 @@
    "keywords": [
     "kąpiel",
     "miejscu",
-    "zabronionym"
+    "zabronionym",
+    "broń",
+    "amunicja",
+    "pistolet",
+    "niebezpieczne narzędzie"
    ],
    "summary": "Kąpiel w miejscu zabronionym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -638,7 +699,14 @@
     "zakazie",
     "sprzedaży",
     "wyrobów",
-    "tytoniowych"
+    "tytoniowych",
+    "osobom",
+    "lat",
+    "palenie",
+    "papierosy",
+    "tytoń",
+    "e-papieros",
+    "zakaz palenia"
    ],
    "summary": "Nieumieszczenie w punkcie detalicznym informacji o zakazie sprzedaży wyrobów tytoniowych osobom do lat 18",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -666,7 +734,14 @@
     "papierosów",
     "elektronicznych",
     "pojemników",
-    "zapasowych"
+    "zapasowych",
+    "części",
+    "syste",
+    "palenie",
+    "papierosy",
+    "tytoń",
+    "e-papieros",
+    "zakaz palenia"
    ],
    "summary": "Wprowadzanie do obrotu wyrobów tytoniowych, papierosów elektronicznych lub pojemników zapasowych oraz ich części w systemie samoobsługowym, z wyjątkiem sklepów wolnocłowych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -694,7 +769,14 @@
     "mniej",
     "dwadzieścia",
     "sztuk",
-    "oraz"
+    "niż",
+    "luzem",
+    "opakowania",
+    "palenie",
+    "papierosy",
+    "tytoń",
+    "e-papieros",
+    "zakaz palenia"
    ],
    "summary": "Sprzedawanie papierosów w opakowaniach zawierających mniej niż dwadzieścia sztuk oraz luzem bez opakowania",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -722,7 +804,16 @@
     "terenie",
     "podmiotów",
     "leczniczych",
-    "szkół"
+    "szkół",
+    "placówek",
+    "oświatowo",
+    "wychowawczych",
+    "ora",
+    "palenie",
+    "papierosy",
+    "tytoń",
+    "e-papieros",
+    "zakaz palenia"
    ],
    "summary": "Wprowadzanie do obrotu wyrobów tytoniowych na terenie podmiotów leczniczych, szkół, placówek oświatowo-wychowawczych oraz obiektów sportowo-rekreacyjnych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -750,7 +841,20 @@
     "alkoholu",
     "punkcie",
     "sprzedaży",
-    "uwtpa"
+    "uwtpa",
+    "picie",
+    "pijany",
+    "alko",
+    "alkohol",
+    "alkohole",
+    "spożywanie",
+    "piwo",
+    "piwa",
+    "wódka",
+    "drink",
+    "upojenie",
+    "promile",
+    "nietrzeźwość"
    ],
    "summary": "Nieuwidacznianie informacji o szkodliwości spożywania alkoholu w punkcie sprzedaży",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -778,7 +882,10 @@
     "sposobie",
     "wykorzystania",
     "środków",
-    "funduszu"
+    "funduszu",
+    "likwidacji",
+    "zakładu",
+    "górnicze"
    ],
    "summary": "Niedopełnienie obowiązku przedstawiania informacji o sposobie wykorzystania środków funduszu likwidacji zakładu górniczego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -806,7 +913,9 @@
     "wyciągów",
     "rachunku",
     "funduszu",
-    "likwidacji"
+    "likwidacji",
+    "zakładu",
+    "górniczego"
    ],
    "summary": "Niedopełnienie obowiązku przedstawiania aktualnych wyciągów z rachunku funduszu likwidacji zakładu górniczego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -831,7 +940,13 @@
     "zaśmiecanie",
     "miejsca",
     "dostępnego",
-    "publiczności"
+    "publiczności",
+    "śmieci",
+    "odpady",
+    "wyrzucanie",
+    "zanieczyszczenie",
+    "brud",
+    "wysypisko"
    ],
    "summary": "Zanieczyszczanie lub zaśmiecanie miejsca dostępnego dla publiczności",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -887,7 +1002,9 @@
     "górniczego",
     "osób",
     "dostatecznej",
-    "znajomości"
+    "znajomości",
+    "przepisów",
+    "bhp"
    ],
    "summary": "Dopuszczenie do pracy w ruchu zakładu górniczego osób bez dostatecznej znajomości przepisów BHP",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -913,9 +1030,14 @@
     "nakazanych",
     "środków",
     "ostrożności",
-    "przy",
     "trzymaniu",
-    "zwierzęcia"
+    "zwierzęcia",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Niezachowanie zwykłych lub nakazanych środków ostrożności przy trzymaniu zwierzęcia",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -943,7 +1065,9 @@
     "górniczego",
     "zabezpieczenie",
     "wyrobisk",
-    "sąsiednich"
+    "sąsiednich",
+    "zakładów",
+    "górniczych"
    ],
    "summary": "Niedopełnienie obowiązku likwidacji zakładu górniczego – zabezpieczenie wyrobisk sąsiednich zakładów górniczych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -971,7 +1095,12 @@
     "innej",
     "osoby",
     "popełnione",
-    "poza"
+    "poza",
+    "drogą",
+    "publiczną",
+    "strefą",
+    "zamieszkania",
+    "stref"
    ],
    "summary": "Naruszenie powodujące zagrożenie bezpieczeństwa innej osoby popełnione poza drogą publiczną, strefą zamieszkania i strefą ruchu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -999,7 +1128,8 @@
     "górniczego",
     "zabezpieczenie",
     "sąsiednich",
-    "złóż"
+    "złóż",
+    "kopalin"
    ],
    "summary": "Niedopełnienie obowiązku likwidacji zakładu górniczego – zabezpieczenie sąsiednich złóż kopalin",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1023,11 +1153,19 @@
     "niezachowanie",
     "środków",
     "ostrożności",
-    "przy",
     "trzymaniu",
     "zwierzęcia",
     "stwarzającego",
-    "niebezpieczeństwo"
+    "niebezpieczeństwo",
+    "życia",
+    "zdrowia",
+    "człowi",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Niezachowanie środków ostrożności przy trzymaniu zwierzęcia stwarzającego niebezpieczeństwo dla życia lub zdrowia człowieka",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1055,7 +1193,9 @@
     "górniczego",
     "zabezpieczenie",
     "niewykorzystanej",
-    "części"
+    "części",
+    "złoża",
+    "kopaliny"
    ],
    "summary": "Niedopełnienie obowiązku likwidacji zakładu górniczego – zabezpieczenie niewykorzystanej części złoża kopaliny",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1136,7 +1276,9 @@
     "zagrożenia",
     "kolizja",
     "drogowa",
-    "przez"
+    "kierującego",
+    "pojazdem",
+    "mechanicznym"
    ],
    "summary": "Niezachowanie należytej ostrożności i spowodowanie zagrożenia (kolizja drogowa) przez kierującego pojazdem mechanicznym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1190,7 +1332,22 @@
     "miejscach",
     "objętych",
     "zakazem",
-    "uwtpa"
+    "uwtpa",
+    "picie",
+    "pijany",
+    "alko",
+    "alkohol",
+    "alkohole",
+    "spożywanie",
+    "piwo",
+    "piwa",
+    "wódka",
+    "drink",
+    "upojenie",
+    "promile",
+    "nietrzeźwość",
+    "próba",
+    "usiłował"
    ],
    "summary": "Usiłowanie spożywania napojów alkoholowych w miejscach objętych zakazem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1218,7 +1375,8 @@
     "zatwierdzania",
     "aktualizowania",
     "planu",
-    "ratownictwa"
+    "ratownictwa",
+    "górniczego"
    ],
    "summary": "Niedopełnienie obowiązku sporządzania, posiadania, zatwierdzania i aktualizowania planu ratownictwa górniczego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1245,7 +1403,19 @@
     "miejscach",
     "objętych",
     "zakazem",
-    "uwtpa"
+    "uwtpa",
+    "picie",
+    "pijany",
+    "alko",
+    "alkohol",
+    "alkohole",
+    "piwo",
+    "piwa",
+    "wódka",
+    "drink",
+    "upojenie",
+    "promile",
+    "nietrzeźwość"
    ],
    "summary": "Spożywanie napojów alkoholowych w miejscach objętych zakazem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1273,7 +1443,9 @@
     "służb",
     "ratownictwa",
     "górniczego",
-    "albo"
+    "powierzenia",
+    "innym",
+    "podmiotom"
    ],
    "summary": "Niedopełnienie obowiązku posiadania własnych służb ratownictwa górniczego albo powierzenia go innym podmiotom",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1329,7 +1501,7 @@
     "badań",
     "lekarskich",
     "psychologicznych",
-    "oraz"
+    "szkoleń"
    ],
    "summary": "Niedopełnienie obowiązku przeprowadzania specjalistycznych badań lekarskich, psychologicznych oraz szkoleń",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1353,11 +1525,12 @@
     "niestosowanie",
     "sygnałów",
     "świetlnych",
-    "przez",
     "kierującego",
     "pojazdem",
     "wyłączeniem",
-    "wjazdu"
+    "wjazdu",
+    "przejazd",
+    "kolejowy"
    ],
    "summary": "Niestosowanie się do sygnałów świetlnych przez kierującego pojazdem, z wyłączeniem wjazdu na przejazd kolejowy",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1382,10 +1555,17 @@
     "pojazdu",
     "przed",
     "sygnalizatorem",
-    "przy",
     "skręcaniu",
     "zawracaniu",
-    "kierunku"
+    "kierunku",
+    "wskazanym",
+    "zieloną",
+    "strzałką",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niezatrzymanie pojazdu przed sygnalizatorem S-2 przy skręcaniu (zawracaniu) w kierunku wskazanym zieloną strzałką",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1413,7 +1593,10 @@
     "sprawdzenia",
     "rozwiązań",
     "technicznych",
-    "przez"
+    "rzeczoznawcę",
+    "ruchu",
+    "zakładu",
+    "górni"
    ],
    "summary": "Niedopełnienie obowiązku posiadania dowodu sprawdzenia rozwiązań technicznych przez rzeczoznawcę ds. ruchu zakładu górniczego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1469,7 +1652,9 @@
     "ryzyka",
     "zawodowego",
     "dokument",
-    "bezpieczeństwa"
+    "bezpieczeństwa",
+    "ochrony",
+    "zdrowia"
    ],
    "summary": "Niedopełnienie obowiązku oceniania i dokumentowania ryzyka zawodowego (dokument bezpieczeństwa i ochrony zdrowia)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1497,7 +1682,10 @@
     "nieprzeznaczonym",
     "ogłoszenia",
     "plakatu",
-    "afiszu"
+    "afiszu",
+    "apelu",
+    "ulotki",
+    "napisu"
    ],
    "summary": "Umieszczanie w miejscu publicznym do tego nieprzeznaczonym ogłoszenia, plakatu, afiszu, apelu, ulotki lub napisu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1548,11 +1736,11 @@
    "keywords": [
     "noszenie",
     "munduru",
-    "przez",
     "osobę",
     "która",
     "tego",
-    "prawa"
+    "prawa",
+    "nie"
    ],
    "summary": "Noszenie munduru przez osobę, która nie ma do tego prawa",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1580,7 +1768,9 @@
     "środków",
     "materialnych",
     "technicznych",
-    "oraz"
+    "służb",
+    "ruchu",
+    "zapewniających"
    ],
    "summary": "Niedopełnienie obowiązku posiadania odpowiednich środków materialnych i technicznych oraz służb ruchu zapewniających bezpieczeństwo",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1608,7 +1798,8 @@
     "bezcelowe",
     "blokowanie",
     "alarmowego",
-    "bezpodstawna"
+    "bezpodstawna",
+    "interwencja"
    ],
    "summary": "Wywołanie niepotrzebnej czynności, umyślne bezcelowe blokowanie nr alarmowego / bezpodstawna interwencja",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1636,7 +1827,10 @@
     "zakładu",
     "górniczego",
     "warunkach",
-    "związanych"
+    "związanych",
+    "środkami",
+    "strzałowymi",
+    "sprzęte"
    ],
    "summary": "Dopuszczanie do wykonywania czynności w ruchu zakładu górniczego w warunkach związanych z środkami strzałowymi i sprzętem strzałowym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1689,7 +1883,10 @@
     "zakładu",
     "górniczego",
     "warunkach",
-    "związanych"
+    "związanych",
+    "jazdą",
+    "ludzi",
+    "szybem"
    ],
    "summary": "Dopuszczanie do wykonywania czynności w ruchu zakładu górniczego w warunkach związanych z jazdą ludzi szybem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1743,7 +1940,10 @@
     "zakładu",
     "górniczego",
     "warunkach",
-    "zagrożeń"
+    "zagrożeń",
+    "pożarowych",
+    "tąpaniami",
+    "gazowych"
    ],
    "summary": "Dopuszczanie do wykonywania czynności w ruchu zakładu górniczego w warunkach zagrożeń pożarowych, tąpaniami, gazowych, pyłowych, klimatycznych, wodnych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1796,7 +1996,11 @@
     "górniczego",
     "warunkach",
     "zagrożeń",
-    "pożarowych"
+    "pożarowych",
+    "tąpaniami",
+    "gazowych",
+    "pyłowych",
+    "klimaty"
    ],
    "summary": "Wykonywanie czynności w ruchu zakładu górniczego w warunkach zagrożeń pożarowych, tąpaniami, gazowych, pyłowych, klimatycznych, wodnych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1818,13 +2022,19 @@
    "code": null,
    "keywords": [
     "nieumieszczenie",
-    "przez",
     "właściciela",
     "zarządzającego",
     "obiektem",
     "środkiem",
     "transportu",
-    "informacji"
+    "informacji",
+    "zakazie",
+    "palenia",
+    "palenie",
+    "papierosy",
+    "tytoń",
+    "e-papieros",
+    "zakaz palenia"
    ],
    "summary": "Nieumieszczenie przez właściciela lub zarządzającego obiektem lub środkiem transportu informacji o zakazie palenia",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1879,7 +2089,13 @@
     "elektronicznych",
     "pojemników",
     "zapasowych",
-    "osobom"
+    "osobom",
+    "lat",
+    "palenie",
+    "papierosy",
+    "tytoń",
+    "e-papieros",
+    "zakaz palenia"
    ],
    "summary": "Udostępnianie wyrobów tytoniowych, papierosów elektronicznych lub pojemników zapasowych osobom do lat 18",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1934,7 +2150,9 @@
     "górniczego",
     "nakaz",
     "wstrzymania",
-    "działalności"
+    "działalności",
+    "wymaganej",
+    "koncesji"
    ],
    "summary": "Niewykonywanie decyzji organu nadzoru górniczego – nakaz wstrzymania działalności bez wymaganej koncesji",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -1990,7 +2208,9 @@
     "górniczego",
     "nakaz",
     "sporządzenia",
-    "poprawy"
+    "poprawy",
+    "operatu",
+    "ewidencyjnego"
    ],
    "summary": "Niewykonywanie decyzji organu nadzoru górniczego – nakaz sporządzenia lub poprawy operatu ewidencyjnego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2045,7 +2265,9 @@
     "górniczego",
     "zakaz",
     "wykonywania",
-    "czynności"
+    "czynności",
+    "rażącym",
+    "niedbalstwem"
    ],
    "summary": "Niewykonywanie decyzji organu nadzoru górniczego – zakaz wykonywania czynności z rażącym niedbalstwem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2156,7 +2378,8 @@
     "zakładu",
     "górniczego",
     "osób",
-    "wymaganych"
+    "wymaganych",
+    "kwalifikacji"
    ],
    "summary": "Dopuszczenie do wykonywania czynności w ruchu zakładu górniczego osób bez wymaganych kwalifikacji",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2212,7 +2435,10 @@
     "wykonujących",
     "czynności",
     "ruchu",
-    "zakładu"
+    "zakładu",
+    "górniczego",
+    "zakresie",
+    "bhp"
    ],
    "summary": "Niedopełnienie obowiązku szkolenia osób wykonujących czynności w ruchu zakładu górniczego w zakresie BHP",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2268,7 +2494,8 @@
     "górniczego",
     "ochrona",
     "środowiska",
-    "oraz"
+    "rekultywacja",
+    "gruntów"
    ],
    "summary": "Niedopełnienie obowiązku likwidacji zakładu górniczego – ochrona środowiska oraz rekultywacja gruntów",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2324,7 +2551,9 @@
     "warunków",
     "projektu",
     "który",
-    "podlega"
+    "podlega",
+    "nie",
+    "zatwierdzeniu"
    ],
    "summary": "Wykonywanie robót geologicznych z naruszeniem warunków projektu, który nie podlega zatwierdzeniu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2351,8 +2580,9 @@
     "decyzji",
     "podjęciu",
     "wykonywaniu",
-    "oraz",
-    "zakończeniu"
+    "zakończeniu",
+    "prac",
+    "profilaktycznych"
    ],
    "summary": "Niedopełnienie obowiązku podejmowania decyzji o podjęciu, wykonywaniu oraz zakończeniu prac profilaktycznych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2379,8 +2609,7 @@
     "naruszeniem",
     "warunków",
     "określonych",
-    "projekcie",
-    "robót"
+    "projekcie"
    ],
    "summary": "Wykonywanie robót geologicznych z naruszeniem warunków określonych w projekcie robót geologicznych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2406,9 +2635,11 @@
     "organizowania",
     "drużyny",
     "ratowniczej",
-    "oraz",
     "kopalnianej",
-    "zakładowej"
+    "zakładowej",
+    "stacji",
+    "ratownictwa",
+    "górniczego"
    ],
    "summary": "Niedopełnienie obowiązku organizowania drużyny ratowniczej oraz kopalnianej/zakładowej stacji ratownictwa górniczego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2433,9 +2664,7 @@
     "robót",
     "geologicznych",
     "zatwierdzonego",
-    "projektu",
-    "robót",
-    "geologicznych"
+    "projektu"
    ],
    "summary": "Wykonywanie robót geologicznych bez zatwierdzonego projektu robót geologicznych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2516,7 +2745,8 @@
     "dokumentacji",
     "prowadzenia",
     "ruchu",
-    "zakładu"
+    "zakładu",
+    "górniczego"
    ],
    "summary": "Niedopełnienie obowiązku posiadania i przechowywania dokumentacji prowadzenia ruchu zakładu górniczego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2570,7 +2800,10 @@
     "związanych",
     "ruchem",
     "zakładu",
-    "górniczego"
+    "górniczego",
+    "podejmowania",
+    "środków",
+    "zapobiegaw"
    ],
    "summary": "Niedopełnienie obowiązku rozpoznawania zagrożeń związanych z ruchem zakładu górniczego i podejmowania środków zapobiegawczych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2597,7 +2830,13 @@
     "nieruchomości",
     "odpadów",
     "komunalnych",
-    "uczpg"
+    "uczpg",
+    "śmieci",
+    "odpady",
+    "wyrzucanie",
+    "zanieczyszczenie",
+    "brud",
+    "wysypisko"
    ],
    "summary": "Niezbieranie powstałych na terenie nieruchomości odpadów komunalnych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2625,7 +2864,10 @@
     "górniczego",
     "warunkach",
     "związanych",
-    "środkami"
+    "środkami",
+    "strzałowymi",
+    "sprzętem",
+    "strzałowym"
    ],
    "summary": "Wykonywanie czynności w ruchu zakładu górniczego w warunkach związanych ze środkami strzałowymi i sprzętem strzałowym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2680,7 +2922,9 @@
     "górniczego",
     "warunkach",
     "związanych",
-    "jazdą"
+    "jazdą",
+    "ludzi",
+    "szybem"
    ],
    "summary": "Wykonywanie czynności w ruchu zakładu górniczego w warunkach związanych z jazdą ludzi szybem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2804,7 +3048,17 @@
     "niszczenie",
     "ogrodzeń",
     "wydm",
-    "lasu"
+    "lasu",
+    "owoce",
+    "owoc",
+    "warzywa",
+    "kwiaty",
+    "ogród",
+    "ogrodowa",
+    "sad",
+    "działka",
+    "grządka",
+    "plony"
    ],
    "summary": "Niszczenie ogrodzeń wydm i lasu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2881,9 +3135,10 @@
     "geologicznych",
     "przedłożenia",
     "projektu",
-    "robót",
-    "geologicznych",
-    "który"
+    "który",
+    "nie",
+    "podlega",
+    "zatwierdzeniu"
    ],
    "summary": "Wykonywanie robót geologicznych bez przedłożenia projektu robót geologicznych, który nie podlega zatwierdzeniu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2909,7 +3164,8 @@
     "ochronnej",
     "brzegach",
     "morskich",
-    "śródlądowych"
+    "śródlądowych",
+    "wód"
    ],
    "summary": "Niszczenie roślinności ochronnej na brzegach wód morskich i śródlądowych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2962,8 +3218,10 @@
     "ogłoszenia",
     "wystawionego",
     "publicznie",
-    "przez",
-    "instytucję"
+    "instytucję",
+    "państwową",
+    "samorządową",
+    "organi"
    ],
    "summary": "Umyślne uszkodzenie lub usunięcie ogłoszenia wystawionego publicznie przez instytucję państwową, samorządową albo organizację społeczną",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -2991,7 +3249,15 @@
     "innych",
     "zanieczyszczeń",
     "chodników",
-    "położonych"
+    "położonych",
+    "wzdłuż",
+    "nieruchomości",
+    "śmieci",
+    "odpady",
+    "wyrzucanie",
+    "zanieczyszczenie",
+    "brud",
+    "wysypisko"
    ],
    "summary": "Nieuprzątanie błota, śniegu, lodu i innych zanieczyszczeń z chodników położonych wzdłuż nieruchomości",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3019,7 +3285,13 @@
     "osobowych",
     "organu",
     "państwowego",
-    "instytucji"
+    "instytucji",
+    "upoważnionej",
+    "legitymowania",
+    "dowód",
+    "dokument",
+    "legitymowanie",
+    "tożsamość"
    ],
    "summary": "Umyślne wprowadzenie w błąd co do danych osobowych organu państwowego lub instytucji upoważnionej do legitymowania",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3047,7 +3319,13 @@
     "zbierania",
     "odpadów",
     "komunalnych",
-    "uczpg"
+    "uczpg",
+    "śmieci",
+    "odpady",
+    "wyrzucanie",
+    "zanieczyszczenie",
+    "brud",
+    "wysypisko"
    ],
    "summary": "Niewyposażenie nieruchomości w pojemniki służące do zbierania odpadów komunalnych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3075,7 +3353,8 @@
     "nieruchomości",
     "nazwą",
     "ulicy",
-    "placu"
+    "placu",
+    "miejscowości"
    ],
    "summary": "Nieumieszczenie tabliczki z numerem porządkowym nieruchomości, nazwą ulicy lub placu albo miejscowości",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3128,7 +3407,13 @@
     "ogłoszenia",
     "napisu",
     "rysunku",
-    "albo"
+    "używanie",
+    "słów",
+    "nieprzyzwoitych",
+    "wulgaryzmy",
+    "przekleństwa",
+    "nieobyczajne",
+    "gorszące"
    ],
    "summary": "Umieszczenie w miejscu publicznym nieprzyzwoitego ogłoszenia, napisu lub rysunku albo używanie słów nieprzyzwoitych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3179,7 +3464,11 @@
     "publiczne",
     "dopuszczenie",
     "nieobyczajnego",
-    "wybryku"
+    "wybryku",
+    "wulgaryzmy",
+    "przekleństwa",
+    "nieobyczajne",
+    "gorszące"
    ],
    "summary": "Publiczne dopuszczenie się nieobyczajnego wybryku",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3206,7 +3495,8 @@
     "okolicznościach",
     "niebezpiecznych",
     "zdrowia",
-    "człowieka"
+    "człowieka",
+    "lat"
    ],
    "summary": "Dopuszczenie małoletniego do lat 7 do przebywania w okolicznościach niebezpiecznych dla zdrowia człowieka",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3228,7 +3518,6 @@
    "code": null,
    "keywords": [
     "nieutrzymywanie",
-    "przez",
     "przewoźnika",
     "środka",
     "transportu",
@@ -3262,7 +3551,17 @@
     "celu",
     "ustąpienia",
     "pierwszeństwa",
-    "pieszemu"
+    "pieszemu",
+    "pojazd",
+    "inny",
+    "niż",
+    "mechaniczny",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Omijanie pojazdu, który zatrzymał się w celu ustąpienia pierwszeństwa pieszemu (pojazd inny niż mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3313,7 +3612,20 @@
     "bezpośrednio",
     "przed",
     "pojazd",
-    "inny"
+    "inny",
+    "nim",
+    "niż",
+    "mechaniczny",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Wyprzedzanie pojazdu na przejściu dla pieszych lub bezpośrednio przed nim (pojazd inny niż mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3367,7 +3679,14 @@
     "zamieszkania",
     "pojazd",
     "inny",
-    "mechaniczny"
+    "mechaniczny",
+    "niż",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Nieustąpienie pierwszeństwa pieszemu w strefie zamieszkania (pojazd inny niż mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3418,7 +3737,15 @@
     "włączania",
     "ruchu",
     "pojazd",
-    "inny"
+    "inny",
+    "niż",
+    "mechaniczny",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Nieustąpienie pierwszeństwa pieszemu podczas włączania się do ruchu (pojazd inny niż mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3465,11 +3792,24 @@
     "nieustąpienie",
     "pierwszeństwa",
     "pieszemu",
-    "przy",
     "przejeżdżaniu",
-    "przez",
     "chodnik",
-    "drogę"
+    "drogę",
+    "pieszych",
+    "placu",
+    "pojazd",
+    "inny",
+    "niż",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Nieustąpienie pierwszeństwa pieszemu przy przejeżdżaniu przez chodnik/drogę dla pieszych albo na placu (pojazd inny niż mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3497,7 +3837,13 @@
     "płoszenie",
     "tego",
     "staje",
-    "niebezpieczne"
+    "niebezpieczne",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Doprowadzenie zwierzęcia poprzez drażnienie lub płoszenie do tego, że staje się niebezpieczne",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3521,11 +3867,20 @@
     "nieustąpienie",
     "pierwszeństwa",
     "pieszemu",
-    "przy",
     "skręcaniu",
     "drogę",
     "poprzeczną",
-    "skrzyżowaniu"
+    "skrzyżowaniu",
+    "pojazd",
+    "inny",
+    "niż",
+    "mechaniczny",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Nieustąpienie pierwszeństwa pieszemu przy skręcaniu w drogę poprzeczną na skrzyżowaniu (pojazd inny niż mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3553,7 +3908,9 @@
     "obowiązków",
     "przepisów",
     "zapobieganiu",
-    "zwalczaniu"
+    "zwalczaniu",
+    "zakażeń",
+    "chorób"
    ],
    "summary": "Nieprzestrzeganie zakazów, nakazów, ograniczeń lub obowiązków z przepisów o zapobieganiu i zwalczaniu zakażeń i chorób zakaźnych u ludzi",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3581,7 +3938,17 @@
     "pieszemu",
     "przejściu",
     "wchodzącemu",
-    "pojazd"
+    "pojazd",
+    "nie",
+    "inny",
+    "niż",
+    "mechaniczn",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Nieustąpienie, wbrew obowiązkowi, pierwszeństwa pieszemu na przejściu lub wchodzącemu na nie (pojazd inny niż mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3655,7 +4022,7 @@
     "parking",
     "zadaszony",
     "tabliczką",
-    "albo"
+    "18b"
    ],
    "summary": "Niestosowanie się do znaku D-18b \"parking zadaszony\" z tabliczką T-29",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3682,7 +4049,7 @@
     "miejsce",
     "zastrzeżone",
     "tabliczką",
-    "albo"
+    "18a"
    ],
    "summary": "Niestosowanie się do znaku D-18a \"parking – miejsce zastrzeżone\" z tabliczką T-29",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3707,7 +4074,8 @@
     "znaku",
     "parking",
     "miejsce",
-    "zastrzeżone"
+    "zastrzeżone",
+    "18a"
    ],
    "summary": "Niestosowanie się do znaku D-18a \"parking – miejsce zastrzeżone\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3757,8 +4125,7 @@
     "liczbie",
     "przekraczającej",
     "liczbę",
-    "miejsc",
-    "osób"
+    "miejsc"
    ],
    "summary": "Przewóz osób w liczbie przekraczającej liczbę miejsc (9 osób)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3782,7 +4149,6 @@
     "posługiwanie",
     "kartą",
     "parkingową",
-    "przez",
     "osobę",
     "nieuprawnioną",
     "niestosowanie",
@@ -3812,8 +4178,7 @@
     "liczbie",
     "przekraczającej",
     "liczbę",
-    "miejsc",
-    "osób"
+    "miejsc"
    ],
    "summary": "Przewóz osób w liczbie przekraczającej liczbę miejsc (7 osób)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3837,11 +4202,13 @@
     "posługiwanie",
     "kartą",
     "parkingową",
-    "przez",
     "osobę",
     "nieuprawnioną",
     "niestosowanie",
-    "znaków"
+    "znaków",
+    "18b",
+    "18a",
+    "tabliczką"
    ],
    "summary": "Posługiwanie się kartą parkingową przez osobę nieuprawnioną i niestosowanie się do znaków D-18/D-18b/D-18a z tabliczką T-29",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3867,8 +4234,7 @@
     "liczbie",
     "przekraczającej",
     "liczbę",
-    "miejsc",
-    "osób"
+    "miejsc"
    ],
    "summary": "Przewóz osób w liczbie przekraczającej liczbę miejsc (5 osób)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -3892,7 +4258,6 @@
     "posługiwanie",
     "kartą",
     "parkingową",
-    "przez",
     "osobę",
     "nieuprawnioną",
     "niestosowanie",
@@ -3947,7 +4312,6 @@
     "posługiwanie",
     "kartą",
     "parkingową",
-    "przez",
     "osobę",
     "nieuprawnioną"
    ],
@@ -4004,7 +4368,9 @@
     "stanie",
     "zjazdów",
     "dróg",
-    "publicznych"
+    "publicznych",
+    "przyległych",
+    "nieruchomości"
    ],
    "summary": "Uchylanie się od obowiązku utrzymania w należytym stanie zjazdów z dróg publicznych do przyległych nieruchomości",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4029,8 +4395,7 @@
     "osób",
     "pojazdem",
     "nieprzeznaczonym",
-    "nieprzystosowanym",
-    "osób"
+    "nieprzystosowanym"
    ],
    "summary": "Przewożenie osób pojazdem nieprzeznaczonym lub nieprzystosowanym (9 osób)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4056,7 +4421,13 @@
     "gospodarskiego",
     "pasie",
     "drogowym",
-    "uodp"
+    "uodp",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Wypasanie zwierzęcia gospodarskiego w pasie drogowym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4081,8 +4452,7 @@
     "osób",
     "pojazdem",
     "nieprzeznaczonym",
-    "nieprzystosowanym",
-    "osób"
+    "nieprzystosowanym"
    ],
    "summary": "Przewożenie osób pojazdem nieprzeznaczonym lub nieprzystosowanym (6 osób)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4109,8 +4479,8 @@
     "znaków",
     "drogowych",
     "jakichkolwiek",
-    "znaków",
-    "napisów"
+    "napisów",
+    "symboli"
    ],
    "summary": "Samowolne umieszczanie na drodze znaków drogowych lub jakichkolwiek znaków, napisów lub symboli",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4135,8 +4505,7 @@
     "osób",
     "pojazdem",
     "nieprzeznaczonym",
-    "nieprzystosowanym",
-    "osób"
+    "nieprzystosowanym"
    ],
    "summary": "Przewożenie osób pojazdem nieprzeznaczonym lub nieprzystosowanym (5 osób)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4164,7 +4533,8 @@
     "powierzono",
     "pojazd",
     "postępowanie",
-    "pozostałe"
+    "pozostałe",
+    "wykroczenia"
    ],
    "summary": "Niewskazanie na żądanie organu, komu powierzono pojazd (postępowanie o pozostałe wykroczenia)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4299,7 +4669,10 @@
     "wyłączanie",
     "zmiana",
     "położenia",
-    "zasłanianie"
+    "zasłanianie",
+    "czynienie",
+    "niewidocznym",
+    "znaku"
    ],
    "summary": "Samowolne ustawianie, usuwanie, włączanie, wyłączanie, zmiana położenia, zasłanianie lub czynienie niewidocznym znaku, sygnału, urządzenia ostrzegawczego lub zabezpieczającego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4348,12 +4721,11 @@
    "keywords": [
     "kierowanie",
     "pojazdem",
-    "przez",
     "osobę",
     "nieposiadającą",
-    "przy",
     "sobie",
-    "wymaganych"
+    "wymaganych",
+    "dokumentów"
    ],
    "summary": "Kierowanie pojazdem przez osobę nieposiadającą przy sobie wymaganych dokumentów",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4406,7 +4778,12 @@
     "spożywania",
     "pokarmów",
     "czasie",
-    "jazdy"
+    "jazdy",
+    "palenie",
+    "papierosy",
+    "tytoń",
+    "e-papieros",
+    "zakaz palenia"
    ],
    "summary": "Naruszenie zakazu palenia tytoniu lub spożywania pokarmów w czasie jazdy",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4434,7 +4811,9 @@
     "pojazdów",
     "towarami",
     "które",
-    "mogą"
+    "mogą",
+    "skazić",
+    "wodę"
    ],
    "summary": "Niestosowanie się do znaku B-14 \"zakaz wjazdu pojazdów z towarami, które mogą skazić wodę\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4514,7 +4893,9 @@
     "osób",
     "samochodem",
     "ciężarowym",
-    "poza"
+    "poza",
+    "kabiną",
+    "kierowcy"
    ],
    "summary": "Naruszenie warunków dopuszczalności przewozu osób samochodem ciężarowym poza kabiną kierowcy",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4594,7 +4975,17 @@
     "wzdłuż",
     "chodniku",
     "przejściu",
-    "pieszych"
+    "pieszych",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie zakazu jazdy wzdłuż po chodniku lub przejściu dla pieszych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4645,10 +5036,17 @@
     "pojazdu",
     "razie",
     "przechodzenia",
-    "przez",
     "jezdnię",
     "osoby",
-    "niepełnosprawnej"
+    "niepełnosprawnej",
+    "widocznej",
+    "ograniczonej",
+    "sprawnośc",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niezatrzymanie pojazdu w razie przechodzenia przez jezdnię osoby niepełnosprawnej lub o widocznej ograniczonej sprawności ruchowej",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4674,7 +5072,11 @@
     "zakaz",
     "wjazdu",
     "wózków",
-    "rowerowych"
+    "rowerowych",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Niestosowanie się do znaku B-11 \"zakaz wjazdu wózków rowerowych\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4698,11 +5100,16 @@
     "nieustąpienie",
     "pierwszeństwa",
     "pieszemu",
-    "przez",
     "kierującego",
     "pojazdem",
     "strefie",
-    "zamieszkania"
+    "zamieszkania",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Nieustąpienie pierwszeństwa pieszemu przez kierującego pojazdem w strefie zamieszkania",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4727,7 +5134,11 @@
     "znaku",
     "zakaz",
     "wjazdu",
-    "motorowerów"
+    "motorowerów",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Niestosowanie się do znaku B-10 \"zakaz wjazdu motorowerów\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4751,9 +5162,14 @@
     "nieustąpienie",
     "pierwszeństwa",
     "pieszemu",
-    "przy",
     "cofaniu",
-    "pojazdem"
+    "pojazdem",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Nieustąpienie pierwszeństwa pieszemu przy cofaniu pojazdem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4778,7 +5194,11 @@
     "znaku",
     "zakaz",
     "wjazdu",
-    "rowerów"
+    "rowerów",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Niestosowanie się do znaku B-9 \"zakaz wjazdu rowerów\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4802,11 +5222,16 @@
     "nieustąpienie",
     "pierwszeństwa",
     "pieszemu",
-    "przy",
     "skręcaniu",
     "drogę",
     "poprzeczną",
-    "skrzyżowaniu"
+    "skrzyżowaniu",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Nieustąpienie pierwszeństwa pieszemu przy skręcaniu w drogę poprzeczną na skrzyżowaniu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4859,8 +5284,15 @@
     "sposób",
     "niezgodny",
     "przeznaczeniem",
-    "przez",
-    "pieszego"
+    "pieszego",
+    "osobę",
+    "uwr",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Korzystanie z dróg lub ich części w sposób niezgodny z przeznaczeniem przez pieszego lub osobę na UWR",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4885,7 +5317,13 @@
     "znaku",
     "zakaz",
     "postoju",
-    "nieparzyste"
+    "nieparzyste",
+    "dni",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niestosowanie się do znaku B-37 \"zakaz postoju w dni nieparzyste\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4907,11 +5345,11 @@
    "code": null,
    "keywords": [
     "niestosowanie",
-    "przez",
     "osobę",
     "zakazu",
     "poruszania",
-    "tyłem"
+    "tyłem",
+    "uwr"
    ],
    "summary": "Niestosowanie się przez osobę na UWR do zakazu poruszania się tyłem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4937,8 +5375,7 @@
     "nakaz",
     "jazdy",
     "prawej",
-    "strony",
-    "znaku"
+    "strony"
    ],
    "summary": "Niestosowanie się do znaku C-9 \"nakaz jazdy z prawej strony znaku\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4964,8 +5401,7 @@
     "innemu",
     "pojazdowi",
     "osobie",
-    "albo",
-    "albo"
+    "uwr"
    ],
    "summary": "Nieustąpienie pierwszeństwa innemu pojazdowi lub osobie na UWR",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -4993,7 +5429,7 @@
     "osobie",
     "spowodowanie",
     "kolizji",
-    "albo"
+    "uwr"
    ],
    "summary": "Nieustąpienie pierwszeństwa innemu pojazdowi lub osobie na UWR (spowodowanie kolizji)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5021,7 +5457,9 @@
     "osobie",
     "naruszeniem",
     "czynności",
-    "narządu"
+    "narządu",
+    "uwr",
+    "ciała"
    ],
    "summary": "Nieustąpienie pierwszeństwa innemu pojazdowi lub osobie na UWR (z naruszeniem czynności narządu ciała)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5043,11 +5481,11 @@
    "code": null,
    "keywords": [
     "niestosowanie",
-    "przez",
     "osobę",
     "zakazu",
     "czepiania",
-    "pojazdów"
+    "pojazdów",
+    "uwr"
    ],
    "summary": "Niestosowanie się przez osobę na UWR do zakazu czepiania się pojazdów",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5095,12 +5533,12 @@
    "code": null,
    "keywords": [
     "niestosowanie",
-    "przez",
     "osobę",
     "zakazu",
     "ciągnięcia",
     "pojazdu",
-    "ładunku"
+    "ładunku",
+    "uwr"
    ],
    "summary": "Niestosowanie się przez osobę na UWR do zakazu ciągnięcia pojazdu lub ładunku",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5147,13 +5585,20 @@
    "code": null,
    "keywords": [
     "niestosowanie",
-    "przez",
     "osobę",
     "zakazu",
     "przewożenia",
     "innej",
     "osoby",
-    "zwierzęcia"
+    "zwierzęcia",
+    "uwr",
+    "ładunku",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Niestosowanie się przez osobę na UWR do zakazu przewożenia innej osoby, zwierzęcia lub ładunku",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5201,13 +5646,29 @@
    "code": null,
    "keywords": [
     "niestosowanie",
-    "przez",
     "osobę",
     "zakazu",
     "poruszania",
     "stanie",
     "nietrzeźwości",
-    "użyciu"
+    "użyciu",
+    "uwr",
+    "alkoholu",
+    "środka",
+    "dzia",
+    "picie",
+    "pijany",
+    "alko",
+    "alkohol",
+    "alkohole",
+    "spożywanie",
+    "piwo",
+    "piwa",
+    "wódka",
+    "drink",
+    "upojenie",
+    "promile",
+    "nietrzeźwość"
    ],
    "summary": "Niestosowanie się przez osobę na UWR do zakazu poruszania się w stanie nietrzeźwości, po użyciu alkoholu lub środka działającego podobnie",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5256,13 +5717,14 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "osobę",
     "obowiązku",
     "przekraczania",
     "torowiska",
     "tylko",
-    "miejscu"
+    "miejscu",
+    "uwr",
+    "wyznaczonym"
    ],
    "summary": "Naruszenie przez osobę na UWR obowiązku przekraczania torowiska tylko w miejscu wyznaczonym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5310,13 +5772,19 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "osobę",
     "obowiązku",
     "korzystania",
-    "przy",
     "przekraczaniu",
-    "jezdni"
+    "jezdni",
+    "uwr",
+    "przejazdu",
+    "rowerzystów",
+    "przejścia",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przez osobę na UWR obowiązku korzystania przy przekraczaniu jezdni z przejazdu dla rowerzystów albo przejścia dla pieszych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5365,13 +5833,28 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "osobę",
     "obowiązku",
     "poruszania",
     "prędkością",
     "zbliżoną",
-    "pieszego"
+    "pieszego",
+    "uwr",
+    "chodniku",
+    "drodze",
+    "pies",
+    "prędkość",
+    "przekroczenie",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie przez osobę na UWR obowiązku poruszania się z prędkością zbliżoną do pieszego na chodniku lub drodze dla pieszych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5399,7 +5882,8 @@
     "ruchu",
     "drodze",
     "publicznej",
-    "strefie"
+    "strefie",
+    "zamieszkania"
    ],
    "summary": "Naruszenie powodujące tamowanie lub utrudnienie ruchu na drodze publicznej, w strefie zamieszkania lub strefie ruchu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5421,13 +5905,17 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "osobę",
     "obowiązku",
     "ruchu",
     "prawostronnego",
     "drodze",
-    "rowerów"
+    "rowerów",
+    "uwr",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przez osobę na UWR obowiązku ruchu prawostronnego na drodze dla rowerów",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5453,9 +5941,13 @@
     "ostrożności",
     "spowodowanie",
     "zagrożenia",
-    "przez",
     "uczestnika",
-    "ruchu"
+    "ruchu",
+    "innego",
+    "niż",
+    "kierujący",
+    "pojazdem",
+    "mecha"
    ],
    "summary": "Niezachowanie należytej ostrożności i spowodowanie zagrożenia przez uczestnika ruchu innego niż kierujący pojazdem mechanicznym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5477,13 +5969,28 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "osobę",
     "obowiązku",
     "korzystania",
     "chodnika",
     "drogi",
-    "pieszych"
+    "pieszych",
+    "uwr",
+    "rowerów",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przez osobę na UWR obowiązku korzystania z chodnika, drogi dla pieszych lub drogi dla rowerów",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5507,11 +6014,21 @@
     "niestosowanie",
     "sygnałów",
     "świetlnych",
-    "przez",
     "kierującego",
     "kolumną",
     "pieszych",
-    "jeźdźca"
+    "jeźdźca",
+    "poganiacza",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Niestosowanie się do sygnałów świetlnych przez kierującego kolumną pieszych, jeźdźca lub poganiacza",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5533,13 +6050,25 @@
    "code": null,
    "keywords": [
     "przechodzenie",
-    "przez",
     "jezdnię",
     "miejscu",
     "którym",
     "urządzenia",
     "zabezpieczające",
-    "przeszkoda"
+    "przeszkoda",
+    "oddzielają",
+    "drogę",
+    "pieszych",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Przechodzenie przez jezdnię w miejscu, w którym urządzenia zabezpieczające lub przeszkoda oddzielają drogę dla pieszych albo chodnik od jezdni",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5566,7 +6095,13 @@
     "postojowe",
     "linia",
     "wyznaczająca",
-    "postojowy"
+    "postojowy",
+    "pas",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niestosowanie się do znaku P-18 \"stanowisko postojowe\", P-19 \"linia wyznaczająca pas postojowy\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5593,7 +6128,8 @@
     "półzapory",
     "opuszczone",
     "rozpoczęto",
-    "opuszczanie"
+    "opuszczanie",
+    "gdy"
    ],
    "summary": "Wchodzenie na torowisko, gdy zapory lub półzapory są opuszczone lub rozpoczęto ich opuszczanie",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5615,8 +6151,7 @@
    "code": "C 10",
    "keywords": [
     "niestosowanie",
-    "znaku",
-    "oraz"
+    "znaku"
    ],
    "summary": "Niestosowanie się do znaku F-10 / F-11 oraz P-8a / P-8b / P-8c",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5638,7 +6173,6 @@
    "code": null,
    "keywords": [
     "przebieganie",
-    "przez",
     "jezdnię"
    ],
    "summary": "Przebieganie przez jezdnię",
@@ -5663,7 +6197,11 @@
     "niestosowanie",
     "znaku",
     "postój",
-    "taksówek"
+    "taksówek",
+    "parkowanie",
+    "parking",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niestosowanie się do znaku D-19 \"postój taksówek\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5691,7 +6229,8 @@
     "potrzeby",
     "podczas",
     "przechodzenia",
-    "przez"
+    "jezdnię",
+    "torowisko"
    ],
    "summary": "Zwalnianie kroku lub zatrzymywanie się bez uzasadnionej potrzeby podczas przechodzenia przez jezdnię lub torowisko",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5714,11 +6253,8 @@
    "keywords": [
     "niestosowanie",
     "znaku",
-    "albo",
     "samodzielnie",
-    "znaku",
-    "pionowego",
-    "albo"
+    "pionowego"
    ],
    "summary": "Niestosowanie się do znaku P-18 i P-24 albo P-20 i P-24 (samodzielnie bez znaku pionowego)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5740,13 +6276,13 @@
    "code": null,
    "keywords": [
     "przechodzenie",
-    "przez",
     "jezdnię",
     "miejscach",
     "ograniczonej",
     "widoczności",
     "drogi",
-    "obszarze"
+    "obszarze",
+    "zabudowanym"
    ],
    "summary": "Przechodzenie przez jezdnię w miejscach o ograniczonej widoczności drogi na obszarze zabudowanym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5774,7 +6310,8 @@
     "innej",
     "przeszkody",
     "ograniczającej",
-    "widoczność"
+    "widoczność",
+    "drogi"
    ],
    "summary": "Wchodzenie na jezdnię spoza pojazdu lub innej przeszkody ograniczającej widoczność drogi",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5802,7 +6339,20 @@
     "jadący",
     "pojazd",
     "miejscach",
-    "innych"
+    "innych",
+    "niż",
+    "przejścia",
+    "pieszych",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Wchodzenie na jezdnię bezpośrednio przed jadący pojazd w miejscach innych niż przejścia dla pieszych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5830,7 +6380,12 @@
     "związku",
     "nadawanym",
     "sygnałem",
-    "świetlnym"
+    "świetlnym",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niezatrzymanie pojazdu we właściwym miejscu w związku z nadawanym sygnałem świetlnym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5856,9 +6411,19 @@
     "korzystania",
     "przejść",
     "pieszych",
-    "przy",
     "wchodzeniu",
-    "jezdnię"
+    "jezdnię",
+    "torowisko",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie obowiązku korzystania z przejść dla pieszych przy wchodzeniu na jezdnię lub torowisko",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5885,7 +6450,12 @@
     "ostrożności",
     "czasie",
     "postoju",
-    "pojazdu"
+    "pojazdu",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niezachowanie należytych środków ostrożności w czasie postoju pojazdu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5911,7 +6481,11 @@
     "związku",
     "znakiem",
     "stop",
-    "albo"
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niezatrzymanie pojazdu w związku ze znakiem B-20 \"stop\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5937,9 +6511,17 @@
     "używania",
     "elementów",
     "odblaskowych",
-    "przez",
     "pieszego",
-    "poza"
+    "poza",
+    "obszarem",
+    "zabudowanym",
+    "zmierzchu",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Niestosowanie się do obowiązku używania elementów odblaskowych przez pieszego poza obszarem zabudowanym po zmierzchu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -5992,7 +6574,21 @@
     "ruchu",
     "pieszych",
     "drogach",
-    "rowerów"
+    "rowerów",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przepisów dotyczących ruchu pieszych na drogach dla rowerów",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6038,13 +6634,21 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "pieszego",
     "idącego",
     "poboczu",
     "jezdni",
     "obowiązku",
-    "poruszania"
+    "poruszania",
+    "lewej",
+    "stronie",
+    "drogi",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie przez pieszego idącego po poboczu lub jezdni obowiązku poruszania się po lewej stronie drogi",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6093,11 +6697,23 @@
     "naruszenie",
     "obowiązku",
     "korzystania",
-    "przez",
     "pieszego",
     "chodnika",
     "drogi",
-    "pieszych"
+    "pieszych",
+    "razie",
+    "braku",
+    "pobocza",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie obowiązku korzystania przez pieszego z chodnika lub drogi dla pieszych, a w razie ich braku – z pobocza",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6122,7 +6738,14 @@
     "znaku",
     "ograniczenie",
     "prędkości",
-    "tramwajów"
+    "tramwajów",
+    "prędkość",
+    "przekroczenie",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Niestosowanie się do znaku BT-1 \"ograniczenie prędkości tramwajów\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6150,7 +6773,9 @@
     "tramwajowy",
     "miejsca",
     "kontynuowania",
-    "jazdy"
+    "jazdy",
+    "pojazd",
+    "mechaniczny"
    ],
    "summary": "Naruszenie zakazu wjeżdżania na przejazd tramwajowy bez miejsca do kontynuowania jazdy (pojazd mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6172,13 +6797,16 @@
    "code": "J 06",
    "keywords": [
     "niedopełnienie",
-    "przez",
     "kierującego",
     "autobusem",
     "szkolnym",
     "obowiązku",
     "zdjęcia",
-    "zasłonięcia"
+    "zasłonięcia",
+    "złożenia",
+    "tablicy",
+    "autobus",
+    "szkolny"
    ],
    "summary": "Niedopełnienie przez kierującego autobusem szkolnym obowiązku zdjęcia/zasłonięcia/złożenia tablicy \"autobus szkolny\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6203,7 +6831,12 @@
     "znaku",
     "strefa",
     "ograniczonego",
-    "postoju"
+    "postoju",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niestosowanie się do znaku B-39 \"strefa ograniczonego postoju\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6228,10 +6861,18 @@
     "pojazdu",
     "razie",
     "potrzeby",
-    "przez",
     "omijającego",
     "pojazd",
-    "przewożący"
+    "przewożący",
+    "zorganizowaną",
+    "grupę",
+    "dzieci",
+    "młodzieży",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niezatrzymanie pojazdu w razie potrzeby przez omijającego pojazd przewożący zorganizowaną grupę dzieci lub młodzieży do 18 lat",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6307,7 +6948,8 @@
     "znaku",
     "zakaz",
     "ruchu",
-    "kierunkach"
+    "kierunkach",
+    "obu"
    ],
    "summary": "Niestosowanie się do znaku B-1 \"zakaz ruchu w obu kierunkach\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6359,10 +7001,11 @@
     "sygnałów",
     "poleceń",
     "podawanych",
-    "przez",
     "osoby",
     "uprawnione",
-    "kierowania"
+    "kierowania",
+    "ruchem",
+    "drogowym"
    ],
    "summary": "Niezastosowanie się do sygnałów i poleceń podawanych przez osoby uprawnione do kierowania ruchem drogowym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6389,8 +7032,11 @@
     "opuszczonych",
     "zapór",
     "półzapór",
-    "oraz",
-    "wjeżdżania"
+    "wjeżdżania",
+    "przejazd",
+    "trakcie",
+    "opuszczania",
+    "podnosze"
    ],
    "summary": "Naruszenie zakazu objeżdżania opuszczonych zapór/półzapór oraz wjeżdżania na przejazd w trakcie ich opuszczania/podnoszenia",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6470,8 +7116,7 @@
     "zakazu",
     "zawracania",
     "znak",
-    "zakaz",
-    "zawracania"
+    "zakaz"
    ],
    "summary": "Naruszenie zakazu zawracania (znak B-23 \"zakaz zawracania\")",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6499,7 +7144,28 @@
     "użyciu",
     "alkoholu",
     "rowerze",
-    "motorowerze"
+    "motorowerze",
+    "motocyklu",
+    "poza",
+    "bocznym",
+    "wózkiem",
+    "picie",
+    "pijany",
+    "alko",
+    "alkohol",
+    "alkohole",
+    "spożywanie",
+    "piwo",
+    "piwa",
+    "wódka",
+    "drink",
+    "upojenie",
+    "promile",
+    "nietrzeźwość",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Przewożenie osoby w stanie nietrzeźwości/po użyciu alkoholu na rowerze, motorowerze albo motocyklu poza bocznym wózkiem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6527,7 +7193,13 @@
     "wymagającego",
     "trzymania",
     "słuchawki",
-    "mikrofonu"
+    "mikrofonu",
+    "ręku",
+    "telefon",
+    "komórka",
+    "rozmowa",
+    "trzymanie telefonu",
+    "smartfon"
    ],
    "summary": "Korzystanie podczas jazdy z telefonu wymagającego trzymania słuchawki lub mikrofonu w ręku",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6555,7 +7227,11 @@
     "jazdy",
     "motocyklem",
     "czterokołowcem",
-    "motorowerem"
+    "motorowerem",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Nieużywanie kasku ochronnego podczas jazdy motocyklem, czterokołowcem lub motorowerem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6583,7 +7259,8 @@
     "wydzielającego",
     "odrażającą",
     "odpowiedniego",
-    "zabezpieczenia"
+    "zabezpieczenia",
+    "woń"
    ],
    "summary": "Przewożenie ładunku o odrażającym wyglądzie lub wydzielającego odrażającą woń bez odpowiedniego zabezpieczenia",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6611,7 +7288,12 @@
     "pasażera",
     "niekorzystającego",
     "pasów",
-    "bezpieczeństwa"
+    "bezpieczeństwa",
+    "pasy",
+    "pas",
+    "zapięcie",
+    "niezapięty",
+    "zapiąć"
    ],
    "summary": "Kierowanie pojazdem przewożącym jednego pasażera niekorzystającego z pasów bezpieczeństwa",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6639,7 +7321,14 @@
     "jednego",
     "pasażera",
     "niekorzystającego",
-    "pasów"
+    "pasów",
+    "niż",
+    "bezpieczeństwa",
+    "pasy",
+    "pas",
+    "zapięcie",
+    "niezapięty",
+    "zapiąć"
    ],
    "summary": "Kierowanie pojazdem przewożącym więcej niż jednego pasażera niekorzystającego z pasów bezpieczeństwa",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6694,7 +7383,12 @@
     "mającego",
     "mniej",
     "wzrostu",
-    "poza"
+    "poza",
+    "niż",
+    "150",
+    "fotelikiem",
+    "urządzeniem",
+    "przytrzymujący"
    ],
    "summary": "Przewożenie na przednim siedzeniu 1 dziecka mającego mniej niż 150 cm wzrostu poza fotelikiem/urządzeniem przytrzymującym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6722,7 +7416,8 @@
     "przekroczenie",
     "dopuszczalnej",
     "masy",
-    "całkowitej"
+    "całkowitej",
+    "ładowności"
    ],
    "summary": "Umieszczenie na pojeździe ładunku powodującego przekroczenie dopuszczalnej masy całkowitej lub ładowności",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6750,7 +7445,10 @@
     "pojeździe",
     "niewyposażonym",
     "pasy",
-    "fotelik"
+    "fotelik",
+    "lat",
+    "urządzenie",
+    "przytrzymujące"
    ],
    "summary": "Przewożenie 1 dziecka w wieku poniżej 3 lat w pojeździe niewyposażonym w pasy i fotelik/urządzenie przytrzymujące",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6778,7 +7476,10 @@
     "kolumnach",
     "niezachowanie",
     "wymaganej",
-    "odległości"
+    "odległości",
+    "między",
+    "kolumnami",
+    "poj"
    ],
    "summary": "Naruszenie przepisów o jeździe w zorganizowanych kolumnach – niezachowanie wymaganej odległości między kolumnami lub pojazdami",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6806,7 +7507,9 @@
     "jazdy",
     "przednim",
     "siedzeniu",
-    "aktywną"
+    "aktywną",
+    "poduszką",
+    "powietrzną"
    ],
    "summary": "Przewożenie 1 dziecka tyłem do kierunku jazdy na przednim siedzeniu z aktywną poduszką powietrzną",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6834,7 +7537,8 @@
     "kolumnach",
     "przekroczenie",
     "dopuszczalnej",
-    "liczby"
+    "liczby",
+    "pojazdów"
    ],
    "summary": "Naruszenie przepisów o jeździe w zorganizowanych kolumnach – przekroczenie dopuszczalnej liczby pojazdów",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6861,7 +7565,6 @@
     "fotelikiem",
     "urządzeniem",
     "przytrzymującym",
-    "poza",
     "wyjątkami"
    ],
    "summary": "Przewożenie 1 dziecka poza fotelikiem/urządzeniem przytrzymującym (poza wyjątkami)",
@@ -6884,13 +7587,15 @@
    "code": null,
    "keywords": [
     "przejeżdżanie",
-    "przez",
     "przejazd",
     "kolejowy",
     "pojazdu",
     "długiego",
     "ponad",
-    "upewnienia"
+    "upewnienia",
+    "uzgodnienia",
+    "czasu",
+    "przejazdu"
    ],
    "summary": "Przejeżdżanie przez przejazd kolejowy pojazdu długiego (ponad 10 m) bez upewnienia się lub uzgodnienia czasu przejazdu z dróżnikiem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6914,11 +7619,14 @@
     "naruszenie",
     "zakazu",
     "wyprzedzania",
-    "przy",
     "przejeżdżaniu",
-    "przez",
     "tory",
-    "tramwajowe"
+    "tramwajowe",
+    "bezpośrednio",
+    "przed",
+    "nimi",
+    "pojazd",
+    "mechaniczny"
    ],
    "summary": "Naruszenie zakazu wyprzedzania przy przejeżdżaniu przez tory tramwajowe lub bezpośrednio przed nimi (pojazd mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6946,7 +7654,9 @@
     "ekspresowej",
     "dwóch",
     "pasach",
-    "ruchu"
+    "ruchu",
+    "pojazd",
+    "kat"
    ],
    "summary": "Naruszenie zakazu wyprzedzania na autostradzie/ekspresowej o dwóch pasach ruchu (pojazd kat. N2 lub N3)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6974,7 +7684,11 @@
     "prawych",
     "pasów",
     "autostradzie",
-    "ekspresowej"
+    "ekspresowej",
+    "trzech",
+    "pasach",
+    "pojazd",
+    "kat"
    ],
    "summary": "Naruszenie obowiązku korzystania z dwóch prawych pasów na autostradzie/ekspresowej o trzech pasach (pojazd kat. N2/N3 lub zespół ponad 7 m)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -6996,13 +7710,14 @@
    "code": null,
    "keywords": [
     "niestosowanie",
-    "przez",
     "kierującego",
     "pojazdem",
     "uprzywilejowanym",
     "sygnałów",
     "dawanych",
-    "przez"
+    "osobę",
+    "kierującą",
+    "ruchem"
    ],
    "summary": "Niestosowanie się przez kierującego pojazdem uprzywilejowanym do sygnałów dawanych przez osobę kierującą ruchem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7030,7 +7745,8 @@
     "uprzywilejowanego",
     "obszarze",
     "zabudowanym",
-    "pojazd"
+    "pojazd",
+    "mechaniczny"
    ],
    "summary": "Naruszenie zakazu wyprzedzania pojazdu uprzywilejowanego na obszarze zabudowanym (pojazd mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7084,9 +7800,11 @@
     "wyprzedzania",
     "pojazdu",
     "silnikowego",
-    "przy",
     "dojeżdżaniu",
-    "wierzchołka"
+    "wierzchołka",
+    "wzniesienia",
+    "pojazd",
+    "mechaniczny"
    ],
    "summary": "Naruszenie zakazu wyprzedzania pojazdu silnikowego przy dojeżdżaniu do wierzchołka wzniesienia (pojazd mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7114,7 +7832,15 @@
     "informujące",
     "sprzęcie",
     "kontrolno",
-    "pomiarowym"
+    "pomiarowym",
+    "przewożenie",
+    "stani",
+    "hałas",
+    "cisza",
+    "spokój",
+    "zakłócenie",
+    "głośno",
+    "krzyk"
    ],
    "summary": "Wyposażenie pojazdu w urządzenie zakłócające lub informujące o sprzęcie kontrolno-pomiarowym albo przewożenie go w stanie gotowości do użycia",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7136,13 +7862,13 @@
    "code": null,
    "keywords": [
     "niestosowanie",
-    "przez",
     "kierującego",
     "pojazdem",
     "wolnobieżnym",
     "ciągnikiem",
     "rolniczym",
-    "pojazdem"
+    "silnika",
+    "obowiązku"
    ],
    "summary": "Niestosowanie się przez kierującego pojazdem wolnobieżnym, ciągnikiem rolniczym lub pojazdem bez silnika do obowiązku zjechania jak najbardziej na prawo",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7170,7 +7896,14 @@
     "pojazdu",
     "uprzywilejowanego",
     "światła",
-    "niebieskie"
+    "niebieskie",
+    "czerwone",
+    "błyskowe",
+    "syg",
+    "oświetlenie",
+    "mijania",
+    "pozycyjne",
+    "bez świateł"
    ],
    "summary": "Nieuprawnione umieszczanie w pojeździe urządzeń pojazdu uprzywilejowanego (światła niebieskie/czerwone błyskowe albo sygnał dźwiękowy o zmiennym tonie)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7195,7 +7928,17 @@
     "zakazu",
     "rozdzielania",
     "kolumny",
-    "pieszych"
+    "pieszych",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie zakazu rozdzielania kolumny pieszych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7246,7 +7989,6 @@
     "pojazdu",
     "badaniu",
     "technicznemu",
-    "przez",
     "właściciela",
     "wyznaczonym",
     "terminie"
@@ -7303,7 +8045,15 @@
     "powodujące",
     "uciążliwości",
     "nadmierna",
-    "emisja"
+    "emisja",
+    "spalin",
+    "nadmierny",
+    "hałas",
+    "cisza",
+    "spokój",
+    "zakłócenie",
+    "głośno",
+    "krzyk"
    ],
    "summary": "Używanie pojazdu na obszarze zabudowanym powodujące uciążliwości (nadmierna emisja spalin lub nadmierny hałas)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7328,7 +8078,6 @@
     "tunelach",
     "mostach",
     "wiaduktach",
-    "oraz",
     "drogach",
     "jednokierunkowych"
    ],
@@ -7358,7 +8107,13 @@
     "rejestracyjnych",
     "oznaczeń",
     "pojazdu",
-    "należytym"
+    "należytym",
+    "stanie",
+    "czytelności",
+    "tablice",
+    "rejestracja",
+    "blachy",
+    "nr rej"
    ],
    "summary": "Niedopełnienie obowiązku utrzymywania tablic rejestracyjnych i oznaczeń pojazdu w należytym stanie i czytelności",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7386,7 +8141,10 @@
     "pojazdem",
     "poza",
     "obszarem",
-    "zabudowanym"
+    "zabudowanym",
+    "tunelu",
+    "ponad",
+    "500"
    ],
    "summary": "Niezachowanie wymaganego odstępu za poprzedzającym pojazdem poza obszarem zabudowanym w tunelu ponad 500 m",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7414,7 +8172,9 @@
     "inne",
     "państwo",
     "którym",
-    "pojazd"
+    "pojazd",
+    "niż",
+    "zarejestrowano"
    ],
    "summary": "Umieszczenie na pojeździe znaku określającego inne państwo niż to, w którym pojazd zarejestrowano",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7438,11 +8198,20 @@
     "niezachowanie",
     "niezbędnego",
     "odstępu",
-    "przez",
     "pojazd",
     "długi",
     "ponad",
-    "objęty"
+    "objęty",
+    "indywidualnym",
+    "ograniczeniem",
+    "prędkości",
+    "prędkość",
+    "przekroczenie",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Niezachowanie niezbędnego odstępu przez pojazd długi (ponad 7 m) lub objęty indywidualnym ograniczeniem prędkości",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7490,7 +8259,12 @@
     "przekroczenie",
     "dopuszczalnej",
     "prędkości",
-    "albo"
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Przekroczenie dopuszczalnej prędkości o 51-60 km/h",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7518,7 +8292,9 @@
     "kolejowym",
     "bezpośrednio",
     "przed",
-    "pojazd"
+    "pojazd",
+    "nim",
+    "mechaniczny"
    ],
    "summary": "Naruszenie zakazu wyprzedzania na przejeździe kolejowym i bezpośrednio przed nim (pojazd mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7542,7 +8318,12 @@
     "przekroczenie",
     "dopuszczalnej",
     "prędkości",
-    "albo"
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Przekroczenie dopuszczalnej prędkości o 31-40 km/h",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7570,7 +8351,13 @@
     "rowerzystów",
     "bezpośrednio",
     "przed",
-    "pojazd"
+    "pojazd",
+    "nim",
+    "mechaniczny",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie zakazu wyprzedzania na przejeździe dla rowerzystów i bezpośrednio przed nim (pojazd mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7594,7 +8381,12 @@
     "przekroczenie",
     "dopuszczalnej",
     "prędkości",
-    "albo"
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Przekroczenie dopuszczalnej prędkości o 16-20 km/h",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7622,7 +8414,8 @@
     "poza",
     "okrężnym",
     "kierowanym",
-    "pojazd"
+    "pojazd",
+    "mechaniczny"
    ],
    "summary": "Naruszenie zakazu wyprzedzania na skrzyżowaniu (poza okrężnym/kierowanym) (pojazd mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7646,7 +8439,12 @@
     "przekroczenie",
     "dopuszczalnej",
     "prędkości",
-    "albo"
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Przekroczenie dopuszczalnej prędkości o 11-15 km/h",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7674,7 +8472,8 @@
     "oznaczonym",
     "znakami",
     "ostrzegawczymi",
-    "pojazd"
+    "pojazd",
+    "mechaniczny"
    ],
    "summary": "Naruszenie zakazu wyprzedzania na zakręcie oznaczonym znakami ostrzegawczymi (pojazd mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7698,7 +8497,12 @@
     "przekroczenie",
     "dopuszczalnej",
     "prędkości",
-    "albo"
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Przekroczenie dopuszczalnej prędkości do 10 km/h",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7721,10 +8525,16 @@
    "keywords": [
     "zwiększanie",
     "prędkości",
-    "przez",
     "kierującego",
     "pojazdem",
-    "wyprzedzanym"
+    "wyprzedzanym",
+    "prędkość",
+    "przekroczenie",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Zwiększanie prędkości przez kierującego pojazdem wyprzedzanym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7752,7 +8562,12 @@
     "innym",
     "miejscu",
     "konstrukcyjnie",
-    "przeznaczone"
+    "przeznaczone",
+    "niż",
+    "tablice",
+    "rejestracja",
+    "blachy",
+    "nr rej"
    ],
    "summary": "Umieszczanie na pojeździe tablic rejestracyjnych w innym miejscu niż konstrukcyjnie przeznaczone",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7779,8 +8594,8 @@
     "zamiar",
     "skręcenia",
     "lewo",
-    "jego",
-    "lewej"
+    "lewej",
+    "strony"
    ],
    "summary": "Omijanie pojazdu sygnalizującego zamiar skręcenia w lewo z jego lewej strony",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7805,10 +8620,11 @@
     "innych",
     "wymaganych",
     "tablic",
-    "albo",
     "znaków",
     "które",
-    "powinny"
+    "powinny",
+    "być",
+    "widoczne"
    ],
    "summary": "Zakrywanie innych wymaganych tablic albo znaków, które powinny być widoczne",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7859,7 +8675,11 @@
    "keywords": [
     "zakrywanie",
     "tablic",
-    "rejestracyjnych"
+    "rejestracyjnych",
+    "tablice",
+    "rejestracja",
+    "blachy",
+    "nr rej"
    ],
    "summary": "Zakrywanie tablic rejestracyjnych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7914,7 +8734,9 @@
     "bezpieczeństwu",
     "osoby",
     "znajdującej",
-    "pojeździe"
+    "pojeździe",
+    "poza",
+    "nim"
    ],
    "summary": "Używanie pojazdu w sposób zagrażający bezpieczeństwu osoby znajdującej się w pojeździe lub poza nim",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7941,7 +8763,13 @@
     "dopuszczalnej",
     "prędkości",
     "danego",
-    "pojazdu"
+    "pojazdu",
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Przekroczenie indywidualnie określonej dopuszczalnej prędkości dla danego pojazdu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -7991,7 +8819,12 @@
     "dopuszczalnej",
     "prędkości",
     "więcej",
-    "albo"
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Przekroczenie dopuszczalnej prędkości o 71 km/h i więcej",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8016,10 +8849,10 @@
     "przepisów",
     "obowiązku",
     "wysyłania",
-    "przez",
     "pojazdy",
     "żółtych",
-    "sygnałów"
+    "sygnałów",
+    "błyskowych"
    ],
    "summary": "Naruszenie przepisów o obowiązku wysyłania przez pojazdy żółtych sygnałów błyskowych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8043,7 +8876,12 @@
     "przekroczenie",
     "dopuszczalnej",
     "prędkości",
-    "albo"
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Przekroczenie dopuszczalnej prędkości o 61-70 km/h",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8069,9 +8907,9 @@
     "ułatwień",
     "ruchu",
     "drogowym",
-    "przez",
     "kierującego",
-    "pojazdem"
+    "pojazdem",
+    "uprzywilejowanym"
    ],
    "summary": "Bezpodstawne korzystanie z ułatwień w ruchu drogowym przez kierującego pojazdem uprzywilejowanym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8095,7 +8933,12 @@
     "przekroczenie",
     "dopuszczalnej",
     "prędkości",
-    "albo"
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Przekroczenie dopuszczalnej prędkości o 41-50 km/h",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8146,7 +8989,12 @@
     "przekroczenie",
     "dopuszczalnej",
     "prędkości",
-    "albo"
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Przekroczenie dopuszczalnej prędkości o 26-30 km/h",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8196,7 +9044,12 @@
     "przekroczenie",
     "dopuszczalnej",
     "prędkości",
-    "albo"
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Przekroczenie dopuszczalnej prędkości o 21-25 km/h",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8224,7 +9077,12 @@
     "punktów",
     "krańcowych",
     "wysepki",
-    "jezdnia"
+    "jezdnia",
+    "niż",
+    "gdy",
+    "prawej",
+    "tylko",
+    "jeden"
    ],
    "summary": "Zatrzymywanie pojazdu w odległości mniejszej niż 15 m od punktów krańcowych wysepki, gdy jezdnia z prawej ma tylko jeden pas ruchu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8249,7 +9107,12 @@
     "pasów",
     "bezpieczeństwa",
     "podczas",
-    "jazdy"
+    "jazdy",
+    "pasy",
+    "pas",
+    "zapięcie",
+    "niezapięty",
+    "zapiąć"
    ],
    "summary": "Niekorzystanie z pasów bezpieczeństwa podczas jazdy",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8277,7 +9140,8 @@
     "słupka",
     "tablicy",
     "oznaczającej",
-    "przystanek"
+    "przystanek",
+    "niż"
    ],
    "summary": "Zatrzymywanie pojazdu w odległości mniejszej niż 15 m od słupka lub tablicy oznaczającej przystanek",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8305,7 +9169,12 @@
     "dwojga",
     "dzieci",
     "mających",
-    "mniej"
+    "mniej",
+    "niż",
+    "150",
+    "wzrostu",
+    "poza",
+    "fotelikiem"
    ],
    "summary": "Przewożenie na przednim siedzeniu więcej niż dwojga dzieci mających mniej niż 150 cm wzrostu poza fotelikiem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8333,7 +9202,9 @@
     "pojeździe",
     "pasów",
     "fotelika",
-    "urządzenia"
+    "urządzenia",
+    "lat",
+    "przytrzymującego"
    ],
    "summary": "Przewożenie dwojga dzieci poniżej 3 lat w pojeździe bez pasów i fotelika/urządzenia przytrzymującego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8361,7 +9232,9 @@
     "poza",
     "fotelikiem",
     "urządzeniem",
-    "przytrzymującym"
+    "przytrzymującym",
+    "niż",
+    "wyjątkami"
    ],
    "summary": "Przewożenie więcej niż dwojga dzieci poza fotelikiem/urządzeniem przytrzymującym (poza wyjątkami)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8389,7 +9262,7 @@
     "fotelikiem",
     "urządzeniem",
     "przytrzymującym",
-    "poza"
+    "wyjątkami"
    ],
    "summary": "Przewożenie dwojga dzieci poza fotelikiem/urządzeniem przytrzymującym (poza wyjątkami)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8417,7 +9290,12 @@
     "tyłem",
     "kierunku",
     "jazdy",
-    "przednim"
+    "przednim",
+    "niż",
+    "siedzeniu",
+    "aktywną",
+    "poduszką",
+    "powietrzną"
    ],
    "summary": "Przewożenie więcej niż dwojga dzieci tyłem do kierunku jazdy na przednim siedzeniu z aktywną poduszką powietrzną",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8445,7 +9323,10 @@
     "kierunku",
     "jazdy",
     "przednim",
-    "siedzeniu"
+    "siedzeniu",
+    "aktywną",
+    "poduszką",
+    "powietrzną"
    ],
    "summary": "Przewożenie dwojga dzieci tyłem do kierunku jazdy na przednim siedzeniu z aktywną poduszką powietrzną",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8473,7 +9354,11 @@
     "poniżej",
     "pojeździe",
     "pasów",
-    "fotelika"
+    "fotelika",
+    "niż",
+    "lat",
+    "urządzenia",
+    "przytrzymującego"
    ],
    "summary": "Przewożenie więcej niż dwojga dzieci poniżej 3 lat w pojeździe bez pasów i fotelika/urządzenia przytrzymującego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8501,7 +9386,11 @@
     "dzieci",
     "mających",
     "mniej",
-    "wzrostu"
+    "wzrostu",
+    "niż",
+    "150",
+    "poza",
+    "fotelikiem"
    ],
    "summary": "Przewożenie na przednim siedzeniu dwojga dzieci mających mniej niż 150 cm wzrostu poza fotelikiem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8529,7 +9418,9 @@
     "foteliku",
     "zainstalowanym",
     "niezgodnie",
-    "zaleceniami"
+    "zaleceniami",
+    "niż",
+    "producenta"
    ],
    "summary": "Przewożenie więcej niż dwojga dzieci w foteliku zainstalowanym niezgodnie z zaleceniami producenta",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8634,10 +9525,17 @@
     "obowiązku",
     "poruszania",
     "poboczu",
-    "przez",
     "kierującego",
     "pojazdem",
-    "zaprzęgowym"
+    "zaprzęgowym",
+    "rowerem",
+    "wózkiem",
+    "motorowerem",
+    "alb",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie obowiązku poruszania się po poboczu przez kierującego pojazdem zaprzęgowym, rowerem, wózkiem, motorowerem albo prowadzącego pojazd napędzany silnikiem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8660,7 +9558,6 @@
    "keywords": [
     "zatrzymywanie",
     "pojazdu",
-    "przy",
     "lewej",
     "krawędzi",
     "jezdni"
@@ -8690,7 +9587,8 @@
     "wyznaczonego",
     "jezdni",
     "pasa",
-    "ruchu"
+    "ruchu",
+    "niż"
    ],
    "summary": "Zajmowanie więcej niż jednego, wyznaczonego na jezdni, pasa ruchu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8718,7 +9616,11 @@
     "przedniej",
     "strony",
     "znaku",
-    "sygnału"
+    "sygnału",
+    "niż",
+    "drogowego",
+    "jeżeli",
+    "pojazd"
    ],
    "summary": "Zatrzymywanie pojazdu w odległości mniejszej niż 10 m od przedniej strony znaku lub sygnału drogowego, jeżeli pojazd je zasłania",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8746,7 +9648,8 @@
     "przejazdu",
     "pojazdu",
     "uprzywilejowanego",
-    "korytarz"
+    "korytarz",
+    "życia"
    ],
    "summary": "Naruszenie zakazu korzystania z drogi przejazdu pojazdu uprzywilejowanego (korytarz życia)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8774,7 +9677,11 @@
     "linii",
     "ciągłej",
     "zmusza",
-    "pojazdy"
+    "pojazdy",
+    "gdy",
+    "wielośladowe",
+    "najeżdżania",
+    "linię"
    ],
    "summary": "Zatrzymywanie pojazdu na jezdni wzdłuż linii ciągłej, gdy zmusza pojazdy wielośladowe do najeżdżania na tę linię",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8802,7 +9709,22 @@
     "innego",
     "mechaniczny",
     "dostępu",
-    "pieszych"
+    "pieszych",
+    "niż",
+    "komunikacji",
+    "publicznej",
+    "brak",
+    "wys",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie obowiązku zatrzymania pojazdu innego niż mechaniczny dla dostępu pieszych do komunikacji publicznej (brak wysepki)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8829,7 +9751,12 @@
     "zatrzymania",
     "postoju",
     "pojazdu",
-    "chodniku"
+    "chodniku",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Naruszenie warunków dopuszczalności zatrzymania lub postoju pojazdu na chodniku",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8857,7 +9784,15 @@
     "przejścia",
     "osoby",
     "niepełnosprawnej",
-    "ograniczonej"
+    "ograniczonej",
+    "niż",
+    "sprawności",
+    "ruchowe",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niezatrzymanie pojazdu innego niż mechaniczny dla przejścia osoby niepełnosprawnej lub o ograniczonej sprawności ruchowej",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8885,7 +9820,14 @@
     "poza",
     "jezdnią",
     "czasie",
-    "postoju"
+    "postoju",
+    "obszarem",
+    "zabudowanym",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Naruszenie obowiązku umieszczania pojazdu poza jezdnią w czasie postoju poza obszarem zabudowanym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8913,7 +9855,20 @@
     "dostępu",
     "pieszych",
     "komunikacji",
-    "publicznej"
+    "publicznej",
+    "chodnik",
+    "brak",
+    "wysepki",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie obowiązku zatrzymania pojazdu dla dostępu pieszych do komunikacji publicznej lub na chodnik (brak wysepki)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8941,7 +9896,12 @@
     "ekspresowej",
     "miejscach",
     "innych",
-    "wyznaczone"
+    "wyznaczone",
+    "niż",
+    "parkowanie",
+    "parking",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Zatrzymanie lub postój na autostradzie lub drodze ekspresowej w miejscach innych niż wyznaczone",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -8969,7 +9929,13 @@
     "celu",
     "ustąpienia",
     "pierwszeństwa",
-    "pieszemu"
+    "pieszemu",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Omijanie pojazdu, który zatrzymał się w celu ustąpienia pierwszeństwa pieszemu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9021,7 +9987,18 @@
     "przejściu",
     "pieszych",
     "bezpośrednio",
-    "przed"
+    "przed",
+    "nim",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Wyprzedzanie pojazdu na przejściu dla pieszych lub bezpośrednio przed nim",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9049,7 +10026,16 @@
     "poza",
     "obszarem",
     "zabudowanym",
-    "pojazd"
+    "pojazd",
+    "aby",
+    "zaprzęgowy",
+    "znajdował",
+    "jezdnią",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Naruszenie nakazu, aby w czasie postoju poza obszarem zabudowanym pojazd zaprzęgowy znajdował się poza jezdnią",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9075,7 +10061,13 @@
     "pieszemu",
     "podczas",
     "włączania",
-    "ruchu"
+    "ruchu",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Nieustąpienie pierwszeństwa pieszemu podczas włączania się do ruchu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9097,13 +10089,22 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "poganiacza",
     "zakazu",
     "przepędzania",
     "zwierząt",
     "poprzek",
-    "drogi"
+    "drogi",
+    "miejscu",
+    "niewidocznym",
+    "dostateczną",
+    "odległość",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie przez poganiacza zakazu przepędzania zwierząt w poprzek drogi w miejscu niewidocznym na dostateczną odległość",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9127,11 +10128,21 @@
     "nieustąpienie",
     "pierwszeństwa",
     "pieszemu",
-    "przy",
     "przejeżdżaniu",
-    "przez",
     "chodnik",
-    "drogę"
+    "drogę",
+    "pieszych",
+    "placu",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Nieustąpienie pierwszeństwa pieszemu przy przejeżdżaniu przez chodnik/drogę dla pieszych albo na placu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9153,13 +10164,18 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "poganiacza",
     "zakazu",
     "pędzenia",
     "zwierząt",
     "określonych",
-    "drogach"
+    "drogach",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie przez poganiacza zakazu pędzenia zwierząt po określonych drogach",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9185,9 +10201,14 @@
     "pieszemu",
     "znajdującemu",
     "przejściu",
-    "albo",
     "wchodzącemu",
-    "przejście"
+    "przejście",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Nieustąpienie pierwszeństwa pieszemu znajdującemu się na przejściu albo wchodzącemu na przejście",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9209,13 +10230,19 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "poganiacza",
     "obowiązku",
     "używania",
     "okresie",
     "niedostatecznej",
-    "widoczności"
+    "widoczności",
+    "odpowiedniego",
+    "oświetlenia",
+    "światła",
+    "oświetlenie",
+    "mijania",
+    "pozycyjne",
+    "bez świateł"
    ],
    "summary": "Naruszenie przez poganiacza obowiązku używania w okresie niedostatecznej widoczności odpowiedniego oświetlenia",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9237,13 +10264,20 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "osobę",
     "obowiązku",
     "ustąpienia",
     "pierwszeństwa",
     "pieszemu",
-    "znajdującemu"
+    "znajdującemu",
+    "uwr",
+    "przejściu",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie przez osobę na UWR obowiązku ustąpienia pierwszeństwa pieszemu znajdującemu się na przejściu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9269,7 +10303,13 @@
     "odpowiedniego",
     "nadzoru",
     "pojedynczych",
-    "uwięzi"
+    "uwięzi",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Pędzenie zwierząt bez odpowiedniego nadzoru, a pojedynczych bez uwięzi",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9291,13 +10331,25 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "osobę",
     "obowiązku",
     "nieutrudnienia",
     "ruchu",
     "pieszemu",
-    "chodniku"
+    "chodniku",
+    "uwr",
+    "drodze",
+    "pieszych",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie przez osobę na UWR obowiązku nieutrudnienia ruchu pieszemu na chodniku lub drodze dla pieszych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9325,7 +10377,13 @@
     "fizycznie",
     "niedających",
     "sobą",
-    "kierować"
+    "kierować",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Pędzenie zwierząt płochliwych, niesprawnych fizycznie lub niedających sobą kierować",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9347,12 +10405,17 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "poganiacza",
     "zakazu",
     "zatrzymywania",
     "zwierząt",
-    "jezdni"
+    "jezdni",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie przez poganiacza zakazu zatrzymywania zwierząt na jezdni",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9374,13 +10437,13 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "jeźdźca",
     "poganiacza",
     "obowiązku",
     "korzystania",
     "określonej",
-    "drogi"
+    "drogi",
+    "części"
    ],
    "summary": "Naruszenie przez jeźdźca lub poganiacza obowiązku korzystania z określonej drogi lub części drogi",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9402,13 +10465,19 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "poganiacza",
     "obowiązku",
     "poruszania",
     "lewej",
     "stronie",
-    "pędzonych"
+    "pędzonych",
+    "zwierząt",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie przez poganiacza obowiązku poruszania się po lewej stronie pędzonych zwierząt",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9430,13 +10499,16 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "pojazdem",
     "zaprzęgowym",
     "zakazu",
     "jazdy",
-    "obok"
+    "obok",
+    "innego",
+    "uczestnika",
+    "ruchu",
+    "jezdni"
    ],
    "summary": "Naruszenie przez kierującego pojazdem zaprzęgowym zakazu jazdy obok innego uczestnika ruchu na jezdni",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9458,13 +10530,15 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "pojazdem",
     "zaprzęgowym",
     "zakazu",
     "jazdy",
-    "pojazdami"
+    "pojazdami",
+    "płozach",
+    "dzwonków",
+    "grzechotek"
    ],
    "summary": "Naruszenie przez kierującego pojazdem zaprzęgowym zakazu jazdy pojazdami na płozach bez dzwonków lub grzechotek",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9486,13 +10560,31 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "rowerem",
     "hulajnogą",
     "chodniku",
     "drodze",
-    "pieszych"
+    "pieszych",
+    "uto",
+    "obowiązku",
+    "nieutrudnienia",
+    "ruchu",
+    "piesze",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przez kierującego rowerem/hulajnogą/UTO na chodniku/drodze dla pieszych obowiązku nieutrudnienia ruchu pieszemu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9514,13 +10606,15 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "pojazdem",
     "zaprzęgowym",
     "zakazu",
     "pozostawiania",
-    "pojazdu"
+    "pojazdu",
+    "niezabezpieczonego",
+    "przed",
+    "ruszeniem"
    ],
    "summary": "Naruszenie przez kierującego pojazdem zaprzęgowym zakazu pozostawiania pojazdu niezabezpieczonego przed ruszeniem",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9542,13 +10636,37 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "rowerem",
     "hulajnogą",
     "chodniku",
     "drodze",
-    "pieszych"
+    "pieszych",
+    "uto",
+    "obowiązku",
+    "poruszania",
+    "prędkością",
+    "prędkość",
+    "przekroczenie",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przez kierującego rowerem/hulajnogą/UTO na chodniku/drodze dla pieszych obowiązku poruszania się z prędkością zbliżoną do pieszego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9570,13 +10688,30 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "rowerem",
     "hulajnogą",
     "chodniku",
     "drodze",
-    "pieszych"
+    "pieszych",
+    "uto",
+    "obowiązku",
+    "ustąpienia",
+    "pierwszeństwa",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przez kierującego rowerem/hulajnogą/UTO na chodniku/drodze dla pieszych obowiązku ustąpienia pierwszeństwa pieszemu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9598,13 +10733,29 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "rowerem",
     "hulajnogą",
     "przepisów",
     "korzystaniu",
-    "chodnika"
+    "chodnika",
+    "uto",
+    "drogi",
+    "pieszych",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przez kierującego rowerem/hulajnogą/UTO przepisów o korzystaniu z chodnika lub drogi dla pieszych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9628,11 +10779,27 @@
     "nieustąpienie",
     "pierwszeństwa",
     "pieszemu",
-    "przez",
     "kierującego",
     "rowerem",
     "hulajnogą",
-    "korzystającego"
+    "korzystającego",
+    "drogi",
+    "rowerów",
+    "pieszy",
+    "pieszych",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Nieustąpienie pierwszeństwa pieszemu przez kierującego rowerem lub hulajnogą korzystającego z drogi dla rowerów i pieszych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9654,13 +10821,17 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "rowerem",
     "hulajnogą",
     "motorowerem",
     "zakazu",
-    "czepiania"
+    "czepiania",
+    "pojazdów",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przez kierującego rowerem/hulajnogą/motorowerem zakazu czepiania się pojazdów",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9682,13 +10853,19 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "rowerem",
     "hulajnogą",
     "obowiązku",
     "korzystania",
-    "drogi"
+    "drogi",
+    "rowerów",
+    "pasa",
+    "ruchu",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przez kierującego rowerem lub hulajnogą obowiązku korzystania z drogi dla rowerów lub pasa ruchu dla rowerów",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9710,13 +10887,21 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "rowerem",
     "hulajnogą",
     "motorowerem",
     "zakazu",
-    "jazdy"
+    "jazdy",
+    "trzymania",
+    "ręki",
+    "kierownicy",
+    "nóg",
+    "ped",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przez kierującego rowerem/hulajnogą/motorowerem zakazu jazdy bez trzymania ręki na kierownicy oraz nóg na pedałach/podnóżkach",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9744,7 +10929,9 @@
     "właściwej",
     "odległości",
     "między",
-    "pojazdami"
+    "pojazdami",
+    "holowanym",
+    "holującym"
    ],
    "summary": "Naruszenie warunków holowania – niezachowanie właściwej odległości między pojazdami holowanym a holującym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9770,9 +10957,17 @@
     "innym",
     "uczestnikom",
     "ruchu",
-    "przez",
     "kierującego",
-    "rowerem"
+    "rowerem",
+    "jadącego",
+    "jezdni",
+    "obok",
+    "innego",
+    "roweru",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Utrudnianie poruszania się innym uczestnikom ruchu przez kierującego rowerem jadącego po jezdni obok innego roweru lub motoroweru",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9794,13 +10989,25 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "osobę",
     "obowiązku",
     "ustąpienia",
     "pierwszeństwa",
     "pieszemu",
-    "chodniku"
+    "chodniku",
+    "uwr",
+    "drodze",
+    "pieszych",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie przez osobę na UWR obowiązku ustąpienia pierwszeństwa pieszemu na chodniku lub drodze dla pieszych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9822,13 +11029,21 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "rowerem",
     "hulajnogą",
     "motorowerem",
     "zakazu",
-    "jazdy"
+    "jazdy",
+    "jezdni",
+    "obok",
+    "innego",
+    "uczestnika",
+    "ruchu",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przez kierującego rowerem/hulajnogą/motorowerem zakazu jazdy po jezdni obok innego uczestnika ruchu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9854,7 +11069,17 @@
     "drogowych",
     "dotyczących",
     "ruchu",
-    "pieszych"
+    "pieszych",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Niestosowanie się do znaków drogowych dotyczących ruchu pieszych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9876,13 +11101,18 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "rowerem",
     "obowiązku",
     "przewożenia",
     "dziecka",
-    "dodatkowym"
+    "dodatkowym",
+    "lat",
+    "siodełku",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Naruszenie przez kierującego rowerem obowiązku przewożenia dziecka do lat 7 na dodatkowym siodełku",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9904,13 +11134,25 @@
    "code": null,
    "keywords": [
     "korzystanie",
-    "przez",
     "pieszego",
     "telefonu",
     "innego",
     "urządzenia",
     "elektronicznego",
-    "podczas"
+    "podczas",
+    "wchodzenia",
+    "przechodzenia",
+    "telefon",
+    "komórka",
+    "rozmowa",
+    "trzymanie telefonu",
+    "smartfon",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Korzystanie przez pieszego z telefonu lub innego urządzenia elektronicznego podczas wchodzenia lub przechodzenia przez jezdnię lub torowisko",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9934,11 +11176,18 @@
     "nieopuszczenie",
     "śluzy",
     "rowerowej",
-    "przez",
     "kierującego",
     "rowerem",
     "hulajnogą",
-    "jest"
+    "jest",
+    "gdy",
+    "możliwość",
+    "kontynuowania",
+    "jazdy",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Nieopuszczenie śluzy rowerowej przez kierującego rowerem lub hulajnogą, gdy jest możliwość kontynuowania jazdy",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -9991,7 +11240,9 @@
     "oznakowanie",
     "połączenia",
     "między",
-    "pojazdami"
+    "pojazdami",
+    "holu",
+    "brak"
    ],
    "summary": "Naruszenie warunków holowania – niewłaściwe oznakowanie połączenia między pojazdami (holu) albo jego brak",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -10071,7 +11322,8 @@
     "jazdy",
     "warunkach",
     "zmniejszonej",
-    "przejrzystości"
+    "przejrzystości",
+    "powietrza"
    ],
    "summary": "Niewłączenie wymaganych świateł w czasie jazdy w warunkach zmniejszonej przejrzystości powietrza",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -10099,7 +11351,11 @@
     "pojeździe",
     "holującym",
     "świateł",
-    "mijania"
+    "mijania",
+    "światła",
+    "oświetlenie",
+    "pozycyjne",
+    "bez świateł"
    ],
    "summary": "Naruszenie warunków holowania – niewłączenie w pojeździe holującym świateł mijania",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -10127,7 +11383,8 @@
     "unieruchomionego",
     "przejeździe",
     "kolejowym",
-    "tramwajowym"
+    "tramwajowym",
+    "ostrzegania"
    ],
    "summary": "Naruszenie obowiązku usunięcia pojazdu unieruchomionego na przejeździe kolejowym/tramwajowym lub ostrzegania",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -10177,8 +11434,8 @@
     "jednego",
     "pojazdu",
     "wyjątkiem",
-    "pojazdu",
-    "członowego"
+    "członowego",
+    "niż"
    ],
    "summary": "Holowanie więcej niż jednego pojazdu, z wyjątkiem pojazdu członowego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -10200,13 +11457,13 @@
    "code": null,
    "keywords": [
     "przechodzenie",
-    "przez",
     "jezdnię",
     "miejscach",
     "ograniczonej",
     "widoczności",
     "drogi",
-    "obszarze"
+    "obszarze",
+    "niezabudowanym"
    ],
    "summary": "Przechodzenie przez jezdnię w miejscach o ograniczonej widoczności drogi na obszarze niezabudowanym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -10231,7 +11488,6 @@
     "tylnych",
     "świateł",
     "przeciwmgłowych",
-    "przy",
     "normalnej",
     "przejrzystości",
     "powietrza"
@@ -10262,7 +11518,17 @@
     "jadący",
     "pojazd",
     "przejściach",
-    "pieszych"
+    "pieszych",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Wchodzenie na jezdnię bezpośrednio przed jadący pojazd na przejściach dla pieszych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -10284,13 +11550,16 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "kierującego",
     "pojazdem",
     "innym",
     "silnikowy",
     "zakazu",
-    "wyprzedzania"
+    "wyprzedzania",
+    "niż",
+    "warunkach",
+    "zmniejszonej",
+    "przejrzystości"
    ],
    "summary": "Naruszenie przez kierującego pojazdem innym niż silnikowy zakazu wyprzedzania w warunkach zmniejszonej przejrzystości powietrza",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -10312,13 +11581,22 @@
    "code": null,
    "keywords": [
     "naruszenie",
-    "przez",
     "pieszych",
     "obowiązku",
     "poruszania",
     "jezdni",
     "jeden",
-    "drugim"
+    "drugim",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie przez pieszych obowiązku poruszania się po jezdni jeden za drugim",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -10344,9 +11622,13 @@
     "oczekującego",
     "otwarcie",
     "ruchu",
-    "przez",
     "przejazd",
-    "kolejowy"
+    "kolejowy",
+    "tramwajowy",
+    "wjechaniem",
+    "część",
+    "jezdni",
+    "prze"
    ],
    "summary": "Omijanie pojazdu oczekującego na otwarcie ruchu przez przejazd kolejowy/tramwajowy z wjechaniem na część jezdni dla przeciwnego kierunku",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -10370,7 +11652,6 @@
     "posługiwanie",
     "kartą",
     "parkingową",
-    "przez",
     "osobę",
     "nieuprawnioną",
     "niestosowanie",
@@ -10402,7 +11683,11 @@
     "tramwajowy",
     "miejsca",
     "kontynuowania",
-    "jazdy"
+    "jazdy",
+    "pojazd",
+    "inny",
+    "niż",
+    "mechaniczny"
    ],
    "summary": "Naruszenie zakazu wjeżdżania na przejazd tramwajowy bez miejsca do kontynuowania jazdy (pojazd inny niż mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -10427,10 +11712,11 @@
     "przepisów",
     "okresowych",
     "ograniczeniach",
-    "oraz",
     "zakazie",
     "ruchu",
-    "niektórych"
+    "rodzajów",
+    "pojazdów",
+    "drogach"
    ],
    "summary": "Naruszenie przepisów o okresowych ograniczeniach oraz zakazie ruchu niektórych rodzajów pojazdów na drogach",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -10455,7 +11741,12 @@
     "oświetlenia",
     "miejsc",
     "dostępnych",
-    "publiczności"
+    "publiczności",
+    "światła",
+    "oświetlenie",
+    "mijania",
+    "pozycyjne",
+    "bez świateł"
    ],
    "summary": "Zaniechanie oświetlenia miejsc dostępnych dla publiczności",
    "source_mandate": "Kodeks wykroczeń (art. 79)",
@@ -10482,7 +11773,12 @@
     "oświetlenia",
     "miejsc",
     "dostępnych",
-    "publiczności"
+    "publiczności",
+    "światła",
+    "oświetlenie",
+    "mijania",
+    "pozycyjne",
+    "bez świateł"
    ],
    "summary": "Gaszenie ze złośliwości lub swawoli oświetlenia miejsc dostępnych dla publiczności",
    "source_mandate": "Kodeks wykroczeń (art. 79)",
@@ -10535,7 +11831,11 @@
     "bronią",
     "materiałami",
     "wybuchowymi",
-    "niebezpiecznymi"
+    "niebezpiecznymi",
+    "broń",
+    "amunicja",
+    "pistolet",
+    "niebezpieczne narzędzie"
    ],
    "summary": "Udział w zgromadzeniu z bronią, materiałami wybuchowymi lub niebezpiecznymi",
    "source_mandate": "Kodeks wykroczeń (art. 52)",
@@ -10589,7 +11889,11 @@
     "grzywny",
     "orzeczonej",
     "czyn",
-    "zabroniony"
+    "zabroniony",
+    "broń",
+    "amunicja",
+    "pistolet",
+    "niebezpieczne narzędzie"
    ],
    "summary": "Zbiórka ofiar na uiszczenie grzywny orzeczonej za czyn zabroniony",
    "source_mandate": "Kodeks wykroczeń (art. 57)",
@@ -10770,10 +12074,21 @@
     "przejazd",
     "przepędzanie",
     "zwierząt",
-    "przez",
     "przeciwpowodziowy",
     "miejscu",
-    "niedozwolonym"
+    "niedozwolonym",
+    "wał",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Przejazd lub przepędzanie zwierząt przez wał przeciwpowodziowy w miejscu niedozwolonym",
    "source_mandate": "Kodeks wykroczeń (art. 80)",
@@ -10799,7 +12114,8 @@
     "przebywania",
     "drodze",
     "publicznej",
-    "torach"
+    "torach",
+    "lat"
    ],
    "summary": "Dopuszczenie małoletniego do lat 7 do przebywania na drodze publicznej lub torach",
    "source_mandate": "Kodeks wykroczeń (art. 89)",
@@ -10824,7 +12140,6 @@
     "uszkadzanie",
     "drogi",
     "publicznej",
-    "albo",
     "urządzeń",
     "drogowych"
    ],
@@ -10851,8 +12166,13 @@
     "wody",
     "przeznaczonej",
     "spożycia",
-    "przez",
-    "ludzi"
+    "ludzi",
+    "śmieci",
+    "odpady",
+    "wyrzucanie",
+    "zanieczyszczenie",
+    "brud",
+    "wysypisko"
    ],
    "summary": "Zanieczyszczanie wody przeznaczonej do spożycia przez ludzi",
    "source_mandate": "Kodeks wykroczeń (art. 109)",
@@ -10903,7 +12223,12 @@
     "zezwolenia",
     "usuwanie",
     "części",
-    "zwierzęcia"
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Ubój zwierzęcia bez wymaganego zezwolenia lub usuwanie części zwierzęcia",
    "source_mandate": "Kodeks wykroczeń (art. 118)",
@@ -10911,7 +12236,7 @@
   },
   {
    "id": "w-538",
-   "title": "Bezprawny zabór owoców, warzyw lub kwiatów w nieznacznej ilości",
+   "title": "Kradzież ogrodowa",
    "category": "porzadkowe",
    "legal_qualification": "art. 123 § 1 KW",
    "legal_qualification_text": "Art. 123 KW\nArt. 123. § 1. Kto z nienależącego do niego ogrodu bezprawnie zabiera w nieznacznej ilości owoce, warzywa lub kwiaty, podlega karze grzywny do 250 złotych albo karze nagany. § 2. Ściganie następuje na żądanie pokrzywdzonego. § 3. W razie popełnienia wykroczenia można orzec nawiązkę do wysokości 50 złotych.",
@@ -10930,7 +12255,22 @@
     "warzyw",
     "kwiatów",
     "nieznacznej",
-    "ilości"
+    "ilości",
+    "kradzież",
+    "kradnie",
+    "złodziej",
+    "ukradł",
+    "przywłaszczenie",
+    "owoce",
+    "owoc",
+    "warzywa",
+    "kwiaty",
+    "ogród",
+    "ogrodowa",
+    "sad",
+    "działka",
+    "grządka",
+    "plony"
    ],
    "summary": "Bezprawny zabór owoców, warzyw lub kwiatów w nieznacznej ilości",
    "source_mandate": "Kodeks wykroczeń (art. 123)",
@@ -10956,7 +12296,13 @@
     "cudzej",
     "rzeczy",
     "przybłąkaniu",
-    "zwierzęcia"
+    "zwierzęcia",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Niezawiadomienie o znalezieniu cudzej rzeczy lub przybłąkaniu się zwierzęcia",
    "source_mandate": "Kodeks wykroczeń (art. 125)",
@@ -10983,7 +12329,12 @@
     "rzeczy",
     "wartości",
     "niemajątkowej",
-    "pamiątkowej"
+    "pamiątkowej",
+    "kradzież",
+    "kradnie",
+    "złodziej",
+    "ukradł",
+    "przywłaszczenie"
    ],
    "summary": "Zabór lub zniszczenie cudzej rzeczy o wartości niemajątkowej (pamiątkowej)",
    "source_mandate": "Kodeks wykroczeń (art. 126)",
@@ -11009,7 +12360,8 @@
     "celu",
     "osiągnięcia",
     "korzyści",
-    "majątkowej"
+    "majątkowej",
+    "gry"
    ],
    "summary": "Urządzanie gry hazardowej w celu osiągnięcia korzyści majątkowej",
    "source_mandate": "Kodeks wykroczeń (art. 128)",
@@ -11169,7 +12521,9 @@
     "nierządnego",
     "naruszające",
     "porządek",
-    "publiczny"
+    "publiczny",
+    "nierząd",
+    "prostytucja"
    ],
    "summary": "Natarczywe proponowanie czynu nierządnego naruszające porządek publiczny",
    "source_mandate": "Kodeks wykroczeń (art. 142)",
@@ -11377,8 +12731,7 @@
     "ochrony",
     "ludności",
     "obiekcie",
-    "zbiorowej",
-    "ochrony"
+    "zbiorowej"
    ],
    "summary": "Niedopełnienie obowiązków ochrony ludności w obiekcie zbiorowej ochrony",
    "source_mandate": "Kodeks wykroczeń (art. 82b)",
@@ -11456,7 +12809,12 @@
     "rowerem",
     "hulajnogą",
     "elektryczną",
-    "uprawnienia"
+    "uprawnienia",
+    "lat",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Dopuszczenie osoby poniżej 16 lat do kierowania rowerem lub hulajnogą elektryczną bez uprawnienia",
    "source_mandate": "Kodeks wykroczeń (art. 89a § 1)",
@@ -11561,7 +12919,10 @@
     "małoletniego",
     "osoby",
     "zależnej",
-    "żebrania"
+    "żebrania",
+    "żebranie",
+    "żebractwo",
+    "żebrak"
    ],
    "summary": "Nakłanianie małoletniego lub osoby zależnej do żebrania",
    "source_mandate": "Kodeks wykroczeń (art. 104)",
@@ -11586,10 +12947,14 @@
     "popełnienia",
     "czynu",
     "zabronionego",
-    "przez",
     "nieletniego",
     "naruszenie",
-    "władzy"
+    "władzy",
+    "rodzicielskiej",
+    "broń",
+    "amunicja",
+    "pistolet",
+    "niebezpieczne narzędzie"
    ],
    "summary": "Dopuszczenie do popełnienia czynu zabronionego przez nieletniego (naruszenie władzy rodzicielskiej)",
    "source_mandate": "Kodeks wykroczeń (art. 105 § 1)",
@@ -11638,7 +13003,6 @@
    "code": null,
    "keywords": [
     "zatrudnianie",
-    "przy",
     "pracy",
     "osoby",
     "mogącej",
@@ -11691,7 +13055,6 @@
    "keywords": [
     "niezachowanie",
     "czystości",
-    "przy",
     "świadczeniu",
     "usług",
     "gastronomia",
@@ -11724,7 +13087,8 @@
     "wyjaśnień",
     "istotnych",
     "wykrycia",
-    "choroby"
+    "choroby",
+    "zakaźnej"
    ],
    "summary": "Odmowa udzielenia organowi zdrowia wyjaśnień istotnych dla wykrycia choroby zakaźnej",
    "source_mandate": "Kodeks wykroczeń (art. 114)",
@@ -11773,7 +13137,12 @@
     "kradzież",
     "drzewa",
     "cudzego",
-    "lasu"
+    "lasu",
+    "zabór",
+    "kradnie",
+    "złodziej",
+    "ukradł",
+    "przywłaszczenie"
    ],
    "summary": "Wyrąb lub kradzież drzewa z cudzego lasu",
    "source_mandate": "Kodeks wykroczeń (art. 120 § 1)",
@@ -11798,7 +13167,14 @@
     "mienia",
     "pochodzącego",
     "kradzieży",
-    "przywłaszczenia"
+    "przywłaszczenia",
+    "800",
+    "kradzież",
+    "zabór",
+    "kradnie",
+    "złodziej",
+    "ukradł",
+    "przywłaszczenie"
    ],
    "summary": "Paserstwo mienia pochodzącego z kradzieży lub przywłaszczenia (do 800 zł)",
    "source_mandate": "Kodeks wykroczeń (art. 122 § 1)",
@@ -11929,7 +13305,6 @@
    "keywords": [
     "naruszenie",
     "obowiązków",
-    "przy",
     "umowie",
     "timeshare",
     "długoterminowym",
@@ -12044,7 +13419,13 @@
     "zwierząt",
     "wymaganego",
     "wpisu",
-    "147a"
+    "147a",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Wykonywanie działalności leczniczej dla zwierząt bez wymaganego wpisu",
    "source_mandate": "Kodeks wykroczeń (art. 147a § 1)",
@@ -12070,9 +13451,25 @@
     "gałęzi",
     "korzeni",
     "krzewów",
-    "albo",
     "karczowanie",
-    "pniaków"
+    "pniaków",
+    "cudzego",
+    "lasu",
+    "zabór",
+    "kradnie",
+    "złodziej",
+    "ukradł",
+    "przywłaszczenie",
+    "owoce",
+    "owoc",
+    "warzywa",
+    "kwiaty",
+    "ogród",
+    "ogrodowa",
+    "sad",
+    "działka",
+    "grządka",
+    "plony"
    ],
    "summary": "Wyrąb lub kradzież gałęzi, korzeni, krzewów albo karczowanie pniaków z cudzego lasu",
    "source_mandate": "Kodeks wykroczeń (art. 148 § 1)",
@@ -12100,7 +13497,17 @@
     "korzeni",
     "krzewów",
     "pniaków",
-    "wykroczenia"
+    "wykroczenia",
+    "owoce",
+    "owoc",
+    "warzywa",
+    "kwiaty",
+    "ogród",
+    "ogrodowa",
+    "sad",
+    "działka",
+    "grządka",
+    "plony"
    ],
    "summary": "Paserstwo leśne – nabycie gałęzi, korzeni, krzewów lub pniaków z wykroczenia",
    "source_mandate": "Kodeks wykroczeń (art. 149)",
@@ -12126,7 +13533,17 @@
     "ogrodu",
     "drzewa",
     "krzewu",
-    "owocowego"
+    "owocowego",
+    "owoce",
+    "owoc",
+    "warzywa",
+    "kwiaty",
+    "ogród",
+    "ogrodowa",
+    "sad",
+    "działka",
+    "grządka",
+    "plony"
    ],
    "summary": "Uszkodzenie cudzego ogrodu, drzewa lub krzewu owocowego",
    "source_mandate": "Kodeks wykroczeń (art. 150 § 1)",
@@ -12154,7 +13571,17 @@
     "leśnych",
     "rolnych",
     "miejscu",
-    "zabronionym"
+    "zabronionym",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "broń",
+    "amunicja",
+    "pistolet",
+    "niebezpieczne narzędzie"
    ],
    "summary": "Wypas zwierząt na cudzych gruntach leśnych lub rolnych w miejscu zabronionym",
    "source_mandate": "Kodeks wykroczeń (art. 151 § 1)",
@@ -12207,7 +13634,8 @@
     "żywica",
     "kora",
     "szyszki",
-    "ściółka"
+    "ściółka",
+    "zioła"
    ],
    "summary": "Bezprawne pozyskiwanie z cudzego lasu (żywica, kora, szyszki, ściółka, zioła)",
    "source_mandate": "Kodeks wykroczeń (art. 153 § 1)",
@@ -12235,7 +13663,8 @@
     "urządzeń",
     "cudzym",
     "gruncie",
-    "leśnym"
+    "leśnym",
+    "rolnym"
    ],
    "summary": "Bezprawne wydobywanie kopalin lub niszczenie urządzeń na cudzym gruncie leśnym lub rolnym",
    "source_mandate": "Kodeks wykroczeń (art. 154 § 1)",
@@ -12315,7 +13744,18 @@
     "ogrodu",
     "łąki",
     "wbrew",
-    "żądaniu"
+    "żądaniu",
+    "uprawnionego",
+    "owoce",
+    "owoc",
+    "warzywa",
+    "kwiaty",
+    "ogród",
+    "ogrodowa",
+    "sad",
+    "działka",
+    "grządka",
+    "plony"
    ],
    "summary": "Nieopuszczenie cudzego lasu, pola, ogrodu lub łąki wbrew żądaniu uprawnionego",
    "source_mandate": "Kodeks wykroczeń (art. 157 § 1)",
@@ -12342,8 +13782,7 @@
     "lasu",
     "niezgodnie",
     "planem",
-    "urządzenia",
-    "lasu"
+    "urządzenia"
    ],
    "summary": "Pozyskanie drewna z własnego lasu niezgodnie z planem urządzenia lasu",
    "source_mandate": "Kodeks wykroczeń (art. 158 § 1)",
@@ -12446,7 +13885,8 @@
     "gniazd",
     "ptasich",
     "mrowisk",
-    "lesie"
+    "lesie",
+    "nor"
    ],
    "summary": "Niszczenie lęgowisk, gniazd ptasich, nor lub mrowisk w lesie",
    "source_mandate": "Kodeks wykroczeń (art. 164)",
@@ -12474,7 +13914,13 @@
     "dziko",
     "żyjących",
     "zwierząt",
-    "lesie"
+    "lesie",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Płoszenie, chwytanie, ranienie lub zabijanie dziko żyjących zwierząt w lesie",
    "source_mandate": "Kodeks wykroczeń (art. 165)",
@@ -12502,7 +13948,10 @@
     "ładunku",
     "przed",
     "rozluźnieniem",
-    "zwisaniem"
+    "zwisaniem",
+    "spadnięciem",
+    "podczas",
+    "jazdy"
    ],
    "summary": "Niezabezpieczenie urządzeń służących do mocowania ładunku przed rozluźnieniem, zwisaniem lub spadnięciem podczas jazdy",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12530,7 +13979,10 @@
     "błota",
     "kurzu",
     "śniegu",
-    "lodu"
+    "lodu",
+    "odcinków",
+    "dróg",
+    "publicznych"
    ],
    "summary": "Uchylanie się od obowiązku oczyszczania i usuwania błota, kurzu, śniegu lub lodu z odcinków dróg publicznych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12557,8 +14009,11 @@
     "przewożenia",
     "osób",
     "niepełnosprawnych",
-    "przez",
-    "kierującego"
+    "kierującego",
+    "pojazdem",
+    "przewożącym",
+    "takie",
+    "osoby"
    ],
    "summary": "Naruszenie przepisów dotyczących przewożenia osób niepełnosprawnych przez kierującego pojazdem przewożącym takie osoby",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12582,7 +14037,13 @@
     "zaśmiecanie",
     "zanieczyszczanie",
     "drogi",
-    "publicznej"
+    "publicznej",
+    "śmieci",
+    "odpady",
+    "wyrzucanie",
+    "zanieczyszczenie",
+    "brud",
+    "wysypisko"
    ],
    "summary": "Zaśmiecanie lub zanieczyszczanie drogi publicznej",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12634,11 +14095,16 @@
     "ozdabianie",
     "tablic",
     "rejestracyjnych",
-    "oraz",
     "umieszczanie",
     "znaków",
     "napisów",
-    "przedmiotów"
+    "przedmiotów",
+    "ograniczających",
+    "czytelność",
+    "tablice",
+    "rejestracja",
+    "blachy",
+    "nr rej"
    ],
    "summary": "Ozdabianie tablic rejestracyjnych oraz umieszczanie znaków, napisów lub przedmiotów ograniczających ich czytelność",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12665,8 +14131,8 @@
     "przejeździe",
     "kolejowym",
     "sygnalizator",
-    "przy",
-    "sygnale"
+    "sygnale",
+    "czerwonym"
    ],
    "summary": "Naruszenie zakazu wjeżdżania na przejeździe kolejowym za sygnalizator przy sygnale czerwonym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12689,7 +14155,6 @@
    "keywords": [
     "zakrywanie",
     "świateł",
-    "oraz",
     "urządzeń",
     "sygnalizacyjnych"
    ],
@@ -12717,9 +14182,17 @@
     "kierującego",
     "hulajnogą",
     "osoby",
-    "osoby",
     "sankach",
-    "zwierzęcia"
+    "zwierzęcia",
+    "uto",
+    "uwr",
+    "ładunku",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Ciągnięcie za pojazdem kierującego hulajnogą/UTO, osoby na UWR, osoby na sankach, zwierzęcia lub ładunku",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12774,7 +14247,12 @@
     "podczas",
     "postoju",
     "obszarze",
-    "zabudowanym"
+    "zabudowanym",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Pozostawienie pracującego silnika podczas postoju na obszarze zabudowanym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12802,7 +14280,9 @@
     "pojazdów",
     "nauki",
     "jazdy",
-    "przeprowadzania"
+    "przeprowadzania",
+    "egzaminu",
+    "państwowego"
    ],
    "summary": "Brak oznaczenia lub niewłaściwe oznaczenie pojazdów do nauki jazdy lub przeprowadzania egzaminu państwowego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12828,7 +14308,8 @@
     "pojazdu",
     "silnik",
     "jest",
-    "ruchu"
+    "ruchu",
+    "gdy"
    ],
    "summary": "Oddalenie się kierującego od pojazdu, gdy silnik jest w ruchu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12856,7 +14337,10 @@
     "powierzono",
     "pojazd",
     "postępowanie",
-    "spowodowanie"
+    "spowodowanie",
+    "zagrożenia",
+    "bezpieczeństwa",
+    "ruchu"
    ],
    "summary": "Niewskazanie na żądanie organu, komu powierzono pojazd (postępowanie o spowodowanie zagrożenia bezpieczeństwa w ruchu)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12883,8 +14367,12 @@
     "zmniejszonych",
     "tablic",
     "rejestracyjnych",
-    "zmniejszonych",
-    "wymiarów"
+    "wymiarów",
+    "miejsca",
+    "tablice",
+    "rejestracja",
+    "blachy",
+    "nr rej"
    ],
    "summary": "Umieszczanie na pojeździe jednorzędowych zmniejszonych tablic rejestracyjnych bez zmniejszonych wymiarów miejsca",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12912,7 +14400,8 @@
     "braku",
     "wymaganych",
     "dokumentów",
-    "stwierdzających"
+    "stwierdzających",
+    "ruchu"
    ],
    "summary": "Dopuszczenie do jazdy pojazdu pomimo braku wymaganych dokumentów stwierdzających dopuszczenie pojazdu do ruchu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12936,8 +14425,7 @@
     "niestosowanie",
     "znaku",
     "parking",
-    "tabliczką",
-    "albo"
+    "tabliczką"
    ],
    "summary": "Niestosowanie się do znaku D-18 \"parking\" z tabliczką T-29",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -12989,7 +14477,8 @@
     "niestosowanie",
     "znaku",
     "parking",
-    "zadaszony"
+    "zadaszony",
+    "18b"
    ],
    "summary": "Niestosowanie się do znaku D-18b \"parking zadaszony\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13017,7 +14506,15 @@
     "widoczny",
     "dostatecznej",
     "odległości",
-    "powoduje"
+    "powoduje",
+    "gdy",
+    "nie",
+    "utrudnienie",
+    "ruchu",
+    "parkowanie",
+    "parking",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Zatrzymanie lub postój pojazdu, gdy nie jest widoczny z dostatecznej odległości lub powoduje utrudnienie ruchu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13068,7 +14565,14 @@
     "pojazdu",
     "silnikowego",
     "powodu",
-    "uszkodzenia"
+    "uszkodzenia",
+    "wypadku",
+    "autostr",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niesygnalizowanie lub niewłaściwe sygnalizowanie postoju pojazdu silnikowego z powodu uszkodzenia lub wypadku na autostradzie/ekspresowej",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13090,7 +14594,8 @@
    "code": "C 20",
    "keywords": [
     "niestosowanie",
-    "znaku"
+    "znaku",
+    "bus"
    ],
    "summary": "Niestosowanie się do znaku P-22 \"BUS\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13117,8 +14622,10 @@
     "unieruchomionego",
     "przyczyn",
     "technicznych",
-    "oraz",
-    "nieostrzeganie"
+    "nieostrzeganie",
+    "innych",
+    "uczestników",
+    "ruchu"
    ],
    "summary": "Nieusunięcie z jezdni pojazdu unieruchomionego z przyczyn technicznych oraz nieostrzeganie innych uczestników ruchu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13142,7 +14649,8 @@
     "niestosowanie",
     "znaku",
     "ruchu",
-    "autobusów"
+    "autobusów",
+    "pas"
    ],
    "summary": "Niestosowanie się do znaku D-12 \"pas ruchu dla autobusów\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13170,7 +14678,8 @@
     "pojazdem",
     "którego",
     "drogi",
-    "przeznaczone"
+    "przeznaczone",
+    "nie"
    ],
    "summary": "Wjazd na autostradę lub drogę ekspresową pojazdem, dla którego drogi te nie są przeznaczone",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13247,8 +14756,7 @@
     "przekraczającej",
     "liczbę",
     "miejsc",
-    "więcej",
-    "osób"
+    "więcej"
    ],
    "summary": "Przewóz osób w liczbie przekraczającej liczbę miejsc (10 i więcej osób)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13276,7 +14784,9 @@
     "kierunku",
     "przeciwnym",
     "wynikający",
-    "ustawy"
+    "ustawy",
+    "niż",
+    "znaków"
    ],
    "summary": "Jazda autostradą lub drogą ekspresową w kierunku przeciwnym niż wynikający z ustawy lub znaków",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13301,7 +14811,6 @@
     "zakazu",
     "zawracania",
     "autostradzie",
-    "albo",
     "drodze",
     "ekspresowej"
    ],
@@ -13329,8 +14838,7 @@
     "liczbie",
     "przekraczającej",
     "liczbę",
-    "miejsc",
-    "osób"
+    "miejsc"
    ],
    "summary": "Przewóz osób w liczbie przekraczającej liczbę miejsc (8 osób)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13358,7 +14866,10 @@
     "całkowitej",
     "większej",
     "dopuszczalna",
-    "danego"
+    "danego",
+    "niż",
+    "pojazdu",
+    "ciągnącego"
    ],
    "summary": "Ciągnięcie przyczepy o rzeczywistej masie całkowitej większej niż dopuszczalna dla danego pojazdu ciągnącego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13384,8 +14895,7 @@
     "liczbie",
     "przekraczającej",
     "liczbę",
-    "miejsc",
-    "osób"
+    "miejsc"
    ],
    "summary": "Przewóz osób w liczbie przekraczającej liczbę miejsc (6 osób)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13518,7 +15028,11 @@
     "zasłaniający",
     "tablice",
     "rejestracyjne",
-    "inne"
+    "inne",
+    "znaki",
+    "rejestracja",
+    "blachy",
+    "nr rej"
    ],
    "summary": "Umieszczenie na pojeździe ładunku w sposób zasłaniający tablice rejestracyjne lub inne tablice albo znaki",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13544,8 +15058,7 @@
     "pojazdem",
     "nieprzeznaczonym",
     "nieprzystosowanym",
-    "więcej",
-    "osób"
+    "więcej"
    ],
    "summary": "Przewożenie osób pojazdem nieprzeznaczonym lub nieprzystosowanym (10 i więcej osób)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13573,7 +15086,11 @@
     "zasłaniający",
     "światła",
     "urządzenia",
-    "sygnalizacyjne"
+    "sygnalizacyjne",
+    "oświetlenie",
+    "mijania",
+    "pozycyjne",
+    "bez świateł"
    ],
    "summary": "Umieszczenie na pojeździe ładunku w sposób zasłaniający światła lub urządzenia sygnalizacyjne",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13598,8 +15115,7 @@
     "osób",
     "pojazdem",
     "nieprzeznaczonym",
-    "nieprzystosowanym",
-    "osób"
+    "nieprzystosowanym"
    ],
    "summary": "Przewożenie osób pojazdem nieprzeznaczonym lub nieprzystosowanym (8 osób)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13624,10 +15140,17 @@
     "pojazdu",
     "razie",
     "potrzeby",
-    "przez",
     "omijającego",
     "pojazd",
-    "przeznaczony"
+    "przeznaczony",
+    "przewozu",
+    "osób",
+    "niepełnosprawnych",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niezatrzymanie pojazdu w razie potrzeby przez omijającego pojazd przeznaczony do przewozu osób niepełnosprawnych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13652,8 +15175,7 @@
     "osób",
     "pojazdem",
     "nieprzeznaczonym",
-    "nieprzystosowanym",
-    "osób"
+    "nieprzystosowanym"
    ],
    "summary": "Przewożenie osób pojazdem nieprzeznaczonym lub nieprzystosowanym (7 osób)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13675,13 +15197,16 @@
    "code": "J 06",
    "keywords": [
     "niedopełnienie",
-    "przez",
     "kierującego",
     "autobusem",
     "szkolnym",
     "obowiązku",
     "włączenia",
-    "świateł"
+    "świateł",
+    "awaryjnych",
+    "podczas",
+    "wsiadania",
+    "wysiadania"
    ],
    "summary": "Niedopełnienie przez kierującego autobusem szkolnym obowiązku włączenia świateł awaryjnych podczas wsiadania/wysiadania dzieci",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13733,7 +15258,9 @@
     "tablicami",
     "dzieci",
     "młodzież",
-    "przewożone"
+    "przewożone",
+    "gdy",
+    "nie"
    ],
    "summary": "Oznaczenie pojazdu tablicami \"dzieci/młodzież\", gdy nie są przewożone",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13787,7 +15314,9 @@
     "wsiadania",
     "wysiadania",
     "grupy",
-    "dzieci"
+    "dzieci",
+    "młodzieży",
+    "lat"
    ],
    "summary": "Niewłączenie świateł awaryjnych podczas wsiadania/wysiadania grupy dzieci lub młodzieży do 18 lat",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13841,7 +15370,8 @@
     "określonego",
     "znakiem",
     "drogowym",
-    "pojazd"
+    "pojazd",
+    "mechaniczny"
    ],
    "summary": "Naruszenie zakazu wyprzedzania pojazdu określonego znakiem drogowym (pojazd mechaniczny)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13866,7 +15396,10 @@
     "niewłaściwej strony",
     "92b",
     "24",
-    "F 01"
+    "f 01",
+    "pojazdu",
+    "niewłaściwej",
+    "strony"
    ],
    "summary": "Wyprzedzanie pojazdu z niewłaściwej strony (z prawej), wbrew obowiązkowi wyprzedzania z lewej.",
    "source_mandate": "Wykaz autorytatywny (art. 24 ust. 3–5 PRD)",
@@ -13915,7 +15448,12 @@
     "niestosowanie",
     "znaku",
     "zakaz",
-    "postoju"
+    "postoju",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niestosowanie się do znaku B-35 \"zakaz postoju\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13943,7 +15481,8 @@
     "pojazdów",
     "silnikowych",
     "wyjątkiem",
-    "motocykli"
+    "motocykli",
+    "jednośladowych"
    ],
    "summary": "Niestosowanie się do znaku B-3 \"zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -13969,7 +15508,6 @@
     "stój",
     "kontrola",
     "celna",
-    "jego",
     "odpowiedników"
    ],
    "summary": "Niestosowanie się do znaku B-32 \"stój – kontrola celna\" lub jego odpowiedników",
@@ -13997,7 +15535,8 @@
     "wjazdu",
     "pojazdów",
     "towarami",
-    "niebezpiecznymi"
+    "niebezpiecznymi",
+    "13a"
    ],
    "summary": "Niestosowanie się do znaku B-13a \"zakaz wjazdu pojazdów z towarami niebezpiecznymi\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14051,7 +15590,8 @@
     "pojazdów",
     "towarami",
     "wybuchowymi",
-    "łatwo"
+    "łatwo",
+    "zapalnymi"
    ],
    "summary": "Niestosowanie się do znaku B-13 \"zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14106,7 +15646,9 @@
     "pojazdów",
     "nacisku",
     "napędowej",
-    "większym"
+    "większym",
+    "osi",
+    "niż"
    ],
    "summary": "Niestosowanie się do znaku B-19 \"zakaz wjazdu pojazdów o nacisku osi napędowej większym niż ... t\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14134,7 +15676,8 @@
     "pojazdów",
     "rzeczywistej",
     "masie",
-    "całkowitej"
+    "całkowitej",
+    "ponad"
    ],
    "summary": "Niestosowanie się do znaku B-18 \"zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ... t\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14158,7 +15701,6 @@
     "posługiwanie",
     "kartą",
     "parkingową",
-    "przez",
     "osobę",
     "nieuprawnioną",
     "niestosowanie",
@@ -14187,7 +15729,13 @@
     "znaku",
     "zakaz",
     "postoju",
-    "parzyste"
+    "parzyste",
+    "dni",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niestosowanie się do znaku B-38 \"zakaz postoju w dni parzyste\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14211,7 +15759,6 @@
     "posługiwanie",
     "kartą",
     "parkingową",
-    "przez",
     "osobę",
     "nieuprawnioną",
     "niestosowanie",
@@ -14242,8 +15789,7 @@
     "jazdy",
     "prawej",
     "lewej",
-    "strony",
-    "znaku"
+    "strony"
    ],
    "summary": "Niestosowanie się do znaku C-11 \"nakaz jazdy z prawej lub z lewej strony znaku\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14267,11 +15813,12 @@
     "nieużywanie",
     "elementów",
     "odblaskowych",
-    "przez",
     "osobę",
     "wykonującą",
     "roboty",
-    "inne"
+    "inne",
+    "czynności",
+    "drodze"
    ],
    "summary": "Nieużywanie elementów odblaskowych przez osobę wykonującą roboty lub inne czynności na drodze",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14297,8 +15844,7 @@
     "nakaz",
     "jazdy",
     "lewej",
-    "strony",
-    "znaku"
+    "strony"
    ],
    "summary": "Niestosowanie się do znaku C-10 \"nakaz jazdy z lewej strony znaku\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14321,12 +15867,13 @@
    "keywords": [
     "niedopełnienie",
     "obowiązków",
-    "przez",
     "uczestników",
     "wypadku",
     "nieusunięcie",
     "pojazdu",
-    "miejsca"
+    "miejsca",
+    "zabitego",
+    "rannego"
    ],
    "summary": "Niedopełnienie obowiązków przez uczestników wypadku – nieusunięcie pojazdu z miejsca wypadku bez zabitego lub rannego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14375,7 +15922,8 @@
    "keywords": [
     "wjeżdżanie",
     "między",
-    "jezdniami"
+    "jezdniami",
+    "pas"
    ],
    "summary": "Wjeżdżanie na pas między jezdniami",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14429,7 +15977,13 @@
     "przewożącym",
     "więcej",
     "jednego",
-    "pasażera"
+    "pasażera",
+    "niż",
+    "kasku",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Kierowanie motocyklem, czterokołowcem lub motorowerem przewożącym więcej niż jednego pasażera bez kasku",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14457,7 +16011,11 @@
     "przewożącym",
     "jednego",
     "pasażera",
-    "kasku"
+    "kasku",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Kierowanie motocyklem, czterokołowcem lub motorowerem przewożącym jednego pasażera bez kasku",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14483,9 +16041,25 @@
     "ostrożności",
     "spowodowanie",
     "zagrożenia",
-    "przez",
     "osobę",
-    "stanie"
+    "stanie",
+    "użyciu",
+    "alkoholu",
+    "podobnie",
+    "dział",
+    "picie",
+    "pijany",
+    "alko",
+    "alkohol",
+    "alkohole",
+    "spożywanie",
+    "piwo",
+    "piwa",
+    "wódka",
+    "drink",
+    "upojenie",
+    "promile",
+    "nietrzeźwość"
    ],
    "summary": "Niezachowanie należytej ostrożności i spowodowanie zagrożenia przez osobę w stanie po użyciu alkoholu lub podobnie działającego środka",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14513,7 +16087,16 @@
     "powierzono",
     "pojazd",
     "sprawy",
-    "dotyczące"
+    "dotyczące",
+    "przekroczenia",
+    "prędkości",
+    "prędkość",
+    "przekroczenie",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Niewskazanie na żądanie organu, komu powierzono pojazd (sprawy dotyczące przekroczenia prędkości)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14541,7 +16124,10 @@
     "zagrożenia",
     "naruszeniem",
     "czynności",
-    "narządu"
+    "narządu",
+    "ciała",
+    "uczestnika",
+    "ruc"
    ],
    "summary": "Niezachowanie należytej ostrożności i spowodowanie zagrożenia z naruszeniem czynności narządu ciała przez uczestnika ruchu innego niż kierujący pojazdem mechanicznym",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14589,11 +16175,20 @@
     "niestosowanie",
     "sygnałów",
     "świetlnych",
-    "przez",
     "wejście",
     "przejście",
     "pieszych",
-    "przy"
+    "sygnale",
+    "czerwonym",
+    "pieszy",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Niestosowanie się do sygnałów świetlnych przez wejście na przejście dla pieszych przy sygnale czerwonym S-5",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14621,7 +16216,18 @@
     "zatrzymania",
     "postoju",
     "warunkach",
-    "niedostatecznej"
+    "niedostatecznej",
+    "widoczności",
+    "światła",
+    "oświetlenie",
+    "mijania",
+    "pozycyjne",
+    "bez świateł",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Nieużywanie wymaganego oświetlenia podczas zatrzymania lub postoju w warunkach niedostatecznej widoczności",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14725,7 +16331,12 @@
     "niewyposażonymi",
     "światła",
     "mijania",
-    "drogowe"
+    "drogowe",
+    "jazdy",
+    "dziennej",
+    "oświetlenie",
+    "pozycyjne",
+    "bez świateł"
    ],
    "summary": "Jazda bez wymaganych świateł pojazdami niewyposażonymi w światła mijania, drogowe lub do jazdy dziennej",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14853,7 +16464,13 @@
     "postoju",
     "pojazdu",
     "powodu",
-    "uszkodzenia"
+    "uszkodzenia",
+    "wypadku",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Brak sygnalizowania lub niewłaściwe sygnalizowanie postoju pojazdu z powodu uszkodzenia lub wypadku",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14906,7 +16523,13 @@
     "zabudowanym",
     "pojazdu",
     "ponad",
-    "długości"
+    "długości",
+    "dmc",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Naruszenie zakazu postoju na obszarze zabudowanym pojazdu o DMC ponad 16 t lub o długości ponad 12 m",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -14959,7 +16582,13 @@
     "zamieszkania",
     "miejscach",
     "innych",
-    "wyznaczone"
+    "wyznaczone",
+    "niż",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Naruszenie zakazu postoju w strefie zamieszkania w miejscach innych niż wyznaczone",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15012,7 +16641,16 @@
     "przejazdem",
     "kolejowym",
     "odcinku",
-    "przejazdu"
+    "przejazdu",
+    "słupka",
+    "wskaźnikowego",
+    "jedną",
+    "kres",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Naruszenie zakazu postoju przed lub za przejazdem kolejowym na odcinku od przejazdu do słupka wskaźnikowego z jedną kreską",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15064,7 +16702,13 @@
     "utrudniających",
     "dostęp",
     "innego",
-    "pojazdu"
+    "pojazdu",
+    "wyjazd",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Naruszenie zakazu postoju w miejscach utrudniających dostęp do innego pojazdu lub jego wyjazd",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15119,7 +16763,12 @@
     "miejscach",
     "utrudniających",
     "wjazd",
-    "wyjazd"
+    "wyjazd",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Naruszenie zakazu postoju w miejscach utrudniających wjazd lub wyjazd",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15143,7 +16792,13 @@
     "niestosowanie",
     "znaku",
     "prędkość",
-    "minimalna"
+    "minimalna",
+    "przekroczenie",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko"
    ],
    "summary": "Niestosowanie się do znaku C-14 \"prędkość minimalna\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15170,8 +16825,14 @@
     "rowerów",
     "pasie",
     "ruchu",
-    "rowerów",
-    "śluzie"
+    "śluzie",
+    "rowerowej",
+    "wyjątkiem",
+    "roweru",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Zatrzymywanie pojazdu na drodze dla rowerów, pasie ruchu dla rowerów lub w śluzie rowerowej (z wyjątkiem roweru)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15195,7 +16856,11 @@
     "niestosowanie",
     "znaku",
     "droga",
-    "rowerów"
+    "rowerów",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Niestosowanie się do znaku C-13 \"droga dla rowerów\"",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15223,7 +16888,9 @@
     "linii",
     "przerywanej",
     "wyznaczającej",
-    "krawędź"
+    "krawędź",
+    "ciągłej",
+    "krawędziowej"
    ],
    "summary": "Zatrzymywanie pojazdu na jezdni obok linii przerywanej wyznaczającej krawędź jezdni lub przy linii ciągłej krawędziowej",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15273,8 +16940,7 @@
     "znaku",
     "kierunki",
     "pasach",
-    "ruchu",
-    "albo"
+    "ruchu"
    ],
    "summary": "Niestosowanie się do znaku F-15, F-18 lub F-19 (kierunki na pasach ruchu)",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15301,8 +16967,24 @@
     "pieszych",
     "przejeździe",
     "rowerzystów",
-    "oraz",
-    "odległości"
+    "odległości",
+    "mniejszej",
+    "niż",
+    "prz",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Zatrzymywanie pojazdu na przejściu dla pieszych lub przejeździe dla rowerzystów oraz w odległości mniejszej niż 10 m przed nimi",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15354,8 +17036,10 @@
     "kolejowym",
     "tramwajowym",
     "skrzyżowaniu",
-    "oraz",
-    "odległości"
+    "odległości",
+    "mniejszej",
+    "niż",
+    "nich"
    ],
    "summary": "Zatrzymywanie pojazdu na przejeździe kolejowym/tramwajowym, na skrzyżowaniu oraz w odległości mniejszej niż 10 m od nich",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15460,7 +17144,9 @@
     "jezdni",
     "najbliżej",
     "krawędzi",
-    "równolegle"
+    "równolegle",
+    "jak",
+    "niej"
    ],
    "summary": "Naruszenie obowiązku zatrzymania pojazdu na jezdni jak najbliżej jej krawędzi i równolegle do niej",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15485,10 +17171,11 @@
     "sygnałów",
     "poleceń",
     "dawanych",
-    "przez",
     "osoby",
     "uprawnione",
-    "kontroli"
+    "kontroli",
+    "ruchu",
+    "drogowego"
    ],
    "summary": "Niezastosowanie się do sygnałów i poleceń dawanych przez osoby uprawnione do kontroli ruchu drogowego",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15512,7 +17199,6 @@
     "dopuszczenie",
     "prowadzenia",
     "pojazdu",
-    "przez",
     "osobę",
     "niemającą",
     "wymaganych",
@@ -15544,7 +17230,14 @@
     "sygnału",
     "osoby",
     "uprawnionej",
-    "nakazującego"
+    "nakazującego",
+    "zatrzymanie",
+    "pojazdu",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Niezastosowanie się, w celu uniknięcia kontroli, do sygnału osoby uprawnionej nakazującego zatrzymanie pojazdu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15572,7 +17265,23 @@
     "stanie",
     "użyciu",
     "alkoholu",
-    "podobnie"
+    "podobnie",
+    "niż",
+    "działającego",
+    "środka",
+    "picie",
+    "pijany",
+    "alko",
+    "alkohol",
+    "alkohole",
+    "spożywanie",
+    "piwo",
+    "piwa",
+    "wódka",
+    "drink",
+    "upojenie",
+    "promile",
+    "nietrzeźwość"
    ],
    "summary": "Kierowanie pojazdem innym niż mechaniczny w stanie po użyciu alkoholu lub podobnie działającego środka",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15600,7 +17309,23 @@
     "stanie",
     "nietrzeźwości",
     "wpływem",
-    "środka"
+    "środka",
+    "niż",
+    "działającego",
+    "podobnie",
+    "alkohol",
+    "picie",
+    "pijany",
+    "alko",
+    "alkohole",
+    "spożywanie",
+    "piwo",
+    "piwa",
+    "wódka",
+    "drink",
+    "upojenie",
+    "promile",
+    "nietrzeźwość"
    ],
    "summary": "Kierowanie pojazdem innym niż mechaniczny w stanie nietrzeźwości lub pod wpływem środka działającego podobnie do alkoholu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15628,7 +17353,14 @@
     "zachowania",
     "środków",
     "ostrożności",
-    "niezbędnych"
+    "niezbędnych",
+    "uniknięcia",
+    "wypadku",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy"
    ],
    "summary": "Pozostawienie pojazdu zaprzęgowego na postoju bez zachowania środków ostrożności niezbędnych do uniknięcia wypadku",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15651,12 +17383,17 @@
    "keywords": [
     "naruszenie",
     "wprowadzonych",
-    "przez",
     "radę",
     "powiatu",
     "zakazów",
     "pędzenia",
-    "zwierząt"
+    "zwierząt",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie wprowadzonych przez radę powiatu zakazów pędzenia zwierząt",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15681,10 +17418,11 @@
     "pojazdem",
     "innym",
     "mechaniczny",
-    "przez",
     "osobę",
     "niemającą",
-    "tego"
+    "tego",
+    "niż",
+    "uprawnienia"
    ],
    "summary": "Kierowanie pojazdem innym niż mechaniczny przez osobę niemającą do tego uprawnienia",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15767,7 +17505,13 @@
     "działanie",
     "układu",
     "hamulcowego",
-    "zależy"
+    "zależy",
+    "gdy",
+    "pracy",
+    "silnika",
+    "silnik",
+    "jest",
+    "unieruc"
    ],
    "summary": "Holowanie pojazdu na połączeniu giętkim, gdy działanie układu hamulcowego zależy od pracy silnika, a silnik jest unieruchomiony",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15793,9 +17537,13 @@
     "przewozu",
     "przyczepie",
     "ciągnionej",
-    "przez",
     "ciągnik",
-    "rolniczy"
+    "rolniczy",
+    "osoby",
+    "między",
+    "ładunkiem",
+    "przednią",
+    "ścianą"
    ],
    "summary": "Naruszenie warunków przewozu w przyczepie ciągnionej przez ciągnik rolniczy – osoby między ładunkiem a przednią ścianą przyczepy",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15848,9 +17596,11 @@
     "przewozu",
     "przyczepie",
     "ciągnionej",
-    "przez",
     "ciągnik",
-    "rolniczy"
+    "rolniczy",
+    "liczba",
+    "osób",
+    "przekracza"
    ],
    "summary": "Naruszenie warunków przewozu w przyczepie ciągnionej przez ciągnik rolniczy – liczba osób przekracza 5",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15876,9 +17626,9 @@
     "połączeniu",
     "sztywnym",
     "giętkim",
-    "przy",
     "niesprawnych",
-    "układach"
+    "układach",
+    "hamulcowych"
    ],
    "summary": "Holowanie pojazdu na połączeniu sztywnym/giętkim przy niesprawnych układach hamulcowych",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15906,7 +17656,15 @@
     "przed",
     "zmianą",
     "położenia",
-    "wywoływaniem"
+    "wywoływaniem",
+    "nadmiernego",
+    "hałasu",
+    "hałas",
+    "cisza",
+    "spokój",
+    "zakłócenie",
+    "głośno",
+    "krzyk"
    ],
    "summary": "Niezabezpieczenie ładunku umieszczonego na pojeździe przed zmianą położenia lub wywoływaniem nadmiernego hałasu",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -15988,8 +17746,21 @@
     "przejazd",
     "kolejowy",
     "sygnalizator",
-    "przy",
-    "sygnale"
+    "sygnale",
+    "czerwonym",
+    "kierującego",
+    "kolumną",
+    "pieszych",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa"
    ],
    "summary": "Naruszenie zakazu wejścia na przejazd kolejowy za sygnalizator przy sygnale czerwonym przez kierującego kolumną pieszych lub poganiacza",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -16017,7 +17788,9 @@
     "większej",
     "dopuszczalna",
     "liczbie",
-    "pojazdów"
+    "niż",
+    "bądź",
+    "długości"
    ],
    "summary": "Przejazd bez zezwolenia zespołu pojazdów o większej niż dopuszczalna liczbie pojazdów bądź długości",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",
@@ -16118,7 +17891,12 @@
     "rowery",
     "wózki",
     "rowerowe",
-    "hulajnogi"
+    "hulajnogi",
+    "elektryczne",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad"
    ],
    "summary": "Wjeżdżanie między jadące w kolumnie rowery, wózki rowerowe lub hulajnogi elektryczne",
    "source_mandate": "Wykaz wprowadzony przez użytkownika (dane autorytatywne)",

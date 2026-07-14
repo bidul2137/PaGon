@@ -85,16 +85,46 @@
     return slug;
   }
 
+  function bezOgonkow(s) {
+    var m = { "ą":"a","ć":"c","ę":"e","ł":"l","ń":"n","ó":"o","ś":"s","ż":"z","ź":"z" };
+    return String(s).toLowerCase()
+      .replace(/[ąćęłńóśźż]/g, function (c) { return m[c]; })
+      .replace(/-/g, ""); // usuń myślnik: "B-11" == "B11", "D-18b" == "D18b"
+  }
+  // prosty "rdzeń" — obcina typowe polskie końcówki fleksyjne (imprez/imprezy/impreza -> imprez)
+  var KONCOWKI = ["iami","owie","ego","emu","ami","ach","owi","ymi","imi","ych","ich","ow","om","em","ie","ia","y","i","a","e","u","o"];
+  function rdzen(w) {
+    for (var k = 0; k < KONCOWKI.length; k++) {
+      var e = KONCOWKI[k];
+      if (w.length > e.length + 2 && w.slice(-e.length) === e) return w.slice(0, w.length - e.length);
+    }
+    return w;
+  }
+  function tokeny(s) {
+    return bezOgonkow(s).split(/[^0-9a-z]+/).filter(function (t) { return t.length >= 2; });
+  }
+  function pasujeTekst(haystack, q) {
+    var nq = bezOgonkow(q).trim();
+    if (!nq) return true;
+    if (bezOgonkow(haystack).indexOf(nq) !== -1) return true; // szybkie: podłańcuch (jak dotąd)
+    var ht = tokeny(haystack).map(rdzen);
+    var qt = tokeny(q).map(rdzen);
+    if (!qt.length) return false;
+    return qt.every(function (qs) {                            // wszystkie słowa zapytania muszą pasować
+      return ht.some(function (h) {
+        return h === qs || (qs.length >= 3 && h.indexOf(qs) === 0) || (h.length >= 3 && qs.indexOf(h) === 0);
+      });
+    });
+  }
+
   function pasujeDoSzukania(rekord, q) {
     if (!q) return true;
     var haystack = [
       rekord.title || "",
       rekord.legal_qualification || rekord.legal_basis || "",
       (rekord.keywords || []).join(" "),
-    ]
-      .join(" ")
-      .toLowerCase();
-    return haystack.indexOf(q) !== -1;
+    ].join(" ");
+    return pasujeTekst(haystack, q);
   }
 
   function formatKwota(v) {
