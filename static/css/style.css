@@ -1362,6 +1362,19 @@ body {
 }
 .tar-modal-przepis-head { font-size: 12px; font-weight: 600; color: var(--t-head); margin-bottom: 4px; }
 .tar-modal-przepis-body { font-size: 12px; line-height: 1.6; color: var(--t-text); opacity: 0.92; }
+/* przepis powiązany (artykuł przywołany dla zrozumienia jednostki) */
+.tar-modal-przepis--rel { border-left: 2px solid rgba(150, 185, 235, 0.35); padding-left: 9px; opacity: 0.82; }
+.tar-modal-przepis--rel .tar-modal-przepis-head { color: var(--t-dim); font-weight: 500; }
+/* wyróżnienie jednostki redakcyjnej (ust./pkt/§/lit.) w cytacie przepisu */
+.legal-highlight {
+  background: rgba(206, 158, 47, 0.16);
+  color: #f3ce5c;
+  border-left: 2px solid #ce9e2f;
+  border-radius: 3px;
+  padding: 0 3px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
 .tar-modal-opis { margin: 0 0 12px; font-size: 12px; line-height: 1.6; color: var(--t-text); }
 .tar-modal-zrodla { margin: 14px 0 0; font-size: 9px; line-height: 1.6; color: var(--t-dim); opacity: 0.8; }
 

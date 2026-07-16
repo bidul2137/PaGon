@@ -17,3 +17,10 @@
   color:#0b132b;background:linear-gradient(180deg,var(--t-gold-2),var(--t-gold));
   border:none;border-radius:999px;text-decoration:none}
 .pom-link-btn:hover{filter:brightness(1.05)}
+
+/* karta kraju (honorowane prawa jazdy): tytuł + etykieta konwencji */
+.pom-rekord-top{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.pom-conv-tag{flex:none;font-family:var(--t-mono);font-size:9.5px;font-weight:700;letter-spacing:.04em;
+  text-transform:uppercase;color:var(--t-gold-2);background:rgba(224,178,58,.1);
+  border:1px solid rgba(224,178,58,.35);border-radius:999px;padding:3px 10px;white-space:nowrap}
+.pom-rekord .prz-rekord-title{font-size:14px}

@@ -86,8 +86,9 @@
         <ul class="prz-lista">
           {% for l in linki %}
             <li class="prz-rekord pom-rekord">
-              <div class="prz-rekord-top">
+              <div class="prz-rekord-top pom-rekord-top">
                 <span class="prz-rekord-title">{{ l.title }}</span>
+                {% if l.tag %}<span class="pom-conv-tag">{{ l.tag }}</span>{% endif %}
               </div>
               {% if widok == "wyszukiwanie" %}
                 <span class="prz-rekord-tag">

@@ -117,8 +117,29 @@
     });
   }
 
+  // --- wyszukiwanie po prędkości: "34km", "54 km/h", "20kmh", "prędkość 34 km/h" ---
+  function liczbaKmh(q) {
+    var m = String(q).toLowerCase().match(/(\d{1,3})\s*km/);
+    return m ? parseInt(m[1], 10) : null;
+  }
+  function zakresPredkosci(title) {
+    var t = String(title).toLowerCase();
+    if (t.indexOf("przekroczenie") === -1) return null;
+    if (t.indexOf("prędko") === -1 && t.indexOf("predko") === -1) return null;
+    var m;
+    if ((m = t.match(/do\s+(\d+)\s*km/))) return [0, parseInt(m[1], 10)];
+    if ((m = t.match(/o\s+(\d+)\s*[-–]\s*(\d+)\s*km/))) return [parseInt(m[1], 10), parseInt(m[2], 10)];
+    if ((m = t.match(/o\s+(\d+)\s*km\/h\s*i\s*wi/))) return [parseInt(m[1], 10), Infinity];
+    return null;
+  }
+
   function pasujeDoSzukania(rekord, q) {
     if (!q) return true;
+    var N = liczbaKmh(q);
+    if (N !== null) {                                  // zapytanie o prędkość -> dopasuj właściwy przedział
+      var z = zakresPredkosci(rekord.title || "");
+      return z ? (N >= z[0] && N <= z[1]) : false;
+    }
     var haystack = [
       rekord.title || "",
       rekord.legal_qualification || rekord.legal_basis || "",
@@ -297,6 +318,102 @@
     return cell;
   }
 
+  // ---------- Wyróżnianie jednostek redakcyjnych w cytacie przepisu ----------
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function parsujNaglowek(head) {
+    var mp = head.match(/^§\s*(\d+[a-z]?)\s+(\S+)/);
+    if (mp) return { act: mp[2], num: mp[1], kind: "§" };
+    var ma = head.match(/^Art\.\s*(\d+[a-z]?(?:\(\d+\))?)\s+(\S+)/);
+    if (ma) return { act: ma[2], num: ma[1], kind: "art" };
+    return null;
+  }
+  function znajdzRef(refs, parsed) {
+    if (!refs) return null;
+    for (var i = 0; i < refs.length; i++) {
+      var rf = refs[i];
+      if (rf.act !== parsed.act) continue;
+      if (parsed.kind === "art") {
+        if (rf.article && String(rf.article) === String(parsed.num)) return rf;
+      } else {
+        if (rf.paragraphs && rf.paragraphs.indexOf(parsed.num) !== -1) return rf;
+        if (rf.article && String(rf.article) === String(parsed.num)) return rf;
+      }
+    }
+    return null;
+  }
+  function zakresUstepu(body, n) {
+    var re = /(^|[^\d.])(\d+)\.\s/g, m, mk = [];
+    while ((m = re.exec(body))) mk.push({ num: parseInt(m[2], 10), idx: m.index + m[1].length });
+    for (var i = 0; i < mk.length; i++) if (mk[i].num === n) {
+      var s = mk[i].idx, e = body.length;
+      for (var j = i + 1; j < mk.length; j++) if (mk[j].num === n + 1) { e = mk[j].idx; break; }
+      return [s, e];
+    }
+    return null;
+  }
+  function zakresPunktu(body, from, to, m0) {
+    var sub = body.slice(from, to), re = /(^|[^\d])(\d+)\)/g, mm, mk = [];
+    while ((mm = re.exec(sub))) mk.push({ num: parseInt(mm[2], 10), idx: mm.index + mm[1].length });
+    for (var i = 0; i < mk.length; i++) if (mk[i].num === m0) {
+      var s = mk[i].idx, e = sub.length;
+      for (var j = i + 1; j < mk.length; j++) if (mk[j].num === m0 + 1) { e = mk[j].idx; break; }
+      return [from + s, from + e];
+    }
+    return null;
+  }
+  function zakresParagrafu(body, n) {
+    var re = /§\s*(\d+[a-z]?)/g, m, mk = [];
+    while ((m = re.exec(body))) mk.push({ num: m[1], idx: m.index });
+    for (var i = 0; i < mk.length; i++) if (mk[i].num === String(n)) {
+      return [mk[i].idx, (i + 1 < mk.length) ? mk[i + 1].idx : body.length];
+    }
+    return null;
+  }
+  function zbierzZakresy(body, ref, kind) {
+    var ranges = [], warn = false;
+    function ust(u) {
+      var ru = zakresUstepu(body, parseInt(u, 10));
+      if (!ru) { warn = true; return; }
+      if (ref.points && ref.points.length) {
+        var got = false;
+        ref.points.forEach(function (pk) {
+          var rp = zakresPunktu(body, ru[0], ru[1], parseInt(pk, 10));
+          if (rp) { ranges.push(rp); got = true; }
+        });
+        if (!got) { ranges.push(ru); warn = true; }
+      } else ranges.push(ru);
+    }
+    if (kind === "art" && ref.paragraphs && ref.paragraphs.length) {
+      ref.paragraphs.forEach(function (p) { var rp = zakresParagrafu(body, p); if (rp) ranges.push(rp); else warn = true; });
+    }
+    if (ref.sections && ref.sections.length) {
+      ref.sections.forEach(ust);
+    } else if ((!ref.paragraphs || !ref.paragraphs.length) && ref.points && ref.points.length) {
+      ref.points.forEach(function (pk) { var rp = zakresPunktu(body, 0, body.length, parseInt(pk, 10)); if (rp) ranges.push(rp); else warn = true; });
+    }
+    return { ranges: ranges, warn: warn };
+  }
+  function budujHtmlPrzepisu(body, ranges) {
+    if (!ranges.length) return escapeHtml(body);
+    ranges = ranges.slice().sort(function (a, b) { return a[0] - b[0]; });
+    var merged = [];
+    ranges.forEach(function (r) {
+      var l = merged[merged.length - 1];
+      if (l && r[0] <= l[1]) l[1] = Math.max(l[1], r[1]); else merged.push([r[0], r[1]]);
+    });
+    var out = "", pos = 0;
+    merged.forEach(function (r) {
+      out += escapeHtml(body.slice(pos, r[0])) +
+        '<span class="legal-highlight">' + escapeHtml(body.slice(r[0], r[1])) + "</span>";
+      pos = r[1];
+    });
+    return out + escapeHtml(body.slice(pos));
+  }
+
   function otworzModal(r) {
     aktualnyModalId = r.id;
     modalTitle.textContent = "Szczegóły wykroczenia";
@@ -343,11 +460,13 @@
       przepisyTitle.textContent = "Kwalifikacja prawna:";
       modalBody.appendChild(przepisyTitle);
 
+      var refs = r.legal_references || [];
       var bloki = String(r.legal_qualification_text).split(/\n\s*\n/);
       bloki.forEach(function (blok) {
         var linie = blok.split("\n");
+        var powiazany = linie[0].indexOf("przepis powiązany") !== -1;
         var art = document.createElement("div");
-        art.className = "tar-modal-przepis";
+        art.className = powiazany ? "tar-modal-przepis tar-modal-przepis--rel" : "tar-modal-przepis";
         var head = document.createElement("div");
         head.className = "tar-modal-przepis-head";
         head.textContent = linie[0];
@@ -355,7 +474,19 @@
         if (linie.length > 1) {
           var body = document.createElement("div");
           body.className = "tar-modal-przepis-body";
-          body.textContent = linie.slice(1).join(" ");
+          var tekst = linie.slice(1).join(" ");
+          var parsed = parsujNaglowek(linie[0].trim());
+          var ref = parsed ? znajdzRef(refs, parsed) : null;
+          if (ref) {
+            var wynik = zbierzZakresy(tekst, ref, parsed.kind);
+            body.innerHTML = budujHtmlPrzepisu(tekst, wynik.ranges); // tekst escapowany, tylko własne <span>
+            if (wynik.warn) {
+              console.warn("PaGon: nie rozpoznano jednoznacznie jednostki redakcyjnej dla \"" +
+                linie[0].trim() + "\" (" + (r.legal_qualification || "") + ") — pokazuję pełny przepis bez fałszywego wyróżnienia.");
+            }
+          } else {
+            body.textContent = tekst; // brak dopasowania referencji -> pełny tekst bez wyróżnienia
+          }
           art.appendChild(body);
         }
         modalBody.appendChild(art);

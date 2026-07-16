@@ -158,15 +158,20 @@ def pomoce():
     query = request.args.get("q", "").strip()
     aktualna_kategoria = find_kategoria(kategorie, kategoria_slug) if kategoria_slug else None
 
+    def bez_ogonkow(s):
+        tab = str.maketrans("ąćęłńóśżź", "acelnoszz")
+        return s.lower().translate(tab)
+
     def szukaj_linkow(items, q, slug=None):
-        ql = q.strip().lower()
+        ql = bez_ogonkow(q.strip())
         out = []
         for r in items:
             if slug and r.get("category") != slug:
                 continue
-            hay = " ".join(
-                [r.get("title", ""), r.get("description", ""), " ".join(r.get("keywords", []))]
-            ).lower()
+            hay = bez_ogonkow(" ".join([
+                r.get("title", ""), r.get("description", ""),
+                r.get("tag", ""), " ".join(r.get("keywords", [])),
+            ]))
             if ql in hay:
                 out.append(r)
         return out
