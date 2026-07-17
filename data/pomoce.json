@@ -1033,6 +1033,206 @@
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
    "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+  },
+  {
+   "category": "zatrzymanie-prawa-jazdy",
+   "article": "Art. 135 ust. 1 pkt 1 lit. a PRD",
+   "summary": "Alkohol / środki odurzające",
+   "effect": "Zakaz dalszej jazdy",
+   "url": null,
+   "description": "Policjant zatrzyma wydane w kraju prawo jazdy za pokwitowaniem w przypadku uzasadnionego podejrzenia, że kierujący pojazdem znajduje się w stanie nietrzeźwości lub w stanie po użyciu alkoholu albo środka działającego podobnie do alkoholu.",
+   "keywords": [
+    "alkohol",
+    "alko",
+    "pijany",
+    "nietrzeźwość",
+    "narkotyki",
+    "środki odurzające",
+    "po użyciu",
+    "promile",
+    "stan nietrzeźwości"
+   ]
+  },
+  {
+   "category": "zatrzymanie-prawa-jazdy",
+   "article": "Art. 135 ust. 1 pkt 1 lit. b PRD",
+   "summary": "Upłynął termin ważności dokumentu",
+   "effect": "7 dni",
+   "url": null,
+   "description": "Policjant zatrzyma wydane w kraju prawo jazdy za pokwitowaniem, gdy upłynął termin ważności prawa jazdy.",
+   "keywords": [
+    "termin ważności",
+    "ważność",
+    "przeterminowane",
+    "nieważne",
+    "wygasło",
+    "data ważności"
+   ]
+  },
+  {
+   "category": "zatrzymanie-prawa-jazdy",
+   "article": "Art. 135 ust. 1 pkt 1 lit. c PRD",
+   "summary": "Przekroczenie 24 punktów (po kursie reedukacyjnym)",
+   "effect": "24 godziny",
+   "url": null,
+   "description": "Policjant zatrzyma prawo jazdy za pokwitowaniem w przypadku przekroczenia liczby 24 punktów za naruszenia przepisów ruchu drogowego w okresie 5 lat od dnia wysłania informacji o obowiązku ukończenia kursu reedukacyjnego (art. 98a ust. 3 ustawy o kierujących pojazdami).",
+   "keywords": [
+    "24 punkty",
+    "punkty karne",
+    "kurs reedukacyjny",
+    "reedukacja",
+    "limit punktów",
+    "przekroczenie punktów"
+   ]
+  },
+  {
+   "category": "zatrzymanie-prawa-jazdy",
+   "article": "Art. 135 ust. 1 pkt 1 lit. d PRD",
+   "summary": "Młody kierowca / 20 punktów / okres próbny",
+   "effect": "Zakaz dalszej jazdy",
+   "url": null,
+   "description": "Policjant zatrzyma prawo jazdy za pokwitowaniem w przypadku przekroczenia w okresie 1 roku od pierwszego wydania prawa jazdy liczby 20 punktów, albo gdy — na podstawie prawomocnych rozstrzygnięć — w okresie próbnym (art. 91 ust. 1 albo art. 92 ust. 1 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami) kierujący popełnił: przestępstwo przeciwko bezpieczeństwu w komunikacji, lub trzy wykroczenia określone w art. 86 § 1, 1a lub 2, art. 86b § 1, art. 87 § 1, art. 92a § 2, art. 92b, art. 97a lub art. 98 Kodeksu wykroczeń, albo w art. 90, art. 92 § 1 lub 2 lub art. 97 Kodeksu wykroczeń — w związku z niestosowaniem się do art. 25 ust. 1–3 PRD (zasady pierwszeństwa przejazdu na skrzyżowaniu) lub znaków drogowych regulujących pierwszeństwo przejazdu, sygnałów świetlnych zakazujących wjazdu za sygnalizator, albo poleceń i sygnałów dawanych przez osoby kierujące ruchem lub uprawnione do jego kontroli.",
+   "keywords": [
+    "20 punktów",
+    "okres próbny",
+    "młody kierowca",
+    "nowy kierowca",
+    "pierwszeństwo",
+    "art. 25",
+    "przestępstwo",
+    "trzy wykroczenia"
+   ]
+  },
+  {
+   "category": "zatrzymanie-prawa-jazdy",
+   "article": "Art. 135 ust. 1 pkt 1 lit. e PRD",
+   "summary": "Brak dokumentu / brak blokady alkoholowej",
+   "effect": "Zakaz dalszej jazdy",
+   "url": null,
+   "description": "Policjant zatrzyma prawo jazdy za pokwitowaniem w przypadku braku wymaganego dokumentu (art. 38 ust. 1 pkt 3a lub 4a) albo prowadzenia pojazdu niewyposażonego w blokadę alkoholową, gdy jest ona wymagana (art. 13 ust. 5 pkt 7 ustawy o kierujących pojazdami). Zwrot prawa jazdy następuje po przedstawieniu brakującego dokumentu.",
+   "keywords": [
+    "brak dokumentu",
+    "blokada alkoholowa",
+    "blokada",
+    "dokument",
+    "art. 38"
+   ]
+  },
+  {
+   "category": "zatrzymanie-prawa-jazdy",
+   "article": "Art. 135 ust. 1 pkt 1 lit. f PRD",
+   "summary": "Okres próbny (3 wykroczenia lub przestępstwo)",
+   "effect": "24 godziny",
+   "url": null,
+   "description": "Policjant zatrzyma prawo jazdy za pokwitowaniem w przypadku popełnienia w okresie próbnym (art. 91 ustawy o kierujących pojazdami) trzech wykroczeń przeciwko bezpieczeństwu w komunikacji lub jednego przestępstwa przeciwko bezpieczeństwu w komunikacji.",
+   "keywords": [
+    "okres próbny",
+    "próbny",
+    "przestępstwo",
+    "trzy wykroczenia",
+    "młody kierowca"
+   ]
+  },
+  {
+   "category": "zatrzymanie-prawa-jazdy",
+   "article": "Art. 135 ust. 1 pkt 2 lit. a PRD",
+   "summary": "Prędkość ponad 50 km/h w terenie zabudowanym",
+   "effect": "24 godziny",
+   "url": null,
+   "description": "Policjant zatrzyma prawo jazdy za pokwitowaniem w przypadku kierowania pojazdem z prędkością przekraczającą dopuszczalną o więcej niż 50 km/h na obszarze zabudowanym lub na drodze jednojezdniowej dwukierunkowej poza obszarem zabudowanym.",
+   "keywords": [
+    "prędkość",
+    "przekroczenie prędkości",
+    "50 km/h",
+    "ponad 50",
+    "teren zabudowany",
+    "szybko"
+   ]
+  },
+  {
+   "category": "zatrzymanie-prawa-jazdy",
+   "article": "Art. 135 ust. 1 pkt 2 lit. b PRD",
+   "summary": "Przewóz osób ponad dozwoloną liczbę",
+   "effect": "24 godziny",
+   "url": null,
+   "description": "Policjant zatrzyma prawo jazdy za pokwitowaniem w przypadku przewożenia osób w liczbie przekraczającej liczbę miejsc określoną w dowodzie rejestracyjnym (pozwoleniu czasowym) lub wynikającą z konstrukcji pojazdu. Nie stosuje się, gdy nadwyżka nie przekracza 5 osób w autobusie albo 2 osób w samochodzie osobowym/ciężarowym lub w przyczepie.",
+   "keywords": [
+    "przewóz osób",
+    "za dużo osób",
+    "nadmiar pasażerów",
+    "liczba miejsc",
+    "przeładowanie",
+    "pasażerowie"
+   ]
+  },
+  {
+   "category": "zatrzymanie-prawa-jazdy",
+   "article": "Art. 135 ust. 1 pkt 2 lit. c PRD",
+   "summary": "Wyścigi / Jazda na jednym kole / Drift",
+   "effect": "24 godziny",
+   "url": null,
+   "description": "Policjant zatrzyma prawo jazdy za pokwitowaniem w przypadku kierowania pojazdem w sposób określony w art. 60 ust. 5 PRD (m.in. udział w niedozwolonym wyścigu).",
+   "keywords": [
+    "wyścig",
+    "wyścigi",
+    "drift",
+    "driftowanie",
+    "jazda na jednym kole",
+    "koło",
+    "kaskaderka",
+    "popisy",
+    "art. 60"
+   ]
+  },
+  {
+   "category": "zatrzymanie-prawa-jazdy",
+   "article": "Art. 135 ust. 1 pkt 2a PRD",
+   "summary": "Naruszenia tachografu (przewóz drogowy)",
+   "effect": "24 godziny",
+   "url": null,
+   "description": "Policjant zatrzyma prawo jazdy za pokwitowaniem, gdy podczas kontroli drogowej ujawniono, że kierowca wykonujący przewóz drogowy (rozp. WE 561/2006 lub umowa AETR) w bieżącym dziennym czasie prowadzenia naruszył przepisy o tachografie: a) nie rejestrował wskazań (prędkość, aktywność, przebyta droga), b) używał cudzej karty/kilku kart lub wykresówek, c) korzystał z niedozwolonego urządzenia lub oprogramowania fałszującego dane, d) tachograf był odłączony.",
+   "keywords": [
+    "tachograf",
+    "karta",
+    "karta kierowcy",
+    "cudza karta",
+    "wykresówka",
+    "AETR",
+    "561/2006",
+    "przewóz drogowy",
+    "kierowca zawodowy",
+    "manipulacja"
+   ]
+  },
+  {
+   "category": "zatrzymanie-prawa-jazdy",
+   "article": "Art. 135 ust. 1 pkt 3 PRD",
+   "summary": "Popełnienie przestępstwa lub wykroczenia, za które można orzec zakaz prowadzenia pojazdów",
+   "effect": "7 dni",
+   "url": null,
+   "description": "Policjant może zatrzymać wydane w kraju prawo jazdy za pokwitowaniem w przypadku uzasadnionego podejrzenia, że kierowca popełnił przestępstwo lub wykroczenie, za które może być orzeczony zakaz prowadzenia pojazdów.",
+   "keywords": [
+    "przestępstwo",
+    "wykroczenie",
+    "zakaz prowadzenia",
+    "może zatrzymać",
+    "podejrzenie"
+   ]
+  },
+  {
+   "category": "zatrzymanie-prawa-jazdy",
+   "article": "Art. 16a (Dz.U. 2021 poz. 2328)",
+   "summary": "Przekroczenie limitu 24 punktów karnych",
+   "effect": "7 dni",
+   "url": null,
+   "description": "Do dnia wskazanego w komunikacie (art. 14 ust. 2) policjant zatrzyma prawo jazdy albo tymczasowe elektroniczne prawo jazdy w razie przekroczenia liczby 24 punktów otrzymanych za naruszenia przepisów ruchu drogowego wpisanych do ewidencji (art. 17 ust. 1 ustawy z dnia 2 grudnia 2021 r. o zmianie ustawy — Prawo o ruchu drogowym oraz niektórych innych ustaw, Dz.U. poz. 2328). Przepisy art. 135 ust. 4, art. 135a ust. 5, art. 135b i art. 136 ust. 1-3 oraz art. 139 stosuje się odpowiednio.",
+   "keywords": [
+    "24 punkty",
+    "limit punktów",
+    "przekroczenie punktów",
+    "ewidencja",
+    "komunikat"
+   ]
   }
  ]
 }

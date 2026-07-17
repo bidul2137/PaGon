@@ -750,6 +750,14 @@ body {
   color: var(--text-dim);
 }
 
+.tar-staty-kod {
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  color: #8aa4c8;
+  font-weight: 600;
+}
+
 .tar-wiecej-btn {
   display: inline-block;
   margin-top: 12px;

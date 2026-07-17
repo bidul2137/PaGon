@@ -58,11 +58,17 @@
         "zatrzymanie-prawa-jazdy": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="12" height="9.5" rx="1.6"/><circle cx="6" cy="9.6" r="1.4"/><path d="M4 12.9c.35-1.1 1.15-1.6 2-1.6s1.65.5 2 1.6"/><line x1="9" y1="8.7" x2="12.5" y2="8.7"/><line x1="9" y1="11.2" x2="11.6" y2="11.2"/><rect x="14.5" y="14.2" width="6" height="5" rx="1"/><path d="M16 14.2v-1.3a1.5 1.5 0 0 1 3 0v1.3"/></svg>',
         "zatrzymanie-prawa-jazdy-zagr": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5.5" width="11" height="8.5" rx="1.5"/><circle cx="5.3" cy="9" r="1.3"/><path d="M3.4 12c.3-1 1-1.5 1.9-1.5s1.6.5 1.9 1.5"/><line x1="8" y1="8" x2="11" y2="8"/><circle cx="17.5" cy="7.5" r="3"/><path d="M14.5 7.5h6M17.5 4.5v6"/><rect x="14.5" y="14.5" width="6" height="5" rx="1"/><path d="M16 14.5v-1.2a1.5 1.5 0 0 1 3 0v1.2"/></svg>'
       } %}
-      <div class="prz-tiles">
+      <div class="prz-tiles" id="pom-tiles">
         {% for kat in kategorie %}
           <a href="{% if kat.url %}{{ kat.url }}{% else %}{{ url_for('pomoce', kategoria=kat.slug) }}{% endif %}"
-             class="prz-tile pom-tile"
+             class="prz-tile pom-tile" data-slug="{{ kat.slug }}"
              {% if kat.url %}target="_blank" rel="noopener noreferrer"{% endif %}>
+            <button type="button" class="prz-star" data-slug="{{ kat.slug }}"
+                    aria-label="Dodaj {{ kat.nazwa }} do ulubionych" aria-pressed="false">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                <path class="prz-star-path" d="M12 17.3l-5.4 3.1 1.4-6.1-4.6-4.1 6.2-.6L12 3.9l2.4 5.7 6.2.6-4.6 4.1 1.4 6.1z"/>
+              </svg>
+            </button>
             {% if pom_ikony.get(kat.slug) %}
               <span class="pom-tile-ico">{{ pom_ikony.get(kat.slug)|safe }}</span>
             {% endif %}
@@ -85,6 +91,30 @@
       {% if linki %}
         <ul class="prz-lista">
           {% for l in linki %}
+            {% if l.article %}
+            <li class="prz-rekord pom-rekord pom-zpj">
+              <span class="pom-zpj-art">{{ l.article }}</span>
+              <span class="pom-zpj-summary">{{ l.summary }}</span>
+              {% if l.effect %}<span class="pom-conv-tag pom-zpj-effect">{{ l.effect }}</span>{% endif %}
+              {% if widok == "wyszukiwanie" %}
+                <span class="prz-rekord-tag">
+                  {% for kat in kategorie %}{% if kat.slug == l.category %}{{ kat.nazwa }}{% endif %}{% endfor %}
+                </span>
+              {% endif %}
+              {% if l.description %}
+                <button type="button" class="pom-rozwin" aria-expanded="false">Rozwiń</button>
+                <div class="pom-zpj-desc" hidden>
+                  <p class="prz-rekord-content">{{ l.description }}</p>
+                  {% if l.url %}
+                    <a href="{{ l.url }}" class="pom-link-btn" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.5 1.5"></path><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.5-1.5"></path></svg>
+                      Otwórz
+                    </a>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </li>
+            {% else %}
             <li class="prz-rekord pom-rekord">
               <div class="prz-rekord-top pom-rekord-top">
                 <span class="prz-rekord-title">{{ l.title }}</span>
@@ -108,6 +138,7 @@
                 </div>
               {% endif %}
             </li>
+            {% endif %}
           {% endfor %}
         </ul>
       {% else %}
@@ -117,4 +148,6 @@
 
   </main>
 </div>
+
+<script src="{{ url_for('static', filename='js/pomoce.js') }}" defer></script>
 {% endblock %}

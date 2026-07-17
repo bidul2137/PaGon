@@ -273,6 +273,13 @@
       pktSpan.textContent = formatujPunkty(r);
       staty.appendChild(pktSpan);
 
+      if (r.code && String(r.code).trim() && String(r.code).trim() !== "–") {
+        var kodSpan = document.createElement("span");
+        kodSpan.className = "tar-staty-kod";
+        kodSpan.textContent = "Kod: " + r.code;
+        staty.appendChild(kodSpan);
+      }
+
       li.appendChild(staty);
 
       var wiecejBtn = document.createElement("button");
@@ -346,7 +353,7 @@
     return null;
   }
   function zakresUstepu(body, n) {
-    var re = /(^|[^\d.])(\d+)\.\s/g, m, mk = [];
+    var re = /(^|[^\d.])(\d+)\.(?=\s)/g, m, mk = [];
     while ((m = re.exec(body))) mk.push({ num: parseInt(m[2], 10), idx: m.index + m[1].length });
     for (var i = 0; i < mk.length; i++) if (mk[i].num === n) {
       var s = mk[i].idx, e = body.length;

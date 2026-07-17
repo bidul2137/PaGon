@@ -170,7 +170,8 @@ def pomoce():
                 continue
             hay = bez_ogonkow(" ".join([
                 r.get("title", ""), r.get("description", ""),
-                r.get("tag", ""), " ".join(r.get("keywords", [])),
+                r.get("tag", ""), r.get("article", ""), r.get("summary", ""),
+                r.get("effect", ""), " ".join(r.get("keywords", [])),
             ]))
             if ql in hay:
                 out.append(r)
