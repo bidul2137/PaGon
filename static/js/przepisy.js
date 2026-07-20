@@ -188,6 +188,35 @@
   }
   function zamknijModal() { if (modal) { modal.hidden = true; document.body.style.overflow = ""; } }
 
+  // ---------- Filtrowanie kafelków na żywo (widok kategorii) ----------
+  // Baza rekordów do wyszukiwania serwerowego jest w przygotowaniu, więc na
+  // ekranie kafelków pasek wyszukiwania filtruje dokumenty bez przeładowania.
+  var searchForm = document.querySelector(".prz-searchbar");
+  var searchInput = searchForm ? searchForm.querySelector(".tar-search-input") : null;
+  var tilesBrak = document.getElementById("prz-tiles-brak");
+
+  function filtrujKafelki(q) {
+    if (!tilesBox) return;
+    var widocznych = 0;
+    tilesBox.querySelectorAll(".prz-tile").forEach(function (t) {
+      var hay = (t.getAttribute("data-title") || "") + " " + (t.getAttribute("data-abbr") || "");
+      var pokaz = pasujeTekst(hay, q);
+      t.style.display = pokaz ? "" : "none";
+      if (pokaz && !t.hidden) widocznych++;
+    });
+    if (tilesBrak) tilesBrak.hidden = widocznych !== 0;
+  }
+
+  if (tilesBox && searchInput) {
+    searchInput.addEventListener("input", function () { filtrujKafelki(searchInput.value); });
+    if (searchForm) {
+      searchForm.addEventListener("submit", function (e) {
+        e.preventDefault(); // na kafelkach filtrujemy lokalnie — Enter nie przeładowuje strony
+      });
+    }
+    if (searchInput.value) filtrujKafelki(searchInput.value);
+  }
+
   // ---------- Zdarzenia ----------
   if (tilesBox) {
     tilesBox.addEventListener("click", function (e) {

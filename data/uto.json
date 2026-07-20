@@ -1,0 +1,144 @@
+{
+ "_zrodlo": "Źródło: ustawa – Prawo o ruchu drogowym; ustawa o kierujących pojazdami.",
+ "urzadzenia": [
+  {
+   "id": "hulajnoga-elektryczna",
+   "name": "Hulajnoga elektryczna",
+   "icon": "hulajnoga",
+   "definition": "Pojazd napędzany elektrycznie, dwuosiowy, z kierownicą, bez siedzenia i pedałów, konstrukcyjnie przeznaczony do poruszania się wyłącznie przez kierującego znajdującego się na tym pojeździe (art. 2 pkt 47b PRD).",
+   "uprawnienia": [
+    "Zabrania się dopuszczania dziecka w wieku do 13 lat do kierowania na drodze (art. 33d ust. 1 PRD).",
+    "W strefie zamieszkania dziecko w wieku do 13 lat może kierować wyłącznie pod opieką osoby dorosłej (art. 33d ust. 2 PRD).",
+    "Dokumentem stwierdzającym uprawnienie jest karta rowerowa lub prawo jazdy kategorii AM, A1, B1, B lub T — w przypadku osób, które nie ukończyły 18 lat (art. 7 ust. 1 pkt 2 ustawy o kierujących pojazdami).",
+    "Minimalny wiek kierującego: 13 lat (art. 8 ust. 1 pkt 10a ustawy o kierujących pojazdami).",
+    "Kierujący, który nie ukończył 16 roku życia, jest obowiązany używać w czasie jazdy kasku ochronnego odpowiadającego właściwym warunkom technicznym (art. 33 ust. 1b PRD)."
+   ],
+   "poruszanie": [
+    "Droga dla rowerów, droga dla pieszych i rowerów lub pas ruchu dla rowerów — obowiązkowo, jeżeli są wyznaczone dla kierunku, w którym się porusza lub zamierza skręcić (art. 33 ust. 1 PRD).",
+    "Jezdnia — obowiązkowo, gdy ruch pojazdów jest dozwolony z prędkością nie większą niż 30 km/h i brakuje drogi dla rowerów, drogi dla pieszych i rowerów oraz pasa ruchu dla rowerów (art. 33a ust. 1 PRD).",
+    "Droga dla pieszych — wyjątkowo, gdy jest usytuowana wzdłuż jezdni z prędkością dozwoloną większą niż 30 km/h i brakuje drogi dla rowerów, drogi dla pieszych i rowerów oraz pasa ruchu dla rowerów (art. 33a ust. 2 PRD)."
+   ],
+   "predkosc": [
+    "Prędkość dopuszczalna: 20 km/h (art. 20 ust. 6 pkt 4 PRD).",
+    "Na drodze dla pieszych: jazda z prędkością zbliżoną do prędkości pieszego, szczególna ostrożność, ustępowanie pierwszeństwa pieszemu i nieutrudnianie jego ruchu (art. 33c PRD)."
+   ],
+   "zabrania": [
+    "Ciągnięcia lub holowania innego pojazdu (art. 33a ust. 3 pkt 1 PRD).",
+    "Przewożenia innej osoby, zwierzęcia lub ładunku (art. 33a ust. 3 pkt 2 PRD).",
+    "Jazdy po jezdni — z wyjątkiem korzystania z pasa ruchu dla rowerów, przejazdu dla rowerów oraz jezdni, po której ruch jest dozwolony do 30 km/h przy braku infrastruktury rowerowej (art. 33a ust. 3 pkt 3 PRD).",
+    "Czepiania się pojazdów (art. 33 ust. 3 pkt 3 PRD).",
+    "Jazdy po jezdni obok innego uczestnika ruchu (art. 33 ust. 3 pkt 1 PRD).",
+    "Jazdy bez trzymania co najmniej jednej ręki na kierownicy oraz nóg na podnóżkach (art. 33 ust. 3 pkt 2 PRD).",
+    "Kierowania w stanie nietrzeźwości, w stanie po użyciu alkoholu lub środka działającego podobnie do alkoholu (art. 45 ust. 1 pkt 1 PRD)."
+   ],
+   "pieszy": [
+    "Korzystając z drogi dla pieszych i rowerów — zachować szczególną ostrożność i ustępować pierwszeństwa pieszemu (art. 33 ust. 1 PRD).",
+    "Na drodze dla pieszych: jazda z prędkością zbliżoną do prędkości pieszego, szczególna ostrożność, ustępowanie pierwszeństwa pieszemu i nieutrudnianie jego ruchu (art. 33c PRD)."
+   ],
+   "postoj": [
+    "Dopuszcza się postój na drodze dla pieszych w miejscu do tego przeznaczonym, a w razie braku takiego miejsca — jak najbliżej zewnętrznej krawędzi drogi dla pieszych najbardziej oddalonej od jezdni i równolegle do tej krawędzi (art. 47 ust. 3 PRD).",
+    "Warunek: szerokość chodnika pozostawionego dla pieszych nie mniejsza niż 1,5 m i nieutrudniająca im ruchu (art. 47 ust. 1 pkt 2 w zw. z ust. 3 PRD)."
+   ],
+   "keywords": [
+    "hulajnoga",
+    "hulajnoga elektryczna",
+    "escooter",
+    "e-hulajnoga",
+    "20 km/h",
+    "kask"
+   ]
+  },
+  {
+   "id": "urzadzenie-transportu-osobistego",
+   "name": "Urządzenie transportu osobistego (UTO)",
+   "icon": "uto",
+   "definition": "Pojazd napędzany elektrycznie, z wyłączeniem hulajnogi elektrycznej, bez siedzenia i pedałów, konstrukcyjnie przeznaczony do poruszania się wyłącznie przez kierującego znajdującego się na tym pojeździe (art. 2 pkt 47c PRD).",
+   "uprawnienia": [
+    "Zabrania się dopuszczania dziecka w wieku do 13 lat do kierowania na drodze (art. 33d ust. 1 PRD).",
+    "W strefie zamieszkania dziecko w wieku do 13 lat może kierować wyłącznie pod opieką osoby dorosłej (art. 33d ust. 2 PRD).",
+    "Dokumentem stwierdzającym uprawnienie jest karta rowerowa lub prawo jazdy kategorii AM, A1, B1, B lub T — w przypadku osób, które nie ukończyły 18 lat (art. 7 ust. 1 pkt 2 ustawy o kierujących pojazdami).",
+    "Minimalny wiek kierującego: 13 lat (art. 8 ust. 1 pkt 10a ustawy o kierujących pojazdami).",
+    "Kierujący, który nie ukończył 16 roku życia, jest obowiązany używać w czasie jazdy kasku ochronnego odpowiadającego właściwym warunkom technicznym (art. 33 ust. 1b PRD)."
+   ],
+   "poruszanie": [
+    "Droga dla rowerów lub droga dla pieszych i rowerów — obowiązkowo, jeżeli jest wyznaczona dla kierunku, w którym się porusza lub zamierza skręcić (art. 33b ust. 1 PRD).",
+    "Droga dla pieszych — wyjątkowo, gdy brakuje drogi dla rowerów oraz drogi dla pieszych i rowerów (art. 33b ust. 2 PRD).",
+    "Uwaga: UTO nie może korzystać z jezdni — poza przejazdem dla rowerów (art. 33b ust. 3 pkt 4 PRD)."
+   ],
+   "predkosc": [
+    "Prędkość dopuszczalna: 20 km/h (art. 20 ust. 6 pkt 4 PRD).",
+    "Na drodze dla pieszych: jazda z prędkością zbliżoną do prędkości pieszego, szczególna ostrożność, ustępowanie pierwszeństwa pieszemu i nieutrudnianie jego ruchu (art. 33c PRD)."
+   ],
+   "zabrania": [
+    "Ciągnięcia lub holowania innego pojazdu (art. 33b ust. 3 pkt 1 PRD).",
+    "Przewożenia innej osoby, zwierzęcia lub ładunku (art. 33b ust. 3 pkt 2 PRD).",
+    "Czepiania się pojazdów (art. 33b ust. 3 pkt 3 PRD).",
+    "Jazdy po jezdni — z wyjątkiem korzystania z przejazdu dla rowerów (art. 33b ust. 3 pkt 4 PRD).",
+    "Kierowania w stanie nietrzeźwości, w stanie po użyciu alkoholu lub środka działającego podobnie do alkoholu (art. 45 ust. 1 pkt 1 PRD)."
+   ],
+   "pieszy": [
+    "Korzystając z drogi dla pieszych i rowerów — zachować szczególną ostrożność i ustępować pierwszeństwa pieszemu (art. 33b ust. 1 PRD).",
+    "Na drodze dla pieszych: jazda z prędkością zbliżoną do prędkości pieszego, szczególna ostrożność, ustępowanie pierwszeństwa pieszemu i nieutrudnianie jego ruchu (art. 33c PRD)."
+   ],
+   "postoj": [
+    "Dopuszcza się postój na drodze dla pieszych w miejscu do tego przeznaczonym, a w razie braku takiego miejsca — jak najbliżej zewnętrznej krawędzi drogi dla pieszych najbardziej oddalonej od jezdni i równolegle do tej krawędzi (art. 47 ust. 3 PRD).",
+    "Warunek: szerokość chodnika pozostawionego dla pieszych nie mniejsza niż 1,5 m i nieutrudniająca im ruchu (art. 47 ust. 1 pkt 2 w zw. z ust. 3 PRD)."
+   ],
+   "keywords": [
+    "uto",
+    "urządzenie transportu osobistego",
+    "deskorolka elektryczna",
+    "monocykl",
+    "segway",
+    "20 km/h"
+   ]
+  },
+  {
+   "id": "urzadzenie-wspomagajace-ruch",
+   "name": "Urządzenie wspomagające ruch (UWR)",
+   "icon": "uwr",
+   "definition": "Urządzenie lub sprzęt sportowo-rekreacyjny, przeznaczone do poruszania się osoby w pozycji stojącej, napędzane siłą mięśni (art. 2 pkt 18a PRD).",
+   "uprawnienia": [
+    "Przepisy nie wymagają uprawnień ani dokumentu do poruszania się przy użyciu urządzenia wspomagającego ruch.",
+    "Uwaga: to nie jest pojazd — osoba porusza się „przy użyciu” urządzenia i podlega zasadom z art. 15a PRD."
+   ],
+   "poruszanie": [
+    "Droga dla pieszych, droga dla pieszych i rowerów lub droga dla rowerów (art. 15a ust. 1 PRD).",
+    "Na drodze dla rowerów obowiązuje ruch prawostronny (art. 15a ust. 1 PRD).",
+    "W strefie zamieszkania korzysta z całej szerokości drogi i ma pierwszeństwo przed pojazdem (art. 15a ust. 2 PRD).",
+    "Przekraczając jezdnię, drogę dla rowerów lub torowisko — zachować szczególną ostrożność i korzystać z przejazdu dla rowerów, a w razie jego braku z przejścia dla pieszych albo przejścia sugerowanego, na zasadach określonych dla ruchu pieszych (art. 15a ust. 4 PRD)."
+   ],
+   "predkosc": [
+    "Na drodze dla pieszych lub drodze dla pieszych i rowerów — prędkość zbliżona do prędkości pieszego (art. 15a ust. 3 PRD).",
+    "Zawsze prędkość zapewniająca panowanie nad urządzeniem, z uwzględnieniem warunków ruchu (art. 15a ust. 6 pkt 1 PRD)."
+   ],
+   "zabrania": [
+    "Poruszania się w stanie nietrzeźwości, w stanie po użyciu alkoholu lub środka działającego podobnie do alkoholu (art. 15a ust. 7 pkt 1 PRD).",
+    "Przewożenia innej osoby, zwierzęcia lub ładunku (art. 15a ust. 7 pkt 2 PRD).",
+    "Ciągnięcia pojazdu lub ładunku (art. 15a ust. 7 pkt 3 PRD).",
+    "Czepiania się pojazdów (art. 15a ust. 7 pkt 4 PRD).",
+    "Poruszania się tyłem (art. 15a ust. 7 pkt 5 PRD)."
+   ],
+   "pieszy": [
+    "Na drodze dla pieszych lub drodze dla pieszych i rowerów — szczególna ostrożność, ustępowanie pierwszeństwa pieszemu i nieutrudnianie jego ruchu (art. 15a ust. 3 PRD).",
+    "Przy wymijaniu — bezpieczny odstęp od wymijanego pojazdu lub uczestnika ruchu (art. 15a ust. 6 pkt 2 PRD).",
+    "Przy omijaniu — bezpieczny odstęp od omijanego pojazdu, uczestnika ruchu lub przeszkody (art. 15a ust. 6 pkt 3 PRD).",
+    "Przed wyprzedzaniem — upewnić się, czy jest dostateczne miejsce bez utrudnienia komukolwiek ruchu (art. 15a ust. 6 pkt 4 PRD).",
+    "Zbliżając się do przejścia dla pieszych — szczególna ostrożność i ustąpienie pierwszeństwa pieszemu na przejściu (art. 15a ust. 6 pkt 5 PRD).",
+    "W strefie zamieszkania — pierwszeństwo pieszego (art. 11 ust. 5 w zw. z art. 15a ust. 2 PRD)."
+   ],
+   "postoj": [
+    "Przepisy nie przewidują odrębnych zasad postoju urządzenia wspomagającego ruch (art. 47 ust. 3 PRD dotyczy roweru, hulajnogi elektrycznej i UTO)."
+   ],
+   "keywords": [
+    "uwr",
+    "urządzenie wspomagające ruch",
+    "rolki",
+    "wrotki",
+    "deskorolka",
+    "hulajnoga zwykła",
+    "siłą mięśni"
+   ]
+  }
+ ]
+}

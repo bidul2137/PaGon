@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Przelicznik mg/l – ‰{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/kalkulator.css') }}">
+
+<div class="tar-page kpj-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Przelicznik mg/l – ‰</h1>
+      <p class="kpj-lead">Stężenie alkoholu w wydychanym powietrzu i we krwi oraz kwalifikacja stanu wg art. 46 ustawy o wychowaniu w trzeźwości.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+
+    <div class="kpj-pole">
+      <label class="kpj-pole-label" for="prz-mgl">Wydychane powietrze [mg/l]</label>
+      <input type="number" id="prz-mgl" class="kpj-input kal-input" min="0" max="5" step="0.01"
+             inputmode="decimal" placeholder="np. 0,25" autocomplete="off">
+    </div>
+
+    <div class="kpj-pole">
+      <label class="kpj-pole-label" for="prz-promile">Krew [‰]</label>
+      <input type="number" id="prz-promile" class="kpj-input kal-input" min="0" max="10" step="0.01"
+             inputmode="decimal" placeholder="np. 0,5" autocomplete="off">
+    </div>
+
+    <div class="kal-wynik" id="prz-wynik" aria-live="polite"></div>
+
+    <details class="kal-podstawy">
+      <summary>Progi ustawowe i podstawa prawna</summary>
+      <div class="kal-przepis">
+        <p class="kal-przepis-head">Art. 46 ust. 2 ustawy o wychowaniu w trzeźwości — stan po użyciu alkoholu</p>
+        <p class="kal-przepis-body">Stan po użyciu alkoholu zachodzi, gdy zawartość alkoholu w organizmie wynosi
+          lub prowadzi do: stężenia we krwi od 0,2‰ do 0,5‰ alkoholu albo obecności w wydychanym powietrzu
+          od 0,1 mg do 0,25 mg alkoholu w 1 dm³.</p>
+      </div>
+      <div class="kal-przepis">
+        <p class="kal-przepis-head">Art. 46 ust. 3 ustawy o wychowaniu w trzeźwości — stan nietrzeźwości</p>
+        <p class="kal-przepis-body">Stan nietrzeźwości zachodzi, gdy zawartość alkoholu w organizmie wynosi
+          lub prowadzi do: stężenia we krwi powyżej 0,5‰ alkoholu albo obecności w wydychanym powietrzu
+          powyżej 0,25 mg alkoholu w 1 dm³.</p>
+      </div>
+      <div class="kal-przepis">
+        <p class="kal-przepis-head">Kwalifikacja czynu kierującego</p>
+        <p class="kal-przepis-body">Stan po użyciu alkoholu — wykroczenie (art. 87 KW).
+          Stan nietrzeźwości — przestępstwo (art. 178a KK); pojazd inny niż mechaniczny — wykroczenie (art. 87 § 1a KW).</p>
+      </div>
+    </details>
+
+    <p class="kpj-zrodlo">Przeliczenie 1 mg/l ≈ 2,1‰ ma charakter pomocniczy. O kwalifikacji stanu decyduje
+      wynik pomiaru metodą, którą go uzyskano — progi ustawowe są określone odrębnie dla krwi (‰)
+      i wydychanego powietrza (mg/dm³).</p>
+  </main>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/przelicznik.js') }}" defer></script>
+{% endblock %}

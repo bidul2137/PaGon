@@ -72,6 +72,90 @@
    "nazwa": "Zatrzymywanie prawa jazdy zagranicznego",
    "ikona": "zatrzymanie-prawa-jazdy-zagr",
    "url": null
+  },
+  {
+   "slug": "kategorie-prawa-jazdy",
+   "nazwa": "Kategorie prawa jazdy",
+   "ikona": "kategorie-prawa-jazdy",
+   "url": "/pomoce/kategorie-prawa-jazdy"
+  },
+  {
+   "slug": "uto",
+   "nazwa": "UTO",
+   "ikona": "uto",
+   "url": "/pomoce/uto"
+  },
+  {
+   "slug": "holowanie-pojazdu",
+   "nazwa": "Holowanie pojazdów",
+   "ikona": "holowanie-pojazdu",
+   "url": "/pomoce/holowanie-pojazdow"
+  },
+  {
+   "slug": "statusy-pj-ksip",
+   "nazwa": "Statusy Prawa Jazdy KSIP",
+   "ikona": "statusy-pj-ksip",
+   "url": "/pomoce/statusy-pj-ksip"
+  },
+  {
+   "slug": "kalkulator-predkosci",
+   "nazwa": "Kalkulator prędkości",
+   "ikona": "kalkulator-predkosci",
+   "url": "/pomoce/kalkulator-predkosci"
+  },
+  {
+   "slug": "przelicznik-mgl-promile",
+   "nazwa": "Przelicznik mg/l – ‰",
+   "ikona": "przelicznik-mgl-promile",
+   "url": "/pomoce/przelicznik-mgl-promile"
+  },
+  {
+   "slug": "spb-wykorzystanie-broni-palnej",
+   "nazwa": "ŚPB — Przypadki wykorzystania broni palnej",
+   "ikona": "spb-wykorzystanie-broni-palnej",
+   "url": null
+  },
+  {
+   "slug": "spb-uzycie-broni-palnej",
+   "nazwa": "ŚPB — Przypadki użycia broni palnej",
+   "ikona": "spb-uzycie-broni-palnej",
+   "url": null
+  },
+  {
+   "slug": "spb-skutkowe-uprawniony",
+   "nazwa": "ŚPB — Skutkowe użycie: uprawniony",
+   "ikona": "spb-skutkowe-uprawniony",
+   "url": null
+  },
+  {
+   "slug": "spb-skutkowe-przelozony",
+   "nazwa": "ŚPB — Skutkowe użycie: przełożony",
+   "ikona": "spb-skutkowe-przelozony",
+   "url": null
+  },
+  {
+   "slug": "spb-pomoc-po-uzyciu-broni",
+   "nazwa": "ŚPB — Pomoc po użyciu broni palnej",
+   "ikona": "spb-pomoc-po-uzyciu-broni",
+   "url": null
+  },
+  {
+   "slug": "pomoc-po-uzyciu-spb",
+   "nazwa": "Pomoc po użyciu ŚPB",
+   "ikona": "pomoc-po-uzyciu-spb",
+   "url": null
+  },
+  {
+   "slug": "spb-procedura-przed-uzyciem-broni",
+   "nazwa": "ŚPB — Procedura przed użyciem broni palnej",
+   "ikona": "spb-procedura-przed-uzyciem-broni",
+   "url": null
+  },
+  {
+   "slug": "przypadki-uzycia-spb",
+   "nazwa": "Przypadki użycia ŚPB",
+   "ikona": "przypadki-uzycia-spb",
+   "url": null
   }
  ],
  "linki": [
@@ -101,7 +185,10 @@
    "title": "Albania",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "albania"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -122,7 +209,10 @@
    "title": "Argentyna",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "argentina"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -136,14 +226,20 @@
    "title": "Australia",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "australia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Austria",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "austria"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -185,7 +281,10 @@
    "title": "Belgia",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "belgium"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -199,14 +298,22 @@
    "title": "Białoruś",
    "tag": "Tylko Wiedeń",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "belarus"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Bośnia i Hercegowina",
    "tag": "Tylko Wiedeń",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "bosnia",
+    "bih",
+    "hercegowina"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -220,14 +327,20 @@
    "title": "Brazylia",
    "tag": "Tylko Wiedeń",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "brazil"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Bułgaria",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "bulgaria"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -241,56 +354,83 @@
    "title": "Chile",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "chile"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Chorwacja",
    "tag": "Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE.",
+   "keywords": [
+    "croatia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Cypr",
    "tag": "Genewa + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe prawo jazdy wydane w państwie UE albo EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe prawo jazdy wydane w państwie UE albo EFTA.",
+   "keywords": [
+    "cyprus"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Czarnogóra",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "montenegro"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Czechy",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "republika czeska",
+    "czechia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Dania",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "denmark"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Demokratyczna Republika Konga",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "drk",
+    "kongo kinszasa",
+    "zair"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Egipt",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "egypt"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -304,14 +444,22 @@
    "title": "Estonia",
    "tag": "Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE.",
+   "keywords": [
+    "estonia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Federacja Rosyjska",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "rosja",
+    "russia",
+    "ru"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -332,35 +480,50 @@
    "title": "Finlandia",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "finland"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Francja",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "france"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Ghana",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "ghana"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Grecja",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "greece"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Gruzja",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "georgia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -388,28 +551,43 @@
    "title": "Hiszpania",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "spain",
+    "espana"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Holandia",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "niderlandy",
+    "nl",
+    "netherlands"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Indie",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "india"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Indonezja",
    "tag": "Tylko Wiedeń",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "indonesia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -430,21 +608,30 @@
    "title": "Irlandia",
    "tag": "Tylko UE/EFTA",
    "url": null,
-   "description": "Krajowe prawo jazdy wydane w państwie UE albo EFTA."
+   "description": "Krajowe prawo jazdy wydane w państwie UE albo EFTA.",
+   "keywords": [
+    "ireland"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Islandia",
    "tag": "Genewa + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe prawo jazdy wydane w państwie UE albo EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe prawo jazdy wydane w państwie UE albo EFTA.",
+   "keywords": [
+    "iceland"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Izrael",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "israel"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -458,7 +645,10 @@
    "title": "Japonia",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "japan"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -479,7 +669,10 @@
    "title": "Kanada",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "canada"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -493,14 +686,20 @@
    "title": "Kazachstan",
    "tag": "Tylko Wiedeń",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "kazakhstan"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Kenia",
    "tag": "Tylko Wiedeń",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "kenya"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -521,7 +720,11 @@
    "title": "Korea Południowa",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "korea",
+    "south korea"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -584,14 +787,20 @@
    "title": "Litwa",
    "tag": "Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE.",
+   "keywords": [
+    "lithuania"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Łotwa",
    "tag": "Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE.",
+   "keywords": [
+    "latvia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -605,7 +814,11 @@
    "title": "Macedonia",
    "tag": "Tylko Wiedeń",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "macedonia północna",
+    "north macedonia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -626,7 +839,10 @@
    "title": "Malezja",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "malaysia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -640,28 +856,40 @@
    "title": "Malta",
    "tag": "Genewa + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe prawo jazdy wydane w państwie UE albo EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe prawo jazdy wydane w państwie UE albo EFTA.",
+   "keywords": [
+    "malta"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Maroko",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "morocco"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Meksyk",
    "tag": "Tylko Wiedeń",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "mexico"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Mołdawia",
    "tag": "Tylko Wiedeń",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "moldova"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -689,7 +917,11 @@
    "title": "Niemcy",
    "tag": "Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE.",
+   "keywords": [
+    "germany",
+    "deutschland"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -703,21 +935,30 @@
    "title": "Nigeria",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "nigeria"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Norwegia",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "norway"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Nowa Zelandia",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "new zealand"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -752,63 +993,98 @@
    "title": "Polska",
    "tag": "Polska",
    "url": null,
-   "description": "Dokumentem uprawniającym wydanym w kraju jest: prawo jazdy, pozwolenie wojskowe albo międzynarodowe prawo jazdy. Polska została także wskazana w wykazach państw Konwencji Genewskiej, Konwencji Wiedeńskiej oraz UE, lecz w praktyce dla polskiego kierującego podstawowe znaczenie ma krajowe prawo jazdy albo pozwolenie wojskowe."
+   "description": "Dokumentem uprawniającym wydanym w kraju jest: prawo jazdy, pozwolenie wojskowe albo międzynarodowe prawo jazdy. Polska została także wskazana w wykazach państw Konwencji Genewskiej, Konwencji Wiedeńskiej oraz UE, lecz w praktyce dla polskiego kierującego podstawowe znaczenie ma krajowe prawo jazdy albo pozwolenie wojskowe.",
+   "keywords": [
+    "poland",
+    "rp",
+    "rzeczpospolita"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Portugalia",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "portugal"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Republika Dominikany",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "dominikana",
+    "dominikańska"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Republika Południowej Afryki",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "rpa",
+    "afryka południowa",
+    "south africa"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Republika Rwandy",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "rwanda"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Republika Środkowoafrykańska",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "afryka środkowa",
+    "rca"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Republika Syryjsko-Arabska",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "syria"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Republika Zielonego Przylądka",
    "tag": "Tylko Wiedeń",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "zielony przylądek",
+    "cabo verde",
+    "wyspy zielonego przylądka"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Rumunia",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "romania"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -829,7 +1105,10 @@
    "title": "Serbia",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "serbia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -850,21 +1129,30 @@
    "title": "Singapur",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "singapore"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Słowacja",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "slovakia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Słowenia",
    "tag": "Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE.",
+   "keywords": [
+    "slovenia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -878,21 +1166,36 @@
    "title": "Stany Zjednoczone Ameryki Północnej",
    "tag": "Tylko Genewa",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.",
+   "keywords": [
+    "usa",
+    "us",
+    "ameryka",
+    "stany",
+    "stany zjednoczone",
+    "united states"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Szwajcaria",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "helvetia",
+    "ch"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Szwecja",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "sweden"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -906,7 +1209,10 @@
    "title": "Tajlandia",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "thailand"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -927,14 +1233,21 @@
    "title": "Tunezja",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "tunisia"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Turcja",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "turkiye",
+    "turkey"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -955,7 +1268,10 @@
    "title": "Ukraina",
    "tag": "Tylko Wiedeń",
    "url": null,
-   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "ukraine"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -976,14 +1292,21 @@
    "title": "Watykan",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "stolica apostolska",
+    "vatican"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Węgry",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "hungary"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -997,21 +1320,32 @@
    "title": "Wietnam",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "vietnam"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Włochy",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "italia",
+    "italy"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Wybrzeże Kości Słoniowej",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "kość słoniowa",
+    "ivory coast"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
@@ -1025,14 +1359,34 @@
    "title": "Zjednoczone Emiraty Arabskie",
    "tag": "Genewa + Wiedeń",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r. oraz krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.",
+   "keywords": [
+    "zea",
+    "emiraty",
+    "uae",
+    "dubaj",
+    "abu zabi"
+   ]
   },
   {
    "category": "honorowane-zagraniczne-pj",
    "title": "Zjednoczone Królestwo Wielkiej Brytanii i Irlandii Północnej",
    "tag": "Genewa + Wiedeń + UE/EFTA",
    "url": null,
-   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA."
+   "description": "Międzynarodowe prawo jazdy określone w Konwencji Genewskiej z 1949 r.; krajowe lub międzynarodowe prawo jazdy określone w Konwencji Wiedeńskiej z 1968 r.; krajowe prawo jazdy wydane w państwie UE, Konfederacji Szwajcarskiej albo państwie EFTA.",
+   "keywords": [
+    "anglia",
+    "uk",
+    "wielka brytania",
+    "brytania",
+    "gb",
+    "szkocja",
+    "walia",
+    "irlandia północna",
+    "brytyjskie",
+    "great britain",
+    "england"
+   ]
   },
   {
    "category": "zatrzymanie-prawa-jazdy",
@@ -1332,7 +1686,8 @@
     "kurs reedukacyjny",
     "reedukacja",
     "limit punktów"
-   ]
+   ],
+   "effect_note": "72 h — gdy kierujący nie ma miejsca zamieszkania na terenie Polski"
   },
   {
    "category": "zatrzymanie-prawa-jazdy-zagr",
@@ -1376,7 +1731,8 @@
     "okres próbny",
     "przestępstwo",
     "trzy wykroczenia"
-   ]
+   ],
+   "effect_note": "72 h — gdy kierujący nie ma miejsca zamieszkania na terenie Polski"
   },
   {
    "category": "zatrzymanie-prawa-jazdy-zagr",
@@ -1391,7 +1747,8 @@
     "przekroczenie prędkości",
     "teren zabudowany",
     "ponad 50"
-   ]
+   ],
+   "effect_note": "72 h — gdy kierujący nie ma miejsca zamieszkania na terenie Polski"
   },
   {
    "category": "zatrzymanie-prawa-jazdy-zagr",
@@ -1406,7 +1763,8 @@
     "nadmiar pasażerów",
     "liczba miejsc",
     "przeładowanie"
-   ]
+   ],
+   "effect_note": "72 h — gdy kierujący nie ma miejsca zamieszkania na terenie Polski"
   },
   {
    "category": "zatrzymanie-prawa-jazdy-zagr",
@@ -1440,7 +1798,8 @@
     "AETR",
     "561/2006",
     "przewóz drogowy"
-   ]
+   ],
+   "effect_note": "72 h — gdy kierujący nie ma miejsca zamieszkania na terenie Polski"
   },
   {
    "category": "zatrzymanie-prawa-jazdy-zagr",
@@ -1457,7 +1816,8 @@
     "kilka kart",
     "tachograf",
     "AETR"
-   ]
+   ],
+   "effect_note": "72 h — gdy kierujący nie ma miejsca zamieszkania na terenie Polski"
   },
   {
    "category": "zatrzymanie-prawa-jazdy-zagr",
@@ -1472,7 +1832,8 @@
     "oprogramowanie",
     "fałszowanie danych",
     "tachograf"
-   ]
+   ],
+   "effect_note": "72 h — gdy kierujący nie ma miejsca zamieszkania na terenie Polski"
   },
   {
    "category": "zatrzymanie-prawa-jazdy-zagr",
@@ -1485,7 +1846,8 @@
     "odłączenie",
     "odłączony tachograf",
     "tachograf"
-   ]
+   ],
+   "effect_note": "72 h — gdy kierujący nie ma miejsca zamieszkania na terenie Polski"
   },
   {
    "category": "zatrzymanie-prawa-jazdy-zagr",

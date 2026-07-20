@@ -1,0 +1,655 @@
+{
+ "_zrodlo": "Źródło: ustawa z dnia 5 stycznia 2011 r. o kierujących pojazdami; ustawa z dnia 20 czerwca 1997 r. – Prawo o ruchu drogowym.",
+ "kategorie": [
+  {
+   "id": "AM",
+   "category": "AM",
+   "group": "Motorowery",
+   "icon": "motorower",
+   "title": "Prawo jazdy kategorii AM",
+   "short_description": "Motorower i czterokołowiec lekki.",
+   "minimum_age": "14 lat",
+   "minimum_age_notes": [],
+   "permissions": [
+    "Motorower.",
+    "Czterokołowiec lekki."
+   ],
+   "limits": [],
+   "includes": [
+    "Zespół pojazdów: pojazd określony dla kategorii AM wraz z przyczepą (art. 6 ust. 3 pkt 3).",
+    "Rower, wózek rowerowy, hulajnoga elektryczna lub urządzenie transportu osobistego — w przypadku osób, które nie ukończyły 18 lat (art. 7 ust. 1 pkt 2).",
+    "Pojazd zaprzęgowy — w przypadku osób, które nie ukończyły 18 lat (art. 7 ust. 1 pkt 3)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 1 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami; art. 7 ust. 1 pkt 2 i 3; art. 11 ust. 2",
+   "legal_text": "Art. 6 ust. 1 pkt 1) kategorii AM: a) motorowerem, b) czterokołowcem lekkim. — Art. 7 ust. 1: rowerem, wózkiem rowerowym, hulajnogą elektryczną lub urządzeniem transportu osobistego (pkt 2) oraz pojazdem zaprzęgowym (pkt 3) – jest karta rowerowa lub prawo jazdy kategorii AM, A1, B1, B lub T – w przypadku osób, które nie ukończyły 18 lat. — Art. 11 ust. 2: Osoba, która nie ukończyła 18 lat, może uzyskać prawo jazdy kategorii AM, A1, B1, B lub T za pisemną zgodą rodzica lub opiekuna.",
+   "keywords": [
+    "AM",
+    "motorower",
+    "skuter",
+    "czterokołowiec lekki"
+   ],
+   "notes": [
+    "Osoba, która nie ukończyła 18 lat, może uzyskać prawo jazdy kategorii AM, A1, B1, B lub T za pisemną zgodą rodzica lub opiekuna (art. 11 ust. 2)."
+   ],
+   "min_age_years": 14,
+   "min_age_lowest": 14
+  },
+  {
+   "id": "A1",
+   "category": "A1",
+   "group": "Motocykle",
+   "icon": "motocykl",
+   "title": "Prawo jazdy kategorii A1",
+   "short_description": "Lekki motocykl do 125 cm³ i 11 kW oraz motocykl trójkołowy do 15 kW.",
+   "minimum_age": "16 lat",
+   "minimum_age_notes": [],
+   "permissions": [
+    "Motocykl o pojemności skokowej silnika nieprzekraczającej 125 cm³, mocy nieprzekraczającej 11 kW i stosunku mocy do masy własnej nieprzekraczającym 0,1 kW/kg.",
+    "Motocykl trójkołowy o mocy nieprzekraczającej 15 kW.",
+    "Motorower (jako pojazd określony dla kategorii AM).",
+    "Czterokołowiec lekki (jako pojazd określony dla kategorii AM)."
+   ],
+   "limits": [
+    "Pojemność skokowa: do 125 cm³.",
+    "Moc: do 11 kW.",
+    "Stosunek mocy do masy własnej: do 0,1 kW/kg.",
+    "Motocykl trójkołowy: moc do 15 kW."
+   ],
+   "includes": [
+    "Zespół pojazdów: pojazd określony dla kategorii A1 wraz z przyczepą (art. 6 ust. 3 pkt 3).",
+    "Rower, wózek rowerowy, hulajnoga elektryczna lub urządzenie transportu osobistego — w przypadku osób, które nie ukończyły 18 lat (art. 7 ust. 1 pkt 2).",
+    "Pojazd zaprzęgowy — w przypadku osób, które nie ukończyły 18 lat (art. 7 ust. 1 pkt 3)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 2 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami; art. 7 ust. 1 pkt 2 i 3; art. 11 ust. 2",
+   "legal_text": "Art. 6 ust. 1 pkt 2) kategorii A1: a) motocyklem o pojemności skokowej silnika nieprzekraczającej 125 cm³, mocy nieprzekraczającej 11 kW i stosunku mocy do masy własnej nieprzekraczającym 0,1 kW/kg, b) motocyklem trójkołowym o mocy nieprzekraczającej 15 kW, c) pojazdami określonymi dla prawa jazdy kategorii AM. — Art. 7 ust. 1: rowerem, wózkiem rowerowym, hulajnogą elektryczną lub urządzeniem transportu osobistego (pkt 2) oraz pojazdem zaprzęgowym (pkt 3) – jest karta rowerowa lub prawo jazdy kategorii AM, A1, B1, B lub T – w przypadku osób, które nie ukończyły 18 lat. — Art. 11 ust. 2: Osoba, która nie ukończyła 18 lat, może uzyskać prawo jazdy kategorii AM, A1, B1, B lub T za pisemną zgodą rodzica lub opiekuna.",
+   "keywords": [
+    "A1",
+    "motocykl",
+    "125",
+    "jednoślad",
+    "trójkołowy"
+   ],
+   "notes": [
+    "Osoba, która nie ukończyła 18 lat, może uzyskać prawo jazdy kategorii AM, A1, B1, B lub T za pisemną zgodą rodzica lub opiekuna (art. 11 ust. 2)."
+   ],
+   "min_age_years": 16,
+   "min_age_lowest": 16
+  },
+  {
+   "id": "A2",
+   "category": "A2",
+   "group": "Motocykle",
+   "icon": "motocykl",
+   "title": "Prawo jazdy kategorii A2",
+   "short_description": "Motocykl o mocy do 35 kW oraz motocykl trójkołowy do 15 kW.",
+   "minimum_age": "18 lat",
+   "minimum_age_notes": [],
+   "permissions": [
+    "Motocykl o mocy nieprzekraczającej 35 kW i stosunku mocy do masy własnej nieprzekraczającym 0,2 kW/kg, przy czym nie może on powstać w wyniku wprowadzenia zmian w pojeździe o mocy przekraczającej dwukrotność mocy tego motocykla.",
+    "Motocykl trójkołowy o mocy nieprzekraczającej 15 kW.",
+    "Motorower (jako pojazd określony dla kategorii AM).",
+    "Czterokołowiec lekki (jako pojazd określony dla kategorii AM)."
+   ],
+   "limits": [
+    "Moc: do 35 kW.",
+    "Stosunek mocy do masy własnej: do 0,2 kW/kg.",
+    "Motocykl nie może powstać z przeróbki pojazdu o mocy ponad dwukrotnie większej.",
+    "Motocykl trójkołowy: moc do 15 kW."
+   ],
+   "includes": [
+    "Zespół pojazdów: pojazd określony dla kategorii A2 wraz z przyczepą (art. 6 ust. 3 pkt 3)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 3 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami",
+   "legal_text": "Art. 6 ust. 1 pkt 3) kategorii A2: a) motocyklem o mocy nieprzekraczającej 35 kW i stosunku mocy do masy własnej nieprzekraczającym 0,2 kW/kg, przy czym nie może on powstać w wyniku wprowadzenia zmian w pojeździe o mocy przekraczającej dwukrotność mocy tego motocykla, b) motocyklem trójkołowym o mocy nieprzekraczającej 15 kW, c) pojazdami określonymi dla prawa jazdy kategorii AM.",
+   "keywords": [
+    "A2",
+    "motocykl",
+    "35 kW",
+    "jednoślad"
+   ],
+   "notes": [],
+   "min_age_years": 18,
+   "min_age_lowest": 18
+  },
+  {
+   "id": "A",
+   "category": "A",
+   "group": "Motocykle",
+   "icon": "motocykl",
+   "title": "Prawo jazdy kategorii A",
+   "short_description": "Motocykl bez ograniczenia mocy.",
+   "minimum_age": "24 lata (albo 20 lat, jeżeli osoba co najmniej od 2 lat posiada prawo jazdy kategorii A2)",
+   "minimum_age_notes": [
+    "20 lat — jeżeli osoba co najmniej od 2 lat posiada prawo jazdy kategorii A2 (art. 8 ust. 1 pkt 4).",
+    "24 lata — jeżeli nie posiadała co najmniej przez 2 lata prawa jazdy kategorii A2 (art. 8 ust. 1 pkt 7 lit. a).",
+    "21 lat — dla motocykli trójkołowych o mocy przekraczającej 15 kW, jeżeli osoba posiada prawo jazdy kategorii A (art. 8 ust. 1 pkt 5).",
+    "18 lat — żołnierze kierujący pojazdami Sił Zbrojnych RP (art. 8 ust. 2 pkt 1).",
+    "18 lat — funkcjonariusze Policji oraz Straży Granicznej (art. 8 ust. 3 pkt 1)."
+   ],
+   "permissions": [
+    "Motocykl (bez ograniczenia mocy).",
+    "Motorower (jako pojazd określony dla kategorii AM).",
+    "Czterokołowiec lekki (jako pojazd określony dla kategorii AM)."
+   ],
+   "limits": [
+    "Motocykl trójkołowy o mocy powyżej 15 kW — dopiero od 21 lat."
+   ],
+   "includes": [
+    "Zespół pojazdów: pojazd określony dla kategorii A wraz z przyczepą (art. 6 ust. 3 pkt 3)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 4 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami",
+   "legal_text": "Art. 6 ust. 1 pkt 4) kategorii A: a) motocyklem, b) pojazdami określonymi dla prawa jazdy kategorii AM.",
+   "keywords": [
+    "A",
+    "motocykl",
+    "jednoślad",
+    "bez ograniczeń"
+   ],
+   "notes": [],
+   "min_age_years": 24,
+   "min_age_lowest": 18
+  },
+  {
+   "id": "B1",
+   "category": "B1",
+   "group": "Czterokołowce",
+   "icon": "quad",
+   "title": "Prawo jazdy kategorii B1",
+   "short_description": "Czterokołowiec (quad).",
+   "minimum_age": "16 lat",
+   "minimum_age_notes": [],
+   "permissions": [
+    "Czterokołowiec.",
+    "Motorower (jako pojazd określony dla kategorii AM).",
+    "Czterokołowiec lekki (jako pojazd określony dla kategorii AM)."
+   ],
+   "limits": [],
+   "includes": [
+    "Rower, wózek rowerowy, hulajnoga elektryczna lub urządzenie transportu osobistego — w przypadku osób, które nie ukończyły 18 lat (art. 7 ust. 1 pkt 2).",
+    "Pojazd zaprzęgowy — w przypadku osób, które nie ukończyły 18 lat (art. 7 ust. 1 pkt 3)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 5 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami; art. 7 ust. 1 pkt 2 i 3; art. 11 ust. 2",
+   "legal_text": "Art. 6 ust. 1 pkt 5) kategorii B1: a) czterokołowcem, b) pojazdami określonymi dla prawa jazdy kategorii AM. — Art. 7 ust. 1: rowerem, wózkiem rowerowym, hulajnogą elektryczną lub urządzeniem transportu osobistego (pkt 2) oraz pojazdem zaprzęgowym (pkt 3) – jest karta rowerowa lub prawo jazdy kategorii AM, A1, B1, B lub T – w przypadku osób, które nie ukończyły 18 lat. — Art. 11 ust. 2: Osoba, która nie ukończyła 18 lat, może uzyskać prawo jazdy kategorii AM, A1, B1, B lub T za pisemną zgodą rodzica lub opiekuna.",
+   "keywords": [
+    "B1",
+    "czterokołowiec",
+    "quad"
+   ],
+   "notes": [
+    "Osoba, która nie ukończyła 18 lat, może uzyskać prawo jazdy kategorii AM, A1, B1, B lub T za pisemną zgodą rodzica lub opiekuna (art. 11 ust. 2)."
+   ],
+   "min_age_years": 16,
+   "min_age_lowest": 16
+  },
+  {
+   "id": "B",
+   "category": "B",
+   "group": "Samochody osobowe",
+   "icon": "samochod",
+   "title": "Prawo jazdy kategorii B",
+   "short_description": "Pojazd samochodowy o DMC do 3,5 t (bez autobusu i motocykla), także z przyczepą.",
+   "minimum_age": "17 lat",
+   "minimum_age_notes": [],
+   "permissions": [
+    "Pojazd samochodowy o dopuszczalnej masie całkowitej nieprzekraczającej 3,5 t — z wyjątkiem autobusu i motocykla (art. 6 ust. 1 pkt 6 lit. a).",
+    "Zespół pojazdów: pojazd samochodowy o DMC do 3,5 t (z wyjątkiem autobusu i motocykla) + przyczepa lekka, tj. o DMC do 750 kg (art. 6 ust. 1 pkt 6 lit. b).",
+    "Zespół pojazdów: pojazd samochodowy o DMC do 3,5 t (z wyjątkiem autobusu i motocykla) + przyczepa inna niż lekka, gdy łączna DMC zespołu nie przekracza 3,5 t (art. 6 ust. 1 pkt 6 lit. c).",
+    "Zespół pojazdów: pojazd samochodowy o DMC do 3,5 t (z wyjątkiem autobusu i motocykla) + przyczepa inna niż lekka, gdy łączna DMC zespołu przekracza 3,5 t i nie przekracza 4250 kg — wyłącznie po zdaniu części praktycznej egzaminu państwowego, potwierdzonym wpisem do prawa jazdy (kod 96) (art. 6 ust. 1 pkt 6 lit. c w zw. z ust. 2).",
+    "Motorower (art. 6 ust. 1 pkt 6 lit. d w zw. z pkt 1).",
+    "Czterokołowiec lekki (art. 6 ust. 1 pkt 6 lit. d w zw. z pkt 1).",
+    "Czterokołowiec — jako pojazd samochodowy o DMC do 3,5 t (art. 6 ust. 1 pkt 6 lit. a; definicja: art. 2 pkt 42b Prawa o ruchu drogowym)."
+   ],
+   "limits": [
+    "DMC pojazdu: do 3,5 t.",
+    "Przyczepa lekka: DMC do 750 kg (art. 2 pkt 51 Prawa o ruchu drogowym).",
+    "Zespół z przyczepą inną niż lekka: łączna DMC do 4250 kg.",
+    "Zespół powyżej 3,5 t: wymagany egzamin praktyczny i wpis do prawa jazdy (kod 96)."
+   ],
+   "includes": [
+    "Ciągnik rolniczy, pojazd wolnobieżny oraz zespół złożony z tego pojazdu i przyczepy lekkiej (art. 6 ust. 3 pkt 1).",
+    "Motocykl o pojemności do 125 cm³, mocy do 11 kW i stosunku mocy do masy do 0,1 kW/kg albo motocykl trójkołowy — pod warunkiem posiadania prawa jazdy kat. B od co najmniej 3 lat (art. 6 ust. 3 pkt 4 lit. a).",
+    "Pojazd samochodowy zasilany paliwami alternatywnymi o DMC powyżej 3,5 t i do 4250 kg, jeżeli przekroczenie 3,5 t wynika z zastosowania paliw alternatywnych i jest odnotowane w dowodzie rejestracyjnym — pod warunkiem posiadania prawa jazdy kat. B od co najmniej 2 lat (art. 6 ust. 3 pkt 4 lit. b).",
+    "Rower, wózek rowerowy, hulajnoga elektryczna lub urządzenie transportu osobistego — w przypadku osób, które nie ukończyły 18 lat (art. 7 ust. 1 pkt 2).",
+    "Pojazd zaprzęgowy — w przypadku osób, które nie ukończyły 18 lat (art. 7 ust. 1 pkt 3)."
+   ],
+   "exclusions": [
+    "Autobus.",
+    "Motocykl — poza wyjątkiem po 3 latach posiadania kat. B (art. 6 ust. 3 pkt 4 lit. a)."
+   ],
+   "traps": [
+    {
+     "t": "Zespół powyżej 3,5 t wymaga egzaminu",
+     "d": "Zespołem z przyczepą inną niż lekka (łącznie do 4250 kg), którego DMC przekracza 3,5 t, może kierować wyłącznie osoba, która zdała część praktyczną egzaminu państwowego, potwierdzoną wpisem do prawa jazdy.",
+     "p": "art. 6 ust. 2"
+    },
+    {
+     "t": "Motocykl 125 — dopiero po 3 latach",
+     "d": "Kat. B uprawnia do motocykla do 125 cm³ / 11 kW / 0,1 kW/kg albo motocykla trójkołowego tylko wtedy, gdy kierujący ma prawo jazdy kat. B od co najmniej 3 lat.",
+     "p": "art. 6 ust. 3 pkt 4 lit. a"
+    },
+    {
+     "t": "Paliwa alternatywne do 4250 kg — po 2 latach",
+     "d": "Pojazd na paliwa alternatywne o DMC powyżej 3,5 t, lecz do 4250 kg, tylko gdy przekroczenie masy wynika z zastosowania tych paliw, jest odnotowane w dowodzie rejestracyjnym, a kierujący ma kat. B od co najmniej 2 lat.",
+     "p": "art. 6 ust. 3 pkt 4 lit. b"
+    },
+    {
+     "t": "Ciągnik rolniczy — tak, autobus — nie",
+     "d": "Kat. B uprawnia na terytorium RP do ciągnika rolniczego i pojazdu wolnobieżnego (z przyczepą lekką), ale nigdy do autobusu.",
+     "p": "art. 6 ust. 3 pkt 1 oraz ust. 1 pkt 6 lit. a"
+    }
+   ],
+   "legal_basis": "art. 6 ust. 1 pkt 6, ust. 2, ust. 3 pkt 1 i 4 oraz ust. 4 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami; art. 7 ust. 1 pkt 2 i 3; art. 8 ust. 1 pkt 3 i pkt 13; art. 8a; art. 11 ust. 2; art. 91; art. 6 ust. 4; art. 8 ust. 1 pkt 13",
+   "legal_text": "Art. 6 ust. 1 pkt 6) kategorii B: a) pojazdem samochodowym o dopuszczalnej masie całkowitej nieprzekraczającej 3,5 t, z wyjątkiem autobusu i motocykla, b) zespołem pojazdów złożonym z pojazdu, o którym mowa w lit. a, oraz z przyczepy lekkiej, c) zespołem pojazdów złożonym z pojazdu, o którym mowa w lit. a, oraz z przyczepy innej niż lekka, o ile łączna dopuszczalna masa całkowita zespołu tych pojazdów nie przekracza 4250 kg, z zastrzeżeniem ust. 2, d) pojazdami określonymi dla prawa jazdy kategorii AM. — Ust. 2. Zespołem pojazdów, o którym mowa w ust. 1 pkt 6 lit. c, którego dopuszczalna masa całkowita przekracza 3,5 t, może kierować osoba, która zdała część praktyczną egzaminu państwowego, potwierdzoną wpisem do prawa jazdy. — Art. 7 ust. 1: rowerem, wózkiem rowerowym, hulajnogą elektryczną lub urządzeniem transportu osobistego (pkt 2) oraz pojazdem zaprzęgowym (pkt 3) – jest karta rowerowa lub prawo jazdy kategorii AM, A1, B1, B lub T – w przypadku osób, które nie ukończyły 18 lat. — Art. 11 ust. 2: Osoba, która nie ukończyła 18 lat, może uzyskać prawo jazdy kategorii AM, A1, B1, B lub T za pisemną zgodą rodzica lub opiekuna. — Art. 8a ust. 1. Prawo jazdy kategorii B uzyskane po ukończeniu 17 lat a przed ukończeniem 18 lat stwierdza posiadanie uprawnienia do kierowania pojazdami wyłącznie podczas jazdy: 1) na terytorium Rzeczypospolitej Polskiej – do czasu ukończenia 18 lat; 2) w towarzystwie pasażera siedzącego na przednim siedzeniu, w przypadku pojazdu samochodowego innego niż czterokołowiec – przez okres 6 miesięcy, licząc od dnia uzyskania prawa jazdy, jednak nie dłużej niż do czasu ukończenia 18 lat. Ust. 2. Pasażerem, o którym mowa w ust. 1 pkt 2, może być osoba, która spełnia łącznie następujące warunki: 1) ukończyła 25 lat; 2) posiada nieprzerwanie uprawnienia do kierowania pojazdami stwierdzone prawem jazdy kategorii B od co najmniej 5 lat, licząc od dnia, w którym odbywa się jazda; 3) nie podlega zakazowi prowadzenia pojazdów mechanicznych i nie podlegała temu zakazowi w okresie ostatnich 5 lat, licząc od dnia, w którym odbywa się jazda; 4) nie znajduje się w stanie nietrzeźwości, w stanie po użyciu alkoholu lub środka działającego podobnie do alkoholu. Ust. 3. Wymogi określone w ust. 2 pkt 1 i 2 nie dotyczą instruktora, o którym mowa w art. 33 ust. 1, i egzaminatora, o którym mowa w art. 58 ust. 1. — Art. 91 ust. 4. W okresie próbnym kierującemu pojazdem samochodowym zabrania się jazdy z przekroczeniem stężenia 0,0 ‰ alkoholu we krwi lub 0,0 mg w 1 dm3 wydychanego powietrza lub 0,0 ng/ml środka działającego podobnie do alkoholu w organizmie. Ust. 5. W okresie próbnym kierującemu, który nie ukończył 18 lat i który kieruje pojazdem samochodowym innym niż czterokołowiec, zabrania się: 1) przewożenia osoby, która nie ukończyła 18 lat, bez pasażera spełniającego wymagania określone w art. 8a ust. 2; 2) wykonywania transportu drogowego rzeczy, o którym mowa w ustawie z dnia 6 września 2001 r. o transporcie drogowym, lub wykonywania przewozu osób taksówką lub w ramach przewozu okazjonalnego. — Art. 6 ust. 4. Kolejką turystyczną może kierować osoba, która posiada prawo jazdy odpowiedniej kategorii co najmniej od 2 lat.",
+   "keywords": [
+    "B",
+    "samochód",
+    "osobowy",
+    "przyczepa",
+    "3,5 t",
+    "4250",
+    "kod 96",
+    "okres próbny",
+    "17 lat",
+    "czterokołowiec"
+   ],
+   "notes": [
+    "Prawo jazdy kat. B uzyskane po ukończeniu 17 lat, a przed ukończeniem 18 lat uprawnia do kierowania wyłącznie na terytorium Rzeczypospolitej Polskiej — do czasu ukończenia 18 lat (art. 8a ust. 1 pkt 1).",
+    "Takie prawo jazdy uprawnia też wyłącznie do jazdy w towarzystwie pasażera siedzącego na przednim siedzeniu — w pojeździe samochodowym innym niż czterokołowiec — przez 6 miesięcy od dnia uzyskania prawa jazdy, jednak nie dłużej niż do ukończenia 18 lat (art. 8a ust. 1 pkt 2).",
+    "Pasażer musi spełniać łącznie: ukończone 25 lat; nieprzerwanie prawo jazdy kat. B od co najmniej 5 lat; brak zakazu prowadzenia pojazdów mechanicznych (także w ostatnich 5 latach); brak stanu nietrzeźwości, stanu po użyciu alkoholu lub środka działającego podobnie do alkoholu (art. 8a ust. 2).",
+    "Wymogi ukończenia 25 lat i 5 lat posiadania prawa jazdy nie dotyczą instruktora ani egzaminatora (art. 8a ust. 3).",
+    "Okres próbny dla pierwszego prawa jazdy kat. B trwa 2 lata (osoba, która ukończyła 18 lat) albo 3 lata dla prawa jazdy z art. 8a ust. 1 — nie dłużej niż do ukończenia 20 lat (art. 91 ust. 1).",
+    "W okresie próbnym kierującemu pojazdem samochodowym zabrania się jazdy z przekroczeniem 0,0 ‰ alkoholu we krwi, 0,0 mg w 1 dm³ wydychanego powietrza lub 0,0 ng/ml środka działającego podobnie do alkoholu (art. 91 ust. 4).",
+    "W okresie próbnym kierującemu, który nie ukończył 18 lat i kieruje pojazdem samochodowym innym niż czterokołowiec, zabrania się przewożenia osoby poniżej 18 lat bez pasażera spełniającego wymagania z art. 8a ust. 2 oraz wykonywania transportu drogowego rzeczy, przewozu osób taksówką lub przewozu okazjonalnego (art. 91 ust. 5).",
+    "Przekroczenie 12 punktów w okresie próbnym obliguje do ukończenia praktycznego szkolenia w zakresie zagrożeń w ruchu drogowym (art. 91 ust. 6).",
+    "Kolejką turystyczną może kierować osoba posiadająca prawo jazdy odpowiedniej kategorii co najmniej od 2 lat (art. 6 ust. 4); minimalny wiek dla kolejki turystycznej to 21 lat (art. 8 ust. 1 pkt 13).",
+    "Osoba, która nie ukończyła 18 lat, może uzyskać prawo jazdy kategorii AM, A1, B1, B lub T za pisemną zgodą rodzica lub opiekuna (art. 11 ust. 2)."
+   ],
+   "min_age_years": 17,
+   "min_age_lowest": 17
+  },
+  {
+   "id": "B+E",
+   "category": "B+E",
+   "group": "Zespoły pojazdów",
+   "icon": "samochod-przyczepa",
+   "title": "Prawo jazdy kategorii B+E",
+   "short_description": "Pojazd kategorii B z przyczepą o DMC do 3,5 t.",
+   "minimum_age": "18 lat",
+   "minimum_age_notes": [],
+   "permissions": [
+    "Pojazd określony dla kategorii B łącznie z przyczepą (przyczepami)."
+   ],
+   "limits": [
+    "DMC ciągniętej przyczepy: do 3,5 t."
+   ],
+   "includes": [
+    "Zespół pojazdów złożony z ciągnika rolniczego z przyczepą (przyczepami) lub pojazdu wolnobieżnego z przyczepą (przyczepami) (art. 6 ust. 3 pkt 2).",
+    "Kategorie B i C1+E — uprawniają do kierowania zespołem pojazdów określonym dla kategorii B+E (art. 6 ust. 1 pkt 15).",
+    "Kategorie B i D1+E — uprawniają do kierowania zespołem pojazdów określonym dla kategorii B+E (art. 6 ust. 1 pkt 15).",
+    "Kategorie B i C+E — uprawniają do kierowania zespołem pojazdów określonym dla kategorii B+E (art. 6 ust. 1 pkt 15).",
+    "Kategorie B i D+E — uprawniają do kierowania zespołem pojazdów określonym dla kategorii B+E (art. 6 ust. 1 pkt 15)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 12 oraz pkt 15 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami",
+   "legal_text": "Art. 6 ust. 1 pkt 12) kategorii B+E, C+E lub D+E – pojazdem określonym odpowiednio w prawie jazdy kategorii B, C lub D, łącznie z przyczepą (przyczepami), przy czym w zakresie kategorii B+E dopuszczalna masa całkowita ciągniętej przyczepy nie może przekraczać 3,5 t. — Pkt 15) kategorii B i C1+E, B i D1+E, B i C+E lub B i D+E – zespołem pojazdów określonym w prawie jazdy kategorii B+E.",
+   "keywords": [
+    "B+E",
+    "BE",
+    "przyczepa",
+    "zespół",
+    "laweta"
+   ],
+   "notes": [],
+   "min_age_years": 18,
+   "min_age_lowest": 18
+  },
+  {
+   "id": "C1",
+   "category": "C1",
+   "group": "Samochody ciężarowe",
+   "icon": "ciezarowka",
+   "title": "Prawo jazdy kategorii C1",
+   "short_description": "Pojazd samochodowy o DMC powyżej 3,5 t i do 7,5 t (bez autobusu).",
+   "minimum_age": "18 lat",
+   "minimum_age_notes": [],
+   "permissions": [
+    "Pojazd samochodowy o DMC przekraczającej 3,5 t i nieprzekraczającej 7,5 t — z wyjątkiem autobusu.",
+    "Zespół pojazdów: pojazd samochodowy o DMC powyżej 3,5 t i do 7,5 t (z wyjątkiem autobusu) + przyczepa lekka (DMC do 750 kg).",
+    "Motorower (jako pojazd określony dla kategorii AM).",
+    "Czterokołowiec lekki (jako pojazd określony dla kategorii AM)."
+   ],
+   "limits": [
+    "DMC: powyżej 3,5 t do 7,5 t.",
+    "Przyczepa lekka to przyczepa o dopuszczalnej masie całkowitej nieprzekraczającej 750 kg (art. 2 pkt 51 Prawa o ruchu drogowym)."
+   ],
+   "includes": [
+    "Ciągnik rolniczy, pojazd wolnobieżny oraz zespół złożony z tego pojazdu i przyczepy lekkiej (art. 6 ust. 3 pkt 1)."
+   ],
+   "exclusions": [
+    "Autobus."
+   ],
+   "legal_basis": "art. 6 ust. 1 pkt 7 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami; art. 6 ust. 4; art. 8 ust. 1 pkt 13",
+   "legal_text": "Art. 6 ust. 1 pkt 7) kategorii C1: a) pojazdem samochodowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t i nieprzekraczającej 7,5 t, z wyjątkiem autobusu, b) zespołem pojazdów złożonym z pojazdu, o którym mowa w lit. a, oraz z przyczepy lekkiej, c) pojazdami określonymi dla prawa jazdy kategorii AM.",
+   "keywords": [
+    "C1",
+    "ciężarówka",
+    "7,5 t",
+    "dostawczy"
+   ],
+   "notes": [
+    "Kolejką turystyczną może kierować osoba posiadająca prawo jazdy odpowiedniej kategorii co najmniej od 2 lat (art. 6 ust. 4); minimalny wiek dla kolejki turystycznej to 21 lat (art. 8 ust. 1 pkt 13)."
+   ],
+   "min_age_years": 18,
+   "min_age_lowest": 18
+  },
+  {
+   "id": "C1+E",
+   "category": "C1+E",
+   "group": "Zespoły pojazdów",
+   "icon": "ciezarowka-przyczepa",
+   "title": "Prawo jazdy kategorii C1+E",
+   "short_description": "Zespół do 12 t: pojazd kategorii C1 z przyczepą.",
+   "minimum_age": "18 lat",
+   "minimum_age_notes": [],
+   "permissions": [
+    "Zespół pojazdów składający się z pojazdu ciągnącego określonego dla kategorii C1 i przyczepy."
+   ],
+   "limits": [
+    "DMC zespołu: do 12 t."
+   ],
+   "includes": [
+    "Zespół pojazdów złożony z ciągnika rolniczego z przyczepą (przyczepami) lub pojazdu wolnobieżnego z przyczepą (przyczepami) (art. 6 ust. 3 pkt 2).",
+    "Kategorie B i C1+E uprawniają także do zespołu B+E (art. 6 ust. 1 pkt 15)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 13 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami",
+   "legal_text": "Art. 6 ust. 1 pkt 13) kategorii C1+E – zespołem pojazdów o dopuszczalnej masie całkowitej nieprzekraczającej 12 t, składającym się z pojazdu ciągnącego określonego w prawie jazdy kategorii C1 i przyczepy.",
+   "keywords": [
+    "C1+E",
+    "C1E",
+    "przyczepa",
+    "12 t",
+    "zespół"
+   ],
+   "notes": [],
+   "min_age_years": 18,
+   "min_age_lowest": 18
+  },
+  {
+   "id": "C",
+   "category": "C",
+   "group": "Samochody ciężarowe",
+   "icon": "ciezarowka",
+   "title": "Prawo jazdy kategorii C",
+   "short_description": "Pojazd samochodowy o DMC powyżej 3,5 t (bez autobusu).",
+   "minimum_age": "21 lat",
+   "minimum_age_notes": [
+    "18 lat — żołnierze kierujący pojazdami Sił Zbrojnych RP (art. 8 ust. 2 pkt 1).",
+    "19 lat — funkcjonariusze Państwowej Straży Pożarnej, Policji, Straży Granicznej oraz Służby Ochrony Państwa (art. 8 ust. 3 pkt 2).",
+    "Zastrzeżenie: art. 8 ust. 1 pkt 6 odsyła także do art. 9 (kwalifikacja wstępna).",
+    "18 lat — dla osób, które uzyskały kwalifikację wstępną, o której mowa w rozdziale 7a ustawy o transporcie drogowym (art. 9 ust. 1 pkt 1)."
+   ],
+   "permissions": [
+    "Pojazd samochodowy o DMC przekraczającej 3,5 t — z wyjątkiem autobusu.",
+    "Zespół pojazdów: pojazd samochodowy o DMC powyżej 3,5 t (z wyjątkiem autobusu) + przyczepa lekka (DMC do 750 kg).",
+    "Motorower (jako pojazd określony dla kategorii AM).",
+    "Czterokołowiec lekki (jako pojazd określony dla kategorii AM)."
+   ],
+   "limits": [
+    "DMC: powyżej 3,5 t.",
+    "Przyczepa lekka to przyczepa o dopuszczalnej masie całkowitej nieprzekraczającej 750 kg (art. 2 pkt 51 Prawa o ruchu drogowym)."
+   ],
+   "includes": [
+    "Ciągnik rolniczy, pojazd wolnobieżny oraz zespół złożony z tego pojazdu i przyczepy lekkiej (art. 6 ust. 3 pkt 1)."
+   ],
+   "exclusions": [
+    "Autobus."
+   ],
+   "legal_basis": "art. 6 ust. 1 pkt 8 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami; art. 6 ust. 4; art. 8 ust. 1 pkt 13",
+   "legal_text": "Art. 6 ust. 1 pkt 8) kategorii C: a) pojazdem samochodowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t, z wyjątkiem autobusu, b) zespołem pojazdów złożonym z pojazdu, o którym mowa w lit. a, oraz z przyczepy lekkiej, c) pojazdami określonymi dla prawa jazdy kategorii AM.",
+   "keywords": [
+    "C",
+    "ciężarówka",
+    "tir",
+    "powyżej 3,5 t"
+   ],
+   "notes": [
+    "Kolejką turystyczną może kierować osoba posiadająca prawo jazdy odpowiedniej kategorii co najmniej od 2 lat (art. 6 ust. 4); minimalny wiek dla kolejki turystycznej to 21 lat (art. 8 ust. 1 pkt 13)."
+   ],
+   "min_age_years": 21,
+   "min_age_lowest": 18
+  },
+  {
+   "id": "C+E",
+   "category": "C+E",
+   "group": "Zespoły pojazdów",
+   "icon": "ciezarowka-przyczepa",
+   "title": "Prawo jazdy kategorii C+E",
+   "short_description": "Pojazd kategorii C łącznie z przyczepą (przyczepami).",
+   "minimum_age": "21 lat",
+   "minimum_age_notes": [
+    "18 lat — żołnierze kierujący pojazdami Sił Zbrojnych RP (art. 8 ust. 2 pkt 1).",
+    "Zastrzeżenie: art. 8 ust. 1 pkt 6 odsyła także do art. 9.",
+    "18 lat — dla osób, które uzyskały kwalifikację wstępną, o której mowa w rozdziale 7a ustawy o transporcie drogowym (art. 9 ust. 1 pkt 1)."
+   ],
+   "permissions": [
+    "Pojazd określony dla kategorii C łącznie z przyczepą (przyczepami)."
+   ],
+   "limits": [],
+   "includes": [
+    "Zespół pojazdów złożony z ciągnika rolniczego z przyczepą (przyczepami) lub pojazdu wolnobieżnego z przyczepą (przyczepami) (art. 6 ust. 3 pkt 2).",
+    "Kategorie C+E i D uprawniają także do zespołu D+E (art. 6 ust. 1 pkt 16).",
+    "Kategorie B i C+E uprawniają także do zespołu B+E (art. 6 ust. 1 pkt 15)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 12 oraz pkt 15 i 16 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami",
+   "legal_text": "Art. 6 ust. 1 pkt 12) kategorii B+E, C+E lub D+E – pojazdem określonym odpowiednio w prawie jazdy kategorii B, C lub D, łącznie z przyczepą (przyczepami). — Pkt 16) kategorii C+E i D – zespołem pojazdów określonych w prawie jazdy kategorii D+E.",
+   "keywords": [
+    "C+E",
+    "CE",
+    "naczepa",
+    "przyczepa",
+    "tir",
+    "zespół"
+   ],
+   "notes": [],
+   "min_age_years": 21,
+   "min_age_lowest": 18
+  },
+  {
+   "id": "D1",
+   "category": "D1",
+   "group": "Autobusy",
+   "icon": "autobus",
+   "title": "Prawo jazdy kategorii D1",
+   "short_description": "Autobus do 17 osób z kierowcą i długości do 8 m.",
+   "minimum_age": "21 lat",
+   "minimum_age_notes": [
+    "Zastrzeżenie: art. 8 ust. 1 pkt 6 odsyła także do art. 9 (kwalifikacja wstępna).",
+    "WYMAGA WERYFIKACJI: ustawa zawiera brzmienie art. 9 oczekujące na wejście w życie, które różnicuje ten wiek (m.in. 18 lub 20 lat dla D i D+E przy określonych przewozach oraz 18 lat dla D1 i D1+E) — przed zastosowaniem sprawdź stan prawny na dzień czynności."
+   ],
+   "permissions": [
+    "Autobus przeznaczony konstrukcyjnie do przewozu nie więcej niż 17 osób łącznie z kierowcą, o długości nieprzekraczającej 8 m.",
+    "Zespół pojazdów: autobus do 17 osób łącznie z kierowcą i długości do 8 m + przyczepa lekka (DMC do 750 kg).",
+    "Motorower (jako pojazd określony dla kategorii AM).",
+    "Czterokołowiec lekki (jako pojazd określony dla kategorii AM)."
+   ],
+   "limits": [
+    "Liczba miejsc: do 17 osób łącznie z kierowcą.",
+    "Długość: do 8 m.",
+    "Przyczepa lekka to przyczepa o dopuszczalnej masie całkowitej nieprzekraczającej 750 kg (art. 2 pkt 51 Prawa o ruchu drogowym)."
+   ],
+   "includes": [
+    "Ciągnik rolniczy, pojazd wolnobieżny oraz zespół złożony z tego pojazdu i przyczepy lekkiej (art. 6 ust. 3 pkt 1)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 9 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami; art. 6 ust. 4; art. 8 ust. 1 pkt 13",
+   "legal_text": "Art. 6 ust. 1 pkt 9) kategorii D1: a) autobusem przeznaczonym konstrukcyjnie do przewozu nie więcej niż 17 osób łącznie z kierowcą, o długości nieprzekraczającej 8 m, b) zespołem pojazdów złożonym z pojazdu, o którym mowa w lit. a, oraz z przyczepy lekkiej, c) pojazdami określonymi dla prawa jazdy kategorii AM.",
+   "keywords": [
+    "D1",
+    "autobus",
+    "17 osób",
+    "8 m",
+    "bus"
+   ],
+   "notes": [
+    "Kolejką turystyczną może kierować osoba posiadająca prawo jazdy odpowiedniej kategorii co najmniej od 2 lat (art. 6 ust. 4); minimalny wiek dla kolejki turystycznej to 21 lat (art. 8 ust. 1 pkt 13)."
+   ],
+   "min_age_years": 21,
+   "min_age_lowest": 21
+  },
+  {
+   "id": "D1+E",
+   "category": "D1+E",
+   "group": "Zespoły pojazdów",
+   "icon": "autobus-przyczepa",
+   "title": "Prawo jazdy kategorii D1+E",
+   "short_description": "Zespół: autobus kategorii D1 z przyczepą.",
+   "minimum_age": "21 lat",
+   "minimum_age_notes": [
+    "Zastrzeżenie: art. 8 ust. 1 pkt 6 odsyła także do art. 9.",
+    "WYMAGA WERYFIKACJI: ustawa zawiera brzmienie art. 9 oczekujące na wejście w życie, które różnicuje ten wiek (m.in. 18 lub 20 lat dla D i D+E przy określonych przewozach oraz 18 lat dla D1 i D1+E) — przed zastosowaniem sprawdź stan prawny na dzień czynności."
+   ],
+   "permissions": [
+    "Zespół pojazdów składający się z pojazdu ciągnącego określonego dla kategorii D1 i przyczepy."
+   ],
+   "limits": [],
+   "includes": [
+    "Zespół pojazdów złożony z ciągnika rolniczego z przyczepą (przyczepami) lub pojazdu wolnobieżnego z przyczepą (przyczepami) (art. 6 ust. 3 pkt 2).",
+    "Kategorie B i D1+E uprawniają także do zespołu B+E (art. 6 ust. 1 pkt 15)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 14 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami",
+   "legal_text": "Art. 6 ust. 1 pkt 14) kategorii D1+E – zespołem pojazdów składającym się z pojazdu ciągnącego określonego w prawie jazdy kategorii D1 i przyczepy.",
+   "keywords": [
+    "D1+E",
+    "D1E",
+    "autobus",
+    "przyczepa",
+    "zespół"
+   ],
+   "notes": [],
+   "min_age_years": 21,
+   "min_age_lowest": 21
+  },
+  {
+   "id": "D",
+   "category": "D",
+   "group": "Autobusy",
+   "icon": "autobus",
+   "title": "Prawo jazdy kategorii D",
+   "short_description": "Autobus bez ograniczeń liczby miejsc i długości.",
+   "minimum_age": "24 lata",
+   "minimum_age_notes": [
+    "19 lat — żołnierze kierujący pojazdami Sił Zbrojnych RP (art. 8 ust. 2 pkt 2).",
+    "21 lat — funkcjonariusze Państwowej Straży Pożarnej, Policji, Straży Granicznej oraz Służby Ochrony Państwa (art. 8 ust. 3 pkt 3).",
+    "Zastrzeżenie: art. 8 ust. 1 pkt 7 lit. b odsyła także do art. 9.",
+    "21 lat — dla osób, które uzyskały kwalifikację wstępną (art. 9 ust. 1 pkt 2) albo kwalifikację wstępną przyśpieszoną (art. 9 ust. 2).",
+    "WYMAGA WERYFIKACJI: ustawa zawiera brzmienie art. 9 oczekujące na wejście w życie, które różnicuje ten wiek (m.in. 18 lub 20 lat dla D i D+E przy określonych przewozach oraz 18 lat dla D1 i D1+E) — przed zastosowaniem sprawdź stan prawny na dzień czynności."
+   ],
+   "permissions": [
+    "Autobus.",
+    "Zespół pojazdów: autobus + przyczepa lekka (DMC do 750 kg).",
+    "Motorower (jako pojazd określony dla kategorii AM).",
+    "Czterokołowiec lekki (jako pojazd określony dla kategorii AM)."
+   ],
+   "limits": [
+    "Przyczepa lekka to przyczepa o dopuszczalnej masie całkowitej nieprzekraczającej 750 kg (art. 2 pkt 51 Prawa o ruchu drogowym)."
+   ],
+   "includes": [
+    "Ciągnik rolniczy, pojazd wolnobieżny oraz zespół złożony z tego pojazdu i przyczepy lekkiej (art. 6 ust. 3 pkt 1)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 10 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami; art. 6 ust. 4; art. 8 ust. 1 pkt 13",
+   "legal_text": "Art. 6 ust. 1 pkt 10) kategorii D: a) autobusem, b) zespołem pojazdów złożonym z pojazdu, o którym mowa w lit. a, oraz z przyczepy lekkiej, c) pojazdami określonymi dla prawa jazdy kategorii AM.",
+   "keywords": [
+    "D",
+    "autobus",
+    "przewóz osób"
+   ],
+   "notes": [
+    "Kolejką turystyczną może kierować osoba posiadająca prawo jazdy odpowiedniej kategorii co najmniej od 2 lat (art. 6 ust. 4); minimalny wiek dla kolejki turystycznej to 21 lat (art. 8 ust. 1 pkt 13)."
+   ],
+   "min_age_years": 24,
+   "min_age_lowest": 19
+  },
+  {
+   "id": "D+E",
+   "category": "D+E",
+   "group": "Zespoły pojazdów",
+   "icon": "autobus-przyczepa",
+   "title": "Prawo jazdy kategorii D+E",
+   "short_description": "Autobus kategorii D łącznie z przyczepą (przyczepami).",
+   "minimum_age": "24 lata",
+   "minimum_age_notes": [
+    "Zastrzeżenie: art. 8 ust. 1 pkt 7 lit. b odsyła także do art. 9.",
+    "21 lat — dla osób, które uzyskały kwalifikację wstępną (art. 9 ust. 1 pkt 2) albo kwalifikację wstępną przyśpieszoną (art. 9 ust. 2).",
+    "WYMAGA WERYFIKACJI: ustawa zawiera brzmienie art. 9 oczekujące na wejście w życie, które różnicuje ten wiek (m.in. 18 lub 20 lat dla D i D+E przy określonych przewozach oraz 18 lat dla D1 i D1+E) — przed zastosowaniem sprawdź stan prawny na dzień czynności."
+   ],
+   "permissions": [
+    "Pojazd określony dla kategorii D łącznie z przyczepą (przyczepami)."
+   ],
+   "limits": [],
+   "includes": [
+    "Zespół pojazdów złożony z ciągnika rolniczego z przyczepą (przyczepami) lub pojazdu wolnobieżnego z przyczepą (przyczepami) (art. 6 ust. 3 pkt 2).",
+    "Kategorie B i D+E uprawniają także do zespołu B+E (art. 6 ust. 1 pkt 15).",
+    "Kategorie C+E i D — uprawniają do kierowania zespołem pojazdów określonym dla kategorii D+E (art. 6 ust. 1 pkt 16)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 12 oraz pkt 16 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami",
+   "legal_text": "Art. 6 ust. 1 pkt 12) kategorii B+E, C+E lub D+E – pojazdem określonym odpowiednio w prawie jazdy kategorii B, C lub D, łącznie z przyczepą (przyczepami). — Pkt 16) kategorii C+E i D – zespołem pojazdów określonych w prawie jazdy kategorii D+E.",
+   "keywords": [
+    "D+E",
+    "DE",
+    "autobus",
+    "przyczepa",
+    "zespół"
+   ],
+   "notes": [],
+   "min_age_years": 24,
+   "min_age_lowest": 21
+  },
+  {
+   "id": "T",
+   "category": "T",
+   "group": "Ciągniki rolnicze",
+   "icon": "ciagnik",
+   "title": "Prawo jazdy kategorii T",
+   "short_description": "Ciągnik rolniczy lub pojazd wolnobieżny, także z przyczepami.",
+   "minimum_age": "16 lat",
+   "minimum_age_notes": [],
+   "permissions": [
+    "Ciągnik rolniczy lub pojazd wolnobieżny.",
+    "Zespół: ciągnik rolniczy z przyczepą (przyczepami) lub pojazd wolnobieżny z przyczepą (przyczepami).",
+    "Motorower (jako pojazd określony dla kategorii AM).",
+    "Czterokołowiec lekki (jako pojazd określony dla kategorii AM)."
+   ],
+   "limits": [],
+   "includes": [
+    "Rower, wózek rowerowy, hulajnoga elektryczna lub urządzenie transportu osobistego — w przypadku osób, które nie ukończyły 18 lat (art. 7 ust. 1 pkt 2).",
+    "Pojazd zaprzęgowy — w przypadku osób, które nie ukończyły 18 lat (art. 7 ust. 1 pkt 3)."
+   ],
+   "exclusions": [],
+   "legal_basis": "art. 6 ust. 1 pkt 11 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami; art. 7 ust. 1 pkt 2 i 3; art. 11 ust. 2; art. 6 ust. 4; art. 8 ust. 1 pkt 13",
+   "legal_text": "Art. 6 ust. 1 pkt 11) kategorii T: a) ciągnikiem rolniczym lub pojazdem wolnobieżnym, b) zespołem pojazdów złożonym z ciągnika rolniczego z przyczepą (przyczepami) lub pojazdem wolnobieżnym z przyczepą (przyczepami), c) pojazdami określonymi dla prawa jazdy kategorii AM. — Art. 7 ust. 1: rowerem, wózkiem rowerowym, hulajnogą elektryczną lub urządzeniem transportu osobistego (pkt 2) oraz pojazdem zaprzęgowym (pkt 3) – jest karta rowerowa lub prawo jazdy kategorii AM, A1, B1, B lub T – w przypadku osób, które nie ukończyły 18 lat. — Art. 11 ust. 2: Osoba, która nie ukończyła 18 lat, może uzyskać prawo jazdy kategorii AM, A1, B1, B lub T za pisemną zgodą rodzica lub opiekuna.",
+   "keywords": [
+    "T",
+    "ciągnik",
+    "rolniczy",
+    "wolnobieżny",
+    "traktor"
+   ],
+   "notes": [
+    "Osoba, która nie ukończyła 18 lat, może uzyskać prawo jazdy kategorii AM, A1, B1, B lub T za pisemną zgodą rodzica lub opiekuna (art. 11 ust. 2).",
+    "Kolejką turystyczną może kierować osoba posiadająca prawo jazdy odpowiedniej kategorii co najmniej od 2 lat (art. 6 ust. 4); minimalny wiek dla kolejki turystycznej to 21 lat (art. 8 ust. 1 pkt 13)."
+   ],
+   "min_age_years": 16,
+   "min_age_lowest": 16
+  }
+ ]
+}

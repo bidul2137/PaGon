@@ -133,6 +133,20 @@
     return null;
   }
 
+  // --- wyszukiwanie po kodzie naruszenia: "F 03", "F03", "f-03", "f 3" ---
+  var KOD_RE = /^([a-z])[\s-]*(\d{1,2})$/i;
+  function normKod(s) {
+    // "F 03" / "F-03" / "f03" -> "f3" (bez spacji, myślników i zer wiodących)
+    return String(s).toLowerCase().replace(/[\s-]+/g, "").replace(/^([a-z])0+(\d)/, "$1$2");
+  }
+  function pasujeKod(rekord, q) {
+    if (!rekord.code) return false;
+    var nq = normKod(q);
+    return String(rekord.code).split(/[-–]/).some(function (c) {
+      return normKod(c) === nq;
+    });
+  }
+
   function pasujeDoSzukania(rekord, q) {
     if (!q) return true;
     var N = liczbaKmh(q);
@@ -140,10 +154,23 @@
       var z = zakresPredkosci(rekord.title || "");
       return z ? (N >= z[0] && N <= z[1]) : false;
     }
+    if (KOD_RE.test(q.trim())) {                       // zapytanie o kod -> dokładne dopasowanie kodu,
+      if (pasujeKod(rekord, q.trim())) return true;    // z fallbackiem na oznaczenia typu znak "D-18"
+      var qc = bezOgonkow(q).replace(/\s+/g, "");
+      var hayKod = bezOgonkow([
+        rekord.title || "",
+        rekord.legal_qualification || rekord.legal_basis || "",
+        (rekord.keywords || []).join(" "),
+      ].join(" "));
+      return hayKod.indexOf(qc) !== -1;
+    }
     var haystack = [
       rekord.title || "",
       rekord.legal_qualification || rekord.legal_basis || "",
       (rekord.keywords || []).join(" "),
+      rekord.code || "",
+      rekord.mandate_base !== null && rekord.mandate_base !== undefined ? String(rekord.mandate_base) : "",
+      rekord.summary && rekord.summary !== rekord.title ? rekord.summary : "",
     ].join(" ");
     return pasujeTekst(haystack, q);
   }
@@ -187,16 +214,26 @@
 
   // ---------- Renderowanie listy ----------
 
+  function odmianaWynikow(n) {
+    if (n === 1) return "wynik";
+    var d = n % 10, s = n % 100;
+    if (d >= 2 && d <= 4 && (s < 12 || s > 14)) return "wyniki";
+    return "wyników";
+  }
+
   function renderujLista() {
     var wyniki = filtrowaneRekordy();
     listaEl.innerHTML = "";
 
     if (liczbaEl) {
-      liczbaEl.textContent = wyniki.length + (wyniki.length === 1 ? " wynik" : " wyników");
+      liczbaEl.textContent = wyniki.length + " " + odmianaWynikow(wyniki.length);
     }
 
     if (wyniki.length === 0) {
       brakEl.hidden = false;
+      brakEl.textContent = (state.tylkoUlubione && !wczytajUlubione().length)
+        ? "Nie masz jeszcze ulubionych — dodaj wykroczenie gwiazdką, aby mieć je zawsze pod ręką."
+        : "Brak wykroczeń spełniających kryteria.";
       return;
     }
     brakEl.hidden = true;

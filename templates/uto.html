@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}PaGon — UTO{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/kategorie.css') }}">
+
+{% set uto_ikony = {
+  "hulajnoga": '<svg class="kpj-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.6" cy="17.2" r="2.3"/><circle cx="18.2" cy="17.2" r="2.3"/><path d="M7.9 17.2h6.2l3-10.3"/><path d="M15.2 6.9h3.8"/><path d="M12.4 11.6l1.9 2.2-2.6 1.1 1.7 2"/></svg>',
+  "uto": '<svg class="kpj-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="16.4" r="3.4"/><path d="M4.6 12.6h14.8"/><path d="M4.6 12.6v-1.4M19.4 12.6v-1.4"/><path d="M9.4 15.4l1.7 2-2.3 1"/></svg>',
+  "uwr": '<svg class="kpj-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6.4 5.6v8.2h8.4l3.4-2.2"/><path d="M6.4 9.4h4.6"/><circle cx="7.4" cy="17.4" r="1.7"/><circle cx="12" cy="17.4" r="1.7"/><circle cx="16.6" cy="17.4" r="1.7"/></svg>'
+} %}
+
+<div class="tar-page kpj-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">UTO</h1>
+      <p class="kpj-lead">Hulajnoga elektryczna, urządzenie transportu osobistego i urządzenie wspomagające ruch — zasady ruchu.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+    <ul class="kpj-lista">
+      {% for u in urzadzenia %}
+        <li class="kpj-karta" data-id="{{ u.id }}">
+          <div class="kpj-karta-top">
+            <span class="kpj-karta-ico" role="img" aria-label="Ikona: {{ u.name }}">
+              {{ uto_ikony.get(u.icon, '')|safe }}
+            </span>
+          </div>
+          <p class="uto-nazwa">{{ u.name }}</p>
+          <button type="button" class="kpj-szczegoly" data-id="{{ u.id }}"
+                  aria-label="Zobacz szczegóły: {{ u.name }}">Zobacz szczegóły</button>
+        </li>
+      {% endfor %}
+    </ul>
+    <p class="kpj-zrodlo">{{ zrodlo }}</p>
+  </main>
+
+  <div class="kpj-modal" id="uto-modal" hidden>
+    <div class="kpj-modal-tlo" data-close></div>
+    <div class="kpj-modal-panel" role="dialog" aria-modal="true" aria-labelledby="uto-modal-tytul">
+      <div class="kpj-modal-head">
+        <h2 class="kpj-modal-tytul" id="uto-modal-tytul"></h2>
+        <button type="button" class="kpj-modal-x" data-close aria-label="Zamknij">&times;</button>
+      </div>
+      <div class="kpj-modal-body" id="uto-modal-body"></div>
+      <div class="kpj-modal-stopka">
+        <button type="button" class="kpj-btn-zamknij" data-close>Zamknij</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script id="uto-dane" type="application/json">{{ urzadzenia|tojson }}</script>
+<script src="{{ url_for('static', filename='js/uto.js') }}" defer></script>
+{% endblock %}

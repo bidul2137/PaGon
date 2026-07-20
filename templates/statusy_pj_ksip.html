@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Statusy Prawa Jazdy KSIP{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/statusy.css') }}">
+
+<div class="tar-page kpj-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Statusy Prawa Jazdy KSIP</h1>
+      <p class="kpj-lead">Znaczenie statusów 0–7 z ewidencji kierowców naruszających przepisy — opis i wskazania do dalszych czynności.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+    <ul class="kpj-lista spj-lista">
+      {% for s in statusy %}
+        <li class="kpj-karta spj-karta{% if s.typ_wskazania == 'zatrzymanie' %} spj-karta--stop{% endif %}" data-id="{{ s.id }}">
+          <div class="kpj-karta-top">
+            <span class="kpj-badge spj-badge">{{ s.numer }}</span>
+            {% if s.typ_wskazania == 'zatrzymanie' %}
+              <span class="spj-tag spj-tag--stop">Zatrzymaj PJ</span>
+            {% else %}
+              <span class="spj-tag">Weryfikacja CEK</span>
+            {% endif %}
+          </div>
+          <p class="uto-nazwa spj-nazwa">{{ s.nazwa }}</p>
+          <button type="button" class="kpj-szczegoly" data-id="{{ s.id }}"
+                  aria-label="Zobacz opis statusu {{ s.numer }}: {{ s.nazwa }}">Zobacz opis</button>
+        </li>
+      {% endfor %}
+    </ul>
+    <p class="kpj-zrodlo">{{ zrodlo }}</p>
+  </main>
+
+  <div class="kpj-modal" id="spj-modal" hidden>
+    <div class="kpj-modal-tlo" data-close></div>
+    <div class="kpj-modal-panel" role="dialog" aria-modal="true" aria-labelledby="spj-modal-tytul">
+      <div class="kpj-modal-head">
+        <span class="kpj-badge kpj-badge--lg" id="spj-modal-badge"></span>
+        <h2 class="kpj-modal-tytul" id="spj-modal-tytul"></h2>
+        <button type="button" class="kpj-modal-x" data-close aria-label="Zamknij">&times;</button>
+      </div>
+      <div class="kpj-modal-body" id="spj-modal-body"></div>
+      <div class="kpj-modal-stopka">
+        <button type="button" class="kpj-btn-zamknij" data-close>Zamknij</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script id="spj-dane" type="application/json">{{ statusy|tojson }}</script>
+<script src="{{ url_for('static', filename='js/statusy.js') }}" defer></script>
+{% endblock %}

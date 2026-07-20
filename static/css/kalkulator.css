@@ -1,0 +1,60 @@
+/* ===================================================================
+   KALKULATOR PRĘDKOŚCI — pola + karta wyniku (paleta PaGon)
+   =================================================================== */
+
+.kal-input{font-family:var(--t-mono);font-size:16px;font-weight:700;letter-spacing:.04em}
+.kal-input--blad{border-color:rgba(214,123,111,.7)!important}
+.kal-blad{margin:6px 0 0;font-size:11.5px;color:#e3a49a}
+.kal-select{font-size:13px;min-height:44px;cursor:pointer}
+.kal-select option{background:#14203c;color:var(--t-text)}
+
+.kal-oblicz{margin-top:2px}
+
+.kal-wynik{margin-top:14px}
+.kal-karta{padding:15px 16px;margin-bottom:12px;border-radius:13px;
+  background:linear-gradient(180deg,#14203c 0%,#101a30 100%);
+  border:1px solid var(--t-line)}
+.kal-karta--ok{border-color:rgba(120,190,140,.5)}
+.kal-karta--ok .kal-diff{color:#8fc9a0}
+/* zatrzymanie PJ — mocny, dostępny wariant złotego akcentu (nie tylko kolor: ⚠ + tekst) */
+.kal-karta--stop{border:2px solid var(--t-gold);background:rgba(206,158,47,.1)}
+.kal-karta--neutral{border-color:var(--t-line)}
+
+.kal-sekcja-tytul{margin:0 0 8px;font-family:var(--t-mono);font-size:10.5px;font-weight:700;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--t-dim);
+  border-bottom:1px solid var(--t-line);padding-bottom:5px}
+.kal-sekcja-tytul--stop{color:var(--t-gold-2);border-color:rgba(206,158,47,.4)}
+.kal-neutral-tytul{margin:0 0 5px;font-size:13px;font-weight:700;line-height:1.45;color:var(--t-text)}
+
+.kal-diff{margin:0 0 6px;font-family:var(--t-mono);font-size:18px;font-weight:700;
+  letter-spacing:.03em;color:var(--t-gold)}
+.kal-tytul{margin:0 0 4px;font-size:13.5px;font-weight:700;line-height:1.45;color:#aab8e8}
+.kal-kwalifikacja{margin:0 0 12px;font-family:var(--t-mono);font-size:11.5px;line-height:1.55;color:var(--t-dim)}
+.kal-opis{margin:0;font-size:12.5px;line-height:1.6;color:var(--t-text)}
+
+.kal-fakty{display:grid;gap:8px;grid-template-columns:1fr 1fr}
+@media (max-width:380px){ .kal-fakty{grid-template-columns:1fr} }
+.kal-fakt{display:flex;flex-direction:column;gap:2px;padding:8px 11px;
+  background:rgba(4,8,18,.35);border:1px solid var(--t-line);border-radius:9px}
+.kal-fakt-label{font-family:var(--t-mono);font-size:9.5px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--t-dim)}
+.kal-fakt-val{font-family:var(--t-mono);font-size:15px;font-weight:700;color:var(--t-text)}
+.kal-fakt.is-gold .kal-fakt-val{color:var(--t-gold)}
+
+.kal-stop-tytul{margin:0 0 6px;font-family:var(--t-mono);font-size:14px;font-weight:700;
+  letter-spacing:.05em;text-transform:uppercase;color:var(--t-gold)}
+
+/* panel "Podstawa prawna" */
+.kal-podstawy{margin-top:4px}
+.kal-podstawy summary{display:inline-flex;align-items:center;gap:6px;min-height:40px;
+  font-family:var(--t-mono);font-size:12px;font-weight:700;letter-spacing:.05em;
+  color:var(--t-gold-2);cursor:pointer;list-style:none}
+.kal-podstawy summary::-webkit-details-marker{display:none}
+.kal-podstawy summary::after{content:"▾";font-size:10px}
+.kal-podstawy[open] summary::after{content:"▴"}
+.kal-przepis{margin:0 0 10px;padding:11px 13px;background:rgba(28,37,65,.5);
+  border:1px solid var(--t-line);border-radius:10px}
+.kal-przepis-head{margin:0 0 6px;font-family:var(--t-mono);font-size:11px;font-weight:700;
+  line-height:1.5;color:var(--t-gold-2)}
+.kal-przepis-body{margin:0;font-size:12px;line-height:1.65;color:var(--t-text)}
+.kal-przepis-body--dim{color:var(--t-dim);font-style:italic}

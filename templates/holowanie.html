@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Holowanie pojazdów{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/holowanie.css') }}">
+
+<div class="tar-page kpj-page hol-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Holowanie pojazdów</h1>
+      <p class="kpj-lead">Podstawy usuwania i zabezpieczania pojazdów — rodzaj decyzji, koszt holowania i zezwolenie na odbiór.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+
+    {# ===== legenda: dyspozycja vs zlecenie ===== #}
+    <div class="hol-legenda">
+      <div class="hol-legenda-box">
+        <span class="hol-badge hol-badge--dyspozycja">Dyspozycja</span>
+        <p>{{ legenda.get("dyspozycja", "") }}</p>
+      </div>
+      <div class="hol-legenda-box">
+        <span class="hol-badge hol-badge--zlecenie">Zlecenie</span>
+        <p>{{ legenda.get("zlecenie", "") }}</p>
+      </div>
+    </div>
+
+    {# ===== wyszukiwarka + filtry ===== #}
+    <div class="hol-narzedzia">
+      <input type="search" id="hol-szukaj" class="kpj-input hol-szukaj"
+             placeholder="Szukaj: np. nietrzeźwość, 130a, karta parkingowa…"
+             aria-label="Filtruj podstawy holowania">
+      <div class="hol-chips" role="group" aria-label="Filtruj po rodzaju">
+        <button type="button" class="hol-chip is-active" data-filtr="wszystkie">Wszystkie</button>
+        <button type="button" class="hol-chip" data-filtr="Dyspozycja">Dyspozycje</button>
+        <button type="button" class="hol-chip" data-filtr="Zlecenie">Zlecenia</button>
+      </div>
+    </div>
+
+    {# ===== grupy ===== #}
+    {% for g in grupy %}
+      <section class="hol-grupa" data-grupa="{{ g.id }}">
+        <h2 class="hol-grupa-tytul">{{ g.nazwa }}</h2>
+        {% if g.opis %}<p class="hol-grupa-opis">{{ g.opis }}</p>{% endif %}
+
+        <ul class="hol-lista">
+          {% for p in g.pozycje %}
+            <li class="hol-karta" data-rodzaj="{{ p.rodzaj }}">
+              <h3 class="hol-karta-tytul">{{ p.tytul }}</h3>
+              {% if p.podstawa %}<p class="hol-podstawa">{{ p.podstawa }}</p>{% endif %}
+
+              <div class="hol-odznaki">
+                <span class="hol-badge {% if p.rodzaj == 'Zlecenie' %}hol-badge--zlecenie{% else %}hol-badge--dyspozycja{% endif %}">{{ p.rodzaj }}</span>
+                {% if p.koniecznosc %}
+                  <span class="hol-badge {% if p.koniecznosc == 'Obligatoryjne' %}hol-badge--obl{% else %}hol-badge--fak{% endif %}">{{ p.koniecznosc }}</span>
+                {% endif %}
+              </div>
+
+              <dl class="hol-fakty">
+                <div class="hol-fakt">
+                  <dt>Holowanie na koszt</dt>
+                  <dd>{{ p.koszt }}</dd>
+                </div>
+                <div class="hol-fakt">
+                  <dt>Odbiór pojazdu</dt>
+                  <dd class="{% if p.zezwolenie %}hol-tak{% else %}hol-nie{% endif %}">
+                    {% if p.zezwolenie %}Wymaga zezwolenia{% else %}NIE wymaga zezwolenia{% endif %}
+                  </dd>
+                </div>
+              </dl>
+
+              {% if p.opis %}
+                <details class="hol-przepis">
+                  <summary>Treść przepisu</summary>
+                  <p>{{ p.opis }}</p>
+                </details>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
+
+    <p class="prz-brak" id="hol-brak" hidden>Brak pozycji pasujących do wyszukiwania.</p>
+    <p class="kpj-zrodlo">{{ zrodlo }}</p>
+  </main>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/holowanie.js') }}" defer></script>
+{% endblock %}

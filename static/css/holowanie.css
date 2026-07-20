@@ -1,0 +1,72 @@
+/* ===================================================================
+   HOLOWANIE POJAZDÓW — karty podstaw usunięcia / zabezpieczenia pojazdu
+   (spójne z paletą PaGon; bazuje na klasach kpj-*)
+   =================================================================== */
+
+/* ===== legenda ===== */
+.hol-legenda{display:grid;gap:10px;margin:2px 0 14px}
+@media (min-width:560px){ .hol-legenda{grid-template-columns:1fr 1fr} }
+.hol-legenda-box{padding:11px 13px;background:rgba(28,37,65,.5);
+  border:1px solid var(--t-line);border-radius:12px}
+.hol-legenda-box p{margin:7px 0 0;font-size:11.5px;line-height:1.55;color:var(--t-dim)}
+
+/* ===== narzędzia: szukajka + filtry ===== */
+.hol-narzedzia{display:flex;flex-direction:column;gap:10px;margin:0 0 16px}
+.hol-szukaj{min-height:44px}
+.hol-chips{display:flex;flex-wrap:wrap;gap:8px}
+.hol-chip{display:inline-flex;align-items:center;justify-content:center;min-height:38px;
+  padding:6px 14px;font-family:var(--t-mono);font-size:12px;font-weight:700;letter-spacing:.03em;
+  color:var(--t-text);background:rgba(255,255,255,.04);
+  border:1px solid var(--t-line);border-radius:9px;cursor:pointer;transition:all .15s ease}
+.hol-chip:hover{border-color:var(--t-gold)}
+.hol-chip.is-active{color:#0b132b;background:var(--t-gold);border-color:var(--t-gold)}
+.hol-chip:focus-visible{outline:2px solid var(--t-gold);outline-offset:2px}
+
+/* ===== grupy ===== */
+.hol-grupa{margin-bottom:22px}
+.hol-grupa[hidden]{display:none}
+.hol-grupa-tytul{margin:0 0 4px;font-family:var(--t-mono);font-size:13px;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--t-gold-2)}
+.hol-grupa-opis{margin:0 0 11px;font-size:11.5px;line-height:1.5;color:var(--t-dim)}
+
+/* ===== karty ===== */
+.hol-lista{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.hol-karta{padding:14px 15px;background:linear-gradient(180deg,#14203c 0%,#101a30 100%);
+  border:1px solid var(--t-line);border-radius:13px}
+.hol-karta[hidden]{display:none}
+.hol-karta-tytul{margin:0 0 5px;font-size:14px;line-height:1.45;font-weight:700;color:#aab8e8}
+.hol-podstawa{margin:0 0 10px;font-family:var(--t-mono);font-size:11.5px;line-height:1.5;color:var(--t-dim)}
+
+/* odznaki */
+.hol-odznaki{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:11px}
+.hol-badge{display:inline-flex;align-items:center;min-height:24px;padding:3px 10px;
+  font-family:var(--t-mono);font-size:10.5px;font-weight:700;letter-spacing:.06em;
+  text-transform:uppercase;border-radius:7px;border:1px solid}
+.hol-badge--dyspozycja{color:var(--t-gold-2);background:rgba(206,158,47,.1);border-color:rgba(206,158,47,.45)}
+.hol-badge--zlecenie{color:#9fb6e8;background:rgba(114,144,214,.12);border-color:rgba(114,144,214,.5)}
+.hol-badge--obl{color:#e3a49a;background:rgba(214,123,111,.12);border-color:rgba(214,123,111,.5)}
+.hol-badge--fak{color:#8fc9a0;background:rgba(120,190,140,.1);border-color:rgba(120,190,140,.45)}
+
+/* fakty: koszt + zezwolenie */
+.hol-fakty{display:grid;gap:8px;margin:0}
+@media (min-width:480px){ .hol-fakty{grid-template-columns:1fr 1fr} }
+.hol-fakt{display:flex;flex-direction:column;gap:2px;padding:8px 11px;
+  background:rgba(4,8,18,.35);border:1px solid var(--t-line);border-radius:9px}
+.hol-fakt dt{font-family:var(--t-mono);font-size:9.5px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--t-dim)}
+.hol-fakt dd{margin:0;font-size:12.5px;font-weight:700;line-height:1.4;color:var(--t-text)}
+.hol-fakt dd.hol-tak{color:#e08a7e}
+.hol-fakt dd.hol-nie{color:#8fc9a0}
+
+/* pełna treść przepisu */
+.hol-przepis{margin-top:10px}
+.hol-przepis summary{display:inline-flex;align-items:center;gap:6px;min-height:34px;
+  font-family:var(--t-mono);font-size:11px;font-weight:700;letter-spacing:.05em;
+  color:var(--t-gold-2);cursor:pointer;list-style:none}
+.hol-przepis summary::-webkit-details-marker{display:none}
+.hol-przepis summary::after{content:"▾";font-size:10px}
+.hol-przepis[open] summary::after{content:"▴"}
+.hol-przepis summary:hover{color:var(--t-gold)}
+.hol-przepis p{margin:7px 0 0;padding:10px 12px;font-size:12px;line-height:1.6;color:var(--t-text);
+  background:rgba(4,8,18,.35);border:1px solid var(--t-line);border-left:3px solid rgba(206,158,47,.45);
+  border-radius:9px}

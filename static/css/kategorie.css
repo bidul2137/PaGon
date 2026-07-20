@@ -1,0 +1,171 @@
+/* ===================================================================
+   KATEGORIE PRAWA JAZDY — karty + szczegóły (spójne z paletą PaGon)
+   =================================================================== */
+
+/* brak logo na tej podstronie -> zrób miejsce na strzałkę powrotu */
+.kpj-page .tar-brand{gap:6px;padding-left:34px}
+.kpj-page .tar-back{padding:4px 8px}
+@media (max-width:360px){ .kpj-page .tar-brand{padding-left:28px} }
+.kpj-title{font-size:clamp(18px,5.6vw,26px)}
+.kpj-lead{margin:0;font-size:12px;line-height:1.5;color:var(--t-dim)}
+
+/* ===== tryb "co daje kierowcy" ===== */
+.kpj-tryb{margin:2px 0 14px}
+.kpj-tryb-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;
+  padding:13px 15px;min-height:46px;text-align:left;
+  font-family:var(--t-mono);font-size:12px;font-weight:700;letter-spacing:.04em;
+  color:var(--t-gold-2);background:rgba(206,158,47,.07);
+  border:1px solid rgba(206,158,47,.4);border-radius:12px;cursor:pointer;
+  transition:border-color .15s ease,background .15s ease}
+.kpj-tryb-toggle:hover{border-color:var(--t-gold);background:rgba(206,158,47,.13)}
+.kpj-tryb-toggle:focus-visible{outline:2px solid var(--t-gold);outline-offset:2px}
+.kpj-tryb-toggle::after{content:"▾";font-size:11px}
+.kpj-tryb-toggle[aria-expanded="true"]::after{content:"▴"}
+.kpj-tryb-panel[hidden]{display:none}
+.kpj-tryb-panel{margin-top:10px;padding:14px;background:rgba(28,37,65,.5);
+  border:1px solid var(--t-line);border-radius:12px}
+.kpj-tryb-hint{margin:0 0 11px;font-size:11.5px;line-height:1.5;color:var(--t-dim)}
+.kpj-tryb-chips{display:flex;flex-wrap:wrap;gap:8px}
+.kpj-chip{position:relative;display:inline-flex}
+.kpj-chip-input{position:absolute;inset:0;opacity:0;cursor:pointer;margin:0}
+.kpj-chip-txt{display:inline-flex;align-items:center;justify-content:center;min-width:46px;min-height:38px;
+  padding:6px 12px;font-family:var(--t-mono);font-size:13px;font-weight:700;
+  color:var(--t-text);background:rgba(255,255,255,.04);
+  border:1px solid var(--t-line);border-radius:9px;transition:all .15s ease}
+.kpj-chip-input:checked + .kpj-chip-txt{color:#0b132b;background:var(--t-gold);border-color:var(--t-gold)}
+.kpj-chip-input:focus-visible + .kpj-chip-txt{outline:2px solid var(--t-gold);outline-offset:2px}
+/* pola formularza w trybie "co daje kierowcy" */
+.kpj-pole{margin-bottom:13px}
+.kpj-pole-label{display:block;margin-bottom:7px;font-family:var(--t-mono);font-size:10.5px;font-weight:700;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--t-gold-2)}
+.kpj-input{width:100%;min-height:42px;padding:10px 12px;font-family:inherit;font-size:13px;
+  color:var(--t-text);background:rgba(4,8,18,.45);border:1px solid var(--t-line);border-radius:10px}
+.kpj-input::placeholder{color:var(--t-dim)}
+.kpj-input:focus{outline:none;border-color:var(--t-gold);box-shadow:0 0 0 3px rgba(206,158,47,.15)}
+.kpj-check{display:flex;align-items:flex-start;gap:9px;min-height:38px;padding:5px 0;
+  font-size:12.5px;line-height:1.45;color:var(--t-text);cursor:pointer}
+.kpj-check input{flex:none;width:20px;height:20px;margin:1px 0 0;accent-color:#ce9e2f;cursor:pointer}
+.kpj-check input:focus-visible{outline:2px solid var(--t-gold);outline-offset:2px}
+.kpj-pole .kpj-input{margin-top:7px}
+
+/* przycisk czyszczenia formularza */
+.kpj-btn-reset{width:100%;min-height:42px;padding:9px 14px;
+  font-family:var(--t-mono);font-size:11.5px;font-weight:700;letter-spacing:.05em;
+  color:var(--t-text);background:rgba(255,255,255,.04);
+  border:1px solid var(--t-line);border-radius:10px;cursor:pointer;
+  transition:border-color .15s ease,color .15s ease}
+.kpj-btn-reset:hover{border-color:var(--t-gold);color:var(--t-gold)}
+.kpj-btn-reset:focus-visible{outline:2px solid var(--t-gold);outline-offset:2px}
+
+/* wynik */
+.kpj-tryb-wynik{margin-top:12px;font-size:12.5px;line-height:1.6;color:var(--t-text)}
+/* chipy kategorii uwzględnionych */
+.kpj-wynik-katy{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:12px}
+.kpj-kat-chip{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:30px;
+  padding:4px 10px;font-family:var(--t-mono);font-size:12.5px;font-weight:700;letter-spacing:.03em;
+  color:var(--t-gold);background:rgba(206,158,47,.12);
+  border:1px solid rgba(206,158,47,.45);border-radius:8px}
+.kpj-kat-chip--extra{color:#8fc9a0;background:rgba(120,190,140,.1);
+  border:1px dashed rgba(120,190,140,.55)}
+/* łączny zakres — nagłówki kategorii */
+.kpj-zakres-kat{display:flex;align-items:baseline;gap:8px;margin:12px 0 6px;
+  font-size:12px;line-height:1.5;color:var(--t-dim)}
+.kpj-zakres-kat:first-of-type{margin-top:8px}
+.kpj-zakres-badge{flex:none;display:inline-flex;align-items:center;justify-content:center;min-width:38px;
+  padding:2px 8px;font-family:var(--t-mono);font-size:12px;font-weight:700;
+  color:var(--t-gold);background:rgba(206,158,47,.12);
+  border:1px solid rgba(206,158,47,.45);border-radius:7px}
+.kpj-blok{padding:11px 13px;margin-bottom:12px;border-radius:10px;
+  background:rgba(214,123,111,.12);border:1px solid rgba(214,123,111,.5);border-left-width:3px}
+.kpj-blok strong{display:block;margin-bottom:4px;color:#e3a49a;font-size:12.5px}
+.kpj-blok p{margin:0;font-size:12px;line-height:1.55;color:var(--t-text)}
+.kpj-ok{color:#8fc9a0}
+.kpj-warn{color:var(--t-gold-2)}
+.kpj-bad{color:#e08a7e}
+.kpj-tryb-wynik h3{margin:0 0 6px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--t-gold-2)}
+.kpj-tryb-wynik ul{margin:0 0 12px;padding-left:18px}
+.kpj-tryb-wynik li{margin-bottom:5px}
+.kpj-tryb-pusto{color:var(--t-dim);font-style:italic}
+
+/* ===== karty kategorii ===== */
+.kpj-lista{list-style:none;margin:0;padding:0;display:grid;gap:12px;
+  grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+@media (max-width:340px){ .kpj-lista{grid-template-columns:1fr} }
+.kpj-karta{display:flex;flex-direction:column;gap:9px;padding:14px;
+  background:linear-gradient(180deg,#14203c 0%,#101a30 100%);
+  border:1px solid var(--t-line);border-radius:13px}
+.kpj-karta--uwaga{border-color:rgba(206,158,47,.45)}
+.kpj-karta-top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.kpj-badge{display:inline-flex;align-items:center;justify-content:center;min-width:52px;height:38px;padding:0 10px;
+  font-family:var(--t-mono);font-size:19px;font-weight:700;letter-spacing:.02em;
+  color:var(--t-gold);background:rgba(206,158,47,.12);
+  border:1px solid rgba(206,158,47,.45);border-radius:9px}
+.kpj-badge--lg{font-size:22px;height:44px;min-width:60px}
+.kpj-karta-ico{display:inline-flex;color:var(--t-text);opacity:.85}
+.kpj-ico{width:40px;height:40px}
+.kpj-karta-opis{margin:0;font-size:12.5px;line-height:1.5;color:var(--t-text)}
+.kpj-karta-meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
+.kpj-wiek{font-family:var(--t-mono);font-size:10.5px;font-weight:700;letter-spacing:.04em;
+  color:var(--t-text);background:rgba(255,255,255,.05);
+  border:1px solid var(--t-line);border-radius:999px;padding:3px 10px}
+.kpj-uwaga-tag{font-family:var(--t-mono);font-size:10.5px;font-weight:700;letter-spacing:.04em;
+  color:var(--t-gold-2);background:rgba(206,158,47,.12);
+  border:1px solid rgba(206,158,47,.45);border-radius:999px;padding:3px 10px}
+.kpj-szczegoly{width:100%;min-height:42px;padding:10px 12px;
+  font-family:var(--t-mono);font-size:11.5px;font-weight:700;letter-spacing:.05em;
+  color:#0b132b;background:linear-gradient(180deg,var(--t-gold-2),var(--t-gold));
+  border:none;border-radius:9px;cursor:pointer;transition:filter .15s ease,transform .1s ease}
+.kpj-szczegoly:hover{filter:brightness(1.07)}
+.kpj-szczegoly:active{transform:translateY(1px)}
+.kpj-szczegoly:focus-visible{outline:2px solid var(--t-gold);outline-offset:3px}
+
+.kpj-zrodlo{margin:18px 0 8px;font-size:10.5px;line-height:1.6;color:var(--t-dim)}
+
+/* ===== modal szczegółów ===== */
+.kpj-modal[hidden]{display:none}
+.kpj-modal{position:fixed;inset:0;z-index:70;display:flex;align-items:flex-end;justify-content:center}
+.kpj-modal-tlo{position:absolute;inset:0;background:rgba(4,8,18,.76)}
+.kpj-modal-panel{position:relative;width:100%;max-width:480px;max-height:88vh;display:flex;flex-direction:column;
+  background:linear-gradient(180deg,#14203c 0%,#0d1730 100%);
+  border:1px solid var(--t-line);border-bottom:0;border-radius:18px 18px 0 0;
+  box-shadow:0 -22px 60px rgba(0,0,0,.55);animation:kpjUp .28s cubic-bezier(.2,.7,.3,1)}
+@keyframes kpjUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+.kpj-modal-head{display:flex;align-items:center;gap:12px;padding:15px 16px 10px;border-bottom:1px solid var(--t-line)}
+.kpj-modal-tytul{flex:1;margin:0;font-size:14.5px;line-height:1.3;color:var(--t-head)}
+.kpj-modal-x{background:none;border:0;color:var(--t-dim);font-size:26px;line-height:1;cursor:pointer;padding:0 6px}
+.kpj-modal-x:hover{color:var(--t-text)}
+.kpj-modal-body{padding:14px 16px 18px;overflow-y:auto;flex:1}
+.kpj-sekcja{margin-bottom:16px}
+.kpj-sekcja h3{margin:0 0 7px;font-family:var(--t-mono);font-size:11px;font-weight:700;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--t-gold-2);
+  border-bottom:1px solid var(--t-line);padding-bottom:5px}
+.kpj-sekcja ul{margin:0;padding-left:18px}
+.kpj-sekcja li{margin-bottom:6px;font-size:12.5px;line-height:1.55;color:var(--t-text)}
+.kpj-sekcja p{margin:0;font-size:12.5px;line-height:1.55;color:var(--t-text)}
+/* pułapki kat. B */
+.kpj-trap{padding:10px 12px;margin-bottom:8px;border-radius:10px;
+  background:rgba(206,158,47,.09);border:1px solid rgba(206,158,47,.4);border-left-width:3px}
+.kpj-trap-t{display:block;font-size:12.5px;font-weight:700;color:var(--t-gold-2);margin-bottom:3px}
+.kpj-trap-d{display:block;font-size:12px;line-height:1.55;color:var(--t-text)}
+.kpj-trap-p{display:block;margin-top:5px;font-family:var(--t-mono);font-size:10.5px;color:var(--t-dim)}
+/* podstawa prawna + przepis */
+.kpj-podstawa{font-family:var(--t-mono);font-size:11.5px;line-height:1.6;color:var(--t-text)}
+.kpj-przepis-btn{margin-top:9px;display:inline-flex;align-items:center;gap:6px;min-height:38px;
+  padding:8px 14px;font-family:var(--t-mono);font-size:11.5px;font-weight:700;letter-spacing:.04em;
+  color:var(--t-gold-2);background:none;border:1px solid var(--t-line);border-radius:999px;cursor:pointer}
+.kpj-przepis-btn:hover{border-color:var(--t-gold);color:var(--t-gold)}
+.kpj-przepis-btn:focus-visible{outline:2px solid var(--t-gold);outline-offset:2px}
+.kpj-przepis-btn::after{content:"▾";font-size:10px}
+.kpj-przepis-btn[aria-expanded="true"]::after{content:"▴"}
+.kpj-przepis[hidden]{display:none}
+.kpj-przepis{margin-top:9px;padding:11px 13px;font-size:12px;line-height:1.65;color:var(--t-text);
+  background:rgba(4,8,18,.4);border:1px solid var(--t-line);border-radius:10px}
+.kpj-modal-stopka{padding:10px 16px 16px;border-top:1px solid var(--t-line)}
+.kpj-btn-zamknij{width:100%;min-height:46px;font-family:var(--t-mono);font-size:12.5px;font-weight:700;
+  letter-spacing:.05em;color:var(--t-text);background:rgba(255,255,255,.04);
+  border:1px solid var(--t-line);border-radius:11px;cursor:pointer}
+.kpj-btn-zamknij:hover{border-color:var(--t-gold);color:var(--t-gold)}
+.kpj-btn-zamknij:focus-visible{outline:2px solid var(--t-gold);outline-offset:2px}
+
+/* UTO — nazwa urządzenia na karcie (bez definicji, ta jest w szczegółach) */
+.uto-nazwa{margin:0 0 auto;font-size:14px;font-weight:700;line-height:1.35;color:var(--t-gold-2)}

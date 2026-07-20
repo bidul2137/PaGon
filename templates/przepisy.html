@@ -52,7 +52,9 @@
     {% if widok == "kafelki" %}
       <div class="prz-tiles" id="prz-tiles">
         {% for kat in kategorie %}
-          <a href="{{ url_for('przepisy', kategoria=kat.slug) }}" class="prz-tile"
+          {% set bezposredni_pdf = kat.pdf and not (liczniki and liczniki.get(kat.slug)) %}
+          <a href="{% if bezposredni_pdf %}{{ kat.pdf }}{% else %}{{ url_for('przepisy', kategoria=kat.slug) }}{% endif %}" class="prz-tile"
+             {% if bezposredni_pdf %}target="_blank" rel="noopener noreferrer"{% endif %}
              data-slug="{{ kat.slug }}" data-title="{{ kat.nazwa }}" data-abbr="{{ kat.ikona }}"
              data-pakiet="{{ kat.pakiet }}"{% if kat.pakiet == 'dodatkowa' %} hidden{% endif %}>
             <button type="button" class="prz-star" data-slug="{{ kat.slug }}"
@@ -72,6 +74,7 @@
           </a>
         {% endfor %}
       </div>
+      <p class="prz-brak" id="prz-tiles-brak" hidden>Brak dokumentów pasujących do wyszukiwania.</p>
 
     {% else %}
       {# widok == "rekordy" lub "wyszukiwanie" #}
@@ -113,8 +116,11 @@
             </li>
           {% endfor %}
         </ul>
+      {% elif widok == "wyszukiwanie" %}
+        <p class="prz-brak">Brak wyników. Baza treści przepisów do wyszukiwania jest w przygotowaniu —
+          skorzystaj z dokumentów PDF dostępnych na kafelkach kategorii.</p>
       {% elif not (widok == "rekordy" and kategoria and kategoria.pdf) %}
-        <p class="prz-brak">Brak rekordów spełniających kryteria.</p>
+        <p class="prz-brak">Treść tej kategorii jest w przygotowaniu.</p>
       {% endif %}
     {% endif %}
 

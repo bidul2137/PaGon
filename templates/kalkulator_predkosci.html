@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Kalkulator prędkości{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/kalkulator.css') }}">
+
+<div class="tar-page kpj-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Kalkulator prędkości</h1>
+      <p class="kpj-lead">Przekroczenie, mandat, punkty oraz ocena obligatoryjnego zatrzymania prawa jazdy (mechanizm +50 km/h, stan prawny od 3.03.2026).</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+
+    <div class="kpj-pole">
+      <label class="kpj-pole-label" for="kal-limit">Dopuszczalna prędkość [km/h]</label>
+      <input type="number" id="kal-limit" class="kpj-input kal-input" min="1" max="200" step="1"
+             inputmode="numeric" placeholder="np. 50" autocomplete="off">
+      <p class="kal-blad" id="kal-limit-blad" hidden>Podaj liczbę dodatnią.</p>
+    </div>
+
+    <div class="kpj-pole">
+      <label class="kpj-pole-label" for="kal-predkosc">Rzeczywista prędkość [km/h]</label>
+      <input type="number" id="kal-predkosc" class="kpj-input kal-input" min="1" max="400" step="1"
+             inputmode="numeric" placeholder="np. 101" autocomplete="off">
+      <p class="kal-blad" id="kal-predkosc-blad" hidden>Podaj liczbę dodatnią.</p>
+    </div>
+
+    <div class="kpj-pole">
+      <label class="kpj-pole-label" for="kal-miejsce">Miejsce zdarzenia</label>
+      <select id="kal-miejsce" class="kpj-input kal-select">
+        <option value="unknown">Nie wiem / inne</option>
+        <option value="built_up_area">Obszar zabudowany</option>
+        <option value="single_carriageway_two_way_outside_built_up">Poza obszarem zabudowanym — droga jednojezdniowa dwukierunkowa</option>
+        <option value="dual_carriageway_outside_built_up">Poza obszarem zabudowanym — droga dwujezdniowa</option>
+        <option value="motorway">Autostrada</option>
+        <option value="expressway">Droga ekspresowa</option>
+      </select>
+    </div>
+
+    <div class="kpj-pole">
+      <label class="kpj-pole-label" for="kal-dokument">Rodzaj prawa jazdy</label>
+      <select id="kal-dokument" class="kpj-input kal-select">
+        <option value="unknown">Nie wiem</option>
+        <option value="domestic">Polskie</option>
+        <option value="foreign">Zagraniczne</option>
+      </select>
+    </div>
+
+    <button type="button" class="kpj-szczegoly kal-oblicz" id="kal-oblicz">Oblicz konsekwencje</button>
+
+    <div class="kal-wynik" id="kal-wynik" aria-live="polite"></div>
+
+    <details class="kal-podstawy" id="kal-podstawy">
+      <summary>Podstawa prawna</summary>
+      <div class="kal-przepis">
+        <p class="kal-przepis-head">Art. 92a KW — niestosowanie się do ograniczenia prędkości</p>
+        {% if podstawy.art92a %}<p class="kal-przepis-body" id="kal-tekst-92a">{{ podstawy.art92a }}</p>{% endif %}
+      </div>
+      <div class="kal-przepis">
+        <p class="kal-przepis-head">Art. 135 ust. 1 pkt 2 lit. a PRD — zatrzymanie prawa jazdy przez Policję (brzmienie od 3.03.2026)</p>
+        {% if podstawy.art135 %}<p class="kal-przepis-body" id="kal-tekst-135">{{ podstawy.art135 }}</p>{% endif %}
+      </div>
+      {% if podstawy.art135a %}
+      <div class="kal-przepis">
+        <p class="kal-przepis-head">Art. 135a ust. 1 pkt 2 lit. a PRD — zatrzymanie zagranicznego prawa jazdy (brzmienie od 3.03.2026)</p>
+        <p class="kal-przepis-body" id="kal-tekst-135a">{{ podstawy.art135a }}</p>
+      </div>
+      {% endif %}
+      <div class="kal-przepis">
+        <p class="kal-przepis-head">Art. 102 ust. 1 pkt 4 ustawy z dnia 5 stycznia 2011 r. o kierujących pojazdami — decyzja starosty o zatrzymaniu prawa jazdy na 3 miesiące</p>
+        <p class="kal-przepis-body kal-przepis-body--dim">Pełna treść przepisu poza lokalną bazą aktów prawnych aplikacji.</p>
+      </div>
+    </details>
+
+    <p class="kpj-zrodlo">Przy przekroczeniu indywidualnie określonej prędkości dla danego pojazdu (art. 21 ust. 4 PRD)
+      mandat jak przy zwykłym przekroczeniu — art. 92a KW w zw. z art. 21 ust. 4 PRD, kody E 01–E 10, bez punktów.</p>
+    <p class="kpj-zrodlo">Kalkulator ma charakter informacyjny. Ostateczna ocena miejsca zdarzenia, rodzaju drogi
+      i zastosowania przepisów należy do uprawnionego organu.</p>
+  </main>
+
+</div>
+
+<script id="kal-dane" type="application/json">{{ przedzialy|tojson }}</script>
+<script src="{{ url_for('static', filename='js/kalkulator.js') }}" defer></script>
+{% endblock %}
