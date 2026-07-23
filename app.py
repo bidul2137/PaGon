@@ -5,9 +5,26 @@ import urllib.request
 from datetime import datetime
 from pathlib import Path
 
-from flask import Flask, render_template, request, jsonify, Response, redirect, abort
+from flask import Flask, render_template, request, jsonify, Response, redirect, abort, url_for
 
 app = Flask(__name__)
+
+# W trybie dev nie cache'ujemy plikow statycznych, a do URL-i CSS/JS doklejamy
+# znacznik czasu modyfikacji (static_v) -- dzieki temu po kazdej zmianie przegladarka
+# (takze na telefonie) pobiera swieza wersje, bez recznego czyszczenia cache.
+app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 0
+
+
+@app.context_processor
+def _inject_static_v():
+    def static_v(filename):
+        try:
+            wersja = int((Path(app.static_folder) / filename).stat().st_mtime)
+        except OSError:
+            wersja = 0
+        return url_for("static", filename=filename, v=wersja)
+
+    return {"static_v": static_v}
 
 BASE_DIR = Path(__file__).resolve().parent
 PRZEPISY_JSON = BASE_DIR / "data" / "przepisy.json"
