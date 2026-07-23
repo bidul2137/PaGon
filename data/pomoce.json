@@ -110,52 +110,66 @@
    "url": "/pomoce/przelicznik-mgl-promile"
   },
   {
+   "slug": "spb",
+   "nazwa": "Wszystko o ŚPB",
+   "ikona": "spb",
+   "url": "/pomoce/spb"
+  },
+  {
    "slug": "spb-wykorzystanie-broni-palnej",
-   "nazwa": "ŚPB — Przypadki wykorzystania broni palnej",
+   "nazwa": "Przypadki wykorzystania broni palnej",
    "ikona": "spb-wykorzystanie-broni-palnej",
-   "url": null
+   "url": null,
+   "grupa": "spb"
   },
   {
    "slug": "spb-uzycie-broni-palnej",
-   "nazwa": "ŚPB — Przypadki użycia broni palnej",
+   "nazwa": "Przypadki użycia broni palnej",
    "ikona": "spb-uzycie-broni-palnej",
-   "url": null
+   "url": null,
+   "grupa": "spb"
   },
   {
    "slug": "spb-skutkowe-uprawniony",
-   "nazwa": "ŚPB — Skutkowe użycie: uprawniony",
+   "nazwa": "Skutkowe użycie przez uprawnionego",
    "ikona": "spb-skutkowe-uprawniony",
-   "url": null
+   "url": null,
+   "grupa": "spb"
   },
   {
    "slug": "spb-skutkowe-przelozony",
-   "nazwa": "ŚPB — Skutkowe użycie: przełożony",
+   "nazwa": "Skutkowe użycie — co zrobić jako przełożony",
    "ikona": "spb-skutkowe-przelozony",
-   "url": null
+   "url": null,
+   "grupa": "spb"
   },
   {
    "slug": "spb-pomoc-po-uzyciu-broni",
-   "nazwa": "ŚPB — Pomoc po użyciu broni palnej",
+   "nazwa": "Pomoc po użyciu broni palnej",
    "ikona": "spb-pomoc-po-uzyciu-broni",
-   "url": null
+   "url": null,
+   "grupa": "spb"
   },
   {
    "slug": "pomoc-po-uzyciu-spb",
    "nazwa": "Pomoc po użyciu ŚPB",
    "ikona": "pomoc-po-uzyciu-spb",
-   "url": null
+   "url": null,
+   "grupa": "spb"
   },
   {
    "slug": "spb-procedura-przed-uzyciem-broni",
-   "nazwa": "ŚPB — Procedura przed użyciem broni palnej",
+   "nazwa": "Procedura przed użyciem broni palnej",
    "ikona": "spb-procedura-przed-uzyciem-broni",
-   "url": null
+   "url": null,
+   "grupa": "spb"
   },
   {
    "slug": "przypadki-uzycia-spb",
    "nazwa": "Przypadki użycia ŚPB",
    "ikona": "przypadki-uzycia-spb",
-   "url": null
+   "url": "/pomoce/spb-srodki",
+   "grupa": "spb"
   }
  ],
  "linki": [
@@ -1876,6 +1890,588 @@
     "limit punktów",
     "ewidencja",
     "komunikat"
+   ]
+  },
+  {
+   "category": "spb-wykorzystanie-broni-palnej",
+   "list_intro": "Broń palną można wykorzystać w przypadku konieczności podjęcia co najmniej jednego z następujących działań:",
+   "list_items": [
+    {
+     "text": "Zatrzymanie pojazdu, jeżeli jego działanie zagraża życiu lub zdrowiu uprawnionego lub innej osoby lub stwarza zagrożenie dla ważnych obiektów, urządzeń lub obszarów."
+    },
+    {
+     "text": "Pokonanie przeszkody:",
+     "sub": [
+      "uniemożliwiającej lub utrudniającej ujęcie osoby albo ratowanie życia lub zdrowia uprawnionego, innej osoby lub ratowanie mienia,",
+      "w przypadku naruszenia porządku lub bezpieczeństwa publicznego przez osobę pozbawioną wolności, zatrzymaną lub umieszczoną w strzeżonym ośrodku albo areszcie dla cudzoziemców."
+     ]
+    },
+    {
+     "text": "Zaalarmowanie lub wezwanie pomocy."
+    },
+    {
+     "text": "Neutralizacja przedmiotów lub urządzeń mogących stwarzać niebezpieczeństwo wybuchu, powodujących jednocześnie bezpośrednie zagrożenie zdrowia lub życia uprawnionego lub innej osoby."
+    },
+    {
+     "text": "Unieszkodliwienie zwierzęcia, którego zachowanie zagraża bezpośrednio życiu lub zdrowiu uprawnionego lub innej osoby."
+    },
+    {
+     "text": "Oddanie strzału ostrzegawczego."
+    },
+    {
+     "text": "Zniszczenie lub unieruchomienie bezzałogowego statku powietrznego, w przypadkach określonych w ustawie z dnia 3 lipca 2002 r. – Prawo lotnicze."
+    },
+    {
+     "text": "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego w przypadkach, o których mowa w art. 11 pkt 17."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 47).",
+   "keywords": [
+    "wykorzystanie broni palnej",
+    "broń palna",
+    "strzał ostrzegawczy",
+    "zatrzymanie pojazdu",
+    "przeszkoda",
+    "dron",
+    "bezzałogowy statek powietrzny",
+    "obiekt lądowy",
+    "zwierzę",
+    "wezwanie pomocy",
+    "neutralizacja"
+   ]
+  },
+  {
+   "category": "spb-uzycie-broni-palnej",
+   "list_intro": "Broni palnej można użyć, gdy zaistnieje co najmniej jeden z następujących przypadków:",
+   "list_items": [
+    {
+     "text": "Konieczność odparcia bezpośredniego, bezprawnego zamachu na:",
+     "sub": [
+      {
+       "text": "życie, zdrowie lub wolność uprawnionego lub innej osoby albo konieczność przeciwdziałania czynnościom zmierzającym bezpośrednio do takiego zamachu,"
+      },
+      {
+       "text": "ważne obiekty, urządzenia lub obszary albo konieczność przeciwdziałania czynnościom zmierzającym bezpośrednio do takiego zamachu,"
+      },
+      {
+       "text": "mienie, który stwarza jednocześnie bezpośrednie zagrożenie życia, zdrowia lub wolności uprawnionego lub innej osoby, albo konieczność przeciwdziałania czynnościom zmierzającym bezpośrednio do takiego zamachu,"
+      },
+      {
+       "text": "nienaruszalność granicy państwowej przez osobę, która wymusza przekroczenie granicy państwowej przy użyciu pojazdu, broni palnej lub innego niebezpiecznego przedmiotu albo działa w inny sposób bezpośrednio zagrażający życiu, zdrowiu lub wolności uprawnionego lub innej osoby lub wspólnie z inną osobą, która posługuje się taką bronią, przedmiotem lub sposobem,"
+      },
+      {
+       "text": "bezpieczeństwo konwoju lub doprowadzenia;"
+      }
+     ]
+    },
+    {
+     "text": "Konieczność przeciwstawienia się osobie:",
+     "sub": [
+      {
+       "text": "niepodporządkowującej się wezwaniu do natychmiastowego porzucenia broni, materiału wybuchowego lub innego niebezpiecznego przedmiotu, którego użycie może zagrozić życiu, zdrowiu lub wolności uprawnionego lub innej osoby,"
+      },
+      {
+       "text": "która usiłuje bezprawnie odebrać broń palną uprawnionemu lub innej osobie uprawnionej do jej posiadania;"
+      }
+     ]
+    },
+    {
+     "text": "Bezpośredni pościg za osobą, wobec której:",
+     "sub": [
+      {
+       "text": "użycie broni palnej było dopuszczalne w przypadkach określonych w pkt 1 lit. a–d i pkt 2,"
+      },
+      {
+       "text": "istnieje uzasadnione podejrzenie, że popełniła przestępstwo, o którym mowa w art. 115 § 20, art. 148, art. 156 § 1, art. 163–165, art. 197, art. 252 i art. 280–282 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny;"
+      }
+     ]
+    },
+    {
+     "text": "Konieczność:",
+     "sub": [
+      {
+       "text": "ujęcia osoby:",
+       "tir": [
+        "wobec której użycie broni palnej było dopuszczalne w przypadkach określonych w pkt 1 lit. a–d i pkt 2,",
+        "wobec której istnieje uzasadnione podejrzenie, że popełniła przestępstwo, o którym mowa w art. 115 § 20, art. 148, art. 156 § 1, art. 163–165, art. 197, art. 252 i art. 280–282 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny,",
+        "dokonującej zamachu, o którym mowa w pkt 1 lit. d lub e,",
+        "jeżeli schroniła się w miejscu trudno dostępnym, a z okoliczności zdarzenia wynika, że może użyć broni palnej lub innego niebezpiecznego przedmiotu,"
+       ]
+      },
+      {
+       "text": "ujęcia lub udaremnienia ucieczki osoby zatrzymanej, tymczasowo aresztowanej lub odbywającej karę pozbawienia wolności lub osoby, wobec której zarządzono zatrzymanie i doprowadzenie celem odbycia kary pozbawienia wolności, jeżeli:",
+       "tir": [
+        "ucieczka tej osoby stwarza zagrożenie życia lub zdrowia uprawnionego lub innej osoby,",
+        "istnieje uzasadnione podejrzenie, że osoba ta może użyć materiałów wybuchowych, broni palnej lub innego niebezpiecznego przedmiotu,",
+        "pozbawienie wolności nastąpiło lub ma nastąpić w związku z uzasadnionym podejrzeniem lub stwierdzeniem popełnienia przestępstwa, o którym mowa w art. 115 § 20, art. 148, art. 156 § 1, art. 163–165, art. 197, art. 252 i art. 280–282 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny,"
+       ]
+      },
+      {
+       "text": "ujęcia lub udaremnienia ucieczki osoby zatrzymanej, tymczasowo aresztowanej lub odbywającej karę pozbawienia wolności w związku z uzasadnionym podejrzeniem lub stwierdzeniem popełnienia lub przygotowania do popełnienia przestępstwa, o którym mowa w:",
+       "tir": [
+        "art. 5 ust. 1 pkt 2 ustawy z dnia 24 maja 2002 r. o Agencji Bezpieczeństwa Wewnętrznego oraz Agencji Wywiadu,",
+        "art. 2 ust. 1 pkt 1 ustawy z dnia 9 czerwca 2006 r. o Centralnym Biurze Antykorupcyjnym,",
+        "art. 5 ust. 1 pkt 1 ustawy z dnia 9 czerwca 2006 r. o Służbie Kontrwywiadu Wojskowego oraz Służbie Wywiadu Wojskowego;"
+       ]
+      }
+     ]
+    },
+    {
+     "text": "Konieczność udaremnienia ucieczki osoby pozbawionej wolności z aresztu śledczego lub zakładu karnego oraz osoby konwojowanej lub doprowadzanej, a także pościg za tą osobą."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 45).",
+   "keywords": [
+    "użycie broni palnej",
+    "warunki użycia",
+    "zamach",
+    "bezprawny zamach",
+    "pościg",
+    "ujęcie",
+    "ucieczka",
+    "konwój",
+    "doprowadzenie",
+    "granica państwowa",
+    "zatrzymany",
+    "aresztowany",
+    "odparcie"
+   ]
+  },
+  {
+   "category": "spb-skutkowe-uprawniony",
+   "list_intro": "Art. 37 ust. 1. Gdy w wyniku użycia lub wykorzystania środków przymusu bezpośredniego nastąpiło zranienie osoby lub wystąpiły inne widoczne objawy zagrożenia życia lub zdrowia tej osoby albo nastąpiła jej śmierć, zranienie albo śmierć zwierzęcia albo zniszczenie mienia — uprawniony:",
+   "list_items": [
+    {
+     "text": "Zabezpiecza miejsce zdarzenia, także przed dostępem osób postronnych."
+    },
+    {
+     "text": "Ustala świadków zdarzenia."
+    },
+    {
+     "text": "Powiadamia o zdarzeniu właściwego przełożonego lub osobę pełniącą służbę dyżurną."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 37 ust. 1).",
+   "keywords": [
+    "skutkowe użycie",
+    "zabezpieczenie miejsca zdarzenia",
+    "świadkowie",
+    "powiadomienie przełożonego",
+    "służba dyżurna",
+    "zranienie",
+    "śmierć",
+    "zniszczenie mienia"
+   ]
+  },
+  {
+   "category": "spb-skutkowe-uprawniony",
+   "list_intro": "Art. 37 ust. 2. Przepisów ust. 1 pkt 1 i 2 (zabezpieczenie miejsca i ustalenie świadków):",
+   "list_items": [
+    {
+     "text": "nie stosuje się w przypadku zniszczenia mienia na terenie jednostki organizacyjnej Służby Więziennej;"
+    },
+    {
+     "text": "można nie stosować, w przypadku gdy:",
+     "sub": [
+      {
+       "text": "zagroziłoby to życiu, zdrowiu lub bezpieczeństwu uprawnionego lub innej osoby,"
+      },
+      {
+       "text": "spowodowałoby to konieczność zaniechania przez uprawnionego czynności ochronnych wobec osób, ważnych obiektów, urządzeń lub obszarów lub w ramach konwoju lub doprowadzenia — do czasu ustania tego zagrożenia lub tej konieczności."
+      }
+     ]
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 37 ust. 2).",
+   "keywords": [
+    "wyjątki",
+    "Służba Więzienna",
+    "zniszczenie mienia",
+    "czynności ochronne",
+    "konwój",
+    "doprowadzenie"
+   ]
+  },
+  {
+   "category": "spb-skutkowe-uprawniony",
+   "list_intro": "Art. 49. Postępowanie po użyciu lub wykorzystaniu broni palnej:",
+   "list_items": [
+    {
+     "text": "Stosuje się odpowiednio przepisy art. 36 ust. 1–4, art. 37 ust. 1 i 2 pkt 2, art. 38 oraz art. 39 (ust. 1)."
+    },
+    {
+     "text": "Uprawniony, o którym mowa w art. 2 ust. 1 pkt 20, może odstąpić od udzielenia pierwszej pomocy, jeżeli (ust. 2):",
+     "sub": [
+      {
+       "text": "udzielenie tej pomocy może zagrozić życiu, zdrowiu lub bezpieczeństwu uprawnionego lub innej osoby;"
+      },
+      {
+       "text": "udzielenie pomocy osobie poszkodowanej zostało zapewnione przez inne osoby lub podmioty zobowiązane do jej udzielenia."
+      }
+     ]
+    },
+    {
+     "text": "W przypadku odstąpienia od udzielenia pierwszej pomocy lub gdy osoba poszkodowana sprzeciwia się jej udzieleniu — uprawniony zapewnia wezwanie kwalifikowanej pierwszej pomocy lub podmiotów świadczących medyczne czynności ratunkowe (ust. 3)."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 49).",
+   "keywords": [
+    "po użyciu broni palnej",
+    "pierwsza pomoc",
+    "odstąpienie od pierwszej pomocy",
+    "kwalifikowana pierwsza pomoc",
+    "medyczne czynności ratunkowe",
+    "poszkodowany"
+   ]
+  },
+  {
+   "category": "spb-skutkowe-przelozony",
+   "list_intro": "Art. 39 ust. 1. Gdy w wyniku użycia lub wykorzystania środków przymusu bezpośredniego wystąpiły objawy uzasadniające konieczność udzielenia kwalifikowanej pierwszej pomocy lub medycznych czynności ratunkowych, albo nastąpiła śmierć osoby, lub wyrządzona została szkoda w mieniu znacznej wartości — właściwy przełożony lub osoba pełniąca służbę dyżurną niezwłocznie:",
+   "list_items": [
+    {
+     "text": "Zapewnia w razie potrzeby wezwanie kwalifikowanej pierwszej pomocy lub podmiotów świadczących medyczne czynności ratunkowe osobom poszkodowanym."
+    },
+    {
+     "text": "Zapewnia zabezpieczenie śladów i dowodów użycia lub wykorzystania środków przymusu bezpośredniego."
+    },
+    {
+     "text": "Informuje o zdarzeniu właściwą miejscowo jednostkę organizacyjną Policji, a gdy środków przymusu bezpośredniego użył uprawniony będący żołnierzem — właściwą miejscowo jednostkę organizacyjną Żandarmerii Wojskowej."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 39 ust. 1).",
+   "keywords": [
+    "przełożony",
+    "służba dyżurna",
+    "kwalifikowana pierwsza pomoc",
+    "zabezpieczenie śladów",
+    "dowody",
+    "Policja",
+    "Żandarmeria Wojskowa",
+    "szkoda w mieniu znacznej wartości",
+    "śmierć"
+   ]
+  },
+  {
+   "category": "spb-skutkowe-przelozony",
+   "list_intro": "Art. 39 ust. 2. Powiadomienie prokuratora:",
+   "list_items": [
+    {
+     "text": "Przełożony uprawnionego, o którym mowa w art. 2 ust. 1 pkt 1, 5, 9, 14 albo 19, lub osoba pełniąca służbę dyżurną powiadamia o zdarzeniu, o którym mowa w ust. 1, właściwego miejscowo prokuratora."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 39 ust. 2).",
+   "keywords": [
+    "prokurator",
+    "powiadomienie prokuratora",
+    "przełożony"
+   ]
+  },
+  {
+   "category": "spb-skutkowe-przelozony",
+   "list_intro": "Art. 39 ust. 3. Niezależnie od obowiązków z ust. 1, przełożony:",
+   "list_items": [
+    {
+     "text": "Ustala, czy użycie lub wykorzystanie środków przymusu bezpośredniego nastąpiło zgodnie z prawem."
+    },
+    {
+     "text": "Niezwłocznie powiadamia właściwego przełożonego."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 39 ust. 3).",
+   "keywords": [
+    "zgodność z prawem",
+    "ocena użycia",
+    "powiadomienie przełożonego",
+    "przełożony"
+   ]
+  },
+  {
+   "category": "spb-skutkowe-przelozony",
+   "list_intro": "Art. 49 ust. 1. Postępowanie po użyciu lub wykorzystaniu broni palnej:",
+   "list_items": [
+    {
+     "text": "Stosuje się odpowiednio przepisy art. 36 ust. 1–4, art. 37 ust. 1 i 2 pkt 2, art. 38 oraz art. 39."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 49 ust. 1).",
+   "keywords": [
+    "broń palna",
+    "po użyciu broni palnej",
+    "odesłanie",
+    "art. 39",
+    "art. 38"
+   ]
+  },
+  {
+   "category": "spb-pomoc-po-uzyciu-broni",
+   "list_intro": "Art. 36 ust. 1. Obowiązek udzielenia pierwszej pomocy:",
+   "list_items": [
+    {
+     "text": "Gdy w wyniku użycia lub wykorzystania środków przymusu bezpośredniego nastąpiło zranienie osoby lub wystąpiły inne widoczne objawy zagrożenia życia lub zdrowia tej osoby — uprawniony udziela jej niezwłocznie pierwszej pomocy, a w razie potrzeby zapewnia wezwanie kwalifikowanej pierwszej pomocy lub podmiotów świadczących medyczne czynności ratunkowe."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 36 ust. 1).",
+   "keywords": [
+    "pierwsza pomoc",
+    "po użyciu",
+    "zranienie",
+    "kwalifikowana pierwsza pomoc",
+    "medyczne czynności ratunkowe"
+   ]
+  },
+  {
+   "category": "spb-pomoc-po-uzyciu-broni",
+   "list_intro": "Art. 36 ust. 2. Uprawniony może odstąpić od udzielenia pierwszej pomocy, gdy zachodzi jedna z okoliczności:",
+   "list_items": [
+    {
+     "text": "udzielenie tej pomocy może zagrozić życiu, zdrowiu lub bezpieczeństwu uprawnionego lub innej osoby;"
+    },
+    {
+     "text": "udzielenie tej pomocy spowodowałoby konieczność zaniechania przez uprawnionego czynności ochronnych wobec osób, ważnych obiektów, urządzeń lub obszarów lub w ramach konwoju lub doprowadzenia;"
+    },
+    {
+     "text": "udzielenie pomocy osobie poszkodowanej zostało zapewnione przez inne osoby lub podmioty zobowiązane do jej udzielenia."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 36 ust. 2).",
+   "keywords": [
+    "odstąpienie od pierwszej pomocy",
+    "wyjątki",
+    "czynności ochronne",
+    "konwój",
+    "doprowadzenie",
+    "poszkodowany"
+   ]
+  },
+  {
+   "category": "spb-pomoc-po-uzyciu-broni",
+   "list_intro": "Art. 36 ust. 3. Wezwanie pomocy mimo odstąpienia:",
+   "list_items": [
+    {
+     "text": "W przypadku odstąpienia od udzielenia pierwszej pomocy lub gdy osoba poszkodowana sprzeciwia się jej udzieleniu — uprawniony zapewnia wezwanie kwalifikowanej pierwszej pomocy lub podmiotów świadczących medyczne czynności ratunkowe."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 36 ust. 3).",
+   "keywords": [
+    "sprzeciw poszkodowanego",
+    "wezwanie pomocy",
+    "kwalifikowana pierwsza pomoc",
+    "medyczne czynności ratunkowe"
+   ]
+  },
+  {
+   "category": "spb-pomoc-po-uzyciu-broni",
+   "list_intro": "Art. 36 ust. 4. Kobieta ciężarna:",
+   "list_items": [
+    {
+     "text": "Uprawniony nie może odstąpić od zapewnienia udzielenia medycznych czynności ratunkowych kobiecie ciężarnej, wobec której użyto środków przymusu bezpośredniego."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 36 ust. 4).",
+   "keywords": [
+    "kobieta ciężarna",
+    "zakaz odstąpienia",
+    "medyczne czynności ratunkowe"
+   ]
+  },
+  {
+   "category": "spb-pomoc-po-uzyciu-broni",
+   "list_intro": "Art. 49. Postępowanie po użyciu lub wykorzystaniu broni palnej:",
+   "list_items": [
+    {
+     "text": "Stosuje się odpowiednio przepisy art. 36 ust. 1–4, art. 37 ust. 1 i 2 pkt 2, art. 38 oraz art. 39 (ust. 1)."
+    },
+    {
+     "text": "Uprawniony, o którym mowa w art. 2 ust. 1 pkt 20, może odstąpić od udzielenia pierwszej pomocy, jeżeli (ust. 2):",
+     "sub": [
+      {
+       "text": "udzielenie tej pomocy może zagrozić życiu, zdrowiu lub bezpieczeństwu uprawnionego lub innej osoby;"
+      },
+      {
+       "text": "udzielenie pomocy osobie poszkodowanej zostało zapewnione przez inne osoby lub podmioty zobowiązane do jej udzielenia."
+      }
+     ]
+    },
+    {
+     "text": "W przypadku odstąpienia od udzielenia pierwszej pomocy lub gdy osoba poszkodowana sprzeciwia się jej udzieleniu — uprawniony zapewnia wezwanie kwalifikowanej pierwszej pomocy lub podmiotów świadczących medyczne czynności ratunkowe (ust. 3)."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 49).",
+   "keywords": [
+    "broń palna",
+    "po użyciu broni palnej",
+    "pierwsza pomoc",
+    "odstąpienie",
+    "kwalifikowana pierwsza pomoc"
+   ]
+  },
+  {
+   "category": "pomoc-po-uzyciu-spb",
+   "list_intro": "Art. 36 ust. 1. Obowiązek udzielenia pierwszej pomocy:",
+   "list_items": [
+    {
+     "text": "Gdy w wyniku użycia lub wykorzystania środków przymusu bezpośredniego nastąpiło zranienie osoby lub wystąpiły inne widoczne objawy zagrożenia życia lub zdrowia tej osoby — uprawniony udziela jej niezwłocznie pierwszej pomocy, a w razie potrzeby zapewnia wezwanie kwalifikowanej pierwszej pomocy lub podmiotów świadczących medyczne czynności ratunkowe."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 36 ust. 1).",
+   "keywords": [
+    "pierwsza pomoc",
+    "po użyciu ŚPB",
+    "zranienie",
+    "kwalifikowana pierwsza pomoc",
+    "medyczne czynności ratunkowe"
+   ]
+  },
+  {
+   "category": "pomoc-po-uzyciu-spb",
+   "list_intro": "Art. 36 ust. 2. Uprawniony może odstąpić od udzielenia pierwszej pomocy, gdy zachodzi jedna z okoliczności:",
+   "list_items": [
+    {
+     "text": "udzielenie tej pomocy może zagrozić życiu, zdrowiu lub bezpieczeństwu uprawnionego lub innej osoby;"
+    },
+    {
+     "text": "udzielenie tej pomocy spowodowałoby konieczność zaniechania przez uprawnionego czynności ochronnych wobec osób, ważnych obiektów, urządzeń lub obszarów lub w ramach konwoju lub doprowadzenia;"
+    },
+    {
+     "text": "udzielenie pomocy osobie poszkodowanej zostało zapewnione przez inne osoby lub podmioty zobowiązane do jej udzielenia."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 36 ust. 2).",
+   "keywords": [
+    "odstąpienie od pierwszej pomocy",
+    "wyjątki",
+    "czynności ochronne",
+    "konwój",
+    "doprowadzenie"
+   ]
+  },
+  {
+   "category": "pomoc-po-uzyciu-spb",
+   "list_intro": "Art. 36 ust. 3. Wezwanie pomocy mimo odstąpienia:",
+   "list_items": [
+    {
+     "text": "W przypadku odstąpienia od udzielenia pierwszej pomocy lub gdy osoba poszkodowana sprzeciwia się jej udzieleniu — uprawniony zapewnia wezwanie kwalifikowanej pierwszej pomocy lub podmiotów świadczących medyczne czynności ratunkowe."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 36 ust. 3).",
+   "keywords": [
+    "sprzeciw poszkodowanego",
+    "wezwanie pomocy",
+    "kwalifikowana pierwsza pomoc"
+   ]
+  },
+  {
+   "category": "pomoc-po-uzyciu-spb",
+   "list_intro": "Art. 36 ust. 4. Kobieta ciężarna:",
+   "list_items": [
+    {
+     "text": "Uprawniony nie może odstąpić od zapewnienia udzielenia medycznych czynności ratunkowych kobiecie ciężarnej, wobec której użyto środków przymusu bezpośredniego."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 36 ust. 4).",
+   "keywords": [
+    "kobieta ciężarna",
+    "zakaz odstąpienia",
+    "medyczne czynności ratunkowe"
+   ]
+  },
+  {
+   "category": "pomoc-po-uzyciu-spb",
+   "list_intro": "Art. 36 ust. 5. Szczególni uprawnieni:",
+   "list_items": [
+    {
+     "text": "W przypadku, o którym mowa w ust. 1, uprawniony, o którym mowa w art. 2 ust. 1 pkt 20 albo ust. 2 pkt 1, nie może odstąpić od udzielenia pierwszej pomocy — chyba że zachodzi jedna z okoliczności, o których mowa w ust. 2 pkt 1 lub 3."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 36 ust. 5).",
+   "keywords": [
+    "szczególni uprawnieni",
+    "zakaz odstąpienia",
+    "pierwsza pomoc",
+    "art. 2 ust. 1 pkt 20"
+   ]
+  },
+  {
+   "category": "spb-procedura-przed-uzyciem-broni",
+   "list_intro": "Art. 48 ust. 1. Przed użyciem broni palnej uprawniony podejmuje następujące działania:",
+   "list_items": [
+    {
+     "text": "Identyfikuje swoją formację albo służbę okrzykiem przez wskazanie jej pełnej nazwy lub ustawowego skrótu, a uprawniony, o którym mowa w art. 2 ust. 1 pkt 20 — okrzykiem: „Ochrona!”."
+    },
+    {
+     "text": "Wzywa osobę do zachowania zgodnego z prawem, a w szczególności do:",
+     "sub": [
+      {
+       "text": "natychmiastowego porzucenia broni lub innego niebezpiecznego przedmiotu, którego użycie może zagrozić życiu, zdrowiu lub wolności uprawnionego lub innej osoby,"
+      },
+      {
+       "text": "zaniechania ucieczki,"
+      },
+      {
+       "text": "odstąpienia od użycia przemocy."
+      }
+     ]
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 48 ust. 1).",
+   "keywords": [
+    "procedura przed użyciem",
+    "identyfikacja formacji",
+    "Ochrona",
+    "wezwanie do zachowania zgodnego z prawem",
+    "porzucenie broni"
+   ]
+  },
+  {
+   "category": "spb-procedura-przed-uzyciem-broni",
+   "list_intro": "Art. 48 ust. 2. Uprzedzenie i strzał ostrzegawczy:",
+   "list_items": [
+    {
+     "text": "W przypadku niepodporządkowania się wezwaniom z ust. 1 pkt 2 uprawniony uprzedza o użyciu broni palnej okrzykiem: „Stój, bo strzelam!”, a jeżeli wezwanie to okaże się nieskuteczne — oddaje strzał ostrzegawczy w bezpiecznym kierunku."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 48 ust. 2).",
+   "keywords": [
+    "Stój bo strzelam",
+    "uprzedzenie",
+    "strzał ostrzegawczy",
+    "bezpieczny kierunek"
+   ]
+  },
+  {
+   "category": "spb-procedura-przed-uzyciem-broni",
+   "list_intro": "Art. 48 ust. 3. Odstąpienie od procedury. Od procedury z ust. 1 i 2 lub jej poszczególnych elementów (w szczególności od strzału ostrzegawczego) można odstąpić, jeżeli:",
+   "list_items": [
+    {
+     "text": "ich zrealizowanie groziłoby bezpośrednim niebezpieczeństwem dla życia lub zdrowia uprawnionego lub innej osoby, lub"
+    },
+    {
+     "text": "jest to niezbędne dla zapobieżenia wystąpieniu zdarzenia o charakterze terrorystycznym (art. 2 pkt 7 ustawy z dnia 10 czerwca 2016 r. o działaniach antyterrorystycznych), a inne środki ze względu na okoliczności mogłyby okazać się niewystarczające."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 48 ust. 3).",
+   "keywords": [
+    "odstąpienie od procedury",
+    "zdarzenie o charakterze terrorystycznym",
+    "antyterrorystyczne",
+    "bez strzału ostrzegawczego"
+   ]
+  },
+  {
+   "category": "spb-procedura-przed-uzyciem-broni",
+   "list_intro": "Art. 48 ust. 4. Uprzedzenie przed konwojem lub doprowadzeniem:",
+   "list_items": [
+    {
+     "text": "Przed rozpoczęciem konwoju lub doprowadzenia uprawniony uprzedza osobę pozbawioną wolności, wobec której zgodnie z art. 45 pkt 4 lit. b i c możliwe jest użycie broni palnej, o możliwości użycia wobec niej broni palnej w przypadku podjęcia przez nią próby ucieczki."
+    }
+   ],
+   "source": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 48 ust. 4).",
+   "keywords": [
+    "konwój",
+    "doprowadzenie",
+    "uprzedzenie",
+    "osoba pozbawiona wolności",
+    "próba ucieczki"
    ]
   }
  ]

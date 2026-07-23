@@ -45,6 +45,7 @@
 
     {% if widok == "kafelki" %}
       {% set pom_ikony = {
+        "spb": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.6l7 2.4v5c0 4.4-3 8-7 9.2-4-1.2-7-4.8-7-9.2V5z"/><text x="12" y="11.4" text-anchor="middle" font-family="var(--t-mono), monospace" font-weight="700" font-size="6" fill="currentColor" stroke="none" textLength="9.6" lengthAdjust="spacingAndGlyphs">ŚPB</text><circle cx="9.3" cy="14.6" r=".75" fill="currentColor" stroke="none"/><circle cx="12" cy="14.6" r=".75" fill="currentColor" stroke="none"/><circle cx="14.7" cy="14.6" r=".75" fill="currentColor" stroke="none"/></svg>',
         "kategorie-prawa-jazdy": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><circle cx="7.5" cy="10.6" r="1.9"/><path d="M4.5 15.4c.5-1.5 1.7-2.1 3-2.1s2.5.6 3 2.1"/><line x1="13.2" y1="9.2" x2="19" y2="9.2"/><line x1="13.2" y1="12.2" x2="18" y2="12.2"/><line x1="13.2" y1="15.2" x2="16.2" y2="15.2"/></svg>',
         "uto": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.6" cy="17.2" r="2.3"/><circle cx="18.2" cy="17.2" r="2.3"/><path d="M7.9 17.2h6.2l3-10.3"/><path d="M15.2 6.9h3.8"/><path d="M14.1 17.2h1.8"/></svg>',
         "holowanie-pojazdu": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="10" width="8" height="5.6" rx="1"/><circle cx="5.6" cy="17.6" r="1.6"/><circle cx="14.6" cy="17.6" r="1.6"/><path d="M10.5 15.6h2.5"/><path d="M9.2 10.4l8.3-3.9"/><path d="M17.6 6.5v3.6"/><path d="M16.4 10.1c0 1.1 1.1 1.7 2 1.1"/></svg>',
@@ -73,7 +74,7 @@
         "zatrzymanie-prawa-jazdy-zagr": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5.5" width="11" height="8.5" rx="1.5"/><circle cx="5.3" cy="9" r="1.3"/><path d="M3.4 12c.3-1 1-1.5 1.9-1.5s1.6.5 1.9 1.5"/><line x1="8" y1="8" x2="11" y2="8"/><circle cx="17.5" cy="7.5" r="3"/><path d="M14.5 7.5h6M17.5 4.5v6"/><rect x="14.5" y="14.5" width="6" height="5" rx="1"/><path d="M16 14.5v-1.2a1.5 1.5 0 0 1 3 0v1.2"/></svg>'
       } %}
       <div class="prz-tiles" id="pom-tiles">
-        {% for kat in kategorie %}
+        {% for kat in kategorie if kat.grupa != 'spb' %}
           <a href="{% if kat.url %}{{ kat.url }}{% else %}{{ url_for('pomoce', kategoria=kat.slug) }}{% endif %}"
              class="prz-tile pom-tile" data-slug="{{ kat.slug }}"
              {% if kat.url and (kat.url.startswith('http') or '/pdf/' in kat.url) %}target="_blank" rel="noopener noreferrer"{% endif %}>
@@ -106,8 +107,36 @@
       {% if linki %}
         <ul class="prz-lista">
           {% for l in linki %}
-            {% set szukaj_txt = (l.title or '') ~ ' ' ~ (l.article or '') ~ ' ' ~ (l.summary or '') ~ ' ' ~ (l.tag or '') ~ ' ' ~ (l.effect or '') ~ ' ' ~ (l.description or '') ~ ' ' ~ (l.keywords|join(' ') if l.keywords else '') %}
-            {% if l.article %}
+            {% set szukaj_txt = (l.title or '') ~ ' ' ~ (l.article or '') ~ ' ' ~ (l.summary or '') ~ ' ' ~ (l.tag or '') ~ ' ' ~ (l.effect or '') ~ ' ' ~ (l.description or '') ~ ' ' ~ (l.list_intro or '') ~ ' ' ~ (l.keywords|join(' ') if l.keywords else '') %}
+            {% if l.list_items %}
+            <li class="prz-rekord pom-rekord pom-lista" data-szukaj="{{ szukaj_txt }}">
+              {% if l.list_intro %}<p class="pom-lista-intro">{{ l.list_intro }}</p>{% endif %}
+              <ol class="pom-lista-ol">
+                {% for it in l.list_items %}
+                  <li>{{ it.text }}
+                    {% if it.sub %}
+                      <ol class="pom-lista-sub">
+                        {% for s in it.sub %}
+                          {% if s is string %}
+                            <li>{{ s }}</li>
+                          {% else %}
+                            <li>{{ s.text }}
+                              {% if s.tir %}
+                                <ul class="pom-lista-tir">
+                                  {% for tt in s.tir %}<li>{{ tt }}</li>{% endfor %}
+                                </ul>
+                              {% endif %}
+                            </li>
+                          {% endif %}
+                        {% endfor %}
+                      </ol>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ol>
+              {% if l.source %}<p class="pom-lista-src">{{ l.source }}</p>{% endif %}
+            </li>
+            {% elif l.article %}
             <li class="prz-rekord pom-rekord pom-zpj" data-szukaj="{{ szukaj_txt }}">
               <span class="pom-zpj-art">{{ l.article }}</span>
               <span class="pom-zpj-summary">{{ l.summary }}</span>

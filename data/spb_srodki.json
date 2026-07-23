@@ -1,0 +1,466 @@
+{
+ "_zrodlo": "Źródło: ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 11 – katalog przypadków; art. 12 – katalog środków; art. 13–33 – zasady szczególne).",
+ "srodki": [
+  {
+   "id": "sila-fizyczna",
+   "name": "Siła fizyczna",
+   "icon": "piesc",
+   "cases": [
+    "Wyegzekwowanie wymaganego prawem zachowania zgodnie z wydanym przez uprawnionego poleceniem.",
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie naruszeniu porządku lub bezpieczeństwa publicznego.",
+    "Przeciwdziałanie bezpośredniemu zamachowi na ochraniane przez uprawnionego obszary, obiekty lub urządzenia.",
+    "Ochrona porządku lub bezpieczeństwa na obszarach lub w obiektach chronionych przez uprawnionego.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Przeciwdziałanie niszczeniu mienia.",
+    "Zapewnienie bezpieczeństwa konwoju lub doprowadzenia.",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Pokonanie biernego oporu.",
+    "Pokonanie czynnego oporu.",
+    "Przeciwdziałanie czynnościom zmierzającym do autoagresji.",
+    "Zniszczenie albo unieruchomienie bezzałogowego statku powietrznego albo przejęcie kontroli nad jego lotem (art. 156ze ust. 1 ustawy z dnia 3 lipca 2002 r. – Prawo lotnicze).",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu pływającego albo przejęcie nad nim kontroli (art. 28a ust. 1 ustawy z dnia 4 września 2008 r. o ochronie żeglugi i portów morskich).",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli, gdy zagraża lub może zagrozić życiu lub zdrowiu ludzi lub zwierząt.",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli, gdy stwarza lub może stworzyć zagrożenie dla chronionych obiektów, urządzeń lub obszarów.",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli, gdy zakłóca lub może zakłócić przebieg zgromadzenia lub imprezy masowej albo zagraża bezpieczeństwu ich uczestników.",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli, gdy stwarza lub może stworzyć uzasadnione podejrzenie, że może zostać użyty jako środek ataku o charakterze terrorystycznym."
+   ],
+   "exceptions": [
+    "Używając siły fizycznej lub wykorzystując siłę fizyczną, nie zadaje się uderzeń, chyba że uprawniony działa w celu odparcia zamachu na życie lub zdrowie własne lub innych osób albo na mienie lub przeciwdziała ucieczce.",
+    "Wobec kobiet o widocznej ciąży, osób, których wygląd wskazuje na wiek do 13 lat, oraz osób o widocznej niepełnosprawności uprawniony może użyć wyłącznie siły fizycznej w postaci technik obezwładnienia (art. 9 ust. 1).",
+    "Gdy odparcie bezpośredniego, bezprawnego zamachu na życie lub zdrowie uprawnionego lub innej osoby wymaga więcej, a użycie siły fizycznej wobec takiej osoby jest niewystarczające lub niemożliwe — uprawniony może użyć innych środków przymusu bezpośredniego lub broni palnej (art. 9 ust. 2).",
+    "Użycie środka przymusu bezpośredniego w tym przypadku następuje z uwzględnieniem jego właściwości oraz stanu osoby, wobec której ma być użyty (art. 9 ust. 3)."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 14; art. 9; przypadki – art. 11)."
+  },
+  {
+   "id": "kajdanki",
+   "name": "Kajdanki",
+   "icon": "kajdanki",
+   "cases": [
+    "Wyegzekwowanie wymaganego prawem zachowania zgodnie z wydanym przez uprawnionego poleceniem.",
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie naruszeniu porządku lub bezpieczeństwa publicznego.",
+    "Przeciwdziałanie bezpośredniemu zamachowi na ochraniane przez uprawnionego obszary, obiekty lub urządzenia.",
+    "Ochrona porządku lub bezpieczeństwa na obszarach lub w obiektach chronionych przez uprawnionego.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Przeciwdziałanie niszczeniu mienia.",
+    "Zapewnienie bezpieczeństwa konwoju lub doprowadzenia.",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Pokonanie czynnego oporu.",
+    "Przeciwdziałanie czynnościom zmierzającym do autoagresji."
+   ],
+   "exceptions": [
+    "Kajdanek można użyć także na polecenie sądu lub prokuratora.",
+    "Kajdanek używa się w celu częściowego unieruchomienia kończyn.",
+    "Kajdanki zakłada się na ręce trzymane z tyłu.",
+    "Kajdanek zespolonych lub kajdanek zakładanych na nogi można użyć wyłącznie wobec osób: 1) agresywnych; 2) zatrzymanych w związku z podejrzeniem popełnienia przestępstwa z użyciem broni palnej, materiałów wybuchowych lub innego niebezpiecznego narzędzia lub przestępstwa, o którym mowa w art. 115 § 20, art. 148 lub art. 258 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny (Dz. U. z 2025 r. poz. 383, 1818 i 1872); 3) pozbawionych wolności.",
+    "W przypadku prewencyjnego użycia kajdanek lub gdy w ocenie uprawnionego prawdopodobieństwo podjęcia próby ucieczki, stawiania czynnego oporu lub wystąpienia zachowania mogącego zagrażać życiu, zdrowiu lub mieniu jest nieznaczne, kajdanki można założyć na ręce trzymane z przodu.",
+    "Kajdanek zakładanych na nogi używa się równocześnie z kajdankami zakładanymi na ręce."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 15; przypadki – art. 11)."
+  },
+  {
+   "id": "kaftan-bezpieczenstwa",
+   "name": "Kaftan bezpieczeństwa",
+   "icon": "kaftan",
+   "cases": [
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie naruszeniu porządku lub bezpieczeństwa publicznego.",
+    "Ochrona porządku lub bezpieczeństwa na obszarach lub w obiektach chronionych przez uprawnionego.",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Pokonanie czynnego oporu.",
+    "Przeciwdziałanie czynnościom zmierzającym do autoagresji."
+   ],
+   "exceptions": [
+    "Kaftana bezpieczeństwa lub pasa obezwładniającego jednoczęściowego używa się w celu unieruchomienia rąk.",
+    "Pasa obezwładniającego wieloczęściowego używa się w celu unieruchomienia osoby.",
+    "Użycie kaftana bezpieczeństwa lub pasa obezwładniającego nie może utrudniać oddychania lub tamować obiegu krwi.",
+    "W przypadku użycia kaftana bezpieczeństwa lub pasa obezwładniającego w stosunku do nieletniego lub kobiety o widocznej ciąży, osobie tej należy niezwłocznie zapewnić pomoc medyczną, a dalsze użycie tych środków uzależnia się od opinii osoby udzielającej tej pomocy."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 16; przypadki – art. 11)."
+  },
+  {
+   "id": "pas-obezwladniajacy",
+   "name": "Pas obezwładniający",
+   "icon": "pas",
+   "cases": [
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie naruszeniu porządku lub bezpieczeństwa publicznego.",
+    "Ochrona porządku lub bezpieczeństwa na obszarach lub w obiektach chronionych przez uprawnionego.",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Pokonanie czynnego oporu.",
+    "Przeciwdziałanie czynnościom zmierzającym do autoagresji."
+   ],
+   "exceptions": [
+    "Kaftana bezpieczeństwa lub pasa obezwładniającego jednoczęściowego używa się w celu unieruchomienia rąk.",
+    "Pasa obezwładniającego wieloczęściowego używa się w celu unieruchomienia osoby.",
+    "Użycie kaftana bezpieczeństwa lub pasa obezwładniającego nie może utrudniać oddychania lub tamować obiegu krwi.",
+    "W przypadku użycia kaftana bezpieczeństwa lub pasa obezwładniającego w stosunku do nieletniego lub kobiety o widocznej ciąży, osobie tej należy niezwłocznie zapewnić pomoc medyczną, a dalsze użycie tych środków uzależnia się od opinii osoby udzielającej tej pomocy."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 16; przypadki – art. 11)."
+  },
+  {
+   "id": "siatka-obezwladniajaca",
+   "name": "Siatka obezwładniająca",
+   "icon": "siatka",
+   "cases": [
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie naruszeniu porządku lub bezpieczeństwa publicznego.",
+    "Przeciwdziałanie bezpośredniemu zamachowi na ochraniane przez uprawnionego obszary, obiekty lub urządzenia.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zniszczenie albo unieruchomienie bezzałogowego statku powietrznego albo przejęcie kontroli nad jego lotem (art. 156ze ust. 1 ustawy z dnia 3 lipca 2002 r. – Prawo lotnicze)."
+   ],
+   "exceptions": [
+    "Siatki obezwładniającej i innych podobnych środków służących do obezwładniania używa się w celu unieruchomienia osoby lub wykorzystuje się je w celu unieruchomienia zwierzęcia oraz bezzałogowego statku powietrznego.",
+    "Siatkę obezwładniającą i inne podobne środki służące do obezwładniania miota się z broni palnej albo innych urządzeń albo zarzuca się je ręcznie."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 18; przypadki – art. 11)."
+  },
+  {
+   "id": "kask-zabezpieczajacy",
+   "name": "Kask zabezpieczający",
+   "icon": "kask",
+   "cases": [
+    "Przeciwdziałanie czynnościom zmierzającym do autoagresji."
+   ],
+   "exceptions": [
+    "Kasku zabezpieczającego używa się w celu zapobieżenia samookaleczeniu głowy, po uprzednim założeniu pasa obezwładniającego jednoczęściowego lub kaftana bezpieczeństwa albo kajdanek na ręce trzymane z tyłu."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 17; przypadki – art. 11)."
+  },
+  {
+   "id": "palka-sluzbowa",
+   "name": "Pałka służbowa",
+   "icon": "palka",
+   "cases": [
+    "Wyegzekwowanie wymaganego prawem zachowania zgodnie z wydanym przez uprawnionego poleceniem.",
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie naruszeniu porządku lub bezpieczeństwa publicznego.",
+    "Przeciwdziałanie bezpośredniemu zamachowi na ochraniane przez uprawnionego obszary, obiekty lub urządzenia.",
+    "Ochrona porządku lub bezpieczeństwa na obszarach lub w obiektach chronionych przez uprawnionego.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Przeciwdziałanie niszczeniu mienia.",
+    "Zapewnienie bezpieczeństwa konwoju lub doprowadzenia.",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Pokonanie czynnego oporu."
+   ],
+   "exceptions": [
+    "Pałki służbowej nie stosuje się wobec osób: 1) w stosunku do których użyto środków przymusu bezpośredniego, o których mowa w art. 12 ust. 1 pkt 2–5, 2) obezwładnionych wskutek użycia środków przymusu bezpośredniego, o których mowa w art. 12 ust. 1 pkt 13 – z wyjątkiem dźwigni transportowych stosowanych przy użyciu pałki służbowej.",
+    "Pałki służbowej używa się do obezwładnienia osoby przez zadanie bólu fizycznego lub do zablokowania kończyn albo wykorzystuje się ją w celu obezwładnienia zwierzęcia.",
+    "Pałką służbową nie zadaje się uderzeń i pchnięć w głowę, szyję, brzuch i nieumięśnione oraz szczególnie wrażliwe części ciała, z wyjątkiem sytuacji gdy zachodzi konieczność odparcia zamachu stwarzającego bezpośrednie zagrożenie życia lub zdrowia uprawnionego lub innej osoby."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 19; przypadki – art. 11)."
+  },
+  {
+   "id": "wodne-srodki-obezwladniajace",
+   "name": "Wodne środki obezwładniające",
+   "icon": "woda",
+   "cases": [
+    "Wyegzekwowanie wymaganego prawem zachowania zgodnie z wydanym przez uprawnionego poleceniem.",
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie naruszeniu porządku lub bezpieczeństwa publicznego.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Przeciwdziałanie niszczeniu mienia.",
+    "Pokonanie biernego oporu.",
+    "Pokonanie czynnego oporu."
+   ],
+   "exceptions": [
+    "Wodnych środków obezwładniających używa się w celu krótkotrwałego obezwładnienia osoby lub wykorzystuje się je w celu krótkotrwałego obezwładnienia zwierzęcia.",
+    "Wodnych środków obezwładniających można użyć także z dodatkiem środka łzawiącego lub barwiącego."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 20; przypadki – art. 11)."
+  },
+  {
+   "id": "pies-sluzbowy",
+   "name": "Pies służbowy",
+   "icon": "pies",
+   "cases": [
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie bezpośredniemu zamachowi na ochraniane przez uprawnionego obszary, obiekty lub urządzenia.",
+    "Ochrona porządku lub bezpieczeństwa na obszarach lub w obiektach chronionych przez uprawnionego.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Zapewnienie bezpieczeństwa konwoju lub doprowadzenia.",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Pokonanie czynnego oporu."
+   ],
+   "exceptions": [
+    "Psa służbowego używa się, gdy ma założony kaganiec, chyba że: 1) został wytresowany do działania bez kagańca; 2) użycie psa służbowego służy do: a) odparcia zamachu na życie lub zdrowie uprawnionego lub innej osoby, b) wykonywania czynności służbowych wobec osób, w stosunku do których użycie broni palnej jest dopuszczalne w przypadkach, o których mowa w: – art. 45 pkt 1 lit. a–c, pkt 2 i 3, – art. 45 pkt 1 lit. a–c i pkt 2 – gdy uprawnionym jest pracownik ochrony, o którym mowa w art. 2 ust. 1 pkt 20."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 21; przypadki – art. 11)."
+  },
+  {
+   "id": "kon-sluzbowy",
+   "name": "Koń służbowy",
+   "icon": "kon",
+   "cases": [
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie naruszeniu porządku lub bezpieczeństwa publicznego.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Przeciwdziałanie niszczeniu mienia.",
+    "Pokonanie biernego oporu.",
+    "Pokonanie czynnego oporu."
+   ],
+   "exceptions": [
+    "Konia służbowego używa się do kontroli przemieszczania się grupy osób, wykorzystując jego masę."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 22; przypadki – art. 11)."
+  },
+  {
+   "id": "pociski-niepenetracyjne",
+   "name": "Pociski niepenetracyjne",
+   "icon": "pocisk",
+   "cases": [
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie naruszeniu porządku lub bezpieczeństwa publicznego.",
+    "Przeciwdziałanie bezpośredniemu zamachowi na ochraniane przez uprawnionego obszary, obiekty lub urządzenia.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Przeciwdziałanie niszczeniu mienia.",
+    "Zapewnienie bezpieczeństwa konwoju lub doprowadzenia.",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Pokonanie czynnego oporu.",
+    "Zniszczenie albo unieruchomienie bezzałogowego statku powietrznego albo przejęcie kontroli nad jego lotem (art. 156ze ust. 1 ustawy z dnia 3 lipca 2002 r. – Prawo lotnicze).",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu pływającego albo przejęcie nad nim kontroli (art. 28a ust. 1 ustawy z dnia 4 września 2008 r. o ochronie żeglugi i portów morskich).",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli, gdy zagraża lub może zagrozić życiu lub zdrowiu ludzi lub zwierząt.",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli, gdy stwarza lub może stworzyć zagrożenie dla chronionych obiektów, urządzeń lub obszarów.",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli, gdy zakłóca lub może zakłócić przebieg zgromadzenia lub imprezy masowej albo zagraża bezpieczeństwu ich uczestników.",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli, gdy stwarza lub może stworzyć uzasadnione podejrzenie, że może zostać użyty jako środek ataku o charakterze terrorystycznym."
+   ],
+   "exceptions": [
+    "W przypadku zbiorowego zakłócenia porządku publicznego użycie pocisków niepenetracyjnych poprzedza się strzałem ostrzegawczym lub salwą ostrzegawczą w bezpiecznym kierunku, z wyjątkiem sytuacji, gdy miałoby to nastąpić w pomieszczeniach, obiektach aresz tu śledczego, zakładu karnego, strzeżonego ośrodka lub aresztu dla cudzoziemców.",
+    "Pocisków niepenetracyjnych używa się w celu obezwładnienia osób lub wykorzystuje się je w celu obezwładnienia zwierzęcia przez zadanie bólu fizycznego, przy czym nie celuje się w głowę lub szyję, oraz w celu zniszczenia albo unieruchomienia bezzałogoweg o statku powietrznego, bezzałogowego obiektu pływającego lub bezzałogowego obiektu lądowego.",
+    "Można użyć także pocisków niepenetracyjnych zawierających chemiczne środki obezwładniające lub barwiące lub je wykorzystać."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 23; przypadki – art. 11)."
+  },
+  {
+   "id": "chemiczne-srodki-obezwladniajace",
+   "name": "Chemiczne środki obezwładniające",
+   "icon": "gaz",
+   "cases": [
+    "Wyegzekwowanie wymaganego prawem zachowania zgodnie z wydanym przez uprawnionego poleceniem.",
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie naruszeniu porządku lub bezpieczeństwa publicznego.",
+    "Przeciwdziałanie bezpośredniemu zamachowi na ochraniane przez uprawnionego obszary, obiekty lub urządzenia.",
+    "Ochrona porządku lub bezpieczeństwa na obszarach lub w obiektach chronionych przez uprawnionego.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Przeciwdziałanie niszczeniu mienia.",
+    "Zapewnienie bezpieczeństwa konwoju lub doprowadzenia.",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Pokonanie biernego oporu.",
+    "Pokonanie czynnego oporu."
+   ],
+   "exceptions": [
+    "Chemicznych środków obezwładniających używa się lub wykorzystuje się je w celu krótkotrwałego zakłócenia orientacji przestrzennej lub obezwładnienia.",
+    "Chemicznych środków obezwładniających nie używa się wobec osób, w stosunku do których użyto środków, o których mowa w art. 12 ust. 1 pkt 2–5 lub 13."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 24; przypadki – art. 11)."
+  },
+  {
+   "id": "paralizator",
+   "name": "Przedmioty obezwładniające energią elektryczną (paralizator)",
+   "icon": "paralizator",
+   "cases": [
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie bezpośredniemu zamachowi na ochraniane przez uprawnionego obszary, obiekty lub urządzenia.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Przeciwdziałanie niszczeniu mienia.",
+    "Zapewnienie bezpieczeństwa konwoju lub doprowadzenia.",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Pokonanie czynnego oporu."
+   ],
+   "exceptions": [
+    "Przedmiotów przeznaczonych do obezwładniania osób za pomocą energii elektrycznej używa się w celu krótkotrwałego obezwładnienia osoby lub wykorzystuje się w celu krótkotrwałego obezwładnienia zwierzęcia, jeżeli użycie innych środków przymusu bezpośredniego jest niemożliwe albo może okazać się nieskuteczne.",
+    "Przedmiotów przeznaczonych do obezwładniania osób za pomocą energii elektrycznej nie używa się wobec osób, w stosunku do których użyto środków, o których mowa w art. 12 ust. 1 pkt 2–5.",
+    "Używając przedmiotów przeznaczonych do obezwładniania osób za pomocą energii elektrycznej, nie celuje się w głowę.",
+    "Użycie lub wykorzystanie przedmiotów przeznaczonych do obezwładniania osób za pomocą energii elektrycznej o średniej wartości prądu w obwodzie przekraczającej 10 mA przez uprawnionych, o których mowa w art. 2 ust. 1 pkt 13, 16, 17, 20 i 21, wymaga dopuszczenia do posiadania tych przedmiotów, w rozumieniu art. 30 ustawy z dnia 21 maja 1999 r. o broni i amunicji."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 25; przypadki – art. 11)."
+  },
+  {
+   "id": "cela-zabezpieczajaca",
+   "name": "Cela zabezpieczająca",
+   "icon": "cela",
+   "cases": [
+    "Wyegzekwowanie wymaganego prawem zachowania zgodnie z wydanym przez uprawnionego poleceniem.",
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie bezpośredniemu zamachowi na ochraniane przez uprawnionego obszary, obiekty lub urządzenia.",
+    "Ochrona porządku lub bezpieczeństwa na obszarach lub w obiektach chronionych przez uprawnionego.",
+    "Przeciwdziałanie niszczeniu mienia.",
+    "Zapewnienie bezpieczeństwa konwoju lub doprowadzenia.",
+    "Pokonanie biernego oporu.",
+    "Pokonanie czynnego oporu.",
+    "Przeciwdziałanie czynnościom zmierzającym do autoagresji."
+   ],
+   "exceptions": [
+    "Osoba pozbawiona wolności nie może być umieszczona w celi zabezpieczającej na okres dłuższy niż 48 godzin.",
+    "W celi zabezpieczającej można umieścić więcej niż jedną osobę pozbawioną wolności tylko w przypadku, gdy bezpieczne odosobnienie tych osób w innych pomieszczeniach jest niemożliwe.",
+    "W przypadku braku możliwości umieszczenia osoby pozbawionej wolności w celi zabezpieczającej można tę osobę umieścić w innym pomieszczeniu zapewniającym odosobnienie."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 26; przypadki – art. 11)."
+  },
+  {
+   "id": "izba-izolacyjna",
+   "name": "Izba izolacyjna",
+   "icon": "izba",
+   "cases": [
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie czynnościom zmierzającym do autoagresji."
+   ],
+   "exceptions": [
+    "Nieletni nie może być umieszczony w izbie izolacyjnej na okres dłuższy niż 48 godzin, a nieletni, który nie ukończył 14 lat, na okres dłuższy niż 12 godzin.",
+    "Izba izolacyjna jest pomieszczeniem dźwiękochłonnym i monitorowanym."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 27; przypadki – art. 11)."
+  },
+  {
+   "id": "pokoj-izolacyjny",
+   "name": "Pokój izolacyjny",
+   "icon": "pokoj",
+   "cases": [
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie naruszeniu porządku lub bezpieczeństwa publicznego.",
+    "Ochrona porządku lub bezpieczeństwa na obszarach lub w obiektach chronionych przez uprawnionego.",
+    "Przeciwdziałanie niszczeniu mienia.",
+    "Przeciwdziałanie czynnościom zmierzającym do autoagresji."
+   ],
+   "exceptions": [
+    "Cudzoziemiec nie może być umieszczony w pokoju izolacyjnym na okres dłuższy niż 48 godzin.",
+    "Minister właściwy do spraw wewnętrznych określi, w drodze rozporządzenia: 1) warunki, jakim powinien odpowiadać pokój izolacyjny, w tym jego budowę i wyposażenie, minimalną powierzchnię tego pokoju oraz warunki jego lokalizacji, 2) okres przechowywania, sposób archiwizowania lub brakowania dokumentacji dotyczącej osób umieszczonych w pokoju izolacyjnym, a także formy tej dokumentacji, 3) organizację umieszczania cudzoziemca w pokoju izolacyjnym – kierując się potrzebą zapewnienia poszanowania praw cudzoziemców, którzy są umieszczani w pokoju izolacyjnym."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 29; przypadki – art. 11)."
+  },
+  {
+   "id": "kolczatka-drogowa",
+   "name": "Kolczatka drogowa",
+   "icon": "kolczatka",
+   "cases": [
+    "Ochrona porządku lub bezpieczeństwa na obszarach lub w obiektach chronionych przez uprawnionego.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą."
+   ],
+   "exceptions": [
+    "Do środków, o których mowa w ust. 1, nie zalicza się kolczatek drogowych połączonych z gruntem oraz zinte growanych ze szlabanem, a także innych przedmiotów umożliwiających zatrzymywanie pojazdów wykorzystywanych na obszarach i w obiektach podlegających ochronie.",
+    "Środki, o których mowa w ust. 1, wykorzystuje umundurowany uprawniony w celu zatrzymania pojazdu albo unieruchomienia zatrzymanego pojazdu, gdy zachodzi obawa oddalenia się go z miejsca zatrzymania.",
+    "Wykorzystanie środków, o których mowa w ust. 1, w celu zatrzymania pojazdu poprzedza się: 1) sygnałem do zatrzymania pojazdu danym przez umundurowanego uprawnionego w sposób zrozumiały i widoczny dla kierującego zatrzymywanym pojazdem; 2) wstrzymaniem ruchu drogowego w obu kierunkach w odległości niemniejszej niż 100 m od środków, o których mowa w ust. 1.",
+    "W przypadku blokowania drogi oznakowanym pojazdem służbowym można odstąpić od wstrzymania ruchu drogowego.",
+    "Kolczatki drogowej nie wykorzystuje się w celu zatrzymania pojazdu jednośladowego."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 30; przypadki – art. 11)."
+  },
+  {
+   "id": "pojazdy-sluzbowe",
+   "name": "Pojazdy służbowe",
+   "icon": "pojazd",
+   "cases": [
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Zapewnienie bezpieczeństwa konwoju lub doprowadzenia.",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą."
+   ],
+   "exceptions": [
+    "Pojazd służbowy wykorzystuje się w celu zatrzymania lub zablokowania innego pojazdu albo pokonania przeszkody."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 31; przypadki – art. 11)."
+  },
+  {
+   "id": "materialy-wybuchowe",
+   "name": "Środki do pokonywania zamknięć budowlanych (w tym materiały wybuchowe)",
+   "icon": "wybuch",
+   "cases": [
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie bezpośredniemu zamachowi na ochraniane przez uprawnionego obszary, obiekty lub urządzenia.",
+    "Ochrona porządku lub bezpieczeństwa na obszarach lub w obiektach chronionych przez uprawnionego.",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Przeciwdziałanie czynnościom zmierzającym do autoagresji."
+   ],
+   "exceptions": [
+    "Środki przeznaczone do pokonywania zamknięć budowlanych i innych przeszkód wykorzystuje się w celu umożliwienia uprawnionym wejścia do pomieszczeń lub innych miejsc, jeżeli: 1) użycie lub wykorzystanie innych środków przymusu bezpośredniego mogłoby powodować zagrożenie życia lub zdrowia uprawnionego lub innej osoby lub 2) wejście uprawnionych do pomieszczeń lub innych miejsc jest niemożliwe bez wykorzystania tych środków."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 32; przypadki – art. 11)."
+  },
+  {
+   "id": "srodki-pirotechniczne",
+   "name": "Środki pirotechniczne (ogłuszające lub olśniewające)",
+   "icon": "piro",
+   "cases": [
+    "Odparcie bezpośredniego, bezprawnego zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie czynnościom zmierzającym bezpośrednio do zamachu na życie, zdrowie lub wolność uprawnionego lub innej osoby.",
+    "Przeciwdziałanie bezpośredniemu zamachowi na ochraniane przez uprawnionego obszary, obiekty lub urządzenia.",
+    "Ochrona porządku lub bezpieczeństwa na obszarach lub w obiektach chronionych przez uprawnionego.",
+    "Przeciwdziałanie zamachowi na nienaruszalność granicy państwowej (art. 1 ustawy z dnia 12 października 1990 r. o ochronie granicy państwowej).",
+    "Ujęcie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Zatrzymanie osoby, udaremnienie jej ucieczki lub pościg za tą osobą.",
+    "Przeciwdziałanie czynnościom zmierzającym do autoagresji."
+   ],
+   "exceptions": [
+    "Do środków pirotechnicznych o właściwościach ogłuszających lub olśniewających zalicza się w szczególności granaty hukowo -błyskowe, także z zawartością gazu łzawiącego, petardy oraz granaty dymne. 1) Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2025 r. poz. 820, 1006, 1676, 1734, 1843 i 1872 oraz z 2026 r. poz. 180.",
+    "Środków pirotechnicznych o właściwościach ogłuszających lub olśniewających używa się w celu poprawy bezpieczeństwa podczas wykonywania ustawowych zadań przez uprawnionego, w warunkach stwarzających szczególne zagrożenie życia lub zdrowia uprawnionego lub innej osoby.",
+    "Środki pirotechniczne o właściwościach ogłuszających lub olśniewających służą do ograniczania możliwości działania osób zatrzymywanych przez krótkotrwałe zakłócenie ich orientacji przestrzennej lub odwrócenie ich uwagi od działań uprawnionego, gdy istnieje podejrzenie, że osoby te będą stawiać intensywny opór. Art. 33a. 1. Środki i urządzenia przeznaczone do zniszczenia albo unieruchomienia bezzałogowego statku powietrznego albo przejęcia kontroli nad jego lotem można wykorzystać w przypadkach, o których mowa w art. 156ze ust. 1 ustawy z dnia 3 lipca 2002 r. – Prawo lotnicze.",
+    "Zniszczenie albo unieruchomienie bezzałogowego statku powietrznego albo przejęcie kontroli nad jego lotem może nastąpić przez wykorzystanie: 1) urządzenia wykorzystującego lub zakłócającego fale radiowe; 2) siatki obezwładniającej; 3) bezzałogowych statków powietrznych; 4) pocisków niepenetracyjnych lub innych przedmiotów miotanych za pomocą przeznaczonych do tego urządzeń oraz za pomocą broni palnej i broni pneumatycznej; 5) urządzeń emitujących skumulowaną wiązkę energii lub fal elektromagnetycznych.",
+    "Środki i urządzenia przeznaczone do zniszczenia albo unieruchomienia bezzałogowego statku powietrznego albo przejęcia kontroli nad jego lotem uniemożliwiające telekomunikację na określonym obszarze mogą być zastosowane wyłącznie na zasadach określonych w przepisach odrębnych. Art. 33b. 1. Środki i urządzenia przeznaczone do zniszczenia albo unieruchomienia bezzałogowego obiektu pływającego albo przejęcia nad nim kontroli można wykorzystać w przypadku, o którym mowa w art. 11 pkt 16.",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu pływającego albo przejęcie nad nim kontroli może nastąpić przez wykorzystanie: 1) bezzałogowych statków powietrznych; 2) pocisków niepenetracyjnych lub innych przedmiotów miotanych za pomocą przeznaczonych do tego urządzeń oraz za pomocą broni palnej i broni pneumatycznej; 3) urządzeń emitujących skumulowaną wiązkę energii lub fal elektromagnetycznych; 4) urządzeń zakłócających działanie systemów pozycjonowania obiektu pływającego; 5) urządzeń zakłócających komunikację pomiędzy operatorem a obiektem pływającym; 6) urządzeń technicznych przymocowanych do dna morskiego i służących do ochrony fizycznej; 7) bezzałogowych obiektów pływających.",
+    "Środki i urządzenia przeznaczone do zniszczenia albo unieruchomienia bezzałogowego obiektu pływającego albo przejęcia nad nim kontroli uniemożliwiające telekomunikację na określonym obszarze mogą być zastosowane wyłącznie na zasadach określonych w przepisach odrębnych. Art. 33c. 1. Środki i urządzenia przeznaczone do zniszczenia albo unieruchomienia bezzałogowego obiektu lądowego albo przejęcia nad nim kontroli można wykorzystać w przypadkach, o których mowa w art. 11 pkt 17.",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli może nastąpić przez wykorzystanie: 1) bezzałogowych statków powietrznych; 2) pocisków niepenetracyjnych lub innych przedmiotów miotanych za pomocą przeznaczonych do tego urządzeń oraz za pomocą broni palnej i broni pneumatycznej; 3) urządzeń emitujących skumulowaną wiązkę energii lub fal elektromagnetycznych; 4) urządzeń zakłócających."
+   ],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 33; przypadki – art. 11)."
+  },
+  {
+   "id": "antydron-powietrzny",
+   "name": "Środki przeciw bezzałogowemu statkowi powietrznemu",
+   "icon": "dron_air",
+   "cases": [
+    "Zniszczenie albo unieruchomienie bezzałogowego statku powietrznego albo przejęcie kontroli nad jego lotem (art. 156ze ust. 1 ustawy z dnia 3 lipca 2002 r. – Prawo lotnicze)."
+   ],
+   "exceptions": [],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 11)."
+  },
+  {
+   "id": "antydron-plywajacy",
+   "name": "Środki przeciw bezzałogowemu obiektowi pływającemu",
+   "icon": "dron_woda",
+   "cases": [
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu pływającego albo przejęcie nad nim kontroli (art. 28a ust. 1 ustawy z dnia 4 września 2008 r. o ochronie żeglugi i portów morskich)."
+   ],
+   "exceptions": [],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 11)."
+  },
+  {
+   "id": "antydron-ladowy",
+   "name": "Środki przeciw bezzałogowemu obiektowi lądowemu",
+   "icon": "dron_lad",
+   "cases": [
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli, gdy zagraża lub może zagrozić życiu lub zdrowiu ludzi lub zwierząt.",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli, gdy stwarza lub może stworzyć zagrożenie dla chronionych obiektów, urządzeń lub obszarów.",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli, gdy zakłóca lub może zakłócić przebieg zgromadzenia lub imprezy masowej albo zagraża bezpieczeństwu ich uczestników.",
+    "Zniszczenie albo unieruchomienie bezzałogowego obiektu lądowego albo przejęcie nad nim kontroli, gdy stwarza lub może stworzyć uzasadnione podejrzenie, że może zostać użyty jako środek ataku o charakterze terrorystycznym."
+   ],
+   "exceptions": [],
+   "legal": "Ustawa z dnia 24 maja 2013 r. o środkach przymusu bezpośredniego i broni palnej (art. 11)."
+  }
+ ]
+}

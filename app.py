@@ -237,6 +237,25 @@ def kategorie_prawa_jazdy():
     )
 
 
+@app.route("/pomoce/spb")
+def pomoce_spb():
+    """Hub 'Wszystko o ŚPB' — podstrona z kafelkami tematów ŚPB."""
+    dane = load_pomoce()
+    podkafelki = [k for k in dane["kategorie"] if k.get("grupa") == "spb"]
+    return render_template("spb.html", kategorie=podkafelki)
+
+
+@app.route("/pomoce/spb-srodki")
+def pomoce_spb_srodki():
+    """Podstrona 'Przypadki użycia ŚPB' — kafelek na każdy środek przymusu.
+
+    Dane z ustawy o ŚPB i broni palnej (art. 11 – przypadki; art. 12–33 – środki).
+    """
+    with open(BASE_DIR / "data" / "spb_srodki.json", encoding="utf-8") as f:
+        dane = json.load(f)
+    return render_template("spb_srodki.html", srodki=dane["srodki"], zrodlo=dane.get("_zrodlo", ""))
+
+
 @app.route("/pomoce/uto")
 def uto():
     """Podstrona UTO: hulajnoga elektryczna, UTO i urzadzenie wspomagajace ruch.
