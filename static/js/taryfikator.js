@@ -147,12 +147,26 @@
     });
   }
 
+  // --- kompaktowe dopasowanie kwalifikacji prawnej ---
+  // "96 § 1 pkt 5 KW" / "96par1pkt5kw" / "96 1 5 kw" -> "9615kw"; sam artykuł: "96kw"
+  var LEGAL_MARK = /paragraf|artykul|ustep|punkt|litera|tiret|par|pkt|ust|art|lit/g;
+  function normLegalCompact(q) {
+    var s = bezOgonkow(q).replace(/§/g, "");
+    s = s.replace(LEGAL_MARK, " ");
+    s = s.replace(/(^|[^0-9a-z])(w|z|zw|zwiazku|oraz|albo|lub|i|zb)(?![0-9a-z])/g, " ");
+    return s.split(/[^0-9a-z]+/).filter(Boolean).join("");
+  }
+
   function pasujeDoSzukania(rekord, q) {
     if (!q) return true;
     var N = liczbaKmh(q);
     if (N !== null) {                                  // zapytanie o prędkość -> dopasuj właściwy przedział
       var z = zakresPredkosci(rekord.title || "");
       return z ? (N >= z[0] && N <= z[1]) : false;
+    }
+    var nl = normLegalCompact(q);                      // dopasowanie po kwalifikacji (art./§/ust./pkt)
+    if (nl.length >= 2 && /[0-9]/.test(nl) && rekord.legal_search) {
+      if (bezOgonkow(rekord.legal_search).indexOf(nl) !== -1) return true;
     }
     if (KOD_RE.test(q.trim())) {                       // zapytanie o kod -> dokładne dopasowanie kodu,
       if (pasujeKod(rekord, q.trim())) return true;    // z fallbackiem na oznaczenia typu znak "D-18"
