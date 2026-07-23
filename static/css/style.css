@@ -1070,6 +1070,9 @@ body {
   margin-left: 18px;
 }
 .tar-brand { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+/* podstrony bez logo: tytul zaczyna sie za strzalka powrotu, zeby jej nie zachodzil */
+.tar-topbar > .tar-back + .tar-brand { padding-left: 40px; }
+@media (max-width: 360px) { .tar-topbar > .tar-back + .tar-brand { padding-left: 34px; } }
 @media (max-width: 360px) {
   .tar-logo { width: 62px; height: 62px; margin-left: 12px; }
   .tar-topbar { gap: 10px; }

@@ -100,8 +100,15 @@ def index():
         "data": now.strftime("%d.%m.%Y"),
         "godzina": now.strftime("%H:%M"),
         "uzytkownik": "Funkcjonariusz",
+        "nowosci_unread": True,
     }
     return render_template("index.html", **context)
+
+
+@app.route("/nowosci")
+def nowosci():
+    """Nowosci -- zmiany w prawie i aktualizacje aplikacji (placeholder)."""
+    return render_template("nowosci.html")
 
 
 @app.route("/przepisy")

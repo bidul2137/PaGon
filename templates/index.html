@@ -2,11 +2,11 @@
 {% block title %}PaGon — Menu{% endblock %}
 
 {% block content %}
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/menu.css') }}">
 
 <div class="menu-page">
   <div class="screen">
+    <div class="screen-glow" aria-hidden="true"></div>
 
     <!-- ===== nagłówek / status ===== -->
     <div class="status">
@@ -15,15 +15,27 @@
       <p><span class="k">UŻYTKOWNIK:</span> <span class="v" id="live-uzytkownik">{{ uzytkownik }}</span></p>
     </div>
 
+    <!-- ===== przycisk Nowości ===== -->
+    <a href="{{ url_for('nowosci') }}" class="nowosci" aria-label="Nowości — zmiany w prawie i aktualizacje">
+      <span class="nowosci-ico">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path>
+          <path d="M13.7 21a2 2 0 0 1-3.4 0"></path>
+        </svg>
+        {% if nowosci_unread %}<span class="nowosci-dot" aria-hidden="true"></span>{% endif %}
+      </span>
+      <span class="nowosci-txt">Nowości</span>
+    </a>
+
     <!-- ===== diamond menu ===== -->
     <div class="diamond">
 
       <!-- CENTER: orb PaGon -->
       <div class="orb-wrap">
         <div class="orb-halo"></div>
-        <div class="orb">
+        <a href="#" class="orb" aria-label="PaGon">
           <img src="{{ url_for('static', filename='img/logo-pagon-mark.png') }}" alt="PaGon">
-        </div>
+        </a>
       </div>
 
       <!-- TOP: Twoje konto -->

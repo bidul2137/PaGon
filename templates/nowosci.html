@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Nowości{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pomoce.css') }}">
+
+<div class="tar-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('index') }}" class="tar-back" aria-label="Powrót do menu głównego">&lsaquo;</a>
+    <div class="tar-brand">
+      <h1 class="tar-title">NOWOŚCI</h1>
+      <p class="tar-subtitle">ZMIANY&nbsp;&nbsp;W&nbsp;&nbsp;PRAWIE&nbsp;&nbsp;&middot;&nbsp;&nbsp;AKTUALIZACJE&nbsp;&nbsp;APLIKACJI&nbsp;&nbsp;&middot;&nbsp;&nbsp;INFORMACJE</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+    <p class="prz-brak">Sekcja w przygotowaniu — wkrótce pojawią się tu informacje o zmianach w przepisach i aktualizacjach PaGon.</p>
+  </main>
+
+</div>
+{% endblock %}

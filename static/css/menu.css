@@ -1,73 +1,102 @@
 /* ===================================================================
-   MENU GŁÓWNE — diamond (import z Claude Design: Menu PaGon)
+   MENU GŁÓWNE — diamond (wdrożenie z Claude Design: PaGon Mobile Menu)
    =================================================================== */
 .menu-page{
   --m-gold:#ce9e2f;
+  --m-gold-2:#e0b23a;
   --m-text:#c4d0de;
-  --m-offset:clamp(72px, 30vw, 128px);
-  --m-icon:clamp(76px, 24vw, 108px);
-  --m-orb:clamp(104px, 32vw, 142px);
+  --m-head:#d9e3f5;
+  --m-offset:clamp(96px, 32vw, 132px);
+  --m-offset-v:clamp(120px, 40vw, 152px);
+  --m-icon:clamp(72px, 23vw, 92px);
+  --m-orb:clamp(116px, 34vw, 150px);
   width:100%;
   min-height:100vh;
   display:flex;
   align-items:flex-start;
   justify-content:center;
-  padding:28px 16px;
+  padding:28px 18px;
+  box-sizing:border-box;
   color:var(--m-text);
-  font-family:"IBM Plex Sans",system-ui,sans-serif;
+  font-family:"JetBrains Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;
   line-height:1.5;
-  background:radial-gradient(120% 90% at 50% -10%,#101a3a 0%,#0b132b 55%,#070d1e 100%);
+  background:radial-gradient(120% 90% at 50% 0%,#101a3a 0%,#0b132b 46%,#070d1e 100%);
 }
 
 .menu-page .screen{
-  position:relative;width:100%;max-width:440px;min-height:calc(100vh - 56px);overflow:hidden;
-  background:linear-gradient(180deg,#0d1730 0%,#0a1128 100%);
+  position:relative;width:100%;max-width:420px;min-height:calc(100vh - 56px);overflow:hidden;
+  background:linear-gradient(160deg,#0d1730 0%,#0a1128 100%);
   border:1px solid rgba(196,208,222,.22);border-radius:26px;
-  box-shadow:0 30px 80px rgba(0,0,0,.55),inset 0 1px 0 rgba(196,208,222,.08);
+  box-shadow:0 40px 90px -30px rgba(0,0,0,.75),0 8px 30px rgba(0,0,0,.5),inset 0 1px 0 rgba(196,208,222,.08);
   padding:26px 24px 30px;display:flex;flex-direction:column;
 }
+/* delikatny highlight u góry ekranu */
+.menu-page .screen-glow{position:absolute;inset:1px 1px auto 1px;height:180px;border-radius:25px 25px 0 0;
+  background:linear-gradient(180deg,rgba(196,214,245,.12) 0%,rgba(196,214,245,0) 100%);pointer-events:none}
 
 /* ===== nagłówek statusu ===== */
-.menu-page .status{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;letter-spacing:.06em;line-height:1.9;flex:none}
+.menu-page .status{position:relative;z-index:2;font-size:12px;font-weight:600;letter-spacing:.1em;line-height:1.85;flex:none}
 .menu-page .status p{margin:0}
 .menu-page .status .k{color:var(--m-gold)}
-.menu-page .status .v{color:var(--m-text);text-transform:uppercase}
+.menu-page .status .v{color:var(--m-head);text-transform:uppercase}
+
+/* ===== przycisk Nowości (prawy górny róg) ===== */
+.menu-page .nowosci{position:absolute;top:24px;right:24px;z-index:3;
+  display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border-radius:999px;
+  background:linear-gradient(180deg,rgba(24,34,62,.9),rgba(14,21,42,.9));
+  border:1px solid rgba(206,158,47,.55);
+  box-shadow:0 0 0 1px rgba(206,158,47,.08),0 6px 16px -8px rgba(0,0,0,.7);
+  transition:border-color .18s ease,box-shadow .18s ease,transform .12s ease}
+.menu-page .nowosci:hover,.menu-page .nowosci:focus-visible{
+  border-color:rgba(224,178,58,.95);
+  box-shadow:0 0 14px -2px rgba(224,178,58,.45),0 6px 16px -8px rgba(0,0,0,.7);outline:none}
+.menu-page .nowosci:active{transform:translateY(1px)}
+.menu-page .nowosci-ico{position:relative;display:inline-flex;width:15px;height:15px;color:var(--m-gold-2)}
+.menu-page .nowosci-dot{position:absolute;top:-4px;right:-5px;width:8px;height:8px;border-radius:50%;
+  background:var(--m-gold-2);border:1.5px solid #0d1730;animation:dotPulse 2s ease-out infinite}
+.menu-page .nowosci-txt{font-size:10.5px;letter-spacing:.16em;font-weight:700;color:#e7d6a0;text-transform:uppercase}
 
 /* ===== diamond ===== */
 .menu-page .diamond{flex:1;position:relative;min-height:520px}
 
 /* orb PaGon */
 .menu-page .orb-wrap{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center}
-.menu-page .orb-halo{position:absolute;inset:-26px;border-radius:50%;pointer-events:none;
-  background:radial-gradient(circle,rgba(200,220,250,.55) 0%,rgba(150,185,235,.18) 45%,transparent 70%)}
+.menu-page .orb-halo{position:absolute;top:50%;left:50%;width:calc(var(--m-orb) * 1.17);height:calc(var(--m-orb) * 1.17);
+  transform:translate(-50%,-50%);border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle,rgba(180,205,245,.6) 0%,rgba(150,185,240,.28) 45%,rgba(150,185,240,0) 72%);
+  animation:haloPulse 4.5s ease-in-out infinite}
 .menu-page .orb{position:relative;width:var(--m-orb);height:var(--m-orb);border-radius:50%;
   display:flex;align-items:center;justify-content:center;
-  background:radial-gradient(circle at 50% 40%,#ffffff 0%,#e9f0fb 46%,#b9cdec 100%);
-  box-shadow:0 0 0 1px rgba(255,255,255,.6),0 0 34px 6px rgba(180,205,245,.6),0 0 80px 14px rgba(120,160,220,.4),inset 0 -8px 24px rgba(120,150,200,.35);
-  animation:orbPulse 4.5s ease-in-out infinite}
-.menu-page .orb img{width:64%;height:auto;display:block}
-@keyframes orbPulse{0%,100%{opacity:.9;transform:scale(1)}50%{opacity:1;transform:scale(1.03)}}
+  background:radial-gradient(circle at 50% 42%,#ffffff 0%,#e9f0fb 40%,#b9cdec 78%,rgba(185,205,236,.15) 90%);
+  box-shadow:0 0 60px 8px rgba(190,212,248,.5),inset 0 2px 8px rgba(255,255,255,.8);
+  animation:orbPulse 4.5s ease-in-out infinite;transition:filter .18s ease}
+.menu-page .orb:hover{filter:brightness(1.05)}
+.menu-page .orb img{width:66%;height:auto;display:block}
+
+@keyframes orbPulse{0%,100%{transform:scale(1);filter:brightness(1)}50%{transform:scale(1.045);filter:brightness(1.09)}}
+@keyframes haloPulse{0%,100%{opacity:.72;transform:translate(-50%,-50%) scale(1)}50%{opacity:1;transform:translate(-50%,-50%) scale(1.12)}}
+@keyframes dotPulse{0%,100%{box-shadow:0 0 0 0 rgba(224,178,58,.55)}70%{box-shadow:0 0 0 6px rgba(224,178,58,0)}}
 
 /* przyciski-ikony */
-.menu-page .di{position:absolute;display:flex;align-items:center;justify-content:center;
-  background:none;border:0;cursor:pointer;padding:0;transition:transform .18s ease}
-.menu-page .di:hover,.menu-page .di:focus-visible{transform:translate(-50%,-50%) scale(1.06)}
-.menu-page .di-ico{display:block;width:var(--m-icon);height:var(--m-icon);border-radius:50%;overflow:hidden;
-  box-shadow:0 0 0 1px rgba(150,185,235,.25),0 0 26px rgba(120,160,220,.28)}
-.menu-page .di-ico img{width:100%;height:100%;object-fit:cover;display:block}
-.menu-page .di-label{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;
-  font-family:"IBM Plex Mono",monospace;font-size:clamp(10px,3vw,12.5px);font-weight:700;
-  letter-spacing:.1em;color:var(--m-text);text-transform:uppercase}
+.menu-page .di{position:absolute;display:flex;flex-direction:column;align-items:center;gap:11px;
+  background:none;border:0;cursor:pointer;padding:0;text-align:center}
+.menu-page .di-ico{display:block;width:var(--m-icon);height:var(--m-icon);border-radius:50%;
+  filter:drop-shadow(0 0 10px rgba(150,185,240,.35)) drop-shadow(0 0 24px rgba(120,160,230,.18));
+  transition:transform .18s ease,filter .18s ease}
+.menu-page .di:hover .di-ico,.menu-page .di:focus-visible .di-ico{
+  transform:scale(1.07);
+  filter:drop-shadow(0 0 16px rgba(170,200,250,.6)) drop-shadow(0 0 34px rgba(140,180,245,.35))}
+.menu-page .di:active .di-ico{transform:scale(.96)}
+.menu-page .di-ico img{width:100%;height:100%;object-fit:contain;display:block}
+.menu-page .di-label{white-space:nowrap;
+  font-size:clamp(10px,3vw,11px);font-weight:600;letter-spacing:.14em;
+  color:var(--m-text);text-transform:uppercase}
 /* boczne etykiety mogą się zawinąć, żeby nie wychodziły poza krawędź ekranu */
 .menu-page .di-left .di-label,
-.menu-page .di-right .di-label{white-space:normal;text-align:center;width:max-content;
-  max-width:clamp(92px,32vw,160px);line-height:1.25}
+.menu-page .di-right .di-label{white-space:normal;width:max-content;max-width:clamp(92px,32vw,150px);line-height:1.25}
 
-.menu-page .di-top{top:calc(50% - var(--m-offset));left:50%;transform:translate(-50%,-50%)}
-.menu-page .di-top .di-label{bottom:calc(100% + 10px)}
+/* GÓRA: etykieta nad ikoną */
+.menu-page .di-top{top:calc(50% - var(--m-offset-v));left:50%;transform:translate(-50%,-50%);flex-direction:column-reverse}
 .menu-page .di-left{top:50%;left:calc(50% - var(--m-offset));transform:translate(-50%,-50%)}
-.menu-page .di-left .di-label{top:calc(100% + 10px)}
 .menu-page .di-right{top:50%;left:calc(50% + var(--m-offset));transform:translate(-50%,-50%)}
-.menu-page .di-right .di-label{top:calc(100% + 10px)}
-.menu-page .di-bottom{top:calc(50% + var(--m-offset));left:50%;transform:translate(-50%,-50%)}
-.menu-page .di-bottom .di-label{top:calc(100% + 10px)}
+.menu-page .di-bottom{top:calc(50% + var(--m-offset-v));left:50%;transform:translate(-50%,-50%)}
