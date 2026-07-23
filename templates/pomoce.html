@@ -45,6 +45,18 @@
 
     {% if widok == "kafelki" %}
       {% set pom_ikony = {
+        "zatrzymanie-dowodu-rejestracyjnego": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 15v-2.3l1.4-3.1a1.1 1.1 0 0 1 1-.6h6.2a1.1 1.1 0 0 1 1 .6L13 12.7V15z"/><path d="M3.4 12.4h9.2"/><circle cx="4.6" cy="15" r="1.3"/><circle cx="11.4" cy="15" r="1.3"/><rect x="15" y="4.5" width="6.5" height="9" rx="1"/><path d="M16.4 7h3.7M16.4 9h3.7M16.4 11h2.3"/></svg>',
+        "zatrzymanie-dowodu-rejestracyjnego-zagr": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 15v-2.3l1.4-3.1a1.1 1.1 0 0 1 1-.6h6.2a1.1 1.1 0 0 1 1 .6L13 12.7V15z"/><path d="M3.4 12.4h9.2"/><circle cx="4.6" cy="15" r="1.3"/><circle cx="11.4" cy="15" r="1.3"/><path d="M16.5 4v10"/><path d="M16.5 4.6h4.2l-1.1 1.9 1.1 1.9h-4.2"/></svg>',
+        "recydywa": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3.5l3 3-3 3"/><path d="M20 6.5H8.5A4.5 4.5 0 0 0 4 11v.6"/><path d="M7 20.5l-3-3 3-3"/><path d="M4 17.5h11.5A4.5 4.5 0 0 0 20 13v-.6"/></svg>',
+        "kody-homologacji": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.2"/><path d="M3.8 12h16.4M12 3.8v16.4"/><path d="M6.4 6.4c2.1 1.7 9.1 1.7 11.2 0M6.4 17.6c2.1-1.7 9.1-1.7 11.2 0"/></svg>',
+        "reflektory": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7a4.5 4.5 0 0 1 4.5-4.5H10v19H8.5A4.5 4.5 0 0 1 4 17z"/><path d="M13 7.5h5M13 12h6.5M13 16.5h5"/></svg>',
+        "pozostale-swiatla": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9.3 18h5.4M10.3 21h3.4"/><path d="M12 2.8a6.2 6.2 0 0 0-3.7 11.2c.7.5 1.1 1.3 1.1 2.1V18h5.2v-1.9c0-.8.4-1.6 1.1-2.1A6.2 6.2 0 0 0 12 2.8z"/></svg>',
+        "kody-czynow": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4.5h11a1.8 1.8 0 0 1 1.8 1.8v13.2H6.8A1.8 1.8 0 0 1 5 17.7z"/><path d="M5 17.7A1.8 1.8 0 0 1 6.8 19.5H17.8"/><path d="M8.2 8.2h6.4M8.2 11h6.4"/></svg>',
+        "notatnik": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="17" rx="1.6"/><rect x="9" y="2.6" width="6" height="3.2" rx="1"/><path d="M8.5 10h7M8.5 13h7M8.5 16h4.5"/></svg>',
+        "kwalifikacja-zdarzenia": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16v-2.3l1.4-3.1a1.1 1.1 0 0 1 1-.6h5.6a1.1 1.1 0 0 1 1 .6L16 13.7V16z"/><path d="M7.4 13.4h8.2"/><circle cx="8.6" cy="16" r="1.3"/><circle cx="14.4" cy="16" r="1.3"/><path d="M5.5 4.4l.55 1.45 1.45-.55-.55 1.45 1.45.55-1.45.55.55 1.45-1.45-.55-.55 1.45-.55-1.45-1.45.55.55-1.45-1.45-.55 1.45-.55z"/></svg>',
+        "kontrola-trzezwosci-na-miejscu": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5.5" r="2.6"/><path d="M12 8.1v1.4"/><rect x="8.5" y="9.5" width="7" height="10.5" rx="1.4"/><path d="M10 13h5M10 15.5h5"/></svg>',
+        "kontrola-trzezwosci-oddalil-sie": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="4.8" r="1.8"/><path d="M13.2 6.8l-1.2 3.6 3 2.2.9 4.8"/><path d="M12 10.4l-3.4.6-1.8 3.2"/><path d="M14.6 8.6l3.6 1.2"/><path d="M6.2 20l2.6-2.6"/></svg>',
+        "kody-ograniczen-prawa-jazdy": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6.7" cy="13.5" r="3.1"/><circle cx="17.3" cy="13.5" r="3.1"/><path d="M9.8 13c1-1 3.4-1 4.4 0"/><path d="M3.6 11.5l1.6-3M20.4 11.5l-1.6-3"/></svg>',
         "spb": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.6l7 2.4v5c0 4.4-3 8-7 9.2-4-1.2-7-4.8-7-9.2V5z"/><text x="12" y="11.4" text-anchor="middle" font-family="var(--t-mono), monospace" font-weight="700" font-size="6" fill="currentColor" stroke="none" textLength="9.6" lengthAdjust="spacingAndGlyphs">ŚPB</text><circle cx="9.3" cy="14.6" r=".75" fill="currentColor" stroke="none"/><circle cx="12" cy="14.6" r=".75" fill="currentColor" stroke="none"/><circle cx="14.7" cy="14.6" r=".75" fill="currentColor" stroke="none"/></svg>',
         "kategorie-prawa-jazdy": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><circle cx="7.5" cy="10.6" r="1.9"/><path d="M4.5 15.4c.5-1.5 1.7-2.1 3-2.1s2.5.6 3 2.1"/><line x1="13.2" y1="9.2" x2="19" y2="9.2"/><line x1="13.2" y1="12.2" x2="18" y2="12.2"/><line x1="13.2" y1="15.2" x2="16.2" y2="15.2"/></svg>',
         "uto": '<svg class="pom-tile-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.6" cy="17.2" r="2.3"/><circle cx="18.2" cy="17.2" r="2.3"/><path d="M7.9 17.2h6.2l3-10.3"/><path d="M15.2 6.9h3.8"/><path d="M14.1 17.2h1.8"/></svg>',
@@ -107,8 +119,16 @@
       {% if linki %}
         <ul class="prz-lista">
           {% for l in linki %}
-            {% set szukaj_txt = (l.title or '') ~ ' ' ~ (l.article or '') ~ ' ' ~ (l.summary or '') ~ ' ' ~ (l.tag or '') ~ ' ' ~ (l.effect or '') ~ ' ' ~ (l.description or '') ~ ' ' ~ (l.list_intro or '') ~ ' ' ~ (l.keywords|join(' ') if l.keywords else '') %}
-            {% if l.list_items %}
+            {% set szukaj_txt = (l.title or '') ~ ' ' ~ (l.article or '') ~ ' ' ~ (l.summary or '') ~ ' ' ~ (l.tag or '') ~ ' ' ~ (l.kod or '') ~ ' ' ~ (l.country or '') ~ ' ' ~ (l.opis or '') ~ ' ' ~ (l.note or '') ~ ' ' ~ (l.effect or '') ~ ' ' ~ (l.description or '') ~ ' ' ~ (l.list_intro or '') ~ ' ' ~ (l.keywords|join(' ') if l.keywords else '') %}
+            {% if l.section %}
+            <li class="prz-rekord pom-kod-head" data-szukaj=" ">{{ l.section }}</li>
+            {% elif l.kod %}
+            <li class="prz-rekord pom-rekord pom-kod-row{% if l.opis %} pom-kod-row--wide{% endif %}" data-szukaj="{{ szukaj_txt }}">
+              <span class="pom-kod">{{ l.kod }}</span>
+              <span class="pom-kod-kraj">{{ l.country or l.opis }}</span>
+              {% if l.note %}<span class="pom-kod-note">{{ l.note }}</span>{% endif %}
+            </li>
+            {% elif l.list_items %}
             <li class="prz-rekord pom-rekord pom-lista" data-szukaj="{{ szukaj_txt }}">
               {% if l.list_intro %}<p class="pom-lista-intro">{{ l.list_intro }}</p>{% endif %}
               <ol class="pom-lista-ol">

@@ -39,6 +39,25 @@
 .pom-lista-tir > li::before{content:"–";position:absolute;left:0;color:var(--t-gold-2)}
 .pom-lista-src{margin:13px 0 0;font-size:10.5px;line-height:1.5;color:var(--t-dim);font-style:italic}
 
+/* kody homologacji: wiersz dwukolumnowy (kod | kraj) */
+.prz-lista:has(.pom-kod-row){gap:0;border:1px solid var(--t-line);border-radius:12px;overflow:hidden;
+  background:linear-gradient(180deg,#14203c 0%,#101a30 100%)}
+.pom-kod-row{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;
+  padding:11px 14px;background:none;border:0;border-bottom:1px solid var(--t-line);border-radius:0}
+.pom-kod-row:last-child{border-bottom:0}
+.pom-kod{flex:none;width:52px;font-family:var(--t-mono);font-size:14px;font-weight:700;
+  letter-spacing:.03em;color:var(--t-gold-2)}
+.pom-kod-kraj{flex:1;min-width:0;font-size:14px;font-weight:500;line-height:1.3;color:var(--t-head)}
+.pom-kod-row--wide .pom-kod{width:150px;white-space:normal;line-height:1.25}
+.pom-kod-note{flex-basis:100%;width:100%;margin-top:2px;font-size:11.5px;line-height:1.5;
+  color:var(--t-dim);font-style:italic}
+.pom-kod-head{list-style:none;margin:0;padding:11px 14px 11px 16px;border-radius:0;
+  background:rgba(243,206,92,.10);border-top:1px solid var(--t-line);
+  border-bottom:1px solid rgba(243,206,92,.35);box-shadow:inset 3px 0 0 var(--t-gold-2);
+  font-family:var(--t-mono);font-size:12.5px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--t-gold-2)}
+.pom-kod-head:first-child{border-top:0}
+
 /* karta zatrzymania PJ: artykuł -> streszczenie -> skutek -> Rozwiń -> opis */
 .pom-zpj{display:flex;flex-direction:column;align-items:flex-start;gap:7px}
 .pom-zpj-art{font-family:var(--t-mono);font-size:11px;font-weight:600;letter-spacing:.04em;color:var(--t-gold-2)}

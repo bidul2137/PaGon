@@ -21864,12 +21864,12 @@
   },
   {
    "id": "w-557",
-   "title": "Celowe wprowadzenie pojazdu w poślizg (drift)",
+   "title": "Celowe wprowadzenie pojazdu mechanicznego w poślizg (drift)",
    "category": "zagrozenie",
-   "legal_qualification": "art. 86c § 1 KW w zw. z art. 60 ust. 5 PRD",
-   "legal_qualification_text": "Art. 86c KW\nArt. 86c. § 1. Kto na drodze publicznej, w strefie zamieszkania lub strefie ruchu prowadzi pojazd mechaniczny, celowo wprowadzając go w poślizgy styczności z nawierzchnią chociażby jednego z kół pojazdu, podlega karze grzywny nie niższej niż 1500 złotych. § 2. Jeżeli następstwem wykroczenia określonego w § 1 jest spowodowanie zagrożenia bezpieczeństwa w ruchu drogowym, sprawca podlega karze grzywny nie niższej niż 2500 złotych.",
-   "mandate_base": null,
-   "mandate_recidive": null,
+   "legal_qualification": "art. 86c § 1 KW",
+   "legal_qualification_text": "Art. 86c KW\n§ 1. Kto na drodze publicznej, w strefie zamieszkania lub strefie ruchu prowadzi pojazd mechaniczny, celowo wprowadzając go w poślizg lub doprowadzając do utraty styczności z nawierzchnią chociażby jednego z kół pojazdu, podlega karze grzywny nie niższej niż 1500 złotych.\n§ 2. Jeżeli następstwem wykroczenia określonego w § 1 jest spowodowanie zagrożenia bezpieczeństwa w ruchu drogowym, sprawca podlega karze grzywny nie niższej niż 2500 złotych.",
+   "mandate_base": "1500–5000",
+   "mandate_recidive": "3000–5000",
    "mandate_max_kpw": null,
    "fine_min_kw": null,
    "fine_max_kw": null,
@@ -21881,7 +21881,10 @@
     "wprowadzenie",
     "pojazdu",
     "poślizg",
-    "drift"
+    "drift",
+    "utrata styczności",
+    "celowo",
+    "86c"
    ],
    "summary": "Celowe wprowadzenie pojazdu w poślizg (drift)",
    "source_mandate": "Kodeks wykroczeń (art. 86c § 1 w zw. z art. 60 ust. 5 PRD)",
@@ -21897,20 +21900,49 @@
      "points": [],
      "letters": [],
      "tirets": []
-    },
+    }
+   ],
+   "legal_search": "86ckw 86c1kw"
+  },
+  {
+   "id": "w-599",
+   "title": "Celowe wprowadzenie pojazdu mechanicznego w poślizg (drift), którego następstwem było spowodowanie zagrożenia bezpieczeństwa w ruchu drogowym",
+   "category": "zagrozenie",
+   "legal_qualification": "art. 86c § 2 KW",
+   "legal_qualification_text": "Art. 86c KW\n§ 1. Kto na drodze publicznej, w strefie zamieszkania lub strefie ruchu prowadzi pojazd mechaniczny, celowo wprowadzając go w poślizg lub doprowadzając do utraty styczności z nawierzchnią chociażby jednego z kół pojazdu, podlega karze grzywny nie niższej niż 1500 złotych.\n§ 2. Jeżeli następstwem wykroczenia określonego w § 1 jest spowodowanie zagrożenia bezpieczeństwa w ruchu drogowym, sprawca podlega karze grzywny nie niższej niż 2500 złotych.",
+   "mandate_base": "2500–5000",
+   "mandate_recidive": "5000",
+   "mandate_max_kpw": null,
+   "fine_min_kw": null,
+   "fine_max_kw": null,
+   "points_min": 12,
+   "points_max": 12,
+   "code": "A 11",
+   "keywords": [
+    "drift",
+    "poślizg",
+    "zagrożenie bezpieczeństwa",
+    "celowo",
+    "86c",
+    "utrata styczności"
+   ],
+   "summary": "Celowe wprowadzenie pojazdu w poślizg (drift) ze spowodowaniem zagrożenia bezpieczeństwa",
+   "source_mandate": "Kodeks wykroczeń (art. 86c § 1 w zw. z art. 60 ust. 5 PRD)",
+   "source_points": "zał. nr 1 rozp. MSWiA (kod A 10)",
+   "legal_references": [
     {
-     "act": "PRD",
-     "article": "60",
-     "paragraphs": [],
-     "sections": [
-      "5"
+     "act": "KW",
+     "article": "86c",
+     "paragraphs": [
+      "2"
      ],
+     "sections": [],
      "points": [],
      "letters": [],
      "tirets": []
     }
    ],
-   "legal_search": "605prd 60prd 86c1kw 86ckw"
+   "legal_search": "86ckw 86c2kw"
   },
   {
    "id": "w-558",

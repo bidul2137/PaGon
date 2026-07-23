@@ -170,6 +170,66 @@
    "ikona": "przypadki-uzycia-spb",
    "url": "/pomoce/spb-srodki",
    "grupa": "spb"
+  },
+  {
+   "slug": "zatrzymanie-dowodu-rejestracyjnego",
+   "nazwa": "Zatrzymywanie dowodów rejestracyjnych",
+   "ikona": "zatrzymanie-dowodu-rejestracyjnego",
+   "url": null
+  },
+  {
+   "slug": "zatrzymanie-dowodu-rejestracyjnego-zagr",
+   "nazwa": "Zatrzymywanie dowodów rejestracyjnych zagranicznych",
+   "ikona": "zatrzymanie-dowodu-rejestracyjnego-zagr",
+   "url": null
+  },
+  {
+   "slug": "recydywa",
+   "nazwa": "Recydywa",
+   "ikona": "recydywa",
+   "url": null
+  },
+  {
+   "slug": "kody-homologacji",
+   "nazwa": "Kody homologacji",
+   "ikona": "kody-homologacji",
+   "url": null
+  },
+  {
+   "slug": "reflektory",
+   "nazwa": "Oznaczenia świateł",
+   "ikona": "reflektory",
+   "url": null
+  },
+  {
+   "slug": "kody-czynow",
+   "nazwa": "Kody czynów",
+   "ikona": "kody-czynow",
+   "url": null
+  },
+  {
+   "slug": "kwalifikacja-zdarzenia",
+   "nazwa": "Kwalifikacja zdarzenia",
+   "ikona": "kwalifikacja-zdarzenia",
+   "url": null
+  },
+  {
+   "slug": "kontrola-trzezwosci-na-miejscu",
+   "nazwa": "Kontrola trzeźwości — badany na miejscu",
+   "ikona": "kontrola-trzezwosci-na-miejscu",
+   "url": null
+  },
+  {
+   "slug": "kontrola-trzezwosci-oddalil-sie",
+   "nazwa": "Kontrola trzeźwości — badany oddalił się",
+   "ikona": "kontrola-trzezwosci-oddalil-sie",
+   "url": null
+  },
+  {
+   "slug": "kody-ograniczen-prawa-jazdy",
+   "nazwa": "Kody ograniczeń prawa jazdy",
+   "ikona": "kody-ograniczen-prawa-jazdy",
+   "url": null
   }
  ],
  "linki": [
@@ -2472,6 +2532,2356 @@
     "uprzedzenie",
     "osoba pozbawiona wolności",
     "próba ucieczki"
+   ]
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego",
+   "article": "Art. 132 ust. 1 pkt 1 lit. a PRD",
+   "summary": "Pojazd zagraża bezpieczeństwu (np. po wypadku — uszkodzone elementy nośne)",
+   "url": null,
+   "description": "Policjant, funkcjonariusz Straży Granicznej albo funkcjonariusz Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie stwierdzenia lub uzasadnionego przypuszczenia, że pojazd zagraża bezpieczeństwu — w szczególności po wypadku drogowym, w którym zostały uszkodzone zasadnicze elementy nośne konstrukcji nadwozia, podwozia lub ramy.",
+   "keywords": [
+    "bezpieczeństwo",
+    "wypadek",
+    "elementy nośne",
+    "nadwozie",
+    "podwozie",
+    "rama",
+    "uszkodzenie"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1).",
+   "effect": "Zakaz dalszej jazdy",
+   "effect_note": "Zezwolenia na dalsze używanie pojazdu nie wydaje się — pojazd wyłączony z ruchu (art. 132 ust. 2 PRD)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego",
+   "article": "Art. 132 ust. 1 pkt 1 lit. b PRD",
+   "summary": "Pojazd zagraża porządkowi ruchu",
+   "url": null,
+   "description": "Policjant, funkcjonariusz Straży Granicznej albo funkcjonariusz Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie stwierdzenia lub uzasadnionego przypuszczenia, że pojazd zagraża porządkowi ruchu.",
+   "keywords": [
+    "porządek ruchu",
+    "zagrożenie"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1).",
+   "effect": "Do 7 dni",
+   "effect_note": "Policjant może zezwolić na używanie pojazdu przez czas nieprzekraczający 7 dni, określając warunki w pokwitowaniu (art. 132 ust. 2 PRD)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego",
+   "article": "Art. 132 ust. 1 pkt 1 lit. c PRD",
+   "summary": "Pojazd narusza wymagania ochrony środowiska",
+   "url": null,
+   "description": "Policjant, funkcjonariusz Straży Granicznej albo funkcjonariusz Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie stwierdzenia lub uzasadnionego przypuszczenia, że pojazd narusza wymagania ochrony środowiska.",
+   "keywords": [
+    "ochrona środowiska",
+    "spaliny",
+    "hałas",
+    "emisja"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1).",
+   "effect": "Zakaz dalszej jazdy",
+   "effect_note": "Zezwolenia na dalsze używanie pojazdu nie wydaje się — pojazd wyłączony z ruchu (art. 132 ust. 2 PRD)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego",
+   "article": "Art. 132 ust. 1 pkt 2 PRD",
+   "summary": "Brak badania technicznego w terminie / termin wyznaczony nieprawidłowo",
+   "url": null,
+   "description": "Policjant, funkcjonariusz Straży Granicznej albo funkcjonariusz Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie stwierdzenia, że pojazd nie został poddany badaniu technicznemu w wyznaczonym terminie lub termin badania nie został wyznaczony prawidłowo.",
+   "keywords": [
+    "badanie techniczne",
+    "przegląd",
+    "termin",
+    "brak przeglądu"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1).",
+   "effect": "Do 7 dni",
+   "effect_note": "Policjant może zezwolić na używanie pojazdu przez czas nieprzekraczający 7 dni, określając warunki w pokwitowaniu (art. 132 ust. 2 PRD)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego",
+   "article": "Art. 132 ust. 1 pkt 3 PRD",
+   "summary": "Badanie techniczne przez jednostkę nieupoważnioną",
+   "url": null,
+   "description": "Policjant, funkcjonariusz Straży Granicznej albo funkcjonariusz Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie stwierdzenia, że badanie techniczne zostało dokonane przez jednostkę do tego nieupoważnioną.",
+   "keywords": [
+    "badanie techniczne",
+    "nieupoważniona jednostka",
+    "SKP",
+    "stacja kontroli pojazdów"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1).",
+   "effect": "Do 7 dni",
+   "effect_note": "Policjant może zezwolić na używanie pojazdu przez czas nieprzekraczający 7 dni, określając warunki w pokwitowaniu (art. 132 ust. 2 PRD)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego",
+   "article": "Art. 132 ust. 1 pkt 4 PRD",
+   "summary": "Dane w CEPiK nie zgadzają się ze stanem faktycznym",
+   "url": null,
+   "description": "Policjant, funkcjonariusz Straży Granicznej albo funkcjonariusz Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie uzasadnionego przypuszczenia, że dane dotyczące dowodu rejestracyjnego (pozwolenia czasowego) zawarte w centralnej ewidencji pojazdów nie odpowiadają stanowi faktycznemu.",
+   "keywords": [
+    "CEPiK",
+    "centralna ewidencja pojazdów",
+    "dane niezgodne",
+    "stan faktyczny"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1).",
+   "effect": "Do 7 dni",
+   "effect_note": "Policjant może zezwolić na używanie pojazdu przez czas nieprzekraczający 7 dni, określając warunki w pokwitowaniu (art. 132 ust. 2 PRD)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego-zagr",
+   "article": "Art. 132 ust. 1a pkt 1 lit. a PRD",
+   "summary": "Pojazd zagraża bezpieczeństwu (np. po wypadku — uszkodzone elementy nośne)",
+   "url": null,
+   "description": "W stosunku do kierującego pojazdem zarejestrowanym za granicą, uczestniczącym w ruchu na terytorium RP, policjant, funkcjonariusz Straży Granicznej albo Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie stwierdzenia lub uzasadnionego przypuszczenia, że pojazd zagraża bezpieczeństwu — w szczególności po wypadku drogowym, w którym zostały uszkodzone zasadnicze elementy nośne konstrukcji nadwozia, podwozia lub ramy.",
+   "effect": "Zakaz dalszej jazdy",
+   "effect_note": "Zezwolenia na dalsze używanie pojazdu nie wydaje się — pojazd wyłączony z ruchu (art. 132 ust. 2 PRD).",
+   "keywords": [
+    "zagraniczny",
+    "bezpieczeństwo",
+    "wypadek",
+    "elementy nośne",
+    "nadwozie",
+    "podwozie",
+    "rama"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1a)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego-zagr",
+   "article": "Art. 132 ust. 1a pkt 1 lit. b PRD",
+   "summary": "Pojazd zagraża porządkowi ruchu",
+   "url": null,
+   "description": "W stosunku do kierującego pojazdem zarejestrowanym za granicą, uczestniczącym w ruchu na terytorium RP, policjant, funkcjonariusz Straży Granicznej albo Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie stwierdzenia lub uzasadnionego przypuszczenia, że pojazd zagraża porządkowi ruchu.",
+   "effect": "Do 7 dni",
+   "effect_note": "Policjant może zezwolić na używanie pojazdu przez czas nieprzekraczający 7 dni, określając warunki w pokwitowaniu (art. 132 ust. 2 PRD).",
+   "keywords": [
+    "zagraniczny",
+    "porządek ruchu"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1a)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego-zagr",
+   "article": "Art. 132 ust. 1a pkt 1 lit. c PRD",
+   "summary": "Pojazd narusza wymagania ochrony środowiska",
+   "url": null,
+   "description": "W stosunku do kierującego pojazdem zarejestrowanym za granicą, uczestniczącym w ruchu na terytorium RP, policjant, funkcjonariusz Straży Granicznej albo Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie stwierdzenia lub uzasadnionego przypuszczenia, że pojazd narusza wymagania ochrony środowiska.",
+   "effect": "Zakaz dalszej jazdy",
+   "effect_note": "Zezwolenia na dalsze używanie pojazdu nie wydaje się — pojazd wyłączony z ruchu (art. 132 ust. 2 PRD).",
+   "keywords": [
+    "zagraniczny",
+    "ochrona środowiska",
+    "spaliny",
+    "emisja",
+    "hałas"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1a)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego-zagr",
+   "article": "Art. 132 ust. 1a pkt 2 PRD",
+   "summary": "Brak badania technicznego w terminie / termin nieprawidłowo wyznaczony",
+   "url": null,
+   "description": "W stosunku do kierującego pojazdem zarejestrowanym za granicą, uczestniczącym w ruchu na terytorium RP, policjant, funkcjonariusz Straży Granicznej albo Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie stwierdzenia, że pojazd nie został poddany badaniu technicznemu w wyznaczonym terminie lub termin badania nie został wyznaczony prawidłowo.",
+   "effect": "Do 7 dni",
+   "effect_note": "Policjant może zezwolić na używanie pojazdu przez czas nieprzekraczający 7 dni, określając warunki w pokwitowaniu (art. 132 ust. 2 PRD).",
+   "keywords": [
+    "zagraniczny",
+    "badanie techniczne",
+    "przegląd",
+    "termin"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1a)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego-zagr",
+   "article": "Art. 132 ust. 1a pkt 3 PRD",
+   "summary": "Zniszczenie dowodu rejestracyjnego (nieczytelność)",
+   "url": null,
+   "description": "W stosunku do kierującego pojazdem zarejestrowanym za granicą, uczestniczącym w ruchu na terytorium RP, policjant, funkcjonariusz Straży Granicznej albo Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie stwierdzenia zniszczenia dowodu rejestracyjnego (pozwolenia czasowego) w stopniu powodującym jego nieczytelność.",
+   "effect": "Do 7 dni",
+   "effect_note": "Policjant może zezwolić na używanie pojazdu przez czas nieprzekraczający 7 dni, określając warunki w pokwitowaniu (art. 132 ust. 2 PRD).",
+   "keywords": [
+    "zagraniczny",
+    "zniszczenie",
+    "nieczytelny",
+    "dokument"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1a)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego-zagr",
+   "article": "Art. 132 ust. 1a pkt 4 PRD",
+   "summary": "Podejrzenie podrobienia lub przerobienia dowodu",
+   "url": null,
+   "description": "W stosunku do kierującego pojazdem zarejestrowanym za granicą, uczestniczącym w ruchu na terytorium RP, policjant, funkcjonariusz Straży Granicznej albo Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie uzasadnionego podejrzenia podrobienia lub przerobienia dowodu rejestracyjnego (pozwolenia czasowego).",
+   "effect": "Do 7 dni",
+   "effect_note": "Policjant może zezwolić na używanie pojazdu przez czas nieprzekraczający 7 dni, określając warunki w pokwitowaniu (art. 132 ust. 2 PRD).",
+   "keywords": [
+    "zagraniczny",
+    "podrobienie",
+    "przerobienie",
+    "fałszerstwo"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1a)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego-zagr",
+   "article": "Art. 132 ust. 1a pkt 5 PRD",
+   "summary": "Badanie techniczne przez jednostkę nieupoważnioną",
+   "url": null,
+   "description": "W stosunku do kierującego pojazdem zarejestrowanym za granicą, uczestniczącym w ruchu na terytorium RP, policjant, funkcjonariusz Straży Granicznej albo Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie stwierdzenia, że badanie techniczne zostało dokonane przez jednostkę do tego nieupoważnioną.",
+   "effect": "Do 7 dni",
+   "effect_note": "Policjant może zezwolić na używanie pojazdu przez czas nieprzekraczający 7 dni, określając warunki w pokwitowaniu (art. 132 ust. 2 PRD).",
+   "keywords": [
+    "zagraniczny",
+    "badanie techniczne",
+    "nieupoważniona jednostka",
+    "SKP"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1a)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego-zagr",
+   "article": "Art. 132 ust. 1a pkt 6 PRD",
+   "summary": "Brak dokumentu OC (kraj spoza wykazu — art. 129 ust. 2 pkt 8 lit. c)",
+   "url": null,
+   "description": "W stosunku do kierującego pojazdem zarejestrowanym za granicą, uczestniczącym w ruchu na terytorium RP, policjant, funkcjonariusz Straży Granicznej albo Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie nieokazania przez kierującego dokumentu potwierdzającego zawarcie umowy obowiązkowego ubezpieczenia OC posiadacza pojazdu lub dowodu opłacenia składki, jeżeli pojazd jest zarejestrowany w kraju, o którym mowa w art. 129 ust. 2 pkt 8 lit. c.",
+   "effect": "Zakaz dalszej jazdy",
+   "effect_note": "Zezwolenia na dalsze używanie pojazdu nie wydaje się — pojazd wyłączony z ruchu (art. 132 ust. 2 PRD).",
+   "keywords": [
+    "zagraniczny",
+    "OC",
+    "ubezpieczenie",
+    "brak ubezpieczenia",
+    "zielona karta"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1a)."
+  },
+  {
+   "category": "zatrzymanie-dowodu-rejestracyjnego-zagr",
+   "article": "Art. 132 ust. 1a pkt 7 PRD",
+   "summary": "Dane w dowodzie nie zgadzają się ze stanem faktycznym",
+   "url": null,
+   "description": "W stosunku do kierującego pojazdem zarejestrowanym za granicą, uczestniczącym w ruchu na terytorium RP, policjant, funkcjonariusz Straży Granicznej albo Służby Celno-Skarbowej zatrzyma dowód rejestracyjny (pozwolenie czasowe) w razie uzasadnionego przypuszczenia, że dane zawarte w dowodzie rejestracyjnym (pozwoleniu czasowym) nie odpowiadają stanowi faktycznemu.",
+   "effect": "Do 7 dni",
+   "effect_note": "Policjant może zezwolić na używanie pojazdu przez czas nieprzekraczający 7 dni, określając warunki w pokwitowaniu (art. 132 ust. 2 PRD).",
+   "keywords": [
+    "zagraniczny",
+    "dane niezgodne",
+    "stan faktyczny"
+   ],
+   "source": "Ustawa – Prawo o ruchu drogowym (art. 132 ust. 1a)."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92a §2 KW w zw. z art. 20 lub art. 31 ust. 1 pkt 1 PRD albo § 27, § 31 lub § 81 ust. 1 i 2 ZSD",
+   "summary": "Przekroczenie dopuszczalnej prędkości o 71 km/h i więcej",
+   "url": null,
+   "effect": "Recydywa: 5000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 2500 zł. Mandat w recydywie: 5000 zł. Punkty karne: 15. Kod czynu: E 01.",
+   "keywords": [
+    "przekroczenie",
+    "dopuszczalnej",
+    "prędkości",
+    "więcej",
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86c § 2 KW",
+   "summary": "Celowe wprowadzenie pojazdu mechanicznego w poślizg (drift), którego następstwem było spowodowanie zagrożenia bezpieczeństwa w ruchu drogowym",
+   "url": null,
+   "effect": "Recydywa: 5000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 2500–5000 zł. Mandat w recydywie: 5000 zł. Punkty karne: 12. Kod czynu: A 11.",
+   "keywords": [
+    "drift",
+    "poślizg",
+    "zagrożenie bezpieczeństwa",
+    "celowo",
+    "86c",
+    "utrata styczności",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 97a pkt 1 KW w zw. z art. 28 ust. 3 pkt 1 PRD",
+   "summary": "Naruszenie zakazu objeżdżania opuszczonych zapór/półzapór oraz wjeżdżania na przejazd w trakcie ich opuszczania/podnosze",
+   "url": null,
+   "effect": "Recydywa: 4000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 2000 zł. Mandat w recydywie: 4000 zł. Punkty karne: 15. Kod czynu: H 10.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "objeżdżania",
+    "opuszczonych",
+    "zapór",
+    "półzapór",
+    "wjeżdżania",
+    "przejazd",
+    "trakcie",
+    "opuszczania",
+    "podnosze",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 97a pkt 2 KW w zw. z art. 28 ust. 3 pkt 2 PRD",
+   "summary": "Naruszenie zakazu wjeżdżania na przejazd kolejowy bez miejsca do kontynuowania jazdy",
+   "url": null,
+   "effect": "Recydywa: 4000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 2000 zł. Mandat w recydywie: 4000 zł. Punkty karne: 15. Kod czynu: H 12.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "wjeżdżania",
+    "przejazd",
+    "kolejowy",
+    "miejsca",
+    "kontynuowania",
+    "jazdy",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 97a pkt 1 KW w zw. z § 98 ust. 5 ZSD",
+   "summary": "Naruszenie zakazu wjeżdżania na przejeździe kolejowym za sygnalizator przy sygnale czerwonym",
+   "url": null,
+   "effect": "Recydywa: 4000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 2000 zł. Mandat w recydywie: 4000 zł. Punkty karne: 15. Kod czynu: H 11.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "wjeżdżania",
+    "przejeździe",
+    "kolejowym",
+    "sygnalizator",
+    "sygnale",
+    "czerwonym",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92a §2 KW w zw. z art. 20 lub art. 31 ust. 1 pkt 1 PRD albo § 27, § 31 lub § 81 ust. 1 i 2 ZSD",
+   "summary": "Przekroczenie dopuszczalnej prędkości o 61-70 km/h",
+   "url": null,
+   "effect": "Recydywa: 4000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 2000 zł. Mandat w recydywie: 4000 zł. Punkty karne: 14. Kod czynu: E 02.",
+   "keywords": [
+    "przekroczenie",
+    "dopuszczalnej",
+    "prędkości",
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86b § 1 pkt 1 KW w zw. z art. 26 ust. 1 lub ust. 1a PRD",
+   "summary": "Nieustąpienie pierwszeństwa pieszemu znajdującemu się na przejściu albo wchodzącemu na przejście",
+   "url": null,
+   "effect": "Recydywa: 3000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500 zł. Mandat w recydywie: 3000 zł. Punkty karne: 15. Kod czynu: B 03.",
+   "keywords": [
+    "nieustąpienie",
+    "pierwszeństwa",
+    "pieszemu",
+    "znajdującemu",
+    "przejściu",
+    "wchodzącemu",
+    "przejście",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86b § 1 pkt 2 KW w zw. z art. 26 ust. 7 PRD",
+   "summary": "Niezatrzymanie pojazdu w razie przechodzenia przez jezdnię osoby niepełnosprawnej lub o widocznej ograniczonej sprawnośc",
+   "url": null,
+   "effect": "Recydywa: 3000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500 zł. Mandat w recydywie: 3000 zł. Punkty karne: 15. Kod czynu: B 04.",
+   "keywords": [
+    "niezatrzymanie",
+    "pojazdu",
+    "razie",
+    "przechodzenia",
+    "jezdnię",
+    "osoby",
+    "niepełnosprawnej",
+    "widocznej",
+    "ograniczonej",
+    "sprawnośc",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86b § 1 pkt 4 KW w zw. z art. 26 ust. 3 pkt 2 PRD",
+   "summary": "Omijanie pojazdu, który zatrzymał się w celu ustąpienia pierwszeństwa pieszemu",
+   "url": null,
+   "effect": "Recydywa: 3000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500 zł. Mandat w recydywie: 3000 zł. Punkty karne: 15. Kod czynu: B 01.",
+   "keywords": [
+    "omijanie",
+    "pojazdu",
+    "który",
+    "zatrzymał",
+    "celu",
+    "ustąpienia",
+    "pierwszeństwa",
+    "pieszemu",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86b § 1 pkt 3 KW w zw. z art. 26 ust. 3 pkt 1 PRD",
+   "summary": "Wyprzedzanie pojazdu na przejściu dla pieszych lub bezpośrednio przed nim",
+   "url": null,
+   "effect": "Recydywa: 3000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500 zł. Mandat w recydywie: 3000 zł. Punkty karne: 15. Kod czynu: B 02.",
+   "keywords": [
+    "wyprzedzanie",
+    "pojazdu",
+    "przejściu",
+    "pieszych",
+    "bezpośrednio",
+    "przed",
+    "nim",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92a §2 KW w zw. z art. 20 lub art. 31 ust. 1 pkt 1 PRD albo § 27, § 31 lub § 81 ust. 1 i 2 ZSD",
+   "summary": "Przekroczenie dopuszczalnej prędkości o 51-60 km/h",
+   "url": null,
+   "effect": "Recydywa: 3000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500 zł. Mandat w recydywie: 3000 zł. Punkty karne: 13. Kod czynu: E 03.",
+   "keywords": [
+    "przekroczenie",
+    "dopuszczalnej",
+    "prędkości",
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86b § 1 pkt 1 KW w zw. z art. 26 ust. 2 PRD",
+   "summary": "Nieustąpienie pierwszeństwa pieszemu przy skręcaniu w drogę poprzeczną na skrzyżowaniu",
+   "url": null,
+   "effect": "Recydywa: 3000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500 zł. Mandat w recydywie: 3000 zł. Punkty karne: 12. Kod czynu: B 05.",
+   "keywords": [
+    "nieustąpienie",
+    "pierwszeństwa",
+    "pieszemu",
+    "skręcaniu",
+    "drogę",
+    "poprzeczną",
+    "skrzyżowaniu",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86 §1a KW",
+   "summary": "Niezachowanie należytej ostrożności i spowodowanie zagrożenia z naruszeniem czynności narządu ciała przez kierującego po",
+   "url": null,
+   "effect": "Recydywa: 3000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500 zł. Mandat w recydywie: 3000 zł. Punkty karne: 12. Kod czynu: A 02.",
+   "keywords": [
+    "niezachowanie",
+    "należytej",
+    "ostrożności",
+    "spowodowanie",
+    "zagrożenia",
+    "naruszeniem",
+    "czynności",
+    "narządu",
+    "ciała",
+    "kierującego",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86c § 1 KW",
+   "summary": "Celowe wprowadzenie pojazdu mechanicznego w poślizg (drift)",
+   "url": null,
+   "effect": "Recydywa: 3000–5000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500–5000 zł. Mandat w recydywie: 3000–5000 zł. Punkty karne: 10. Kod czynu: A 10.",
+   "keywords": [
+    "celowe",
+    "wprowadzenie",
+    "pojazdu",
+    "poślizg",
+    "drift",
+    "utrata styczności",
+    "celowo",
+    "86c",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86b § 1 pkt 1 KW w zw. z art. 23 ust. 1 pkt 3 PRD",
+   "summary": "Nieustąpienie pierwszeństwa pieszemu przy cofaniu pojazdem",
+   "url": null,
+   "effect": "Recydywa: 3000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500 zł. Mandat w recydywie: 3000 zł. Punkty karne: 10. Kod czynu: B 06.",
+   "keywords": [
+    "nieustąpienie",
+    "pierwszeństwa",
+    "pieszemu",
+    "cofaniu",
+    "pojazdem",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86b § 1 pkt 5 KW w zw. z art. 26 ust. 3 pkt 3 PRD",
+   "summary": "Naruszenie zakazu jazdy wzdłuż po chodniku lub przejściu dla pieszych",
+   "url": null,
+   "effect": "Recydywa: 3000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500 zł. Mandat w recydywie: 3000 zł. Punkty karne: 8. Kod czynu: B 07.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "jazdy",
+    "wzdłuż",
+    "chodniku",
+    "przejściu",
+    "pieszych",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86b § 1 pkt 1 KW w zw. z art. 17 ust. 2 PRD",
+   "summary": "Nieustąpienie pierwszeństwa pieszemu podczas włączania się do ruchu",
+   "url": null,
+   "effect": "Recydywa: 3000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500 zł. Mandat w recydywie: 3000 zł. Punkty karne: 8. Kod czynu: B 09.",
+   "keywords": [
+    "nieustąpienie",
+    "pierwszeństwa",
+    "pieszemu",
+    "podczas",
+    "włączania",
+    "ruchu",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86b § 1 pkt 1 KW w zw. z art. 11 ust. 5 PRD",
+   "summary": "Nieustąpienie pierwszeństwa pieszemu przez kierującego pojazdem w strefie zamieszkania",
+   "url": null,
+   "effect": "Recydywa: 3000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500 zł. Mandat w recydywie: 3000 zł. Punkty karne: 8. Kod czynu: B 10.",
+   "keywords": [
+    "nieustąpienie",
+    "pierwszeństwa",
+    "pieszemu",
+    "kierującego",
+    "pojazdem",
+    "strefie",
+    "zamieszkania",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 86b § 1 pkt 1 KW w zw. z art. 26 ust. 4 albo ust. 5 PRD",
+   "summary": "Nieustąpienie pierwszeństwa pieszemu przy przejeżdżaniu przez chodnik/drogę dla pieszych albo na placu",
+   "url": null,
+   "effect": "Recydywa: 3000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1500 zł. Mandat w recydywie: 3000 zł. Punkty karne: 8. Kod czynu: B 08.",
+   "keywords": [
+    "nieustąpienie",
+    "pierwszeństwa",
+    "pieszemu",
+    "przejeżdżaniu",
+    "chodnik",
+    "drogę",
+    "pieszych",
+    "placu",
+    "pieszy",
+    "przejście",
+    "zebra",
+    "pasy dla pieszych",
+    "pies",
+    "psa",
+    "zwierzę",
+    "smycz",
+    "kaganiec",
+    "wyprowadzanie psa",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92b KW w zw. z § 23 ust. 1-3 ZSD",
+   "summary": "Naruszenie zakazu wyprzedzania pojazdu określonego znakiem drogowym (pojazd mechaniczny)",
+   "url": null,
+   "effect": "Recydywa: 2000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1000 zł. Mandat w recydywie: 2000 zł. Punkty karne: 15. Kod czynu: F 08.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "wyprzedzania",
+    "pojazdu",
+    "określonego",
+    "znakiem",
+    "drogowym",
+    "pojazd",
+    "mechaniczny",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92a §2 KW w zw. z art. 20 lub art. 31 ust. 1 pkt 1 PRD albo § 27, § 31 lub § 81 ust. 1 i 2 ZSD",
+   "summary": "Przekroczenie dopuszczalnej prędkości o 41-50 km/h",
+   "url": null,
+   "effect": "Recydywa: 2000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1000 zł. Mandat w recydywie: 2000 zł. Punkty karne: 11. Kod czynu: E 04.",
+   "keywords": [
+    "przekroczenie",
+    "dopuszczalnej",
+    "prędkości",
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92b KW w zw. z art. 27 ust. 4 PRD",
+   "summary": "Naruszenie zakazu wyprzedzania na przejeździe dla rowerzystów i bezpośrednio przed nim (pojazd mechaniczny)",
+   "url": null,
+   "effect": "Recydywa: 2000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1000 zł. Mandat w recydywie: 2000 zł. Punkty karne: 10. Kod czynu: F 02.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "wyprzedzania",
+    "przejeździe",
+    "rowerzystów",
+    "bezpośrednio",
+    "przed",
+    "pojazd",
+    "nim",
+    "mechaniczny",
+    "rower",
+    "rowerzysta",
+    "cyklista",
+    "jednoślad",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92b KW w zw. z art. 28 ust. 3 pkt 3 PRD",
+   "summary": "Naruszenie zakazu wyprzedzania na przejeździe kolejowym i bezpośrednio przed nim (pojazd mechaniczny)",
+   "url": null,
+   "effect": "Recydywa: 2000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1000 zł. Mandat w recydywie: 2000 zł. Punkty karne: 10. Kod czynu: F 06.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "wyprzedzania",
+    "przejeździe",
+    "kolejowym",
+    "bezpośrednio",
+    "przed",
+    "pojazd",
+    "nim",
+    "mechaniczny",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92b KW w zw. z art. 24 ust. 7 pkt 3 PRD",
+   "summary": "Naruszenie zakazu wyprzedzania na skrzyżowaniu (poza okrężnym/kierowanym) (pojazd mechaniczny)",
+   "url": null,
+   "effect": "Recydywa: 2000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1000 zł. Mandat w recydywie: 2000 zł. Punkty karne: 10. Kod czynu: F 05.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "wyprzedzania",
+    "skrzyżowaniu",
+    "poza",
+    "okrężnym",
+    "kierowanym",
+    "pojazd",
+    "mechaniczny",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92b KW w zw. z art. 24 ust. 7 pkt 2 PRD",
+   "summary": "Naruszenie zakazu wyprzedzania na zakręcie oznaczonym znakami ostrzegawczymi (pojazd mechaniczny)",
+   "url": null,
+   "effect": "Recydywa: 2000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1000 zł. Mandat w recydywie: 2000 zł. Punkty karne: 10. Kod czynu: F 04.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "wyprzedzania",
+    "zakręcie",
+    "oznaczonym",
+    "znakami",
+    "ostrzegawczymi",
+    "pojazd",
+    "mechaniczny",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92b KW w zw. z art. 24 ust. 7 pkt 1 PRD",
+   "summary": "Naruszenie zakazu wyprzedzania pojazdu silnikowego przy dojeżdżaniu do wierzchołka wzniesienia (pojazd mechaniczny)",
+   "url": null,
+   "effect": "Recydywa: 2000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1000 zł. Mandat w recydywie: 2000 zł. Punkty karne: 10. Kod czynu: F 03.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "wyprzedzania",
+    "pojazdu",
+    "silnikowego",
+    "dojeżdżaniu",
+    "wierzchołka",
+    "wzniesienia",
+    "pojazd",
+    "mechaniczny",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92b KW w zw. z art. 24 ust. 11 PRD",
+   "summary": "Naruszenie zakazu wyprzedzania pojazdu uprzywilejowanego na obszarze zabudowanym (pojazd mechaniczny)",
+   "url": null,
+   "effect": "Recydywa: 2000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1000 zł. Mandat w recydywie: 2000 zł. Punkty karne: 10. Kod czynu: F 09.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "wyprzedzania",
+    "pojazdu",
+    "uprzywilejowanego",
+    "obszarze",
+    "zabudowanym",
+    "pojazd",
+    "mechaniczny",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92b KW w zw. z art. 28 ust. 6 PRD",
+   "summary": "Naruszenie zakazu wyprzedzania przy przejeżdżaniu przez tory tramwajowe lub bezpośrednio przed nimi (pojazd mechaniczny)",
+   "url": null,
+   "effect": "Recydywa: 2000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1000 zł. Mandat w recydywie: 2000 zł. Punkty karne: 10. Kod czynu: F 07.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "wyprzedzania",
+    "przejeżdżaniu",
+    "tory",
+    "tramwajowe",
+    "bezpośrednio",
+    "przed",
+    "nimi",
+    "pojazd",
+    "mechaniczny",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92b KW w zw. z art. 24 ust. 13 PRD",
+   "summary": "Naruszenie zakazu wyprzedzania na autostradzie/ekspresowej o dwóch pasach ruchu (pojazd kat. N2 lub N3)",
+   "url": null,
+   "effect": "Recydywa: 2000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1000 zł. Mandat w recydywie: 2000 zł. Punkty karne: 8. Kod czynu: F 12.",
+   "keywords": [
+    "naruszenie",
+    "zakazu",
+    "wyprzedzania",
+    "autostradzie",
+    "ekspresowej",
+    "dwóch",
+    "pasach",
+    "ruchu",
+    "pojazd",
+    "kat",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92b KW w zw. z art. 24 ust. 3-5 PRD",
+   "summary": "Wyprzedzanie pojazdu z niewłaściwej strony",
+   "url": null,
+   "effect": "Recydywa: 2000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 1000 zł. Mandat w recydywie: 2000 zł. Punkty karne: 8. Kod czynu: F 01.",
+   "keywords": [
+    "wyprzedzanie",
+    "niewłaściwej strony",
+    "92b",
+    "24",
+    "f 01",
+    "pojazdu",
+    "niewłaściwej",
+    "strony",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92a §2 KW w zw. z art. 20 lub art. 31 ust. 1 pkt 1 PRD albo § 27, § 31 lub § 81 ust. 1 i 2 ZSD",
+   "summary": "Przekroczenie dopuszczalnej prędkości o 31-40 km/h",
+   "url": null,
+   "effect": "Recydywa: 1600 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 800 zł. Mandat w recydywie: 1600 zł. Punkty karne: 9. Kod czynu: E 05.",
+   "keywords": [
+    "przekroczenie",
+    "dopuszczalnej",
+    "prędkości",
+    "prędkość",
+    "szybkość",
+    "fotoradar",
+    "radar",
+    "km/h",
+    "za szybko",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "recydywa",
+   "article": "art. 92 § 2 KW w zw. z § 109 ust. 1 i 3 ZSD",
+   "summary": "Niezastosowanie się, w celu uniknięcia kontroli, do sygnału osoby uprawnionej nakazującego zatrzymanie pojazdu",
+   "url": null,
+   "effect": "Recydywa: 40–5000 zł",
+   "effect_note": "Grzywna nakładana mandatem w przypadku recydywy (ponowne popełnienie tego samego wykroczenia w ciągu 2 lat od ukarania).",
+   "description": "Mandat podstawowy: 20–5000 zł. Mandat w recydywie: 40–5000 zł. Punkty karne: 15. Kod czynu: C 01.",
+   "keywords": [
+    "niezastosowanie",
+    "celu",
+    "uniknięcia",
+    "kontroli",
+    "sygnału",
+    "osoby",
+    "uprawnionej",
+    "nakazującego",
+    "zatrzymanie",
+    "pojazdu",
+    "parkowanie",
+    "parking",
+    "postój",
+    "zaparkował",
+    "mandat parkingowy",
+    "recydywa",
+    "recydywista",
+    "ponownie",
+    "powtórnie"
+   ],
+   "source": "Taryfikator (wykaz grzywien) — kolumna „recydywa”."
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E1",
+    "Niemcy",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E1",
+   "country": "Niemcy"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E2",
+    "Francja",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E2",
+   "country": "Francja"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E3",
+    "Włochy",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E3",
+   "country": "Włochy"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E4",
+    "Holandia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark",
+    "niderlandy"
+   ],
+   "kod": "E4",
+   "country": "Holandia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E5",
+    "Szwecja",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E5",
+   "country": "Szwecja"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E6",
+    "Belgia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E6",
+   "country": "Belgia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E7",
+    "Węgry",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E7",
+   "country": "Węgry"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E8",
+    "Czechy",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark",
+    "republika czeska"
+   ],
+   "kod": "E8",
+   "country": "Czechy"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E9",
+    "Hiszpania",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E9",
+   "country": "Hiszpania"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E10",
+    "Serbia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark",
+    "jugosławia"
+   ],
+   "kod": "E10",
+   "country": "Serbia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E11",
+    "Wielka Brytania",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark",
+    "anglia",
+    "uk",
+    "gb",
+    "zjednoczone królestwo",
+    "brytania"
+   ],
+   "kod": "E11",
+   "country": "Wielka Brytania"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E12",
+    "Austria",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E12",
+   "country": "Austria"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E13",
+    "Luksemburg",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E13",
+   "country": "Luksemburg"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E14",
+    "Szwajcaria",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E14",
+   "country": "Szwajcaria"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E16",
+    "Norwegia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E16",
+   "country": "Norwegia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E17",
+    "Finlandia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E17",
+   "country": "Finlandia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E18",
+    "Dania",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E18",
+   "country": "Dania"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E19",
+    "Rumunia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E19",
+   "country": "Rumunia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E20",
+    "Polska",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E20",
+   "country": "Polska"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E21",
+    "Portugalia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E21",
+   "country": "Portugalia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E22",
+    "Rosja",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark",
+    "federacja rosyjska"
+   ],
+   "kod": "E22",
+   "country": "Rosja"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E23",
+    "Grecja",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E23",
+   "country": "Grecja"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E24",
+    "Irlandia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E24",
+   "country": "Irlandia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E25",
+    "Chorwacja",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E25",
+   "country": "Chorwacja"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E26",
+    "Słowenia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E26",
+   "country": "Słowenia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E27",
+    "Słowacja",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E27",
+   "country": "Słowacja"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E28",
+    "Białoruś",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E28",
+   "country": "Białoruś"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E29",
+    "Estonia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E29",
+   "country": "Estonia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E30",
+    "Mołdawia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E30",
+   "country": "Mołdawia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E31",
+    "Bośnia i Hercegowina",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E31",
+   "country": "Bośnia i Hercegowina"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E32",
+    "Łotwa",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E32",
+   "country": "Łotwa"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E34",
+    "Bułgaria",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E34",
+   "country": "Bułgaria"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E35",
+    "Kazachstan",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E35",
+   "country": "Kazachstan"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E36",
+    "Litwa",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E36",
+   "country": "Litwa"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E37",
+    "Turcja",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E37",
+   "country": "Turcja"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E38",
+    "Azerbejdżan",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E38",
+   "country": "Azerbejdżan"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E39",
+    "Macedonia Północna",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark",
+    "macedonia"
+   ],
+   "kod": "E39",
+   "country": "Macedonia Północna"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E42",
+    "Unia Europejska",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark",
+    "ue",
+    "eu"
+   ],
+   "kod": "E42",
+   "country": "Unia Europejska"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E43",
+    "Japonia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E43",
+   "country": "Japonia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E45",
+    "Australia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E45",
+   "country": "Australia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E46",
+    "Ukraina",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E46",
+   "country": "Ukraina"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E47",
+    "Republika Południowej Afryki",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark",
+    "rpa",
+    "south africa"
+   ],
+   "kod": "E47",
+   "country": "Republika Południowej Afryki"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E48",
+    "Nowa Zelandia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E48",
+   "country": "Nowa Zelandia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E49",
+    "Cypr",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E49",
+   "country": "Cypr"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E50",
+    "Malta",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E50",
+   "country": "Malta"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E51",
+    "Korea Południowa",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark",
+    "korea"
+   ],
+   "kod": "E51",
+   "country": "Korea Południowa"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E52",
+    "Malezja",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E52",
+   "country": "Malezja"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E53",
+    "Tajlandia",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E53",
+   "country": "Tajlandia"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E54",
+    "Albania",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E54",
+   "country": "Albania"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E56",
+    "Czarnogóra",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E56",
+   "country": "Czarnogóra"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E57",
+    "San Marino",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E57",
+   "country": "San Marino"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E58",
+    "Tunezja",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E58",
+   "country": "Tunezja"
+  },
+  {
+   "category": "kody-homologacji",
+   "keywords": [
+    "E62",
+    "Egipt",
+    "homologacja",
+    "kod homologacji",
+    "znak homologacji",
+    "e-mark"
+   ],
+   "kod": "E62",
+   "country": "Egipt"
+  },
+  {
+   "category": "reflektory",
+   "section": "Reflektory — światła przednie"
+  },
+  {
+   "category": "reflektory",
+   "kod": "A",
+   "opis": "Światła pozycyjne",
+   "keywords": [
+    "A",
+    "Pozycyjne",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "pozycyjne",
+    "postojowe"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "B",
+   "opis": "Przednie przeciwmgłowe",
+   "keywords": [
+    "B",
+    "Przeciwmgłowe przednie",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "przeciwmgłowe",
+    "mgła",
+    "przednie"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "C",
+   "opis": "Światła mijania",
+   "keywords": [
+    "C",
+    "Mijania",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "mijania",
+    "krótkie"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "R",
+   "opis": "Światła drogowe",
+   "keywords": [
+    "R",
+    "Drogowe",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "drogowe",
+    "długie"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "CR",
+   "opis": "Mijania oraz drogowe",
+   "keywords": [
+    "CR",
+    "Mijania i Drogowe",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "mijania",
+    "drogowe"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "C/R",
+   "opis": "Mijania albo drogowe",
+   "keywords": [
+    "C/R",
+    "Mijania lub Drogowe",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "mijania",
+    "drogowe"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "HC",
+   "opis": "Halogenowe światła mijania",
+   "keywords": [
+    "HC",
+    "Halogenowe Mijania",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "halogen",
+    "halogenowe",
+    "mijania"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "HR",
+   "opis": "Halogenowe światła drogowe",
+   "keywords": [
+    "HR",
+    "Halogenowe Drogowe",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "halogen",
+    "halogenowe",
+    "drogowe"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "HCR",
+   "opis": "Halogenowe: mijania oraz drogowe",
+   "keywords": [
+    "HCR",
+    "Halogenowe Mijania i Drogowe",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "halogen",
+    "halogenowe",
+    "mijania",
+    "drogowe"
+   ],
+   "note": "Oznacza reflektor z oddzielnymi źródłami światła dla mijania i drogowych — obie funkcje mogą świecić w tym samym czasie."
+  },
+  {
+   "category": "reflektory",
+   "kod": "HC/R",
+   "opis": "Halogenowe: mijania albo drogowe",
+   "keywords": [
+    "HC/R",
+    "Halogenowe Mijania lub Drogowe",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "halogen",
+    "halogenowe",
+    "mijania",
+    "drogowe"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "DC",
+   "opis": "Ksenonowe światła mijania",
+   "keywords": [
+    "DC",
+    "Ksenonowe Mijania",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "ksenon",
+    "ksenonowe",
+    "xenon",
+    "mijania"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "DR",
+   "opis": "Ksenonowe światła drogowe",
+   "keywords": [
+    "DR",
+    "Ksenonowe Drogowe",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "ksenon",
+    "ksenonowe",
+    "xenon",
+    "drogowe"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "DC/R",
+   "opis": "Ksenonowe: mijania albo drogowe",
+   "keywords": [
+    "DC/R",
+    "Ksenonowe Mijania lub Drogowe",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "ksenon",
+    "ksenonowe",
+    "xenon",
+    "mijania",
+    "drogowe"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "RL",
+   "opis": "Światła do jazdy dziennej",
+   "keywords": [
+    "RL",
+    "Do jazdy dziennej",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "jazda dzienna",
+    "dzienne",
+    "drl",
+    "światła do jazdy dziennej"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "X",
+   "opis": "Adaptacyjne światła mijania",
+   "keywords": [
+    "X",
+    "Adaptacyjne Światła Mijania",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "adaptacyjne",
+    "afs",
+    "doświetlanie"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "K",
+   "opis": "Doświetlanie zakrętów",
+   "keywords": [
+    "K",
+    "Doświetlające Zakręty",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "doświetlające",
+    "zakręty",
+    "zakręt"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "Strzałka w lewo",
+   "opis": "Ruch Lewostronny",
+   "keywords": [
+    "Strzałka w lewo",
+    "Ruch Lewostronny",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "strzałka",
+    "lewostronny",
+    "ruch lewostronny"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "Strzałka w prawo i lewo",
+   "opis": "Ruch lewostronny lub prawostronny",
+   "keywords": [
+    "Strzałka w prawo i lewo",
+    "Ruch lewostronny lub prawostronny",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "strzałka",
+    "lewostronny",
+    "prawostronny"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "Strzałka w prawo lub brak strzałki",
+   "opis": "Ruch Prawostronny",
+   "keywords": [
+    "Strzałka w prawo lub brak strzałki",
+    "Ruch Prawostronny",
+    "reflektor",
+    "oznaczenie reflektora",
+    "światła",
+    "strzałka",
+    "prawostronny",
+    "ruch prawostronny",
+    "brak strzałki"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "section": "Pozostałe światła i lampy"
+  },
+  {
+   "category": "reflektory",
+   "kod": "A",
+   "opis": "Postojowe",
+   "keywords": [
+    "A",
+    "Postojowe",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "postojowe",
+    "parkingowe"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "AR",
+   "opis": "Cofania",
+   "keywords": [
+    "AR",
+    "Cofania",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "cofania",
+    "wsteczne",
+    "cofanie"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "B",
+   "opis": "Przednie przeciwmgłowe",
+   "keywords": [
+    "B",
+    "Przednie przeciwmgłowe",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "przeciwmgłowe",
+    "mgła",
+    "przednie"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "IA",
+   "opis": "Odblaskowe",
+   "keywords": [
+    "IA",
+    "Odblaskowe",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "odblaskowe",
+    "odblask",
+    "reflektor odblaskowy"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "R",
+   "opis": "Pozycyjne tylne",
+   "keywords": [
+    "R",
+    "Pozycyjne tylne",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "pozycyjne",
+    "tylne"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "RL",
+   "opis": "Do jazdy dziennej",
+   "keywords": [
+    "RL",
+    "Do jazdy dziennej",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "jazda dzienna",
+    "dzienne",
+    "drl"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "L",
+   "opis": "Podświetlenie tablicy rejestracyjnej",
+   "keywords": [
+    "L",
+    "Podświetlenie tablicy rejestracyjnej",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "tablica rejestracyjna",
+    "podświetlenie tablicy",
+    "oświetlenie tablicy"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "S1, S2, S3",
+   "opis": "Hamowania/Stop",
+   "keywords": [
+    "S1, S2, S3",
+    "Hamowania/Stop",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "hamowania",
+    "stop",
+    "stopu",
+    "światło stop"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "SM1, SM2",
+   "opis": "Obrysowe boczne",
+   "keywords": [
+    "SM1, SM2",
+    "Obrysowe boczne",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "obrysowe",
+    "boczne",
+    "obrysówki"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "1, 1a, 1b",
+   "opis": "Kierunkowskazy przednie",
+   "keywords": [
+    "1, 1a, 1b",
+    "Kierunkowskazy przednie",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "kierunkowskazy",
+    "migacze",
+    "przednie"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "2a, 2b",
+   "opis": "Kierunkowskazy tylne",
+   "keywords": [
+    "2a, 2b",
+    "Kierunkowskazy tylne",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "kierunkowskazy",
+    "migacze",
+    "tylne"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "F",
+   "opis": "Przeciwmgłowe tylne",
+   "keywords": [
+    "F",
+    "Przeciwmgłowe tylne",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "przeciwmgłowe",
+    "mgła",
+    "tylne"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "5, 6",
+   "opis": "Kierunkowskazy boczne",
+   "keywords": [
+    "5, 6",
+    "Kierunkowskazy boczne",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "kierunkowskazy",
+    "migacze",
+    "boczne"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "Strzałka w prawo",
+   "opis": "Prawa strona montażu",
+   "keywords": [
+    "Strzałka w prawo",
+    "Prawa strona montażu",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "strzałka",
+    "montaż",
+    "prawa strona"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "Strzałka w lewo",
+   "opis": "Lewa strona montażu",
+   "keywords": [
+    "Strzałka w lewo",
+    "Lewa strona montażu",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "strzałka",
+    "montaż",
+    "lewa strona"
+   ]
+  },
+  {
+   "category": "reflektory",
+   "kod": "Strzałka w obie strony",
+   "opis": "Montaż obustronny",
+   "keywords": [
+    "Strzałka w obie strony",
+    "Montaż obustronny",
+    "oznaczenie lampy",
+    "światła",
+    "lampa",
+    "strzałka",
+    "montaż",
+    "obustronny",
+    "obie strony"
    ]
   }
  ]
