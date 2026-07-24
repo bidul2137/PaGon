@@ -66,7 +66,8 @@
 
   function pasuje(t) {
     var nazwa = (t.querySelector(".prz-tile-name") || {}).textContent || "";
-    return dopasuj(bezOgonkow(nazwa));
+    var idx = t.getAttribute("data-szukaj") || "";
+    return dopasuj(bezOgonkow(nazwa + " " + idx));
   }
 
   function odswiez() {

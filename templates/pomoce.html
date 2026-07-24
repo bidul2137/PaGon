@@ -3,8 +3,8 @@
 
 {% block content %}
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/przepisy.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/pomoce.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/pomoce.css') }}">
 
 <div class="tar-page">
 
@@ -89,6 +89,7 @@
         {% for kat in kategorie if kat.grupa != 'spb' %}
           <a href="{% if kat.url %}{{ kat.url }}{% else %}{{ url_for('pomoce', kategoria=kat.slug) }}{% endif %}"
              class="prz-tile pom-tile" data-slug="{{ kat.slug }}"
+             data-szukaj="{{ (kafelki_szukaj|default({})).get(kat.slug, '') }}"
              {% if kat.url and (kat.url.startswith('http') or '/pdf/' in kat.url) %}target="_blank" rel="noopener noreferrer"{% endif %}>
             <button type="button" class="prz-star" data-slug="{{ kat.slug }}"
                     aria-label="Dodaj {{ kat.nazwa }} do ulubionych" aria-pressed="false">
@@ -123,7 +124,7 @@
             {% if l.section %}
             <li class="prz-rekord pom-kod-head" data-szukaj=" ">{{ l.section }}</li>
             {% elif l.kod %}
-            <li class="prz-rekord pom-rekord pom-kod-row{% if l.opis %} pom-kod-row--wide{% endif %}" data-szukaj="{{ szukaj_txt }}">
+            <li class="prz-rekord pom-rekord pom-kod-row{% if l.wide %} pom-kod-row--wide{% endif %}{% if l.sub %} pom-kod-sub{% endif %}" data-szukaj="{{ szukaj_txt }}">
               <span class="pom-kod">{{ l.kod }}</span>
               <span class="pom-kod-kraj">{{ l.country or l.opis }}</span>
               {% if l.note %}<span class="pom-kod-note">{{ l.note }}</span>{% endif %}
@@ -216,5 +217,77 @@
   </main>
 </div>
 
-<script src="{{ url_for('static', filename='js/pomoce.js') }}" defer></script>
+<script src="{{ static_v('js/pomoce.js') }}" defer></script>
+
+<!-- Wyszukiwarka „live" wpisana bezpośrednio w stronę (HTML nie jest cache'owany),
+     dzięki czemu filtrowanie działa niezależnie od wersji pomoce.js w cache.
+     Strona kafelków: szuka po NAZWIE kafelka (+ zawartości). Podstrona kategorii:
+     szuka po pozycjach listy (kod, nazwa) via data-szukaj. -->
+<script>
+(function () {
+  var input = document.querySelector(".tar-searchbar input[name='q']");
+  if (!input) return;
+  var tilesBox = document.getElementById("pom-tiles");
+  var lista = document.querySelector(".prz-lista");
+  var brakTiles = document.getElementById("pom-brak");
+  var brakLista = document.getElementById("pom-brak-lista");
+  var tiles = tilesBox ? [].slice.call(tilesBox.querySelectorAll(".prz-tile")) : [];
+  var rows = lista ? [].slice.call(lista.querySelectorAll(".prz-rekord")) : [];
+  // Lista kodów (kody ograniczeń / homologacja / oznaczenia świateł): zamiast
+  // chować pozycje, podświetlamy trafienia i przewijamy do pierwszego.
+  var trybKodow = !!(lista && lista.querySelector(".pom-kod-row"));
+  function bez(s) {
+    var m = { "ą":"a","ć":"c","ę":"e","ł":"l","ń":"n","ó":"o","ś":"s","ż":"z","ź":"z" };
+    return String(s).toLowerCase().replace(/[ąćęłńóśźż]/g, function (c) { return m[c]; });
+  }
+  function dopasuj(f, hay) {
+    if (!f) return true;
+    if (f.length <= 3) {
+      return new RegExp("(?:^|[^0-9a-z])" + f.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "(?![0-9a-z])").test(hay);
+    }
+    return hay.indexOf(f) !== -1;
+  }
+  var pierwszy = null;
+  function filtruj() {
+    var f = bez(input.value.trim());
+    var vt = 0, vr = 0;
+    pierwszy = null;
+    tiles.forEach(function (t) {
+      var nazwa = (t.querySelector(".prz-tile-name") || {}).textContent || "";
+      var idx = t.getAttribute("data-szukaj") || "";
+      var ok = dopasuj(f, bez(nazwa + " " + idx));
+      t.hidden = !ok; if (ok) vt++;
+    });
+    if (trybKodow) {
+      // podświetl trafienia, nie chowaj reszty
+      rows.forEach(function (r) {
+        var ok = !!f && dopasuj(f, bez(r.getAttribute("data-szukaj") || r.textContent || ""));
+        r.classList.toggle("pom-kod-hit", ok);
+        if (ok && !pierwszy) pierwszy = r;
+      });
+      if (brakLista) brakLista.hidden = true;
+    } else {
+      rows.forEach(function (r) {
+        var ok = dopasuj(f, bez(r.getAttribute("data-szukaj") || r.textContent || ""));
+        r.hidden = !ok; if (ok) vr++;
+      });
+      if (brakLista) brakLista.hidden = !(rows.length && vr === 0);
+    }
+    if (brakTiles) brakTiles.hidden = !(tiles.length && vt === 0);
+  }
+  var scrollT = null;
+  function przewin() {
+    if (!trybKodow || !pierwszy) return;
+    if (scrollT) clearTimeout(scrollT);
+    var cel = pierwszy;
+    scrollT = setTimeout(function () {
+      cel.scrollIntoView({ behavior: "smooth", block: "center" });
+    }, 220);
+  }
+  input.addEventListener("input", function () { filtruj(); przewin(); });
+  var form = input.form;
+  if (form) form.addEventListener("submit", function (e) { e.preventDefault(); filtruj(); przewin(); });
+  filtruj();
+})();
+</script>
 {% endblock %}

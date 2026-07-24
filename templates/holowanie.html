@@ -3,9 +3,9 @@
 
 {% block content %}
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/przepisy.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/kategorie.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/holowanie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/holowanie.css') }}">
 
 <div class="tar-page kpj-page hol-page">
 
@@ -95,5 +95,5 @@
 
 </div>
 
-<script src="{{ url_for('static', filename='js/holowanie.js') }}" defer></script>
+<script src="{{ static_v('js/holowanie.js') }}" defer></script>
 {% endblock %}

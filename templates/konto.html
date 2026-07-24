@@ -3,7 +3,7 @@
 
 {% block content %}
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/konto.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/konto.css') }}">
 
 <div class="konto-page">
   <div class="screen">
@@ -191,5 +191,5 @@
   </div>
 </div>
 
-<script src="{{ url_for('static', filename='js/konto.js') }}" defer></script>
+<script src="{{ static_v('js/konto.js') }}" defer></script>
 {% endblock %}

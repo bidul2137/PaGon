@@ -3,9 +3,9 @@
 
 {% block content %}
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/przepisy.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/kategorie.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/kalkulator.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
 
 <div class="tar-page kpj-page">
 
@@ -91,5 +91,5 @@
 </div>
 
 <script id="kal-dane" type="application/json">{{ przedzialy|tojson }}</script>
-<script src="{{ url_for('static', filename='js/kalkulator.js') }}" defer></script>
+<script src="{{ static_v('js/kalkulator.js') }}" defer></script>
 {% endblock %}

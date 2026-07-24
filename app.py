@@ -212,7 +212,9 @@ def pomoce():
             hay = bez_ogonkow(" ".join([
                 r.get("title", ""), r.get("description", ""),
                 r.get("tag", ""), r.get("article", ""), r.get("summary", ""),
-                r.get("effect", ""), " ".join(r.get("keywords", [])),
+                r.get("effect", ""), r.get("kod", ""), r.get("country", ""),
+                r.get("opis", ""), r.get("note", ""), r.get("list_intro", ""),
+                " ".join(r.get("keywords", [])),
             ]))
             # krotkie zapytania (np. "uk", "zea") dopasowujemy jako cale slowo,
             # zeby nie trafialy w srodek innych wyrazow (Luksemburg, zealand)
@@ -238,9 +240,27 @@ def pomoce():
             linki=[r for r in linki if r.get("category") == kategoria_slug],
         )
 
+    # Indeks wyszukiwania dla kafelkow: dla kazdej kategorii sklejamy tekst
+    # z jej linkow (nazwy, kody, opisy, keywords), zeby wyszukiwarka na stronie
+    # kafelkow znajdowala kafelek takze po jego zawartosci (np. "okulary",
+    # "ksenon", kod "20.01" -> odpowiedni kafelek).
+    kafelki_szukaj = {}
+    for r in linki:
+        c = r.get("category")
+        if not c:
+            continue
+        czesci = [
+            r.get("title", ""), r.get("summary", ""), r.get("tag", ""),
+            r.get("kod", ""), r.get("country", ""), r.get("opis", ""),
+            r.get("article", ""), r.get("effect", ""), r.get("note", ""),
+            " ".join(r.get("keywords", [])),
+        ]
+        kafelki_szukaj.setdefault(c, []).append(" ".join(p for p in czesci if p))
+    kafelki_szukaj = {k: " ".join(v) for k, v in kafelki_szukaj.items()}
+
     return render_template(
         "pomoce.html", widok="kafelki", kategorie=kategorie,
-        kategoria=None, query="", linki=[],
+        kategoria=None, query="", linki=[], kafelki_szukaj=kafelki_szukaj,
     )
 
 

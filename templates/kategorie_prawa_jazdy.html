@@ -3,8 +3,8 @@
 
 {% block content %}
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/przepisy.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
 
 {% set kpj_ikony = {
   "motorower": '<svg class="kpj-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.8" cy="16.6" r="2.6"/><circle cx="18.2" cy="16.6" r="2.6"/><path d="M8.4 16.6h5.2l1.8-6.4h-3"/><path d="M15.4 10.2l2.8 6.4"/><path d="M14.6 8.6h3.2"/></svg>',
@@ -125,5 +125,5 @@
 
 <script id="kpj-dane" type="application/json">{{ kategorie|tojson }}</script>
 <script id="kpj-kody-dane" type="application/json">{{ kody|tojson }}</script>
-<script src="{{ url_for('static', filename='js/kategorie.js') }}" defer></script>
+<script src="{{ static_v('js/kategorie.js') }}" defer></script>
 {% endblock %}

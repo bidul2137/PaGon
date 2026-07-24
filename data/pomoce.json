@@ -4363,7 +4363,8 @@
     "światła",
     "pozycyjne",
     "postojowe"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4378,7 +4379,8 @@
     "przeciwmgłowe",
     "mgła",
     "przednie"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4392,7 +4394,8 @@
     "światła",
     "mijania",
     "krótkie"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4406,7 +4409,8 @@
     "światła",
     "drogowe",
     "długie"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4420,7 +4424,8 @@
     "światła",
     "mijania",
     "drogowe"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4434,7 +4439,8 @@
     "światła",
     "mijania",
     "drogowe"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4449,7 +4455,8 @@
     "halogen",
     "halogenowe",
     "mijania"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4464,7 +4471,8 @@
     "halogen",
     "halogenowe",
     "drogowe"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4481,7 +4489,8 @@
     "mijania",
     "drogowe"
    ],
-   "note": "Oznacza reflektor z oddzielnymi źródłami światła dla mijania i drogowych — obie funkcje mogą świecić w tym samym czasie."
+   "note": "Oznacza reflektor z oddzielnymi źródłami światła dla mijania i drogowych — obie funkcje mogą świecić w tym samym czasie.",
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4497,7 +4506,8 @@
     "halogenowe",
     "mijania",
     "drogowe"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4513,7 +4523,8 @@
     "ksenonowe",
     "xenon",
     "mijania"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4529,7 +4540,8 @@
     "ksenonowe",
     "xenon",
     "drogowe"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4546,7 +4558,8 @@
     "xenon",
     "mijania",
     "drogowe"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4562,7 +4575,8 @@
     "dzienne",
     "drl",
     "światła do jazdy dziennej"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4577,7 +4591,8 @@
     "adaptacyjne",
     "afs",
     "doświetlanie"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4592,7 +4607,8 @@
     "doświetlające",
     "zakręty",
     "zakręt"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4607,7 +4623,8 @@
     "strzałka",
     "lewostronny",
     "ruch lewostronny"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4622,7 +4639,8 @@
     "strzałka",
     "lewostronny",
     "prawostronny"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4638,7 +4656,8 @@
     "prawostronny",
     "ruch prawostronny",
     "brak strzałki"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4656,7 +4675,8 @@
     "lampa",
     "postojowe",
     "parkingowe"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4671,7 +4691,8 @@
     "cofania",
     "wsteczne",
     "cofanie"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4686,7 +4707,8 @@
     "przeciwmgłowe",
     "mgła",
     "przednie"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4701,7 +4723,8 @@
     "odblaskowe",
     "odblask",
     "reflektor odblaskowy"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4715,7 +4738,8 @@
     "lampa",
     "pozycyjne",
     "tylne"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4730,7 +4754,8 @@
     "jazda dzienna",
     "dzienne",
     "drl"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4745,7 +4770,8 @@
     "tablica rejestracyjna",
     "podświetlenie tablicy",
     "oświetlenie tablicy"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4761,7 +4787,8 @@
     "stop",
     "stopu",
     "światło stop"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4776,7 +4803,8 @@
     "obrysowe",
     "boczne",
     "obrysówki"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4791,7 +4819,8 @@
     "kierunkowskazy",
     "migacze",
     "przednie"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4806,7 +4835,8 @@
     "kierunkowskazy",
     "migacze",
     "tylne"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4821,7 +4851,8 @@
     "przeciwmgłowe",
     "mgła",
     "tylne"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4836,7 +4867,8 @@
     "kierunkowskazy",
     "migacze",
     "boczne"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4851,7 +4883,8 @@
     "strzałka",
     "montaż",
     "prawa strona"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4866,7 +4899,8 @@
     "strzałka",
     "montaż",
     "lewa strona"
-   ]
+   ],
+   "wide": true
   },
   {
    "category": "reflektory",
@@ -4882,6 +4916,1739 @@
     "montaż",
     "obustronny",
     "obie strony"
+   ],
+   "wide": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "01",
+   "opis": "Wymagana korekta lub ochrona wzroku",
+   "keywords": [
+    "01",
+    "Wymagana korekta lub ochrona wzroku",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "01.01",
+   "opis": "Okulary",
+   "keywords": [
+    "01.01",
+    "Okulary",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "01.02",
+   "opis": "Soczewka(i) kontaktowa(e)",
+   "keywords": [
+    "01.02",
+    "Soczewka(i) kontaktowa(e)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "01.03",
+   "opis": "Okulary ochronne",
+   "keywords": [
+    "01.03",
+    "Okulary ochronne",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "01.04",
+   "opis": "Szkła przyciemnione",
+   "keywords": [
+    "01.04",
+    "Szkła przyciemnione",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "01.05",
+   "opis": "Przepaska na oko",
+   "keywords": [
+    "01.05",
+    "Przepaska na oko",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "01.06",
+   "opis": "Okulary lub soczewki kontaktowe",
+   "keywords": [
+    "01.06",
+    "Okulary lub soczewki kontaktowe",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "02",
+   "opis": "Wymagana korekta słuchu",
+   "keywords": [
+    "02",
+    "Wymagana korekta słuchu",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "02.01",
+   "opis": "Aparat słuchowy jednouszny",
+   "keywords": [
+    "02.01",
+    "Aparat słuchowy jednouszny",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "02.02",
+   "opis": "Aparat słuchowy obuuszny",
+   "keywords": [
+    "02.02",
+    "Aparat słuchowy obuuszny",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "03",
+   "opis": "Wymagane protezy lub szyny ortopedyczne kończyn",
+   "keywords": [
+    "03",
+    "Wymagane protezy lub szyny ortopedyczne kończyn",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "03.01",
+   "opis": "Proteza lub szyna ortopedyczna kończyny górnej",
+   "keywords": [
+    "03.01",
+    "Proteza lub szyna ortopedyczna kończyny górnej",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "03.02",
+   "opis": "Proteza lub szyna ortopedyczna kończyny dolnej",
+   "keywords": [
+    "03.02",
+    "Proteza lub szyna ortopedyczna kończyny dolnej",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "05",
+   "opis": "Wymagane ograniczone korzystanie z pojazdu (obowiązkowe stosowanie subkodów, ograniczenia jazdy wynikające ze stanu zdrowia kierowcy)",
+   "keywords": [
+    "05",
+    "Wymagane ograniczone korzystanie z pojazdu (obowiązkowe stosowanie subkodów, ograniczenia jazdy wynikające ze stanu zdrowia kierowcy)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "05.01",
+   "opis": "Jazda w godzinach dziennych (od świtu do zmierzchu)",
+   "keywords": [
+    "05.01",
+    "Jazda w godzinach dziennych (od świtu do zmierzchu)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "05.02",
+   "opis": "Jazda tylko w obrębie określonego obszaru administracyjnego (np. 05.02 nazwa miasta)",
+   "keywords": [
+    "05.02",
+    "Jazda tylko w obrębie określonego obszaru administracyjnego (np. 05.02 nazwa miasta)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "05.03",
+   "opis": "Jazda bez pasażerów",
+   "keywords": [
+    "05.03",
+    "Jazda bez pasażerów",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "05.04",
+   "opis": "Jazda z prędkością nie większą niż ……… km/h",
+   "keywords": [
+    "05.04",
+    "Jazda z prędkością nie większą niż ……… km/h",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "05.05",
+   "opis": "Jazda tylko w towarzystwie osoby posiadającej prawo jazdy",
+   "keywords": [
+    "05.05",
+    "Jazda tylko w towarzystwie osoby posiadającej prawo jazdy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "05.06",
+   "opis": "Bez prawa ciągnięcia przyczepy",
+   "keywords": [
+    "05.06",
+    "Bez prawa ciągnięcia przyczepy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "05.07",
+   "opis": "Bez prawa jazdy po autostradach",
+   "keywords": [
+    "05.07",
+    "Bez prawa jazdy po autostradach",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "05.08",
+   "opis": "Zakaz spożywania alkoholu",
+   "keywords": [
+    "05.08",
+    "Zakaz spożywania alkoholu",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "10",
+   "opis": "Wymagane modyfikacje w układzie zmiany biegów",
+   "keywords": [
+    "10",
+    "Wymagane modyfikacje w układzie zmiany biegów",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "10.01",
+   "opis": "Ręczna zmiana biegów",
+   "keywords": [
+    "10.01",
+    "Ręczna zmiana biegów",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "10.02",
+   "opis": "Bez pedału sprzęgła (albo dźwigni ręcznej dla prawa jazdy kategorii AM, A1, A2 i A)",
+   "keywords": [
+    "10.02",
+    "Bez pedału sprzęgła (albo dźwigni ręcznej dla prawa jazdy kategorii AM, A1, A2 i A)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "10.03",
+   "opis": "Zmiana biegów sterowana elektronicznie",
+   "keywords": [
+    "10.03",
+    "Zmiana biegów sterowana elektronicznie",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "10.04",
+   "opis": "Zmodyfikowana dźwignia zmiany biegów",
+   "keywords": [
+    "10.04",
+    "Zmodyfikowana dźwignia zmiany biegów",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "10.05",
+   "opis": "Bez przekładni dodatkowej",
+   "keywords": [
+    "10.05",
+    "Bez przekładni dodatkowej",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "15",
+   "opis": "Wymagana modyfikacja sprzęgła",
+   "keywords": [
+    "15",
+    "Wymagana modyfikacja sprzęgła",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "15.01",
+   "opis": "Zmodyfikowana dźwignia zmiany biegów",
+   "keywords": [
+    "15.01",
+    "Zmodyfikowana dźwignia zmiany biegów",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "15.02",
+   "opis": "Sprzęgło sterowane ręcznie",
+   "keywords": [
+    "15.02",
+    "Sprzęgło sterowane ręcznie",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "15.03",
+   "opis": "Sprzęgło automatyczne",
+   "keywords": [
+    "15.03",
+    "Sprzęgło automatyczne",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "15.04",
+   "opis": "Składany lub odkręcany pedał sprzęgła za przegrodą",
+   "keywords": [
+    "15.04",
+    "Składany lub odkręcany pedał sprzęgła za przegrodą",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20",
+   "opis": "Wymagane modyfikacje w układzie hamulcowym",
+   "keywords": [
+    "20",
+    "Wymagane modyfikacje w układzie hamulcowym",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.01",
+   "opis": "Zmodyfikowany pedał hamulca",
+   "keywords": [
+    "20.01",
+    "Zmodyfikowany pedał hamulca",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.02",
+   "opis": "Powiększony pedał hamulca",
+   "keywords": [
+    "20.02",
+    "Powiększony pedał hamulca",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.03",
+   "opis": "Pedał hamulca dostosowany do obsługi lewą stopą",
+   "keywords": [
+    "20.03",
+    "Pedał hamulca dostosowany do obsługi lewą stopą",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.04",
+   "opis": "Pedał hamulca pod całą stopę",
+   "keywords": [
+    "20.04",
+    "Pedał hamulca pod całą stopę",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.05",
+   "opis": "Wychylny pedał hamulca",
+   "keywords": [
+    "20.05",
+    "Wychylny pedał hamulca",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.06",
+   "opis": "Ręcznie sterowany hamulec roboczy",
+   "keywords": [
+    "20.06",
+    "Ręcznie sterowany hamulec roboczy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.07",
+   "opis": "Maksymalne użycie wzmocnionego hamulca roboczego",
+   "keywords": [
+    "20.07",
+    "Maksymalne użycie wzmocnionego hamulca roboczego",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.08",
+   "opis": "Maksymalne użycie hamulca awaryjnego zintegrowanego z hamulcem roboczym",
+   "keywords": [
+    "20.08",
+    "Maksymalne użycie hamulca awaryjnego zintegrowanego z hamulcem roboczym",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.09",
+   "opis": "Zmodyfikowany hamulec postojowy",
+   "keywords": [
+    "20.09",
+    "Zmodyfikowany hamulec postojowy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.10",
+   "opis": "Elektrycznie sterowany hamulec postojowy",
+   "keywords": [
+    "20.10",
+    "Elektrycznie sterowany hamulec postojowy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.11",
+   "opis": "Nożny hamulec postojowy",
+   "keywords": [
+    "20.11",
+    "Nożny hamulec postojowy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.12",
+   "opis": "Składany lub odkręcany pedał hamulca za przegrodą",
+   "keywords": [
+    "20.12",
+    "Składany lub odkręcany pedał hamulca za przegrodą",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.13",
+   "opis": "Hamulec obsługiwany kolanem",
+   "keywords": [
+    "20.13",
+    "Hamulec obsługiwany kolanem",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "20.14",
+   "opis": "Elektrycznie sterowany hamulec roboczy",
+   "keywords": [
+    "20.14",
+    "Elektrycznie sterowany hamulec roboczy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "25",
+   "opis": "Wymagane modyfikacje w układzie przyspieszenia",
+   "keywords": [
+    "25",
+    "Wymagane modyfikacje w układzie przyspieszenia",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "25.01",
+   "opis": "Zmodyfikowany pedał przyspieszenia",
+   "keywords": [
+    "25.01",
+    "Zmodyfikowany pedał przyspieszenia",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "25.02",
+   "opis": "Pedał przyspieszenia pod całą stopę",
+   "keywords": [
+    "25.02",
+    "Pedał przyspieszenia pod całą stopę",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "25.03",
+   "opis": "Wychylny pedał przyspieszenia",
+   "keywords": [
+    "25.03",
+    "Wychylny pedał przyspieszenia",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "25.04",
+   "opis": "Przyspieszenie sterowane ręcznie",
+   "keywords": [
+    "25.04",
+    "Przyspieszenie sterowane ręcznie",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "25.05",
+   "opis": "Przyspieszenie sterowane kolanem",
+   "keywords": [
+    "25.05",
+    "Przyspieszenie sterowane kolanem",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "25.06",
+   "opis": "Serwoprzyspieszacz (w tym elektroniczny, pneumatyczny)",
+   "keywords": [
+    "25.06",
+    "Serwoprzyspieszacz (w tym elektroniczny, pneumatyczny)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "25.07",
+   "opis": "Pedał przyspieszenia po lewej stronie pedału hamulca",
+   "keywords": [
+    "25.07",
+    "Pedał przyspieszenia po lewej stronie pedału hamulca",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "25.08",
+   "opis": "Pedał przyspieszenia po lewej stronie",
+   "keywords": [
+    "25.08",
+    "Pedał przyspieszenia po lewej stronie",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "25.09",
+   "opis": "Składany lub odkręcany pedał przyspieszenia za przegrodą",
+   "keywords": [
+    "25.09",
+    "Składany lub odkręcany pedał przyspieszenia za przegrodą",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "30",
+   "opis": "Wymagane wspólne modyfikacje układów hamowania i przyspieszenia",
+   "keywords": [
+    "30",
+    "Wymagane wspólne modyfikacje układów hamowania i przyspieszenia",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "30.01",
+   "opis": "Pedały równoległe",
+   "keywords": [
+    "30.01",
+    "Pedały równoległe",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "30.02",
+   "opis": "Pedały na tym samym lub prawie na tym samym poziomie",
+   "keywords": [
+    "30.02",
+    "Pedały na tym samym lub prawie na tym samym poziomie",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "30.03",
+   "opis": "Przesuwne pedały hamowania i przyspieszenia",
+   "keywords": [
+    "30.03",
+    "Przesuwne pedały hamowania i przyspieszenia",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "30.04",
+   "opis": "Pedały hamowania i przyspieszenia z przesuwem i szyną",
+   "keywords": [
+    "30.04",
+    "Pedały hamowania i przyspieszenia z przesuwem i szyną",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "30.05",
+   "opis": "Składane lub odkręcane pedały hamowania i przyspieszenia",
+   "keywords": [
+    "30.05",
+    "Składane lub odkręcane pedały hamowania i przyspieszenia",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "30.06",
+   "opis": "Wypiętrzona podłoga",
+   "keywords": [
+    "30.06",
+    "Wypiętrzona podłoga",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "30.07",
+   "opis": "Przegroda z boku pedału hamulca",
+   "keywords": [
+    "30.07",
+    "Przegroda z boku pedału hamulca",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "30.08",
+   "opis": "Przegroda na protezę lub szynę z boku pedału hamulca",
+   "keywords": [
+    "30.08",
+    "Przegroda na protezę lub szynę z boku pedału hamulca",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "30.09",
+   "opis": "Przegroda pod pedałami hamowania i przyspieszenia",
+   "keywords": [
+    "30.09",
+    "Przegroda pod pedałami hamowania i przyspieszenia",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "30.10",
+   "opis": "Podparcie pięty lub nogi",
+   "keywords": [
+    "30.10",
+    "Podparcie pięty lub nogi",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "30.11",
+   "opis": "Elektryczne sterowanie hamowaniem i przyspieszaniem",
+   "keywords": [
+    "30.11",
+    "Elektryczne sterowanie hamowaniem i przyspieszaniem",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "35",
+   "opis": "Wymagane modyfikacje urządzeń sterowania (przełączniki świateł, wycieraczki szyby przedniej, spryskiwacz, sygnał dźwiękowy, kierunkowskazy)",
+   "keywords": [
+    "35",
+    "Wymagane modyfikacje urządzeń sterowania (przełączniki świateł, wycieraczki szyby przedniej, spryskiwacz, sygnał dźwiękowy, kierunkowskazy)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "35.01",
+   "opis": "Urządzenia sterowania obsługiwane bez negatywnego wpływu na kierowanie i obsługę",
+   "keywords": [
+    "35.01",
+    "Urządzenia sterowania obsługiwane bez negatywnego wpływu na kierowanie i obsługę",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "35.02",
+   "opis": "Urządzenia sterowania obsługiwane bez konieczności puszczenia kierownicy i akcesoriów (w tym gałek, dźwigni)",
+   "keywords": [
+    "35.02",
+    "Urządzenia sterowania obsługiwane bez konieczności puszczenia kierownicy i akcesoriów (w tym gałek, dźwigni)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "35.03",
+   "opis": "Urządzenia sterowania obsługiwane bez konieczności puszczenia kierownicy i akcesoriów lewą ręką",
+   "keywords": [
+    "35.03",
+    "Urządzenia sterowania obsługiwane bez konieczności puszczenia kierownicy i akcesoriów lewą ręką",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "35.04",
+   "opis": "Urządzenia sterowania obsługiwane bez konieczności puszczenia kierownicy i akcesoriów prawą ręką",
+   "keywords": [
+    "35.04",
+    "Urządzenia sterowania obsługiwane bez konieczności puszczenia kierownicy i akcesoriów prawą ręką",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "35.05",
+   "opis": "Urządzenia sterowania obsługiwane bez konieczności puszczenia kierownicy i akcesoriów ze wspólnymi mechanizmami hamowania i przyspieszenia",
+   "keywords": [
+    "35.05",
+    "Urządzenia sterowania obsługiwane bez konieczności puszczenia kierownicy i akcesoriów ze wspólnymi mechanizmami hamowania i przyspieszenia",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40",
+   "opis": "Wymagane modyfikacje w układzie kierowniczym",
+   "keywords": [
+    "40",
+    "Wymagane modyfikacje w układzie kierowniczym",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.01",
+   "opis": "Zwykły układ kierowniczy ze wspomaganiem",
+   "keywords": [
+    "40.01",
+    "Zwykły układ kierowniczy ze wspomaganiem",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.02",
+   "opis": "Układ kierowniczy z aktywnym wspomaganiem",
+   "keywords": [
+    "40.02",
+    "Układ kierowniczy z aktywnym wspomaganiem",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.03",
+   "opis": "Układ kierowniczy z systemem rezerwowym (sprzężeniem zwrotnym)",
+   "keywords": [
+    "40.03",
+    "Układ kierowniczy z systemem rezerwowym (sprzężeniem zwrotnym)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.04",
+   "opis": "Wydłużona kolumna kierownicy",
+   "keywords": [
+    "40.04",
+    "Wydłużona kolumna kierownicy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.05",
+   "opis": "Zmodyfikowana kierownica (grubszy lub cieńszy przekrój koła kierownicy, kierownica o mniejszej średnicy)",
+   "keywords": [
+    "40.05",
+    "Zmodyfikowana kierownica (grubszy lub cieńszy przekrój koła kierownicy, kierownica o mniejszej średnicy)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.06",
+   "opis": "Wychylne koło kierownicy",
+   "keywords": [
+    "40.06",
+    "Wychylne koło kierownicy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.07",
+   "opis": "Pionowe koło kierownicy",
+   "keywords": [
+    "40.07",
+    "Pionowe koło kierownicy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.08",
+   "opis": "Poziome koło kierownicy",
+   "keywords": [
+    "40.08",
+    "Poziome koło kierownicy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.09",
+   "opis": "Kierowanie nożne",
+   "keywords": [
+    "40.09",
+    "Kierowanie nożne",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.10",
+   "opis": "Alternatywny system kierownicy (drążek)",
+   "keywords": [
+    "40.10",
+    "Alternatywny system kierownicy (drążek)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.11",
+   "opis": "Gałka na kierownicy",
+   "keywords": [
+    "40.11",
+    "Gałka na kierownicy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.12",
+   "opis": "Szyna ortopedyczna ręki na kole kierownicy",
+   "keywords": [
+    "40.12",
+    "Szyna ortopedyczna ręki na kole kierownicy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "40.13",
+   "opis": "Ze stawem szynowym",
+   "keywords": [
+    "40.13",
+    "Ze stawem szynowym",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "42",
+   "opis": "Wymagane modyfikacje lusterka wstecznego (lusterek)",
+   "keywords": [
+    "42",
+    "Wymagane modyfikacje lusterka wstecznego (lusterek)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "42.01",
+   "opis": "Zmodyfikowane zewnętrzne lusterko prawe lub lewe",
+   "keywords": [
+    "42.01",
+    "Zmodyfikowane zewnętrzne lusterko prawe lub lewe",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "42.02",
+   "opis": "Zewnętrzne lusterko na wysięgniku",
+   "keywords": [
+    "42.02",
+    "Zewnętrzne lusterko na wysięgniku",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "42.03",
+   "opis": "Dodatkowe zewnętrzne lusterko pozwalające na obserwację ruchu",
+   "keywords": [
+    "42.03",
+    "Dodatkowe zewnętrzne lusterko pozwalające na obserwację ruchu",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "42.04",
+   "opis": "Panoramiczne wewnętrzne lusterko",
+   "keywords": [
+    "42.04",
+    "Panoramiczne wewnętrzne lusterko",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "42.05",
+   "opis": "Lusterko do obserwacji martwych pól",
+   "keywords": [
+    "42.05",
+    "Lusterko do obserwacji martwych pól",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "42.06",
+   "opis": "Elektrycznie sterowane zewnętrzne lusterko (lusterka)",
+   "keywords": [
+    "42.06",
+    "Elektrycznie sterowane zewnętrzne lusterko (lusterka)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "43",
+   "opis": "Wymagane modyfikacje fotela kierowcy",
+   "keywords": [
+    "43",
+    "Wymagane modyfikacje fotela kierowcy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "43.01",
+   "opis": "Fotel kierowcy na dobrej wysokości obserwacyjnej i w normalnej odległości od kierownicy i pedałów",
+   "keywords": [
+    "43.01",
+    "Fotel kierowcy na dobrej wysokości obserwacyjnej i w normalnej odległości od kierownicy i pedałów",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "43.02",
+   "opis": "Fotel kierowcy dostosowany do kształtu ciała",
+   "keywords": [
+    "43.02",
+    "Fotel kierowcy dostosowany do kształtu ciała",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "43.03",
+   "opis": "Fotel kierowcy z oparciem bocznym stabilizującym pozycję",
+   "keywords": [
+    "43.03",
+    "Fotel kierowcy z oparciem bocznym stabilizującym pozycję",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "43.04",
+   "opis": "Fotel kierowcy z podłokietnikiem",
+   "keywords": [
+    "43.04",
+    "Fotel kierowcy z podłokietnikiem",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "43.05",
+   "opis": "Wydłużone szyny prowadzące fotela kierowcy",
+   "keywords": [
+    "43.05",
+    "Wydłużone szyny prowadzące fotela kierowcy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "43.06",
+   "opis": "Zmodyfikowany pas bezpieczeństwa",
+   "keywords": [
+    "43.06",
+    "Zmodyfikowany pas bezpieczeństwa",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "43.07",
+   "opis": "Pas bezpieczeństwa szelkowy",
+   "keywords": [
+    "43.07",
+    "Pas bezpieczeństwa szelkowy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "44",
+   "opis": "Wymagane modyfikacje motocykli i motorowerów (obowiązkowe stosowanie subkodów)",
+   "keywords": [
+    "44",
+    "Wymagane modyfikacje motocykli i motorowerów (obowiązkowe stosowanie subkodów)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "44.01",
+   "opis": "Hamulec z pojedynczym sterowaniem",
+   "keywords": [
+    "44.01",
+    "Hamulec z pojedynczym sterowaniem",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "44.02",
+   "opis": "Zmodyfikowany hamulec ręczny",
+   "keywords": [
+    "44.02",
+    "Zmodyfikowany hamulec ręczny",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "44.03",
+   "opis": "Zmodyfikowany hamulec nożny",
+   "keywords": [
+    "44.03",
+    "Zmodyfikowany hamulec nożny",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "44.04",
+   "opis": "Zmodyfikowana rączka przyspieszenia",
+   "keywords": [
+    "44.04",
+    "Zmodyfikowana rączka przyspieszenia",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "44.05",
+   "opis": "Ręczna zmiana biegów i ręczne sprzęgło",
+   "keywords": [
+    "44.05",
+    "Ręczna zmiana biegów i ręczne sprzęgło",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "44.06",
+   "opis": "Zmodyfikowane lusterko (lusterka) wsteczne",
+   "keywords": [
+    "44.06",
+    "Zmodyfikowane lusterko (lusterka) wsteczne",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "44.07",
+   "opis": "Zmodyfikowane wskaźniki kontrolne (kierunkowskazy, lampy hamulca)",
+   "keywords": [
+    "44.07",
+    "Zmodyfikowane wskaźniki kontrolne (kierunkowskazy, lampy hamulca)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "44.08",
+   "opis": "Wysokość siedzenia pozwalająca kierowcy na oparcie dwóch stóp na ziemi jednocześnie w pozycji siedzącej",
+   "keywords": [
+    "44.08",
+    "Wysokość siedzenia pozwalająca kierowcy na oparcie dwóch stóp na ziemi jednocześnie w pozycji siedzącej",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ],
+   "sub": true
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "45",
+   "opis": "Wyłącznie motocykle z koszem",
+   "keywords": [
+    "45",
+    "Wyłącznie motocykle z koszem",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "50",
+   "opis": "Dla określonego pojazdu lub nadwozia (numer identyfikacyjny pojazdu, VIN)",
+   "keywords": [
+    "50",
+    "Dla określonego pojazdu lub nadwozia (numer identyfikacyjny pojazdu, VIN)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "51",
+   "opis": "Dla określonego pojazdu lub tablicy rejestracyjnej (numer rejestracyjny pojazdu, VRN)",
+   "keywords": [
+    "51",
+    "Dla określonego pojazdu lub tablicy rejestracyjnej (numer rejestracyjny pojazdu, VRN)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "70",
+   "opis": "Wymiana prawa jazdy numer …… wydanego przez …… (wyróżnik UE/ONZ w przypadku państwa trzeciego, np.: 70.0123456789.NL)",
+   "keywords": [
+    "70",
+    "Wymiana prawa jazdy numer …… wydanego przez …… (wyróżnik UE/ONZ w przypadku państwa trzeciego, np.: 70.0123456789.NL)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "71",
+   "opis": "Wtórnik prawa jazdy numer …… (wyróżnik UE/ONZ w przypadku państwa trzeciego, np.: 71.987654321.HR)",
+   "keywords": [
+    "71",
+    "Wtórnik prawa jazdy numer …… (wyróżnik UE/ONZ w przypadku państwa trzeciego, np.: 71.987654321.HR)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "72",
+   "opis": "Wyłącznie dla pojazdów kategorii A z maksymalną pojemnością skokową cylindra 125 cm³ oraz maksymalną mocą 11 kW (A1)",
+   "keywords": [
+    "72",
+    "Wyłącznie dla pojazdów kategorii A z maksymalną pojemnością skokową cylindra 125 cm³ oraz maksymalną mocą 11 kW (A1)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "73",
+   "opis": "Wyłącznie dla pojazdów kategorii B z silnikiem, typów trójkołowych lub czterokołowych (B1)",
+   "keywords": [
+    "73",
+    "Wyłącznie dla pojazdów kategorii B z silnikiem, typów trójkołowych lub czterokołowych (B1)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "74",
+   "opis": "Wyłącznie dla pojazdów kategorii C, których dopuszczalna masa całkowita nie przekracza 7500 kg (C1)",
+   "keywords": [
+    "74",
+    "Wyłącznie dla pojazdów kategorii C, których dopuszczalna masa całkowita nie przekracza 7500 kg (C1)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "75",
+   "opis": "Wyłącznie dla pojazdów kategorii D z nie więcej niż 16 miejscami siedzącymi, wyłączając siedzenie kierowcy (D1)",
+   "keywords": [
+    "75",
+    "Wyłącznie dla pojazdów kategorii D z nie więcej niż 16 miejscami siedzącymi, wyłączając siedzenie kierowcy (D1)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "76",
+   "opis": "Wyłącznie dla pojazdów kategorii C, których dopuszczalna masa całkowita nie przekracza 7500 kg (C1), połączonych z przyczepą, której dopuszczalna masa całkowita przekracza 750 kg, o ile dopuszczalna masa całkowita utworzonego w ten sposób zespołu pojazdów nie przekracza 12 000 kg, a dopuszczalna masa całkowita przyczepy nie przekracza masy własnej pojazdu ciągnącego (C1+E)",
+   "keywords": [
+    "76",
+    "Wyłącznie dla pojazdów kategorii C, których dopuszczalna masa całkowita nie przekracza 7500 kg (C1), połączonych z przyczepą, której dopuszczalna masa całkowita przekracza 750 kg, o ile dopuszczalna masa całkowita utworzonego w ten sposób zespołu pojazdów nie przekracza 12 000 kg, a dopuszczalna masa całkowita przyczepy nie przekracza masy własnej pojazdu ciągnącego (C1+E)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "77",
+   "opis": "Wyłącznie dla pojazdów kategorii D z nie więcej niż 16 miejscami siedzącymi bez siedzenia kierowcy (D1) połączonych z przyczepą, której dopuszczalna masa całkowita przekracza 750 kg, o ile (a) dopuszczalna masa całkowita utworzonego w ten sposób zespołu pojazdów nie przekracza 12 000 kg, a dopuszczalna masa całkowita przyczepy nie przekracza masy własnej pojazdu ciągnącego oraz (b) przyczepa nie jest wykorzystywana do przewozu pasażerów (D1+E)",
+   "keywords": [
+    "77",
+    "Wyłącznie dla pojazdów kategorii D z nie więcej niż 16 miejscami siedzącymi bez siedzenia kierowcy (D1) połączonych z przyczepą, której dopuszczalna masa całkowita przekracza 750 kg, o ile (a) dopuszczalna masa całkowita utworzonego w ten sposób zespołu pojazdów nie przekracza 12 000 kg, a dopuszczalna masa całkowita przyczepy nie przekracza masy własnej pojazdu ciągnącego oraz (b) przyczepa nie jest wykorzystywana do przewozu pasażerów (D1+E)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "78",
+   "opis": "Wyłącznie pojazdy bez pedału sprzęgła (albo dźwigni ręcznej dla kategorii AM, A1, A2 i A)",
+   "keywords": [
+    "78",
+    "Wyłącznie pojazdy bez pedału sprzęgła (albo dźwigni ręcznej dla kategorii AM, A1, A2 i A)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "79",
+   "opis": "Ograniczenie do pojazdów, które spełniają wymogi specyfikacji wskazanej w nawiasach – kod stosuje się wyłącznie w przypadku przeniesienia ograniczeń z wymienianego prawa jazdy wydanego za granicą, np.: 79(…)",
+   "keywords": [
+    "79",
+    "Ograniczenie do pojazdów, które spełniają wymogi specyfikacji wskazanej w nawiasach – kod stosuje się wyłącznie w przypadku przeniesienia ograniczeń z wymienianego prawa jazdy wydanego za granicą, np.: 79(…)",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "95",
+   "opis": "Potwierdzenie posiadania świadectwa kwalifikacji zawodowej",
+   "keywords": [
+    "95",
+    "Potwierdzenie posiadania świadectwa kwalifikacji zawodowej",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "96",
+   "opis": "Potwierdzenie posiadania uprawnień do kierowania zespołem pojazdów",
+   "keywords": [
+    "96",
+    "Potwierdzenie posiadania uprawnień do kierowania zespołem pojazdów",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "101",
+   "opis": "Wymagane dodatkowe oznakowanie pojazdu",
+   "keywords": [
+    "101",
+    "Wymagane dodatkowe oznakowanie pojazdu",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "102",
+   "opis": "Wymiana uzyskanego przed dniem 1 lipca 1999 r. prawa jazdy kategorii C bez posiadania kategorii B prawa jazdy",
+   "keywords": [
+    "102",
+    "Wymiana uzyskanego przed dniem 1 lipca 1999 r. prawa jazdy kategorii C bez posiadania kategorii B prawa jazdy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "103",
+   "opis": "Wymiana uzyskanego przed dniem 1 lipca 1999 r. prawa jazdy kategorii D bez posiadania kategorii B prawa jazdy",
+   "keywords": [
+    "103",
+    "Wymiana uzyskanego przed dniem 1 lipca 1999 r. prawa jazdy kategorii D bez posiadania kategorii B prawa jazdy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "104",
+   "opis": "Wymiana prawa jazdy kategorii M z ograniczeniem do kierowania tylko pojazdami wolnobieżnymi",
+   "keywords": [
+    "104",
+    "Wymiana prawa jazdy kategorii M z ograniczeniem do kierowania tylko pojazdami wolnobieżnymi",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "105",
+   "opis": "Wymiana prawa jazdy kategorii trolejbusowej z ograniczeniem do kierowania tylko trolejbusami",
+   "keywords": [
+    "105",
+    "Wymiana prawa jazdy kategorii trolejbusowej z ograniczeniem do kierowania tylko trolejbusami",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "106",
+   "opis": "Zakaz w zakresie kategorii B prawa jazdy przy posiadaniu kategorii C1, C, D1 lub D prawa jazdy",
+   "keywords": [
+    "106",
+    "Zakaz w zakresie kategorii B prawa jazdy przy posiadaniu kategorii C1, C, D1 lub D prawa jazdy",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
+   ]
+  },
+  {
+   "category": "kody-ograniczen-prawa-jazdy",
+   "kod": "107",
+   "opis": "Wymagane dostosowanie pojazdu do rodzaju schorzenia",
+   "keywords": [
+    "107",
+    "Wymagane dostosowanie pojazdu do rodzaju schorzenia",
+    "kod ograniczenia",
+    "kody ograniczeń",
+    "prawo jazdy"
    ]
   }
  ]
