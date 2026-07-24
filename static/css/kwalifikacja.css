@@ -1,0 +1,56 @@
+/* ===================================================================
+   KWALIFIKACJA ZDARZENIA DROGOWEGO — kreator pytań (paleta PaGon)
+   =================================================================== */
+
+/* ścieżka odpowiedzi (chipy z możliwością powrotu) */
+.kwz-sciezka{display:flex;flex-wrap:wrap;gap:7px;margin:2px 0 12px}
+.kwz-sciezka:empty{margin:0}
+.kwz-chip{display:inline-flex;align-items:center;gap:5px;min-height:32px;padding:5px 11px;
+  font-size:11.5px;line-height:1.3;text-align:left;
+  color:var(--t-text);background:rgba(255,255,255,.04);
+  border:1px solid var(--t-line);border-radius:999px;cursor:pointer;
+  transition:border-color .15s ease,color .15s ease}
+.kwz-chip:hover{border-color:var(--t-gold);color:var(--t-gold)}
+.kwz-chip:focus-visible{outline:2px solid var(--t-gold);outline-offset:2px}
+.kwz-chip-q{font-family:var(--t-mono);font-size:10px;font-weight:700;letter-spacing:.04em;
+  text-transform:uppercase;color:var(--t-dim)}
+.kwz-chip-a{font-weight:700}
+.kwz-chip--reset{color:var(--t-gold-2);border-color:rgba(206,158,47,.4)}
+
+/* karta pytania */
+.kwz-karta{padding:16px}
+.kwz-pytanie{margin:0 0 6px;font-size:16px;line-height:1.45;font-weight:700;color:#aab8e8}
+.kwz-podpowiedz{margin:0 0 4px;font-size:12px;line-height:1.5;color:var(--t-dim)}
+.kwz-opcje{display:grid;gap:10px;margin-top:12px}
+@media (min-width:520px){ .kwz-opcje{grid-template-columns:1fr 1fr} }
+.kwz-opcja{min-height:54px;padding:12px 14px;font-size:13px;font-weight:700;line-height:1.45;
+  text-align:center;color:var(--t-text);cursor:pointer;
+  background:rgba(255,255,255,.05);border:1px solid var(--t-line);border-radius:12px;
+  transition:border-color .15s ease,background .15s ease,transform .1s ease}
+.kwz-opcja:hover{border-color:var(--t-gold);background:rgba(206,158,47,.09)}
+.kwz-opcja:active{transform:translateY(1px)}
+.kwz-opcja:focus-visible{outline:2px solid var(--t-gold);outline-offset:2px}
+.kwz-wstecz{margin-top:12px;min-height:38px;padding:8px 14px;
+  font-family:var(--t-mono);font-size:11.5px;font-weight:700;letter-spacing:.04em;
+  color:var(--t-dim);background:none;border:1px solid var(--t-line);border-radius:999px;cursor:pointer}
+.kwz-wstecz:hover{color:var(--t-text);border-color:var(--t-gold)}
+
+/* karta wyniku */
+.kwz-karta--wykroczenie{border-color:rgba(206,158,47,.5)}
+.kwz-wynik-tytul{margin:0 0 8px;font-size:15.5px;line-height:1.4;font-weight:700;color:var(--t-gold-2)}
+.kwz-wynik-tytul--stop{color:var(--t-gold)}
+.kwz-wariant-tytul{margin:11px 0 6px;font-family:var(--t-mono);font-size:10.5px;font-weight:700;
+  letter-spacing:.07em;text-transform:uppercase;color:var(--t-gold-2)}
+.kwz-wariant-tytul + .kal-fakty{margin-top:0}
+.kwz-mrd2{margin:11px 0 0;padding:9px 12px;font-size:12.5px;font-weight:700;color:var(--t-gold-2);
+  background:rgba(206,158,47,.08);border:1px solid rgba(206,158,47,.4);border-left-width:3px;border-radius:9px}
+.kwz-srodki-tytul{margin:11px 0 5px;font-family:var(--t-mono);font-size:10.5px;font-weight:700;
+  letter-spacing:.07em;text-transform:uppercase;color:var(--t-dim)}
+.kwz-srodki{margin:0;padding-left:18px}
+.kwz-srodki li{margin-bottom:4px;font-size:12.5px;line-height:1.55;color:var(--t-text)}
+.kwz-taryfikator{display:inline-flex;align-items:center;margin-top:11px;min-height:38px;padding:8px 14px;
+  font-family:var(--t-mono);font-size:11.5px;font-weight:700;letter-spacing:.04em;text-decoration:none;
+  color:var(--t-gold-2);border:1px solid rgba(206,158,47,.4);border-radius:999px}
+.kwz-taryfikator:hover{color:var(--t-gold);border-color:var(--t-gold)}
+.kwz-trzezwosc{margin:12px 0 0;font-size:11.5px;line-height:1.55;color:var(--t-dim);font-style:italic}
+.kwz-restart{margin-top:13px}

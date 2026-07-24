@@ -5,7 +5,7 @@
    "id": "status-0",
    "numer": 0,
    "nazwa": "Nie objęty systemem punktowym",
-   "opis": "Dotyczy osób, które nie posiadają żadnych zapisów o naruszeniach, bądź wpisy uległy przedawnieniu. Stan punktowy wynosi 0 pkt.",
+   "opis": "Osoba nie figuruje w ewidencji z żadnym aktywnym naruszeniem — wpisów nie ma albo wszystkie uległy przedawnieniu. Konto punktowe wynosi 0 pkt.",
    "wskazania": "Zweryfikuj posiadane uprawnienia (zakazy prowadzenia pojazdów) w CEK.",
    "typ_wskazania": "weryfikacja"
   },
@@ -13,7 +13,7 @@
    "id": "status-1",
    "numer": 1,
    "nazwa": "Zbiera punkty",
-   "opis": "Kierowcy odnotowano wpisy ostateczne i tymczasowe, których suma punktów zawiera się w przedziale od 0 do 24 (w przypadku „młodego kierowcy” — od 0 do 20 pkt), bądź też znajdują się zapisy o wcześniejszych naruszeniach, za które punkty zostały wyzerowane. W statusie tym znajdować się mogą również osoby, wobec których orzeczono decyzję o cofnięciu uprawnień na okres nieprzekraczający roku.",
+   "opis": "W ewidencji widnieją wpisy ostateczne i tymczasowe, a łączna liczba punktów mieści się w limicie — do 24 pkt (dla „młodego kierowcy” do 20 pkt). Status obejmuje także osoby, którym wyzerowano punkty za wcześniejsze naruszenia, oraz osoby z decyzją o cofnięciu uprawnień na okres nie dłuższy niż rok.",
    "wskazania": "Zweryfikuj posiadane uprawnienia (zakazy prowadzenia pojazdów) w CEK.",
    "typ_wskazania": "weryfikacja"
   },
@@ -21,7 +21,7 @@
    "id": "status-2",
    "numer": 2,
    "nazwa": "Zablokowany",
-   "opis": "Ogólna liczba punktów ostatecznych i tymczasowych przekroczyła 24 (w przypadku „młodego kierowcy” — 20), lecz przynajmniej jedna ze spraw została skierowana do rozpatrzenia przez sąd.",
+   "opis": "Łączna liczba punktów ostatecznych i tymczasowych przekroczyła limit 24 pkt (20 pkt dla „młodego kierowcy”), jednak co najmniej jedna ze spraw trafiła do sądu i oczekuje na rozstrzygnięcie.",
    "wskazania": "Zweryfikuj posiadane uprawnienia (zakazy prowadzenia pojazdów) w CEK.",
    "typ_wskazania": "weryfikacja"
   },
@@ -29,7 +29,7 @@
    "id": "status-3",
    "numer": 3,
    "nazwa": "Przekroczony limit (24 pkt.)",
-   "opis": "Status przejściowy pomiędzy momentem przekroczenia limitu 24 punktów, a wystosowaniem wniosku o sprawdzenie kwalifikacji.",
+   "opis": "Etap przejściowy: kierowca przekroczył limit 24 punktów, a organ prowadzący ewidencję nie skierował jeszcze wniosku o sprawdzenie kwalifikacji.",
    "wskazania": "Zatrzymaj prawo jazdy kierowcy.",
    "typ_wskazania": "zatrzymanie"
   },
@@ -37,7 +37,7 @@
    "id": "status-4",
    "numer": 4,
    "nazwa": "Wystosowano wniosek o sprawdzenie kwalifikacji",
-   "opis": "Organ prowadzący ewidencję wystosował do właściwego starosty wniosek o poddanie kierowcy egzaminowi sprawdzającemu kwalifikacje.",
+   "opis": "Organ prowadzący ewidencję skierował do właściwego starosty wniosek o poddanie kierowcy egzaminowi sprawdzającemu kwalifikacje.",
    "wskazania": "Zatrzymaj prawo jazdy kierowcy.",
    "typ_wskazania": "zatrzymanie"
   },
@@ -45,7 +45,7 @@
    "id": "status-5",
    "numer": 5,
    "nazwa": "Przekroczony limit (20 pkt.) i/lub 1 Przestępstwo / 3 Wykroczenia",
-   "opis": "Status przejściowy pomiędzy momentem przekroczenia limitu 20 punktów, a wystosowaniem wniosku o cofnięcie uprawnień do kierowania pojazdami.",
+   "opis": "Etap przejściowy: „młody kierowca” przekroczył limit 20 punktów (lub odnotowano 1 przestępstwo albo 3 wykroczenia przeciwko bezpieczeństwu w komunikacji), a organ nie skierował jeszcze wniosku o cofnięcie uprawnień do kierowania pojazdami.",
    "wskazania": "Zatrzymaj prawo jazdy kierowcy.",
    "typ_wskazania": "zatrzymanie"
   },
@@ -53,7 +53,7 @@
    "id": "status-6",
    "numer": 6,
    "nazwa": "Brak uprawnień",
-   "opis": "Dotyczy osób, które nie posiadają wydanych w Polsce uprawnień do kierowania pojazdami, a także kierowców, którym cofnięto uprawnienia lub orzeczono zakaz prowadzenia pojazdów.",
+   "opis": "Osoba nie ma polskich uprawnień do kierowania pojazdami — nigdy ich nie uzyskała, zostały jej cofnięte albo orzeczono wobec niej zakaz prowadzenia pojazdów.",
    "wskazania": "Zweryfikuj status osoby w CEK pod kątem możliwości popełnienia czynów stypizowanych w art. 94 § 1 KW oraz art. 180a i art. 244 KK.",
    "typ_wskazania": "weryfikacja"
   },
@@ -61,7 +61,7 @@
    "id": "status-7",
    "numer": 7,
    "nazwa": "Wystosowano wniosek o cofnięcie uprawnień",
-   "opis": "Organ prowadzący ewidencję wystosował do właściwego starosty wniosek o cofnięcie uprawnień.",
+   "opis": "Organ prowadzący ewidencję skierował do właściwego starosty wniosek o cofnięcie uprawnień do kierowania pojazdami.",
    "wskazania": "Zatrzymaj prawo jazdy kierowcy.",
    "typ_wskazania": "zatrzymanie"
   }

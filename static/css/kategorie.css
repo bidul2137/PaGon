@@ -6,7 +6,7 @@
 .kpj-page .tar-brand{gap:6px;padding-left:34px}
 .kpj-page .tar-back{padding:4px 8px}
 @media (max-width:360px){ .kpj-page .tar-brand{padding-left:28px} }
-.kpj-title{font-size:clamp(18px,5.6vw,26px)}
+.kpj-title{font-size:clamp(18px,5.6vw,26px);white-space:normal;line-height:1.18}
 .kpj-lead{margin:0;font-size:12px;line-height:1.5;color:var(--t-dim)}
 
 /* ===== tryb "co daje kierowcy" ===== */

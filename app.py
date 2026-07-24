@@ -458,6 +458,36 @@ def przelicznik_mgl_promile():
     return render_template("przelicznik_mgl_promile.html")
 
 
+@app.route("/pomoce/kwalifikacja-zdarzenia")
+def kwalifikacja_zdarzenia():
+    """Podstrona 'Kwalifikacja zdarzenia drogowego' — kreator pytan.
+
+    Drzewo decyzyjne (miejsce, uczestnicy, obrazenia) prowadzi do kwalifikacji
+    (art. 86/97/98 KW albo wypadek z art. 177 KK). Kwoty mandatow dolaczane
+    z taryfikatora — nie sa wpisane na sztywno.
+    """
+    with open(BASE_DIR / "data" / "kwalifikacja_zdarzenia.json", encoding="utf-8") as f:
+        dane = json.load(f)
+
+    # dolacz warianty mandatu z taryfikatora po ID rekordow (kwalifikacje typu
+    # art. 86 KW maja odrebne stawki dla kierujacego poj. mechanicznym i innego
+    # uczestnika ruchu — pokazujemy wszystkie warianty, nie jeden arbitralnie)
+    taryfikator = {r["id"]: r for r in load_taryfikator()["rekordy"]}
+    for w in dane["wyniki"].values():
+        warianty = []
+        for wpis in w.get("taryfikator_ids") or []:
+            rek = taryfikator.get(wpis["id"])
+            if rek:
+                warianty.append({
+                    "etykieta": wpis.get("etykieta"),
+                    "mandat": rek.get("mandate_base"),
+                    "recydywa": rek.get("mandate_recidive"),
+                    "punkty": rek.get("points_max"),
+                })
+        w["warianty"] = warianty
+    return render_template("kwalifikacja_zdarzenia.html", dane=dane)
+
+
 @app.route("/pomoce/pdf/<klucz>")
 def pomoce_pdf(klucz):
     """Pobiera zewnetrzny PDF po stronie serwera i podaje go 'inline'.

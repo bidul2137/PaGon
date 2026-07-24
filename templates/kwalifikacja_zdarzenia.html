@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Kwalifikacja zdarzenia drogowego{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kwalifikacja.css') }}">
+
+<div class="tar-page kpj-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Kwalifikacja zdarzenia drogowego</h1>
+      <p class="kpj-lead">Odpowiedz na pytania — kreator wskaże kwalifikację (art. 86 / 97 / 98 KW albo wypadek z art. 177 KK) i czynności.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+    <div class="kwz-sciezka" id="kwz-sciezka" aria-label="Twoje dotychczasowe odpowiedzi"></div>
+    <div id="kwz-panel" aria-live="polite"></div>
+    <p class="kpj-zrodlo">Kreator ma charakter pomocniczy — ostateczna kwalifikacja należy do funkcjonariusza
+      po ocenie całokształtu okoliczności zdarzenia.</p>
+  </main>
+
+</div>
+
+<script id="kwz-dane" type="application/json">{{ dane|tojson }}</script>
+<script src="{{ static_v('js/kwalifikacja.js') }}" defer></script>
+{% endblock %}

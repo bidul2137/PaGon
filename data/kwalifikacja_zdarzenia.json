@@ -1,0 +1,116 @@
+{
+ "_zrodlo": "Kwalifikacja zdarzenia drogowego: art. 86, 97, 98 KW; art. 177 KK. Ścieżka pytań wg praktyki służby ruchu drogowego.",
+ "uwaga_trzezwosc": "Powyższa kwalifikacja dotyczy trzeźwego sprawcy. Stan po użyciu alkoholu lub stan nietrzeźwości zmienia kwalifikację (art. 87 KW / art. 178a KK) — przeprowadź badanie.",
+ "start": "q-miejsce",
+ "wezly": {
+  "q-miejsce": {
+   "pytanie": "Gdzie doszło do zdarzenia drogowego?",
+   "podpowiedz": "Sprawca i poszkodowany/-ni są na miejscu.",
+   "krotko": "Miejsce",
+   "opcje": [
+    {"tekst": "Na drodze publicznej, w strefie ruchu lub w strefie zamieszkania", "krotko": "Droga publiczna / strefa", "next": "q-osoby-pub"},
+    {"tekst": "Poza drogą publiczną, strefą ruchu i strefą zamieszkania", "krotko": "Poza drogą publiczną", "next": "q-osoby-poza"}
+   ]
+  },
+  "q-osoby-pub": {
+   "pytanie": "Czy w zdarzeniu poza kierowcą uczestniczyła inna osoba?",
+   "krotko": "Inne osoby",
+   "opcje": [
+    {"tekst": "Tak, uczestniczyły inne osoby", "krotko": "Tak", "next": "q-obrazenia"},
+    {"tekst": "Nie, był tylko kierowca", "krotko": "Nie", "next": "w-97"}
+   ]
+  },
+  "q-obrazenia": {
+   "pytanie": "Czy powstały obrażenia osób poszkodowanych?",
+   "krotko": "Obrażenia",
+   "opcje": [
+    {"tekst": "Tak", "krotko": "Tak", "next": "q-7dni"},
+    {"tekst": "Nie", "krotko": "Nie", "next": "w-86-1"}
+   ]
+  },
+  "q-7dni": {
+   "pytanie": "Czy obrażenia poszkodowanych trwają dłużej niż 7 dni?",
+   "podpowiedz": "Naruszenie czynności narządu ciała lub rozstrój zdrowia trwające dłużej niż 7 dni.",
+   "krotko": "Powyżej 7 dni",
+   "opcje": [
+    {"tekst": "Tak", "krotko": "Tak", "next": "w-wypadek"},
+    {"tekst": "Nie", "krotko": "Nie", "next": "w-86-1a"}
+   ]
+  },
+  "q-osoby-poza": {
+   "pytanie": "Czy w zdarzeniu poza kierowcą uczestniczyła inna osoba?",
+   "krotko": "Inne osoby",
+   "opcje": [
+    {"tekst": "Tak, uczestniczyły inne osoby", "krotko": "Tak", "next": "w-98"},
+    {"tekst": "Nie, był tylko kierowca", "krotko": "Nie", "next": "w-brak"}
+   ]
+  }
+ },
+ "wyniki": {
+  "w-wypadek": {
+   "typ": "wypadek",
+   "tytul": "Czynności do wypadku drogowego!",
+   "kwalifikacja": "art. 177 KK",
+   "opis": "Obrażenia poszkodowanych trwające dłużej niż 7 dni oznaczają wypadek drogowy — przestępstwo z art. 177 KK. Zabezpiecz miejsce zdarzenia i ślady, ustal świadków, powiadom dyżurnego.",
+   "mrd2": false,
+   "czynnosci": [],
+   "taryfikator": null
+  },
+  "w-86-1a": {
+   "typ": "wykroczenie",
+   "tytul": "Kwalifikacja zdarzenia: art. 86 § 1a KW",
+   "kwalifikacja": "art. 86 §1a KW",
+   "opis": "Niezachowanie należytej ostrożności i spowodowanie zagrożenia bezpieczeństwa w ruchu drogowym, którego następstwem są obrażenia poszkodowanego trwające nie dłużej niż 7 dni.",
+   "mrd2": true,
+   "czynnosci": ["pouczenie (art. 41 KW)", "postępowanie mandatowe", "wniosek o ukaranie do sądu"],
+   "taryfikator": "86 §1a",
+   "taryfikator_ids": [
+    {"id": "w-011", "etykieta": "Kierujący pojazdem mechanicznym"},
+    {"id": "w-458", "etykieta": "Inny uczestnik ruchu"}
+   ]
+  },
+  "w-86-1": {
+   "typ": "wykroczenie",
+   "tytul": "Kwalifikacja zdarzenia: art. 86 § 1 KW",
+   "kwalifikacja": "art. 86 §1 KW",
+   "opis": "Niezachowanie należytej ostrożności i spowodowanie zagrożenia bezpieczeństwa w ruchu drogowym — kolizja bez obrażeń osób.",
+   "mrd2": true,
+   "czynnosci": ["pouczenie (art. 41 KW)", "postępowanie mandatowe", "wniosek o ukaranie do sądu"],
+   "taryfikator": "86 §1",
+   "taryfikator_ids": [
+    {"id": "w-039", "etykieta": "Kierujący pojazdem mechanicznym"},
+    {"id": "w-199", "etykieta": "Inny uczestnik ruchu"}
+   ]
+  },
+  "w-97": {
+   "typ": "wykroczenie",
+   "tytul": "Kwalifikacja zdarzenia: art. 97 KW w zw. z … (przyczyna zdarzenia)",
+   "kwalifikacja": "art. 97 KW",
+   "opis": "Zdarzenie jednostronne — uczestniczył tylko kierowca. Kwalifikacja z art. 97 KW w związku z przepisem PRD, którego naruszenie było przyczyną zdarzenia.",
+   "mrd2": true,
+   "czynnosci": ["pouczenie (art. 41 KW)", "postępowanie mandatowe", "wniosek o ukaranie do sądu"],
+   "taryfikator": "97 KW"
+  },
+  "w-98": {
+   "typ": "wykroczenie",
+   "tytul": "Kwalifikacja zdarzenia: art. 98 KW",
+   "kwalifikacja": "art. 98 KW",
+   "opis": "Prowadzenie pojazdu poza drogą publiczną, strefą ruchu i strefą zamieszkania z zagrożeniem bezpieczeństwa innej osoby.",
+   "mrd2": true,
+   "czynnosci": ["pouczenie (art. 41 KW)", "postępowanie mandatowe", "wniosek o ukaranie do sądu"],
+   "taryfikator": "98 KW",
+   "taryfikator_ids": [
+    {"id": "w-033", "etykieta": null}
+   ]
+  },
+  "w-brak": {
+   "typ": "brak",
+   "tytul": "Brak znamion wykroczenia, jeżeli sprawca jest trzeźwy",
+   "kwalifikacja": null,
+   "opis": "Zdarzenie poza drogą publiczną, strefą ruchu i strefą zamieszkania, bez udziału innych osób, nie wypełnia znamion wykroczenia przeciwko bezpieczeństwu w komunikacji.",
+   "mrd2": false,
+   "czynnosci": [],
+   "taryfikator": null
+  }
+ }
+}

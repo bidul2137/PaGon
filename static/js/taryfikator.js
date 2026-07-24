@@ -677,6 +677,11 @@
     .then(function (dane) {
       state.kategorie = dane.kategorie || [];
       state.rekordy = dane.rekordy || [];
+      // wejście z linku typu /taryfikator?q=86 §1a (np. z kreatora kwalifikacji)
+      try {
+        var q0 = new URLSearchParams(window.location.search).get("q");
+        if (q0) { state.query = q0; searchInput.value = q0; }
+      } catch (e) { /* starsze przeglądarki — bez wstępnego filtru */ }
       odswiezFiltrUI();
       renderujLista();
     })
