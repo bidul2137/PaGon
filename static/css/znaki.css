@@ -237,3 +237,23 @@
 .zn-kategorie, .zn-lista, .zn-mini { width: 100%; }
 .zn-kat, .zn-poz, .zn-poz-link, .zn-mini-karta { box-sizing: border-box; }
 .zn-kod, .zn-kat-seria { white-space: nowrap; }
+
+/* Rozwijanie ulubionych — pokazuje sie dopiero powyzej 6 znakow, zeby lista
+   nie spychala kategorii poza ekran. */
+.zn-wiecej {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 9px 12px;
+  border: 1px solid var(--kre, rgba(255,255,255,.10));
+  border-radius: 10px;
+  background: transparent;
+  color: var(--tekst-drugi, #9aa4b2);
+  font: inherit;
+  font-size: .86rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+.zn-wiecej:hover,
+.zn-wiecej:focus-visible { background: rgba(255,255,255,.05); color: var(--tekst, #e8edf5); }

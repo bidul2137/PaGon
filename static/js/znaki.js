@@ -12,7 +12,8 @@
   var K_ULUBIONE = "pagon-znaki-ulubione";
   var K_HISTORIA = "pagon-znaki-historia";
   var MAX_WYNIKOW = 10;
-  var MAX_HISTORII = 8;
+  var MAX_HISTORII = 4;      // ile ostatnio ogladanych znakow pokazujemy
+  var ULUBIONE_ZWIN = 6;     // powyzej tylu ulubionych lista sie zwija
 
   var strona = document.querySelector(".zn-page");
   if (!strona) return;
@@ -47,7 +48,7 @@
     var ik = el("span", "zn-mini-ikona");
     if (z.img) {
       var img = document.createElement("img");
-      img.src = "/static/" + z.img; img.alt = ""; img.loading = "lazy";
+      img.src = "/static/" + z.img + "?v=" + wersja; img.alt = ""; img.loading = "lazy";
       ik.appendChild(img);
     } else ik.appendChild(el("span", "zn-brak-ikony", z.code));
     a.appendChild(ik);
@@ -102,7 +103,7 @@
           var ik = el("span", "zn-wynik-ikona");
           if (z.img) {
             var img = document.createElement("img");
-            img.src = "/static/" + z.img; img.alt = ""; img.loading = "lazy";
+            img.src = "/static/" + z.img + "?v=" + wersja; img.alt = ""; img.loading = "lazy";
             ik.appendChild(img);
           } else ik.appendChild(el("span", "zn-brak-ikony", z.code));
           a.appendChild(ik);
@@ -140,18 +141,52 @@
       }
     });
 
+    var ulubioneRozwiniete = false;
+
     function rysujSekcje() {
-      [["znUlubione", "znUlubioneLista", czytaj(K_ULUBIONE)],
-       ["znOstatnie", "znOstatnieLista", czytaj(K_HISTORIA)]].forEach(function (p) {
-        var sekcja = document.getElementById(p[0]), lista = document.getElementById(p[1]);
-        if (!sekcja || !lista) return;
-        lista.innerHTML = "";
-        var poz = p[2].map(function (k) { return INDEKS[k]; }).filter(Boolean);
-        if (!poz.length) { sekcja.hidden = true; return; }
-        sekcja.hidden = false;
-        poz.forEach(function (z) { lista.appendChild(miniKarta(z)); });
-      });
+      // ostatnio ogladane: krotka lista, zawsze przycieta
+      var sekH = document.getElementById("znOstatnie");
+      var lisH = document.getElementById("znOstatnieLista");
+      if (sekH && lisH) {
+        lisH.innerHTML = "";
+        var poz = czytaj(K_HISTORIA).map(function (k) { return INDEKS[k]; })
+                    .filter(Boolean).slice(0, MAX_HISTORII);
+        sekH.hidden = !poz.length;
+        poz.forEach(function (z) { lisH.appendChild(miniKarta(z)); });
+      }
+
+      // ulubione: przy wiekszej liczbie zwijamy, zeby nie spychac reszty strony
+      var sekU = document.getElementById("znUlubione");
+      var lisU = document.getElementById("znUlubioneLista");
+      var przU = document.getElementById("znUlubioneWiecej");
+      if (!sekU || !lisU) return;
+      lisU.innerHTML = "";
+      var ulub = czytaj(K_ULUBIONE).map(function (k) { return INDEKS[k]; }).filter(Boolean);
+      if (!ulub.length) {
+        sekU.hidden = true;
+        if (przU) przU.hidden = true;
+        return;
+      }
+      sekU.hidden = false;
+      var zwijamy = ulub.length > ULUBIONE_ZWIN;
+      var widoczne = (zwijamy && !ulubioneRozwiniete) ? ulub.slice(0, ULUBIONE_ZWIN) : ulub;
+      widoczne.forEach(function (z) { lisU.appendChild(miniKarta(z)); });
+
+      if (!przU) return;
+      przU.hidden = !zwijamy;
+      if (!zwijamy) { ulubioneRozwiniete = false; return; }
+      przU.textContent = ulubioneRozwiniete
+        ? "Zwiń"
+        : "Pokaż wszystkie (" + ulub.length + ")";
+      przU.setAttribute("aria-expanded", String(ulubioneRozwiniete));
     }
+
+    var przWiecej = document.getElementById("znUlubioneWiecej");
+    if (przWiecej) przWiecej.addEventListener("click", function () {
+      ulubioneRozwiniete = !ulubioneRozwiniete;
+      rysujSekcje();
+      if (!ulubioneRozwiniete) przWiecej.focus();
+    });
 
     var czysc = document.getElementById("znWyczyscHistorie");
     if (czysc) czysc.addEventListener("click", function () {

@@ -5,8 +5,8 @@
   "category_id": "BT",
   "category_name": "Znaki i sygnały dla kierujących tramwajami",
   "name": "ograniczenie prędkości",
-  "short_description": "Oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilo￾metrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony.",
-  "details": "Znak BT-1 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilo￾metrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony. Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidle￾nia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”.",
+  "short_description": "Oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony.",
+  "details": "Znak BT-1 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony. Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidlenia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”.",
   "image_path": "img/znaki/BT-1.png",
   "keywords": [
    "bt-1",
@@ -19,7 +19,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 81",
-   "source_text": "§ 81. 1. Znak BT-1 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilo￾metrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony. 2. Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidle￾nia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”. 3. Znak BT-3 „blokada zwrotnicy” oznacza zakaz wjazdu kierującego tramwajem pod urządzenie sterujące zwrotnicą, aż poprzedni tramwaj nie opuści zwrotnicy. 4. Znak BT-4 „stop – zwrotnica eksploatowana jednostronnie” oznacza zakaz wjazdu kierującego tramwajem na zwrot￾nicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
+   "source_text": "§ 81. 1. Znak BT-1 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony. 2. Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidlenia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”. 3. Znak BT-3 „blokada zwrotnicy” oznacza zakaz wjazdu kierującego tramwajem pod urządzenie sterujące zwrotnicą, aż poprzedni tramwaj nie opuści zwrotnicy. 4. Znak BT-4 „stop – zwrotnica eksploatowana jednostronnie” oznacza zakaz wjazdu kierującego tramwajem na zwrotnicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -31,8 +31,8 @@
   "category_id": "BT",
   "category_name": "Znaki i sygnały dla kierujących tramwajami",
   "name": "koniec ograniczenia prędkości",
-  "short_description": "koniec ograniczenia prędkości",
-  "details": "Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidle￾nia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”.",
+  "short_description": "Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidlenia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”.",
+  "details": "Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidlenia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”.",
   "image_path": "img/znaki/BT-2.png",
   "keywords": [
    "bt-2",
@@ -46,11 +46,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 81",
-   "source_text": "§ 81. 1. Znak BT-1 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilo￾metrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony. 2. Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidle￾nia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”. 3. Znak BT-3 „blokada zwrotnicy” oznacza zakaz wjazdu kierującego tramwajem pod urządzenie sterujące zwrotnicą, aż poprzedni tramwaj nie opuści zwrotnicy. 4. Znak BT-4 „stop – zwrotnica eksploatowana jednostronnie” oznacza zakaz wjazdu kierującego tramwajem na zwrot￾nicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
+   "source_text": "§ 81. 1. Znak BT-1 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony. 2. Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidlenia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”. 3. Znak BT-3 „blokada zwrotnicy” oznacza zakaz wjazdu kierującego tramwajem pod urządzenie sterujące zwrotnicą, aż poprzedni tramwaj nie opuści zwrotnicy. 4. Znak BT-4 „stop – zwrotnica eksploatowana jednostronnie” oznacza zakaz wjazdu kierującego tramwajem na zwrotnicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "BT-3",
@@ -72,7 +72,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 81",
-   "source_text": "§ 81. 1. Znak BT-1 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilo￾metrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony. 2. Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidle￾nia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”. 3. Znak BT-3 „blokada zwrotnicy” oznacza zakaz wjazdu kierującego tramwajem pod urządzenie sterujące zwrotnicą, aż poprzedni tramwaj nie opuści zwrotnicy. 4. Znak BT-4 „stop – zwrotnica eksploatowana jednostronnie” oznacza zakaz wjazdu kierującego tramwajem na zwrot￾nicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
+   "source_text": "§ 81. 1. Znak BT-1 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony. 2. Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidlenia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”. 3. Znak BT-3 „blokada zwrotnicy” oznacza zakaz wjazdu kierującego tramwajem pod urządzenie sterujące zwrotnicą, aż poprzedni tramwaj nie opuści zwrotnicy. 4. Znak BT-4 „stop – zwrotnica eksploatowana jednostronnie” oznacza zakaz wjazdu kierującego tramwajem na zwrotnicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -84,8 +84,8 @@
   "category_id": "BT",
   "category_name": "Znaki i sygnały dla kierujących tramwajami",
   "name": "stop – zwrotnica eksploatowana jednostronnie",
-  "short_description": "Oznacza zakaz wjazdu kierującego tramwajem na zwrot￾nicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
-  "details": "Znak BT-4 „stop – zwrotnica eksploatowana jednostronnie” oznacza zakaz wjazdu kierującego tramwajem na zwrot￾nicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
+  "short_description": "Oznacza zakaz wjazdu kierującego tramwajem na zwrotnicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
+  "details": "Znak BT-4 „stop – zwrotnica eksploatowana jednostronnie” oznacza zakaz wjazdu kierującego tramwajem na zwrotnicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
   "image_path": "img/znaki/BT-4.png",
   "keywords": [
    "bt-4",
@@ -100,7 +100,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 81",
-   "source_text": "§ 81. 1. Znak BT-1 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilo￾metrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony. 2. Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidle￾nia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”. 3. Znak BT-3 „blokada zwrotnicy” oznacza zakaz wjazdu kierującego tramwajem pod urządzenie sterujące zwrotnicą, aż poprzedni tramwaj nie opuści zwrotnicy. 4. Znak BT-4 „stop – zwrotnica eksploatowana jednostronnie” oznacza zakaz wjazdu kierującego tramwajem na zwrot￾nicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
+   "source_text": "§ 81. 1. Znak BT-1 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony. 2. Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidlenia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”. 3. Znak BT-3 „blokada zwrotnicy” oznacza zakaz wjazdu kierującego tramwajem pod urządzenie sterujące zwrotnicą, aż poprzedni tramwaj nie opuści zwrotnicy. 4. Znak BT-4 „stop – zwrotnica eksploatowana jednostronnie” oznacza zakaz wjazdu kierującego tramwajem na zwrotnicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",

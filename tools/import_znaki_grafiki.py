@@ -111,9 +111,42 @@ def przytnij(im: Image.Image, prog: int = 235) -> Image.Image:
                     min(im.width, xs.max() + 1 + m), min(im.height, ys.max() + 1 + m)))
 
 
-def tnij_arkusz(sciezka: Path) -> list[tuple[str | None, str, Image.Image]]:
+def sklej_plastry(sciezki: list[Path]) -> list[tuple[str, Image.Image]]:
+    """Skleja plastry jednej strony w caly arkusz.
+
+    PDF trzyma zalaczniki pocięte na poziome plastry o tej samej szerokosci.
+    Ciecie plastra wypada w dowolnym miejscu — czasem w polowie rzedu znakow
+    (tak bylo z B-13a..B-19: gorna polowa konczyla arkusz, dolna zaczynala
+    nastepny, wiec zapisywaly sie same doly znakow). Sasiednie plastry o
+    identycznej szerokosci naleza do jednej strony, wiec laczymy je pionowo.
+    """
+    grupy: list[list[Path]] = []
+    for p in sciezki:
+        szer = Image.open(p).width
+        if grupy and Image.open(grupy[-1][-1]).width == szer:
+            grupy[-1].append(p)
+        else:
+            grupy.append([p])
+
+    wynik = []
+    for grupa in grupy:
+        obrazy = [Image.open(p).convert("RGB") for p in grupa]
+        if len(obrazy) == 1:
+            wynik.append((grupa[0].name, obrazy[0]))
+            continue
+        wys = sum(o.height for o in obrazy)
+        calosc = Image.new("RGB", (obrazy[0].width, wys), "white")
+        y = 0
+        for o in obrazy:
+            calosc.paste(o, (0, y)); y += o.height
+        wynik.append((grupa[0].name + "+" + str(len(grupa)), calosc))
+    return wynik
+
+
+def tnij_arkusz(sciezka: Path | Image.Image) -> list[tuple[str | None, str, Image.Image]]:
     """Dzieli arkusz na pojedyncze znaki. Zwraca [(kod, surowy_ocr, obraz)]."""
-    im = Image.open(sciezka).convert("RGB")
+    im = sciezka if isinstance(sciezka, Image.Image) else Image.open(sciezka)
+    im = im.convert("RGB")
     maska = np.array(im.convert("L")) < 235
     if not maska.any():
         return []
@@ -128,6 +161,20 @@ def tnij_arkusz(sciezka: Path) -> list[tuple[str | None, str, Image.Image]]:
     # pasmo podpisow rozpoznajemy po BEZWZGLEDNEJ wysokosci: podpisy to jeden
     # wiersz drobnego tekstu, znaki sa kilkukrotnie wyzsze
     prog_podpisu = max(24, int(np.percentile(wysokosci, 75) * 0.42))
+
+    # Niektore znaki maja w srodku poziomy pas bieli szerszy niz minimalna przerwa
+    # (np. B-13a..B-19 — pusty pasek nad napisem w czerwonym okregu). Takie pasmo
+    # rozpadalo sie na dwa i zapisywana byla tylko dolna polowa znaku.
+    # Rzedy znakow sa ZAWSZE rozdzielone rzedem podpisow, wiec kazdy ciag sasiednich
+    # pasm bez podpisu miedzy nimi nalezy do jednego rzedu — sklejamy go z powrotem.
+    scalone: list[tuple[int, int]] = []
+    for y0, y1 in wiersze:
+        podpis = (y1 - y0) <= prog_podpisu
+        if scalone and not podpis and (scalone[-1][1] - scalone[-1][0]) > prog_podpisu:
+            scalone[-1] = (scalone[-1][0], y1)   # doklejamy do trwajacego rzedu znakow
+        else:
+            scalone.append((y0, y1))
+    wiersze = scalone
     wyniki: list[tuple[str | None, str, Image.Image]] = []
 
     i = 0
@@ -199,10 +246,11 @@ def main() -> None:
         if not a.sprawdz:
             a.wyjscie.mkdir(parents=True, exist_ok=True)
 
-        for ark in arkusze:
-            komorki = tnij_arkusz(ark)
+        for nazwa, obraz_ark in sklej_plastry(arkusze):
+            ark = Path(nazwa)
+            komorki = tnij_arkusz(obraz_ark)
             ok = sum(1 for k, _, _ in komorki if k)
-            print(f"  {ark.name}: komórek {len(komorki)}, rozpoznanych kodów {ok}")
+            print(f"  {nazwa}: komórek {len(komorki)}, rozpoznanych kodów {ok}")
             for kod, surowy, obraz in komorki:
                 if not kod:
                     nierozpoznane.append({"arkusz": ark.name, "ocr": surowy,

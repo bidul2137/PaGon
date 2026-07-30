@@ -17,7 +17,7 @@
        class="tar-back" aria-label="Powrót do kategorii {{ znak.category_name }}">&lsaquo;</a>
     <div class="tar-brand kpj-brand">
       <h1 class="tar-title kpj-title zn-tytul">{{ znak.code }}</h1>
-      <p class="kpj-lead">{{ znak.name or '—' }}</p>
+      <p class="kpj-lead">{{ znak.name or znak.short_description or '—' }}</p>
     </div>
     <button type="button" class="zn-gwiazdka" id="znGwiazdka" aria-pressed="false"
             aria-label="Dodaj znak {{ znak.code }} do ulubionych">
@@ -33,7 +33,7 @@
 
     <div class="zn-scena">
       {% if znak.image_path %}
-        <img src="{{ url_for('static', filename=znak.image_path) }}"
+        <img src="{{ static_v(znak.image_path) }}"
              alt="Znak {{ znak.code }} — {{ znak.name or '' }}" class="zn-scena-img" id="znObraz">
         <button type="button" class="zn-btn zn-btn--maly" id="znPowieksz"
                 aria-label="Powiększ grafikę znaku {{ znak.code }}">Powiększ znak</button>
@@ -63,7 +63,7 @@
             <a class="zn-mini-karta" href="{{ url_for('pomoce_znaki_znak', kod=p.code) }}">
               <span class="zn-mini-ikona">
                 {% if p.image_path %}
-                  <img src="{{ url_for('static', filename=p.image_path) }}" alt="" loading="lazy">
+                  <img src="{{ static_v(p.image_path) }}" alt="" loading="lazy">
                 {% else %}<span class="zn-brak-ikony" aria-hidden="true">{{ p.code }}</span>{% endif %}
               </span>
               <span class="zn-mini-kod">{{ p.code }}</span>
@@ -96,7 +96,7 @@
      aria-label="Powiększona grafika znaku {{ znak.code }}">
   <button type="button" class="zn-podglad-zamknij" id="znPodgladZamknij" aria-label="Zamknij podgląd">×</button>
   {% if znak.image_path %}
-    <img src="{{ url_for('static', filename=znak.image_path) }}" alt="Znak {{ znak.code }}">
+    <img src="{{ static_v(znak.image_path) }}" alt="Znak {{ znak.code }}">
   {% endif %}
 </div>
 

@@ -20,46 +20,55 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 3",
-   "source_text": "§ 3. 1. Znaki ostrzegawcze uprzedzają o miejscach na drodze, w których występuje lub może występować niebezpie￾czeństwo, oraz zobowiązują uczestników ruchu do zachowania szczególnej ostrożności. 2. Odległość znaku ostrzegawczego od miejsca niebezpiecznego wynosi od 150 m do 300 m na drogach, na których dopuszczalna prędkość pojazdów przekracza 60 km/h, a do 100 m na pozostałych drogach. 3. Przepisu ust. 2 nie stosuje się do znaku A-7, który umieszcza się w odległości do 50 m od skrzyżowania na drogach, na których dopuszczalna prędkość pojazdów przekracza 60 km/h, oraz do 25 m od skrzyżowania na pozostałych drogach, z zastrzeżeniem § 5 ust. 5. 4. Umieszczona pod znakiem ostrzegawczym tabliczka T-1 wskazuje odległość znaku od miejsca niebezpiecznego. 5. Umieszczona pod znakiem ostrzegawczym tabliczka T-2 wskazuje długość odcinka drogi, na którym powtarza się lub występuje niebezpieczeństwo, jeżeli długość odcinka przekracza 500 m; umieszczona pod znakiem ostrzegawczym tabliczka T-3 oznacza koniec takiego odcinka. Dziennik Ustaw – 4 – Poz. 2310",
+   "source_text": "§ 3. 1. Znaki ostrzegawcze uprzedzają o miejscach na drodze, w których występuje lub może występować niebezpieczeństwo, oraz zobowiązują uczestników ruchu do zachowania szczególnej ostrożności. 2. Odległość znaku ostrzegawczego od miejsca niebezpiecznego wynosi od 150 m do 300 m na drogach, na których dopuszczalna prędkość pojazdów przekracza 60 km/h, a do 100 m na pozostałych drogach. 3. Przepisu ust. 2 nie stosuje się do znaku A-7, który umieszcza się w odległości do 50 m od skrzyżowania na drogach, na których dopuszczalna prędkość pojazdów przekracza 60 km/h, oraz do 25 m od skrzyżowania na pozostałych drogach, z zastrzeżeniem § 5 ust. 5. 4. Umieszczona pod znakiem ostrzegawczym tabliczka T-1 wskazuje odległość znaku od miejsca niebezpiecznego. 5. Umieszczona pod znakiem ostrzegawczym tabliczka T-2 wskazuje długość odcinka drogi, na którym powtarza się lub występuje niebezpieczeństwo, jeżeli długość odcinka przekracza 500 m; umieszczona pod znakiem ostrzegawczym tabliczka T-3 oznacza koniec takiego odcinka. Dziennik Ustaw – 4 – Poz. 2310",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-10",
   "code": "T-10",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze",
+  "short_description": "Przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze",
   "details": "2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu;",
   "image_path": "img/znaki/T-10.png",
   "keywords": [
+   "bocznicą",
+   "charakterze",
+   "drogi",
+   "kolejową",
+   "podobnym",
+   "przecięcie",
    "t-10",
-   "t10"
+   "t10",
+   "torem"
   ],
   "related_sign_ids": [],
   "legal_basis": {
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 11",
-   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą sym￾bolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
+   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-11",
   "code": "T-11",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "przeprawę promową",
+  "short_description": "Przeprawę promową",
   "details": "3) T-11 – przeprawę promową;",
   "image_path": "img/znaki/T-11.png",
   "keywords": [
+   "promową",
+   "przeprawę",
    "t-11",
    "t11"
   ],
@@ -68,142 +77,177 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 11",
-   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą sym￾bolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
+   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-12",
   "code": "T-12",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "podłużny uskok nawierzchni",
+  "short_description": "Podłużny uskok nawierzchni",
   "details": "4) T-12 – podłużny uskok nawierzchni;",
   "image_path": "img/znaki/T-12.png",
   "keywords": [
+   "nawierzchni",
+   "podłużny",
    "t-12",
-   "t12"
+   "t12",
+   "uskok"
   ],
   "related_sign_ids": [],
   "legal_basis": {
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 11",
-   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą sym￾bolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
+   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-13",
   "code": "T-13",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein",
+  "short_description": "Odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein",
   "details": "5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein;",
   "image_path": "img/znaki/T-13.png",
   "keywords": [
+   "deformacje",
+   "drogi",
+   "kolein",
+   "którym",
+   "nawierzchni",
+   "odcinek",
+   "postaci",
    "t-13",
-   "t13"
+   "t13",
+   "występują"
   ],
   "related_sign_ids": [],
   "legal_basis": {
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 11",
-   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą sym￾bolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
+   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-14",
   "code": "T-14",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "miejsce częstych wypadków o charakterze wskazanym na tabliczce",
+  "short_description": "Miejsce częstych wypadków o charakterze wskazanym na tabliczce",
   "details": "6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce;",
   "image_path": "img/znaki/T-14.png",
   "keywords": [
+   "charakterze",
+   "częstych",
+   "miejsce",
    "t-14",
-   "t14"
+   "t14",
+   "tabliczce",
+   "wskazanym",
+   "wypadków"
   ],
   "related_sign_ids": [],
   "legal_basis": {
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 11",
-   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą sym￾bolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
+   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-15",
   "code": "T-15",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu",
+  "short_description": "Miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu",
   "details": "7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu;",
   "image_path": "img/znaki/T-15.png",
   "keywords": [
+   "częstych",
+   "deszczu",
+   "jezdni",
+   "miejsce",
+   "nawierzchnią",
+   "opady",
+   "spowodowanych",
    "t-15",
-   "t15"
+   "t15",
+   "wypadków",
+   "względu",
+   "śliską"
   ],
   "related_sign_ids": [],
   "legal_basis": {
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 11",
-   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą sym￾bolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
+   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-16",
   "code": "T-16",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce",
+  "short_description": "Miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce",
   "details": "8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
   "image_path": "img/znaki/T-16.png",
   "keywords": [
+   "miejsce",
+   "pojazdów",
    "t-16",
-   "t16"
+   "t16",
+   "tabliczce",
+   "uprzywilejowanych",
+   "wskazanych",
+   "wyjazdu"
   ],
   "related_sign_ids": [],
   "legal_basis": {
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 11",
-   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą sym￾bolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
+   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-17",
   "code": "T-17",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "granicę państwa",
+  "short_description": "Granicę państwa",
   "details": "9) T-17 – granicę państwa;",
   "image_path": "img/znaki/T-17.png",
   "keywords": [
+   "granicę",
+   "państwa",
    "t-17",
    "t17"
   ],
@@ -212,35 +256,42 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 11",
-   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą sym￾bolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
+   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-18",
   "code": "T-18",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3",
+  "short_description": "Nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3",
   "details": "10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce.",
   "image_path": "img/znaki/T-18.png",
   "keywords": [
+   "kierunku",
+   "nieoczekiwaną",
+   "przebiegu",
+   "ruchu",
    "t-18",
-   "t18"
+   "t18",
+   "tabliczce",
+   "wskazanym",
+   "zmianę"
   ],
   "related_sign_ids": [],
   "legal_basis": {
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 11",
-   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą sym￾bolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
+   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-19",
@@ -260,11 +311,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 7",
-   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą na￾wierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
+   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-1a",
@@ -290,8 +341,8 @@
    "source_text": "§ 50. Umieszczona pod znakiem D-7, D-8, D-9, D-10, D-13, D-13a lub D-14 tabliczka T-1a wskazuje odległość do początku lub końca drogi lub pasa ruchu.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-1b",
@@ -317,8 +368,8 @@
    "source_text": "§ 56. 1. Znak D-37 „tunel” oznacza wjazd do tunelu. Wyjazd z tunelu jest oznaczony znakiem D-38 „koniec tunelu”. 2. Umieszczona pod znakiem D-37 tabliczka T-1b wskazuje rzeczywistą długość tunelu – w przypadku gdy długość tunelu przekracza 500 m. Rzeczywista długość tunelu może być także wskazana przez umieszczenie w dolnej części znaku napisu i symboli odpowiadających treści tabliczki T-1b. 3. W przypadku tuneli o długości przekraczającej 3000 m pozostała długość tunelu do przebycia jest wskazywana co 1000 m tabliczką T-1b. 4. Umieszczona pod znakiem D-37 tabliczka T-32 wskazuje minimalny odstęp od poprzedzającego pojazdu.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-2",
@@ -338,70 +389,84 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 3",
-   "source_text": "§ 3. 1. Znaki ostrzegawcze uprzedzają o miejscach na drodze, w których występuje lub może występować niebezpie￾czeństwo, oraz zobowiązują uczestników ruchu do zachowania szczególnej ostrożności. 2. Odległość znaku ostrzegawczego od miejsca niebezpiecznego wynosi od 150 m do 300 m na drogach, na których dopuszczalna prędkość pojazdów przekracza 60 km/h, a do 100 m na pozostałych drogach. 3. Przepisu ust. 2 nie stosuje się do znaku A-7, który umieszcza się w odległości do 50 m od skrzyżowania na drogach, na których dopuszczalna prędkość pojazdów przekracza 60 km/h, oraz do 25 m od skrzyżowania na pozostałych drogach, z zastrzeżeniem § 5 ust. 5. 4. Umieszczona pod znakiem ostrzegawczym tabliczka T-1 wskazuje odległość znaku od miejsca niebezpiecznego. 5. Umieszczona pod znakiem ostrzegawczym tabliczka T-2 wskazuje długość odcinka drogi, na którym powtarza się lub występuje niebezpieczeństwo, jeżeli długość odcinka przekracza 500 m; umieszczona pod znakiem ostrzegawczym tabliczka T-3 oznacza koniec takiego odcinka. Dziennik Ustaw – 4 – Poz. 2310",
+   "source_text": "§ 3. 1. Znaki ostrzegawcze uprzedzają o miejscach na drodze, w których występuje lub może występować niebezpieczeństwo, oraz zobowiązują uczestników ruchu do zachowania szczególnej ostrożności. 2. Odległość znaku ostrzegawczego od miejsca niebezpiecznego wynosi od 150 m do 300 m na drogach, na których dopuszczalna prędkość pojazdów przekracza 60 km/h, a do 100 m na pozostałych drogach. 3. Przepisu ust. 2 nie stosuje się do znaku A-7, który umieszcza się w odległości do 50 m od skrzyżowania na drogach, na których dopuszczalna prędkość pojazdów przekracza 60 km/h, oraz do 25 m od skrzyżowania na pozostałych drogach, z zastrzeżeniem § 5 ust. 5. 4. Umieszczona pod znakiem ostrzegawczym tabliczka T-1 wskazuje odległość znaku od miejsca niebezpiecznego. 5. Umieszczona pod znakiem ostrzegawczym tabliczka T-2 wskazuje długość odcinka drogi, na którym powtarza się lub występuje niebezpieczeństwo, jeżeli długość odcinka przekracza 500 m; umieszczona pod znakiem ostrzegawczym tabliczka T-3 oznacza koniec takiego odcinka. Dziennik Ustaw – 4 – Poz. 2310",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-20",
   "code": "T-20",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
+  "name": "długość odcinka jezdni, na którym zakaz obowiązuje",
   "short_description": "Umieszczona pod znakiem zakazu tabliczka wskazuje: 1) T-20 – długość odcinka jezdni, na którym zakaz obowiązuje;",
   "details": "Umieszczona pod znakiem zakazu tabliczka wskazuje: 1) T-20 – długość odcinka jezdni, na którym zakaz obowiązuje;",
   "image_path": "img/znaki/T-20.png",
   "keywords": [
+   "długość",
+   "jezdni",
+   "którym",
+   "obowiązuje",
+   "odcinka",
    "t-20",
-   "t20"
+   "t20",
+   "zakaz"
   ],
   "related_sign_ids": [],
   "legal_basis": {
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 15",
-   "source_text": "§ 15. 1. Znaki zakazu obowiązują na drodze, na której są umieszczone, chyba że przepisy szczególne stanowią inaczej. 2. Zakaz wyrażony znakiem zakazu obowiązuje od miejsca jego ustawienia, chyba że przepisy szczególne stanowią inaczej. 3. Znak zakazu umieszczony pod znakiem E-17a oznacza, że zakaz obowiązuje na obszarze całej miejscowości, z wy￾jątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 4. Znak zakazu umieszczony pod znakiem D-42 oznacza, że zakaz obowiązuje do znaku D-43 lub E-18a, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 4a. Znak zakazu umieszczony pod znakiem D-52 „strefa ruchu” oznacza, że zakaz obowiązuje do znaku D-53 „koniec strefy ruchu”, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 5. Umieszczona pod znakiem zakazu tabliczka wskazuje: 1) T-20 – długość odcinka jezdni, na którym zakaz obowiązuje; 2) T-21 – odległość znaku od miejsca, od którego lub w którym zakaz obowiązuje. 6. Umieszczony na znaku zakazu albo tabliczce napis określający dni lub okres doby oznacza, że zakaz obowiązuje w tym czasie. Dziennik Ustaw – 7 – Poz. 2310 7. Umieszczone na jednej tarczy dwa lub trzy symbole znaków określonych w § 18 i 19 mają takie samo znaczenie jak znaki pojedyncze.",
+   "source_text": "§ 15. 1. Znaki zakazu obowiązują na drodze, na której są umieszczone, chyba że przepisy szczególne stanowią inaczej. 2. Zakaz wyrażony znakiem zakazu obowiązuje od miejsca jego ustawienia, chyba że przepisy szczególne stanowią inaczej. 3. Znak zakazu umieszczony pod znakiem E-17a oznacza, że zakaz obowiązuje na obszarze całej miejscowości, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 4. Znak zakazu umieszczony pod znakiem D-42 oznacza, że zakaz obowiązuje do znaku D-43 lub E-18a, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 4a. Znak zakazu umieszczony pod znakiem D-52 „strefa ruchu” oznacza, że zakaz obowiązuje do znaku D-53 „koniec strefy ruchu”, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 5. Umieszczona pod znakiem zakazu tabliczka wskazuje: 1) T-20 – długość odcinka jezdni, na którym zakaz obowiązuje; 2) T-21 – odległość znaku od miejsca, od którego lub w którym zakaz obowiązuje. 6. Umieszczony na znaku zakazu albo tabliczce napis określający dni lub okres doby oznacza, że zakaz obowiązuje w tym czasie. Dziennik Ustaw – 7 – Poz. 2310 7. Umieszczone na jednej tarczy dwa lub trzy symbole znaków określonych w § 18 i 19 mają takie samo znaczenie jak znaki pojedyncze.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-21",
   "code": "T-21",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "odległość znaku od miejsca, od którego lub w którym zakaz obowiązuje. 6",
+  "short_description": "T-21 – odległość znaku od miejsca, od którego lub w którym zakaz obowiązuje.",
   "details": "2) T-21 – odległość znaku od miejsca, od którego lub w którym zakaz obowiązuje.",
   "image_path": "img/znaki/T-21.png",
   "keywords": [
+   "którego",
+   "którym",
+   "miejsca",
+   "obowiązuje",
+   "odległość",
    "t-21",
-   "t21"
+   "t21",
+   "zakaz",
+   "znaku"
   ],
   "related_sign_ids": [],
   "legal_basis": {
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 15",
-   "source_text": "§ 15. 1. Znaki zakazu obowiązują na drodze, na której są umieszczone, chyba że przepisy szczególne stanowią inaczej. 2. Zakaz wyrażony znakiem zakazu obowiązuje od miejsca jego ustawienia, chyba że przepisy szczególne stanowią inaczej. 3. Znak zakazu umieszczony pod znakiem E-17a oznacza, że zakaz obowiązuje na obszarze całej miejscowości, z wy￾jątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 4. Znak zakazu umieszczony pod znakiem D-42 oznacza, że zakaz obowiązuje do znaku D-43 lub E-18a, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 4a. Znak zakazu umieszczony pod znakiem D-52 „strefa ruchu” oznacza, że zakaz obowiązuje do znaku D-53 „koniec strefy ruchu”, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 5. Umieszczona pod znakiem zakazu tabliczka wskazuje: 1) T-20 – długość odcinka jezdni, na którym zakaz obowiązuje; 2) T-21 – odległość znaku od miejsca, od którego lub w którym zakaz obowiązuje. 6. Umieszczony na znaku zakazu albo tabliczce napis określający dni lub okres doby oznacza, że zakaz obowiązuje w tym czasie. Dziennik Ustaw – 7 – Poz. 2310 7. Umieszczone na jednej tarczy dwa lub trzy symbole znaków określonych w § 18 i 19 mają takie samo znaczenie jak znaki pojedyncze.",
+   "source_text": "§ 15. 1. Znaki zakazu obowiązują na drodze, na której są umieszczone, chyba że przepisy szczególne stanowią inaczej. 2. Zakaz wyrażony znakiem zakazu obowiązuje od miejsca jego ustawienia, chyba że przepisy szczególne stanowią inaczej. 3. Znak zakazu umieszczony pod znakiem E-17a oznacza, że zakaz obowiązuje na obszarze całej miejscowości, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 4. Znak zakazu umieszczony pod znakiem D-42 oznacza, że zakaz obowiązuje do znaku D-43 lub E-18a, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 4a. Znak zakazu umieszczony pod znakiem D-52 „strefa ruchu” oznacza, że zakaz obowiązuje do znaku D-53 „koniec strefy ruchu”, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 5. Umieszczona pod znakiem zakazu tabliczka wskazuje: 1) T-20 – długość odcinka jezdni, na którym zakaz obowiązuje; 2) T-21 – odległość znaku od miejsca, od którego lub w którym zakaz obowiązuje. 6. Umieszczony na znaku zakazu albo tabliczce napis określający dni lub okres doby oznacza, że zakaz obowiązuje w tym czasie. Dziennik Ustaw – 7 – Poz. 2310 7. Umieszczone na jednej tarczy dwa lub trzy symbole znaków określonych w § 18 i 19 mają takie samo znaczenie jak znaki pojedyncze.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-23a",
   "code": "T-23a",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
-  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
+  "name": "motocykl",
+  "short_description": "Motocykl",
+  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
   "image_path": "img/znaki/T-23a.png",
   "keywords": [
+   "motocykl",
    "t-23a",
    "t23a"
   ],
@@ -417,24 +482,38 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silniko￾wych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielo￾śladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obow",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-23b",
   "code": "T-23b",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
-  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
+  "name": "samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy",
+  "short_description": "Samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy",
+  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
   "image_path": "img/znaki/T-23b.png",
   "keywords": [
+   "całkowitej",
+   "celów",
+   "ciągnik",
+   "ciężarowy",
+   "dopuszczalnej",
+   "masie",
+   "oraz",
+   "pojazd",
+   "przekraczającej",
+   "samochodowy",
+   "samochód",
+   "specjalny",
+   "specjalnych",
    "t-23b",
-   "t23b"
+   "t23b",
+   "używany"
   ],
   "related_sign_ids": [
    "T-23a",
@@ -448,24 +527,28 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silniko￾wych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielo￾śladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obow",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-23c",
   "code": "T-23c",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
-  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
+  "name": "ciągnik rolniczy i pojazd wolnobieżny",
+  "short_description": "Ciągnik rolniczy i pojazd wolnobieżny",
+  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
   "image_path": "img/znaki/T-23c.png",
   "keywords": [
+   "ciągnik",
+   "pojazd",
+   "rolniczy",
    "t-23c",
-   "t23c"
+   "t23c",
+   "wolnobieżny"
   ],
   "related_sign_ids": [
    "T-23a",
@@ -479,24 +562,31 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silniko￾wych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielo￾śladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obow",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-23d",
   "code": "T-23d",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
-  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
+  "name": "pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą",
+  "short_description": "Pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą",
+  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
   "image_path": "img/znaki/T-23d.png",
   "keywords": [
+   "jednoosiową",
+   "naczepą",
+   "pojazd",
+   "pojazdów",
+   "przyczepą",
+   "silnikowy",
    "t-23d",
-   "t23d"
+   "t23d",
+   "wyjątkiem"
   ],
   "related_sign_ids": [
    "T-23a",
@@ -510,22 +600,25 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silniko￾wych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielo￾śladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obow",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-23e",
   "code": "T-23e",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
-  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
+  "name": "pojazd z przyczepą kempingową",
+  "short_description": "Pojazd z przyczepą kempingową",
+  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
   "image_path": "img/znaki/T-23e.png",
   "keywords": [
+   "kempingową",
+   "pojazd",
+   "przyczepą",
    "t-23e",
    "t23e"
   ],
@@ -541,22 +634,23 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silniko￾wych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielo￾śladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obow",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-23f",
   "code": "T-23f",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
-  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
+  "name": "autobus",
+  "short_description": "Autobus",
+  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
   "image_path": "img/znaki/T-23f.png",
   "keywords": [
+   "autobus",
    "t-23f",
    "t23f"
   ],
@@ -572,24 +666,25 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silniko￾wych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielo￾śladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obow",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-23g",
   "code": "T-23g",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
-  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
+  "name": "trolejbus",
+  "short_description": "Trolejbus",
+  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
   "image_path": "img/znaki/T-23g.png",
   "keywords": [
    "t-23g",
-   "t23g"
+   "t23g",
+   "trolejbus"
   ],
   "related_sign_ids": [
    "T-23a",
@@ -603,24 +698,29 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silniko￾wych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielo￾śladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obow",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-23h",
   "code": "T-23h",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
-  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
+  "name": "pojazd przewożący towary niebezpieczne określone w § 19 ust. 2",
+  "short_description": "Pojazd przewożący towary niebezpieczne określone w § 19 ust. 2",
+  "details": "Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust.",
   "image_path": "img/znaki/T-23h.png",
   "keywords": [
+   "niebezpieczne",
+   "określone",
+   "pojazd",
+   "przewożący",
    "t-23h",
-   "t23h"
+   "t23h",
+   "towary"
   ],
   "related_sign_ids": [
    "T-23a",
@@ -634,24 +734,31 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silniko￾wych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielo￾śladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obow",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-23i",
   "code": "T-23i",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1",
+  "short_description": "Pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1",
   "details": "2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust.",
   "image_path": "img/znaki/T-23i.png",
   "keywords": [
+   "określone",
+   "pojazd",
+   "przewożący",
    "t-23i",
-   "t23i"
+   "t23i",
+   "towary",
+   "wybuchowe",
+   "zapalne",
+   "łatwo"
   ],
   "related_sign_ids": [
    "T-23a",
@@ -665,24 +772,42 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silniko￾wych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielo￾śladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obow",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-23j",
   "code": "T-23j",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3",
+  "short_description": "Pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3",
   "details": "1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust.",
   "image_path": "img/znaki/T-23j.png",
   "keywords": [
+   "dotyczy",
+   "kierującego",
+   "które",
+   "którego",
+   "mogą",
+   "określone",
+   "pojazd",
+   "pojazdem",
+   "przewożący",
+   "skazić",
+   "symbol",
    "t-23j",
-   "t23j"
+   "t23j",
+   "tabliczce",
+   "towary",
+   "wodę",
+   "wskazuje",
+   "wyprzedzania",
+   "zakaz",
+   "znajduje"
   ],
   "related_sign_ids": [
    "T-23a",
@@ -696,11 +821,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silniko￾wych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całko￾witej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielo￾śladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obow",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-24",
@@ -720,24 +845,28 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 28",
-   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuż￾szy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godzi￾ny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-3",
+   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-25a",
   "code": "T-25a",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "początek zakazu wyrażonego znakiem",
+  "short_description": "Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem;",
   "details": "Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem;",
   "image_path": "img/znaki/T-25a.png",
   "keywords": [
+   "początek",
    "t-25a",
-   "t25a"
+   "t25a",
+   "wyrażonego",
+   "zakazu",
+   "znakiem"
   ],
   "related_sign_ids": [
    "T-25b",
@@ -747,24 +876,28 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 28",
-   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuż￾szy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godzi￾ny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-3",
+   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-25b",
   "code": "T-25b",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "kontynuację zakazu wyrażonego znakiem",
+  "short_description": "Kontynuację zakazu wyrażonego znakiem",
   "details": "2) T-25b – kontynuację zakazu wyrażonego znakiem;",
   "image_path": "img/znaki/T-25b.png",
   "keywords": [
+   "kontynuację",
    "t-25b",
-   "t25b"
+   "t25b",
+   "wyrażonego",
+   "zakazu",
+   "znakiem"
   ],
   "related_sign_ids": [
    "T-25a",
@@ -774,24 +907,28 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 28",
-   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuż￾szy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godzi￾ny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-3",
+   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-25c",
   "code": "T-25c",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
-  "short_description": null,
+  "name": "odwołanie zakazu wyrażonego znakiem",
+  "short_description": "Odwołanie zakazu wyrażonego znakiem",
   "details": "3) T-25c – odwołanie zakazu wyrażonego znakiem.",
   "image_path": "img/znaki/T-25c.png",
   "keywords": [
+   "odwołanie",
    "t-25c",
-   "t25c"
+   "t25c",
+   "wyrażonego",
+   "zakazu",
+   "znakiem"
   ],
   "related_sign_ids": [
    "T-25a",
@@ -801,11 +938,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 28",
-   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuż￾szy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godzi￾ny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-3",
+   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie; nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-26",
@@ -813,8 +950,8 @@
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
   "name": null,
-  "short_description": "Znak B-35, B-36, B-37 lub B-38 wraz z tabliczką T-26, umieszczony na placu równolegle do krawędzi jezdni, ozna￾cza, że zakaz wyrażony tym znakiem dotyczy strony placu, przy której został ustawiony.",
-  "details": "Znak B-35, B-36, B-37 lub B-38 wraz z tabliczką T-26, umieszczony na placu równolegle do krawędzi jezdni, ozna￾cza, że zakaz wyrażony tym znakiem dotyczy strony placu, przy której został ustawiony.",
+  "short_description": "Znak B-35, B-36, B-37 lub B-38 wraz z tabliczką T-26, umieszczony na placu równolegle do krawędzi jezdni, oznacza, że zakaz wyrażony tym znakiem dotyczy strony placu, przy której został ustawiony.",
+  "details": "Znak B-35, B-36, B-37 lub B-38 wraz z tabliczką T-26, umieszczony na placu równolegle do krawędzi jezdni, oznacza, że zakaz wyrażony tym znakiem dotyczy strony placu, przy której został ustawiony.",
   "image_path": "img/znaki/T-26.png",
   "keywords": [
    "t-26",
@@ -825,11 +962,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 28",
-   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuż￾szy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godzi￾ny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-3",
+   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-27",
@@ -837,8 +974,8 @@
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
   "name": null,
-  "short_description": "Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęsz￾czane przez dzieci.",
-  "details": "Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęsz￾czane przez dzieci.",
+  "short_description": "Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
+  "details": "Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
   "image_path": "img/znaki/T-27.png",
   "keywords": [
    "t-27",
@@ -849,11 +986,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 47",
-   "source_text": "§ 47. 1. Znak D-6 „przejście dla pieszych” oznacza miejsce przeznaczone do przechodzenia pieszych w poprzek drogi. 2. Znak D-6a „przejazd dla rowerzystów” oznacza miejsce przeznaczone do przejeżdżania rowerzystów w poprzek drogi. 3. Znak D-6b „przejście dla pieszych i przejazd dla rowerzystów” oznacza występujące obok siebie miejsca, o których mowa w ust. 1 i 2. 4. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniej￾szyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających. 5. Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęsz￾czane przez dzieci.",
+   "source_text": "§ 47. 1. Znak D-6 „przejście dla pieszych” oznacza miejsce przeznaczone do przechodzenia pieszych w poprzek drogi. 2. Znak D-6a „przejazd dla rowerzystów” oznacza miejsce przeznaczone do przejeżdżania rowerzystów w poprzek drogi. 3. Znak D-6b „przejście dla pieszych i przejazd dla rowerzystów” oznacza występujące obok siebie miejsca, o których mowa w ust. 1 i 2. 4. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających. 5. Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-28",
@@ -876,8 +1013,8 @@
    "source_text": "§ 48. 1. Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”. Dziennik Ustaw – 14 – Poz. 2310 2. Znak D-9 „autostrada” oznacza początek lub kontynuację autostrady; koniec autostrady oznaczony jest znakiem D-10 „koniec autostrady”. 3. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-29",
@@ -885,8 +1022,8 @@
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
   "name": null,
-  "short_description": "I symbolem osoby niepełno￾sprawnej, określonym na tabliczce T-29, wskazuje, że znaki te obowiązują również osoby, o których mowa w art.",
-  "details": "2, tabliczka z napisem „Dotyczy także” i symbolem osoby niepełno￾sprawnej, określonym na tabliczce T-29, wskazuje, że znaki te obowiązują również osoby, o których mowa w art.",
+  "short_description": "I symbolem osoby niepełnosprawnej, określonym na tabliczce T-29, wskazuje, że znaki te obowiązują również osoby, o których mowa w art.",
+  "details": "2, tabliczka z napisem „Dotyczy także” i symbolem osoby niepełnosprawnej, określonym na tabliczce T-29, wskazuje, że znaki te obowiązują również osoby, o których mowa w art.",
   "image_path": "img/znaki/T-29.png",
   "keywords": [
    "t-29",
@@ -897,11 +1034,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 33",
-   "source_text": "§ 33. 1. Kierujący pojazdem wykonującym na drodze prace porządkowe, remontowe lub modernizacyjne może nie sto￾sować się do zakazów wyrażonych znakami B-1, B-3, B-5, B-6 i B-7 podczas wykonywania prac na drodze lub dojazdu do miejsca ich wykonywania znajdującego się na obszarze lub na drodze objętej zakazem, pod warunkiem używania żółtych sygnałów błyskowych i zachowania szczególnej ostrożności. 2. Osoby, o których mowa w art. 8 ust. 1 i 2 ustawy, mogą pod warunkiem zachowania szczególnej ostrożności nie sto￾sować się do zakazów wyrażonych znakami: B-1, B-3, B-3a, B-4, B-10, B-35, B-37, B-38 i B-39, z uwzględnieniem ust. 3. 3. Umieszczona pod znakami, o których mowa w ust. 2, tabliczka z napisem „Dotyczy także” i symbolem osoby niepełno￾sprawnej, określonym na tabliczce T-29, wskazuje, że znaki te obowiązują również osoby, o których mowa w art. 8 ust. 1 i 2 ustawy.",
+   "source_text": "§ 33. 1. Kierujący pojazdem wykonującym na drodze prace porządkowe, remontowe lub modernizacyjne może nie stosować się do zakazów wyrażonych znakami B-1, B-3, B-5, B-6 i B-7 podczas wykonywania prac na drodze lub dojazdu do miejsca ich wykonywania znajdującego się na obszarze lub na drodze objętej zakazem, pod warunkiem używania żółtych sygnałów błyskowych i zachowania szczególnej ostrożności. 2. Osoby, o których mowa w art. 8 ust. 1 i 2 ustawy, mogą pod warunkiem zachowania szczególnej ostrożności nie stosować się do zakazów wyrażonych znakami: B-1, B-3, B-3a, B-4, B-10, B-35, B-37, B-38 i B-39, z uwzględnieniem ust. 3. 3. Umieszczona pod znakami, o których mowa w ust. 2, tabliczka z napisem „Dotyczy także” i symbolem osoby niepełnosprawnej, określonym na tabliczce T-29, wskazuje, że znaki te obowiązują również osoby, o których mowa w art. 8 ust. 1 i 2 ustawy.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-3",
@@ -923,11 +1060,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 3",
-   "source_text": "§ 3. 1. Znaki ostrzegawcze uprzedzają o miejscach na drodze, w których występuje lub może występować niebezpie￾czeństwo, oraz zobowiązują uczestników ruchu do zachowania szczególnej ostrożności. 2. Odległość znaku ostrzegawczego od miejsca niebezpiecznego wynosi od 150 m do 300 m na drogach, na których dopuszczalna prędkość pojazdów przekracza 60 km/h, a do 100 m na pozostałych drogach. 3. Przepisu ust. 2 nie stosuje się do znaku A-7, który umieszcza się w odległości do 50 m od skrzyżowania na drogach, na których dopuszczalna prędkość pojazdów przekracza 60 km/h, oraz do 25 m od skrzyżowania na pozostałych drogach, z zastrzeżeniem § 5 ust. 5. 4. Umieszczona pod znakiem ostrzegawczym tabliczka T-1 wskazuje odległość znaku od miejsca niebezpiecznego. 5. Umieszczona pod znakiem ostrzegawczym tabliczka T-2 wskazuje długość odcinka drogi, na którym powtarza się lub występuje niebezpieczeństwo, jeżeli długość odcinka przekracza 500 m; umieszczona pod znakiem ostrzegawczym tabliczka T-3 oznacza koniec takiego odcinka. Dziennik Ustaw – 4 – Poz. 2310",
+   "source_text": "§ 3. 1. Znaki ostrzegawcze uprzedzają o miejscach na drodze, w których występuje lub może występować niebezpieczeństwo, oraz zobowiązują uczestników ruchu do zachowania szczególnej ostrożności. 2. Odległość znaku ostrzegawczego od miejsca niebezpiecznego wynosi od 150 m do 300 m na drogach, na których dopuszczalna prędkość pojazdów przekracza 60 km/h, a do 100 m na pozostałych drogach. 3. Przepisu ust. 2 nie stosuje się do znaku A-7, który umieszcza się w odległości do 50 m od skrzyżowania na drogach, na których dopuszczalna prędkość pojazdów przekracza 60 km/h, oraz do 25 m od skrzyżowania na pozostałych drogach, z zastrzeżeniem § 5 ust. 5. 4. Umieszczona pod znakiem ostrzegawczym tabliczka T-1 wskazuje odległość znaku od miejsca niebezpiecznego. 5. Umieszczona pod znakiem ostrzegawczym tabliczka T-2 wskazuje długość odcinka drogi, na którym powtarza się lub występuje niebezpieczeństwo, jeżeli długość odcinka przekracza 500 m; umieszczona pod znakiem ostrzegawczym tabliczka T-3 oznacza koniec takiego odcinka. Dziennik Ustaw – 4 – Poz. 2310",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-30",
@@ -950,8 +1087,8 @@
    "source_text": "§ 52. 1. Znak D-18 „parking” oznacza miejsce przeznaczone na postój pojazdów (zespołów pojazdów), z wyjątkiem przyczep kempingowych; umieszczona pod znakiem tabliczka T-23e oznacza, że na parkingu jest dopuszczony także postój przyczep kempingowych. 1a. Umieszczony na znaku D-18 symbol pojazdu oznacza, że parking jest przeznaczony na postój pojazdu, którego symbol znajduje się na znaku. 2. Umieszczona pod znakiem D-18 tabliczka T-30 wskazuje sposób ustawienia pojazdu względem krawędzi jezdni oznaczonej na tabliczce barwą szarą oraz że miejsce jest przeznaczone dla pojazdów samochodowych o dopuszczalnej masie całkowitej nieprzekraczającej 2,5 t. 3. Umieszczona pod znakiem D-18 tabliczka T-3a wskazuje koniec miejsca przeznaczonego na postój. 4. Znak D-18a „parking – miejsce zastrzeżone” oznacza miejsce przeznaczone na postój pojazdu uprawnionej osoby. 5. Znak D-18b „parking zadaszony” oznacza miejsce przeznaczone na postój pojazdów znajdujące się w budynku lub pod wiatą. 6. Umieszczona pod znakiem D-18, D-18a lub D-18b tabliczka T-29 informuje o miejscu przeznaczonym dla pojazdu samochodowego osoby, o której mowa w art. 8 ust. 1 i 2 ustawy. Dziennik Ustaw – 15 – Poz. 2310",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-31",
@@ -959,8 +1096,8 @@
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
   "name": null,
-  "short_description": "Umieszczona pod znakiem tablicz￾ka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz doty￾czy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów.",
-  "details": "Umieszczona pod znakiem tablicz￾ka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz doty￾czy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów.",
+  "short_description": "Umieszczona pod znakiem tabliczka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz dotyczy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów.",
+  "details": "Umieszczona pod znakiem tabliczka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz dotyczy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów.",
   "image_path": "img/znaki/T-31.png",
   "keywords": [
    "t-31",
@@ -971,11 +1108,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 19",
-   "source_text": "§ 19. 1. Znak B-13 „zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi” oznacza zakaz ruchu po￾jazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 1, 3, 4.1, 4.2, 4.3, 5.1, 5.2 lub gazy palne klasy 2 w ilościach, dla których jest wymagane oznakowanie pojazdu tabli￾cami ostrzegawczymi barwy pomarańczowej. Dziennik Ustaw – 8 – Poz. 2310 2. Znak B-13a „zakaz wjazdu pojazdów z towarami niebezpiecznymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Umieszczona pod znakiem tablicz￾ka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz doty￾czy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów. 3. Znak B-14 „zakaz wjazdu pojazdów z towarami, które mogą skazić wodę” oznacza zakaz ruchu pojazdów przewożą￾cych, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 3, 4.3, 6.1, 6.2, 8, gazy trujące lub gazy żrące klasy 2, lub towary niebezpieczne zagrażające środowisku klasy 9 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
+   "source_text": "§ 19. 1. Znak B-13 „zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 1, 3, 4.1, 4.2, 4.3, 5.1, 5.2 lub gazy palne klasy 2 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Dziennik Ustaw – 8 – Poz. 2310 2. Znak B-13a „zakaz wjazdu pojazdów z towarami niebezpiecznymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Umieszczona pod znakiem tabliczka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz dotyczy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów. 3. Znak B-14 „zakaz wjazdu pojazdów z towarami, które mogą skazić wodę” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 3, 4.3, 6.1, 6.2, 8, gazy trujące lub gazy żrące klasy 2, lub towary niebezpieczne zagrażające środowisku klasy 9 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-32",
@@ -998,8 +1135,8 @@
    "source_text": "§ 56. 1. Znak D-37 „tunel” oznacza wjazd do tunelu. Wyjazd z tunelu jest oznaczony znakiem D-38 „koniec tunelu”. 2. Umieszczona pod znakiem D-37 tabliczka T-1b wskazuje rzeczywistą długość tunelu – w przypadku gdy długość tunelu przekracza 500 m. Rzeczywista długość tunelu może być także wskazana przez umieszczenie w dolnej części znaku napisu i symboli odpowiadających treści tabliczki T-1b. 3. W przypadku tuneli o długości przekraczającej 3000 m pozostała długość tunelu do przebycia jest wskazywana co 1000 m tabliczką T-1b. 4. Umieszczona pod znakiem D-37 tabliczka T-32 wskazuje minimalny odstęp od poprzedzającego pojazdu.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-33",
@@ -1007,8 +1144,8 @@
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
   "name": null,
-  "short_description": "Informuje, że w zatoce znaj￾duje się telefon alarmowy i gaśnica.",
-  "details": "Umieszczona pod znakiem D-50 tabliczka T-33 lub umieszczony na znaku napis „SOS” informuje, że w zatoce znaj￾duje się telefon alarmowy i gaśnica.",
+  "short_description": "Informuje, że w zatoce znajduje się telefon alarmowy i gaśnica.",
+  "details": "Umieszczona pod znakiem D-50 tabliczka T-33 lub umieszczony na znaku napis „SOS” informuje, że w zatoce znajduje się telefon alarmowy i gaśnica.",
   "image_path": "img/znaki/T-33.png",
   "keywords": [
    "t-33",
@@ -1019,11 +1156,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 60a",
-   "source_text": "§ 60a. 1. Znak D-50 „zatoka” informuje o zatoce występującej w tunelu. 2. Umieszczona pod znakiem D-50 tabliczka T-33 lub umieszczony na znaku napis „SOS” informuje, że w zatoce znaj￾duje się telefon alarmowy i gaśnica.",
+   "source_text": "§ 60a. 1. Znak D-50 „zatoka” informuje o zatoce występującej w tunelu. 2. Umieszczona pod znakiem D-50 tabliczka T-33 lub umieszczony na znaku napis „SOS” informuje, że w zatoce znajduje się telefon alarmowy i gaśnica.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-34",
@@ -1043,11 +1180,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 65",
-   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poru￾szających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-3a",
@@ -1072,8 +1209,8 @@
    "source_text": "§ 52. 1. Znak D-18 „parking” oznacza miejsce przeznaczone na postój pojazdów (zespołów pojazdów), z wyjątkiem przyczep kempingowych; umieszczona pod znakiem tabliczka T-23e oznacza, że na parkingu jest dopuszczony także postój przyczep kempingowych. 1a. Umieszczony na znaku D-18 symbol pojazdu oznacza, że parking jest przeznaczony na postój pojazdu, którego symbol znajduje się na znaku. 2. Umieszczona pod znakiem D-18 tabliczka T-30 wskazuje sposób ustawienia pojazdu względem krawędzi jezdni oznaczonej na tabliczce barwą szarą oraz że miejsce jest przeznaczone dla pojazdów samochodowych o dopuszczalnej masie całkowitej nieprzekraczającej 2,5 t. 3. Umieszczona pod znakiem D-18 tabliczka T-3a wskazuje koniec miejsca przeznaczonego na postój. 4. Znak D-18a „parking – miejsce zastrzeżone” oznacza miejsce przeznaczone na postój pojazdu uprawnionej osoby. 5. Znak D-18b „parking zadaszony” oznacza miejsce przeznaczone na postój pojazdów znajdujące się w budynku lub pod wiatą. 6. Umieszczona pod znakiem D-18, D-18a lub D-18b tabliczka T-29 informuje o miejscu przeznaczonym dla pojazdu samochodowego osoby, o której mowa w art. 8 ust. 1 i 2 ustawy. Dziennik Ustaw – 15 – Poz. 2310",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-4",
@@ -1081,8 +1218,8 @@
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
   "name": null,
-  "short_description": "Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tablicz￾ka T-5 wskazuje początek drogi krętej.",
-  "details": "Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tablicz￾ka T-5 wskazuje początek drogi krętej.",
+  "short_description": "Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tabliczka T-5 wskazuje początek drogi krętej.",
+  "details": "Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tabliczka T-5 wskazuje początek drogi krętej.",
   "image_path": "img/znaki/T-4.png",
   "keywords": [
    "t-4",
@@ -1093,11 +1230,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 4",
-   "source_text": "§ 4. 1. Znaki: 1) A-1 „niebezpieczny zakręt w prawo”, 2) A-2 „niebezpieczny zakręt w lewo” ostrzegają o niebezpiecznym zakręcie w kierunku wskazanym na znaku. 2. Znaki: 1) A-3 „niebezpieczne zakręty – pierwszy w prawo”, 2) A-4 „niebezpieczne zakręty – pierwszy w lewo” ostrzegają o niebezpiecznych zakrętach, z których pierwszy jest w kierunku wskazanym na znaku. 3. Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tablicz￾ka T-5 wskazuje początek drogi krętej.",
+   "source_text": "§ 4. 1. Znaki: 1) A-1 „niebezpieczny zakręt w prawo”, 2) A-2 „niebezpieczny zakręt w lewo” ostrzegają o niebezpiecznym zakręcie w kierunku wskazanym na znaku. 2. Znaki: 1) A-3 „niebezpieczne zakręty – pierwszy w prawo”, 2) A-4 „niebezpieczne zakręty – pierwszy w lewo” ostrzegają o niebezpiecznych zakrętach, z których pierwszy jest w kierunku wskazanym na znaku. 3. Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tabliczka T-5 wskazuje początek drogi krętej.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-5",
@@ -1105,8 +1242,8 @@
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
   "name": null,
-  "short_description": "Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tablicz￾ka T-5 wskazuje początek drogi krętej.",
-  "details": "Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tablicz￾ka T-5 wskazuje początek drogi krętej.",
+  "short_description": "Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tabliczka T-5 wskazuje początek drogi krętej.",
+  "details": "Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tabliczka T-5 wskazuje początek drogi krętej.",
   "image_path": "img/znaki/T-5.png",
   "keywords": [
    "t-5",
@@ -1117,11 +1254,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 4",
-   "source_text": "§ 4. 1. Znaki: 1) A-1 „niebezpieczny zakręt w prawo”, 2) A-2 „niebezpieczny zakręt w lewo” ostrzegają o niebezpiecznym zakręcie w kierunku wskazanym na znaku. 2. Znaki: 1) A-3 „niebezpieczne zakręty – pierwszy w prawo”, 2) A-4 „niebezpieczne zakręty – pierwszy w lewo” ostrzegają o niebezpiecznych zakrętach, z których pierwszy jest w kierunku wskazanym na znaku. 3. Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tablicz￾ka T-5 wskazuje początek drogi krętej.",
+   "source_text": "§ 4. 1. Znaki: 1) A-1 „niebezpieczny zakręt w prawo”, 2) A-2 „niebezpieczny zakręt w lewo” ostrzegają o niebezpiecznym zakręcie w kierunku wskazanym na znaku. 2. Znaki: 1) A-3 „niebezpieczne zakręty – pierwszy w prawo”, 2) A-4 „niebezpieczne zakręty – pierwszy w lewo” ostrzegają o niebezpiecznych zakrętach, z których pierwszy jest w kierunku wskazanym na znaku. 3. Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tabliczka T-5 wskazuje początek drogi krętej.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-6a",
@@ -1129,8 +1266,8 @@
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
   "name": null,
-  "short_description": "Umieszczona pod znakiem D-1 tabliczka T-6a albo T-6b wskazuje odpowiednio rzeczywisty przebieg drogi z pierw￾szeństwem przez skrzyżowanie lub układ dróg podporządkowanych.",
-  "details": "Umieszczona pod znakiem D-1 tabliczka T-6a albo T-6b wskazuje odpowiednio rzeczywisty przebieg drogi z pierw￾szeństwem przez skrzyżowanie lub układ dróg podporządkowanych.",
+  "short_description": "Umieszczona pod znakiem D-1 tabliczka T-6a albo T-6b wskazuje odpowiednio rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie lub układ dróg podporządkowanych.",
+  "details": "Umieszczona pod znakiem D-1 tabliczka T-6a albo T-6b wskazuje odpowiednio rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie lub układ dróg podporządkowanych.",
   "image_path": "img/znaki/T-6a.png",
   "keywords": [
    "t-6a",
@@ -1145,11 +1282,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 43",
-   "source_text": "§ 43. 1. Znak D-1 „droga z pierwszeństwem” oznacza początek lub kontynuację drogi z pierwszeństwem. 2. Umieszczona pod znakiem D-1 tabliczka T-6a albo T-6b wskazuje odpowiednio rzeczywisty przebieg drogi z pierw￾szeństwem przez skrzyżowanie lub układ dróg podporządkowanych. 3. Znak D-2 „koniec drogi z pierwszeństwem” oznacza koniec drogi z pierwszeństwem.",
+   "source_text": "§ 43. 1. Znak D-1 „droga z pierwszeństwem” oznacza początek lub kontynuację drogi z pierwszeństwem. 2. Umieszczona pod znakiem D-1 tabliczka T-6a albo T-6b wskazuje odpowiednio rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie lub układ dróg podporządkowanych. 3. Znak D-2 „koniec drogi z pierwszeństwem” oznacza koniec drogi z pierwszeństwem.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-6b",
@@ -1173,11 +1310,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 5",
-   "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w ob￾rębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
+   "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-6c",
@@ -1201,11 +1338,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 5",
-   "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w ob￾rębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
+   "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-6d",
@@ -1229,11 +1366,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 5",
-   "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w ob￾rębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
+   "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-7",
@@ -1253,35 +1390,43 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 6",
-   "source_text": "§ 6. 1. Znak A-9 „przejazd kolejowy z zaporami” ostrzega o przejeździe kolejowym wyposażonym w zapory lub pół￾zapory. 2. Znak A-10 „przejazd kolejowy bez zapór” ostrzega o przejeździe kolejowym niewyposażonym ani w zapory, ani w półzapory. 3. Umieszczona pod znakiem A-9 lub A-10 tabliczka T-7 wskazuje układ torów i drogi na przejeździe.",
+   "source_text": "§ 6. 1. Znak A-9 „przejazd kolejowy z zaporami” ostrzega o przejeździe kolejowym wyposażonym w zapory lub półzapory. 2. Znak A-10 „przejazd kolejowy bez zapór” ostrzega o przejeździe kolejowym niewyposażonym ani w zapory, ani w półzapory. 3. Umieszczona pod znakiem A-9 lub A-10 tabliczka T-7 wskazuje układ torów i drogi na przejeździe.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  },
  {
   "id": "T-8",
   "code": "T-8",
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
-  "name": null,
+  "name": "miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe",
   "short_description": "Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe;",
   "details": "Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe;",
   "image_path": "img/znaki/T-8.png",
   "keywords": [
+   "którym",
+   "miejsce",
+   "pojazdów",
+   "ruch",
+   "skierowany",
    "t-8",
-   "t8"
+   "t8",
+   "tory",
+   "tramwajowe",
+   "został"
   ],
   "related_sign_ids": [],
   "legal_basis": {
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 11",
-   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą sym￾bolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
+   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "T-9",
@@ -1289,8 +1434,8 @@
   "category_id": "T",
   "category_name": "Tabliczki do znaków drogowych",
   "name": null,
-  "short_description": "Ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tablicz￾ka T-9 wskazuje rzeczywistą wielkość spadku.",
-  "details": "Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tablicz￾ka T-9 wskazuje rzeczywistą wielkość spadku. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wska￾zuje rzeczywistą wielkość wzniesienia.",
+  "short_description": "Ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku.",
+  "details": "Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia.",
   "image_path": "img/znaki/T-9.png",
   "keywords": [
    "t-9",
@@ -1301,10 +1446,10 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 10",
-   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w któ￾rym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wska￾zuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tablicz￾ka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wska￾zuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie odnaleziono nazwy w cudzysłowie"
+  "verification_status": "verified",
+  "verification_note": "akt opisuje znak, nie nadając mu nazwy w cudzysłowie"
  }
 ]

@@ -5,8 +5,8 @@
   "category_id": "AT",
   "category_name": "Znaki ostrzegawcze dla kierujących tramwajami",
   "name": "sygnalizacja świetlna",
-  "short_description": "Ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowa￾ny za pomocą trójbarwnej sygnalizacji świetlnej.",
-  "details": "Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowa￾ny za pomocą trójbarwnej sygnalizacji świetlnej.",
+  "short_description": "Ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowany za pomocą trójbarwnej sygnalizacji świetlnej.",
+  "details": "Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowany za pomocą trójbarwnej sygnalizacji świetlnej.",
   "image_path": "img/znaki/AT-1.png",
   "keywords": [
    "at-1",
@@ -19,7 +19,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 79",
-   "source_text": "§ 79. 1. Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowa￾ny za pomocą trójbarwnej sygnalizacji świetlnej. 2. Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbu￾dza wydzieloną dla siebie fazę. 3. Znak AT-3 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym toru tramwajowego, o wartości podanej na znaku. 4. Znak AT-4 „stromy podjazd” ostrzega o znacznym wzniesieniu toru tramwajowego, o wartości podanej na znaku. 5. Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kie￾runku na wprost.",
+   "source_text": "§ 79. 1. Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowany za pomocą trójbarwnej sygnalizacji świetlnej. 2. Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbudza wydzieloną dla siebie fazę. 3. Znak AT-3 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym toru tramwajowego, o wartości podanej na znaku. 4. Znak AT-4 „stromy podjazd” ostrzega o znacznym wzniesieniu toru tramwajowego, o wartości podanej na znaku. 5. Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kierunku na wprost.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -31,8 +31,8 @@
   "category_id": "AT",
   "category_name": "Znaki ostrzegawcze dla kierujących tramwajami",
   "name": "sygnalizacja świetlna wzbudzana",
-  "short_description": "Ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbu￾dza wydzieloną dla siebie fazę.",
-  "details": "Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbu￾dza wydzieloną dla siebie fazę.",
+  "short_description": "Ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbudza wydzieloną dla siebie fazę.",
+  "details": "Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbudza wydzieloną dla siebie fazę.",
   "image_path": "img/znaki/AT-2.png",
   "keywords": [
    "at-2",
@@ -46,7 +46,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 79",
-   "source_text": "§ 79. 1. Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowa￾ny za pomocą trójbarwnej sygnalizacji świetlnej. 2. Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbu￾dza wydzieloną dla siebie fazę. 3. Znak AT-3 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym toru tramwajowego, o wartości podanej na znaku. 4. Znak AT-4 „stromy podjazd” ostrzega o znacznym wzniesieniu toru tramwajowego, o wartości podanej na znaku. 5. Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kie￾runku na wprost.",
+   "source_text": "§ 79. 1. Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowany za pomocą trójbarwnej sygnalizacji świetlnej. 2. Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbudza wydzieloną dla siebie fazę. 3. Znak AT-3 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym toru tramwajowego, o wartości podanej na znaku. 4. Znak AT-4 „stromy podjazd” ostrzega o znacznym wzniesieniu toru tramwajowego, o wartości podanej na znaku. 5. Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kierunku na wprost.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -72,7 +72,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 79",
-   "source_text": "§ 79. 1. Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowa￾ny za pomocą trójbarwnej sygnalizacji świetlnej. 2. Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbu￾dza wydzieloną dla siebie fazę. 3. Znak AT-3 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym toru tramwajowego, o wartości podanej na znaku. 4. Znak AT-4 „stromy podjazd” ostrzega o znacznym wzniesieniu toru tramwajowego, o wartości podanej na znaku. 5. Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kie￾runku na wprost.",
+   "source_text": "§ 79. 1. Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowany za pomocą trójbarwnej sygnalizacji świetlnej. 2. Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbudza wydzieloną dla siebie fazę. 3. Znak AT-3 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym toru tramwajowego, o wartości podanej na znaku. 4. Znak AT-4 „stromy podjazd” ostrzega o znacznym wzniesieniu toru tramwajowego, o wartości podanej na znaku. 5. Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kierunku na wprost.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -98,7 +98,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 79",
-   "source_text": "§ 79. 1. Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowa￾ny za pomocą trójbarwnej sygnalizacji świetlnej. 2. Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbu￾dza wydzieloną dla siebie fazę. 3. Znak AT-3 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym toru tramwajowego, o wartości podanej na znaku. 4. Znak AT-4 „stromy podjazd” ostrzega o znacznym wzniesieniu toru tramwajowego, o wartości podanej na znaku. 5. Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kie￾runku na wprost.",
+   "source_text": "§ 79. 1. Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowany za pomocą trójbarwnej sygnalizacji świetlnej. 2. Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbudza wydzieloną dla siebie fazę. 3. Znak AT-3 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym toru tramwajowego, o wartości podanej na znaku. 4. Znak AT-4 „stromy podjazd” ostrzega o znacznym wzniesieniu toru tramwajowego, o wartości podanej na znaku. 5. Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kierunku na wprost.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -110,8 +110,8 @@
   "category_id": "AT",
   "category_name": "Znaki ostrzegawcze dla kierujących tramwajami",
   "name": "ruch kolizyjny",
-  "short_description": "Ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kie￾runku na wprost.",
-  "details": "Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kie￾runku na wprost.",
+  "short_description": "Ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kierunku na wprost.",
+  "details": "Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kierunku na wprost.",
   "image_path": "img/znaki/AT-5.png",
   "keywords": [
    "at-5",
@@ -124,7 +124,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 79",
-   "source_text": "§ 79. 1. Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowa￾ny za pomocą trójbarwnej sygnalizacji świetlnej. 2. Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbu￾dza wydzieloną dla siebie fazę. 3. Znak AT-3 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym toru tramwajowego, o wartości podanej na znaku. 4. Znak AT-4 „stromy podjazd” ostrzega o znacznym wzniesieniu toru tramwajowego, o wartości podanej na znaku. 5. Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kie￾runku na wprost.",
+   "source_text": "§ 79. 1. Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowany za pomocą trójbarwnej sygnalizacji świetlnej. 2. Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbudza wydzieloną dla siebie fazę. 3. Znak AT-3 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym toru tramwajowego, o wartości podanej na znaku. 4. Znak AT-4 „stromy podjazd” ostrzega o znacznym wzniesieniu toru tramwajowego, o wartości podanej na znaku. 5. Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kierunku na wprost.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",

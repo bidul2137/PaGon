@@ -5,7 +5,7 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "linia pojedyncza przerywana",
-  "short_description": "Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego;",
+  "short_description": "W którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu.",
   "details": "Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego;",
   "image_path": "img/znaki/P-1.png",
   "keywords": [
@@ -20,7 +20,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 86",
-   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdża￾nia przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeż￾dżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wy￾przedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezd",
+   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdżania przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeżdżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wyprzedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezdni;",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -100,7 +100,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 89",
-   "source_text": "§ 89. 1. Znak P-12 „linia bezwzględnego zatrzymania – stop” wskazuje miejsce zatrzymania pojazdu w związku ze znakami pionowymi B-20 lub B-32. 2. Znak P-13 „linia warunkowego zatrzymania złożona z trójkątów” wskazuje miejsce zatrzymania pojazdu w celu ustą￾pienia pierwszeństwa wynikającego ze znaku pionowego A-7. Dziennik Ustaw – 24 – Poz. 2310 3. Znak P-14 „linia warunkowego zatrzymania złożona z prostokątów” wskazuje miejsce zatrzymania pojazdu: 1) na skrzyżowaniu na wlotach dróg równorzędnych; 2) przed przejściem dla pieszych; 3) przed przystankami tramwajowymi bez wysepek; 4) przed przejazdami tramwajowymi i kolejowymi; 5) przed przejazdem dla rowerzystów; 6) przed śluzą dla rowerów; 7) przed sygnałem świetlnym. 3a. Obowiązek zatrzymania pojazdu w miejscu, o którym mowa w ust. 3, nie dotyczy kierującego rowerem wjeżdżają￾cego do śluzy dla rowerów. 4. Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie zna￾kami pionowymi odpowiednio A-7 i B-20.",
+   "source_text": "§ 89. 1. Znak P-12 „linia bezwzględnego zatrzymania – stop” wskazuje miejsce zatrzymania pojazdu w związku ze znakami pionowymi B-20 lub B-32. 2. Znak P-13 „linia warunkowego zatrzymania złożona z trójkątów” wskazuje miejsce zatrzymania pojazdu w celu ustąpienia pierwszeństwa wynikającego ze znaku pionowego A-7. Dziennik Ustaw – 24 – Poz. 2310 3. Znak P-14 „linia warunkowego zatrzymania złożona z prostokątów” wskazuje miejsce zatrzymania pojazdu: 1) na skrzyżowaniu na wlotach dróg równorzędnych; 2) przed przejściem dla pieszych; 3) przed przystankami tramwajowymi bez wysepek; 4) przed przejazdami tramwajowymi i kolejowymi; 5) przed przejazdem dla rowerzystów; 6) przed śluzą dla rowerów; 7) przed sygnałem świetlnym. 3a. Obowiązek zatrzymania pojazdu w miejscu, o którym mowa w ust. 3, nie dotyczy kierującego rowerem wjeżdżającego do śluzy dla rowerów. 4. Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie znakami pionowymi odpowiednio A-7 i B-20.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -112,8 +112,8 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "linia warunkowego zatrzymania złożona z trójkątów",
-  "short_description": "Wskazuje miejsce zatrzymania pojazdu w celu ustą￾pienia pierwszeństwa wynikającego ze znaku pionowego A-7.",
-  "details": "Znak P-13 „linia warunkowego zatrzymania złożona z trójkątów” wskazuje miejsce zatrzymania pojazdu w celu ustą￾pienia pierwszeństwa wynikającego ze znaku pionowego A-7.",
+  "short_description": "Wskazuje miejsce zatrzymania pojazdu w celu ustąpienia pierwszeństwa wynikającego ze znaku pionowego A-7.",
+  "details": "Znak P-13 „linia warunkowego zatrzymania złożona z trójkątów” wskazuje miejsce zatrzymania pojazdu w celu ustąpienia pierwszeństwa wynikającego ze znaku pionowego A-7.",
   "image_path": "img/znaki/P-13.png",
   "keywords": [
    "linia",
@@ -129,7 +129,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 89",
-   "source_text": "§ 89. 1. Znak P-12 „linia bezwzględnego zatrzymania – stop” wskazuje miejsce zatrzymania pojazdu w związku ze znakami pionowymi B-20 lub B-32. 2. Znak P-13 „linia warunkowego zatrzymania złożona z trójkątów” wskazuje miejsce zatrzymania pojazdu w celu ustą￾pienia pierwszeństwa wynikającego ze znaku pionowego A-7. Dziennik Ustaw – 24 – Poz. 2310 3. Znak P-14 „linia warunkowego zatrzymania złożona z prostokątów” wskazuje miejsce zatrzymania pojazdu: 1) na skrzyżowaniu na wlotach dróg równorzędnych; 2) przed przejściem dla pieszych; 3) przed przystankami tramwajowymi bez wysepek; 4) przed przejazdami tramwajowymi i kolejowymi; 5) przed przejazdem dla rowerzystów; 6) przed śluzą dla rowerów; 7) przed sygnałem świetlnym. 3a. Obowiązek zatrzymania pojazdu w miejscu, o którym mowa w ust. 3, nie dotyczy kierującego rowerem wjeżdżają￾cego do śluzy dla rowerów. 4. Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie zna￾kami pionowymi odpowiednio A-7 i B-20.",
+   "source_text": "§ 89. 1. Znak P-12 „linia bezwzględnego zatrzymania – stop” wskazuje miejsce zatrzymania pojazdu w związku ze znakami pionowymi B-20 lub B-32. 2. Znak P-13 „linia warunkowego zatrzymania złożona z trójkątów” wskazuje miejsce zatrzymania pojazdu w celu ustąpienia pierwszeństwa wynikającego ze znaku pionowego A-7. Dziennik Ustaw – 24 – Poz. 2310 3. Znak P-14 „linia warunkowego zatrzymania złożona z prostokątów” wskazuje miejsce zatrzymania pojazdu: 1) na skrzyżowaniu na wlotach dróg równorzędnych; 2) przed przejściem dla pieszych; 3) przed przystankami tramwajowymi bez wysepek; 4) przed przejazdami tramwajowymi i kolejowymi; 5) przed przejazdem dla rowerzystów; 6) przed śluzą dla rowerów; 7) przed sygnałem świetlnym. 3a. Obowiązek zatrzymania pojazdu w miejscu, o którym mowa w ust. 3, nie dotyczy kierującego rowerem wjeżdżającego do śluzy dla rowerów. 4. Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie znakami pionowymi odpowiednio A-7 i B-20.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -158,7 +158,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 89",
-   "source_text": "§ 89. 1. Znak P-12 „linia bezwzględnego zatrzymania – stop” wskazuje miejsce zatrzymania pojazdu w związku ze znakami pionowymi B-20 lub B-32. 2. Znak P-13 „linia warunkowego zatrzymania złożona z trójkątów” wskazuje miejsce zatrzymania pojazdu w celu ustą￾pienia pierwszeństwa wynikającego ze znaku pionowego A-7. Dziennik Ustaw – 24 – Poz. 2310 3. Znak P-14 „linia warunkowego zatrzymania złożona z prostokątów” wskazuje miejsce zatrzymania pojazdu: 1) na skrzyżowaniu na wlotach dróg równorzędnych; 2) przed przejściem dla pieszych; 3) przed przystankami tramwajowymi bez wysepek; 4) przed przejazdami tramwajowymi i kolejowymi; 5) przed przejazdem dla rowerzystów; 6) przed śluzą dla rowerów; 7) przed sygnałem świetlnym. 3a. Obowiązek zatrzymania pojazdu w miejscu, o którym mowa w ust. 3, nie dotyczy kierującego rowerem wjeżdżają￾cego do śluzy dla rowerów. 4. Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie zna￾kami pionowymi odpowiednio A-7 i B-20.",
+   "source_text": "§ 89. 1. Znak P-12 „linia bezwzględnego zatrzymania – stop” wskazuje miejsce zatrzymania pojazdu w związku ze znakami pionowymi B-20 lub B-32. 2. Znak P-13 „linia warunkowego zatrzymania złożona z trójkątów” wskazuje miejsce zatrzymania pojazdu w celu ustąpienia pierwszeństwa wynikającego ze znaku pionowego A-7. Dziennik Ustaw – 24 – Poz. 2310 3. Znak P-14 „linia warunkowego zatrzymania złożona z prostokątów” wskazuje miejsce zatrzymania pojazdu: 1) na skrzyżowaniu na wlotach dróg równorzędnych; 2) przed przejściem dla pieszych; 3) przed przystankami tramwajowymi bez wysepek; 4) przed przejazdami tramwajowymi i kolejowymi; 5) przed przejazdem dla rowerzystów; 6) przed śluzą dla rowerów; 7) przed sygnałem świetlnym. 3a. Obowiązek zatrzymania pojazdu w miejscu, o którym mowa w ust. 3, nie dotyczy kierującego rowerem wjeżdżającego do śluzy dla rowerów. 4. Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie znakami pionowymi odpowiednio A-7 i B-20.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -170,8 +170,8 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "trójkąt podporządkowania",
-  "short_description": "trójkąt podporządkowania",
-  "details": "Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie zna￾kami pionowymi odpowiednio A-7 i B-20.",
+  "short_description": "Potwierdzają oznakowanie wlotu na skrzyżowanie znakami pionowymi odpowiednio A-7 i B-20.",
+  "details": "Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie znakami pionowymi odpowiednio A-7 i B-20.",
   "image_path": "img/znaki/P-15.png",
   "keywords": [
    "p-15",
@@ -184,11 +184,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 89",
-   "source_text": "§ 89. 1. Znak P-12 „linia bezwzględnego zatrzymania – stop” wskazuje miejsce zatrzymania pojazdu w związku ze znakami pionowymi B-20 lub B-32. 2. Znak P-13 „linia warunkowego zatrzymania złożona z trójkątów” wskazuje miejsce zatrzymania pojazdu w celu ustą￾pienia pierwszeństwa wynikającego ze znaku pionowego A-7. Dziennik Ustaw – 24 – Poz. 2310 3. Znak P-14 „linia warunkowego zatrzymania złożona z prostokątów” wskazuje miejsce zatrzymania pojazdu: 1) na skrzyżowaniu na wlotach dróg równorzędnych; 2) przed przejściem dla pieszych; 3) przed przystankami tramwajowymi bez wysepek; 4) przed przejazdami tramwajowymi i kolejowymi; 5) przed przejazdem dla rowerzystów; 6) przed śluzą dla rowerów; 7) przed sygnałem świetlnym. 3a. Obowiązek zatrzymania pojazdu w miejscu, o którym mowa w ust. 3, nie dotyczy kierującego rowerem wjeżdżają￾cego do śluzy dla rowerów. 4. Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie zna￾kami pionowymi odpowiednio A-7 i B-20.",
+   "source_text": "§ 89. 1. Znak P-12 „linia bezwzględnego zatrzymania – stop” wskazuje miejsce zatrzymania pojazdu w związku ze znakami pionowymi B-20 lub B-32. 2. Znak P-13 „linia warunkowego zatrzymania złożona z trójkątów” wskazuje miejsce zatrzymania pojazdu w celu ustąpienia pierwszeństwa wynikającego ze znaku pionowego A-7. Dziennik Ustaw – 24 – Poz. 2310 3. Znak P-14 „linia warunkowego zatrzymania złożona z prostokątów” wskazuje miejsce zatrzymania pojazdu: 1) na skrzyżowaniu na wlotach dróg równorzędnych; 2) przed przejściem dla pieszych; 3) przed przystankami tramwajowymi bez wysepek; 4) przed przejazdami tramwajowymi i kolejowymi; 5) przed przejazdem dla rowerzystów; 6) przed śluzą dla rowerów; 7) przed sygnałem świetlnym. 3a. Obowiązek zatrzymania pojazdu w miejscu, o którym mowa w ust. 3, nie dotyczy kierującego rowerem wjeżdżającego do śluzy dla rowerów. 4. Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie znakami pionowymi odpowiednio A-7 i B-20.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "P-16",
@@ -196,8 +196,8 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "napis stop",
-  "short_description": "napis stop",
-  "details": "Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie zna￾kami pionowymi odpowiednio A-7 i B-20.",
+  "short_description": "Potwierdzają oznakowanie wlotu na skrzyżowanie znakami pionowymi odpowiednio A-7 i B-20.",
+  "details": "Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie znakami pionowymi odpowiednio A-7 i B-20.",
   "image_path": "img/znaki/P-16.png",
   "keywords": [
    "napis",
@@ -210,11 +210,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 89",
-   "source_text": "§ 89. 1. Znak P-12 „linia bezwzględnego zatrzymania – stop” wskazuje miejsce zatrzymania pojazdu w związku ze znakami pionowymi B-20 lub B-32. 2. Znak P-13 „linia warunkowego zatrzymania złożona z trójkątów” wskazuje miejsce zatrzymania pojazdu w celu ustą￾pienia pierwszeństwa wynikającego ze znaku pionowego A-7. Dziennik Ustaw – 24 – Poz. 2310 3. Znak P-14 „linia warunkowego zatrzymania złożona z prostokątów” wskazuje miejsce zatrzymania pojazdu: 1) na skrzyżowaniu na wlotach dróg równorzędnych; 2) przed przejściem dla pieszych; 3) przed przystankami tramwajowymi bez wysepek; 4) przed przejazdami tramwajowymi i kolejowymi; 5) przed przejazdem dla rowerzystów; 6) przed śluzą dla rowerów; 7) przed sygnałem świetlnym. 3a. Obowiązek zatrzymania pojazdu w miejscu, o którym mowa w ust. 3, nie dotyczy kierującego rowerem wjeżdżają￾cego do śluzy dla rowerów. 4. Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie zna￾kami pionowymi odpowiednio A-7 i B-20.",
+   "source_text": "§ 89. 1. Znak P-12 „linia bezwzględnego zatrzymania – stop” wskazuje miejsce zatrzymania pojazdu w związku ze znakami pionowymi B-20 lub B-32. 2. Znak P-13 „linia warunkowego zatrzymania złożona z trójkątów” wskazuje miejsce zatrzymania pojazdu w celu ustąpienia pierwszeństwa wynikającego ze znaku pionowego A-7. Dziennik Ustaw – 24 – Poz. 2310 3. Znak P-14 „linia warunkowego zatrzymania złożona z prostokątów” wskazuje miejsce zatrzymania pojazdu: 1) na skrzyżowaniu na wlotach dróg równorzędnych; 2) przed przejściem dla pieszych; 3) przed przystankami tramwajowymi bez wysepek; 4) przed przejazdami tramwajowymi i kolejowymi; 5) przed przejazdem dla rowerzystów; 6) przed śluzą dla rowerów; 7) przed sygnałem świetlnym. 3a. Obowiązek zatrzymania pojazdu w miejscu, o którym mowa w ust. 3, nie dotyczy kierującego rowerem wjeżdżającego do śluzy dla rowerów. 4. Znaki P-15 „trójkąt podporządkowania” i P-16 „napis stop” potwierdzają oznakowanie wlotu na skrzyżowanie znakami pionowymi odpowiednio A-7 i B-20.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "P-17",
@@ -222,8 +222,8 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "linia przystankowa",
-  "short_description": "linia przystankowa",
-  "details": "Znak P-17 „linia przystankowa” wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i ozna￾cza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii.",
+  "short_description": "Wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i oznacza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii.",
+  "details": "Znak P-17 „linia przystankowa” wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i oznacza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii.",
   "image_path": "img/znaki/P-17.png",
   "keywords": [
    "linia",
@@ -236,11 +236,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 90",
-   "source_text": "§ 90. 1. Znak P-17 „linia przystankowa” wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i ozna￾cza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii. 2. Znak P-18 „stanowisko postojowe” wyznacza miejsce przeznaczone do postoju pojazdów. 3. Znak P-19 „linia wyznaczająca pas postojowy” wyznacza pas przeznaczony na postój pojazdów wzdłuż krawędzi jezdni lub oddziela od niej zatokę postojową. 4. Znak P-20 „koperta” wyznacza stanowisko postojowe zastrzeżone dla określonego rodzaju pojazdów. 5. Znak P-21 „powierzchnia wyłączona” oznacza powierzchnię drogi, na którą wjazd i zatrzymanie są zabronione.",
+   "source_text": "§ 90. 1. Znak P-17 „linia przystankowa” wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i oznacza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii. 2. Znak P-18 „stanowisko postojowe” wyznacza miejsce przeznaczone do postoju pojazdów. 3. Znak P-19 „linia wyznaczająca pas postojowy” wyznacza pas przeznaczony na postój pojazdów wzdłuż krawędzi jezdni lub oddziela od niej zatokę postojową. 4. Znak P-20 „koperta” wyznacza stanowisko postojowe zastrzeżone dla określonego rodzaju pojazdów. 5. Znak P-21 „powierzchnia wyłączona” oznacza powierzchnię drogi, na którą wjazd i zatrzymanie są zabronione.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "P-18",
@@ -248,7 +248,7 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "stanowisko postojowe",
-  "short_description": "stanowisko postojowe",
+  "short_description": "Wyznacza miejsce przeznaczone do postoju pojazdów.",
   "details": "Znak P-18 „stanowisko postojowe” wyznacza miejsce przeznaczone do postoju pojazdów.",
   "image_path": "img/znaki/P-18.png",
   "keywords": [
@@ -262,11 +262,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 90",
-   "source_text": "§ 90. 1. Znak P-17 „linia przystankowa” wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i ozna￾cza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii. 2. Znak P-18 „stanowisko postojowe” wyznacza miejsce przeznaczone do postoju pojazdów. 3. Znak P-19 „linia wyznaczająca pas postojowy” wyznacza pas przeznaczony na postój pojazdów wzdłuż krawędzi jezdni lub oddziela od niej zatokę postojową. 4. Znak P-20 „koperta” wyznacza stanowisko postojowe zastrzeżone dla określonego rodzaju pojazdów. 5. Znak P-21 „powierzchnia wyłączona” oznacza powierzchnię drogi, na którą wjazd i zatrzymanie są zabronione.",
+   "source_text": "§ 90. 1. Znak P-17 „linia przystankowa” wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i oznacza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii. 2. Znak P-18 „stanowisko postojowe” wyznacza miejsce przeznaczone do postoju pojazdów. 3. Znak P-19 „linia wyznaczająca pas postojowy” wyznacza pas przeznaczony na postój pojazdów wzdłuż krawędzi jezdni lub oddziela od niej zatokę postojową. 4. Znak P-20 „koperta” wyznacza stanowisko postojowe zastrzeżone dla określonego rodzaju pojazdów. 5. Znak P-21 „powierzchnia wyłączona” oznacza powierzchnię drogi, na którą wjazd i zatrzymanie są zabronione.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "P-19",
@@ -274,7 +274,7 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "linia wyznaczająca pas postojowy",
-  "short_description": "linia wyznaczająca pas postojowy",
+  "short_description": "Wyznacza pas przeznaczony na postój pojazdów wzdłuż krawędzi jezdni lub oddziela od niej zatokę postojową.",
   "details": "Znak P-19 „linia wyznaczająca pas postojowy” wyznacza pas przeznaczony na postój pojazdów wzdłuż krawędzi jezdni lub oddziela od niej zatokę postojową.",
   "image_path": "img/znaki/P-19.png",
   "keywords": [
@@ -289,11 +289,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 90",
-   "source_text": "§ 90. 1. Znak P-17 „linia przystankowa” wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i ozna￾cza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii. 2. Znak P-18 „stanowisko postojowe” wyznacza miejsce przeznaczone do postoju pojazdów. 3. Znak P-19 „linia wyznaczająca pas postojowy” wyznacza pas przeznaczony na postój pojazdów wzdłuż krawędzi jezdni lub oddziela od niej zatokę postojową. 4. Znak P-20 „koperta” wyznacza stanowisko postojowe zastrzeżone dla określonego rodzaju pojazdów. 5. Znak P-21 „powierzchnia wyłączona” oznacza powierzchnię drogi, na którą wjazd i zatrzymanie są zabronione.",
+   "source_text": "§ 90. 1. Znak P-17 „linia przystankowa” wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i oznacza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii. 2. Znak P-18 „stanowisko postojowe” wyznacza miejsce przeznaczone do postoju pojazdów. 3. Znak P-19 „linia wyznaczająca pas postojowy” wyznacza pas przeznaczony na postój pojazdów wzdłuż krawędzi jezdni lub oddziela od niej zatokę postojową. 4. Znak P-20 „koperta” wyznacza stanowisko postojowe zastrzeżone dla określonego rodzaju pojazdów. 5. Znak P-21 „powierzchnia wyłączona” oznacza powierzchnię drogi, na którą wjazd i zatrzymanie są zabronione.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "P-2",
@@ -301,8 +301,8 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "linia pojedyncza ciągła",
-  "short_description": "Oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdża￾nia przez tę linię i najeżdżania na nią.",
-  "details": "Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdża￾nia przez tę linię i najeżdżania na nią.",
+  "short_description": "Oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdżania przez tę linię i najeżdżania na nią.",
+  "details": "Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdżania przez tę linię i najeżdżania na nią.",
   "image_path": "img/znaki/P-2.png",
   "keywords": [
    "ciągła",
@@ -316,7 +316,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 86",
-   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdża￾nia przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeż￾dżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wy￾przedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezd",
+   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdżania przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeżdżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wyprzedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezdni;",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -328,7 +328,7 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "koperta",
-  "short_description": "koperta",
+  "short_description": "Wyznacza stanowisko postojowe zastrzeżone dla określonego rodzaju pojazdów.",
   "details": "Znak P-20 „koperta” wyznacza stanowisko postojowe zastrzeżone dla określonego rodzaju pojazdów.",
   "image_path": "img/znaki/P-20.png",
   "keywords": [
@@ -341,11 +341,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 90",
-   "source_text": "§ 90. 1. Znak P-17 „linia przystankowa” wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i ozna￾cza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii. 2. Znak P-18 „stanowisko postojowe” wyznacza miejsce przeznaczone do postoju pojazdów. 3. Znak P-19 „linia wyznaczająca pas postojowy” wyznacza pas przeznaczony na postój pojazdów wzdłuż krawędzi jezdni lub oddziela od niej zatokę postojową. 4. Znak P-20 „koperta” wyznacza stanowisko postojowe zastrzeżone dla określonego rodzaju pojazdów. 5. Znak P-21 „powierzchnia wyłączona” oznacza powierzchnię drogi, na którą wjazd i zatrzymanie są zabronione.",
+   "source_text": "§ 90. 1. Znak P-17 „linia przystankowa” wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i oznacza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii. 2. Znak P-18 „stanowisko postojowe” wyznacza miejsce przeznaczone do postoju pojazdów. 3. Znak P-19 „linia wyznaczająca pas postojowy” wyznacza pas przeznaczony na postój pojazdów wzdłuż krawędzi jezdni lub oddziela od niej zatokę postojową. 4. Znak P-20 „koperta” wyznacza stanowisko postojowe zastrzeżone dla określonego rodzaju pojazdów. 5. Znak P-21 „powierzchnia wyłączona” oznacza powierzchnię drogi, na którą wjazd i zatrzymanie są zabronione.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "P-21",
@@ -367,7 +367,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 90",
-   "source_text": "§ 90. 1. Znak P-17 „linia przystankowa” wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i ozna￾cza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii. 2. Znak P-18 „stanowisko postojowe” wyznacza miejsce przeznaczone do postoju pojazdów. 3. Znak P-19 „linia wyznaczająca pas postojowy” wyznacza pas przeznaczony na postój pojazdów wzdłuż krawędzi jezdni lub oddziela od niej zatokę postojową. 4. Znak P-20 „koperta” wyznacza stanowisko postojowe zastrzeżone dla określonego rodzaju pojazdów. 5. Znak P-21 „powierzchnia wyłączona” oznacza powierzchnię drogi, na którą wjazd i zatrzymanie są zabronione.",
+   "source_text": "§ 90. 1. Znak P-17 „linia przystankowa” wyznacza na jezdni miejsce przystanku pojazdów określonych w § 51 i oznacza, że zakaz zatrzymywania się innych pojazdów na przystanku obowiązuje na całej długości linii. 2. Znak P-18 „stanowisko postojowe” wyznacza miejsce przeznaczone do postoju pojazdów. 3. Znak P-19 „linia wyznaczająca pas postojowy” wyznacza pas przeznaczony na postój pojazdów wzdłuż krawędzi jezdni lub oddziela od niej zatokę postojową. 4. Znak P-20 „koperta” wyznacza stanowisko postojowe zastrzeżone dla określonego rodzaju pojazdów. 5. Znak P-21 „powierzchnia wyłączona” oznacza powierzchnię drogi, na którą wjazd i zatrzymanie są zabronione.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -482,8 +482,8 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "piesi",
-  "short_description": "Oznacza drogę dla rowerów, pas ruchu dla rowerów lub śluzę dla rowerów albo część jezdni drogi jednokierunkowej, na której ruch rowerów odbywa się w dwóch kierunkach; znak P-23 umieszczony łącznie ze znakiem P-26 oznacza, że droga jest przeznaczona dla pieszych i kierujących rowerami.",
-  "details": "Znak P-23 „rower” oznacza drogę dla rowerów, pas ruchu dla rowerów lub śluzę dla rowerów albo część jezdni drogi jednokierunkowej, na której ruch rowerów odbywa się w dwóch kierunkach; znak P-23 umieszczony łącznie ze znakiem P-26 oznacza, że droga jest przeznaczona dla pieszych i kierujących rowerami.",
+  "short_description": "Oznacza drogę dla pieszych; znak P-26 umieszczony łącznie ze znakiem P-23 oznacza, że droga jest przeznaczona dla pieszych i kierujących rowerami.",
+  "details": "Znak P-26 „piesi” oznacza drogę dla pieszych; znak P-26 umieszczony łącznie ze znakiem P-23 oznacza, że droga jest przeznaczona dla pieszych i kierujących rowerami.",
   "image_path": "img/znaki/P-26.png",
   "keywords": [
    "p-26",
@@ -494,8 +494,8 @@
   "legal_basis": {
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 91",
-   "source_text": "§ 91. 1. Znak P-22 „BUS” oznacza pas ruchu przeznaczony dla ruchu pojazdów wykonujących odpłatny przewóz osób na regularnych liniach. 2. Znak P-23 „rower” oznacza drogę dla rowerów, pas ruchu dla rowerów lub śluzę dla rowerów albo część jezdni drogi jednokierunkowej, na której ruch rowerów odbywa się w dwóch kierunkach; znak P-23 umieszczony łącznie ze znakiem P-26 oznacza, że droga jest przeznaczona dla pieszych i kierujących rowerami. 2a. Po części drogi oznaczonej znakiem P-23 może odbywać się ruch wózka rowerowego, jeżeli oznakowanie pionowe tej części drogi wskazuje taką możliwość. 3. Na pasie ruchu mogą być umieszczone inne niż określone w ust. 1 i 2 napisy lub symbole oznaczające jego przeznaczenie.",
+   "provision_reference": "§ 93a",
+   "source_text": "§ 93a. Znak P-26 „piesi” oznacza drogę dla pieszych; znak P-26 umieszczony łącznie ze znakiem P-23 oznacza, że droga jest przeznaczona dla pieszych i kierujących rowerami.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -534,8 +534,8 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "linia jednostronnie przekraczalna",
-  "short_description": "Oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeż￾dżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wy￾przedzaniem.",
-  "details": "Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeż￾dżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wy￾przedzaniem.",
+  "short_description": "Oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeżdżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wyprzedzaniem.",
+  "details": "Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeżdżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wyprzedzaniem.",
   "image_path": "img/znaki/P-3.png",
   "keywords": [
    "jednostronnie",
@@ -549,7 +549,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 86",
-   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdża￾nia przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeż￾dżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wy￾przedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezd",
+   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdżania przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeżdżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wyprzedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezdni;",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -576,7 +576,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 86",
-   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdża￾nia przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeż￾dżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wy￾przedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezd",
+   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdżania przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeżdżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wyprzedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezdni;",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -603,7 +603,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 86",
-   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdża￾nia przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeż￾dżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wy￾przedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezd",
+   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdżania przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeżdżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wyprzedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezdni;",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -629,7 +629,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 86",
-   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdża￾nia przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeż￾dżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wy￾przedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezd",
+   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdżania przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeżdżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wyprzedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezdni;",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -658,7 +658,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 86",
-   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdża￾nia przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeż￾dżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wy￾przedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezd",
+   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdżania przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeżdżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wyprzedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezdni;",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -687,7 +687,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 86",
-   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdża￾nia przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeż￾dżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wy￾przedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezd",
+   "source_text": "§ 86. 1. Znak P-1 „linia pojedyncza przerywana”, w którym kreski są krótsze od przerw lub równe przerwom, wyznacza pasy ruchu. 2. Znak P-1 o podwójnej szerokości, w którym kreski i przerwy są równe, informuje ponadto, że wyznaczony pas ruchu jest pasem: 1) ruchu powolnego; 2) zanikającym albo 3) przeznaczonym wyłącznie dla pojazdów wyjeżdżających na inną drogę lub jezdnię. 3. Znak P-2 „linia pojedyncza ciągła” oddziela pasy ruchu o tym samym kierunku i oznacza ponadto zakaz przejeżdżania przez tę linię i najeżdżania na nią. 4. Znak P-3 „linia jednostronnie przekraczalna” oznacza zakaz przejeżdżania przez tę linię od strony linii ciągłej i najeżdżania na nią, z wyjątkiem powrotu po wyprzedzaniu na położony przy linii przerywanej pas ruchu zajmowany przed wyprzedzaniem. 5. Znak P-4 „linia podwójna ciągła” rozdziela pasy ruchu o kierunkach przeciwnych i oznacza zakaz przejeżdżania przez tę linię i najeżdżania na nią. 6. Znak P-5 „linia podwójna przerywana”, znajdująca się między skrzyżowaniami po obu stronach pasa ruchu, oznacza pas o zmiennym kierunku ruchu otwieranym i zamykanym sygnałami świetlnymi nadawanymi przez sygnalizator S-4. 7. Znak P-6 „linia ostrzegawcza”, w której kreski są dłuższe od przerw, rozdziela pasy ruchu i uprzedza o zbliżaniu się do linii, przez którą przejeżdżanie jest zabronione, lub do miejsca niebezpiecznego. 8. Umieszczone przy krawędzi jezdni znaki: 1) P-7a „linia krawędziowa przerywana”, 2) P-7b „linia krawędziowa ciągła” wyznaczają krawędź jezdni;",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -699,8 +699,8 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "strzałka kierunkowa na wprost",
-  "short_description": "Oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączo￾ne symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi.",
-  "details": "Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączo￾ne symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi.",
+  "short_description": "Oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączone symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi.",
+  "details": "Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączone symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi.",
   "image_path": "img/znaki/P-8a.png",
   "keywords": [
    "kierunkowa",
@@ -717,7 +717,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 87",
-   "source_text": "§ 87. 1. Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączo￾ne symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi. 2. Strzałka kierunkowa zezwalająca na skręcanie w lewo, umieszczona na skrajnym lewym pasie ruchu, oznacza także zezwolenie na zawracanie, chyba że jest to zabronione znakiem pionowym B-23 lub ruch jest kierowany sygnalizatorem S-3. 2a. Znaki określone w ust. 1 umieszczone na pasie ruchu poprzedzone symbolem lub napisem, o których mowa w § 91 ust. 1 i 2, oznaczają kierunek ruchu pojazdu wskazanego tym symbolem lub napisem. 3. Znak P-9 „strzałka naprowadzająca” oznacza nakaz wjazdu na sąsiedni pas ruchu wskazany strzałką; nie dotyczy to kierujących pojazdami, dla których jest przeznaczony dalszy odcinek pasa ruchu.",
+   "source_text": "§ 87. 1. Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączone symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi. 2. Strzałka kierunkowa zezwalająca na skręcanie w lewo, umieszczona na skrajnym lewym pasie ruchu, oznacza także zezwolenie na zawracanie, chyba że jest to zabronione znakiem pionowym B-23 lub ruch jest kierowany sygnalizatorem S-3. 2a. Znaki określone w ust. 1 umieszczone na pasie ruchu poprzedzone symbolem lub napisem, o których mowa w § 91 ust. 1 i 2, oznaczają kierunek ruchu pojazdu wskazanego tym symbolem lub napisem. 3. Znak P-9 „strzałka naprowadzająca” oznacza nakaz wjazdu na sąsiedni pas ruchu wskazany strzałką; nie dotyczy to kierujących pojazdami, dla których jest przeznaczony dalszy odcinek pasa ruchu.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -729,8 +729,8 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "strzałka kierunkowa do skręcania",
-  "short_description": "Oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączo￾ne symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi.",
-  "details": "Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączo￾ne symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi.",
+  "short_description": "Oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączone symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi.",
+  "details": "Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączone symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi.",
   "image_path": "img/znaki/P-8b.png",
   "keywords": [
    "kierunkowa",
@@ -747,7 +747,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 87",
-   "source_text": "§ 87. 1. Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączo￾ne symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi. 2. Strzałka kierunkowa zezwalająca na skręcanie w lewo, umieszczona na skrajnym lewym pasie ruchu, oznacza także zezwolenie na zawracanie, chyba że jest to zabronione znakiem pionowym B-23 lub ruch jest kierowany sygnalizatorem S-3. 2a. Znaki określone w ust. 1 umieszczone na pasie ruchu poprzedzone symbolem lub napisem, o których mowa w § 91 ust. 1 i 2, oznaczają kierunek ruchu pojazdu wskazanego tym symbolem lub napisem. 3. Znak P-9 „strzałka naprowadzająca” oznacza nakaz wjazdu na sąsiedni pas ruchu wskazany strzałką; nie dotyczy to kierujących pojazdami, dla których jest przeznaczony dalszy odcinek pasa ruchu.",
+   "source_text": "§ 87. 1. Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączone symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi. 2. Strzałka kierunkowa zezwalająca na skręcanie w lewo, umieszczona na skrajnym lewym pasie ruchu, oznacza także zezwolenie na zawracanie, chyba że jest to zabronione znakiem pionowym B-23 lub ruch jest kierowany sygnalizatorem S-3. 2a. Znaki określone w ust. 1 umieszczone na pasie ruchu poprzedzone symbolem lub napisem, o których mowa w § 91 ust. 1 i 2, oznaczają kierunek ruchu pojazdu wskazanego tym symbolem lub napisem. 3. Znak P-9 „strzałka naprowadzająca” oznacza nakaz wjazdu na sąsiedni pas ruchu wskazany strzałką; nie dotyczy to kierujących pojazdami, dla których jest przeznaczony dalszy odcinek pasa ruchu.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -759,8 +759,8 @@
   "category_id": "P",
   "category_name": "Znaki poziome",
   "name": "strzałka kierunkowa do zawracania",
-  "short_description": "Oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączo￾ne symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi.",
-  "details": "Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączo￾ne symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi.",
+  "short_description": "Oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączone symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi.",
+  "details": "Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączone symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi.",
   "image_path": "img/znaki/P-8c.png",
   "keywords": [
    "kierunkowa",
@@ -777,7 +777,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 87",
-   "source_text": "§ 87. 1. Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączo￾ne symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi. 2. Strzałka kierunkowa zezwalająca na skręcanie w lewo, umieszczona na skrajnym lewym pasie ruchu, oznacza także zezwolenie na zawracanie, chyba że jest to zabronione znakiem pionowym B-23 lub ruch jest kierowany sygnalizatorem S-3. 2a. Znaki określone w ust. 1 umieszczone na pasie ruchu poprzedzone symbolem lub napisem, o których mowa w § 91 ust. 1 i 2, oznaczają kierunek ruchu pojazdu wskazanego tym symbolem lub napisem. 3. Znak P-9 „strzałka naprowadzająca” oznacza nakaz wjazdu na sąsiedni pas ruchu wskazany strzałką; nie dotyczy to kierujących pojazdami, dla których jest przeznaczony dalszy odcinek pasa ruchu.",
+   "source_text": "§ 87. 1. Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączone symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi. 2. Strzałka kierunkowa zezwalająca na skręcanie w lewo, umieszczona na skrajnym lewym pasie ruchu, oznacza także zezwolenie na zawracanie, chyba że jest to zabronione znakiem pionowym B-23 lub ruch jest kierowany sygnalizatorem S-3. 2a. Znaki określone w ust. 1 umieszczone na pasie ruchu poprzedzone symbolem lub napisem, o których mowa w § 91 ust. 1 i 2, oznaczają kierunek ruchu pojazdu wskazanego tym symbolem lub napisem. 3. Znak P-9 „strzałka naprowadzająca” oznacza nakaz wjazdu na sąsiedni pas ruchu wskazany strzałką; nie dotyczy to kierujących pojazdami, dla których jest przeznaczony dalszy odcinek pasa ruchu.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -803,7 +803,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 87",
-   "source_text": "§ 87. 1. Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączo￾ne symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi. 2. Strzałka kierunkowa zezwalająca na skręcanie w lewo, umieszczona na skrajnym lewym pasie ruchu, oznacza także zezwolenie na zawracanie, chyba że jest to zabronione znakiem pionowym B-23 lub ruch jest kierowany sygnalizatorem S-3. 2a. Znaki określone w ust. 1 umieszczone na pasie ruchu poprzedzone symbolem lub napisem, o których mowa w § 91 ust. 1 i 2, oznaczają kierunek ruchu pojazdu wskazanego tym symbolem lub napisem. 3. Znak P-9 „strzałka naprowadzająca” oznacza nakaz wjazdu na sąsiedni pas ruchu wskazany strzałką; nie dotyczy to kierujących pojazdami, dla których jest przeznaczony dalszy odcinek pasa ruchu.",
+   "source_text": "§ 87. 1. Znaki: 1) P-8a „strzałka kierunkowa na wprost”, 2) P-8b „strzałka kierunkowa do skręcania”, 3) P-8c „strzałka kierunkowa do zawracania” oznaczają, że jazda z pasa ruchu, na którym są umieszczone, jest dozwolona tylko w kierunku wskazanym strzałką; połączone symbole znaków P-8a, P-8b lub P-8c oznaczają zezwolenie na ruch w kierunkach wskazanych strzałkami kierunkowymi. 2. Strzałka kierunkowa zezwalająca na skręcanie w lewo, umieszczona na skrajnym lewym pasie ruchu, oznacza także zezwolenie na zawracanie, chyba że jest to zabronione znakiem pionowym B-23 lub ruch jest kierowany sygnalizatorem S-3. 2a. Znaki określone w ust. 1 umieszczone na pasie ruchu poprzedzone symbolem lub napisem, o których mowa w § 91 ust. 1 i 2, oznaczają kierunek ruchu pojazdu wskazanego tym symbolem lub napisem. 3. Znak P-9 „strzałka naprowadzająca” oznacza nakaz wjazdu na sąsiedni pas ruchu wskazany strzałką; nie dotyczy to kierujących pojazdami, dla których jest przeznaczony dalszy odcinek pasa ruchu.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",

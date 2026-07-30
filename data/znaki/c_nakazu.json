@@ -5,8 +5,8 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "nakaz jazdy w prawo przed znakiem",
-  "short_description": "Wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
-  "details": "Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+  "short_description": "Zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
+  "details": "Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
   "image_path": "img/znaki/C-1.png",
   "keywords": [
    "c-1",
@@ -22,7 +22,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 35",
-   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -34,8 +34,8 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "nakaz jazdy z lewej strony znaku",
-  "short_description": "Wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
-  "details": "2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+  "short_description": "Zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
+  "details": "2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
   "image_path": "img/znaki/C-10.png",
   "keywords": [
    "c-10",
@@ -51,7 +51,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 35",
-   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -63,7 +63,7 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "nakaz jazdy z prawej lub lewej strony znaku",
-  "short_description": "nakaz jazdy z prawej lub lewej strony znaku",
+  "short_description": "Zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "details": "2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "image_path": "img/znaki/C-11.png",
   "keywords": [
@@ -81,11 +81,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 35",
-   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "C-12",
@@ -94,7 +94,7 @@
   "category_name": "Znaki nakazu",
   "name": "ruch okrężny",
   "short_description": "Oznacza, że na skrzyżowaniu ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
-  "details": "Znak C-12 „ruch okrężny” oznacza, że na skrzyżowaniu ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku. Znak C-12 występujący łącznie ze znakiem A-7 oznacza pierwszeństwo kierującego znajdującego się na skrzyżowa￾niu przed kierującym wjeżdżającym (wchodzącym) na to skrzyżowanie.",
+  "details": "Znak C-12 „ruch okrężny” oznacza, że na skrzyżowaniu ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku. Znak C-12 występujący łącznie ze znakiem A-7 oznacza pierwszeństwo kierującego znajdującego się na skrzyżowaniu przed kierującym wjeżdżającym (wchodzącym) na to skrzyżowanie.",
   "image_path": "img/znaki/C-12.png",
   "keywords": [
    "c-12",
@@ -107,7 +107,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 36",
-   "source_text": "§ 36. 1. Znak C-12 „ruch okrężny” oznacza, że na skrzyżowaniu ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku. 2. Znak C-12 występujący łącznie ze znakiem A-7 oznacza pierwszeństwo kierującego znajdującego się na skrzyżowa￾niu przed kierującym wjeżdżającym (wchodzącym) na to skrzyżowanie.",
+   "source_text": "§ 36. 1. Znak C-12 „ruch okrężny” oznacza, że na skrzyżowaniu ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku. 2. Znak C-12 występujący łącznie ze znakiem A-7 oznacza pierwszeństwo kierującego znajdującego się na skrzyżowaniu przed kierującym wjeżdżającym (wchodzącym) na to skrzyżowanie.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -120,7 +120,7 @@
   "category_name": "Znaki nakazu",
   "name": "droga dla rowerów",
   "short_description": "Oznacza drogę przeznaczoną dla kierujących rowerami, którzy są obowiązani do korzystania z tej drogi, jeżeli jest ona wyznaczona dla kierunku, w którym oni poruszają się lub zamierzają skręcić.",
-  "details": "Znak C-13 „droga dla rowerów” oznacza drogę przeznaczoną dla kierujących rowerami, którzy są obowiązani do korzystania z tej drogi, jeżeli jest ona wyznaczona dla kierunku, w którym oni poruszają się lub zamierzają skręcić. Nakaz wyrażony znakiem C-13 obowiązuje do odwołania albo do: 1) miejsca umieszczenia znaku B-1, B-9, C-16, D-40; Znak C-13a „koniec drogi dla rowerów” oznacza koniec drogi przeznaczonej dla kierujących rowerami.",
+  "details": "Znak C-13 „droga dla rowerów” oznacza drogę przeznaczoną dla kierujących rowerami, którzy są obowiązani do korzystania z tej drogi, jeżeli jest ona wyznaczona dla kierunku, w którym oni poruszają się lub zamierzają skręcić. Nakaz wyrażony znakiem C-13 obowiązuje do odwołania albo do: 1) miejsca umieszczenia znaku B-1, B-9, C-16, D-40;",
   "image_path": "img/znaki/C-13.png",
   "keywords": [
    "c-13",
@@ -229,8 +229,8 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "droga dla pieszych",
-  "short_description": "droga dla pieszych",
-  "details": "Nakaz wyrażony znakiem C-13 obowiązuje do odwołania albo do: 1) miejsca umieszczenia znaku B-1, B-9, C-16, D-40;",
+  "short_description": "Oznacza drogę lub jej część przeznaczoną dla pieszych, którzy są obowiązani z niej korzystać.",
+  "details": "Znak C-16 „droga dla pieszych” oznacza drogę lub jej część przeznaczoną dla pieszych, którzy są obowiązani z niej korzystać. Nakaz wyrażony znakiem C-16 obowiązuje do odwołania albo do miejsca umieszczenia znaku B-41, C-13 albo D-40.",
   "image_path": "img/znaki/C-16.png",
   "keywords": [
    "c-16",
@@ -244,12 +244,12 @@
   "legal_basis": {
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 37",
-   "source_text": "§ 37. 1. Znak C-13 „droga dla rowerów” oznacza drogę przeznaczoną dla kierujących rowerami, którzy są obowiązani do korzystania z tej drogi, jeżeli jest ona wyznaczona dla kierunku, w którym oni poruszają się lub zamierzają skręcić. 2. Nakaz wyrażony znakiem C-13 obowiązuje do odwołania albo do: 1) miejsca umieszczenia znaku B-1, B-9, C-16, D-40; 2) najbliższego skrzyżowania. 3. Znak C-13a „koniec drogi dla rowerów” oznacza koniec drogi przeznaczonej dla kierujących rowerami.",
+   "provision_reference": "§ 39",
+   "source_text": "§ 39. 1. Znak C-16 „droga dla pieszych” oznacza drogę lub jej część przeznaczoną dla pieszych, którzy są obowiązani z niej korzystać. 1a. Nakaz wyrażony znakiem C-16 obowiązuje do odwołania albo do miejsca umieszczenia znaku B-41, C-13 albo D-40. 2. Znak C-16a „koniec drogi dla pieszych” oznacza koniec drogi przeznaczonej dla pieszych.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "C-16a",
@@ -286,8 +286,8 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "nakazany kierunek jazdy dla pojazdów z towarami niebezpiecznymi",
-  "short_description": "Oznacza obowiązujący, wskaza￾ny znakami C-2, C-4, C-5, C-6, C-7 lub C-8, kierunek jazdy na skrzyżowaniu pojazdów przewożących towary niebezpiecz￾ne określone w § 19 ust.",
-  "details": "Znak C-17 „nakazany kierunek jazdy dla pojazdów z towarami niebezpiecznymi” oznacza obowiązujący, wskaza￾ny znakami C-2, C-4, C-5, C-6, C-7 lub C-8, kierunek jazdy na skrzyżowaniu pojazdów przewożących towary niebezpiecz￾ne określone w § 19 ust.",
+  "short_description": "Oznacza obowiązujący, wskazany znakami C-2, C-4, C-5, C-6, C-7 lub C-8, kierunek jazdy na skrzyżowaniu pojazdów przewożących towary niebezpieczne określone w § 19 ust.",
+  "details": "Znak C-17 „nakazany kierunek jazdy dla pojazdów z towarami niebezpiecznymi” oznacza obowiązujący, wskazany znakami C-2, C-4, C-5, C-6, C-7 lub C-8, kierunek jazdy na skrzyżowaniu pojazdów przewożących towary niebezpieczne określone w § 19 ust.",
   "image_path": "img/znaki/C-17.png",
   "keywords": [
    "c-17",
@@ -304,7 +304,7 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 41",
-   "source_text": "§ 41. Znak C-17 „nakazany kierunek jazdy dla pojazdów z towarami niebezpiecznymi” oznacza obowiązujący, wskaza￾ny znakami C-2, C-4, C-5, C-6, C-7 lub C-8, kierunek jazdy na skrzyżowaniu pojazdów przewożących towary niebezpiecz￾ne określone w § 19 ust. 2. Umieszczona pod znakiem tabliczka T-31 lub tabliczka z odpowiednim napisem wskazuje, że nakazany kierunek jazdy dotyczy pojazdów przewożących tylko określone klasy lub grupy towarów niebezpiecznych lub określonego sposobu przewozu tych towarów.",
+   "source_text": "§ 41. Znak C-17 „nakazany kierunek jazdy dla pojazdów z towarami niebezpiecznymi” oznacza obowiązujący, wskazany znakami C-2, C-4, C-5, C-6, C-7 lub C-8, kierunek jazdy na skrzyżowaniu pojazdów przewożących towary niebezpieczne określone w § 19 ust. 2. Umieszczona pod znakiem tabliczka T-31 lub tabliczka z odpowiednim napisem wskazuje, że nakazany kierunek jazdy dotyczy pojazdów przewożących tylko określone klasy lub grupy towarów niebezpiecznych lub określonego sposobu przewozu tych towarów.",
    "verified_at": "2026-07-30"
   },
   "verification_status": "verified",
@@ -373,7 +373,7 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "nakaz jazdy w prawo za znakiem",
-  "short_description": "nakaz jazdy w prawo za znakiem",
+  "short_description": "Zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "details": "Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz.",
   "image_path": "img/znaki/C-2.png",
   "keywords": [
@@ -389,11 +389,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 35",
-   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "C-3",
@@ -401,7 +401,7 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "nakaz jazdy w lewo przed znakiem",
-  "short_description": "nakaz jazdy w lewo przed znakiem",
+  "short_description": "Zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "details": "Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz.",
   "image_path": "img/znaki/C-3.png",
   "keywords": [
@@ -418,11 +418,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 35",
-   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "C-4",
@@ -430,7 +430,7 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "nakaz jazdy w lewo za znakiem",
-  "short_description": "nakaz jazdy w lewo za znakiem",
+  "short_description": "Zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "details": "Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz.",
   "image_path": "img/znaki/C-4.png",
   "keywords": [
@@ -446,11 +446,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 35",
-   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "C-5",
@@ -458,7 +458,7 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "nakaz jazdy prosto",
-  "short_description": "nakaz jazdy prosto",
+  "short_description": "Zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "details": "Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz.",
   "image_path": "img/znaki/C-5.png",
   "keywords": [
@@ -473,11 +473,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 35",
-   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "C-6",
@@ -485,7 +485,7 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "nakaz jazdy prosto lub w prawo",
-  "short_description": "nakaz jazdy prosto lub w prawo",
+  "short_description": "Zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "details": "2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "image_path": "img/znaki/C-6.png",
   "keywords": [
@@ -501,11 +501,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 35",
-   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "C-7",
@@ -513,7 +513,7 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "nakaz jazdy prosto lub w lewo",
-  "short_description": "nakaz jazdy prosto lub w lewo",
+  "short_description": "Zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "details": "2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "image_path": "img/znaki/C-7.png",
   "keywords": [
@@ -529,11 +529,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 35",
-   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "C-8",
@@ -541,7 +541,7 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "nakaz jazdy w prawo lub w lewo",
-  "short_description": "nakaz jazdy w prawo lub w lewo",
+  "short_description": "Zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "details": "2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "image_path": "img/znaki/C-8.png",
   "keywords": [
@@ -557,11 +557,11 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 35",
-   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  },
  {
   "id": "C-9",
@@ -569,7 +569,7 @@
   "category_id": "C",
   "category_name": "Znaki nakazu",
   "name": "nakaz jazdy z prawej strony znaku",
-  "short_description": "nakaz jazdy z prawej strony znaku",
+  "short_description": "Zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "details": "2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni.",
   "image_path": "img/znaki/C-9.png",
   "keywords": [
@@ -586,10 +586,10 @@
    "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 35",
-   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyraże￾niem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
+   "source_text": "§ 35. 1. Znaki: 1) C-1 „nakaz jazdy w prawo przed znakiem”, 2) C-2 „nakaz jazdy w prawo za znakiem”, 3) C-3 „nakaz jazdy w lewo przed znakiem”, 4) C-4 „nakaz jazdy w lewo za znakiem”, 5) C-5 „nakaz jazdy prosto”, Dziennik Ustaw – 12 – Poz. 2310 6) C-6 „nakaz jazdy prosto lub w prawo”, 7) C-7 „nakaz jazdy prosto lub w lewo”, 8) C-8 „nakaz jazdy w prawo lub w lewo”, 9) C-9 „nakaz jazdy z prawej strony znaku”, 10) C-10 „nakaz jazdy z lewej strony znaku”, 11) C-11 „nakaz jazdy z prawej lub lewej strony znaku” zobowiązują kierującego do ruchu w kierunku zgodnym ze strzałkami; znaki te mogą być umieszczone na przedłużeniu osi drogi (jezdni) lub na samej jezdni. 2. Znaki, o których mowa w ust. 1, obowiązują na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy. 3. Umieszczona pod znakami C-1 do C-10 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że nakaz nie dotyczy pojazdu określonego tabliczką.",
    "verified_at": "2026-07-30"
   },
-  "verification_status": "partial_verification",
-  "verification_note": "nie wyodrębniono zdania objaśniającego"
+  "verification_status": "verified",
+  "verification_note": null
  }
 ]

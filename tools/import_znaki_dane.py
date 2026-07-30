@@ -67,28 +67,47 @@ PLIK_KAT = {s: p for s, _, p in KATEGORIE}
 RE_KOD = re.compile(r"\b((?:BT|AT|[ABCDEFGPRSTUW])-\d{1,3}[a-z]?)\b")
 # kod, po ktorym w cudzyslowie stoi nazwa urzedowa
 RE_KOD_NAZWA = re.compile(r"\b((?:BT|AT|[ABCDEFGPRSTUW])-\d{1,3}[a-z]?)\s*„([^”]{2,300})”")
+# Tabliczki serii T akt opisuje inaczej — kod, myslnik i znaczenie, np.
+#   „2) T-10 – przeciecie drogi z bocznica kolejowa …;”
+# To rownie wiazacy zapis jak nazwa w cudzyslowie, wiec czytamy oba.
+RE_KOD_MYSLNIK = re.compile(
+    r"\b((?:BT|AT|[ABCDEFGPRSTUW])-\d{1,3}[a-z]?)\s*[–—-]\s*([^;]{5,300}?)(?=;|\s*\d+\)\s*(?:BT|AT|[ABCDEFGPRSTUW])-|\.\s+[A-ZŁŚŻ§])")
 RE_PARAGRAF = re.compile(r"§\s*(\d+[a-z]?)\.")
+RE_CZASOWNIK = re.compile(
+    r"ostrzega|oznacza|zakazuj|nakazuj|informuj|wskazuj|stosuje się|uprzedza|zabrania|"
+    r"dotyczy|określa|zobowiązuj|umieszcza się|obowiązuj|zezwala|zwalnia|uprawnia|"
+    r"potwierdza|odwołuje|zapowiada|sygnalizuj|wyznacza|wprowadza")
+
+
+def RE_KOD_W_ZDANIU(kod: str):
+    """Kod jako osobny wyraz — zeby T-1 nie trafialo w T-1a."""
+    return re.compile(r"(?<![A-Za-z0-9-])" + re.escape(kod) + r"(?![A-Za-z0-9])")
 
 
 def wczytaj_tekst(pdf: Path) -> str:
     import pypdfium2 as pdfium
     doc = pdfium.PdfDocument(str(pdf))
-    return "\n".join(doc[i].get_textpage().get_text_range() for i in range(len(doc)))
+    tekst = "\n".join(doc[i].get_textpage().get_text_range() for i in range(len(doc)))
+    # PDF przenosi wyrazy miekkim lacznikiem, ktory po ekstrakcji zostaje jako
+    # znak zastepczy — "tymczaso\ufffewą" zamiast "tymczasową". Sklejamy takie wyrazy.
+    tekst = re.sub(r"[\u00ad\ufffe\ufffd\u200b]\s*", "", tekst)
+    return tekst
 
 
 def jednostki(tekst: str) -> list[tuple[str, str]]:
-    """Dzieli akt na jednostki redakcyjne: [(numer_paragrafu, tresc)]."""
-    czesci, ostatni, bufor = [], None, []
-    for linia in tekst.split("\n"):
-        m = RE_PARAGRAF.search(linia)
-        if m and m.start() < 6:
-            if ostatni is not None:
-                czesci.append((ostatni, "\n".join(bufor)))
-            ostatni, bufor = m.group(1), [linia]
-        else:
-            bufor.append(linia)
-    if ostatni is not None:
-        czesci.append((ostatni, "\n".join(bufor)))
+    """Dzieli akt na jednostki redakcyjne: [(numer_paragrafu, tresc)].
+
+    Tekst z PDF nie ma pewnych podzialow na wiersze, wiec paragrafow szukamy
+    w calym strumieniu, a nie tylko na poczatku linii.
+    """
+    plaski = re.sub(r"\s+", " ", tekst)
+    granice = [(m.start(), m.group(1)) for m in re.finditer(r"§\s*(\d+[a-z]?)\.", plaski)]
+    if not granice:
+        return [("", plaski)]
+    czesci = []
+    for i, (poz, nr) in enumerate(granice):
+        koniec = granice[i + 1][0] if i + 1 < len(granice) else len(plaski)
+        czesci.append((nr, plaski[poz:koniec]))
     return czesci
 
 
@@ -100,14 +119,36 @@ def zdania(tekst: str) -> list[str]:
 def zbuduj(tekst: str) -> list[dict]:
     dzis = datetime.date.today().isoformat()
     nazwy: dict[str, str] = {}
+    zrodlo_nazwy: dict[str, str] = {}
     for m in RE_KOD_NAZWA.finditer(tekst):
         kod, nazwa = m.group(1), re.sub(r"\s+", " ", m.group(2)).strip()
-        nazwy.setdefault(kod, nazwa)
+        if kod not in nazwy:
+            nazwy[kod] = nazwa
+            zrodlo_nazwy[kod] = "cudzysłów"
+    for m in RE_KOD_MYSLNIK.finditer(tekst):
+        kod = m.group(1)
+        if kod in nazwy:
+            continue
+        nazwa = re.sub(r"\s+", " ", m.group(2)).strip().rstrip(",;.")
+        if 5 <= len(nazwa) <= 300:
+            nazwy[kod] = nazwa
+            zrodlo_nazwy[kod] = "myślnik"
 
-    lokalizacja: dict[str, tuple[str, str]] = {}   # kod -> (paragraf, tresc jednostki)
-    for par, tresc in jednostki(tekst):
+    # Kod -> (paragraf, tresc). Pierwszenstwo ma jednostka DEFINIUJACA, czyli ta,
+    # w ktorej po kodzie stoi nazwa w cudzyslowie. Zwykle wspomnienie kodu w innym
+    # paragrafie (odsylacz) daloby opis zupelnie innego znaku.
+    lokalizacja: dict[str, tuple[str, str]] = {}
+    wspomnienia: dict[str, tuple[str, str]] = {}
+    czesci = jednostki(tekst)
+    for par, tresc in czesci:
+        for m in RE_KOD_NAZWA.finditer(tresc):
+            lokalizacja.setdefault(m.group(1), (par, tresc))
+    for par, tresc in czesci:
+        for m in RE_KOD_MYSLNIK.finditer(tresc):
+            lokalizacja.setdefault(m.group(1), (par, tresc))
+    for par, tresc in czesci:
         for kod in set(RE_KOD.findall(tresc)):
-            lokalizacja.setdefault(kod, (par, tresc))
+            wspomnienia.setdefault(kod, (par, tresc))
 
     wszystkie = sorted(set(RE_KOD.findall(tekst)))
     rekordy = []
@@ -116,29 +157,52 @@ def zbuduj(tekst: str) -> list[dict]:
         if seria not in NAZWA_KAT:
             continue
         nazwa = nazwy.get(kod)
-        par, tresc = lokalizacja.get(kod, (None, ""))
+        par, tresc = lokalizacja.get(kod) or wspomnienia.get(kod, (None, ""))
 
         # zdania z jednostki, ktore odnosza sie do tego znaku
-        pasujace = [z for z in zdania(tresc) if kod in z]
+        wszystkie_zdania = zdania(tresc)
+        indeksy = [i for i, z in enumerate(wszystkie_zdania) if RE_KOD_W_ZDANIU(kod).search(z)]
+        pasujace = [wszystkie_zdania[i] for i in indeksy]
+
         krotki = None
-        for z in pasujace:
-            if re.search(r"ostrzega|oznacza|zakazuje|nakazuje|informuje|wskazuje|"
-                         r"stosuje się|uprzedza|zabrania|dotyczy|określa", z):
-                # akt czesto wylicza kilka znakow, a objasnienie stoi po ostatnim
-                # cudzyslowie — bierzemy sama czesc objasniajaca
-                obciety = re.sub(r"^.*”[,\s]*", "", z).strip()
+        for i in indeksy:
+            # akt wylicza znaki, a wspolne objasnienie stoi po ostatniej pozycji —
+            # czasem kilka zdan dalej. Szukamy wiec do przodu w tej samej jednostce.
+            for j in range(i, min(i + 8, len(wszystkie_zdania))):
+                z = wszystkie_zdania[j]
+                if j > i:
+                    poprz = wszystkie_zdania[j - 1]
+                    # przerywamy, gdy poprzednie zdanie nie jest juz pozycja wyliczenia
+                    if not (re.match(r"^\s*\d+\)", poprz) or "”" in poprz):
+                        break
+                if not RE_CZASOWNIK.search(z):
+                    continue
+                obciety = re.sub(r"^.*”[,;\s]*", "", z).strip()
+                obciety = re.sub(r"^\d+\)\s*", "", obciety)
                 krotki = obciety if len(obciety) > 25 else z
                 krotki = krotki[0].upper() + krotki[1:] if krotki else krotki
                 break
-        szczegoly = " ".join(pasujace[:4]) if pasujace else None
+            if krotki:
+                break
+        szczegoly = " ".join(pasujace[:4]) if pasujace else krotki
 
-        braki = []
-        if not nazwa:
-            braki.append("nie odnaleziono nazwy w cudzysłowie")
+        if not krotki and nazwa and zrodlo_nazwy.get(kod) == "myślnik":
+            krotki = nazwa[0].upper() + nazwa[1:]
+
+        # Rozrozniamy trzy sytuacje:
+        #  • akt daje nazwe I objasnienie            -> pelna weryfikacja
+        #  • akt daje sama nazwe (np. seria W)       -> pelna, z adnotacja
+        #  • akt opisuje znak, ale nie nadaje nazwy  -> pelna, nazwa = null
+        # Brakiem jest dopiero sytuacja, gdy nie ma ani nazwy, ani objasnienia.
+        braki, uwagi = [], []
         if not par:
             braki.append("nie ustalono jednostki redakcyjnej")
-        if not krotki:
-            braki.append("nie wyodrębniono zdania objaśniającego")
+        if not nazwa and not krotki:
+            braki.append("akt nie podaje ani nazwy, ani objaśnienia tego znaku")
+        elif not nazwa:
+            uwagi.append("akt opisuje znak, nie nadając mu nazwy w cudzysłowie")
+        elif krotki == nazwa or not krotki:
+            uwagi.append("akt podaje samą nazwę znaku, bez odrębnego objaśnienia")
 
         grafika = GRAFIKI / f"{kod}.png"
         rekordy.append({
@@ -160,7 +224,7 @@ def zbuduj(tekst: str) -> list[dict]:
                 "verified_at": dzis,
             },
             "verification_status": "verified" if not braki else "partial_verification",
-            "verification_note": None if not braki else "; ".join(braki),
+            "verification_note": "; ".join(braki + uwagi) or None,
         })
 
     # znaki powiazane: ten sam numer bazowy w serii, np. A-6a/A-6b/A-6c

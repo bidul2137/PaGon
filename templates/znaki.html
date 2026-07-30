@@ -35,6 +35,8 @@
         <h2 class="kal-sekcja-tytul">Ulubione</h2>
       </div>
       <div class="zn-mini" id="znUlubioneLista"></div>
+      <button type="button" class="zn-wiecej" id="znUlubioneWiecej"
+              aria-controls="znUlubioneLista" aria-expanded="false" hidden></button>
     </section>
 
     <section id="znOstatnie" class="zn-sekcja" hidden>
@@ -52,7 +54,7 @@
         <a class="zn-kat" href="{{ url_for('pomoce_znaki_kategoria', seria=k.id) }}">
           <span class="zn-kat-ikona">
             {% if k.cover %}
-              <img src="{{ url_for('static', filename='img/znaki/' ~ k.cover ~ '.png') }}"
+              <img src="{{ static_v('img/znaki/' ~ k.cover ~ '.png') }}"
                    alt="" loading="lazy">
             {% endif %}
           </span>

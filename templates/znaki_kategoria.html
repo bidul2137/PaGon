@@ -36,14 +36,14 @@
           <a class="zn-poz-link" href="{{ url_for('pomoce_znaki_znak', kod=z.code) }}">
             <span class="zn-poz-ikona">
               {% if z.image_path %}
-                <img src="{{ url_for('static', filename=z.image_path) }}" alt="" loading="lazy">
+                <img src="{{ static_v(z.image_path) }}" alt="" loading="lazy">
               {% else %}
                 <span class="zn-brak-ikony" aria-hidden="true">{{ z.code }}</span>
               {% endif %}
             </span>
             <span class="zn-poz-tresc">
               <span class="zn-kod">{{ z.code }}</span>
-              <span class="zn-poz-nazwa">{{ z.name or '—' }}</span>
+              <span class="zn-poz-nazwa">{{ z.name or z.short_description or '—' }}</span>
               <span class="zn-poz-opis">{{ z.short_description or '' }}</span>
             </span>
             <span class="zn-poz-strzalka" aria-hidden="true">›</span>
