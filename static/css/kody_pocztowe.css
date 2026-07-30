@@ -1,0 +1,418 @@
+/* ===================================================================
+   KODY POCZTOWE — moduł wyszukiwania kodów i miejscowości.
+
+   Układ jest jednokolumnowy i mieści się w szerokości panelu aplikacji
+   (480 px). Siatki opisane są przez auto-fit + minmax, a nie media query,
+   bo o zawijaniu decyduje szerokość KONTENERA, nie okna przeglądarki —
+   na desktopie panel dalej ma 480 px.
+   =================================================================== */
+
+.kp-page {
+  --kp-panel: rgba(255, 255, 255, .035);
+  --kp-kresa: rgba(255, 255, 255, .10);
+  --kp-kresa-mocna: rgba(255, 255, 255, .18);
+  --kp-akcent: #7fb0ff;
+  --kp-etykieta: #7d92b3;
+}
+
+/* ---------- pole wyszukiwania ---------- */
+
+.kp-szukajka {
+  display: block;
+  margin: 4px 0 18px;
+}
+
+.kp-pole-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.kp-pole-ikona {
+  position: absolute;
+  left: 14px;
+  width: 20px;
+  height: 20px;
+  color: var(--kp-etykieta);
+  pointer-events: none;
+}
+.kp-pole-ikona svg { width: 100%; height: 100%; display: block; }
+
+.kp-pole {
+  width: 100%;
+  min-width: 0;
+  /* 48 px wysokości i 16 px tekstu — wygodny cel dotykowy, a iOS nie
+     przybliża widoku przy focusie (robi to poniżej 16 px) */
+  min-height: 52px;
+  padding: 14px 46px 14px 44px;
+  border: 1px solid var(--kp-kresa-mocna);
+  border-radius: 14px;
+  background: var(--kp-panel);
+  color: var(--text-label, #d9e6fb);
+  font: inherit;
+  font-size: 16px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.kp-pole::placeholder { color: var(--kp-etykieta); opacity: .85; }
+.kp-pole::-webkit-search-cancel-button { display: none; }
+.kp-pole:focus { outline: none; border-color: var(--kp-akcent); }
+.kp-pole:focus-visible {
+  outline: 2px solid var(--kp-akcent);
+  outline-offset: 2px;
+}
+
+.kp-czysc {
+  position: absolute;
+  right: 8px;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--kp-etykieta);
+  cursor: pointer;
+}
+.kp-czysc svg { width: 17px; height: 17px; }
+.kp-czysc:hover, .kp-czysc:focus-visible { color: var(--text-label, #d9e6fb); }
+.kp-czysc:focus-visible { outline: 2px solid var(--kp-akcent); outline-offset: 2px; }
+
+.kp-podpowiedz {
+  margin: 8px 2px 0;
+  font-size: .78rem;
+  line-height: 1.45;
+  color: var(--kp-etykieta);
+}
+
+/* ---------- przyciski ---------- */
+
+.kp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 11px 18px;
+  border: 1px solid var(--kp-kresa);
+  border-radius: 12px;
+  background: transparent;
+  color: var(--text-label, #d9e6fb);
+  font: inherit;
+  font-size: .88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s ease, border-color .15s ease, color .15s ease;
+}
+.kp-btn svg { width: 17px; height: 17px; flex: none; }
+.kp-btn:hover { background: rgba(255, 255, 255, .06); }
+.kp-btn:focus-visible { outline: 2px solid var(--kp-akcent); outline-offset: 2px; }
+
+.kp-btn--glowny {
+  width: 100%;
+  margin-top: 12px;
+  min-height: 50px;
+  border-color: transparent;
+  background: rgba(127, 176, 255, .16);
+  color: #cfe0ff;
+}
+.kp-btn--glowny:hover { background: rgba(127, 176, 255, .24); }
+
+.kp-btn--maly { min-height: 38px; padding: 8px 12px; font-size: .78rem; }
+
+/* ---------- podpowiedzi ---------- */
+
+.kp-lista {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  z-index: 30;
+  max-height: 340px;
+  overflow-y: auto;
+  padding: 5px;
+  border: 1px solid var(--kp-kresa-mocna);
+  border-radius: 14px;
+  background: #0c1830;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, .55);
+}
+
+.kp-poz {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.kp-poz:hover, .kp-poz:focus-visible { background: rgba(255, 255, 255, .07); }
+.kp-poz:focus-visible { outline: 2px solid var(--kp-akcent); outline-offset: -2px; }
+
+.kp-poz-glowna {
+  display: block;
+  font-size: .96rem;
+  font-weight: 600;
+  color: var(--text-label, #d9e6fb);
+}
+.kp-poz-kontekst {
+  display: block;
+  margin-top: 2px;
+  font-size: .76rem;
+  line-height: 1.4;
+  color: var(--kp-etykieta);
+  /* pełny kontekst administracyjny ma się zmieścić bez scrolla w poziomie */
+  overflow-wrap: anywhere;
+}
+
+/* ---------- wyniki ---------- */
+
+.kp-wyniki:empty { display: none; }
+.kp-wyniki { display: grid; gap: 12px; margin-bottom: 18px; }
+
+.kp-karta {
+  padding: 16px;
+  border: 1px solid var(--kp-kresa);
+  border-radius: 16px;
+  background: var(--kp-panel);
+}
+
+.kp-kod-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 9px;
+  background: rgba(127, 176, 255, .16);
+  color: #cfe0ff;
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+}
+
+.kp-miejscowosc {
+  margin: 12px 0 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #eaf1ff;
+  overflow-wrap: anywhere;
+}
+
+.kp-nadtytul {
+  margin: 0 0 4px;
+  font-size: .74rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--kp-etykieta);
+}
+
+/* Siatka definicji: etykieta ma być spokojniejsza od wartości, więc
+   wartość jest jaśniejsza i cięższa, a etykieta mniejsza i przygaszona. */
+.kp-dane {
+  display: grid;
+  grid-template-columns: minmax(96px, auto) 1fr;
+  gap: 8px 14px;
+  margin: 14px 0 0;
+}
+.kp-dane dt {
+  font-size: .78rem;
+  color: var(--kp-etykieta);
+  align-self: baseline;
+}
+.kp-dane dd {
+  margin: 0;
+  font-size: .95rem;
+  font-weight: 600;
+  color: #e4ecfb;
+  overflow-wrap: anywhere;
+}
+.kp-dane dd:empty::after,
+.kp-dane dd.kp-brak::after {
+  content: "brak danych w źródle";
+  font-weight: 400;
+  color: var(--kp-etykieta);
+}
+
+.kp-akcje {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 8px;
+  margin-top: 16px;
+}
+
+/* ---------- chipy z kodami ---------- */
+
+.kp-chipy {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(104px, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.kp-chip {
+  min-height: 46px;
+  padding: 10px 8px;
+  border: 1px solid var(--kp-kresa-mocna);
+  border-radius: 11px;
+  background: transparent;
+  color: #dce8fb;
+  font: inherit;
+  font-size: .95rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  cursor: pointer;
+  min-width: 0;
+}
+.kp-chip:hover { background: rgba(255, 255, 255, .06); }
+.kp-chip:focus-visible { outline: 2px solid var(--kp-akcent); outline-offset: 2px; }
+.kp-chip[aria-pressed="true"] {
+  border-color: var(--kp-akcent);
+  background: rgba(127, 176, 255, .14);
+  color: #cfe0ff;
+}
+
+/* ---------- komunikaty ---------- */
+
+/* Komunikat niesie treść i ikonę — sam kolor nie może być nośnikiem znaczenia. */
+.kp-komunikat {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 0 14px;
+  padding: 12px 14px;
+  border: 1px solid var(--kp-kresa);
+  border-left-width: 3px;
+  border-radius: 12px;
+  background: var(--kp-panel);
+  font-size: .86rem;
+  line-height: 1.5;
+  color: #d3dff2;
+}
+.kp-komunikat code {
+  font-size: .82em;
+  padding: 1px 5px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, .08);
+  overflow-wrap: anywhere;
+}
+.kp-komunikat--uwaga { border-left-color: #e0a33c; }
+.kp-komunikat--brak  { border-left-color: var(--kp-etykieta); }
+.kp-komunikat--ok    { border-left-color: #57b87a; }
+.kp-komunikat-ikona { width: 18px; height: 18px; flex: none; margin-top: 1px; }
+.kp-komunikat-tresc { min-width: 0; overflow-wrap: anywhere; }
+
+/* ---------- sekcje ---------- */
+
+.kp-sekcja { margin: 0 0 18px; }
+.kp-sekcja-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.kp-historia-lista { display: grid; gap: 6px; }
+
+.kp-historia-poz {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 46px;
+  padding: 10px 12px;
+  border: 1px solid var(--kp-kresa);
+  border-radius: 11px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  min-width: 0;
+}
+.kp-historia-poz:hover { background: rgba(255, 255, 255, .05); }
+.kp-historia-poz:focus-visible { outline: 2px solid var(--kp-akcent); outline-offset: 2px; }
+.kp-historia-tresc { flex: 1; min-width: 0; overflow-wrap: anywhere; font-weight: 600; }
+.kp-historia-typ {
+  flex: none;
+  font-size: .68rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--kp-etykieta);
+}
+
+/* ---------- O danych ---------- */
+
+.kp-odanych {
+  margin-bottom: 20px;
+  border: 1px solid var(--kp-kresa);
+  border-radius: 14px;
+  background: var(--kp-panel);
+}
+.kp-odanych-tytul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 12px 14px;
+  font-size: .88rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+.kp-odanych-tytul::-webkit-details-marker { display: none; }
+.kp-odanych-tytul:focus-visible { outline: 2px solid var(--kp-akcent); outline-offset: -2px; }
+.kp-odanych-tresc { padding: 0 14px 14px; }
+.kp-odanych-nota {
+  margin: 12px 0 0;
+  font-size: .78rem;
+  line-height: 1.55;
+  color: var(--kp-etykieta);
+}
+.kp-link { color: #9cc3ff; text-decoration: underline; }
+
+.kp-badge {
+  margin-left: auto;
+  padding: 4px 9px;
+  border: 1px solid var(--kp-kresa-mocna);
+  border-radius: 999px;
+  font-size: .68rem;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--kp-etykieta);
+}
+
+/* Atrybucja CC BY — spokojna wizualnie, ale zawsze widoczna i klikalna.
+   Cel dotykowy linku podnosimy paddingiem, bo tekst jest drobny. */
+.kp-atrybucja {
+  margin: 0 0 24px;
+  padding-top: 14px;
+  border-top: 1px solid var(--kp-kresa);
+  font-size: .76rem;
+  line-height: 1.6;
+  color: var(--kp-etykieta);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.kp-atrybucja .kp-link {
+  display: inline-block;
+  padding: 3px 2px;
+}
+
+.kp-uwaga-rekordu {
+  margin: 12px 0 0;
+  padding-top: 10px;
+  border-top: 1px solid var(--kp-kresa);
+  font-size: .76rem;
+  line-height: 1.5;
+  color: var(--kp-etykieta);
+}
+
+/* Nic w module nie może rozpychać panelu w poziomie.
+   UWAGA: reguła celuje w POTOMKÓW .kp-page, nigdy w sam kontener — to ten sam
+   element co .tar-page, który ma max-width 480px i rozjechałby się na desktopie. */
+.kp-page > *, .kp-page * { max-width: 100%; }

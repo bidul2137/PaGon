@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Kody pocztowe{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kody_pocztowe.css') }}">
+
+<div class="tar-page kpj-page kp-page" data-wersja="{{ wersja_bazy }}">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Kody pocztowe</h1>
+      <p class="kpj-lead">Znajdź miejscowość po kodzie pocztowym lub sprawdź kody przypisane
+        do miejscowości.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+
+    {% if not meta %}
+    <p class="kp-komunikat kp-komunikat--uwaga" role="status">
+      <span class="kp-komunikat-tresc">Baza kodów nie została jeszcze zaimportowana.
+        Pobierz plik <strong>PL.zip</strong> ze strony download.geonames.org, zapisz go
+        w katalogu <code>zrodla</code> i uruchom
+        <code>python tools/import_kody_pocztowe.py</code>.</span>
+    </p>
+    {% endif %}
+
+    <!-- ====== Jedno inteligentne pole wyszukiwania ====== -->
+    <form class="kp-szukajka" id="kpForm" autocomplete="off" novalidate role="search">
+      <div class="kp-pole-wrap">
+        <span class="kp-pole-ikona" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+               stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="6.4"/><path d="M15.8 15.8L21 21"/>
+          </svg>
+        </span>
+        <input type="search" id="kpWejscie" class="kp-pole" name="q"
+               placeholder="Np. 11-040, Barcikowo lub Dobre Miasto"
+               aria-label="Kod pocztowy lub miejscowość"
+               aria-describedby="kpPodpowiedz" aria-autocomplete="list"
+               aria-controls="kpLista" aria-expanded="false"
+               enterkeyhint="search" spellcheck="false" maxlength="60">
+        <button type="button" class="kp-czysc" id="kpCzysc" aria-label="Wyczyść pole" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"
+               stroke-linecap="round" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18"/>
+          </svg>
+        </button>
+        <div id="kpLista" class="kp-lista" role="listbox"
+             aria-label="Podpowiedzi wyszukiwania" hidden></div>
+      </div>
+
+      <p class="kp-podpowiedz" id="kpPodpowiedz">
+        Wpisz kod w formacie 11-040 albo nazwę miejscowości.
+      </p>
+
+      <button type="submit" class="kp-btn kp-btn--glowny" id="kpSzukaj">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="6.4"/><path d="M15.8 15.8L21 21"/>
+        </svg>
+        Szukaj
+      </button>
+    </form>
+
+    <!-- ====== Wyniki ====== -->
+    <div id="kpWyniki" class="kp-wyniki" aria-live="polite" aria-atomic="false"></div>
+
+    <!-- ====== Historia ====== -->
+    <section class="kp-sekcja" id="kpHistoria" hidden>
+      <div class="kp-sekcja-head">
+        <h2 class="kal-sekcja-tytul">Ostatnie wyszukiwania</h2>
+        <button type="button" class="kp-btn kp-btn--maly" id="kpCzyscHistorie">
+          Wyczyść historię
+        </button>
+      </div>
+      <div class="kp-historia-lista" id="kpHistoriaLista"></div>
+    </section>
+
+    <!-- ====== O danych ====== -->
+    <details class="kp-odanych" id="kpODanych">
+      <summary class="kp-odanych-tytul">
+        O danych
+        <span class="kp-badge kp-badge--lokalna">Baza lokalna</span>
+      </summary>
+      <div class="kp-odanych-tresc" id="kpODanychTresc">
+        {% if meta %}
+        <dl class="kp-dane">
+          <dt>Źródło</dt><dd>{{ meta.primary_source }}</dd>
+          <dt>Wydawca</dt><dd>{{ meta.primary_source_publisher }}</dd>
+          <dt>Licencja</dt><dd>{{ meta.license }}</dd>
+          {% if meta.reference_source %}
+          <dt>Kontrola nazw</dt><dd>{{ meta.reference_source }}</dd>
+          {% endif %}
+          <dt>Pobrano</dt><dd>{{ meta.downloaded_at }}</dd>
+          <dt>Rekordów</dt><dd>{{ meta.record_count }}</dd>
+          <dt>Kodów</dt><dd>{{ meta.postal_code_count }}</dd>
+          <dt>Miejscowości</dt><dd>{{ meta.locality_count }}</dd>
+          <dt>Pełna weryfikacja</dt><dd>{{ meta.fully_verified_count }}</dd>
+          <dt>Weryfikacja częściowa</dt><dd>{{ meta.partially_verified_count }}</dd>
+        </dl>
+        <p class="kp-odanych-nota">{{ meta.coverage_note }}</p>
+        {% else %}
+        <p class="kp-odanych-nota">Baza nie została jeszcze zaimportowana.</p>
+        {% endif %}
+        <p class="kp-odanych-nota">
+          Moduł działa bez internetu. Przed użyciem operacyjnym sprawdź datę aktualizacji
+          źródła.
+        </p>
+      </div>
+    </details>
+
+    {# Atrybucja wymagana licencją CC BY 4.0. Musi być widoczna bez rozwijania
+       czegokolwiek, dlatego stoi na stałe pod modułem, a nie tylko w „O danych”. #}
+    <p class="kp-atrybucja">
+      Dane pochodzą z
+      <a href="https://www.geonames.org" class="kp-link" target="_blank"
+         rel="noopener">www.geonames.org</a>
+      i są udostępniane na licencji
+      <a href="https://creativecommons.org/licenses/by/4.0/" class="kp-link"
+         target="_blank" rel="noopener">CC BY 4.0</a>.
+    </p>
+
+  </main>
+</div>
+
+<script src="{{ static_v('js/kody_pocztowe.js') }}" defer></script>
+{% endblock %}

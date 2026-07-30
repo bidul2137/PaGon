@@ -453,6 +453,78 @@ def pomoce_tablica_adr_dane():
     return odp
 
 
+_KODY_CACHE = None
+
+
+def _kody_pocztowe_katalog():
+    return BASE_DIR / "data" / "kody_pocztowe"
+
+
+def _kody_pocztowe_dane():
+    """Wczytuje lekki indeks wyszukiwania i trzyma go w pamieci procesu.
+
+    Pelne rekordy leza w postal_codes.sqlite (73 tys. pozycji). Do przegladarki
+    idzie search_index.json — ta sama tresc, ale nazwy gmin, powiatow i
+    wojewodztw zamienione na indeksy do slownikow. To roznica 44 MB kontra
+    3,5 MB, dzieki czemu cala baza miesci sie w cache przegladarki i modul
+    dziala offline.
+
+    Plik jest juz w docelowej postaci, wiec tylko go czytamy — bez parsowania
+    i skladania JSON-a przy kazdym starcie. Kluczem cache sa czasy modyfikacji,
+    wiec po recznym imporcie odpowiedz przebuduje sie sama, bez restartu.
+    """
+    global _KODY_CACHE
+    katalog = _kody_pocztowe_katalog()
+    pliki = [katalog / "search_index.json", katalog / "metadata.json"]
+    try:
+        znacznik = tuple(p.stat().st_mtime_ns for p in pliki)
+    except OSError:
+        return None
+
+    if _KODY_CACHE is not None and _KODY_CACHE["znacznik"] == znacznik:
+        return _KODY_CACHE
+
+    tresc = pliki[0].read_text(encoding="utf-8")
+    with open(pliki[1], encoding="utf-8") as f:
+        meta = json.load(f)
+
+    wersja = "%s-%d" % (meta.get("dataset_version", "0"), int(pliki[0].stat().st_mtime))
+    _KODY_CACHE = {"znacznik": znacznik, "tresc": tresc, "wersja": wersja, "meta": meta}
+    return _KODY_CACHE
+
+
+@app.route("/pomoce/kody-pocztowe")
+def pomoce_kody_pocztowe():
+    """Podstrona 'Kody pocztowe'.
+
+    Baza idzie osobnym zadaniem (/pomoce/kody-pocztowe/dane), zeby przegladarka
+    mogla ja trzymac w cache — po pierwszym otwarciu modul dziala bez internetu.
+    Adres danych zawiera wersje zbioru, wiec po imporcie pobiera sie nowa baza.
+    """
+    dane = _kody_pocztowe_dane()
+    return render_template(
+        "kody_pocztowe.html",
+        wersja_bazy=(dane or {}).get("wersja", "0"),
+        meta=(dane or {}).get("meta"),
+    )
+
+
+@app.route("/pomoce/kody-pocztowe/dane")
+def pomoce_kody_pocztowe_dane():
+    """Lokalna baza kodow pocztowych w postaci zwiezlej.
+
+    Nic nie jest pobierane z sieci w czasie pracy uzytkownika — czytamy wylacznie
+    pliki z data/kody_pocztowe/.
+    """
+    dane = _kody_pocztowe_dane()
+    if dane is None:
+        abort(404)
+    odp = Response(dane["tresc"], mimetype="application/json")
+    # adres zawiera wersje zbioru, wiec dlugi cache jest bezpieczny i daje offline
+    odp.headers["Cache-Control"] = "public, max-age=604800, immutable"
+    return odp
+
+
 @app.route("/pomoce/numery-telefonow")
 def pomoce_numery_telefonow():
     """Hub 'Numery telefonów i CKT' — podkafelki z numerami poszczegolnych sluzb.

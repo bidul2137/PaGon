@@ -1,0 +1,8 @@
+PL	11-040	Barcikowo	Województwo Warmińsko-Mazurskie	WM	olsztyński	2814	Dobre Miasto	281403	53.98	20.40	4
+PL	11-040	Dobre Miasto	Województwo Warmińsko-Mazurskie	WM	olsztyński	2814	Dobre Miasto	281403	53.98	20.40	4
+PL	11-040	Cerkiewnik	Województwo Warmińsko-Mazurskie	WM	olsztyński	2814	Dobre Miasto	281403	53.99	20.41	4
+PL	11-041	Knopin	Województwo Warmińsko-Mazurskie	WM	olsztyński	2814	Dobre Miasto	281403	53.97	20.39	4
+PL	68-200	Żary	Województwo Lubuskie	LB	żarski	0812	Żary	081201	51.64	15.14	4
+PL	05-870	Dobre Miasto	Województwo Mazowieckie	MZ	warszawski zachodni	1432	Błonie	143202	52.20	20.61	4
+PL	11-040	Barcikowo	Województwo Warmińsko-Mazurskie	WM	olsztyński	2814	Dobre Miasto	281403	53.98	20.40	4
+PL	00-950	Warszawa	Województwo Mazowieckie	MZ	Warszawa	1465	Warszawa	146501	52.23	21.01	4

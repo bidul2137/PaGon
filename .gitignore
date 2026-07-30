@@ -6,3 +6,5 @@ venv/
 static/pdf_cache/
 tools/arkusze/
 tools/arkusze_sklejone/
+data/kody_pocztowe/postal_codes.sqlite
+data/kody_pocztowe/snapshots/

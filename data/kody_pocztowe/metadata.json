@@ -1,0 +1,20 @@
+{
+ "dataset_name": "Polskie kody pocztowe i miejscowości",
+ "dataset_version": "1.0.0",
+ "primary_source": "GeoNames Postal Codes — Poland (PL)",
+ "primary_source_publisher": "GeoNames",
+ "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+ "source_urls": [
+  "https://download.geonames.org/export/zip/PL.zip"
+ ],
+ "source_file": "PL.zip",
+ "reference_source": "Wykaz identyfikatorów i nazw jednostek podziału terytorialnego kraju, GUS",
+ "downloaded_at": "2026-07-30",
+ "verified_at": "2026-07-30",
+ "record_count": 72899,
+ "postal_code_count": 20299,
+ "locality_count": 35332,
+ "fully_verified_count": 70675,
+ "partially_verified_count": 2224,
+ "coverage_note": "Kod pocztowy służy obsłudze pocztowej i jego zasięg nie zawsze pokrywa się z granicami gminy ani powiatu. Poczta obsługująca, ulica i zakres numerów nie występują w źródle i pozostają puste. Kody TERYT pochodzą wprost ze źródła."
+}
