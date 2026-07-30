@@ -402,6 +402,15 @@
   display: inline-block;
   padding: 3px 2px;
 }
+/* Informacja o zmianach jest częścią atrybucji, więc musi być widoczna —
+   dostaje własny wiersz i lewe wyrównanie, żeby dała się przeczytać. */
+.kp-atrybucja-zmiany {
+  display: block;
+  margin-top: 8px;
+  text-align: left;
+  font-size: .95em;
+  opacity: .92;
+}
 
 .kp-uwaga-rekordu {
   margin: 12px 0 0;

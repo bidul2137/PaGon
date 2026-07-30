@@ -563,6 +563,23 @@ def main() -> None:
         "locality_count": len(indeks),
         "fully_verified_count": pelne,
         "partially_verified_count": len(rekordy) - pelne,
+        # Licencja CC BY 4.0 wymaga wskazania, ze material zostal zmieniony.
+        # Trzymamy ten opis w metadanych, zeby szedl razem z baza, a nie tylko
+        # w szablonie — po podmianie zrodla lista zmian jest tuz obok danych.
+        "modifications": [
+            "kody sprowadzone do zapisu XX-XXX i przechowywane jako tekst",
+            "województwo ustalone na podstawie kodu TERYT ze źródła, a nie nazwy angielskiej",
+            "z nazw powiatów i gmin usunięte przedrostki „Powiat” i „Gmina”",
+            "część nazw powiatów podanych po angielsku zastąpiona urzędowymi "
+            "z wykazu identyfikatorów GUS",
+            "usunięte pełne duplikaty techniczne",
+            "dodany status weryfikacji i uwagi dla rekordów niepewnych",
+        ],
+        "disclaimer": ("GeoNames udostępnia dane bez gwarancji ich poprawności, "
+                       "kompletności i aktualności."),
+        "attribution": ("Dane pochodzą z www.geonames.org, licencja CC BY 4.0 "
+                        "(https://creativecommons.org/licenses/by/4.0/). "
+                        "Materiał został zmieniony."),
         "coverage_note": (
             "Kod pocztowy służy obsłudze pocztowej i jego zasięg nie zawsze pokrywa się "
             "z granicami gminy ani powiatu. Poczta obsługująca, ulica i zakres numerów "

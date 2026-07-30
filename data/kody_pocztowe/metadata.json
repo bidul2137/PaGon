@@ -16,5 +16,15 @@
  "locality_count": 35332,
  "fully_verified_count": 70675,
  "partially_verified_count": 2224,
+ "modifications": [
+  "kody sprowadzone do zapisu XX-XXX i przechowywane jako tekst",
+  "województwo ustalone na podstawie kodu TERYT ze źródła, a nie nazwy angielskiej",
+  "z nazw powiatów i gmin usunięte przedrostki „Powiat” i „Gmina”",
+  "część nazw powiatów podanych po angielsku zastąpiona urzędowymi z wykazu identyfikatorów GUS",
+  "usunięte pełne duplikaty techniczne",
+  "dodany status weryfikacji i uwagi dla rekordów niepewnych"
+ ],
+ "disclaimer": "GeoNames udostępnia dane bez gwarancji ich poprawności, kompletności i aktualności.",
+ "attribution": "Dane pochodzą z www.geonames.org, licencja CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Materiał został zmieniony.",
  "coverage_note": "Kod pocztowy służy obsłudze pocztowej i jego zasięg nie zawsze pokrywa się z granicami gminy ani powiatu. Poczta obsługująca, ulica i zakres numerów nie występują w źródle i pozostają puste. Kody TERYT pochodzą wprost ze źródła."
 }
