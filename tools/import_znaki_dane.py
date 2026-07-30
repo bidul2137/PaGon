@@ -62,6 +62,10 @@ KATEGORIE = [
     ("U",  "Urządzenia bezpieczeństwa ruchu",            "u_urzadzenia"),
 ]
 NAZWA_KAT = {s: n for s, n, _ in KATEGORIE}
+# Ikona kategorii — domyslnie pierwszy znak serii. Tu nadpisujemy tam, gdzie
+# pierwszy znak slabo reprezentuje kategorie (A-1 to waski zakret; A-30 "inne
+# niebezpieczenstwo" czyta sie od razu jako znak ostrzegawczy).
+IKONA_KAT = {"A": "A-30"}
 PLIK_KAT = {s: p for s, _, p in KATEGORIE}
 
 RE_KOD = re.compile(r"\b((?:BT|AT|[ABCDEFGPRSTUW])-\d{1,3}[a-z]?)\b")
@@ -266,7 +270,9 @@ def main() -> None:
         kategorie.append({
             "id": seria, "name": nazwa, "file": f"{plik}.json",
             "count": len(lista), "with_image": z_grafika,
-            "cover": next((r["code"] for r in lista if r["image_path"]), None),
+            "cover": (IKONA_KAT.get(seria)
+                      if any(r["code"] == IKONA_KAT.get(seria) and r["image_path"] for r in lista)
+                      else next((r["code"] for r in lista if r["image_path"]), None)),
         })
         print(f"  {seria:2} {nazwa:46} {len(lista):3} znaków, {z_grafika:3} z grafiką")
 
