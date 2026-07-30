@@ -33,7 +33,7 @@
   "name": null,
   "short_description": "1 i 2 stosuje się odpowiednio do sygnałów nadawanych przez sygnalizator S-1a.",
   "details": "Sygnały świetlne nadawane przez sygnalizator S-1a dotyczą kierujących rowerem, znajdujących się na części drogi przeznaczonej tylko do ruchu rowerów lub wjeżdżających na tę część drogi. 1 i 2 stosuje się odpowiednio do sygnałów nadawanych przez sygnalizator S-1a.",
-  "image_path": null,
+  "image_path": "img/znaki/S-1a.png",
   "keywords": [
    "s-1a",
    "s1a"

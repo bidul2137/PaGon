@@ -162,7 +162,7 @@
   "name": "informacja o rzeczywistym przebiegu szlaku rowerowego",
   "short_description": "Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek.",
   "details": "Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek.",
-  "image_path": null,
+  "image_path": "img/znaki/R-4a.png",
   "keywords": [
    "informacja",
    "przebiegu",
@@ -197,7 +197,7 @@
   "name": "zmiana kierunku szlaku rowerowego",
   "short_description": "Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku rowerowym.",
   "details": "Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. Na znaku R-4b w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak ro￾werowy. Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku rowerowym.",
-  "image_path": null,
+  "image_path": "img/znaki/R-4b.png",
   "keywords": [
    "kierunku",
    "r-4b",
@@ -231,7 +231,7 @@
   "name": "drogowskaz tablicowy szlaku rowerowego",
   "short_description": "drogowskaz tablicowy szlaku rowerowego",
   "details": "Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego.",
-  "image_path": null,
+  "image_path": "img/znaki/R-4c.png",
   "keywords": [
    "drogowskaz",
    "r-4c",

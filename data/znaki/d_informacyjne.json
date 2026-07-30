@@ -364,7 +364,7 @@
   "name": "postój taksówek",
   "short_description": "Oznacza miejsce przeznaczone na postój taksówek, z wyjątkiem taksówek zajętych.",
   "details": "Znak D-19 „postój taksówek” oznacza miejsce przeznaczone na postój taksówek, z wyjątkiem taksówek zajętych. Znak D-20 „koniec postoju taksówek” oznacza miejsce, w którym kończy się postój taksówek; jeżeli na postoju tak￾sówek nie umieszczono znaku D-20, to kończy się on w odległości nie większej niż 20 m przed znakiem D-19.",
-  "image_path": null,
+  "image_path": "img/znaki/D-19.png",
   "keywords": [
    "d-19",
    "d19",
@@ -417,7 +417,7 @@
   "name": "koniec postoju taksówek",
   "short_description": "Oznacza miejsce, w którym kończy się postój taksówek; jeżeli na postoju tak￾sówek nie umieszczono znaku D-20, to kończy się on w odległości nie większej niż 20 m przed znakiem D-19.",
   "details": "Znak D-20 „koniec postoju taksówek” oznacza miejsce, w którym kończy się postój taksówek; jeżeli na postoju tak￾sówek nie umieszczono znaku D-20, to kończy się on w odległości nie większej niż 20 m przed znakiem D-19.",
-  "image_path": null,
+  "image_path": "img/znaki/D-20.png",
   "keywords": [
    "d-20",
    "d20",
@@ -444,7 +444,7 @@
   "name": "szpital",
   "short_description": "szpital",
   "details": "Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze.",
-  "image_path": null,
+  "image_path": "img/znaki/D-21.png",
   "keywords": [
    "d-21",
    "d21",
@@ -471,7 +471,7 @@
   "name": "Policja",
   "short_description": "Policja",
   "details": "Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze.",
-  "image_path": null,
+  "image_path": "img/znaki/D-21a.png",
   "keywords": [
    "d-21a",
    "d21a",
@@ -498,7 +498,7 @@
   "name": "punkt opatrunkowy",
   "short_description": "punkt opatrunkowy",
   "details": "Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze.",
-  "image_path": null,
+  "image_path": "img/znaki/D-22.png",
   "keywords": [
    "d-22",
    "d22",
@@ -524,7 +524,7 @@
   "name": "stacja paliwowa",
   "short_description": "Informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów.",
   "details": "Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów.",
-  "image_path": null,
+  "image_path": "img/znaki/D-23.png",
   "keywords": [
    "d-23",
    "d23",
@@ -552,7 +552,7 @@
   "name": "stacja paliwowa tylko z gazem do napędu pojazdów",
   "short_description": "stacja paliwowa tylko z gazem do napędu pojazdów",
   "details": "Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze.",
-  "image_path": null,
+  "image_path": "img/znaki/D-23a.png",
   "keywords": [
    "d-23a",
    "d23a",
@@ -584,7 +584,7 @@
   "name": "telefon",
   "short_description": "telefon",
   "details": "Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze.",
-  "image_path": null,
+  "image_path": "img/znaki/D-24.png",
   "keywords": [
    "d-24",
    "d24",
@@ -609,7 +609,7 @@
   "name": "poczta",
   "short_description": "Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon.",
   "details": "Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon.",
-  "image_path": null,
+  "image_path": "img/znaki/D-25.png",
   "keywords": [
    "d-25",
    "d25",
@@ -890,7 +890,7 @@
   "name": "obozowisko (kemping)",
   "short_description": "obozowisko (kemping)",
   "details": "Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze.",
-  "image_path": null,
+  "image_path": "img/znaki/D-30.png",
   "keywords": [
    "d-30",
    "d30",
@@ -946,7 +946,7 @@
   "name": "pole biwakowe",
   "short_description": "pole biwakowe",
   "details": "Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze.",
-  "image_path": null,
+  "image_path": "img/znaki/D-32.png",
   "keywords": [
    "biwakowe",
    "d-32",
@@ -972,7 +972,7 @@
   "name": "schronisko młodzieżowe",
   "short_description": "schronisko młodzieżowe",
   "details": "Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze.",
-  "image_path": null,
+  "image_path": "img/znaki/D-33.png",
   "keywords": [
    "d-33",
    "d33",
@@ -998,7 +998,7 @@
   "name": "punkt informacji turystycznej",
   "short_description": "Informuje o stacjach radiowych podających informacje o wa￾runkach ruchu drogowego.",
   "details": "Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o wa￾runkach ruchu drogowego.",
-  "image_path": null,
+  "image_path": "img/znaki/D-34.png",
   "keywords": [
    "d-34",
    "d34",
@@ -1027,7 +1027,7 @@
   "name": "informacja radiowa o ruchu drogowym",
   "short_description": "Informuje o stacjach radiowych podających informacje o wa￾runkach ruchu drogowego.",
   "details": "Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o wa￾runkach ruchu drogowego.",
-  "image_path": null,
+  "image_path": "img/znaki/D-34a.png",
   "keywords": [
    "d-34a",
    "d34a",
@@ -1057,7 +1057,7 @@
   "name": "przejście podziemne dla pieszych",
   "short_description": "przejście podziemne dla pieszych",
   "details": "Znaki: 1) D-35 „przejście podziemne dla pieszych”, 2) D-35a „schody ruchome w dół”, Dziennik Ustaw – 16 – Poz.",
-  "image_path": null,
+  "image_path": "img/znaki/D-35.png",
   "keywords": [
    "d-35",
    "d35",
@@ -1114,7 +1114,7 @@
   "name": "przejście nadziemne dla pieszych",
   "short_description": "przejście nadziemne dla pieszych",
   "details": "2310 3) D-36 „przejście nadziemne dla pieszych”, 4) D-36a „schody ruchome w górę” informują o możliwości przechodzenia pieszych pod jezdnią lub nad jezdnią w sposób wskazany na znaku.",
-  "image_path": null,
+  "image_path": "img/znaki/D-36.png",
   "keywords": [
    "d-36",
    "d36",
@@ -1143,7 +1143,7 @@
   "name": "schody ruchome w górę",
   "short_description": "schody ruchome w górę",
   "details": "2310 3) D-36 „przejście nadziemne dla pieszych”, 4) D-36a „schody ruchome w górę” informują o możliwości przechodzenia pieszych pod jezdnią lub nad jezdnią w sposób wskazany na znaku.",
-  "image_path": null,
+  "image_path": "img/znaki/D-36a.png",
   "keywords": [
    "d-36a",
    "d36a",
@@ -1197,7 +1197,7 @@
   "name": "koniec tunelu",
   "short_description": "koniec tunelu",
   "details": "Wyjazd z tunelu jest oznaczony znakiem D-38 „koniec tunelu”.",
-  "image_path": null,
+  "image_path": "img/znaki/D-38.png",
   "keywords": [
    "d-38",
    "d38",
@@ -1223,7 +1223,7 @@
   "name": "dopuszczalne prędkości",
   "short_description": "Informuje o dopuszczalnych prędkościach obowiązujących na terytorium Rzeczypospolitej Polskiej.",
   "details": "Znak D-39 „dopuszczalne prędkości” informuje o dopuszczalnych prędkościach obowiązujących na terytorium Rzeczypospolitej Polskiej.",
-  "image_path": null,
+  "image_path": "img/znaki/D-39.png",
   "keywords": [
    "d-39",
    "d39",
@@ -1251,7 +1251,7 @@
   "name": "opłaty drogowe",
   "short_description": "Informuje o opłatach drogowych wnoszonych za przejazd po drogach publicznych na terytorium Rzeczypospolitej Polskiej.",
   "details": "Znak D-39a „opłaty drogowe” informuje o opłatach drogowych wnoszonych za przejazd po drogach publicznych na terytorium Rzeczypospolitej Polskiej.",
-  "image_path": null,
+  "image_path": "img/znaki/D-39a.png",
   "keywords": [
    "d-39a",
    "d39a",
@@ -1279,7 +1279,7 @@
   "name": "strefa zamieszkania",
   "short_description": "2) umieszczenia znaku D-40 oznaczającego początek strefy zamieszkania;",
   "details": "2) umieszczenia znaku D-40 oznaczającego początek strefy zamieszkania;",
-  "image_path": null,
+  "image_path": "img/znaki/D-40.png",
   "keywords": [
    "d-40",
    "d40",
@@ -1305,7 +1305,7 @@
   "name": "koniec strefy zamieszka￾nia",
   "short_description": "Oznacza wyjazd ze strefy zamieszkania.",
   "details": "Znak D-41 „koniec strefy zamieszka￾nia” oznacza wyjazd ze strefy zamieszkania.",
-  "image_path": null,
+  "image_path": "img/znaki/D-41.png",
   "keywords": [
    "d-41",
    "d41",
@@ -1332,7 +1332,7 @@
   "name": "obszar zabudowany",
   "short_description": "Znak zakazu umieszczony pod znakiem D-42 oznacza, że zakaz obowiązuje do znaku D-43 lub E-18a, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem.",
   "details": "Znak zakazu umieszczony pod znakiem D-42 oznacza, że zakaz obowiązuje do znaku D-43 lub E-18a, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem.",
-  "image_path": null,
+  "image_path": "img/znaki/D-42.png",
   "keywords": [
    "d-42",
    "d42",
@@ -1358,7 +1358,7 @@
   "name": "koniec obszaru zabudowanego",
   "short_description": "Znak zakazu umieszczony pod znakiem D-42 oznacza, że zakaz obowiązuje do znaku D-43 lub E-18a, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem.",
   "details": "Znak zakazu umieszczony pod znakiem D-42 oznacza, że zakaz obowiązuje do znaku D-43 lub E-18a, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem.",
-  "image_path": null,
+  "image_path": "img/znaki/D-43.png",
   "keywords": [
    "d-43",
    "d43",
@@ -1385,7 +1385,7 @@
   "name": "strefa płatnego parkowania",
   "short_description": "strefa płatnego parkowania",
   "details": "2) pojazdu zatrzymującego się w miejscu oznaczonym znakiem D-18, D-18a, D-18b lub D-44;",
-  "image_path": null,
+  "image_path": "img/znaki/D-44.png",
   "keywords": [
    "d-44",
    "d44",
@@ -1412,7 +1412,7 @@
   "name": "koniec strefy płatnego parkowania",
   "short_description": "Oznacza wyjazd ze strefy płatnego parkowania.",
   "details": "Znak D-45 „koniec strefy płatnego parkowania” oznacza wyjazd ze strefy płatnego parkowania.",
-  "image_path": null,
+  "image_path": "img/znaki/D-45.png",
   "keywords": [
    "d-45",
    "d45",
@@ -1946,7 +1946,7 @@
   "name": "droga ekspresowa",
   "short_description": "Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”.",
   "details": "Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
-  "image_path": null,
+  "image_path": "img/znaki/D-7.png",
   "keywords": [
    "d-7",
    "d7",

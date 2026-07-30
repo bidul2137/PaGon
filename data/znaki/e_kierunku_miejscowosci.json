@@ -7,7 +7,7 @@
   "name": "tablica przeddrogowskazowa",
   "short_description": "Znak E-1 „tablica przeddrogowskazowa” uprzedza o skrzyżowaniu.",
   "details": "Znak E-1 „tablica przeddrogowskazowa” uprzedza o skrzyżowaniu. Znak E-1a „tablica przeddrogowskazowa na autostradzie” uprzedza o wyjeździe z autostrady. Znak E-1b „tablica przeddrogowskazowa przed wjazdem na autostradę” uprzedza o skrzyżowaniu z wjazdem na au￾tostradę lub drogą prowadzącą do autostrady.",
-  "image_path": null,
+  "image_path": "img/znaki/E-1.png",
   "keywords": [
    "e-1",
    "e1",
@@ -65,7 +65,7 @@
   "name": "drogowskaz do zabytku przyrody",
   "short_description": "drogowskaz do zabytku przyrody",
   "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "image_path": null,
+  "image_path": "img/znaki/E-11.png",
   "keywords": [
    "drogowskaz",
    "e-11",
@@ -92,7 +92,7 @@
   "name": "drogowskaz do punktu widokowego",
   "short_description": "drogowskaz do punktu widokowego",
   "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "image_path": null,
+  "image_path": "img/znaki/E-12.png",
   "keywords": [
    "drogowskaz",
    "e-12",
@@ -121,7 +121,7 @@
   "name": "drogowskaz do szlaku rowerowego",
   "short_description": "drogowskaz do szlaku rowerowego",
   "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "image_path": null,
+  "image_path": "img/znaki/E-12a.png",
   "keywords": [
    "drogowskaz",
    "e-12a",
@@ -205,7 +205,7 @@
   "name": "tablica szlaku drogowego na autostradzie",
   "short_description": "tablica szlaku drogowego na autostradzie",
   "details": "Znaki E-14 „tablica szlaku drogowego”, E-14a „tablica szlaku drogowego na autostradzie” wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
-  "image_path": null,
+  "image_path": "img/znaki/E-14a.png",
   "keywords": [
    "autostradzie",
    "drogowego",
@@ -450,7 +450,7 @@
   "name": "numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t",
   "short_description": "1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poru￾szających się po drogach.",
   "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poru￾szających się po drogach. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-  "image_path": null,
+  "image_path": "img/znaki/E-15g.png",
   "keywords": [
    "dopuszczalnym",
    "drogi",
@@ -551,7 +551,7 @@
   "name": "miejscowość",
   "short_description": "Znak zakazu umieszczony pod znakiem E-17a oznacza, że zakaz obowiązuje na obszarze całej miejscowości, z wy￾jątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem.",
   "details": "Znak zakazu umieszczony pod znakiem E-17a oznacza, że zakaz obowiązuje na obszarze całej miejscowości, z wy￾jątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem.",
-  "image_path": null,
+  "image_path": "img/znaki/E-17a.png",
   "keywords": [
    "e-17a",
    "e17a",
@@ -576,7 +576,7 @@
   "name": "koniec miejscowości",
   "short_description": "Znak zakazu umieszczony pod znakiem D-42 oznacza, że zakaz obowiązuje do znaku D-43 lub E-18a, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem.",
   "details": "Znak zakazu umieszczony pod znakiem D-42 oznacza, że zakaz obowiązuje do znaku D-43 lub E-18a, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem.",
-  "image_path": null,
+  "image_path": "img/znaki/E-18a.png",
   "keywords": [
    "e-18a",
    "e18a",
@@ -602,7 +602,7 @@
   "name": "obwodnica",
   "short_description": "Wskazuje na skrzyżowaniu kierunek do obwodnicy miasta.",
   "details": "Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta.",
-  "image_path": null,
+  "image_path": "img/znaki/E-19a.png",
   "keywords": [
    "e-19a",
    "e19a",
@@ -627,7 +627,7 @@
   "name": "tablica przeddrogowskazowa na autostradzie",
   "short_description": "Uprzedza o wyjeździe z autostrady.",
   "details": "Znak E-1a „tablica przeddrogowskazowa na autostradzie” uprzedza o wyjeździe z autostrady.",
-  "image_path": null,
+  "image_path": "img/znaki/E-1a.png",
   "keywords": [
    "autostradzie",
    "e-1a",
@@ -717,7 +717,7 @@
   "name": "dzielnica (osiedle)",
   "short_description": "Informuje o wjeździe do centrum miasta.",
   "details": "Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
-  "image_path": null,
+  "image_path": "img/znaki/E-21.png",
   "keywords": [
    "dzielnica",
    "e-21",
@@ -743,7 +743,7 @@
   "name": "samochodowy szlak turystyczny",
   "short_description": "Wskazuje początek wyznaczonego samochodowego szlaku turys￾tycznego; na znaku obok nazwy szlaku mogą być umieszczone symbol szlaku oraz symbol organizacji turystycznej wyty￾czającej szlak.",
   "details": "Znak E-22a „samochodowy szlak turystyczny” wskazuje początek wyznaczonego samochodowego szlaku turys￾tycznego; na znaku obok nazwy szlaku mogą być umieszczone symbol szlaku oraz symbol organizacji turystycznej wyty￾czającej szlak.",
-  "image_path": null,
+  "image_path": "img/znaki/E-22a.png",
   "keywords": [
    "e-22a",
    "e22a",
@@ -773,7 +773,7 @@
   "name": "obiekt na samochodowym szlaku turystycznym",
   "short_description": "Wskazuje obiekt turystyczny na samochodowym szla￾ku turystycznym; na znaku umieszcza się symbol obiektu turystycznego lub wypoczynkowego.",
   "details": "Znak E-22b „obiekt na samochodowym szlaku turystycznym” wskazuje obiekt turystyczny na samochodowym szla￾ku turystycznym; na znaku umieszcza się symbol obiektu turystycznego lub wypoczynkowego.",
-  "image_path": null,
+  "image_path": "img/znaki/E-22b.png",
   "keywords": [
    "e-22b",
    "e22b",
@@ -804,7 +804,7 @@
   "name": "informacja o obiektach turystycznych",
   "short_description": "Informuje o występujących obiektach turystycznych na terenie wskazanym na znaku.",
   "details": "Znak E-22c „informacja o obiektach turystycznych” informuje o występujących obiektach turystycznych na terenie wskazanym na znaku.",
-  "image_path": null,
+  "image_path": "img/znaki/E-22c.png",
   "keywords": [
    "e-22c",
    "e22c",
@@ -834,7 +834,7 @@
   "name": "drogowskaz tablicowy umieszczany obok jezdni",
   "short_description": "Wskazuje kierunek do centrum miasta.",
   "details": "Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta.",
-  "image_path": null,
+  "image_path": "img/znaki/E-2a.png",
   "keywords": [
    "drogowskaz",
    "e-2a",
@@ -869,7 +869,7 @@
   "name": "drogowskaz tablicowy umieszczany nad jezdnią",
   "short_description": "Wskazuje kierunek do centrum miasta.",
   "details": "Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta.",
-  "image_path": null,
+  "image_path": "img/znaki/E-2b.png",
   "keywords": [
    "drogowskaz",
    "e-2b",
@@ -903,7 +903,7 @@
   "name": "drogowskaz tablicowy umieszczany obok jezdni na autostradzie",
   "short_description": "Wskazuje kierunek do centrum miasta.",
   "details": "Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta.",
-  "image_path": null,
+  "image_path": "img/znaki/E-2c.png",
   "keywords": [
    "autostradzie",
    "drogowskaz",
@@ -939,7 +939,7 @@
   "name": "drogowskaz tablicowy umieszczany nad jezdnią na autostradzie",
   "short_description": "Wskazuje kierunek do centrum miasta.",
   "details": "Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta.",
-  "image_path": null,
+  "image_path": "img/znaki/E-2d.png",
   "keywords": [
    "autostradzie",
    "drogowskaz",
@@ -974,7 +974,7 @@
   "name": "drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę",
   "short_description": "Wskazuje kierunek do centrum miasta.",
   "details": "Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta.",
-  "image_path": null,
+  "image_path": "img/znaki/E-2e.png",
   "keywords": [
    "autostradę",
    "drogowskaz",
@@ -1168,7 +1168,7 @@
   "name": "drogowskaz do dworca lub stacji kolejowej",
   "short_description": "Wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski.",
   "details": "Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski.",
-  "image_path": null,
+  "image_path": "img/znaki/E-6a.png",
   "keywords": [
    "drogowskaz",
    "dworca",
@@ -1200,7 +1200,7 @@
   "name": "drogowskaz do dworca autobusowego",
   "short_description": "Wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski.",
   "details": "Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski.",
-  "image_path": null,
+  "image_path": "img/znaki/E-6b.png",
   "keywords": [
    "autobusowego",
    "drogowskaz",
@@ -1262,7 +1262,7 @@
   "name": "drogowskaz do przystani wodnej lub żeglugi",
   "short_description": "drogowskaz do przystani wodnej lub żeglugi",
   "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "image_path": null,
+  "image_path": "img/znaki/E-7.png",
   "keywords": [
    "drogowskaz",
    "e-7",
@@ -1290,7 +1290,7 @@
   "name": "drogowskaz do plaży lub miejsca kąpielowego",
   "short_description": "drogowskaz do plaży lub miejsca kąpielowego",
   "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "image_path": null,
+  "image_path": "img/znaki/E-8.png",
   "keywords": [
    "drogowskaz",
    "e-8",
@@ -1318,7 +1318,7 @@
   "name": "drogowskaz do muzeum",
   "short_description": "drogowskaz do muzeum",
   "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "image_path": null,
+  "image_path": "img/znaki/E-9.png",
   "keywords": [
    "drogowskaz",
    "e-9",

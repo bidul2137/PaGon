@@ -7,7 +7,7 @@
   "name": "ograniczenie prędkości",
   "short_description": "Oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilo￾metrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony.",
   "details": "Znak BT-1 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilo￾metrów na godzinę przez kierującego tramwajem jadącego torem, przy którym jest on umieszczony. Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidle￾nia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”.",
-  "image_path": null,
+  "image_path": "img/znaki/BT-1.png",
   "keywords": [
    "bt-1",
    "bt1",
@@ -33,7 +33,7 @@
   "name": "koniec ograniczenia prędkości",
   "short_description": "koniec ograniczenia prędkości",
   "details": "Zakaz wyrażony znakiem BT-1 obowiązuje od miejsca umieszczenia znaku do najbliższego skrzyżowania (rozwidle￾nia) torów lub miejsca ustawienia znaku BT-2 „koniec ograniczenia prędkości”.",
-  "image_path": null,
+  "image_path": "img/znaki/BT-2.png",
   "keywords": [
    "bt-2",
    "bt2",
@@ -60,7 +60,7 @@
   "name": "blokada zwrotnicy",
   "short_description": "Oznacza zakaz wjazdu kierującego tramwajem pod urządzenie sterujące zwrotnicą, aż poprzedni tramwaj nie opuści zwrotnicy.",
   "details": "Znak BT-3 „blokada zwrotnicy” oznacza zakaz wjazdu kierującego tramwajem pod urządzenie sterujące zwrotnicą, aż poprzedni tramwaj nie opuści zwrotnicy.",
-  "image_path": null,
+  "image_path": "img/znaki/BT-3.png",
   "keywords": [
    "blokada",
    "bt-3",
@@ -86,7 +86,7 @@
   "name": "stop – zwrotnica eksploatowana jednostronnie",
   "short_description": "Oznacza zakaz wjazdu kierującego tramwajem na zwrot￾nicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
   "details": "Znak BT-4 „stop – zwrotnica eksploatowana jednostronnie” oznacza zakaz wjazdu kierującego tramwajem na zwrot￾nicę bez zatrzymania się przed zwrotnicą i obowiązek sprawdzenia, czy położenie iglicy jest prawidłowe.",
-  "image_path": null,
+  "image_path": "img/znaki/BT-4.png",
   "keywords": [
    "bt-4",
    "bt4",

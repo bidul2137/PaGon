@@ -7,7 +7,7 @@
   "name": "sygnalizacja świetlna",
   "short_description": "Ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowa￾ny za pomocą trójbarwnej sygnalizacji świetlnej.",
   "details": "Znak AT-1 „sygnalizacja świetlna” ostrzega o zbliżaniu się do miejsca, w którym ruch tramwajów jest kierowa￾ny za pomocą trójbarwnej sygnalizacji świetlnej.",
-  "image_path": null,
+  "image_path": "img/znaki/AT-1.png",
   "keywords": [
    "at-1",
    "at1",
@@ -33,7 +33,7 @@
   "name": "sygnalizacja świetlna wzbudzana",
   "short_description": "Ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbu￾dza wydzieloną dla siebie fazę.",
   "details": "Znak AT-2 „sygnalizacja świetlna wzbudzana” ostrzega o zbliżaniu się do skrzyżowania, na którym tramwaj wzbu￾dza wydzieloną dla siebie fazę.",
-  "image_path": null,
+  "image_path": "img/znaki/AT-2.png",
   "keywords": [
    "at-2",
    "at2",
@@ -60,7 +60,7 @@
   "name": "niebezpieczny zjazd",
   "short_description": "Ostrzega o znacznym spadku podłużnym toru tramwajowego, o wartości podanej na znaku.",
   "details": "Znak AT-3 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym toru tramwajowego, o wartości podanej na znaku.",
-  "image_path": null,
+  "image_path": "img/znaki/AT-3.png",
   "keywords": [
    "at-3",
    "at3",
@@ -86,7 +86,7 @@
   "name": "stromy podjazd",
   "short_description": "Ostrzega o znacznym wzniesieniu toru tramwajowego, o wartości podanej na znaku.",
   "details": "Znak AT-4 „stromy podjazd” ostrzega o znacznym wzniesieniu toru tramwajowego, o wartości podanej na znaku.",
-  "image_path": null,
+  "image_path": "img/znaki/AT-4.png",
   "keywords": [
    "at-4",
    "at4",
@@ -112,7 +112,7 @@
   "name": "ruch kolizyjny",
   "short_description": "Ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kie￾runku na wprost.",
   "details": "Znak AT-5 „ruch kolizyjny” ostrzega o zbliżaniu się do skrzyżowania z sygnalizacją świetlną, na którym skręcający motorniczy, opuszczając skrzyżowanie, jest obowiązany ustąpić pierwszeństwa uczestnikom ruchu poruszającym się w kie￾runku na wprost.",
-  "image_path": null,
+  "image_path": "img/znaki/AT-5.png",
   "keywords": [
    "at-5",
    "at5",

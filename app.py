@@ -306,7 +306,8 @@ def load_znaki():
     katalog = BASE_DIR / "data" / "znaki"
     meta_plik = katalog / "metadata.json"
     if not meta_plik.exists():
-        return {"kategorie": [], "znaki": [], "indeks": {}, "metadane": {}, "wersja": "0"}
+        return {"kategorie": [], "znaki": [], "indeks": {}, "indeks_bez_wielkosci": {},
+                "metadane": {}, "wersja": "0"}
 
     with open(meta_plik, encoding="utf-8") as f:
         metadane = json.load(f)
@@ -325,6 +326,11 @@ def load_znaki():
             "kategorie": metadane.get("categories", []),
             "znaki": znaki,
             "indeks": {z["code"]: z for z in znaki},
+            # Kody maja mieszana wielkosc liter: seria wielka, koncowka mala
+            # (A-11a, D-21a, T-1b). Dodatkowy indeks po wersji wielkimi literami
+            # pozwala trafic w rekord niezaleznie od tego, jak uzytkownik wpisze
+            # adres — bez psucia oryginalnej pisowni kodu.
+            "indeks_bez_wielkosci": {z["code"].upper(): z for z in znaki},
             "metadane": metadane,
             "wersja": "%s-%d" % (metadane.get("dataset_version", "1"), max(znacznik or [0])),
         }
@@ -355,7 +361,8 @@ def pomoce_znaki_kategoria(seria):
 def pomoce_znaki_znak(kod):
     """Podstrona pojedynczego znaku."""
     dane = load_znaki()
-    znak = dane["indeks"].get(kod.upper())
+    # najpierw trafienie dokladne, potem bez wzgledu na wielkosc liter
+    znak = dane["indeks"].get(kod) or dane["indeks_bez_wielkosci"].get(kod.upper())
     if not znak:
         abort(404)
     kat = next((k for k in dane["kategorie"] if k["id"] == znak["category_id"]), None)

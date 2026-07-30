@@ -800,7 +800,7 @@
   "name": "koniec ograniczenia prędkości",
   "short_description": "Oznacza odwołanie ograniczenia prędkości wprowadzonego znakiem B-33.",
   "details": "Znak B-34 „koniec ograniczenia prędkości” oznacza odwołanie ograniczenia prędkości wprowadzonego znakiem B-33.",
-  "image_path": null,
+  "image_path": "img/znaki/B-34.png",
   "keywords": [
    "b-34",
    "b34",
@@ -827,7 +827,7 @@
   "name": "zakaz postoju",
   "short_description": "Oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuż￾szy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce.",
   "details": "Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuż￾szy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2, do odwołania lub do miejsca umieszczenia znaku B-35. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela.",
-  "image_path": null,
+  "image_path": "img/znaki/B-35.png",
   "keywords": [
    "b-35",
    "b35",
@@ -853,7 +853,7 @@
   "name": "zakaz zatrzymywania się",
   "short_description": "Oznacza zakaz zatrzymania pojazdu.",
   "details": "Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela.",
-  "image_path": null,
+  "image_path": "img/znaki/B-36.png",
   "keywords": [
    "b-36",
    "b36",
@@ -879,7 +879,7 @@
   "name": "zakaz postoju w dni nieparzyste",
   "short_description": "Oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godzi￾ny 21 do 24; przepisy ust.",
   "details": "Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godzi￾ny 21 do 24; przepisy ust. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; Znak B-35, B-36, B-37 lub B-38 wraz z tabliczką T-26, umieszczony na placu równolegle do krawędzi jezdni, ozna￾cza, że zakaz wyrażony tym znakiem dotyczy strony placu, przy której został ustawiony.",
-  "image_path": null,
+  "image_path": "img/znaki/B-37.png",
   "keywords": [
    "b-37",
    "b37",
@@ -906,7 +906,7 @@
   "name": "zakaz postoju w dni parzyste",
   "short_description": "Oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godzi￾ny 21 do 24; przepisy ust.",
   "details": "Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godzi￾ny 21 do 24; przepisy ust. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; Znak B-35, B-36, B-37 lub B-38 wraz z tabliczką T-26, umieszczony na placu równolegle do krawędzi jezdni, ozna￾cza, że zakaz wyrażony tym znakiem dotyczy strony placu, przy której został ustawiony.",
-  "image_path": null,
+  "image_path": "img/znaki/B-38.png",
   "keywords": [
    "b-38",
    "b38",
@@ -933,7 +933,7 @@
   "name": "strefa ograniczonego postoju",
   "short_description": "Oznacza wjazd do strefy, w której obowiązuje zakaz postoju pojaz￾dów na wszystkich drogach; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku.",
   "details": "Znak B-39 „strefa ograniczonego postoju” oznacza wjazd do strefy, w której obowiązuje zakaz postoju pojaz￾dów na wszystkich drogach; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku. Znak B-39 nie dotyczy: 1) pojazdu komunikacji publicznej zatrzymującego się na wyznaczonym dla niego miejscu;",
-  "image_path": null,
+  "image_path": "img/znaki/B-39.png",
   "keywords": [
    "b-39",
    "b39",
@@ -1016,7 +1016,7 @@
   "name": "koniec strefy ograniczonego postoju",
   "short_description": "Oznacza wyjazd ze strefy ograniczonego postoju.",
   "details": "Znak B-40 „koniec strefy ograniczonego postoju” oznacza wyjazd ze strefy ograniczonego postoju.",
-  "image_path": null,
+  "image_path": "img/znaki/B-40.png",
   "keywords": [
    "b-40",
    "b40",
@@ -1044,7 +1044,7 @@
   "name": "zakaz ruchu pieszych",
   "short_description": "Oznacza zakaz ruchu pieszych po tej stronie drogi, po której znak jest umiesz￾czony.",
   "details": "Znak B-41 „zakaz ruchu pieszych” oznacza zakaz ruchu pieszych po tej stronie drogi, po której znak jest umiesz￾czony.",
-  "image_path": null,
+  "image_path": "img/znaki/B-41.png",
   "keywords": [
    "b-41",
    "b41",
@@ -1071,7 +1071,7 @@
   "name": "koniec zakazów",
   "short_description": "Oznacza odwołanie zakazów wyrażonych znakami: B-23, B-25, B-26, B-29 i B-33.",
   "details": "Znak B-42 „koniec zakazów” oznacza odwołanie zakazów wyrażonych znakami: B-23, B-25, B-26, B-29 i B-33.",
-  "image_path": null,
+  "image_path": "img/znaki/B-42.png",
   "keywords": [
    "b-42",
    "b42",
@@ -1097,7 +1097,7 @@
   "name": "strefa ograniczonej prędkości",
   "short_description": "strefa ograniczonej prędkości",
   "details": "4 i § 32, do miejsca: 1) wprowadzenia innej dopuszczalnej prędkości znakiem B-33 lub B-43;",
-  "image_path": null,
+  "image_path": "img/znaki/B-43.png",
   "keywords": [
    "b-43",
    "b43",
@@ -1124,7 +1124,7 @@
   "name": "koniec strefy ograniczonej prędkości",
   "short_description": "Oznacza wyjazd ze strefy ograniczonej prędkości.",
   "details": "Znak B-44 „koniec strefy ograniczonej prędkości” oznacza wyjazd ze strefy ograniczonej prędkości.",
-  "image_path": null,
+  "image_path": "img/znaki/B-44.png",
   "keywords": [
    "b-44",
    "b44",

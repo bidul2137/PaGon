@@ -230,7 +230,9 @@
    OKNA — przy szerokim ekranie siatka brała więcej kolumn, niż mieściło się
    w kontenerze, i karty były przycinane. Wszystkie siatki modułu używają
    teraz auto-fit (liczy dostępne miejsce), a poniżej twarde bezpieczniki. */
-.zn-page, .zn-page * { max-width: 100%; }
+/* UWAGA: nie obejmować samego .zn-page — to ten sam element co .tar-page,
+   który ma max-width 480px. Reguła z max-width:100% by go rozpychała. */
+.zn-page > * , .zn-page * { max-width: 100%; }
 .zn-page img { max-width: 100%; height: auto; }
 .zn-kategorie, .zn-lista, .zn-mini { width: 100%; }
 .zn-kat, .zn-poz, .zn-poz-link, .zn-mini-karta { box-sizing: border-box; }

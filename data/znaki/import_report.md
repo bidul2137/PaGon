@@ -1,83 +1,76 @@
 # Raport importu — Znaki i sygnały drogowe
 
-**Data:** 2026-07-30 · **Wersja:** 1.0.0
+**Data:** 2026-07-30 · **Wersja:** 1.0.0 · **Status: komplet**
 
-## 1. Źródło
+## 1. Źródła
 
 - Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych
 - Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)
-- plik lokalny: `zrodla/w sprawie ogłoszenia jednolitego tekstu rozporządzenia Ministrów Infrastruktury oraz Spraw Wewnętrznych 31.10.2019r.pdf`
+- `zrodla/w sprawie ogłoszenia jednolitego tekstu rozporządzenia Ministrów Infrastruktury oraz Spraw Wewnętrznych 31.10.2019r.pdf` — tekst i 26 rastrowych arkuszy z załączników
 
-Tekst i grafiki pochodzą z tego samego pliku: treść jako warstwa tekstowa, rysunki jako 26 rastrowych arkuszy zbiorczych w załącznikach. Nic nie pobierano z internetu.
+- 38 grafik serii D, E i T dostarczonych przez użytkownika (`ZNAKI.zip`), po jednej na kod
 
-## 2. Przebieg importu
+## 2. Przebieg
 
-**Dane** — `tools/import_znaki_dane.py`: kod, nazwa z cudzysłowu, zdanie objaśniające, treść jednostki redakcyjnej i numer paragrafu.
+**Dane** — `tools/import_znaki_dane.py`: kod, nazwa z cudzysłowu, zdanie objaśniające, treść jednostki redakcyjnej, numer paragrafu. Nic dopisanego od siebie.
 
-**Grafiki** — dwa etapy:
+**Grafiki** — cztery narzędzia, w kolejności użycia:
 
-1. `tools/import_znaki_grafiki.py` — sklejenie pionowych wycinków strony, wykrycie siatki, wycięcie komórek, odczyt podpisu (tesseract).
+1. `import_znaki_grafiki.py` — sklejenie pionowych wycinków strony, wykrycie siatki, wycięcie komórek, OCR podpisu.
 
-2. `tools/dopasuj_serie.py` — uzupełnienie braków przez dopasowanie komórek **po kolejności**. Arkusz zawiera znaki serii w kolejności z aktu, więc gdy pewne odczyty (kotwice) trafiają we właściwe pozycje listy kodów, resztę można przypisać bez zgadywania. Skrypt szuka przesunięcia, bo arkusz bywa fragmentem serii, i **odmawia zapisu**, gdy kotwice nie potwierdzą kolejności w co najmniej 70 %.
+2. `dopasuj_serie.py` — dopasowanie po kolejności z przesunięciem, gdy arkusz jest fragmentem serii.
+
+3. `domknij_serie.py` — interpolacja między kotwicami OCR; luka wypełniana tylko przy zgodnej liczbie komórek.
+
+4. `przypisz_wprost.py` — jawne przypisanie dla arkuszy, na których OCR zawodzi (inny krój podpisu), z twardym warunkiem zgodności liczb.
+
+Braki, których nie dało się odczytać z arkuszy, uzupełniono plikami z `ZNAKI.zip`.
 
 ## 3. Liczby
 | Miara | Wartość |
 |---|---|
 | Znaków w bazie | **374** |
-| Z grafiką | **280** (75 %) |
-| Bez grafiki | 94 |
+| Z grafiką | **374 (100 %)** |
 | Pełna weryfikacja opisu | 236 |
-| Częściowa weryfikacja | 138 |
-| Grafik odrzuconych (błąd OCR) | 30 |
+| Częściowa weryfikacja opisu | 138 |
+| Grafik odrzuconych przez kontrolę kodu | 30 |
 
 | Seria | Kategoria | Znaków | Z grafiką |
 |---|---|---|---|
 | A | Znaki ostrzegawcze | 42 | 42 ✔ |
-| B | Znaki zakazu | 46 | 35 |
+| B | Znaki zakazu | 46 | 46 ✔ |
 | C | Znaki nakazu | 21 | 21 ✔ |
-| D | Znaki informacyjne | 73 | 46 |
-| E | Znaki kierunku i miejscowości | 43 | 19 |
+| D | Znaki informacyjne | 73 | 73 ✔ |
+| E | Znaki kierunku i miejscowości | 43 | 43 ✔ |
 | F | Znaki uzupełniające | 25 | 25 ✔ |
 | G | Dodatkowe znaki przed przejazdami kolejowymi | 9 | 9 ✔ |
 | P | Znaki poziome | 30 | 30 ✔ |
-| S | Sygnały drogowe | 9 | 8 |
-| T | Tabliczki do znaków drogowych | 50 | 31 |
-| R | Dodatkowe znaki szlaków i tras turystycznych | 10 | 7 |
-| BT | Znaki i sygnały dla kierujących tramwajami | 4 | 0 |
-| AT | Znaki ostrzegawcze dla kierujących tramwajami | 5 | 0 |
+| S | Sygnały drogowe | 9 | 9 ✔ |
+| T | Tabliczki do znaków drogowych | 50 | 50 ✔ |
+| R | Dodatkowe znaki szlaków i tras turystycznych | 10 | 10 ✔ |
+| BT | Znaki i sygnały dla kierujących tramwajami | 4 | 4 ✔ |
+| AT | Znaki ostrzegawcze dla kierujących tramwajami | 5 | 5 ✔ |
 | W | Znaki W | 7 | 7 ✔ |
-
-Komplet grafik: **A, C, F, G, P, W**.
 
 ## 4. Kontrola jakości
 
-Każdy kod odczytany z arkusza porównano z listą kodów z tekstu aktu. Pliki o kodzie nieistniejącym w akcie przeniesiono do `static/img/znaki/_do_kontroli/` — nie trafiają do aplikacji.
+- każdy kod odczytany z arkusza porównany z listą kodów z tekstu aktu; niepasujące pliki trafiły do `static/img/znaki/_do_kontroli/` (30 szt.) i nie są używane;
 
-Serie A, C, F, G, P, W sprawdzone dodatkowo wzrokowo na kontaktówkach: przypisania zgodne ze wzorami.
+- serie A, B, C, F, G, P, R, S, W, AT, BT oraz komplet z `ZNAKI.zip` sprawdzone wzrokowo na kontaktówkach — przypisania zgodne ze wzorami;
 
-Dwie grafiki (`C-18`, `C-19`) i `P-11` wciągnęły do kadru własny podpis — obcięte.
+- grafiki, które wciągnęły do kadru własny podpis (`C-18`, `C-19`, `P-11`, część serii B), obcięte;
 
-## 5. Braki
+- routing: kody mają mieszaną wielkość liter (`A-11a`), więc wyszukiwanie znaku działa zarówno na dopasowaniu dokładnym, jak i bez względu na wielkość liter — sprawdzone na wszystkich 374.
 
-**94 znaków bez grafiki.**
+## 5. Opisy do uzupełnienia (138)
 
-- **BT (4) i AT (5)** — te serie nie mają rysunków w załączniku; trzeba je dostarczyć osobno.
+Rekordy, w których nie udało się wyodrębnić z aktu zdania objaśniającego albo jednostki redakcyjnej. Mają nazwę urzędową i grafikę, brakuje im pełnego opisu:
 
-- **E (24 braki), D (27), T (19), B (11)** — arkusze tych serii zostały odrzucone przez kontrolę kolejności (segmentacja scaliła sąsiednie komórki). Wymagają dopracowania cięcia.
+`B-43`, `C-11`, `C-16`, `C-2`, `C-3`, `C-4`, `C-5`, `C-6`, `C-7`, `C-8`, `C-9`, `D-18`, `D-18a`, `D-18b`, `D-21`, `D-21a`, `D-22`, `D-23a`, `D-24`, `D-26a`, `D-26b`, `D-26d`, `D-27`, `D-28`, `D-29`, `D-30`, `D-31`, `D-32`, `D-33`, `D-35`, `D-35a`, `D-36`, `D-36a`, `D-38`, `D-44`, `D-51`, `D-51a`, `D-51b`, `E-10`, `E-11`, `E-12`, `E-12a`, `E-14`, `E-14a`, `E-16`, `E-7`, `E-8`, `E-9`, `F-12`, `F-13`, `F-14a`, `F-14b`, `F-14c`, `F-4`, `G-1a`, `G-1b`, `G-1c`, `G-1d`, `G-1e`, `G-1f`, `G-3`, `G-4`, `P-15`, `P-16`, `P-17`, `P-18`, `P-19`, `P-20`, `S-1`, `S-1a`, `S-2`, `S-3`, `S-3a`, `S-4`, `S-5`, `S-6`, `S-7`, `T-1`, `T-10`, `T-11`, `T-12`, `T-13`, `T-14`, `T-15`, `T-16`, `T-17`, `T-18`, `T-19`, `T-1a`, `T-1b`, `T-2`, `T-20`, `T-21`, `T-23a`, `T-23b`, `T-23c`, `T-23d`, `T-23e`, `T-23f`, `T-23g`, `T-23h`, `T-23i`, `T-23j`, `T-24`, `T-25a`, `T-25b`, `T-25c`, `T-26`, `T-27`, `T-28`, `T-29`, `T-3`, `T-30`, `T-31`, `T-32`, `T-33`, `T-34`, `T-3a`, `T-4`, `T-5`, `T-6a`, `T-6b`, `T-6c`, `T-6d`, `T-7`, `T-8`, `T-9`, `R-4c`, `R-4d`, `R-4e`, `BT-2`, `W-1`, `W-2`, `W-3`, `W-4`, `W-5`, `W-6`, `W-7`
 
-Znaki bez grafiki:
-
-`AT-1`, `AT-2`, `AT-3`, `AT-4`, `AT-5`, `B-34`, `B-35`, `B-36`, `B-37`, `B-38`, `B-39`, `B-40`, `B-41`, `B-42`, `B-43`, `B-44`, `BT-1`, `BT-2`, `BT-3`, `BT-4`, `D-7`, `D-19`, `D-20`, `D-21`, `D-21a`, `D-22`, `D-23`, `D-23a`, `D-24`, `D-25`, `D-30`, `D-32`, `D-33`, `D-34`, `D-34a`, `D-35`, `D-36`, `D-36a`, `D-38`, `D-39`, `D-39a`, `D-40`, `D-41`, `D-42`, `D-43`, `D-44`, `D-45`, `E-1`, `E-1a`, `E-2a`, `E-2b`, `E-2c`, `E-2d`, `E-2e`, `E-6a`, `E-6b`, `E-7`, `E-8`, `E-9`, `E-11`, `E-12`, `E-12a`, `E-14a`, `E-15g`, `E-17a`, `E-18a`, `E-19a`, `E-21`, `E-22a`, `E-22b`, `E-22c`, `R-4a`, `R-4b`, `R-4c`, `S-1a`, `T-1`, `T-1a`, `T-1b`, `T-2`, `T-3`, `T-3a`, `T-7`, `T-17`, `T-23i`, `T-23j`, `T-24`, `T-25a`, `T-27`, `T-29`, `T-30`, `T-31`, `T-32`, `T-33`, `T-34`
-
-## 6. Znane usterki do naprawy
-
-- Część grafik serii **E** ma scalone sąsiednie komórki (np. `E-13` zawiera fragment `E-12a`). Do poprawy przez zawężenie progu odstępu kolumn dla tych arkuszy.
-
-- W tekście jednolitym z 2019 r. znak `P-9` nie ma wariantów literowych; spotykany gdzie indziej `P-9b` pochodzi z innego wydania.
-
-## 7. Powtórzenie
+## 6. Powtórzenie importu
 ```bash
-python tools/import_znaki_grafiki.py --arkusze tools/arkusze_sklejone
-python tools/dopasuj_serie.py
 python tools/import_znaki_dane.py --pdf "../zrodla/<obwieszczenie>.pdf"
 ```
+
+Grafiki leżą w `static/img/znaki/KOD.png` i podpinają się po nazwie pliku — dorzucenie nowego znaku nie wymaga zmian w kodzie.

@@ -7,7 +7,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem ostrzegawczym tabliczka T-1 wskazuje odległość znaku od miejsca niebezpiecznego.",
   "details": "Umieszczona pod znakiem ostrzegawczym tabliczka T-1 wskazuje odległość znaku od miejsca niebezpiecznego.",
-  "image_path": null,
+  "image_path": "img/znaki/T-1.png",
   "keywords": [
    "t-1",
    "t1"
@@ -202,7 +202,7 @@
   "name": null,
   "short_description": null,
   "details": "9) T-17 – granicę państwa;",
-  "image_path": null,
+  "image_path": "img/znaki/T-17.png",
   "keywords": [
    "t-17",
    "t17"
@@ -274,7 +274,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem D-7, D-8, D-9, D-10, D-13, D-13a lub D-14 tabliczka T-1a wskazuje odległość do początku lub końca drogi lub pasa ruchu.",
   "details": "Umieszczona pod znakiem D-7, D-8, D-9, D-10, D-13, D-13a lub D-14 tabliczka T-1a wskazuje odległość do początku lub końca drogi lub pasa ruchu.",
-  "image_path": null,
+  "image_path": "img/znaki/T-1a.png",
   "keywords": [
    "t-1a",
    "t1a"
@@ -301,7 +301,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem D-37 tabliczka T-1b wskazuje rzeczywistą długość tunelu – w przypadku gdy długość tunelu przekracza 500 m.",
   "details": "Umieszczona pod znakiem D-37 tabliczka T-1b wskazuje rzeczywistą długość tunelu – w przypadku gdy długość tunelu przekracza 500 m. Rzeczywista długość tunelu może być także wskazana przez umieszczenie w dolnej części znaku napisu i symboli odpowiadających treści tabliczki T-1b. W przypadku tuneli o długości przekraczającej 3000 m pozostała długość tunelu do przebycia jest wskazywana co 1000 m tabliczką T-1b.",
-  "image_path": null,
+  "image_path": "img/znaki/T-1b.png",
   "keywords": [
    "t-1b",
    "t1b"
@@ -328,7 +328,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem ostrzegawczym tabliczka T-2 wskazuje długość odcinka drogi, na którym powtarza się lub występuje niebezpieczeństwo, jeżeli długość odcinka przekracza 500 m; umieszczona pod znakiem ostrzegawczym tabliczka T-3 oznacza koniec takiego odcinka.",
   "details": "Umieszczona pod znakiem ostrzegawczym tabliczka T-2 wskazuje długość odcinka drogi, na którym powtarza się lub występuje niebezpieczeństwo, jeżeli długość odcinka przekracza 500 m; umieszczona pod znakiem ostrzegawczym tabliczka T-3 oznacza koniec takiego odcinka.",
-  "image_path": null,
+  "image_path": "img/znaki/T-2.png",
   "keywords": [
    "t-2",
    "t2"
@@ -648,7 +648,7 @@
   "name": null,
   "short_description": null,
   "details": "2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust.",
-  "image_path": null,
+  "image_path": "img/znaki/T-23i.png",
   "keywords": [
    "t-23i",
    "t23i"
@@ -679,7 +679,7 @@
   "name": null,
   "short_description": null,
   "details": "1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust.",
-  "image_path": null,
+  "image_path": "img/znaki/T-23j.png",
   "keywords": [
    "t-23j",
    "t23j"
@@ -710,7 +710,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela.",
   "details": "Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela.",
-  "image_path": null,
+  "image_path": "img/znaki/T-24.png",
   "keywords": [
    "t-24",
    "t24"
@@ -734,7 +734,7 @@
   "name": null,
   "short_description": null,
   "details": "Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem;",
-  "image_path": null,
+  "image_path": "img/znaki/T-25a.png",
   "keywords": [
    "t-25a",
    "t25a"
@@ -839,7 +839,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęsz￾czane przez dzieci.",
   "details": "Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęsz￾czane przez dzieci.",
-  "image_path": null,
+  "image_path": "img/znaki/T-27.png",
   "keywords": [
    "t-27",
    "t27"
@@ -887,7 +887,7 @@
   "name": null,
   "short_description": "I symbolem osoby niepełno￾sprawnej, określonym na tabliczce T-29, wskazuje, że znaki te obowiązują również osoby, o których mowa w art.",
   "details": "2, tabliczka z napisem „Dotyczy także” i symbolem osoby niepełno￾sprawnej, określonym na tabliczce T-29, wskazuje, że znaki te obowiązują również osoby, o których mowa w art.",
-  "image_path": null,
+  "image_path": "img/znaki/T-29.png",
   "keywords": [
    "t-29",
    "t29"
@@ -911,7 +911,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem ostrzegawczym tabliczka T-2 wskazuje długość odcinka drogi, na którym powtarza się lub występuje niebezpieczeństwo, jeżeli długość odcinka przekracza 500 m; umieszczona pod znakiem ostrzegawczym tabliczka T-3 oznacza koniec takiego odcinka.",
   "details": "Umieszczona pod znakiem ostrzegawczym tabliczka T-2 wskazuje długość odcinka drogi, na którym powtarza się lub występuje niebezpieczeństwo, jeżeli długość odcinka przekracza 500 m; umieszczona pod znakiem ostrzegawczym tabliczka T-3 oznacza koniec takiego odcinka.",
-  "image_path": null,
+  "image_path": "img/znaki/T-3.png",
   "keywords": [
    "t-3",
    "t3"
@@ -937,7 +937,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem D-18 tabliczka T-30 wskazuje sposób ustawienia pojazdu względem krawędzi jezdni oznaczonej na tabliczce barwą szarą oraz że miejsce jest przeznaczone dla pojazdów samochodowych o dopuszczalnej masie całkowitej nieprzekraczającej 2,5 t.",
   "details": "Umieszczona pod znakiem D-18 tabliczka T-30 wskazuje sposób ustawienia pojazdu względem krawędzi jezdni oznaczonej na tabliczce barwą szarą oraz że miejsce jest przeznaczone dla pojazdów samochodowych o dopuszczalnej masie całkowitej nieprzekraczającej 2,5 t.",
-  "image_path": null,
+  "image_path": "img/znaki/T-30.png",
   "keywords": [
    "t-30",
    "t30"
@@ -961,7 +961,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem tablicz￾ka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz doty￾czy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów.",
   "details": "Umieszczona pod znakiem tablicz￾ka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz doty￾czy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów.",
-  "image_path": null,
+  "image_path": "img/znaki/T-31.png",
   "keywords": [
    "t-31",
    "t31"
@@ -985,7 +985,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem D-37 tabliczka T-32 wskazuje minimalny odstęp od poprzedzającego pojazdu.",
   "details": "Umieszczona pod znakiem D-37 tabliczka T-32 wskazuje minimalny odstęp od poprzedzającego pojazdu.",
-  "image_path": null,
+  "image_path": "img/znaki/T-32.png",
   "keywords": [
    "t-32",
    "t32"
@@ -1009,7 +1009,7 @@
   "name": null,
   "short_description": "Informuje, że w zatoce znaj￾duje się telefon alarmowy i gaśnica.",
   "details": "Umieszczona pod znakiem D-50 tabliczka T-33 lub umieszczony na znaku napis „SOS” informuje, że w zatoce znaj￾duje się telefon alarmowy i gaśnica.",
-  "image_path": null,
+  "image_path": "img/znaki/T-33.png",
   "keywords": [
    "t-33",
    "t33"
@@ -1033,7 +1033,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
   "details": "Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-  "image_path": null,
+  "image_path": "img/znaki/T-34.png",
   "keywords": [
    "t-34",
    "t34"
@@ -1057,7 +1057,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem D-18 tabliczka T-3a wskazuje koniec miejsca przeznaczonego na postój.",
   "details": "Umieszczona pod znakiem D-18 tabliczka T-3a wskazuje koniec miejsca przeznaczonego na postój.",
-  "image_path": null,
+  "image_path": "img/znaki/T-3a.png",
   "keywords": [
    "t-3a",
    "t3a"
@@ -1243,7 +1243,7 @@
   "name": null,
   "short_description": "Umieszczona pod znakiem A-9 lub A-10 tabliczka T-7 wskazuje układ torów i drogi na przejeździe.",
   "details": "Umieszczona pod znakiem A-9 lub A-10 tabliczka T-7 wskazuje układ torów i drogi na przejeździe.",
-  "image_path": null,
+  "image_path": "img/znaki/T-7.png",
   "keywords": [
    "t-7",
    "t7"

@@ -18,7 +18,7 @@
    "name": "Znaki zakazu",
    "file": "b_zakazu.json",
    "count": 46,
-   "with_image": 35,
+   "with_image": 46,
    "cover": "B-1"
   },
   {
@@ -34,7 +34,7 @@
    "name": "Znaki informacyjne",
    "file": "d_informacyjne.json",
    "count": 73,
-   "with_image": 46,
+   "with_image": 73,
    "cover": "D-1"
   },
   {
@@ -42,8 +42,8 @@
    "name": "Znaki kierunku i miejscowości",
    "file": "e_kierunku_miejscowosci.json",
    "count": 43,
-   "with_image": 19,
-   "cover": "E-10"
+   "with_image": 43,
+   "cover": "E-1"
   },
   {
    "id": "F",
@@ -74,7 +74,7 @@
    "name": "Sygnały drogowe",
    "file": "s_sygnaly.json",
    "count": 9,
-   "with_image": 8,
+   "with_image": 9,
    "cover": "S-1"
   },
   {
@@ -82,15 +82,15 @@
    "name": "Tabliczki do znaków drogowych",
    "file": "t_tabliczki.json",
    "count": 50,
-   "with_image": 31,
-   "cover": "T-10"
+   "with_image": 50,
+   "cover": "T-1"
   },
   {
    "id": "R",
    "name": "Dodatkowe znaki szlaków i tras turystycznych",
    "file": "r_szlaki.json",
    "count": 10,
-   "with_image": 7,
+   "with_image": 10,
    "cover": "R-1"
   },
   {
@@ -98,16 +98,16 @@
    "name": "Znaki i sygnały dla kierujących tramwajami",
    "file": "bt_tramwaje.json",
    "count": 4,
-   "with_image": 0,
-   "cover": null
+   "with_image": 4,
+   "cover": "BT-1"
   },
   {
    "id": "AT",
    "name": "Znaki ostrzegawcze dla kierujących tramwajami",
    "file": "at_tramwaje.json",
    "count": 5,
-   "with_image": 0,
-   "cover": null
+   "with_image": 5,
+   "cover": "AT-1"
   },
   {
    "id": "W",
@@ -119,7 +119,7 @@
   }
  ],
  "sign_count": 374,
- "with_image_count": 280,
+ "with_image_count": 374,
  "fully_verified_count": 236,
  "partially_verified_count": 138,
  "dataset_version": "1.0.0"
