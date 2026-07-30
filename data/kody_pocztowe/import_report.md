@@ -31,6 +31,7 @@ GeoNames podaje nazwy jednostek **niekonsekwentnie** — województwa po angiels
 | powiat | nazwa ze źródła bez przedrostka `Powiat`; formy angielskie podmieniane na urzędowe z wykazu GUS |
 | gmina | nazwa ze źródła bez przedrostka `Gmina` |
 | TERYT | wprost ze źródła, bez uzupełniania |
+| współrzędne | wprost ze źródła, zaokrąglone do czterech miejsc (ok. 11 m) |
 
 Miasta na prawach powiatu (kod 61 i wyżej) zostają pod nazwą miasta — tak brzmi ich nazwa urzędowa.
 
@@ -59,6 +60,8 @@ Miasta na prawach powiatu (kod 61 i wyżej) zostają pod nazwą miasta — tak b
 | brak powiatu w źródle; brak gminy w źródle; brak kodu TERYT w źródle | 1 |
 
 ## 6. Czego nie ma w bazie
+
+Współrzędne wskazują **środek zabudowy miejscowości** (dokładność 6 wg GeoNames), a nie konkretny adres — służą wyłącznie do wskazania najbliższej miejscowości i odległość liczona na ich podstawie jest orientacyjna.
 
 Poczta obsługująca, ulica i zakres numerów są zapisane jako `null` — źródło ich nie zawiera i nie są uzupełniane szacunkami. Kody TERYT województwa, powiatu i gminy są kompletne; identyfikator miejscowości (SIMC) w źródle nie występuje.
 

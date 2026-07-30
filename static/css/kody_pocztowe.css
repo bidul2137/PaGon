@@ -122,6 +122,29 @@
 
 .kp-btn--maly { min-height: 38px; padding: 8px 12px; font-size: .78rem; }
 
+.kp-btn--lokalizacja {
+  width: 100%;
+  margin-top: 8px;
+  min-height: 48px;
+}
+.kp-btn--lokalizacja[aria-busy="true"] { opacity: .65; cursor: progress; }
+
+/* Odległość przy wyniku z lokalizacji — liczba ma być czytelna od razu,
+   bez wczytywania się w resztę karty. */
+.kp-odleglosc {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 3px 9px;
+  border: 1px solid var(--kp-kresa-mocna);
+  border-radius: 999px;
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .03em;
+  color: var(--kp-etykieta);
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
 /* ---------- podpowiedzi ---------- */
 
 .kp-lista {

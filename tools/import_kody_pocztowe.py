@@ -188,6 +188,10 @@ def czytaj_geonames(tresc: str) -> list[dict]:
             "kod": p[1], "miejscowosc": p[2],
             "wojewodztwo": p[3], "powiat": p[5], "gmina": p[7],
             "teryt_powiat": p[6].strip(), "teryt_gmina": p[8].strip(),
+            # kolumny 10-12: szerokosc, dlugosc, dokladnosc (6 = centroid zabudowy)
+            "szerokosc": p[9].strip() if len(p) > 9 else "",
+            "dlugosc": p[10].strip() if len(p) > 10 else "",
+            "dokladnosc": p[11].strip() if len(p) > 11 else "",
         })
     return surowe
 
@@ -293,7 +297,24 @@ def zbuduj(surowe: list[dict], rodzaj: str, plik: Path, dzis: str) -> tuple[list
             continue
         widziane.add(klucz)
 
+        # Wspolrzedne sluza tylko do znalezienia najblizszej miejscowosci, wiec
+        # zaokraglamy je do czterech miejsc (ok. 11 m). Pelna precyzja zwiekszalaby
+        # plik wysylany do przegladarki, nic nie wnoszac.
+        def liczba(tekst):
+            try:
+                return round(float(tekst), 4)
+            except (TypeError, ValueError):
+                return None
+
+        lat, lon = liczba(r.get("szerokosc")), liczba(r.get("dlugosc"))
+        if lat is not None and not (-90 <= lat <= 90):
+            lat = None
+        if lon is not None and not (-180 <= lon <= 180):
+            lon = None
+
         braki = list(uwagi_rek)
+        if lat is None or lon is None:
+            braki.append("brak współrzędnych w źródle")
         if not woj:
             braki.append("brak województwa w źródle")
         if not powiat:
@@ -318,6 +339,9 @@ def zbuduj(surowe: list[dict], rodzaj: str, plik: Path, dzis: str) -> tuple[list
             # kody TERYT pochodza wprost ze zrodla — nie sa niczym uzupelniane
             "teryt": {"voivodeship": t_woj or None, "county": t_pow or None,
                       "commune": t_gm or None, "locality": None},
+            "latitude": lat,
+            "longitude": lon,
+            "coordinate_accuracy": (r.get("dokladnosc") or None),
             "post_office": None,
             "street": None,
             "address_range": None,
@@ -409,6 +433,7 @@ def raport(rekordy: list[dict], indeks: list[dict], staty: dict,
          "| powiat | nazwa ze źródła bez przedrostka `Powiat`; formy angielskie podmieniane na urzędowe z wykazu GUS |",
          "| gmina | nazwa ze źródła bez przedrostka `Gmina` |",
          "| TERYT | wprost ze źródła, bez uzupełniania |",
+         "| współrzędne | wprost ze źródła, zaokrąglone do czterech miejsc (ok. 11 m) |",
          "",
          "Miasta na prawach powiatu (kod 61 i wyżej) zostają pod nazwą miasta — tak brzmi ich "
          "nazwa urzędowa.\n",
@@ -428,6 +453,9 @@ def raport(rekordy: list[dict], indeks: list[dict], staty: dict,
         w.append("")
 
     w.append("## 6. Czego nie ma w bazie\n")
+    w.append("Współrzędne wskazują **środek zabudowy miejscowości** (dokładność 6 wg GeoNames), "
+             "a nie konkretny adres — służą wyłącznie do wskazania najbliższej miejscowości "
+             "i odległość liczona na ich podstawie jest orientacyjna.\n")
     w.append("Poczta obsługująca, ulica i zakres numerów są zapisane jako `null` — źródło ich "
              "nie zawiera i nie są uzupełniane szacunkami. Kody TERYT województwa, powiatu "
              "i gminy są kompletne; identyfikator miejscowości (SIMC) w źródle nie występuje.\n")
@@ -515,6 +543,7 @@ def main() -> None:
             locality_normalized TEXT NOT NULL,
             commune TEXT, county TEXT, voivodeship TEXT,
             teryt_voivodeship TEXT, teryt_county TEXT, teryt_commune TEXT,
+            latitude REAL, longitude REAL, coordinate_accuracy TEXT,
             post_office TEXT, street TEXT, address_range TEXT,
             verification_status TEXT NOT NULL,
             verification_note TEXT
@@ -533,11 +562,13 @@ def main() -> None:
     con.executemany(
         "INSERT INTO postal_codes (postal_code, locality, locality_normalized, commune,"
         " county, voivodeship, teryt_voivodeship, teryt_county, teryt_commune,"
+        " latitude, longitude, coordinate_accuracy,"
         " post_office, street, address_range, verification_status, verification_note)"
-        " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+        " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
         [(r["postal_code"], r["locality"], r["locality_normalized"], r["commune"],
           r["county"], r["voivodeship"], r["teryt"]["voivodeship"], r["teryt"]["county"],
-          r["teryt"]["commune"], r["post_office"], r["street"], r["address_range"],
+          r["teryt"]["commune"], r["latitude"], r["longitude"], r["coordinate_accuracy"],
+          r["post_office"], r["street"], r["address_range"],
           r["verification_status"], r["verification_note"]) for r in rekordy])
     con.executemany(
         "INSERT INTO localities_index VALUES (?,?,?,?,?,?)",
@@ -573,6 +604,7 @@ def main() -> None:
             "część nazw powiatów podanych po angielsku zastąpiona urzędowymi "
             "z wykazu identyfikatorów GUS",
             "usunięte pełne duplikaty techniczne",
+            "współrzędne zaokrąglone do czterech miejsc po przecinku",
             "dodany status weryfikacji i uwagi dla rekordów niepewnych",
         ],
         "disclaimer": ("GeoNames udostępnia dane bez gwarancji ich poprawności, "
@@ -609,7 +641,8 @@ def main() -> None:
                 do_slownika(r["county"], powiaty, mapy[1]),
                 do_slownika(r["voivodeship"], woje, mapy[2]),
                 0 if r["verification_status"] == "verified" else 1,
-                do_slownika(r["verification_note"], uwagi, mapy[3])] for r in rekordy]
+                do_slownika(r["verification_note"], uwagi, mapy[3]),
+                r["latitude"], r["longitude"]] for r in rekordy]
 
     (wyjscie / "search_index.json").write_text(json.dumps({
         "meta": meta,

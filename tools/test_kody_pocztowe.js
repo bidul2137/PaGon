@@ -44,6 +44,7 @@ Wezel.prototype.removeChild = function (w) {
 Wezel.prototype.replaceChildren = function () { this.children = []; };
 Wezel.prototype.setAttribute = function (k, v) { this.attrs[k] = String(v); };
 Wezel.prototype.getAttribute = function (k) { return k in this.attrs ? this.attrs[k] : null; };
+Wezel.prototype.removeAttribute = function (k) { delete this.attrs[k]; };
 Wezel.prototype.addEventListener = function (typ, fn) {
   (this.sluchacze[typ] = this.sluchacze[typ] || []).push(fn);
 };
@@ -99,6 +100,7 @@ const elementy = {
   kpHistoria: stworz("section", "kpHistoria"),
   kpHistoriaLista: stworz("div", "kpHistoriaLista"),
   kpCzyscHistorie: stworz("button", "kpCzyscHistorie"),
+  kpLokalizacja: stworz("button", "kpLokalizacja"),
 };
 Object.values(elementy).forEach((w) => korzen.appendChild(w));
 elementy.kpWejscie.value = "";
@@ -123,7 +125,17 @@ globalThis.window = {
   },
 };
 // w Node navigator jest tylko do odczytu — podmieniamy przez defineProperty
-Object.defineProperty(globalThis, "navigator", { value: {}, configurable: true });
+let odpowiedzGps = null;   // {coords} albo {blad:{code}}
+const nawigator = {
+  geolocation: {
+    getCurrentPosition(sukces, blad) {
+      if (!odpowiedzGps) return blad({ code: 2 });
+      if (odpowiedzGps.blad) return blad(odpowiedzGps.blad);
+      sukces({ coords: odpowiedzGps.coords });
+    },
+  },
+};
+Object.defineProperty(globalThis, "navigator", { value: nawigator, configurable: true });
 
 /* ---------------- dane: dokładnie to, co odda Flask ---------------- */
 
@@ -270,14 +282,43 @@ async function wpiszIPodpowiedz(tekst) {
   sprawdz("podpowiada po dwóch cyfrach kodu", poz.length >= 1, "pozycji: " + poz.length);
   sprawdz("nie przekracza ośmiu pozycji", poz.length <= 8);
 
-  console.log("\n11. Historia");
+  console.log("\n11. Kod dla mojej lokalizacji");
+  // punkt tuż obok Barcikowa (11-040) — współrzędne z samej bazy, nie z zewnątrz
+  const wzorzec = ladunek.rekordy.find((r) => r[0] === "11-040" && r[1] === "Barcikowo")
+                  || ladunek.rekordy.find((r) => typeof r[8] === "number");
+  const zapytaniaPrzedGps = zapytaniaSieciowe;
+  odpowiedzGps = { coords: { latitude: wzorzec[8] + 0.004, longitude: wzorzec[9], accuracy: 12 } };
+  elementy.kpLokalizacja.odpal("click");
+  await czekaj(30);
+  t = tekstWynikow();
+  sprawdz("wskazuje najbliższą miejscowość", t.includes(wzorzec[1]), t.slice(0, 110));
+  sprawdz("podaje jej kod", t.includes(wzorzec[0]));
+  sprawdz("pokazuje odległość", /\d+\s?(m|km)/.test(t), t.slice(0, 110));
+  sprawdz("uprzedza, że odległość jest orientacyjna", t.includes("orientacyjna"));
+  sprawdz("mówi, że pozycja nie wychodzi z urządzenia",
+          t.includes("Nie została nigdzie wysłana"));
+  sprawdz("nie wysyła pozycji nigdzie", zapytaniaSieciowe === zapytaniaPrzedGps,
+          "żądań: " + (zapytaniaSieciowe - zapytaniaPrzedGps));
+  sprawdz("odblokowuje przycisk po zakończeniu",
+          elementy.kpLokalizacja.disabled === false);
+
+  console.log("\n11b. Odmowa zgody na lokalizację");
+  odpowiedzGps = { blad: { code: 1 } };
+  elementy.kpLokalizacja.odpal("click");
+  await czekaj(30);
+  t = tekstWynikow();
+  sprawdz("tłumaczy brak zgody", t.includes("Brak zgody"), t.slice(0, 110));
+  sprawdz("podpowiada ręczne wpisanie", t.includes("ręcznie"));
+  sprawdz("nie udaje wyniku", !/\d{2}-\d{3}/.test(t));
+
+  console.log("\n12. Historia");
   const h = JSON.parse(pamiec.get("pagon-kody-historia") || "[]");
   sprawdz("zapisuje wyszukiwania", h.length > 0, "wpisów: " + h.length);
   sprawdz("nie przekracza ośmiu wpisów", h.length <= 8);
   sprawdz("wpis ma typ, wartość i datę",
           h[0] && h[0].typ && h[0].wartosc && /^\d{4}-\d{2}-\d{2}$/.test(h[0].data));
 
-  console.log("\n12. Praca offline");
+  console.log("\n13. Praca offline");
   sprawdz("baza pobrana dokładnie raz", zapytaniaSieciowe === 1,
           "żądań: " + zapytaniaSieciowe);
   const przed = zapytaniaSieciowe;

@@ -1,0 +1,277 @@
+{
+ "_opis": "Wykaz komend Policji zebrany ze stron komend wojewódzkich. Każdy wpis ma adres strony, z której pochodzi, i datę pobrania. Telefony i komisariaty nie wchodzą w zakres tego zbioru.",
+ "jednostki": [
+  {
+   "typ": "KWP",
+   "nazwa": "Komenda Wojewódzka Policji w Olsztynie",
+   "miasto": "Olsztyn",
+   "adres": "ul. Partyzantów 6/8",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KMP",
+   "nazwa": "Komenda Miejska Policji w Elblągu",
+   "miasto": "Elbląg",
+   "adres": "ul. Królewiecka 106",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KMP",
+   "nazwa": "Komenda Miejska Policji w Olsztynie",
+   "miasto": "Olsztyn",
+   "adres": "ul. Partyzantów 23",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Bartoszycach",
+   "miasto": "Bartoszyce",
+   "adres": "ul. Wyszyńskiego 28",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Braniewie",
+   "miasto": "Braniewo",
+   "adres": "ul. Moniuszki 11A",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Działdowie",
+   "miasto": "Działdowo",
+   "adres": "ul. Grunwaldzka 8",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Ełku",
+   "miasto": "Ełk",
+   "adres": "ul. Chopina 10",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Giżycku",
+   "miasto": "Giżycko",
+   "adres": "ul. 1 Maja 26",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Gołdapi",
+   "miasto": "Gołdap",
+   "adres": "ul. 11 Listopada 1",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Iławie",
+   "miasto": "Iława",
+   "adres": "ul. Wiejska 4",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Kętrzynie",
+   "miasto": "Kętrzyn",
+   "adres": "ul. Wojska Polskiego 5",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Lidzbarku Warmińskim",
+   "miasto": "Lidzbark Warmiński",
+   "adres": "ul. Warmińska 8",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Mrągowie",
+   "miasto": "Mrągowo",
+   "adres": "ul. Wolności 2",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Nidzicy",
+   "miasto": "Nidzica",
+   "adres": "ul. Mickiewicza 17",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Nowym Mieście Lubawskim",
+   "miasto": "Nowe Miasto Lubawskie",
+   "adres": "ul. Grunwaldzka 6",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Olecku",
+   "miasto": "Olecko",
+   "adres": "ul. Zamkowa 1",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Ostródzie",
+   "miasto": "Ostróda",
+   "adres": "ul. Handlowa 6",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Piszu",
+   "miasto": "Pisz",
+   "adres": "ul. Armii Krajowej 1",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Szczytnie",
+   "miasto": "Szczytno",
+   "adres": "ul. Piłsudskiego 39",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  },
+  {
+   "typ": "KPP",
+   "nazwa": "Komenda Powiatowa Policji w Węgorzewie",
+   "miasto": "Węgorzewo",
+   "adres": "ul. Jana Pawła II 39",
+   "wojewodztwo": "warmińsko-mazurskie",
+   "telefon": null,
+   "www": null,
+   "zrodlo": {
+    "url": "https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.html",
+    "pobrano": "2026-07-30"
+   }
+  }
+ ],
+ "_jak_zbierac": [
+  "1. Na stronie KWP znaleźć wykaz komend (zwykle 'O nas → Komendy' albo 'Komendy na mapie').",
+  "2. Do adresu strony dopisać .print zamiast .html — wersja do druku odcina menu i stopkę,",
+  "   co zmniejsza pobranie kilkukrotnie. Przykład:",
+  "   https://warminsko-mazurska.policja.gov.pl/ol/maps/23,dok.print",
+  "3. Wpisy dopisać do 'jednostki' z adresem strony i datą pobrania.",
+  "4. Sprawdzić postęp: python tools/import_jednostki_policji.py --stan",
+  "5. Import zapisze bazę dopiero, gdy wszystkie 380 powiatów będzie pokrytych."
+ ],
+ "_zebrane_wojewodztwa": [
+  "warmińsko-mazurskie"
+ ]
+}

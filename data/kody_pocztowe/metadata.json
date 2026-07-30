@@ -22,6 +22,7 @@
   "z nazw powiatów i gmin usunięte przedrostki „Powiat” i „Gmina”",
   "część nazw powiatów podanych po angielsku zastąpiona urzędowymi z wykazu identyfikatorów GUS",
   "usunięte pełne duplikaty techniczne",
+  "współrzędne zaokrąglone do czterech miejsc po przecinku",
   "dodany status weryfikacji i uwagi dla rekordów niepewnych"
  ],
  "disclaimer": "GeoNames udostępnia dane bez gwarancji ich poprawności, kompletności i aktualności.",

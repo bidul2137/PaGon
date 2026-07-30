@@ -1,0 +1,1908 @@
+{
+ "_zrodlo": {
+  "opis": "kody i nazwy powiatów z bazy kodów pocztowych (TERYT ze źródła GeoNames)",
+  "wygenerowano": "2026-07-30"
+ },
+ "powiaty": [
+  {
+   "teryt": "0201",
+   "nazwa": "bolesławiecki",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0202",
+   "nazwa": "dzierżoniowski",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0203",
+   "nazwa": "głogowski",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0204",
+   "nazwa": "górowski",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0205",
+   "nazwa": "jaworski",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0206",
+   "nazwa": "jeleniogórski",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0207",
+   "nazwa": "kamiennogórski",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0208",
+   "nazwa": "kłodzki",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0209",
+   "nazwa": "legnicki",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0210",
+   "nazwa": "lubański",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0211",
+   "nazwa": "lubiński",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0212",
+   "nazwa": "lwówecki",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0213",
+   "nazwa": "milicki",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0214",
+   "nazwa": "oleśnicki",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0215",
+   "nazwa": "oławski",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0216",
+   "nazwa": "polkowicki",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0217",
+   "nazwa": "strzeliński",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0218",
+   "nazwa": "średzki",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0219",
+   "nazwa": "świdnicki",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0220",
+   "nazwa": "trzebnicki",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0221",
+   "nazwa": "wałbrzyski",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0222",
+   "nazwa": "wołowski",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0223",
+   "nazwa": "wrocławski",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0224",
+   "nazwa": "ząbkowicki",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0225",
+   "nazwa": "zgorzelecki",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0226",
+   "nazwa": "złotoryjski",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0261",
+   "nazwa": "Jelenia Góra",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0262",
+   "nazwa": "Legnica",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0264",
+   "nazwa": "Wrocław",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0265",
+   "nazwa": "Wałbrzych",
+   "wojewodztwo": "dolnośląskie"
+  },
+  {
+   "teryt": "0401",
+   "nazwa": "aleksandrowski",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0402",
+   "nazwa": "brodnicki",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0403",
+   "nazwa": "bydgoski",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0404",
+   "nazwa": "chełmiński",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0405",
+   "nazwa": "golubsko-dobrzyński",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0406",
+   "nazwa": "grudziądzki",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0407",
+   "nazwa": "inowrocławski",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0408",
+   "nazwa": "lipnowski",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0409",
+   "nazwa": "mogileński",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0410",
+   "nazwa": "nakielski",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0411",
+   "nazwa": "radziejowski",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0412",
+   "nazwa": "rypiński",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0413",
+   "nazwa": "sępoleński",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0414",
+   "nazwa": "świecki",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0415",
+   "nazwa": "toruński",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0416",
+   "nazwa": "tucholski",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0417",
+   "nazwa": "wąbrzeski",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0418",
+   "nazwa": "włocławski",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0419",
+   "nazwa": "żniński",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0461",
+   "nazwa": "Bydgoszcz",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0462",
+   "nazwa": "Grudziądz",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0463",
+   "nazwa": "Toruń",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0464",
+   "nazwa": "Włocławek",
+   "wojewodztwo": "kujawsko-pomorskie"
+  },
+  {
+   "teryt": "0601",
+   "nazwa": "bialski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0602",
+   "nazwa": "biłgorajski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0603",
+   "nazwa": "chełmski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0604",
+   "nazwa": "hrubieszowski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0605",
+   "nazwa": "janowski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0606",
+   "nazwa": "krasnostawski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0607",
+   "nazwa": "kraśnicki",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0608",
+   "nazwa": "lubartowski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0609",
+   "nazwa": "lubelski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0610",
+   "nazwa": "łęczyński",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0611",
+   "nazwa": "łukowski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0612",
+   "nazwa": "opolski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0613",
+   "nazwa": "parczewski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0614",
+   "nazwa": "puławski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0615",
+   "nazwa": "radzyński",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0616",
+   "nazwa": "rycki",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0617",
+   "nazwa": "świdnicki",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0618",
+   "nazwa": "tomaszowski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0619",
+   "nazwa": "włodawski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0620",
+   "nazwa": "zamojski",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0661",
+   "nazwa": "Biała Podlaska",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0662",
+   "nazwa": "Chełm",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0663",
+   "nazwa": "Lublin",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0664",
+   "nazwa": "Zamość",
+   "wojewodztwo": "lubelskie"
+  },
+  {
+   "teryt": "0801",
+   "nazwa": "gorzowski",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0802",
+   "nazwa": "krośnieński",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0803",
+   "nazwa": "międzyrzecki",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0804",
+   "nazwa": "nowosolski",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0805",
+   "nazwa": "słubicki",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0806",
+   "nazwa": "strzelecko-drezdenecki",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0807",
+   "nazwa": "sulęciński",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0808",
+   "nazwa": "świebodziński",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0809",
+   "nazwa": "zielonogórski",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0810",
+   "nazwa": "żagański",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0811",
+   "nazwa": "żarski",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0812",
+   "nazwa": "wschowski",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0861",
+   "nazwa": "Gorzów Wielkopolski",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "0862",
+   "nazwa": "Zielona Góra",
+   "wojewodztwo": "lubuskie"
+  },
+  {
+   "teryt": "1001",
+   "nazwa": "bełchatowski",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1002",
+   "nazwa": "kutnowski",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1003",
+   "nazwa": "łaski",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1004",
+   "nazwa": "łęczycki",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1005",
+   "nazwa": "łowicki",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1006",
+   "nazwa": "łódzki wschodni",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1007",
+   "nazwa": "opoczyński",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1008",
+   "nazwa": "pabianicki",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1009",
+   "nazwa": "pajęczański",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1010",
+   "nazwa": "piotrkowski",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1011",
+   "nazwa": "poddębicki",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1012",
+   "nazwa": "radomszczański",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1013",
+   "nazwa": "rawski",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1014",
+   "nazwa": "sieradzki",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1015",
+   "nazwa": "skierniewicki",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1016",
+   "nazwa": "tomaszowski",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1017",
+   "nazwa": "wieluński",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1018",
+   "nazwa": "wieruszowski",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1019",
+   "nazwa": "zduńskowolski",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1020",
+   "nazwa": "zgierski",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1021",
+   "nazwa": "brzeziński",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1061",
+   "nazwa": "Lodz",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1062",
+   "nazwa": "Piotrków Trybunalski",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1063",
+   "nazwa": "Skierniewice",
+   "wojewodztwo": "łódzkie"
+  },
+  {
+   "teryt": "1201",
+   "nazwa": "bocheński",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1202",
+   "nazwa": "brzeski",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1203",
+   "nazwa": "chrzanowski",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1204",
+   "nazwa": "dąbrowski",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1205",
+   "nazwa": "gorlicki",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1206",
+   "nazwa": "krakowski",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1207",
+   "nazwa": "limanowski",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1208",
+   "nazwa": "miechowski",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1209",
+   "nazwa": "myślenicki",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1210",
+   "nazwa": "nowosądecki",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1211",
+   "nazwa": "nowotarski",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1212",
+   "nazwa": "olkuski",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1213",
+   "nazwa": "oświęcimski",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1214",
+   "nazwa": "proszowicki",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1215",
+   "nazwa": "suski",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1216",
+   "nazwa": "tarnowski",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1217",
+   "nazwa": "tatrzański",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1218",
+   "nazwa": "wadowicki",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1219",
+   "nazwa": "wielicki",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1261",
+   "nazwa": "Kraków",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1262",
+   "nazwa": "Nowy Sącz",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1263",
+   "nazwa": "Tarnów",
+   "wojewodztwo": "małopolskie"
+  },
+  {
+   "teryt": "1401",
+   "nazwa": "białobrzeski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1402",
+   "nazwa": "ciechanowski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1403",
+   "nazwa": "garwoliński",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1404",
+   "nazwa": "gostyniński",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1405",
+   "nazwa": "grodziski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1406",
+   "nazwa": "grójecki",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1407",
+   "nazwa": "kozienicki",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1408",
+   "nazwa": "legionowski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1409",
+   "nazwa": "lipski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1410",
+   "nazwa": "łosicki",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1411",
+   "nazwa": "makowski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1412",
+   "nazwa": "miński",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1413",
+   "nazwa": "mławski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1414",
+   "nazwa": "nowodworski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1415",
+   "nazwa": "ostrołęcki",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1416",
+   "nazwa": "ostrowski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1417",
+   "nazwa": "otwocki",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1418",
+   "nazwa": "piaseczyński",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1419",
+   "nazwa": "płocki",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1420",
+   "nazwa": "płoński",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1421",
+   "nazwa": "pruszkowski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1422",
+   "nazwa": "przasnyski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1423",
+   "nazwa": "przysuski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1424",
+   "nazwa": "pułtuski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1425",
+   "nazwa": "Radom County",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1426",
+   "nazwa": "siedlecki",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1427",
+   "nazwa": "sierpecki",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1428",
+   "nazwa": "sochaczewski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1429",
+   "nazwa": "sokołowski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1430",
+   "nazwa": "szydłowiecki",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1432",
+   "nazwa": "Warsaw West County",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1433",
+   "nazwa": "węgrowski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1434",
+   "nazwa": "wołomiński",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1435",
+   "nazwa": "wyszkowski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1436",
+   "nazwa": "zwoleński",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1437",
+   "nazwa": "żuromiński",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1438",
+   "nazwa": "żyrardowski",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1461",
+   "nazwa": "Ostrołęka",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1462",
+   "nazwa": "Płock",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1463",
+   "nazwa": "Radom",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1464",
+   "nazwa": "Siedlce",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1465",
+   "nazwa": "Warszawa",
+   "wojewodztwo": "mazowieckie"
+  },
+  {
+   "teryt": "1601",
+   "nazwa": "brzeski",
+   "wojewodztwo": "opolskie"
+  },
+  {
+   "teryt": "1602",
+   "nazwa": "Głubczyce County",
+   "wojewodztwo": "opolskie"
+  },
+  {
+   "teryt": "1603",
+   "nazwa": "kędzierzyńsko-kozielski",
+   "wojewodztwo": "opolskie"
+  },
+  {
+   "teryt": "1604",
+   "nazwa": "kluczborski",
+   "wojewodztwo": "opolskie"
+  },
+  {
+   "teryt": "1605",
+   "nazwa": "krapkowicki",
+   "wojewodztwo": "opolskie"
+  },
+  {
+   "teryt": "1606",
+   "nazwa": "namysłowski",
+   "wojewodztwo": "opolskie"
+  },
+  {
+   "teryt": "1607",
+   "nazwa": "nyski",
+   "wojewodztwo": "opolskie"
+  },
+  {
+   "teryt": "1608",
+   "nazwa": "oleski",
+   "wojewodztwo": "opolskie"
+  },
+  {
+   "teryt": "1609",
+   "nazwa": "opolski",
+   "wojewodztwo": "opolskie"
+  },
+  {
+   "teryt": "1610",
+   "nazwa": "prudnicki",
+   "wojewodztwo": "opolskie"
+  },
+  {
+   "teryt": "1611",
+   "nazwa": "strzelecki",
+   "wojewodztwo": "opolskie"
+  },
+  {
+   "teryt": "1661",
+   "nazwa": "Opole",
+   "wojewodztwo": "opolskie"
+  },
+  {
+   "teryt": "1801",
+   "nazwa": "bieszczadzki",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1802",
+   "nazwa": "brzozowski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1803",
+   "nazwa": "dębicki",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1804",
+   "nazwa": "jarosławski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1805",
+   "nazwa": "jasielski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1806",
+   "nazwa": "kolbuszowski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1807",
+   "nazwa": "krośnieński",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1808",
+   "nazwa": "leżajski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1809",
+   "nazwa": "lubaczowski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1810",
+   "nazwa": "łańcucki",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1811",
+   "nazwa": "mielecki",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1812",
+   "nazwa": "niżański",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1813",
+   "nazwa": "przemyski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1814",
+   "nazwa": "przeworski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1815",
+   "nazwa": "ropczycko-sędziszowski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1816",
+   "nazwa": "Rzeszów County",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1817",
+   "nazwa": "sanocki",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1818",
+   "nazwa": "stalowowolski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1819",
+   "nazwa": "strzyżowski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1820",
+   "nazwa": "tarnobrzeski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1821",
+   "nazwa": "leski",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1861",
+   "nazwa": "Krosno",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1862",
+   "nazwa": "Przemyśl",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1863",
+   "nazwa": "Rzeszów",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "1864",
+   "nazwa": "Tarnobrzeg",
+   "wojewodztwo": "podkarpackie"
+  },
+  {
+   "teryt": "2001",
+   "nazwa": "augustowski",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2002",
+   "nazwa": "białostocki",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2003",
+   "nazwa": "bielski",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2004",
+   "nazwa": "grajewski",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2005",
+   "nazwa": "hajnowski",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2006",
+   "nazwa": "kolneński",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2007",
+   "nazwa": "Łomża County",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2008",
+   "nazwa": "moniecki",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2009",
+   "nazwa": "sejneński",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2010",
+   "nazwa": "siemiatycki",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2011",
+   "nazwa": "sokólski",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2012",
+   "nazwa": "suwalski",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2013",
+   "nazwa": "wysokomazowiecki",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2014",
+   "nazwa": "zambrowski",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2061",
+   "nazwa": "Białystok",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2062",
+   "nazwa": "Łomża",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2063",
+   "nazwa": "Suwałki",
+   "wojewodztwo": "podlaskie"
+  },
+  {
+   "teryt": "2201",
+   "nazwa": "bytowski",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2202",
+   "nazwa": "chojnicki",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2203",
+   "nazwa": "człuchowski",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2204",
+   "nazwa": "Gdańsk County",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2205",
+   "nazwa": "kartuski",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2206",
+   "nazwa": "kościerski",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2207",
+   "nazwa": "kwidzyński",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2208",
+   "nazwa": "lęborski",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2209",
+   "nazwa": "malborski",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2210",
+   "nazwa": "nowodworski",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2211",
+   "nazwa": "pucki",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2212",
+   "nazwa": "słupski",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2213",
+   "nazwa": "starogardzki",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2214",
+   "nazwa": "tczewski",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2215",
+   "nazwa": "wejherowski",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2216",
+   "nazwa": "sztumski",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2261",
+   "nazwa": "Gdańsk",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2262",
+   "nazwa": "Gdynia",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2263",
+   "nazwa": "Słupsk",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2264",
+   "nazwa": "Sopot",
+   "wojewodztwo": "pomorskie"
+  },
+  {
+   "teryt": "2401",
+   "nazwa": "będziński",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2402",
+   "nazwa": "Bielsko-Biała County",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2403",
+   "nazwa": "cieszyński",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2404",
+   "nazwa": "częstochowski",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2405",
+   "nazwa": "gliwicki",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2406",
+   "nazwa": "kłobucki",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2407",
+   "nazwa": "lubliniecki",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2408",
+   "nazwa": "mikołowski",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2409",
+   "nazwa": "myszkowski",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2410",
+   "nazwa": "pszczyński",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2411",
+   "nazwa": "raciborski",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2412",
+   "nazwa": "rybnicki",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2413",
+   "nazwa": "tarnogórski",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2414",
+   "nazwa": "bieruńsko-lędziński",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2415",
+   "nazwa": "Wodzisław County",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2416",
+   "nazwa": "zawierciański",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2417",
+   "nazwa": "żywiecki",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2461",
+   "nazwa": "Bielsko-Biała",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2462",
+   "nazwa": "Bytom",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2463",
+   "nazwa": "Chorzów",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2464",
+   "nazwa": "Częstochowa",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2465",
+   "nazwa": "Dąbrowa Górnicza",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2466",
+   "nazwa": "Gliwice",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2467",
+   "nazwa": "Jastrzębie-Zdrój",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2468",
+   "nazwa": "Jaworzno",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2469",
+   "nazwa": "Katowice",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2470",
+   "nazwa": "Mysłowice",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2471",
+   "nazwa": "Piekary Śląskie",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2472",
+   "nazwa": "Ruda Śląska",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2473",
+   "nazwa": "Rybnik",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2474",
+   "nazwa": "Siemianowice Śląskie",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2475",
+   "nazwa": "Sosnowiec",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2476",
+   "nazwa": "Świętochłowice",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2477",
+   "nazwa": "Tychy",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2478",
+   "nazwa": "Zabrze",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2479",
+   "nazwa": "Żory",
+   "wojewodztwo": "śląskie"
+  },
+  {
+   "teryt": "2601",
+   "nazwa": "buski",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2602",
+   "nazwa": "jędrzejowski",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2603",
+   "nazwa": "kazimierski",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2604",
+   "nazwa": "kielecki",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2605",
+   "nazwa": "konecki",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2606",
+   "nazwa": "opatowski",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2607",
+   "nazwa": "ostrowiecki",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2608",
+   "nazwa": "pińczowski",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2609",
+   "nazwa": "sandomierski",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2610",
+   "nazwa": "skarżyski",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2611",
+   "nazwa": "starachowicki",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2612",
+   "nazwa": "Staszów County",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2613",
+   "nazwa": "włoszczowski",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2661",
+   "nazwa": "Kielce",
+   "wojewodztwo": "świętokrzyskie"
+  },
+  {
+   "teryt": "2801",
+   "nazwa": "bartoszycki",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2802",
+   "nazwa": "braniewski",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2803",
+   "nazwa": "działdowski",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2804",
+   "nazwa": "elbląski",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2805",
+   "nazwa": "ełcki",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2806",
+   "nazwa": "giżycki",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2807",
+   "nazwa": "iławski",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2808",
+   "nazwa": "kętrzyński",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2809",
+   "nazwa": "lidzbarski",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2810",
+   "nazwa": "mrągowski",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2811",
+   "nazwa": "nidzicki",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2812",
+   "nazwa": "nowomiejski",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2813",
+   "nazwa": "olecki",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2814",
+   "nazwa": "olsztyński",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2815",
+   "nazwa": "ostródzki",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2816",
+   "nazwa": "piski",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2817",
+   "nazwa": "szczycieński",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2818",
+   "nazwa": "gołdapski",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2819",
+   "nazwa": "węgorzewski",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2861",
+   "nazwa": "Elbląg",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "2862",
+   "nazwa": "Olsztyn",
+   "wojewodztwo": "warmińsko-mazurskie"
+  },
+  {
+   "teryt": "3001",
+   "nazwa": "chodzieski",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3002",
+   "nazwa": "czarnkowsko-trzcianecki",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3003",
+   "nazwa": "gnieźnieński",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3004",
+   "nazwa": "gostyński",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3005",
+   "nazwa": "grodziski",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3006",
+   "nazwa": "jarociński",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3007",
+   "nazwa": "kaliski",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3008",
+   "nazwa": "kępiński",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3009",
+   "nazwa": "kolski",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3010",
+   "nazwa": "Konin County",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3011",
+   "nazwa": "kościański",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3012",
+   "nazwa": "krotoszyński",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3013",
+   "nazwa": "Leszno_County",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3014",
+   "nazwa": "międzychodzki",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3015",
+   "nazwa": "nowotomyski",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3016",
+   "nazwa": "obornicki",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3017",
+   "nazwa": "ostrowski",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3018",
+   "nazwa": "ostrzeszowski",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3019",
+   "nazwa": "pilski",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3020",
+   "nazwa": "pleszewski",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3021",
+   "nazwa": "poznański",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3022",
+   "nazwa": "rawicki",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3023",
+   "nazwa": "słupecki",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3024",
+   "nazwa": "szamotulski",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3025",
+   "nazwa": "średzki",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3026",
+   "nazwa": "śremski",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3027",
+   "nazwa": "turecki",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3028",
+   "nazwa": "wągrowiecki",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3029",
+   "nazwa": "wolsztyński",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3030",
+   "nazwa": "wrzesiński",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3031",
+   "nazwa": "złotowski",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3061",
+   "nazwa": "Kalisz",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3062",
+   "nazwa": "Konin",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3063",
+   "nazwa": "Leszno",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3064",
+   "nazwa": "Poznań",
+   "wojewodztwo": "wielkopolskie"
+  },
+  {
+   "teryt": "3201",
+   "nazwa": "białogardzki",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3202",
+   "nazwa": "choszczeński",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3203",
+   "nazwa": "drawski",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3204",
+   "nazwa": "goleniowski",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3205",
+   "nazwa": "gryficki",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3206",
+   "nazwa": "gryfiński",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3207",
+   "nazwa": "kamieński",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3208",
+   "nazwa": "kołobrzeski",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3209",
+   "nazwa": "koszaliński",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3210",
+   "nazwa": "myśliborski",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3211",
+   "nazwa": "policki",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3212",
+   "nazwa": "pyrzycki",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3213",
+   "nazwa": "sławieński",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3214",
+   "nazwa": "stargardzki",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3215",
+   "nazwa": "szczecinecki",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3216",
+   "nazwa": "świdwiński",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3217",
+   "nazwa": "wałecki",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3218",
+   "nazwa": "łobeski",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3261",
+   "nazwa": "Koszalin",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3262",
+   "nazwa": "Szczecin",
+   "wojewodztwo": "zachodniopomorskie"
+  },
+  {
+   "teryt": "3263",
+   "nazwa": "Świnoujście",
+   "wojewodztwo": "zachodniopomorskie"
+  }
+ ]
+}

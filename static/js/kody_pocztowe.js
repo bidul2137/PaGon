@@ -30,6 +30,7 @@
   var elHistoria = document.getElementById("kpHistoria");
   var elHistoriaLista = document.getElementById("kpHistoriaLista");
   var elCzyscHistorie = document.getElementById("kpCzyscHistorie");
+  var elLokalizacja = document.getElementById("kpLokalizacja");
   if (!elForm || !elWejscie) return;
 
   var BAZA = null;
@@ -107,8 +108,29 @@
       powiat: r[4] >= 0 ? s.powiaty[r[4]] : null,
       wojewodztwo: r[5] >= 0 ? s.wojewodztwa[r[5]] : null,
       pewny: r[6] === 0,
-      uwaga: r[7] >= 0 ? s.uwagi[r[7]] : null
+      uwaga: r[7] >= 0 ? s.uwagi[r[7]] : null,
+      lat: typeof r[8] === "number" ? r[8] : null,
+      lon: typeof r[9] === "number" ? r[9] : null
     };
+  }
+
+  // Odległość po powierzchni kuli (wzór haversine). Do wskazania najbliższej
+  // miejscowości w skali kilkudziesięciu kilometrów w zupełności wystarcza.
+  function odlegloscKm(lat1, lon1, lat2, lon2) {
+    var R = 6371;
+    var rad = Math.PI / 180;
+    var dLat = (lat2 - lat1) * rad;
+    var dLon = (lon2 - lon1) * rad;
+    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(lat1 * rad) * Math.cos(lat2 * rad) *
+      Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    return 2 * R * Math.asin(Math.min(1, Math.sqrt(a)));
+  }
+
+  function opiszOdleglosc(km) {
+    if (km < 1) return Math.round(km * 1000) + " m";
+    if (km < 10) return km.toFixed(1).replace(".", ",") + " km";
+    return Math.round(km) + " km";
   }
 
   function kontekst(r) {
@@ -430,6 +452,125 @@
     return k;
   }
 
+  /* ================= wyszukiwanie po lokalizacji ================= */
+
+  var MAX_NAJBLIZSZYCH = 6;
+
+  function najblizsze(lat, lon) {
+    // Najpierw odsiewamy po prostokącie — porównanie liczb jest wielokrotnie
+    // tańsze od haversine, a przy 73 tys. rekordów to widać. Prostokąt
+    // rozszerzamy, dopóki cokolwiek się w nim nie znajdzie.
+    var wynik = [];
+    for (var zasieg = 0.35; zasieg <= 6 && wynik.length < MAX_NAJBLIZSZYCH; zasieg *= 3) {
+      wynik = [];
+      var dlugoscOkno = zasieg / Math.max(0.2, Math.cos(lat * Math.PI / 180));
+      for (var i = 0; i < BAZA.rekordy.length; i++) {
+        var r = BAZA.rekordy[i];
+        var rlat = r[8], rlon = r[9];
+        if (typeof rlat !== "number" || typeof rlon !== "number") continue;
+        if (Math.abs(rlat - lat) > zasieg || Math.abs(rlon - lon) > dlugoscOkno) continue;
+        wynik.push({ i: i, km: odlegloscKm(lat, lon, rlat, rlon) });
+      }
+    }
+    wynik.sort(function (a, b) { return a.km - b.km; });
+
+    // Ta sama miejscowość bywa w bazie kilka razy pod tym samym kodem —
+    // pokazujemy ją raz.
+    var widziane = new Set(), wybrane = [];
+    for (var j = 0; j < wynik.length && wybrane.length < MAX_NAJBLIZSZYCH; j++) {
+      var rek_ = rek(wynik[j].i);
+      var klucz = rek_.kod + "|" + rek_.nazwaNorm;
+      if (widziane.has(klucz)) continue;
+      widziane.add(klucz);
+      wybrane.push({ r: rek_, km: wynik[j].km });
+    }
+    return wybrane;
+  }
+
+  function szukajPoLokalizacji() {
+    if (!elLokalizacja) return;
+
+    function koniec() {
+      elLokalizacja.removeAttribute("aria-busy");
+      elLokalizacja.disabled = false;
+    }
+
+    if (!navigator.geolocation) {
+      pokaz([komunikat("uwaga", "To urządzenie nie udostępnia lokalizacji. " +
+        "Wpisz kod lub nazwę miejscowości ręcznie.")]);
+      return;
+    }
+    if (!BAZA) {
+      pokaz([komunikat("uwaga", "Baza kodów nie została jeszcze zaimportowana.")]);
+      return;
+    }
+
+    elLokalizacja.setAttribute("aria-busy", "true");
+    elLokalizacja.disabled = true;
+    pokaz([komunikat("info", "Ustalam pozycję…")]);
+
+    navigator.geolocation.getCurrentPosition(function (poz) {
+      koniec();
+      var lat = poz.coords.latitude, lon = poz.coords.longitude;
+      var lista = najblizsze(lat, lon);
+      if (!lista.length) {
+        pokaz([komunikat("brak", "W bazie nie ma miejscowości w pobliżu tej pozycji. " +
+          "Baza obejmuje wyłącznie Polskę.")]);
+        return;
+      }
+
+      var naglowek = el("div", "kp-karta");
+      naglowek.appendChild(el("p", "kp-nadtytul", "Twoja lokalizacja"));
+      naglowek.appendChild(el("h2", "kp-miejscowosc", lista[0].r.miejscowosc));
+      naglowek.appendChild(el("p", "kp-poz-kontekst", kontekst(lista[0].r)));
+      var badge = el("span", "kp-kod-badge", lista[0].r.kod);
+      naglowek.appendChild(badge);
+      naglowek.appendChild(el("span", "kp-odleglosc", opiszOdleglosc(lista[0].km)));
+      if (poz.coords.accuracy) {
+        naglowek.appendChild(el("p", "kp-podpowiedz",
+          "Dokładność pozycji z urządzenia: około " +
+          Math.round(poz.coords.accuracy) + " m. Odległość liczona do środka " +
+          "zabudowy miejscowości, więc jest orientacyjna."));
+      }
+      var akcje = el("div", "kp-akcje");
+      akcje.appendChild(przyciskKopiuj(lista[0].r.kod));
+      akcje.appendChild(przyciskNowe());
+      naglowek.appendChild(akcje);
+
+      var dzieci = [naglowek];
+      if (lista.length > 1) {
+        var dalsze = el("div", "kp-karta");
+        dalsze.appendChild(el("p", "kp-nadtytul", "Inne miejscowości w pobliżu"));
+        lista.slice(1).forEach(function (w) {
+          var b = el("button", "kp-poz");
+          b.type = "button";
+          var glowna = el("span", "kp-poz-glowna");
+          glowna.appendChild(el("span", null, w.r.kod + "  " + w.r.miejscowosc));
+          glowna.appendChild(el("span", "kp-odleglosc", opiszOdleglosc(w.km)));
+          b.appendChild(glowna);
+          b.appendChild(el("span", "kp-poz-kontekst", kontekst(w.r)));
+          b.addEventListener("click", function () { wybierzKod(w.r.kod); });
+          dalsze.appendChild(b);
+        });
+        dzieci.push(dalsze);
+      }
+      dzieci.push(komunikat("info", "Pozycja została użyta wyłącznie na tym urządzeniu, " +
+        "do porównania z lokalną bazą. Nie została nigdzie wysłana ani zapisana."));
+      pokaz(dzieci);
+    }, function (blad) {
+      koniec();
+      var tresc = "Nie udało się ustalić pozycji. Wpisz kod lub nazwę miejscowości ręcznie.";
+      if (blad && blad.code === 1) {
+        tresc = "Brak zgody na dostęp do lokalizacji. Możesz jej udzielić w ustawieniach " +
+          "przeglądarki albo wpisać kod lub nazwę miejscowości ręcznie.";
+      } else if (blad && blad.code === 3) {
+        tresc = "Ustalanie pozycji trwało zbyt długo. Spróbuj ponownie na otwartej " +
+          "przestrzeni albo wpisz dane ręcznie.";
+      }
+      pokaz([komunikat("uwaga", tresc)]);
+    }, { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 });
+  }
+
   function brakWyniku(wpis) {
     pokaz([komunikat("brak", "Nie znaleziono danych dla „" + wpis +
       "”. Sprawdź pisownię lub wpisz kod w formacie 11-040.")]);
@@ -567,6 +708,8 @@
   });
 
   elForm.addEventListener("submit", function (e) { e.preventDefault(); szukaj(); });
+
+  if (elLokalizacja) elLokalizacja.addEventListener("click", szukajPoLokalizacji);
 
   elCzysc.addEventListener("click", function () {
     elWejscie.value = "";
