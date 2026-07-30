@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% block title %}PaGon — znak {{ znak.code }}{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/znaki.css') }}">
+
+<div class="tar-page kpj-page zn-page" data-wersja="{{ wersja }}"
+     data-kod="{{ znak.code }}" data-nazwa="{{ znak.name or '' }}"
+     data-img="{{ znak.image_path or '' }}">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce_znaki_kategoria', seria=znak.category_id) }}"
+       class="tar-back" aria-label="Powrót do kategorii {{ znak.category_name }}">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title zn-tytul">{{ znak.code }}</h1>
+      <p class="kpj-lead">{{ znak.name or '—' }}</p>
+    </div>
+    <button type="button" class="zn-gwiazdka" id="znGwiazdka" aria-pressed="false"
+            aria-label="Dodaj znak {{ znak.code }} do ulubionych">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+        <path d="M12 17.3l-5.4 3.1 1.4-6.1-4.6-4.1 6.2-.6L12 3.9l2.4 5.7 6.2.6-4.6 4.1 1.4 6.1z"/>
+      </svg>
+    </button>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+
+    <div class="zn-scena">
+      {% if znak.image_path %}
+        <img src="{{ url_for('static', filename=znak.image_path) }}"
+             alt="Znak {{ znak.code }} — {{ znak.name or '' }}" class="zn-scena-img" id="znObraz">
+        <button type="button" class="zn-btn zn-btn--maly" id="znPowieksz"
+                aria-label="Powiększ grafikę znaku {{ znak.code }}">Powiększ znak</button>
+      {% else %}
+        <p class="zn-scena-brak">Brak grafiki tego znaku w lokalnej bazie.</p>
+      {% endif %}
+      <p class="zn-scena-kat">{{ znak.category_name }} · seria {{ znak.category_id }}</p>
+    </div>
+
+    <section class="kal-karta zn-karta zn-karta--glowna">
+      <p class="kal-sekcja-tytul">Co oznacza?</p>
+      <p class="zn-znaczenie">{{ znak.short_description or znak.name or '—' }}</p>
+    </section>
+
+    {% if znak.details and znak.details != znak.short_description %}
+      <section class="kal-karta zn-karta">
+        <p class="kal-sekcja-tytul">Szczegóły</p>
+        <p class="zn-szczegoly">{{ znak.details }}</p>
+      </section>
+    {% endif %}
+
+    {% if powiazane %}
+      <section class="zn-sekcja">
+        <h2 class="kal-sekcja-tytul">Powiązane znaki</h2>
+        <div class="zn-mini">
+          {% for p in powiazane %}
+            <a class="zn-mini-karta" href="{{ url_for('pomoce_znaki_znak', kod=p.code) }}">
+              <span class="zn-mini-ikona">
+                {% if p.image_path %}
+                  <img src="{{ url_for('static', filename=p.image_path) }}" alt="" loading="lazy">
+                {% else %}<span class="zn-brak-ikony" aria-hidden="true">{{ p.code }}</span>{% endif %}
+              </span>
+              <span class="zn-mini-kod">{{ p.code }}</span>
+              <span class="zn-mini-nazwa">{{ p.name or '' }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    <details class="zn-podstawa">
+      <summary>Podstawa prawna{% if znak.legal_basis.provision_reference %} — {{ znak.legal_basis.provision_reference }}{% endif %}</summary>
+      <div class="zn-podstawa-tresc">
+        <p class="zn-akt">{{ znak.legal_basis.act_title }}</p>
+        <p class="zn-akt-nr">{{ znak.legal_basis.journal_reference }}</p>
+        {% if znak.legal_basis.source_text %}
+          <p class="zn-cytat">{{ znak.legal_basis.source_text }}</p>
+        {% endif %}
+        <p class="zn-akt-meta">Weryfikacja: {{ znak.legal_basis.verified_at }} ·
+          status: {{ 'pełna' if znak.verification_status == 'verified' else 'częściowa' }}</p>
+        {% if znak.verification_note %}
+          <p class="zn-akt-meta">{{ znak.verification_note }}</p>
+        {% endif %}
+      </div>
+    </details>
+  </main>
+</div>
+
+<div class="zn-podglad" id="znPodglad" hidden role="dialog" aria-modal="true"
+     aria-label="Powiększona grafika znaku {{ znak.code }}">
+  <button type="button" class="zn-podglad-zamknij" id="znPodgladZamknij" aria-label="Zamknij podgląd">×</button>
+  {% if znak.image_path %}
+    <img src="{{ url_for('static', filename=znak.image_path) }}" alt="Znak {{ znak.code }}">
+  {% endif %}
+</div>
+
+<script src="{{ static_v('js/znaki.js') }}" defer></script>
+{% endblock %}

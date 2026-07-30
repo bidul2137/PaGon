@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Tablica ADR{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/adr.css') }}">
+
+<div class="tar-page kpj-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Tablica ADR</h1>
+      <p class="kpj-lead">Wpisz kod zagrożenia lub numer UN, aby sprawdzić oznakowanie materiału
+        niebezpiecznego.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+
+    <!-- ====== Interaktywna tablica ====== -->
+    <form class="adr-tablica-form" id="adrForm" autocomplete="off" novalidate>
+      <div class="adr-tablica">
+        <div class="adr-pole adr-pole--gora">
+          <label class="adr-pole-etykieta" for="dangerCodeInput">Kod zagrożenia</label>
+          <input type="text" id="dangerCodeInput" name="dangerCode" class="adr-input"
+                 aria-label="Kod zagrożenia ADR" inputmode="numeric" maxlength="4"
+                 placeholder="Kod zagrożenia" spellcheck="false">
+        </div>
+        <div class="adr-pole adr-pole--dol">
+          <label class="adr-pole-etykieta" for="unNumberInput">Numer UN</label>
+          <input type="text" id="unNumberInput" name="unNumber" class="adr-input"
+                 aria-label="Numer UN ADR" inputmode="numeric" maxlength="7"
+                 placeholder="Numer UN" spellcheck="false">
+        </div>
+      </div>
+
+      <div class="adr-akcje">
+        <button type="submit" class="adr-btn adr-btn--glowny" id="adrSprawdz"
+                aria-label="Sprawdź oznakowanie ADR">Sprawdź oznakowanie</button>
+        <button type="button" class="adr-btn" id="adrWyczysc"
+                aria-label="Wyczyść pola tablicy">Wyczyść</button>
+      </div>
+    </form>
+
+    <!-- ====== Wyszukiwanie po nazwie ====== -->
+    <div class="adr-szukaj">
+      <label class="adr-szukaj-label" for="adrNameSearch">Szukaj po nazwie lub numerze UN</label>
+      <input type="text" id="adrNameSearch" class="adr-szukaj-input"
+             aria-label="Szukaj materiału po nazwie lub numerze UN"
+             placeholder="Np. benzyna, propan, UN 1203" spellcheck="false"
+             role="combobox" aria-expanded="false" aria-autocomplete="list"
+             aria-controls="adrPodpowiedzi">
+      <ul class="adr-podpowiedzi" id="adrPodpowiedzi" role="listbox" hidden
+          aria-label="Podpowiedzi materiałów"></ul>
+    </div>
+
+    <!-- ====== Wyniki ====== -->
+    <div id="adrWyniki" aria-live="polite" data-wersja="{{ wersja_bazy }}"></div>
+
+    <!-- ====== Historia ====== -->
+    <section class="adr-historia" id="adrHistoria" hidden>
+      <div class="adr-historia-head">
+        <h2 class="kal-sekcja-tytul">Ostatnio sprawdzane</h2>
+        <button type="button" class="adr-btn adr-btn--maly" id="adrWyczyscHistorie"
+                aria-label="Wyczyść historię sprawdzanych numerów UN">Wyczyść historię</button>
+      </div>
+      <ul class="adr-historia-lista" id="adrHistoriaLista"></ul>
+    </section>
+
+    <p class="kpj-zrodlo" id="adrZrodlo">Dane: ADR 2025, Dz.U. 2025 poz. 642. Baza działa offline.</p>
+
+  </main>
+
+</div>
+
+<script src="{{ static_v('js/adr.js') }}" defer></script>
+{% endblock %}

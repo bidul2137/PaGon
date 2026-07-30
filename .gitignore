@@ -4,3 +4,5 @@ __pycache__/
 venv/
 .pa_token
 static/pdf_cache/
+tools/arkusze/
+tools/arkusze_sklejone/

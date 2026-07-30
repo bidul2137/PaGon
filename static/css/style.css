@@ -1068,6 +1068,10 @@ body {
   object-fit: contain;
   flex-shrink: 0;
   margin-left: 18px;
+  /* poswiata jak przy ikonach menu glownego (.menu-page .di-ico) — logotypy
+     naglowkow sa przezroczyste, wiec drop-shadow obrysowuje sam ksztalt */
+  filter: drop-shadow(0 0 10px rgba(150, 185, 240, 0.35))
+          drop-shadow(0 0 24px rgba(120, 160, 230, 0.18));
 }
 .tar-brand { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 /* podstrony bez logo: tytul zaczyna sie za strzalka powrotu, zeby jej nie zachodzil */
@@ -1372,6 +1376,10 @@ body {
   border-radius: 8px;
 }
 .tar-modal-przepis-head { font-size: 12px; font-weight: 600; color: var(--t-head); margin-bottom: 4px; }
+/* własna nazwa artykułu obok jego oznaczenia (KW/PRD nie mają tytułów urzędowych) */
+.tar-modal-przepis-nazwa { display: block; margin-top: 2px; font-size: 11px; font-weight: 500;
+  line-height: 1.45; color: var(--t-gold-2); opacity: .95; }
+.tar-modal-przepis--rel .tar-modal-przepis-nazwa { color: var(--t-dim); }
 .tar-modal-przepis-body { font-size: 12px; line-height: 1.6; color: var(--t-text); opacity: 0.92; }
 /* przepis powiązany (artykuł przywołany dla zrozumienia jednostki) */
 .tar-modal-przepis--rel { border-left: 2px solid rgba(150, 185, 235, 0.35); padding-left: 9px; opacity: 0.82; }

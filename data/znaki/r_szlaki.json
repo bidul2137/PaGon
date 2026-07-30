@@ -1,0 +1,331 @@
+[
+ {
+  "id": "R-1",
+  "code": "R-1",
+  "category_id": "R",
+  "category_name": "Dodatkowe znaki szlaków i tras turystycznych",
+  "name": "szlak rowerowy lokalny",
+  "short_description": "Oznaczają odpowiednio przebieg szlaku rowerowego lokalnego.",
+  "details": "1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego.",
+  "image_path": "img/znaki/R-1.png",
+  "keywords": [
+   "lokalny",
+   "r-1",
+   "r1",
+   "rowerowy",
+   "szlak"
+  ],
+  "related_sign_ids": [
+   "R-1a",
+   "R-1b"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 83",
+   "source_text": "§ 83. 1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego. 2. (uchylony). Dziennik Ustaw – 22 – Poz. 2310 3. Znak R-3 „tablica szlaku rowerowego lokalnego” wskazuje odległość do głównych miejscowości położonych przy szlaku rowerowym lokalnym. 4. Znak R-4 „informacja o szlaku rowerowym” wskazuje rodzaj szlaku rowerowego. Umieszczona pod znakiem R-4 tabliczka informuje o utrudnieniu występującym na szlaku rowerowym. 5. Na znaku R-4 w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak rowe￾rowy. 6. Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. 7. Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek. 8. Na znaku R-4b w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak ro￾werowy. Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku ",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "R-1a",
+  "code": "R-1a",
+  "category_id": "R",
+  "category_name": "Dodatkowe znaki szlaków i tras turystycznych",
+  "name": "początek (koniec) szlaku rowerowego lokalnego",
+  "short_description": "Oznaczają odpowiednio przebieg szlaku rowerowego lokalnego.",
+  "details": "1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego.",
+  "image_path": "img/znaki/R-1a.png",
+  "keywords": [
+   "koniec",
+   "lokalnego",
+   "początek",
+   "r-1a",
+   "r1a",
+   "rowerowego",
+   "szlaku"
+  ],
+  "related_sign_ids": [
+   "R-1",
+   "R-1b"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 83",
+   "source_text": "§ 83. 1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego. 2. (uchylony). Dziennik Ustaw – 22 – Poz. 2310 3. Znak R-3 „tablica szlaku rowerowego lokalnego” wskazuje odległość do głównych miejscowości położonych przy szlaku rowerowym lokalnym. 4. Znak R-4 „informacja o szlaku rowerowym” wskazuje rodzaj szlaku rowerowego. Umieszczona pod znakiem R-4 tabliczka informuje o utrudnieniu występującym na szlaku rowerowym. 5. Na znaku R-4 w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak rowe￾rowy. 6. Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. 7. Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek. 8. Na znaku R-4b w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak ro￾werowy. Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku ",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "R-1b",
+  "code": "R-1b",
+  "category_id": "R",
+  "category_name": "Dodatkowe znaki szlaków i tras turystycznych",
+  "name": "zmiana kierunku szlaku rowerowego lokalnego",
+  "short_description": "Oznaczają odpowiednio przebieg szlaku rowerowego lokalnego.",
+  "details": "1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego.",
+  "image_path": "img/znaki/R-1b.png",
+  "keywords": [
+   "kierunku",
+   "lokalnego",
+   "r-1b",
+   "r1b",
+   "rowerowego",
+   "szlaku",
+   "zmiana"
+  ],
+  "related_sign_ids": [
+   "R-1",
+   "R-1a"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 83",
+   "source_text": "§ 83. 1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego. 2. (uchylony). Dziennik Ustaw – 22 – Poz. 2310 3. Znak R-3 „tablica szlaku rowerowego lokalnego” wskazuje odległość do głównych miejscowości położonych przy szlaku rowerowym lokalnym. 4. Znak R-4 „informacja o szlaku rowerowym” wskazuje rodzaj szlaku rowerowego. Umieszczona pod znakiem R-4 tabliczka informuje o utrudnieniu występującym na szlaku rowerowym. 5. Na znaku R-4 w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak rowe￾rowy. 6. Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. 7. Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek. 8. Na znaku R-4b w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak ro￾werowy. Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku ",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "R-3",
+  "code": "R-3",
+  "category_id": "R",
+  "category_name": "Dodatkowe znaki szlaków i tras turystycznych",
+  "name": "tablica szlaku rowerowego lokalnego",
+  "short_description": "Wskazuje odległość do głównych miejscowości położonych przy szlaku rowerowym lokalnym.",
+  "details": "Znak R-3 „tablica szlaku rowerowego lokalnego” wskazuje odległość do głównych miejscowości położonych przy szlaku rowerowym lokalnym.",
+  "image_path": "img/znaki/R-3.png",
+  "keywords": [
+   "lokalnego",
+   "r-3",
+   "r3",
+   "rowerowego",
+   "szlaku",
+   "tablica"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 83",
+   "source_text": "§ 83. 1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego. 2. (uchylony). Dziennik Ustaw – 22 – Poz. 2310 3. Znak R-3 „tablica szlaku rowerowego lokalnego” wskazuje odległość do głównych miejscowości położonych przy szlaku rowerowym lokalnym. 4. Znak R-4 „informacja o szlaku rowerowym” wskazuje rodzaj szlaku rowerowego. Umieszczona pod znakiem R-4 tabliczka informuje o utrudnieniu występującym na szlaku rowerowym. 5. Na znaku R-4 w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak rowe￾rowy. 6. Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. 7. Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek. 8. Na znaku R-4b w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak ro￾werowy. Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku ",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "R-4",
+  "code": "R-4",
+  "category_id": "R",
+  "category_name": "Dodatkowe znaki szlaków i tras turystycznych",
+  "name": "informacja o szlaku rowerowym",
+  "short_description": "Wskazuje rodzaj szlaku rowerowego.",
+  "details": "Znak R-4 „informacja o szlaku rowerowym” wskazuje rodzaj szlaku rowerowego. Umieszczona pod znakiem R-4 tabliczka informuje o utrudnieniu występującym na szlaku rowerowym. Na znaku R-4 w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak rowe￾rowy. Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego.",
+  "image_path": "img/znaki/R-4.png",
+  "keywords": [
+   "informacja",
+   "r-4",
+   "r4",
+   "rowerowym",
+   "szlaku"
+  ],
+  "related_sign_ids": [
+   "R-4a",
+   "R-4b",
+   "R-4c",
+   "R-4d",
+   "R-4e"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 83",
+   "source_text": "§ 83. 1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego. 2. (uchylony). Dziennik Ustaw – 22 – Poz. 2310 3. Znak R-3 „tablica szlaku rowerowego lokalnego” wskazuje odległość do głównych miejscowości położonych przy szlaku rowerowym lokalnym. 4. Znak R-4 „informacja o szlaku rowerowym” wskazuje rodzaj szlaku rowerowego. Umieszczona pod znakiem R-4 tabliczka informuje o utrudnieniu występującym na szlaku rowerowym. 5. Na znaku R-4 w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak rowe￾rowy. 6. Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. 7. Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek. 8. Na znaku R-4b w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak ro￾werowy. Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku ",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "R-4a",
+  "code": "R-4a",
+  "category_id": "R",
+  "category_name": "Dodatkowe znaki szlaków i tras turystycznych",
+  "name": "informacja o rzeczywistym przebiegu szlaku rowerowego",
+  "short_description": "Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek.",
+  "details": "Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek.",
+  "image_path": null,
+  "keywords": [
+   "informacja",
+   "przebiegu",
+   "r-4a",
+   "r4a",
+   "rowerowego",
+   "rzeczywistym",
+   "szlaku"
+  ],
+  "related_sign_ids": [
+   "R-4",
+   "R-4b",
+   "R-4c",
+   "R-4d",
+   "R-4e"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 83",
+   "source_text": "§ 83. 1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego. 2. (uchylony). Dziennik Ustaw – 22 – Poz. 2310 3. Znak R-3 „tablica szlaku rowerowego lokalnego” wskazuje odległość do głównych miejscowości położonych przy szlaku rowerowym lokalnym. 4. Znak R-4 „informacja o szlaku rowerowym” wskazuje rodzaj szlaku rowerowego. Umieszczona pod znakiem R-4 tabliczka informuje o utrudnieniu występującym na szlaku rowerowym. 5. Na znaku R-4 w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak rowe￾rowy. 6. Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. 7. Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek. 8. Na znaku R-4b w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak ro￾werowy. Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku ",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "R-4b",
+  "code": "R-4b",
+  "category_id": "R",
+  "category_name": "Dodatkowe znaki szlaków i tras turystycznych",
+  "name": "zmiana kierunku szlaku rowerowego",
+  "short_description": "Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku rowerowym.",
+  "details": "Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. Na znaku R-4b w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak ro￾werowy. Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku rowerowym.",
+  "image_path": null,
+  "keywords": [
+   "kierunku",
+   "r-4b",
+   "r4b",
+   "rowerowego",
+   "szlaku",
+   "zmiana"
+  ],
+  "related_sign_ids": [
+   "R-4",
+   "R-4a",
+   "R-4c",
+   "R-4d",
+   "R-4e"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 83",
+   "source_text": "§ 83. 1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego. 2. (uchylony). Dziennik Ustaw – 22 – Poz. 2310 3. Znak R-3 „tablica szlaku rowerowego lokalnego” wskazuje odległość do głównych miejscowości położonych przy szlaku rowerowym lokalnym. 4. Znak R-4 „informacja o szlaku rowerowym” wskazuje rodzaj szlaku rowerowego. Umieszczona pod znakiem R-4 tabliczka informuje o utrudnieniu występującym na szlaku rowerowym. 5. Na znaku R-4 w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak rowe￾rowy. 6. Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. 7. Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek. 8. Na znaku R-4b w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak ro￾werowy. Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku ",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "R-4c",
+  "code": "R-4c",
+  "category_id": "R",
+  "category_name": "Dodatkowe znaki szlaków i tras turystycznych",
+  "name": "drogowskaz tablicowy szlaku rowerowego",
+  "short_description": "drogowskaz tablicowy szlaku rowerowego",
+  "details": "Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego.",
+  "image_path": null,
+  "keywords": [
+   "drogowskaz",
+   "r-4c",
+   "r4c",
+   "rowerowego",
+   "szlaku",
+   "tablicowy"
+  ],
+  "related_sign_ids": [
+   "R-4",
+   "R-4a",
+   "R-4b",
+   "R-4d",
+   "R-4e"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 83",
+   "source_text": "§ 83. 1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego. 2. (uchylony). Dziennik Ustaw – 22 – Poz. 2310 3. Znak R-3 „tablica szlaku rowerowego lokalnego” wskazuje odległość do głównych miejscowości położonych przy szlaku rowerowym lokalnym. 4. Znak R-4 „informacja o szlaku rowerowym” wskazuje rodzaj szlaku rowerowego. Umieszczona pod znakiem R-4 tabliczka informuje o utrudnieniu występującym na szlaku rowerowym. 5. Na znaku R-4 w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak rowe￾rowy. 6. Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. 7. Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek. 8. Na znaku R-4b w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak ro￾werowy. Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku ",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "R-4d",
+  "code": "R-4d",
+  "category_id": "R",
+  "category_name": "Dodatkowe znaki szlaków i tras turystycznych",
+  "name": "drogowskaz szlaku rowerowego w kształcie strzały podający odległość",
+  "short_description": "drogowskaz szlaku rowerowego w kształcie strzały podający odległość",
+  "details": "Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego.",
+  "image_path": "img/znaki/R-4d.png",
+  "keywords": [
+   "drogowskaz",
+   "kształcie",
+   "odległość",
+   "podający",
+   "r-4d",
+   "r4d",
+   "rowerowego",
+   "strzały",
+   "szlaku"
+  ],
+  "related_sign_ids": [
+   "R-4",
+   "R-4a",
+   "R-4b",
+   "R-4c",
+   "R-4e"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 83",
+   "source_text": "§ 83. 1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego. 2. (uchylony). Dziennik Ustaw – 22 – Poz. 2310 3. Znak R-3 „tablica szlaku rowerowego lokalnego” wskazuje odległość do głównych miejscowości położonych przy szlaku rowerowym lokalnym. 4. Znak R-4 „informacja o szlaku rowerowym” wskazuje rodzaj szlaku rowerowego. Umieszczona pod znakiem R-4 tabliczka informuje o utrudnieniu występującym na szlaku rowerowym. 5. Na znaku R-4 w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak rowe￾rowy. 6. Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. 7. Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek. 8. Na znaku R-4b w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak ro￾werowy. Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku ",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "R-4e",
+  "code": "R-4e",
+  "category_id": "R",
+  "category_name": "Dodatkowe znaki szlaków i tras turystycznych",
+  "name": "tablica przeddrogowskazowa szlaku rowerowego",
+  "short_description": "tablica przeddrogowskazowa szlaku rowerowego",
+  "details": "Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego.",
+  "image_path": "img/znaki/R-4e.png",
+  "keywords": [
+   "przeddrogowskazowa",
+   "r-4e",
+   "r4e",
+   "rowerowego",
+   "szlaku",
+   "tablica"
+  ],
+  "related_sign_ids": [
+   "R-4",
+   "R-4a",
+   "R-4b",
+   "R-4c",
+   "R-4d"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 83",
+   "source_text": "§ 83. 1 Znaki: 1) R-1 „szlak rowerowy lokalny”, 2) R-1a „początek (koniec) szlaku rowerowego lokalnego”, 3) R-1b „zmiana kierunku szlaku rowerowego lokalnego” oznaczają odpowiednio przebieg szlaku rowerowego lokalnego. 2. (uchylony). Dziennik Ustaw – 22 – Poz. 2310 3. Znak R-3 „tablica szlaku rowerowego lokalnego” wskazuje odległość do głównych miejscowości położonych przy szlaku rowerowym lokalnym. 4. Znak R-4 „informacja o szlaku rowerowym” wskazuje rodzaj szlaku rowerowego. Umieszczona pod znakiem R-4 tabliczka informuje o utrudnieniu występującym na szlaku rowerowym. 5. Na znaku R-4 w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak rowe￾rowy. 6. Znaki: 1) R-4a „informacja o rzeczywistym przebiegu szlaku rowerowego”, 2) R-4b „zmiana kierunku szlaku rowerowego”, 3) R-4c „drogowskaz tablicowy szlaku rowerowego”, 4) R-4d „drogowskaz szlaku rowerowego w kształcie strzały podający odległość”, 5) R-4e „tablica przeddrogowskazowa szlaku rowerowego” wskazują przebieg i kierunek szlaku rowerowego. 7. Na znaku R-4a umieszcza się graficzną ilustrację przebiegu szlaku rowerowego w schemacie rzeczywistego układu dróg, przy czym przebieg szlaku rowerowego oznacza się linią szerszą zakończoną kształtem strzały wskazującej na jego kierunek. 8. Na znaku R-4b w dolnej jego części umieszcza się symbol, numer lub barwne oznaczenie charakteryzujące szlak ro￾werowy. Umieszczona pod znakiem R-4b tabliczka informuje o utrudnieniu występującym na szlaku ",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ }
+]

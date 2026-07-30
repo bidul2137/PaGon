@@ -1,0 +1,21 @@
+{
+ "dataset_name": "ADR 2025 — Tabela A (dział 3.2.1)",
+ "legal_reference": "Dz.U. 2025 poz. 642",
+ "adr_version": "ADR 2025",
+ "effective_from": "2025-01-01",
+ "source_urls": [
+  "https://eli.gov.pl/eli/DU/2025/642/ogl",
+  "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
+  "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7"
+ ],
+ "downloaded_at": "2026-07-29",
+ "verified_at": "2026-07-29",
+ "record_count": 2346,
+ "fully_verified_count": 2346,
+ "partially_verified_count": 0,
+ "dataset_version": "1.0.0",
+ "is_complete": true,
+ "completeness_note": "Pełna Tabela A z oficjalnego PDF „ADR tom I PL 2025” (dział 3.2.1, str. 314–620 pliku). 2938 wierszy Tabeli A scalono do 2346 pozycji UN — warianty tej samej pozycji różnią się grupą pakowania. Pozycje bez numeru rozpoznawczego zagrożenia to te, dla których kolumna (20) jest w Tabeli A pusta (nieprzewożone w cysternie ani luzem).",
+ "import_script": "tools/import_adr_pdf_tekst.py",
+ "import_report": "data/adr/adr_2025_import_report.md"
+}

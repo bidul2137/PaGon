@@ -6,6 +6,7 @@
   var state = {
     kategorie: [],
     rekordy: [],
+    nazwyArtykulow: {},
     query: "",
     kategoriaSlug: "",
     tylkoUlubione: false,
@@ -528,6 +529,15 @@
         var head = document.createElement("div");
         head.className = "tar-modal-przepis-head";
         head.textContent = linie[0];
+        // wlasna nazwa artykulu (KW/PRD nie maja urzedowych tytulow) — ulatwia
+        // rozpoznanie, czego dotyczy caly artykul, nie tylko dany paragraf
+        var nazwaArt = state.nazwyArtykulow[linie[0].trim().replace(" — przepis powiązany", "")];
+        if (nazwaArt) {
+          var podpis = document.createElement("span");
+          podpis.className = "tar-modal-przepis-nazwa";
+          podpis.textContent = nazwaArt;
+          head.appendChild(podpis);
+        }
         art.appendChild(head);
         if (linie.length > 1) {
           var body = document.createElement("div");
@@ -677,6 +687,7 @@
     .then(function (dane) {
       state.kategorie = dane.kategorie || [];
       state.rekordy = dane.rekordy || [];
+      state.nazwyArtykulow = dane.nazwy_artykulow || {};
       // wejście z linku typu /taryfikator?q=86 §1a (np. z kreatora kwalifikacji)
       try {
         var q0 = new URLSearchParams(window.location.search).get("q");

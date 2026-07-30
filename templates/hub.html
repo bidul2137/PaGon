@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}PaGon — {{ tytul }}{% endblock %}
+
+{% block content %}
+{% import "_ikony.html" as ikony %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/pomoce.css') }}">
+
+<div class="tar-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand spb-brand">
+      <h1 class="tar-title">{{ tytul|upper }}</h1>
+      {% if podtytul %}<p class="tar-subtitle">{{ podtytul }}</p>{% endif %}
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+    <div class="prz-tiles">
+      {% for kat in kategorie %}
+        <a href="{% if kat.url %}{{ kat.url }}{% else %}{{ url_for('pomoce', kategoria=kat.slug) }}{% endif %}"
+           class="prz-tile pom-tile" data-slug="{{ kat.slug }}"
+           {% if kat.url and (kat.url.startswith('http') or '/pdf/' in kat.url) %}target="_blank" rel="noopener noreferrer"{% endif %}>
+          {{ ikony.ikona(kat.slug) }}
+          <span class="prz-tile-name">{{ kat.nazwa }}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </main>
+
+</div>
+{% endblock %}

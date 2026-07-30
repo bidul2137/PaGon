@@ -1,0 +1,126 @@
+{
+ "dataset_name": "Znaki i sygnały drogowe",
+ "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+ "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+ "source_file": "w sprawie ogłoszenia jednolitego tekstu rozporządzenia Ministrów Infrastruktury oraz Spraw Wewnętrznych 31.10.2019r.pdf",
+ "imported_at": "2026-07-30",
+ "categories": [
+  {
+   "id": "A",
+   "name": "Znaki ostrzegawcze",
+   "file": "a_ostrzegawcze.json",
+   "count": 42,
+   "with_image": 42,
+   "cover": "A-1"
+  },
+  {
+   "id": "B",
+   "name": "Znaki zakazu",
+   "file": "b_zakazu.json",
+   "count": 46,
+   "with_image": 35,
+   "cover": "B-1"
+  },
+  {
+   "id": "C",
+   "name": "Znaki nakazu",
+   "file": "c_nakazu.json",
+   "count": 21,
+   "with_image": 21,
+   "cover": "C-1"
+  },
+  {
+   "id": "D",
+   "name": "Znaki informacyjne",
+   "file": "d_informacyjne.json",
+   "count": 73,
+   "with_image": 46,
+   "cover": "D-1"
+  },
+  {
+   "id": "E",
+   "name": "Znaki kierunku i miejscowości",
+   "file": "e_kierunku_miejscowosci.json",
+   "count": 43,
+   "with_image": 19,
+   "cover": "E-10"
+  },
+  {
+   "id": "F",
+   "name": "Znaki uzupełniające",
+   "file": "f_uzupelniajace.json",
+   "count": 25,
+   "with_image": 25,
+   "cover": "F-1"
+  },
+  {
+   "id": "G",
+   "name": "Dodatkowe znaki przed przejazdami kolejowymi",
+   "file": "g_kolejowe.json",
+   "count": 9,
+   "with_image": 9,
+   "cover": "G-1a"
+  },
+  {
+   "id": "P",
+   "name": "Znaki poziome",
+   "file": "p_poziome.json",
+   "count": 30,
+   "with_image": 30,
+   "cover": "P-1"
+  },
+  {
+   "id": "S",
+   "name": "Sygnały drogowe",
+   "file": "s_sygnaly.json",
+   "count": 9,
+   "with_image": 8,
+   "cover": "S-1"
+  },
+  {
+   "id": "T",
+   "name": "Tabliczki do znaków drogowych",
+   "file": "t_tabliczki.json",
+   "count": 50,
+   "with_image": 31,
+   "cover": "T-10"
+  },
+  {
+   "id": "R",
+   "name": "Dodatkowe znaki szlaków i tras turystycznych",
+   "file": "r_szlaki.json",
+   "count": 10,
+   "with_image": 7,
+   "cover": "R-1"
+  },
+  {
+   "id": "BT",
+   "name": "Znaki i sygnały dla kierujących tramwajami",
+   "file": "bt_tramwaje.json",
+   "count": 4,
+   "with_image": 0,
+   "cover": null
+  },
+  {
+   "id": "AT",
+   "name": "Znaki ostrzegawcze dla kierujących tramwajami",
+   "file": "at_tramwaje.json",
+   "count": 5,
+   "with_image": 0,
+   "cover": null
+  },
+  {
+   "id": "W",
+   "name": "Znaki W",
+   "file": "w.json",
+   "count": 7,
+   "with_image": 7,
+   "cover": "W-1"
+  }
+ ],
+ "sign_count": 374,
+ "with_image_count": 280,
+ "fully_verified_count": 236,
+ "partially_verified_count": 138,
+ "dataset_version": "1.0.0"
+}

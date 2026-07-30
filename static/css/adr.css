@@ -1,0 +1,285 @@
+/* ===================================================================
+   TABLICA ADR — interaktywne odwzorowanie tablicy pomarańczowej.
+
+   Pomarańcz stosujemy WYŁĄCZNIE w obrębie tablicy, bo odwzorowuje ona
+   funkcję rzeczywistego oznakowania pojazdu. Reszta modułu trzyma się
+   palety aplikacji (granat + złoto).
+   =================================================================== */
+
+.adr-page-vars,
+.tar-page {
+  --adr-orange: #ff4b12;
+  --adr-ink: #101116;
+}
+
+/* ---------- tablica ---------- */
+.adr-tablica-form { margin: 2px 0 0; }
+
+.adr-tablica {
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  background: var(--adr-ink);
+  border: 4px solid var(--adr-ink);
+  border-radius: 8px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, .45);
+  overflow: hidden;
+}
+
+/* proporcje zbliżone do tablicy ADR (300 × 400 mm → pole ok. 3:1) */
+.adr-pole {
+  position: relative;
+  background: var(--adr-orange);
+  aspect-ratio: 40 / 13;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adr-pole--gora { border-bottom: 7px solid var(--adr-ink); }
+
+.adr-pole-etykieta {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.adr-input {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  color: var(--adr-ink);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: clamp(38px, 13vw, 60px);
+  font-weight: 700;
+  letter-spacing: .04em;
+  line-height: 1;
+  text-align: center;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.adr-input::placeholder {
+  color: rgba(16, 17, 22, .42);
+  font-size: clamp(13px, 4vw, 17px);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.adr-input:focus { outline: none; }
+.adr-input:focus-visible { outline: none; }
+/* focus rysujemy na polu, nie na inpucie — inaczej obramowanie ginie w pomarańczu */
+.adr-pole:focus-within { box-shadow: inset 0 0 0 4px var(--adr-ink); }
+
+/* ---------- przyciski ---------- */
+.adr-akcje { display: flex; flex-wrap: wrap; gap: 9px; margin: 13px auto 0; max-width: 380px; }
+.adr-btn {
+  flex: 1 1 44%;
+  min-height: 46px;
+  padding: 11px 14px;
+  font-family: var(--t-mono);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  color: var(--t-gold-2);
+  background: none;
+  border: 1px solid rgba(206, 158, 47, .42);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: color .15s ease, background .15s ease, border-color .15s ease;
+}
+.adr-btn:hover { color: var(--t-gold); background: rgba(206, 158, 47, .09); border-color: var(--t-gold); }
+.adr-btn:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: 2px; }
+.adr-btn--glowny { color: #0b132b; background: var(--t-gold); border-color: var(--t-gold); }
+.adr-btn--glowny:hover { background: var(--t-gold-2); border-color: var(--t-gold-2); color: #0b132b; }
+.adr-btn--maly { flex: 0 0 auto; min-height: 36px; padding: 7px 12px; font-size: 11px; }
+
+/* ---------- wyszukiwanie po nazwie ---------- */
+.adr-szukaj { position: relative; margin: 20px 0 0; }
+.adr-szukaj-label {
+  display: block;
+  margin-bottom: 6px;
+  font-family: var(--t-mono);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--t-dim);
+}
+.adr-szukaj-input {
+  width: 100%;
+  min-height: 46px;
+  padding: 11px 14px;
+  font-family: var(--t-mono);
+  font-size: 14px;
+  color: var(--t-head);
+  background: rgba(255, 255, 255, .04);
+  border: 1px solid var(--t-line);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.adr-szukaj-input::placeholder { color: var(--t-dim); }
+.adr-szukaj-input:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: 2px; }
+
+.adr-podpowiedzi {
+  position: absolute;
+  z-index: 20;
+  left: 0; right: 0;
+  margin: 5px 0 0;
+  padding: 0;
+  list-style: none;
+  background: #131d38;
+  border: 1px solid var(--t-line-2);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, .5);
+}
+.adr-podpowiedz {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  width: 100%;
+  min-height: 46px;
+  padding: 9px 13px;
+  text-align: left;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--t-line);
+  color: var(--t-text);
+  cursor: pointer;
+}
+.adr-podpowiedzi li:last-child .adr-podpowiedz { border-bottom: 0; }
+.adr-podpowiedz:hover, .adr-podpowiedz[aria-selected="true"] { background: rgba(206, 158, 47, .12); }
+.adr-podpowiedz:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: -2px; }
+.adr-podpowiedz-un { flex: none; font-family: var(--t-mono); font-size: 13px; font-weight: 700; color: var(--t-gold-2); }
+.adr-podpowiedz-nazwa { flex: 1; min-width: 0; font-size: 13px; line-height: 1.35; }
+
+/* ---------- karty wyników ---------- */
+.adr-karta { margin-top: 14px; padding: 15px; }
+.adr-un-naglowek {
+  margin: 0 0 4px;
+  font-family: var(--t-mono);
+  font-size: clamp(26px, 8vw, 34px);
+  font-weight: 700;
+  letter-spacing: .05em;
+  line-height: 1.05;
+  color: var(--t-gold-2);
+}
+.adr-nazwa-pl { margin: 0 0 3px; font-size: 15px; font-weight: 700; line-height: 1.4; color: var(--t-head); }
+.adr-nazwa-en { margin: 0 0 12px; font-size: 12.5px; line-height: 1.45; color: var(--t-dim); font-style: italic; }
+
+.adr-dane { margin: 0; display: grid; gap: 0; border: 1px solid var(--t-line); border-radius: 10px; overflow: hidden; }
+.adr-wiersz {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px;
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--t-line);
+}
+.adr-wiersz:last-child { border-bottom: 0; }
+.adr-klucz {
+  flex: none; min-width: 152px;
+  font-family: var(--t-mono); font-size: 10.5px; font-weight: 700;
+  letter-spacing: .06em; text-transform: uppercase; color: var(--t-dim);
+}
+.adr-wartosc { flex: 1; min-width: 0; font-size: 13.5px; font-weight: 600; line-height: 1.4; color: var(--t-head); }
+.adr-wartosc--brak { font-weight: 500; font-style: italic; color: var(--t-dim); }
+
+.adr-nalepki { display: flex; flex-wrap: wrap; gap: 6px; }
+.adr-nalepka {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 34px; padding: 3px 9px;
+  font-family: var(--t-mono); font-size: 12px; font-weight: 700;
+  color: var(--t-gold-2); background: rgba(206, 158, 47, .13);
+  border: 1px solid rgba(206, 158, 47, .45); border-radius: 6px;
+}
+
+/* ---------- karta kodu zagrożenia ---------- */
+.adr-kod-naglowek {
+  margin: 0 0 9px;
+  font-family: var(--t-mono); font-size: 16px; font-weight: 700;
+  letter-spacing: .05em; color: var(--t-gold-2);
+}
+.adr-kod-cyfry { display: flex; flex-wrap: wrap; gap: 7px; margin: 0 0 11px; padding: 0; list-style: none; }
+.adr-kod-cyfra {
+  display: flex; align-items: baseline; gap: 9px;
+  width: 100%; padding: 8px 11px;
+  background: rgba(255, 255, 255, .03);
+  border: 1px solid var(--t-line); border-left: 3px solid rgba(206, 158, 47, .55);
+  border-radius: 9px;
+}
+.adr-kod-cyfra-znak {
+  flex: none; width: 26px;
+  font-family: var(--t-mono); font-size: 17px; font-weight: 700; color: var(--t-gold-2);
+}
+.adr-kod-cyfra-opis { flex: 1; min-width: 0; font-size: 12.5px; line-height: 1.5; color: var(--t-text); }
+
+/* ---------- komunikaty ---------- */
+.adr-komunikat {
+  display: flex; align-items: flex-start; gap: 10px;
+  margin: 12px 0 0; padding: 11px 13px;
+  font-size: 12.5px; font-weight: 600; line-height: 1.5;
+  border: 1px solid; border-left-width: 3px; border-radius: 10px;
+}
+.adr-komunikat-ikona { flex: none; margin-top: 1px; }
+.adr-komunikat-tresc { flex: 1; min-width: 0; }
+/* informacja neutralna */
+.adr-komunikat--info { color: var(--t-text); background: rgba(255, 255, 255, .035); border-color: var(--t-line-2); }
+/* ostrzeżenie — niezgodność odczytu, brak rekordu */
+.adr-komunikat--uwaga { color: var(--t-gold-2); background: rgba(206, 158, 47, .1); border-color: rgba(206, 158, 47, .5); }
+/* zagrożenie krytyczne — reakcja z wodą (kod z literą X) */
+.adr-komunikat--krytyczny {
+  color: #ff9d8a; background: rgba(226, 92, 68, .15); border-color: rgba(226, 92, 68, .6);
+  font-weight: 700;
+}
+.adr-komunikat--krytyczny .adr-komunikat-tresc { letter-spacing: .01em; }
+
+/* ---------- sekcja rozwijana z parametrami Tabeli A ---------- */
+.adr-szczegoly { margin-top: 12px; }
+.adr-szczegoly > summary {
+  min-height: 42px; padding: 10px 12px;
+  font-family: var(--t-mono); font-size: 11.5px; font-weight: 700; letter-spacing: .05em;
+  color: var(--t-gold-2); background: rgba(206, 158, 47, .07);
+  border: 1px solid rgba(206, 158, 47, .35); border-radius: 9px;
+  cursor: pointer; list-style: none;
+}
+.adr-szczegoly > summary::-webkit-details-marker { display: none; }
+.adr-szczegoly > summary::after { content: " ›"; }
+.adr-szczegoly[open] > summary::after { content: " ⌄"; }
+.adr-szczegoly > summary:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: 2px; }
+.adr-szczegoly .adr-dane { margin-top: 8px; }
+
+/* ---------- metryczka źródła ---------- */
+.adr-metryczka {
+  margin: 11px 0 0; padding-top: 10px;
+  border-top: 1px solid var(--t-line);
+  font-size: 11px; line-height: 1.6; color: var(--t-dim);
+}
+.adr-metryczka strong { color: var(--t-text); font-weight: 600; }
+
+/* ---------- historia ---------- */
+.adr-historia { margin-top: 22px; }
+.adr-historia-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
+.adr-historia-head .kal-sekcja-tytul { margin: 0; }
+.adr-historia-lista {
+  margin: 0; padding: 0; list-style: none;
+  border: 1px solid var(--t-line); border-radius: 10px; overflow: hidden;
+}
+.adr-historia-poz {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px;
+  width: 100%; min-height: 46px; padding: 9px 13px;
+  text-align: left; background: none; border: 0; border-bottom: 1px solid var(--t-line);
+  color: var(--t-text); cursor: pointer;
+}
+.adr-historia-lista li:last-child .adr-historia-poz { border-bottom: 0; }
+.adr-historia-poz:hover { background: rgba(206, 158, 47, .1); }
+.adr-historia-poz:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: -2px; }
+.adr-historia-un { flex: none; font-family: var(--t-mono); font-size: 13px; font-weight: 700; color: var(--t-gold-2); }
+.adr-historia-nazwa { flex: 1; min-width: 0; font-size: 13px; line-height: 1.35; }
+.adr-historia-czas { flex: none; font-family: var(--t-mono); font-size: 10.5px; color: var(--t-dim); }
+
+@media (max-width: 360px) {
+  .adr-klucz { min-width: 100%; }
+  .adr-akcje .adr-btn { flex: 1 1 100%; }
+}

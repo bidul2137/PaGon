@@ -31208,6 +31208,114 @@
     }
    ],
    "legal_search": "941kw 94kw"
+  },
+  {
+   "id": "w-600",
+   "title": "Kierowanie pojazdem mechanicznym w stanie po użyciu alkoholu lub podobnie działającego środka",
+   "category": "kierujacy",
+   "legal_qualification": "art. 87 § 1 KW",
+   "legal_qualification_text": "Art. 87 KW\nArt. 87. § 1. Kto, znajdując się w stanie po użyciu alkoholu lub podobnie działającego środka, prowadzi pojazd mechaniczny w ruchu lądowym, wodnym lub powietrznym, podlega karze aresztu albo grzywny nie niższej niż 2500 złotych. § 1a. Tej samej karze podlega, kto, znajdując się w stanie nietrzeźwości lub pod wpływem podobnie działającego środka, prowadzi na drodze publicznej, w strefie zamieszkania lub w strefie ruchu inny pojazd niż określony w § 1. § 2. Kto, znajdując się w stanie po użyciu alkoholu lub podobnie działającego środka, prowadzi na drodze publicznej, w strefie zamieszkania lub strefie ruchu inny pojazd niż określony w § 1, podlega karze aresztu albo karze grzywny nie niższej niż 1000 złotych. § 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się zakaz prowadzenia pojazdów. § 4. W razie popełnienia wykroczenia określonego w § 1a lub 2 można orzec zakaz prowadzenia pojazdów innych niż określone w § 1.",
+   "mandate_base": "wniosek do sądu",
+   "mandate_recidive": null,
+   "mandate_max_kpw": null,
+   "fine_min_kw": 2500,
+   "fine_max_kw": null,
+   "points_min": null,
+   "points_max": null,
+   "code": null,
+   "keywords": [
+    "kierowanie",
+    "prowadzenie",
+    "pojazdem",
+    "mechanicznym",
+    "alkohol",
+    "alkoholu",
+    "promile",
+    "alkomat",
+    "trzeźwość",
+    "nietrzeźwość",
+    "pijany",
+    "środek",
+    "odurzający",
+    "badanie",
+    "wydychane",
+    "powietrze",
+    "po użyciu",
+    "0,10",
+    "0,25",
+    "mg/l"
+   ],
+   "summary": "Stan po użyciu alkoholu (0,10–0,25 mg/l) i prowadzenie pojazdu mechanicznego. Areszt albo grzywna nie niższa niż 2500 zł; obligatoryjny zakaz prowadzenia pojazdów z art. 87 § 3 KW wyklucza tryb mandatowy.",
+   "source_mandate": "Brak trybu mandatowego — art. 87 § 3 KW nakazuje orzec zakaz prowadzenia pojazdów, co należy do sądu",
+   "source_points": null,
+   "legal_references": [
+    {
+     "act": "KW",
+     "article": "87",
+     "paragraphs": [
+      "1"
+     ],
+     "sections": [],
+     "points": [],
+     "letters": [],
+     "tirets": []
+    }
+   ],
+   "legal_search": "871kw 87kw"
+  },
+  {
+   "id": "w-601",
+   "title": "Kierowanie pojazdem mechanicznym w stanie nietrzeźwości lub pod wpływem środka odurzającego",
+   "category": "kierujacy",
+   "legal_qualification": "art. 178a § 1 KK",
+   "legal_qualification_text": "Art. 178a KK\nArt. 178a. § 1. Kto, znajdując się w stanie nietrzeźwości lub pod wpływem środka odurzającego, prowadzi pojazd mechaniczny w ruchu lądowym, wodnym lub powietrznym, podlega karze pozbawienia wolności do lat 3. § 2. (uchylony) § 3. (uchylony) § 4. Jeżeli sprawca czynu określonego w § 1 był wcześniej prawomocnie skazany za prowadzenie pojazdu mechanicznego w stanie nietrzeźwości lub pod wpływem środka odurzającego albo za przestępstwo określone w art. 173, 174, 177 lub art. 355 § 2 popełnione w stanie nietrzeźwości lub pod wpływem środka odurzającego albo dopuścił się czynu określonego w § 1 w okresie obowiązywania zakazu prowadzenia pojazdów mechanicznych orzeczonego w związku ze skazaniem za przestępstwo, podlega karze pozbawienia wolności od 3 miesięcy do lat 5.",
+   "mandate_base": "przestępstwo — bez trybu mandatowego",
+   "mandate_recidive": null,
+   "mandate_max_kpw": null,
+   "fine_min_kw": null,
+   "fine_max_kw": null,
+   "points_min": null,
+   "points_max": null,
+   "code": null,
+   "keywords": [
+    "kierowanie",
+    "prowadzenie",
+    "pojazdem",
+    "mechanicznym",
+    "alkohol",
+    "alkoholu",
+    "promile",
+    "alkomat",
+    "trzeźwość",
+    "nietrzeźwość",
+    "pijany",
+    "środek",
+    "odurzający",
+    "badanie",
+    "wydychane",
+    "powietrze",
+    "przestępstwo",
+    "powyżej 0,25",
+    "0,26",
+    "mg/l"
+   ],
+   "summary": "Stan nietrzeźwości (powyżej 0,25 mg/l w wydychanym powietrzu) i prowadzenie pojazdu mechanicznego — przestępstwo zagrożone karą pozbawienia wolności do lat 3.",
+   "source_mandate": "Przestępstwo — postępowanie karne, nie mandatowe",
+   "source_points": null,
+   "legal_references": [
+    {
+     "act": "KK",
+     "article": "178a",
+     "paragraphs": [
+      "1"
+     ],
+     "sections": [],
+     "points": [],
+     "letters": [],
+     "tirets": []
+    }
+   ],
+   "legal_search": "178a1kk 178akk"
   }
  ]
 }

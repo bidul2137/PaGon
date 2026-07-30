@@ -1,0 +1,316 @@
+[
+ {
+  "id": "G-1a",
+  "code": "G-1a",
+  "category_id": "G",
+  "category_name": "Dodatkowe znaki przed przejazdami kolejowymi",
+  "name": "słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni",
+  "short_description": "słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni",
+  "details": "Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego.",
+  "image_path": "img/znaki/G-1a.png",
+  "keywords": [
+   "g-1a",
+   "g1a",
+   "jezdni",
+   "kreskami",
+   "prawej",
+   "stronie",
+   "słupek",
+   "trzema",
+   "umieszczany",
+   "wskaźnikowy"
+  ],
+  "related_sign_ids": [
+   "G-1b",
+   "G-1c",
+   "G-1d",
+   "G-1e",
+   "G-1f"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 78",
+   "source_text": "§ 78. 1. Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego. 2. Słupek z trzema kreskami jest umieszczany pod znakiem A-9 lub A-10, słupek z dwiema kreskami – na 2/3 odległości znaku ostrzegawczego od przejazdu, a słupek z jedną kreską – na 1/3 tej odległości. 3. Jeżeli ze względu na warunki lokalne znaki ostrzegawcze umieszczono bliżej niż w odległości, o której mowa w § 3 ust. 2, to pod znakiem ostrzegawczym umieszcza się słupek z dwiema kreskami, a słupek z jedną kreską na 1/2 odległości znaku ostrzegawczego. Jeżeli znak ostrzegawczy umieszczono w bezpośredniej bliskości przejazdu, to stosuje się tylko słupek z jedną kreską umieszczony pod znakiem ostrzegawczym. Dziennik Ustaw – 21 – Poz. 2310 4. Znak G-2 „sieć pod napięciem” oznacza, że nad przejazdem kolejowym jest zawieszona sieć trakcyjna pod napięciem. 5. Znaki: 1) G-3 „krzyż św. Andrzeja przed przejazdem kolejowym jednotorowym”, 2) G-4 „krzyż św. Andrzeja przed przejazdem kolejowym wielotorowym” wyznaczają miejsce zatrzy",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "G-1b",
+  "code": "G-1b",
+  "category_id": "G",
+  "category_name": "Dodatkowe znaki przed przejazdami kolejowymi",
+  "name": "słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni",
+  "short_description": "słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni",
+  "details": "Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego.",
+  "image_path": "img/znaki/G-1b.png",
+  "keywords": [
+   "dwiema",
+   "g-1b",
+   "g1b",
+   "jezdni",
+   "kreskami",
+   "prawej",
+   "stronie",
+   "słupek",
+   "umieszczany",
+   "wskaźnikowy"
+  ],
+  "related_sign_ids": [
+   "G-1a",
+   "G-1c",
+   "G-1d",
+   "G-1e",
+   "G-1f"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 78",
+   "source_text": "§ 78. 1. Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego. 2. Słupek z trzema kreskami jest umieszczany pod znakiem A-9 lub A-10, słupek z dwiema kreskami – na 2/3 odległości znaku ostrzegawczego od przejazdu, a słupek z jedną kreską – na 1/3 tej odległości. 3. Jeżeli ze względu na warunki lokalne znaki ostrzegawcze umieszczono bliżej niż w odległości, o której mowa w § 3 ust. 2, to pod znakiem ostrzegawczym umieszcza się słupek z dwiema kreskami, a słupek z jedną kreską na 1/2 odległości znaku ostrzegawczego. Jeżeli znak ostrzegawczy umieszczono w bezpośredniej bliskości przejazdu, to stosuje się tylko słupek z jedną kreską umieszczony pod znakiem ostrzegawczym. Dziennik Ustaw – 21 – Poz. 2310 4. Znak G-2 „sieć pod napięciem” oznacza, że nad przejazdem kolejowym jest zawieszona sieć trakcyjna pod napięciem. 5. Znaki: 1) G-3 „krzyż św. Andrzeja przed przejazdem kolejowym jednotorowym”, 2) G-4 „krzyż św. Andrzeja przed przejazdem kolejowym wielotorowym” wyznaczają miejsce zatrzy",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "G-1c",
+  "code": "G-1c",
+  "category_id": "G",
+  "category_name": "Dodatkowe znaki przed przejazdami kolejowymi",
+  "name": "słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni",
+  "short_description": "słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni",
+  "details": "Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego.",
+  "image_path": "img/znaki/G-1c.png",
+  "keywords": [
+   "g-1c",
+   "g1c",
+   "jedną",
+   "jezdni",
+   "kreską",
+   "prawej",
+   "stronie",
+   "słupek",
+   "umieszczany",
+   "wskaźnikowy"
+  ],
+  "related_sign_ids": [
+   "G-1a",
+   "G-1b",
+   "G-1d",
+   "G-1e",
+   "G-1f"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 78",
+   "source_text": "§ 78. 1. Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego. 2. Słupek z trzema kreskami jest umieszczany pod znakiem A-9 lub A-10, słupek z dwiema kreskami – na 2/3 odległości znaku ostrzegawczego od przejazdu, a słupek z jedną kreską – na 1/3 tej odległości. 3. Jeżeli ze względu na warunki lokalne znaki ostrzegawcze umieszczono bliżej niż w odległości, o której mowa w § 3 ust. 2, to pod znakiem ostrzegawczym umieszcza się słupek z dwiema kreskami, a słupek z jedną kreską na 1/2 odległości znaku ostrzegawczego. Jeżeli znak ostrzegawczy umieszczono w bezpośredniej bliskości przejazdu, to stosuje się tylko słupek z jedną kreską umieszczony pod znakiem ostrzegawczym. Dziennik Ustaw – 21 – Poz. 2310 4. Znak G-2 „sieć pod napięciem” oznacza, że nad przejazdem kolejowym jest zawieszona sieć trakcyjna pod napięciem. 5. Znaki: 1) G-3 „krzyż św. Andrzeja przed przejazdem kolejowym jednotorowym”, 2) G-4 „krzyż św. Andrzeja przed przejazdem kolejowym wielotorowym” wyznaczają miejsce zatrzy",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "G-1d",
+  "code": "G-1d",
+  "category_id": "G",
+  "category_name": "Dodatkowe znaki przed przejazdami kolejowymi",
+  "name": "słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni",
+  "short_description": "słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni",
+  "details": "Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego.",
+  "image_path": "img/znaki/G-1d.png",
+  "keywords": [
+   "g-1d",
+   "g1d",
+   "jezdni",
+   "kreskami",
+   "lewej",
+   "stronie",
+   "słupek",
+   "trzema",
+   "umieszczany",
+   "wskaźnikowy"
+  ],
+  "related_sign_ids": [
+   "G-1a",
+   "G-1b",
+   "G-1c",
+   "G-1e",
+   "G-1f"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 78",
+   "source_text": "§ 78. 1. Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego. 2. Słupek z trzema kreskami jest umieszczany pod znakiem A-9 lub A-10, słupek z dwiema kreskami – na 2/3 odległości znaku ostrzegawczego od przejazdu, a słupek z jedną kreską – na 1/3 tej odległości. 3. Jeżeli ze względu na warunki lokalne znaki ostrzegawcze umieszczono bliżej niż w odległości, o której mowa w § 3 ust. 2, to pod znakiem ostrzegawczym umieszcza się słupek z dwiema kreskami, a słupek z jedną kreską na 1/2 odległości znaku ostrzegawczego. Jeżeli znak ostrzegawczy umieszczono w bezpośredniej bliskości przejazdu, to stosuje się tylko słupek z jedną kreską umieszczony pod znakiem ostrzegawczym. Dziennik Ustaw – 21 – Poz. 2310 4. Znak G-2 „sieć pod napięciem” oznacza, że nad przejazdem kolejowym jest zawieszona sieć trakcyjna pod napięciem. 5. Znaki: 1) G-3 „krzyż św. Andrzeja przed przejazdem kolejowym jednotorowym”, 2) G-4 „krzyż św. Andrzeja przed przejazdem kolejowym wielotorowym” wyznaczają miejsce zatrzy",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "G-1e",
+  "code": "G-1e",
+  "category_id": "G",
+  "category_name": "Dodatkowe znaki przed przejazdami kolejowymi",
+  "name": "słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni",
+  "short_description": "słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni",
+  "details": "Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego.",
+  "image_path": "img/znaki/G-1e.png",
+  "keywords": [
+   "dwiema",
+   "g-1e",
+   "g1e",
+   "jezdni",
+   "kreskami",
+   "lewej",
+   "stronie",
+   "słupek",
+   "umieszczany",
+   "wskaźnikowy"
+  ],
+  "related_sign_ids": [
+   "G-1a",
+   "G-1b",
+   "G-1c",
+   "G-1d",
+   "G-1f"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 78",
+   "source_text": "§ 78. 1. Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego. 2. Słupek z trzema kreskami jest umieszczany pod znakiem A-9 lub A-10, słupek z dwiema kreskami – na 2/3 odległości znaku ostrzegawczego od przejazdu, a słupek z jedną kreską – na 1/3 tej odległości. 3. Jeżeli ze względu na warunki lokalne znaki ostrzegawcze umieszczono bliżej niż w odległości, o której mowa w § 3 ust. 2, to pod znakiem ostrzegawczym umieszcza się słupek z dwiema kreskami, a słupek z jedną kreską na 1/2 odległości znaku ostrzegawczego. Jeżeli znak ostrzegawczy umieszczono w bezpośredniej bliskości przejazdu, to stosuje się tylko słupek z jedną kreską umieszczony pod znakiem ostrzegawczym. Dziennik Ustaw – 21 – Poz. 2310 4. Znak G-2 „sieć pod napięciem” oznacza, że nad przejazdem kolejowym jest zawieszona sieć trakcyjna pod napięciem. 5. Znaki: 1) G-3 „krzyż św. Andrzeja przed przejazdem kolejowym jednotorowym”, 2) G-4 „krzyż św. Andrzeja przed przejazdem kolejowym wielotorowym” wyznaczają miejsce zatrzy",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "G-1f",
+  "code": "G-1f",
+  "category_id": "G",
+  "category_name": "Dodatkowe znaki przed przejazdami kolejowymi",
+  "name": "słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni",
+  "short_description": "słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni",
+  "details": "Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego.",
+  "image_path": "img/znaki/G-1f.png",
+  "keywords": [
+   "g-1f",
+   "g1f",
+   "jedną",
+   "jezdni",
+   "kreską",
+   "lewej",
+   "stronie",
+   "słupek",
+   "umieszczany",
+   "wskaźnikowy"
+  ],
+  "related_sign_ids": [
+   "G-1a",
+   "G-1b",
+   "G-1c",
+   "G-1d",
+   "G-1e"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 78",
+   "source_text": "§ 78. 1. Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego. 2. Słupek z trzema kreskami jest umieszczany pod znakiem A-9 lub A-10, słupek z dwiema kreskami – na 2/3 odległości znaku ostrzegawczego od przejazdu, a słupek z jedną kreską – na 1/3 tej odległości. 3. Jeżeli ze względu na warunki lokalne znaki ostrzegawcze umieszczono bliżej niż w odległości, o której mowa w § 3 ust. 2, to pod znakiem ostrzegawczym umieszcza się słupek z dwiema kreskami, a słupek z jedną kreską na 1/2 odległości znaku ostrzegawczego. Jeżeli znak ostrzegawczy umieszczono w bezpośredniej bliskości przejazdu, to stosuje się tylko słupek z jedną kreską umieszczony pod znakiem ostrzegawczym. Dziennik Ustaw – 21 – Poz. 2310 4. Znak G-2 „sieć pod napięciem” oznacza, że nad przejazdem kolejowym jest zawieszona sieć trakcyjna pod napięciem. 5. Znaki: 1) G-3 „krzyż św. Andrzeja przed przejazdem kolejowym jednotorowym”, 2) G-4 „krzyż św. Andrzeja przed przejazdem kolejowym wielotorowym” wyznaczają miejsce zatrzy",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "G-2",
+  "code": "G-2",
+  "category_id": "G",
+  "category_name": "Dodatkowe znaki przed przejazdami kolejowymi",
+  "name": "sieć pod napięciem",
+  "short_description": "Oznacza, że nad przejazdem kolejowym jest zawieszona sieć trakcyjna pod napięciem.",
+  "details": "Znak G-2 „sieć pod napięciem” oznacza, że nad przejazdem kolejowym jest zawieszona sieć trakcyjna pod napięciem.",
+  "image_path": "img/znaki/G-2.png",
+  "keywords": [
+   "g-2",
+   "g2",
+   "napięciem",
+   "sieć"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 78",
+   "source_text": "§ 78. 1. Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego. 2. Słupek z trzema kreskami jest umieszczany pod znakiem A-9 lub A-10, słupek z dwiema kreskami – na 2/3 odległości znaku ostrzegawczego od przejazdu, a słupek z jedną kreską – na 1/3 tej odległości. 3. Jeżeli ze względu na warunki lokalne znaki ostrzegawcze umieszczono bliżej niż w odległości, o której mowa w § 3 ust. 2, to pod znakiem ostrzegawczym umieszcza się słupek z dwiema kreskami, a słupek z jedną kreską na 1/2 odległości znaku ostrzegawczego. Jeżeli znak ostrzegawczy umieszczono w bezpośredniej bliskości przejazdu, to stosuje się tylko słupek z jedną kreską umieszczony pod znakiem ostrzegawczym. Dziennik Ustaw – 21 – Poz. 2310 4. Znak G-2 „sieć pod napięciem” oznacza, że nad przejazdem kolejowym jest zawieszona sieć trakcyjna pod napięciem. 5. Znaki: 1) G-3 „krzyż św. Andrzeja przed przejazdem kolejowym jednotorowym”, 2) G-4 „krzyż św. Andrzeja przed przejazdem kolejowym wielotorowym” wyznaczają miejsce zatrzy",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "G-3",
+  "code": "G-3",
+  "category_id": "G",
+  "category_name": "Dodatkowe znaki przed przejazdami kolejowymi",
+  "name": "krzyż św. Andrzeja przed przejazdem kolejowym jednotorowym",
+  "short_description": "krzyż św. Andrzeja przed przejazdem kolejowym jednotorowym",
+  "details": "Znaki: 1) G-3 „krzyż św.",
+  "image_path": "img/znaki/G-3.png",
+  "keywords": [
+   "andrzeja",
+   "g-3",
+   "g3",
+   "jednotorowym",
+   "kolejowym",
+   "krzyż",
+   "przed",
+   "przejazdem"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 78",
+   "source_text": "§ 78. 1. Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego. 2. Słupek z trzema kreskami jest umieszczany pod znakiem A-9 lub A-10, słupek z dwiema kreskami – na 2/3 odległości znaku ostrzegawczego od przejazdu, a słupek z jedną kreską – na 1/3 tej odległości. 3. Jeżeli ze względu na warunki lokalne znaki ostrzegawcze umieszczono bliżej niż w odległości, o której mowa w § 3 ust. 2, to pod znakiem ostrzegawczym umieszcza się słupek z dwiema kreskami, a słupek z jedną kreską na 1/2 odległości znaku ostrzegawczego. Jeżeli znak ostrzegawczy umieszczono w bezpośredniej bliskości przejazdu, to stosuje się tylko słupek z jedną kreską umieszczony pod znakiem ostrzegawczym. Dziennik Ustaw – 21 – Poz. 2310 4. Znak G-2 „sieć pod napięciem” oznacza, że nad przejazdem kolejowym jest zawieszona sieć trakcyjna pod napięciem. 5. Znaki: 1) G-3 „krzyż św. Andrzeja przed przejazdem kolejowym jednotorowym”, 2) G-4 „krzyż św. Andrzeja przed przejazdem kolejowym wielotorowym” wyznaczają miejsce zatrzy",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "G-4",
+  "code": "G-4",
+  "category_id": "G",
+  "category_name": "Dodatkowe znaki przed przejazdami kolejowymi",
+  "name": "krzyż św. Andrzeja przed przejazdem kolejowym wielotorowym",
+  "short_description": "krzyż św. Andrzeja przed przejazdem kolejowym wielotorowym",
+  "details": "Andrzeja przed przejazdem kolejowym jednotorowym”, 2) G-4 „krzyż św.",
+  "image_path": "img/znaki/G-4.png",
+  "keywords": [
+   "andrzeja",
+   "g-4",
+   "g4",
+   "kolejowym",
+   "krzyż",
+   "przed",
+   "przejazdem",
+   "wielotorowym"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 78",
+   "source_text": "§ 78. 1. Znaki: 1) G-1a „słupek wskaźnikowy z trzema kreskami umieszczany po prawej stronie jezdni”, 2) G-1b „słupek wskaźnikowy z dwiema kreskami umieszczany po prawej stronie jezdni”, 3) G-1c „słupek wskaźnikowy z jedną kreską umieszczany po prawej stronie jezdni”, 4) G-1d „słupek wskaźnikowy z trzema kreskami umieszczany po lewej stronie jezdni”, 5) G-1e „słupek wskaźnikowy z dwiema kreskami umieszczany po lewej stronie jezdni”, 6) G-1f „słupek wskaźnikowy z jedną kreską umieszczany po lewej stronie jezdni” informują o zbliżaniu się do przejazdu kolejowego. 2. Słupek z trzema kreskami jest umieszczany pod znakiem A-9 lub A-10, słupek z dwiema kreskami – na 2/3 odległości znaku ostrzegawczego od przejazdu, a słupek z jedną kreską – na 1/3 tej odległości. 3. Jeżeli ze względu na warunki lokalne znaki ostrzegawcze umieszczono bliżej niż w odległości, o której mowa w § 3 ust. 2, to pod znakiem ostrzegawczym umieszcza się słupek z dwiema kreskami, a słupek z jedną kreską na 1/2 odległości znaku ostrzegawczego. Jeżeli znak ostrzegawczy umieszczono w bezpośredniej bliskości przejazdu, to stosuje się tylko słupek z jedną kreską umieszczony pod znakiem ostrzegawczym. Dziennik Ustaw – 21 – Poz. 2310 4. Znak G-2 „sieć pod napięciem” oznacza, że nad przejazdem kolejowym jest zawieszona sieć trakcyjna pod napięciem. 5. Znaki: 1) G-3 „krzyż św. Andrzeja przed przejazdem kolejowym jednotorowym”, 2) G-4 „krzyż św. Andrzeja przed przejazdem kolejowym wielotorowym” wyznaczają miejsce zatrzy",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ }
+]

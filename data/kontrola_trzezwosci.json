@@ -1,0 +1,320 @@
+{
+ "_zrodlo": "§ 2–§ 8 rozporządzenia Ministra Zdrowia i Ministra Spraw Wewnętrznych i Administracji z dnia 28 grudnia 2018 r. w sprawie badań na zawartość alkoholu w organizmie (Dz.U. 2018 poz. 2472); art. 46 ust. 2 i 3 ustawy o wychowaniu w trzeźwości i przeciwdziałaniu alkoholizmowi.",
+ "uwaga_ogolna": "Progi: stan po użyciu alkoholu — od 0,10 do 0,25 mg/l; stan nietrzeźwości — powyżej 0,25 mg/l w wydychanym powietrzu (art. 46 ust. 2 i 3 ustawy o wychowaniu w trzeźwości).",
+ "start": "q-zgoda",
+ "wezly": {
+  "q-zgoda": {
+   "pytanie": "Czy kierujący zgadza się na badanie wydychanego powietrza?",
+   "podpowiedz": "Zanim wykonasz pierwszy pomiar:",
+   "krotko": "Zgoda na badanie",
+   "opcje": [
+    {
+     "tekst": "TAK — zgadza się na badanie",
+     "krotko": "Tak",
+     "next": "q-urzadzenie"
+    },
+    {
+     "tekst": "NIE — odmawia badania wydychanego powietrza",
+     "krotko": "Nie",
+     "next": "w-krew"
+    }
+   ],
+   "kroki": [
+    "odczekaj 15 minut od zakończenia picia, palenia tytoniu, e-papierosów lub używania wyrobów bezdymnych;",
+    "wymień ustnik — opakowanie otwierasz przy osobie badanej."
+   ],
+   "przepis": {
+    "head": "§ 2 ust. 2, § 3 ust. 2 i § 4 ust. 1",
+    "body": "§ 2 ust. 2. Badanie wydychanego powietrza przeprowadza się przed badaniem krwi, jeżeli stan osoby badanej na to pozwala.\n§ 3 ust. 2. Badania analizatorem wydechu nie przeprowadza się przed upływem 15 minut od chwili zakończenia spożywania alkoholu, palenia wyrobów tytoniowych, w tym palenia nowatorskich wyrobów tytoniowych, palenia papierosów elektronicznych lub używania wyrobów tytoniowych bezdymnych przez osobę badaną.\n§ 4 ust. 1. Pomiaru analizatorem wydechu dokonuje się z użyciem ustnika. Ustnik podlega wymianie każdorazowo przed przeprowadzeniem pomiaru. Opakowanie ustnika należy otwierać w obecności osoby badanej."
+   }
+  },
+  "q-urzadzenie": {
+   "pytanie": "Jakiego urządzenia używasz do badania?",
+   "krotko": "Urządzenie",
+   "opcje": [
+    {
+     "tekst": "Utlenianie elektrochemiczne (AlcoQuant, AlcoTrue P, AS IV CM)",
+     "krotko": "Elektrochemiczne",
+     "next": "q-e-pierwszy"
+    },
+    {
+     "tekst": "Spektrofotometryczny na podczerwień (Dräger 9510 IR, AlcoDigital, AlkoMetr)",
+     "krotko": "Spektrofotometryczny",
+     "next": "q-s-pierwszy"
+    }
+   ],
+   "przepis": {
+    "head": "§ 3 ust. 1 rozporządzenia",
+    "body": "Badanie wydychanego powietrza przeprowadza się w sposób nieinwazyjny przy użyciu urządzenia elektronicznego dokonującego pomiaru stężenia alkoholu w wydychanym powietrzu metodą:\n1) spektrometrii w podczerwieni lub\n2) utleniania elektrochemicznego\n– zwanego dalej „analizatorem wydechu”."
+   }
+  },
+  "q-e-pierwszy": {
+   "pytanie": "Jaki jest wynik pierwszego badania?",
+   "krotko": "I badanie",
+   "opcje": [
+    {
+     "tekst": "0,00 mg/l",
+     "krotko": "0,00 mg/l",
+     "next": "w-trzezwy"
+    },
+    {
+     "tekst": "Powyżej 0,00 mg/l",
+     "krotko": "Powyżej 0,00",
+     "next": "q-e-drugi"
+    }
+   ]
+  },
+  "q-e-drugi": {
+   "pytanie": "Jaki jest wynik drugiego badania?",
+   "krotko": "II badanie",
+   "instrukcja": "Po upływie 15 minut wykonaj drugie badanie tym samym urządzeniem. Pamiętaj o zmianie ustnika na nowy — stary może zakłamać wynik.",
+   "opcje": [
+    {
+     "tekst": "Powyżej 0,00 mg/l",
+     "krotko": "Powyżej 0,00",
+     "next": "q-e-progi"
+    },
+    {
+     "tekst": "0,00 mg/l",
+     "krotko": "0,00 mg/l",
+     "next": "q-e-zero"
+    }
+   ],
+   "przepis": {
+    "head": "§ 4 ust. 3 rozporządzenia",
+    "body": "W przypadku dokonania pierwszego pomiaru analizatorem elektrochemicznym oraz uzyskania wyniku ponad 0,00 mg/dm³, dokonuje się drugiego pomiaru po upływie 15 minut."
+   }
+  },
+  "q-e-progi": {
+   "pytanie": "Jakie są oba wyniki badania?",
+   "krotko": "Wyniki",
+   "opcje": [
+    {
+     "tekst": "Jeden wynik od 0,10 mg/l do 0,25 mg/l, drugi od 0,01 mg/l do 0,25 mg/l",
+     "krotko": "0,10–0,25 / 0,01–0,25",
+     "next": "w-po-uzyciu"
+    },
+    {
+     "tekst": "Jeden wynik co najmniej 0,26 mg/l, drugi co najmniej 0,01 mg/l",
+     "krotko": "≥ 0,26 / ≥ 0,01",
+     "next": "w-nietrzezwy-elektro"
+    }
+   ]
+  },
+  "q-e-zero": {
+   "pytanie": "Czy wynik pierwszego badania to co najmniej 0,10 mg/l?",
+   "podpowiedz": "Drugie badanie dało 0,00 mg/l.",
+   "krotko": "I badanie ≥ 0,10 mg/l",
+   "opcje": [
+    {
+     "tekst": "TAK",
+     "krotko": "Tak",
+     "next": "w-trzecie"
+    },
+    {
+     "tekst": "NIE",
+     "krotko": "Nie",
+     "next": "w-trzezwy"
+    }
+   ]
+  },
+  "q-s-pierwszy": {
+   "pytanie": "Jaki jest wynik pierwszego badania?",
+   "krotko": "I badanie",
+   "opcje": [
+    {
+     "tekst": "0,00 mg/l",
+     "krotko": "0,00 mg/l",
+     "next": "w-trzezwy"
+    },
+    {
+     "tekst": "Powyżej 0,00 mg/l",
+     "krotko": "Powyżej 0,00",
+     "next": "q-s-drugi"
+    }
+   ]
+  },
+  "q-s-drugi": {
+   "pytanie": "Jaki jest wynik drugiego badania?",
+   "krotko": "II badanie",
+   "instrukcja": "Drugi pomiar wykonaj NIEZWŁOCZNIE po pierwszym, tym samym analizatorem. Pamiętaj o nowym ustniku.",
+   "opcje": [
+    {
+     "tekst": "Powyżej 0,00 mg/l",
+     "krotko": "Powyżej 0,00",
+     "next": "q-s-progi"
+    },
+    {
+     "tekst": "0,00 mg/l",
+     "krotko": "0,00 mg/l",
+     "next": "q-s-zero"
+    }
+   ],
+   "przepis": {
+    "head": "§ 4 ust. 2 rozporządzenia",
+    "body": "W przypadku dokonania pierwszego pomiaru analizatorem spektrometrycznym oraz uzyskania wyniku ponad 0,00 mg/dm³, dokonuje się niezwłocznie drugiego pomiaru."
+   }
+  },
+  "q-s-progi": {
+   "pytanie": "Jakie są oba wyniki badania?",
+   "krotko": "Wyniki",
+   "opcje": [
+    {
+     "tekst": "Jeden wynik od 0,10 mg/l do 0,25 mg/l, drugi od 0,01 mg/l do 0,25 mg/l",
+     "krotko": "0,10–0,25 / 0,01–0,25",
+     "next": "w-po-uzyciu"
+    },
+    {
+     "tekst": "Jeden wynik co najmniej 0,26 mg/l, drugi co najmniej 0,01 mg/l",
+     "krotko": "≥ 0,26 / ≥ 0,01",
+     "next": "w-nietrzezwy"
+    }
+   ]
+  },
+  "q-s-zero": {
+   "pytanie": "Czy wynik pierwszego badania to co najmniej 0,10 mg/l?",
+   "podpowiedz": "Drugie badanie dało 0,00 mg/l.",
+   "krotko": "I badanie ≥ 0,10 mg/l",
+   "opcje": [
+    {
+     "tekst": "TAK",
+     "krotko": "Tak",
+     "next": "w-trzecie"
+    },
+    {
+     "tekst": "NIE",
+     "krotko": "Nie",
+     "next": "w-trzezwy"
+    }
+   ]
+  }
+ },
+ "wyniki": {
+  "w-krew": {
+   "typ": "krew",
+   "tytul": "Badanie krwi",
+   "opis": "Odmowa poddania się badaniu wydychanego powietrza obliguje do przeprowadzenia badania krwi.",
+   "przepis": {
+    "head": "§ 8 ust. 1 rozporządzenia",
+    "body": "Badanie krwi przeprowadza się, jeżeli: 1) osoba badana odmawia poddania się badaniu wydychanego powietrza; 2) osoba badana, pomimo przeprowadzenia badania wydychanego powietrza, żąda badania krwi; 3) stan osoby badanej uniemożliwia przeprowadzenie badania wydychanego powietrza; 4) wystąpił brak wskazania stężenia alkoholu spowodowany przekroczeniem zakresu pomiarowego analizatora wydechu."
+   },
+   "kroki": [
+    "Jedno pobranie — trzy pobrania co 30 minut dotyczą wyłącznie trybu z § 6 (badany oddalił się albo mógł pić po zdarzeniu).",
+    "Z czynności pobrania krwi sporządza się protokół."
+   ]
+  },
+  "w-trzezwy": {
+   "typ": "ok",
+   "tytul": "Osoba jest trzeźwa",
+   "opis": "Wynik badania nie wskazuje na obecność alkoholu w wydychanym powietrzu.",
+   "kroki": [
+    "Protokół z wynikiem 0,00 mg/l sporządzasz, gdy prowadzisz dalsze postępowanie w sprawie przestępstwa lub wykroczenia albo gdy zażąda tego osoba badana — o tym uprawnieniu musisz ją pouczyć."
+   ],
+   "przepis": {
+    "head": "§ 7 ust. 3 rozporządzenia",
+    "body": "Protokół z przebiegu badania przeprowadzonego analizatorem wydechu, w którym uzyskano wynik równy 0,00 mg/dm³, sporządza się: 1) w przypadku prowadzenia dalszego postępowania w sprawie popełnienia przestępstwa lub wykroczenia; 2) na żądanie osoby badanej — o czym należy ją pouczyć."
+   }
+  },
+  "w-trzecie": {
+   "typ": "info",
+   "tytul": "Wykonaj trzecie badanie",
+   "opis": "Pierwszy pomiar wyniósł co najmniej 0,10 mg/l, a drugi 0,00 mg/l.",
+   "kroki": [
+    "Wykonaj niezwłocznie trzeci pomiar — tym samym analizatorem.",
+    "Wynik 0,00 mg/l w trzecim pomiarze oznacza, że badanie nie wskazuje na stan po użyciu alkoholu."
+   ],
+   "przepis": {
+    "head": "§ 4 ust. 5 rozporządzenia",
+    "body": "W przypadku dokonania pierwszego pomiaru analizatorem wydechu i uzyskania wyniku równego lub większego od 0,10 mg/dm³, a w drugim pomiarze wyniku 0,00 mg/dm³, dokonuje się niezwłocznie trzeciego pomiaru tym samym analizatorem wydechu. Jeżeli wynik trzeciego pomiaru wynosi 0,00 mg/dm³, to badanie nie wskazuje na stan po użyciu alkoholu."
+   }
+  },
+  "w-po-uzyciu": {
+   "typ": "wykroczenie",
+   "tytul": "Osoba jest w stanie po użyciu alkoholu",
+   "opis": "Zawartość alkoholu w wydychanym powietrzu od 0,10 mg/l do 0,25 mg/l — stan po użyciu alkoholu (art. 46 ust. 2 ustawy o wychowaniu w trzeźwości). Kwalifikacja zależy od rodzaju prowadzonego pojazdu:",
+   "warianty": [
+    {
+     "etykieta": "Pojazd mechaniczny",
+     "kwalifikacja": "art. 87 § 1 KW",
+     "opis": "Areszt albo grzywna nie niższa niż 2500 zł. W razie popełnienia tego wykroczenia sąd obligatoryjnie orzeka zakaz prowadzenia pojazdów (§ 3) — dlatego czynu nie można zakończyć mandatem; kieruj wniosek o ukaranie do sądu.",
+     "mandat": "brak trybu mandatowego — wniosek o ukaranie do sądu",
+     "mandat_typ": "brak",
+     "taryfikator": "87 §1 KW",
+     "taryfikator_tekst": "Zobacz art. 87 § 1 KW w taryfikatorze ›"
+    },
+    {
+     "etykieta": "Inny pojazd niż mechaniczny (rower, hulajnoga, UTO, zaprzęg)",
+     "kwalifikacja": "art. 87 § 2 KW",
+     "opis": "Prowadzenie na drodze publicznej, w strefie zamieszkania lub w strefie ruchu. Areszt albo grzywna nie niższa niż 1000 zł; zakaz prowadzenia pojazdów jest fakultatywny (§ 4), więc czyn można zakończyć mandatem.",
+     "mandat": "mandat możliwy — zakaz prowadzenia pojazdów fakultatywny",
+     "mandat_typ": "ok",
+     "taryfikator": "87 §2 KW",
+     "taryfikator_tekst": "Zobacz art. 87 § 2 KW w taryfikatorze ›"
+    }
+   ],
+   "przepis": {
+    "head": "Art. 87 KW",
+    "body": "§ 1. Kto, znajdując się w stanie po użyciu alkoholu lub podobnie działającego środka, prowadzi pojazd mechaniczny w ruchu lądowym, wodnym lub powietrznym, podlega karze aresztu albo grzywny nie niższej niż 2500 złotych.\n§ 1a. Tej samej karze podlega, kto, znajdując się w stanie nietrzeźwości lub pod wpływem podobnie działającego środka, prowadzi na drodze publicznej, w strefie zamieszkania lub w strefie ruchu inny pojazd niż określony w § 1.\n§ 2. Kto, znajdując się w stanie po użyciu alkoholu lub podobnie działającego środka, prowadzi na drodze publicznej, w strefie zamieszkania lub strefie ruchu inny pojazd niż określony w § 1, podlega karze aresztu albo karze grzywny nie niższej niż 1000 złotych.\n§ 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się zakaz prowadzenia pojazdów.\n§ 4. W razie popełnienia wykroczenia określonego w § 1a lub 2 można orzec zakaz prowadzenia pojazdów innych niż określone w § 1."
+   }
+  },
+  "w-nietrzezwy": {
+   "typ": "stop",
+   "tytul": "Osoba jest w stanie nietrzeźwości",
+   "opis": "Zawartość alkoholu w wydychanym powietrzu powyżej 0,25 mg/l — stan nietrzeźwości (art. 46 ust. 3 ustawy o wychowaniu w trzeźwości). Kwalifikacja zależy od rodzaju prowadzonego pojazdu:",
+   "warianty": [
+    {
+     "etykieta": "Pojazd mechaniczny",
+     "kwalifikacja": "art. 178a § 1 KK",
+     "opis": "Przestępstwo — prowadzenie pojazdu mechanicznego w ruchu lądowym, wodnym lub powietrznym w stanie nietrzeźwości. Realizuj czynności jak przy przestępstwie i powiadom dyżurnego.",
+     "mandat": "przestępstwo — brak trybu mandatowego",
+     "mandat_typ": "brak",
+     "taryfikator": "178a §1 KK",
+     "taryfikator_tekst": "Zobacz art. 178a § 1 KK w taryfikatorze ›"
+    },
+    {
+     "etykieta": "Inny pojazd niż mechaniczny (rower, hulajnoga, UTO, zaprzęg)",
+     "kwalifikacja": "art. 87 § 1a KW",
+     "opis": "Prowadzenie na drodze publicznej, w strefie zamieszkania lub w strefie ruchu. Areszt albo grzywna nie niższa niż 2500 zł; zakaz prowadzenia pojazdów fakultatywny (§ 4).",
+     "mandat": "mandat możliwy — zakaz prowadzenia pojazdów fakultatywny",
+     "mandat_typ": "ok",
+     "taryfikator": "87 §1a KW",
+     "taryfikator_tekst": "Zobacz art. 87 § 1a KW w taryfikatorze ›"
+    }
+   ],
+   "przepis": {
+    "head": "Art. 87 KW",
+    "body": "§ 1. Kto, znajdując się w stanie po użyciu alkoholu lub podobnie działającego środka, prowadzi pojazd mechaniczny w ruchu lądowym, wodnym lub powietrznym, podlega karze aresztu albo grzywny nie niższej niż 2500 złotych.\n§ 1a. Tej samej karze podlega, kto, znajdując się w stanie nietrzeźwości lub pod wpływem podobnie działającego środka, prowadzi na drodze publicznej, w strefie zamieszkania lub w strefie ruchu inny pojazd niż określony w § 1.\n§ 2. Kto, znajdując się w stanie po użyciu alkoholu lub podobnie działającego środka, prowadzi na drodze publicznej, w strefie zamieszkania lub strefie ruchu inny pojazd niż określony w § 1, podlega karze aresztu albo karze grzywny nie niższej niż 1000 złotych.\n§ 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się zakaz prowadzenia pojazdów.\n§ 4. W razie popełnienia wykroczenia określonego w § 1a lub 2 można orzec zakaz prowadzenia pojazdów innych niż określone w § 1."
+   }
+  },
+  "w-nietrzezwy-elektro": {
+   "typ": "stop",
+   "tytul": "Osoba jest w stanie nietrzeźwości",
+   "opis": "Zawartość alkoholu w wydychanym powietrzu powyżej 0,25 mg/l — stan nietrzeźwości (art. 46 ust. 3 ustawy o wychowaniu w trzeźwości). Kwalifikacja zależy od rodzaju prowadzonego pojazdu:",
+   "warianty": [
+    {
+     "etykieta": "Pojazd mechaniczny",
+     "kwalifikacja": "art. 178a § 1 KK",
+     "opis": "Przestępstwo — prowadzenie pojazdu mechanicznego w ruchu lądowym, wodnym lub powietrznym w stanie nietrzeźwości. Realizuj czynności jak przy przestępstwie i powiadom dyżurnego.",
+     "mandat": "przestępstwo — brak trybu mandatowego",
+     "mandat_typ": "brak",
+     "taryfikator": "178a §1 KK",
+     "taryfikator_tekst": "Zobacz art. 178a § 1 KK w taryfikatorze ›"
+    },
+    {
+     "etykieta": "Inny pojazd niż mechaniczny (rower, hulajnoga, UTO, zaprzęg)",
+     "kwalifikacja": "art. 87 § 1a KW",
+     "opis": "Prowadzenie na drodze publicznej, w strefie zamieszkania lub w strefie ruchu. Areszt albo grzywna nie niższa niż 2500 zł; zakaz prowadzenia pojazdów fakultatywny (§ 4).",
+     "mandat": "mandat możliwy — zakaz prowadzenia pojazdów fakultatywny",
+     "mandat_typ": "ok",
+     "taryfikator": "87 §1a KW",
+     "taryfikator_tekst": "Zobacz art. 87 § 1a KW w taryfikatorze ›"
+    }
+   ],
+   "uwaga": "Badanie wykonano urządzeniem elektrochemicznym. Jeśli według Ciebie zachodzi uzasadnione podejrzenie popełnienia przestępstwa, należy przeprowadzić badanie z użyciem alkomatu spektrofotometrycznego!",
+   "przepis": {
+    "head": "Art. 87 KW",
+    "body": "§ 1. Kto, znajdując się w stanie po użyciu alkoholu lub podobnie działającego środka, prowadzi pojazd mechaniczny w ruchu lądowym, wodnym lub powietrznym, podlega karze aresztu albo grzywny nie niższej niż 2500 złotych.\n§ 1a. Tej samej karze podlega, kto, znajdując się w stanie nietrzeźwości lub pod wpływem podobnie działającego środka, prowadzi na drodze publicznej, w strefie zamieszkania lub w strefie ruchu inny pojazd niż określony w § 1.\n§ 2. Kto, znajdując się w stanie po użyciu alkoholu lub podobnie działającego środka, prowadzi na drodze publicznej, w strefie zamieszkania lub strefie ruchu inny pojazd niż określony w § 1, podlega karze aresztu albo karze grzywny nie niższej niż 1000 złotych.\n§ 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się zakaz prowadzenia pojazdów.\n§ 4. W razie popełnienia wykroczenia określonego w § 1a lub 2 można orzec zakaz prowadzenia pojazdów innych niż określone w § 1."
+   }
+  }
+ }
+}

@@ -27,6 +27,10 @@ def _inject_static_v():
     return {"static_v": static_v}
 
 BASE_DIR = Path(__file__).resolve().parent
+
+# gotowa odpowiedz z baza ADR trzymana w pamieci procesu:
+# (znacznik_czasow_plikow, tresc_json). Patrz pomoce_tablica_adr_dane().
+_ADR_CACHE = None
 PRZEPISY_JSON = BASE_DIR / "data" / "przepisy.json"
 TARYFIKATOR_JSON = BASE_DIR / "data" / "taryfikator.json"
 POMOCE_JSON = BASE_DIR / "data" / "pomoce.json"
@@ -289,6 +293,177 @@ def pomoce_spb():
     return render_template("spb.html", kategorie=podkafelki)
 
 
+_ZNAKI_CACHE = None
+
+
+def load_znaki():
+    """Baza znakow drogowych z data/znaki/. Trzymana w pamieci procesu.
+
+    Klucz cache to czasy modyfikacji plikow — po recznej podmianie danych
+    wszystko przebuduje sie samo, bez restartu aplikacji.
+    """
+    global _ZNAKI_CACHE
+    katalog = BASE_DIR / "data" / "znaki"
+    meta_plik = katalog / "metadata.json"
+    if not meta_plik.exists():
+        return {"kategorie": [], "znaki": [], "indeks": {}, "metadane": {}, "wersja": "0"}
+
+    with open(meta_plik, encoding="utf-8") as f:
+        metadane = json.load(f)
+    pliki = [meta_plik] + [katalog / k["file"] for k in metadane.get("categories", [])]
+    znacznik = tuple(p.stat().st_mtime_ns for p in pliki if p.exists())
+
+    if _ZNAKI_CACHE is None or _ZNAKI_CACHE["znacznik"] != znacznik:
+        znaki = []
+        for kat in metadane.get("categories", []):
+            plik = katalog / kat["file"]
+            if plik.exists():
+                with open(plik, encoding="utf-8") as f:
+                    znaki.extend(json.load(f))
+        _ZNAKI_CACHE = {
+            "znacznik": znacznik,
+            "kategorie": metadane.get("categories", []),
+            "znaki": znaki,
+            "indeks": {z["code"]: z for z in znaki},
+            "metadane": metadane,
+            "wersja": "%s-%d" % (metadane.get("dataset_version", "1"), max(znacznik or [0])),
+        }
+    return _ZNAKI_CACHE
+
+
+@app.route("/pomoce/znaki")
+def pomoce_znaki():
+    """Strona glowna modulu 'Znaki drogowe' — wyszukiwarka i kategorie."""
+    dane = load_znaki()
+    return render_template("znaki.html", kategorie=dane["kategorie"],
+                           metadane=dane["metadane"], wersja=dane["wersja"])
+
+
+@app.route("/pomoce/znaki/kategoria/<seria>")
+def pomoce_znaki_kategoria(seria):
+    """Widok jednej serii znakow, np. /pomoce/znaki/kategoria/A."""
+    dane = load_znaki()
+    kat = next((k for k in dane["kategorie"] if k["id"] == seria.upper()), None)
+    if not kat:
+        abort(404)
+    lista = [z for z in dane["znaki"] if z["category_id"] == kat["id"]]
+    return render_template("znaki_kategoria.html", kategoria=kat, znaki=lista,
+                           wersja=dane["wersja"])
+
+
+@app.route("/pomoce/znaki/znak/<kod>")
+def pomoce_znaki_znak(kod):
+    """Podstrona pojedynczego znaku."""
+    dane = load_znaki()
+    znak = dane["indeks"].get(kod.upper())
+    if not znak:
+        abort(404)
+    kat = next((k for k in dane["kategorie"] if k["id"] == znak["category_id"]), None)
+    powiazane = [dane["indeks"][k] for k in znak.get("related_sign_ids", [])
+                 if k in dane["indeks"]]
+    return render_template("znaki_znak.html", znak=znak, kategoria=kat,
+                           powiazane=powiazane, wersja=dane["wersja"])
+
+
+@app.route("/pomoce/znaki/dane")
+def pomoce_znaki_dane():
+    """Lekki indeks do wyszukiwarki — bez podstaw prawnych i szczegolow.
+
+    Pelne dane sa renderowane po stronie serwera na podstronie znaku; do
+    wyszukiwania wystarcza kod, nazwa, krotki opis, kategoria i grafika.
+    """
+    dane = load_znaki()
+    lekkie = [{
+        "code": z["code"], "name": z["name"], "short": z["short_description"],
+        "cat": z["category_id"], "catName": z["category_name"],
+        "img": z["image_path"], "kw": z.get("keywords", []),
+    } for z in dane["znaki"]]
+    odp = Response(json.dumps({"znaki": lekkie, "kategorie": dane["kategorie"]},
+                              ensure_ascii=False), mimetype="application/json")
+    odp.headers["Cache-Control"] = "public, max-age=604800, immutable"
+    return odp
+
+
+@app.route("/pomoce/tablica-adr")
+def pomoce_tablica_adr():
+    """Podstrona 'Tablica ADR' — interaktywna tablica pomaranczowa.
+
+    Dane ADR sa ladowane osobnym zadaniem (/pomoce/tablica-adr/dane), zeby
+    nie powiekszac HTML i zeby przegladarka mogla je trzymac w cache — modul
+    ma dzialac bez internetu po pierwszym otwarciu.
+
+    Do szablonu przekazujemy znacznik wersji bazy. JS dokleja go do adresu
+    danych, wiec po kazdym imporcie przegladarka pobiera plik na nowo, a
+    miedzy importami korzysta z cache (tryb offline dziala dalej).
+    """
+    plik = BASE_DIR / "data" / "adr" / "adr_2025_substances.json"
+    try:
+        with open(BASE_DIR / "data" / "adr" / "adr_2025_metadata.json", encoding="utf-8") as f:
+            wersja = json.load(f).get("dataset_version", "0")
+    except OSError:
+        wersja = "0"
+    try:
+        wersja = "%s-%d" % (wersja, int(plik.stat().st_mtime))
+    except OSError:
+        pass
+    return render_template("adr.html", wersja_bazy=wersja)
+
+
+@app.route("/pomoce/tablica-adr/dane")
+def pomoce_tablica_adr_dane():
+    """Lokalna baza ADR: substancje + kody zagrozenia + metadane.
+
+    Zadne dane nie sa pobierane z sieci w czasie pracy uzytkownika — trzy pliki
+    z data/adr/ sa scalane i zwracane jako jeden JSON.
+
+    Baza ma ok. 2,4 MB, wiec trzymamy gotowa odpowiedz w pamieci procesu.
+    Klucz cache to czasy modyfikacji plikow — po recznej podmianie ktoregokolwiek
+    z nich odpowiedz przebuduje sie sama, bez restartu aplikacji.
+    """
+    global _ADR_CACHE
+    katalog = BASE_DIR / "data" / "adr"
+    pliki = [
+        katalog / "adr_2025_substances.json",
+        katalog / "adr_2025_danger_codes.json",
+        katalog / "adr_2025_metadata.json",
+    ]
+    try:
+        znacznik = tuple(p.stat().st_mtime_ns for p in pliki)
+    except OSError:
+        abort(404)
+
+    if _ADR_CACHE is None or _ADR_CACHE[0] != znacznik:
+        tresc = {}
+        for klucz, plik in zip(("substances", "danger_codes", "metadata"), pliki):
+            with open(plik, encoding="utf-8") as f:
+                tresc[klucz] = json.load(f)
+        _ADR_CACHE = (znacznik, json.dumps(tresc, ensure_ascii=False))
+
+    odp = Response(_ADR_CACHE[1], mimetype="application/json")
+    # baza zmienia sie tylko przy recznej aktualizacji, a adres zawiera wersje,
+    # wiec dlugi cache w przegladarce jest bezpieczny i daje tryb offline
+    odp.headers["Cache-Control"] = "public, max-age=604800, immutable"
+    return odp
+
+
+@app.route("/pomoce/numery-telefonow")
+def pomoce_numery_telefonow():
+    """Hub 'Numery telefonów i CKT' — podkafelki z numerami poszczegolnych sluzb.
+
+    Kafelki numerow trzymamy w jednym hubie, zeby nie zajmowaly czterech pol
+    na glownej siatce Pomocy; kazdy podkafelek prowadzi do wlasnej listy
+    (albo — jak CKT — wprost do serwisu zewnetrznego).
+    """
+    dane = load_pomoce()
+    podkafelki = [k for k in dane["kategorie"] if k.get("grupa") == "numery"]
+    return render_template(
+        "hub.html",
+        kategorie=podkafelki,
+        tytul="Numery telefonów i CKT",
+        podtytul="ALARMOWE&nbsp;&nbsp;SŁUŻBOWE&nbsp;&nbsp;KSIĄŻKA&nbsp;&nbsp;TELEFONICZNA",
+    )
+
+
 @app.route("/pomoce/spb-srodki")
 def pomoce_spb_srodki():
     """Podstrona 'Przypadki użycia ŚPB' — kafelek na każdy środek przymusu.
@@ -488,6 +663,38 @@ def kwalifikacja_zdarzenia():
     return render_template("kwalifikacja_zdarzenia.html", dane=dane)
 
 
+@app.route("/pomoce/kontrola-trzezwosci")
+def kontrola_trzezwosci():
+    """Podstrona 'Kontrola trzezwosci — badany na miejscu' — kreator pytan.
+
+    Drzewo decyzyjne (zgoda na badanie, rodzaj urzadzenia, wyniki I i II
+    badania) prowadzi do oceny stanu badanego albo do badania krwi.
+    Zrodlo: rozporzadzenie MZ i MSWiA z 28.12.2018 r. w sprawie badan na
+    zawartosc alkoholu w organizmie oraz art. 46 ust. 2 i 3 ustawy
+    o wychowaniu w trzezwosci.
+    """
+    with open(BASE_DIR / "data" / "kontrola_trzezwosci.json", encoding="utf-8") as f:
+        dane = json.load(f)
+    return render_template("kontrola_trzezwosci.html", dane=dane)
+
+
+@app.route("/pomoce/kontrola-trzezwosci-oddalil-sie")
+def kontrola_trzezwosci_oddalil():
+    """Podstrona 'Kontrola trzezwosci — badany oddalil sie' — kreator pytan.
+
+    Osobna sciezka dla sytuacji, gdy badany oddalil sie z miejsca zdarzenia
+    przed badaniem trzezwosci (albo zachodzi podejrzenie spozycia alkoholu
+    po zdarzeniu). Rozporzadzenie wymaga wtedy serii pomiarow rozlozonych
+    w czasie, a przy urzadzeniu elektrochemicznym — potwierdzenia
+    analizatorem spektrometrycznym i dwoch odrebnych protokolow.
+    """
+    with open(
+        BASE_DIR / "data" / "kontrola_trzezwosci_oddalil.json", encoding="utf-8"
+    ) as f:
+        dane = json.load(f)
+    return render_template("kontrola_trzezwosci_oddalil.html", dane=dane)
+
+
 @app.route("/pomoce/pdf/<klucz>")
 def pomoce_pdf(klucz):
     """Pobiera zewnetrzny PDF po stronie serwera i podaje go 'inline'.
@@ -550,8 +757,18 @@ def taryfikator():
 
 @app.route("/api/taryfikator")
 def api_taryfikator():
-    """Zwraca kategorie i rekordy taryfikatora jako JSON dla static/js/taryfikator.js."""
-    dane = load_taryfikator()
+    """Zwraca kategorie i rekordy taryfikatora jako JSON dla static/js/taryfikator.js.
+
+    Dodatkowo dolacza wlasne nazwy artykulow (data/nazwy_artykulow.json) —
+    KW i PRD nie maja urzedowych tytulow artykulow, wiec sa to opisy wlasne,
+    pokazywane w naglowkach przepisow w szczegolach rekordu.
+    """
+    dane = dict(load_taryfikator())
+    try:
+        with open(BASE_DIR / "data" / "nazwy_artykulow.json", encoding="utf-8") as f:
+            dane["nazwy_artykulow"] = json.load(f).get("nazwy", {})
+    except OSError:
+        dane["nazwy_artykulow"] = {}
     return jsonify(dane)
 
 

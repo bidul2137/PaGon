@@ -217,18 +217,100 @@
    "slug": "kontrola-trzezwosci-na-miejscu",
    "nazwa": "Kontrola trzeźwości — badany na miejscu",
    "ikona": "kontrola-trzezwosci-na-miejscu",
-   "url": null
+   "url": "/pomoce/kontrola-trzezwosci"
   },
   {
    "slug": "kontrola-trzezwosci-oddalil-sie",
    "nazwa": "Kontrola trzeźwości — badany oddalił się",
    "ikona": "kontrola-trzezwosci-oddalil-sie",
-   "url": null
+   "url": "/pomoce/kontrola-trzezwosci-oddalil-sie"
   },
   {
    "slug": "kody-ograniczen-prawa-jazdy",
    "nazwa": "Kody ograniczeń prawa jazdy",
    "ikona": "kody-ograniczen-prawa-jazdy",
+   "url": null
+  },
+  {
+   "slug": "numery-telefonow",
+   "nazwa": "Numery telefonów i CKT",
+   "ikona": "numery-telefonow",
+   "url": "/pomoce/numery-telefonow"
+  },
+  {
+   "slug": "numery-ogolne",
+   "nazwa": "Numery ogólne",
+   "ikona": "numery-ogolne",
+   "url": null,
+   "grupa": "numery"
+  },
+  {
+   "slug": "numery-itd",
+   "nazwa": "Numery telefonów — ITD",
+   "ikona": "numery-itd",
+   "url": null,
+   "grupa": "numery"
+  },
+  {
+   "slug": "numery-straz-graniczna",
+   "nazwa": "Numery telefonów — Straż Graniczna",
+   "ikona": "numery-straz-graniczna",
+   "url": null,
+   "grupa": "numery"
+  },
+  {
+   "slug": "ksiazka-telefoniczna-policja",
+   "nazwa": "Centralna Książka Telefoniczna",
+   "ikona": "ksiazka-telefoniczna-policja",
+   "url": "https://ckt.uc.ost112.gov.pl",
+   "grupa": "numery"
+  },
+  {
+   "slug": "kody-pocztowe",
+   "nazwa": "Kody pocztowe",
+   "ikona": "kody-pocztowe",
+   "url": null
+  },
+  {
+   "slug": "kody-usterek",
+   "nazwa": "Kody usterek",
+   "ikona": "kody-usterek",
+   "url": null
+  },
+  {
+   "slug": "znaki-drogowe",
+   "nazwa": "Znaki drogowe",
+   "ikona": "znaki-drogowe",
+   "url": "/pomoce/znaki"
+  },
+  {
+   "slug": "slownik-wyrazen-ustawowych",
+   "nazwa": "Słownik wyrażeń ustawowych",
+   "ikona": "slownik-wyrazen-ustawowych",
+   "url": null
+  },
+  {
+   "slug": "lista-firm",
+   "nazwa": "Lista firm",
+   "ikona": "lista-firm",
+   "url": null
+  },
+  {
+   "slug": "tablica-adr",
+   "nazwa": "Tablica ADR",
+   "ikona": "tablica-adr",
+   "url": "/pomoce/tablica-adr"
+  },
+  {
+   "slug": "warunki-techniczne-rower",
+   "nazwa": "Warunki techniczne — rower i wózek rowerowy",
+   "ikona": "warunki-techniczne-rower",
+   "url": null
+  },
+  {
+   "slug": "warunki-techniczne-emisja",
+   "nazwa": "Warunki techniczne — poziom emisji zanieczyszczeń",
+   "ikona": "warunki-techniczne-emisja",
    "url": null
   }
  ],
@@ -6650,6 +6732,165 @@
     "kody ograniczeń",
     "prawo jazdy"
    ]
+  },
+  {
+   "category": "numery-ogolne",
+   "section": "Numery alarmowe"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "112",
+   "opis": "Numer alarmowy — wszystkie służby ratunkowe",
+   "tel": "112"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "997",
+   "opis": "Policja",
+   "tel": "997"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "998",
+   "opis": "Państwowa Straż Pożarna",
+   "tel": "998"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "999",
+   "opis": "Państwowe Ratownictwo Medyczne",
+   "tel": "999"
+  },
+  {
+   "category": "numery-ogolne",
+   "section": "Pozostałe numery alarmowe"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "986",
+   "opis": "Straż miejska",
+   "tel": "986",
+   "note": "Nie działa we wszystkich miastach."
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "987",
+   "opis": "Centrum zarządzania kryzysowego",
+   "tel": "987"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "991",
+   "opis": "Pogotowie energetyczne",
+   "tel": "991"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "992",
+   "opis": "Pogotowie gazowe",
+   "tel": "992"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "993",
+   "opis": "Pogotowie ciepłownicze",
+   "tel": "993"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "994",
+   "opis": "Pogotowie wodno-kanalizacyjne",
+   "tel": "994"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "995",
+   "opis": "Komenda Główna Policji — system Child Alert",
+   "tel": "995"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "996",
+   "opis": "Centrum Antyterrorystyczne",
+   "tel": "996"
+  },
+  {
+   "category": "numery-ogolne",
+   "section": "Ratownictwo i telefony pomocowe"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "601 100 100",
+   "opis": "Ratownictwo nad wodą — MOPR i WOPR",
+   "tel": "601100100"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "601 100 300",
+   "opis": "Ratownictwo w górach — GOPR i TOPR",
+   "tel": "601100300"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "116 000",
+   "opis": "Zaginione dzieci — Fundacja ITAKA",
+   "tel": "116000"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "116 111",
+   "opis": "Telefon zaufania dla dzieci i młodzieży",
+   "tel": "116111"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "116 123",
+   "opis": "Kryzysowy telefon zaufania",
+   "tel": "116123"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "800 702 222",
+   "opis": "Centrum wsparcia w kryzysie psychicznym",
+   "tel": "800702222"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "22 668 70 00",
+   "opis": "Niebieska Linia — przemoc w rodzinie",
+   "tel": "226687000"
+  },
+  {
+   "category": "numery-ogolne",
+   "kod": "19 115",
+   "opis": "Miejskie Centrum Kontaktu — m.st. Warszawa",
+   "tel": "19115"
+  },
+  {
+   "category": "numery-itd",
+   "kod": "22 220 40 00",
+   "opis": "GITD — infolinia dla obywatela",
+   "tel": "222204000",
+   "note": "Dni robocze 8:15–16:15."
+  },
+  {
+   "category": "numery-itd",
+   "title": "Kontakt — Główny Inspektorat Transportu Drogowego",
+   "url": "https://www.gov.pl/web/gitd/kontakt11",
+   "description": "Dane kontaktowe GITD oraz odnośniki do wojewódzkich inspektoratów (WITD) z numerami dyżurnymi."
+  },
+  {
+   "category": "numery-straz-graniczna",
+   "kod": "22 500 40 00",
+   "opis": "Komenda Główna SG — infolinia",
+   "tel": "225004000",
+   "note": "Dni robocze 8:15–16:15."
+  },
+  {
+   "category": "numery-straz-graniczna",
+   "title": "Telefon interwencyjny — Straż Graniczna",
+   "url": "https://www.strazgraniczna.pl/pl/kontakt/telefon-interwencyjny",
+   "description": "Numery interwencyjne i całodobowe służby dyżurne poszczególnych oddziałów Straży Granicznej."
   }
  ]
 }

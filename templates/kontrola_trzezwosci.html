@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Kontrola trzeźwości (badany na miejscu){% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kwalifikacja.css') }}">
+
+<div class="tar-page kpj-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Kontrola trzeźwości — badany na miejscu</h1>
+      <p class="kpj-lead">Odpowiedz na pytania — kreator poprowadzi przez badanie wydychanego powietrza
+        i wskaże stan badanego (trzeźwy / po użyciu alkoholu / nietrzeźwość) albo badanie krwi.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+    <div class="kwz-sciezka" id="ktr-sciezka" aria-label="Twoje dotychczasowe odpowiedzi"></div>
+    <div id="ktr-panel" aria-live="polite"></div>
+    <p class="kpj-zrodlo">Podstawa: rozporządzenie Ministra Zdrowia i Ministra Spraw Wewnętrznych
+      i Administracji z dnia 28 grudnia 2018 r. w sprawie badań na zawartość alkoholu w organizmie
+      (Dz.U. 2018 poz. 2472) oraz art. 46 ust. 2 i 3 ustawy o wychowaniu w trzeźwości. Kreator ma charakter
+      pomocniczy — o ocenie stanu badanego decyduje funkcjonariusz na podstawie wyników pomiarów
+      i całokształtu okoliczności.</p>
+  </main>
+
+</div>
+
+<script id="ktr-dane" type="application/json">{{ dane|tojson }}</script>
+<script src="{{ static_v('js/kontrola_trzezwosci.js') }}" defer></script>
+{% endblock %}

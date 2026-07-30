@@ -1,0 +1,722 @@
+[
+ {
+  "id": "F-1",
+  "code": "F-1",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "przejście graniczne",
+  "short_description": "Informuje o czynnym przejściu granicznym.",
+  "details": "Znak F-1 „przejście graniczne” informuje o czynnym przejściu granicznym.",
+  "image_path": "img/znaki/F-1.png",
+  "keywords": [
+   "f-1",
+   "f1",
+   "graniczne",
+   "przejście"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 69",
+   "source_text": "§ 69. 1. Znak F-1 „przejście graniczne” informuje o czynnym przejściu granicznym. 2. Znak F-2 „przekraczanie granicy zabronione” informuje, że ruch przez granicę jest zamknięty. 2a. Znak F-2a „granica państwa” informuje o miejscu przekroczenia granicy Rzeczypospolitej Polskiej. 3. Znak F-3 „granica obszaru administracyjnego” z napisami „województwo”, „powiat” lub „gmina” i umieszczonymi nazwami informuje o wjeździe odpowiednio na obszar województwa, powiatu i gminy, powiatu i gminy albo gminy. 4. Znak F-4 „nazwa rzeki” podaje nazwę rzeki lub innego cieku wodnego, nad którym przebiega droga.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-10",
+  "code": "F-10",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "kierunki na pasach ruchu",
+  "short_description": "Wskazuje dozwolone, zgodnie ze strzałkami umieszczonymi na znaku, kierunki jazdy z poszczególnych pasów ruchu.",
+  "details": "Umieszczony obok jezdni znak F-10 „kierunki na pasach ruchu” wskazuje dozwolone, zgodnie ze strzałkami umieszczonymi na znaku, kierunki jazdy z poszczególnych pasów ruchu. Umieszczona na znaku F-10 lub F-11 strzałka zezwalająca na skręcanie w lewo ze skrajnego lewego pasa ruchu ozna￾cza także zezwolenie na zawracanie, chyba że jest to zabronione znakiem B-23 lub ruch jest kierowany sygnalizatorem S-3.",
+  "image_path": "img/znaki/F-10.png",
+  "keywords": [
+   "f-10",
+   "f10",
+   "kierunki",
+   "pasach",
+   "ruchu"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 72",
+   "source_text": "§ 72. 1. Umieszczony obok jezdni znak F-10 „kierunki na pasach ruchu” wskazuje dozwolone, zgodnie ze strzałkami umieszczonymi na znaku, kierunki jazdy z poszczególnych pasów ruchu. 2. Umieszczony nad pasem ruchu znak F-11 „kierunki na pasie ruchu” wskazuje dozwolone, zgodnie ze strzałkami umieszczonymi na znaku, kierunki jazdy z pasa ruchu, nad którym znak został umieszczony. 3. Umieszczona na znaku F-10 lub F-11 strzałka zezwalająca na skręcanie w lewo ze skrajnego lewego pasa ruchu ozna￾cza także zezwolenie na zawracanie, chyba że jest to zabronione znakiem B-23 lub ruch jest kierowany sygnalizatorem S-3.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-11",
+  "code": "F-11",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "kierunki na pasie ruchu",
+  "short_description": "Wskazuje dozwolone, zgodnie ze strzałkami umieszczonymi na znaku, kierunki jazdy z pasa ruchu, nad którym znak został umieszczony.",
+  "details": "Umieszczony nad pasem ruchu znak F-11 „kierunki na pasie ruchu” wskazuje dozwolone, zgodnie ze strzałkami umieszczonymi na znaku, kierunki jazdy z pasa ruchu, nad którym znak został umieszczony. Umieszczona na znaku F-10 lub F-11 strzałka zezwalająca na skręcanie w lewo ze skrajnego lewego pasa ruchu ozna￾cza także zezwolenie na zawracanie, chyba że jest to zabronione znakiem B-23 lub ruch jest kierowany sygnalizatorem S-3.",
+  "image_path": "img/znaki/F-11.png",
+  "keywords": [
+   "f-11",
+   "f11",
+   "kierunki",
+   "pasie",
+   "ruchu"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 72",
+   "source_text": "§ 72. 1. Umieszczony obok jezdni znak F-10 „kierunki na pasach ruchu” wskazuje dozwolone, zgodnie ze strzałkami umieszczonymi na znaku, kierunki jazdy z poszczególnych pasów ruchu. 2. Umieszczony nad pasem ruchu znak F-11 „kierunki na pasie ruchu” wskazuje dozwolone, zgodnie ze strzałkami umieszczonymi na znaku, kierunki jazdy z pasa ruchu, nad którym znak został umieszczony. 3. Umieszczona na znaku F-10 lub F-11 strzałka zezwalająca na skręcanie w lewo ze skrajnego lewego pasa ruchu ozna￾cza także zezwolenie na zawracanie, chyba że jest to zabronione znakiem B-23 lub ruch jest kierowany sygnalizatorem S-3.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-12",
+  "code": "F-12",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "znak wskazujący przejazd tranzytowy umieszczany przed skrzyżowaniem",
+  "short_description": "znak wskazujący przejazd tranzytowy umieszczany przed skrzyżowaniem",
+  "details": "Znaki: 1) F-12 „znak wskazujący przejazd tranzytowy umieszczany przed skrzyżowaniem”, 2) F-13 „przejazd tranzytowy” wskazują zgodnie ze strzałką kierunek przejazdu tranzytowego pojazdów wskazanych umieszczonym na znaku symbolem pojazdu określonym w § 23 ust.",
+  "image_path": "img/znaki/F-12.png",
+  "keywords": [
+   "f-12",
+   "f12",
+   "przed",
+   "przejazd",
+   "skrzyżowaniem",
+   "tranzytowy",
+   "umieszczany",
+   "wskazujący",
+   "znak"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 73",
+   "source_text": "§ 73. Znaki: 1) F-12 „znak wskazujący przejazd tranzytowy umieszczany przed skrzyżowaniem”, 2) F-13 „przejazd tranzytowy” wskazują zgodnie ze strzałką kierunek przejazdu tranzytowego pojazdów wskazanych umieszczonym na znaku symbolem pojazdu określonym w § 23 ust. 2. Dziennik Ustaw – 20 – Poz. 2310",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "F-13",
+  "code": "F-13",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "przejazd tranzytowy",
+  "short_description": "przejazd tranzytowy",
+  "details": "Znaki: 1) F-12 „znak wskazujący przejazd tranzytowy umieszczany przed skrzyżowaniem”, 2) F-13 „przejazd tranzytowy” wskazują zgodnie ze strzałką kierunek przejazdu tranzytowego pojazdów wskazanych umieszczonym na znaku symbolem pojazdu określonym w § 23 ust.",
+  "image_path": "img/znaki/F-13.png",
+  "keywords": [
+   "f-13",
+   "f13",
+   "przejazd",
+   "tranzytowy"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 73",
+   "source_text": "§ 73. Znaki: 1) F-12 „znak wskazujący przejazd tranzytowy umieszczany przed skrzyżowaniem”, 2) F-13 „przejazd tranzytowy” wskazują zgodnie ze strzałką kierunek przejazdu tranzytowego pojazdów wskazanych umieszczonym na znaku symbolem pojazdu określonym w § 23 ust. 2. Dziennik Ustaw – 20 – Poz. 2310",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "F-14a",
+  "code": "F-14a",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "tablica wskaźnikowa na autostradzie umieszczana w odległości 300 m przed pasem wyłączania",
+  "short_description": "tablica wskaźnikowa na autostradzie umieszczana w odległości 300 m przed pasem wyłączania",
+  "details": "Znaki: 1) F-14a „tablica wskaźnikowa na autostradzie umieszczana w odległości 300 m przed pasem wyłączania”, 2) F-14b „tablica wskaźnikowa na autostradzie umieszczana w odległości 200 m przed pasem wyłączania”, 3) F-14c „tablica wskaźnikowa na autostradzie umieszczana w odległości 100 m przed pasem wyłączania” informują o zbliżaniu się do początku pasa prowadzącego do wyjazdu z autostrady (pasa wyłączania).",
+  "image_path": "img/znaki/F-14a.png",
+  "keywords": [
+   "autostradzie",
+   "f-14a",
+   "f14a",
+   "odległości",
+   "pasem",
+   "przed",
+   "tablica",
+   "umieszczana",
+   "wskaźnikowa",
+   "wyłączania"
+  ],
+  "related_sign_ids": [
+   "F-14b",
+   "F-14c"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 74",
+   "source_text": "§ 74. Znaki: 1) F-14a „tablica wskaźnikowa na autostradzie umieszczana w odległości 300 m przed pasem wyłączania”, 2) F-14b „tablica wskaźnikowa na autostradzie umieszczana w odległości 200 m przed pasem wyłączania”, 3) F-14c „tablica wskaźnikowa na autostradzie umieszczana w odległości 100 m przed pasem wyłączania” informują o zbliżaniu się do początku pasa prowadzącego do wyjazdu z autostrady (pasa wyłączania).",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "F-14b",
+  "code": "F-14b",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "tablica wskaźnikowa na autostradzie umieszczana w odległości 200 m przed pasem wyłączania",
+  "short_description": "tablica wskaźnikowa na autostradzie umieszczana w odległości 200 m przed pasem wyłączania",
+  "details": "Znaki: 1) F-14a „tablica wskaźnikowa na autostradzie umieszczana w odległości 300 m przed pasem wyłączania”, 2) F-14b „tablica wskaźnikowa na autostradzie umieszczana w odległości 200 m przed pasem wyłączania”, 3) F-14c „tablica wskaźnikowa na autostradzie umieszczana w odległości 100 m przed pasem wyłączania” informują o zbliżaniu się do początku pasa prowadzącego do wyjazdu z autostrady (pasa wyłączania).",
+  "image_path": "img/znaki/F-14b.png",
+  "keywords": [
+   "autostradzie",
+   "f-14b",
+   "f14b",
+   "odległości",
+   "pasem",
+   "przed",
+   "tablica",
+   "umieszczana",
+   "wskaźnikowa",
+   "wyłączania"
+  ],
+  "related_sign_ids": [
+   "F-14a",
+   "F-14c"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 74",
+   "source_text": "§ 74. Znaki: 1) F-14a „tablica wskaźnikowa na autostradzie umieszczana w odległości 300 m przed pasem wyłączania”, 2) F-14b „tablica wskaźnikowa na autostradzie umieszczana w odległości 200 m przed pasem wyłączania”, 3) F-14c „tablica wskaźnikowa na autostradzie umieszczana w odległości 100 m przed pasem wyłączania” informują o zbliżaniu się do początku pasa prowadzącego do wyjazdu z autostrady (pasa wyłączania).",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "F-14c",
+  "code": "F-14c",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "tablica wskaźnikowa na autostradzie umieszczana w odległości 100 m przed pasem wyłączania",
+  "short_description": "tablica wskaźnikowa na autostradzie umieszczana w odległości 100 m przed pasem wyłączania",
+  "details": "Znaki: 1) F-14a „tablica wskaźnikowa na autostradzie umieszczana w odległości 300 m przed pasem wyłączania”, 2) F-14b „tablica wskaźnikowa na autostradzie umieszczana w odległości 200 m przed pasem wyłączania”, 3) F-14c „tablica wskaźnikowa na autostradzie umieszczana w odległości 100 m przed pasem wyłączania” informują o zbliżaniu się do początku pasa prowadzącego do wyjazdu z autostrady (pasa wyłączania).",
+  "image_path": "img/znaki/F-14c.png",
+  "keywords": [
+   "autostradzie",
+   "f-14c",
+   "f14c",
+   "odległości",
+   "pasem",
+   "przed",
+   "tablica",
+   "umieszczana",
+   "wskaźnikowa",
+   "wyłączania"
+  ],
+  "related_sign_ids": [
+   "F-14a",
+   "F-14b"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 74",
+   "source_text": "§ 74. Znaki: 1) F-14a „tablica wskaźnikowa na autostradzie umieszczana w odległości 300 m przed pasem wyłączania”, 2) F-14b „tablica wskaźnikowa na autostradzie umieszczana w odległości 200 m przed pasem wyłączania”, 3) F-14c „tablica wskaźnikowa na autostradzie umieszczana w odległości 100 m przed pasem wyłączania” informują o zbliżaniu się do początku pasa prowadzącego do wyjazdu z autostrady (pasa wyłączania).",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "F-15",
+  "code": "F-15",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "niesymetryczny podział jezdni dla przeciwnych kierunków ruchu",
+  "short_description": "Wskazuje pasy ruchu przezna￾czone do jazdy w podanych kierunkach.",
+  "details": "Znak F-15 „niesymetryczny podział jezdni dla przeciwnych kierunków ruchu” wskazuje pasy ruchu przezna￾czone do jazdy w podanych kierunkach.",
+  "image_path": "img/znaki/F-15.png",
+  "keywords": [
+   "f-15",
+   "f15",
+   "jezdni",
+   "kierunków",
+   "niesymetryczny",
+   "podział",
+   "przeciwnych",
+   "ruchu"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 75",
+   "source_text": "§ 75. 1. Znak F-15 „niesymetryczny podział jezdni dla przeciwnych kierunków ruchu” wskazuje pasy ruchu przezna￾czone do jazdy w podanych kierunkach. 2. Znaki: 1) F-16 „koniec pasa ruchu na jezdni dwukierunkowej”, 2) F-17 „koniec pasa ruchu na jezdni jednokierunkowej” uprzedzają o końcu wewnętrznego pasa ruchu na jezdni wskazanej na znaku. 3. Znak F-18 „przeciwny kierunek dla określonych pojazdów” wskazuje lewy pas ruchu przeznaczony tylko dla pojaz￾dów określonych na znaku, poruszających się w kierunku przeciwnym. 4. Znak F-19 „pas ruchu dla określonych pojazdów” wskazuje wyznaczony na jezdni pas ruchu przeznaczony dla pojaz￾dów wskazanych na znaku.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-16",
+  "code": "F-16",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "koniec pasa ruchu na jezdni dwukierunkowej",
+  "short_description": "Uprzedzają o końcu wewnętrznego pasa ruchu na jezdni wskazanej na znaku.",
+  "details": "Znaki: 1) F-16 „koniec pasa ruchu na jezdni dwukierunkowej”, 2) F-17 „koniec pasa ruchu na jezdni jednokierunkowej” uprzedzają o końcu wewnętrznego pasa ruchu na jezdni wskazanej na znaku.",
+  "image_path": "img/znaki/F-16.png",
+  "keywords": [
+   "dwukierunkowej",
+   "f-16",
+   "f16",
+   "jezdni",
+   "koniec",
+   "pasa",
+   "ruchu"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 75",
+   "source_text": "§ 75. 1. Znak F-15 „niesymetryczny podział jezdni dla przeciwnych kierunków ruchu” wskazuje pasy ruchu przezna￾czone do jazdy w podanych kierunkach. 2. Znaki: 1) F-16 „koniec pasa ruchu na jezdni dwukierunkowej”, 2) F-17 „koniec pasa ruchu na jezdni jednokierunkowej” uprzedzają o końcu wewnętrznego pasa ruchu na jezdni wskazanej na znaku. 3. Znak F-18 „przeciwny kierunek dla określonych pojazdów” wskazuje lewy pas ruchu przeznaczony tylko dla pojaz￾dów określonych na znaku, poruszających się w kierunku przeciwnym. 4. Znak F-19 „pas ruchu dla określonych pojazdów” wskazuje wyznaczony na jezdni pas ruchu przeznaczony dla pojaz￾dów wskazanych na znaku.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-17",
+  "code": "F-17",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "koniec pasa ruchu na jezdni jednokierunkowej",
+  "short_description": "Uprzedzają o końcu wewnętrznego pasa ruchu na jezdni wskazanej na znaku.",
+  "details": "Znaki: 1) F-16 „koniec pasa ruchu na jezdni dwukierunkowej”, 2) F-17 „koniec pasa ruchu na jezdni jednokierunkowej” uprzedzają o końcu wewnętrznego pasa ruchu na jezdni wskazanej na znaku.",
+  "image_path": "img/znaki/F-17.png",
+  "keywords": [
+   "f-17",
+   "f17",
+   "jednokierunkowej",
+   "jezdni",
+   "koniec",
+   "pasa",
+   "ruchu"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 75",
+   "source_text": "§ 75. 1. Znak F-15 „niesymetryczny podział jezdni dla przeciwnych kierunków ruchu” wskazuje pasy ruchu przezna￾czone do jazdy w podanych kierunkach. 2. Znaki: 1) F-16 „koniec pasa ruchu na jezdni dwukierunkowej”, 2) F-17 „koniec pasa ruchu na jezdni jednokierunkowej” uprzedzają o końcu wewnętrznego pasa ruchu na jezdni wskazanej na znaku. 3. Znak F-18 „przeciwny kierunek dla określonych pojazdów” wskazuje lewy pas ruchu przeznaczony tylko dla pojaz￾dów określonych na znaku, poruszających się w kierunku przeciwnym. 4. Znak F-19 „pas ruchu dla określonych pojazdów” wskazuje wyznaczony na jezdni pas ruchu przeznaczony dla pojaz￾dów wskazanych na znaku.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-18",
+  "code": "F-18",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "przeciwny kierunek dla określonych pojazdów",
+  "short_description": "Wskazuje lewy pas ruchu przeznaczony tylko dla pojaz￾dów określonych na znaku, poruszających się w kierunku przeciwnym.",
+  "details": "Znak F-18 „przeciwny kierunek dla określonych pojazdów” wskazuje lewy pas ruchu przeznaczony tylko dla pojaz￾dów określonych na znaku, poruszających się w kierunku przeciwnym.",
+  "image_path": "img/znaki/F-18.png",
+  "keywords": [
+   "f-18",
+   "f18",
+   "kierunek",
+   "określonych",
+   "pojazdów",
+   "przeciwny"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 75",
+   "source_text": "§ 75. 1. Znak F-15 „niesymetryczny podział jezdni dla przeciwnych kierunków ruchu” wskazuje pasy ruchu przezna￾czone do jazdy w podanych kierunkach. 2. Znaki: 1) F-16 „koniec pasa ruchu na jezdni dwukierunkowej”, 2) F-17 „koniec pasa ruchu na jezdni jednokierunkowej” uprzedzają o końcu wewnętrznego pasa ruchu na jezdni wskazanej na znaku. 3. Znak F-18 „przeciwny kierunek dla określonych pojazdów” wskazuje lewy pas ruchu przeznaczony tylko dla pojaz￾dów określonych na znaku, poruszających się w kierunku przeciwnym. 4. Znak F-19 „pas ruchu dla określonych pojazdów” wskazuje wyznaczony na jezdni pas ruchu przeznaczony dla pojaz￾dów wskazanych na znaku.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-19",
+  "code": "F-19",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "pas ruchu dla określonych pojazdów",
+  "short_description": "Wskazuje wyznaczony na jezdni pas ruchu przeznaczony dla pojaz￾dów wskazanych na znaku.",
+  "details": "Znak F-19 „pas ruchu dla określonych pojazdów” wskazuje wyznaczony na jezdni pas ruchu przeznaczony dla pojaz￾dów wskazanych na znaku.",
+  "image_path": "img/znaki/F-19.png",
+  "keywords": [
+   "f-19",
+   "f19",
+   "określonych",
+   "pojazdów",
+   "ruchu"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 75",
+   "source_text": "§ 75. 1. Znak F-15 „niesymetryczny podział jezdni dla przeciwnych kierunków ruchu” wskazuje pasy ruchu przezna￾czone do jazdy w podanych kierunkach. 2. Znaki: 1) F-16 „koniec pasa ruchu na jezdni dwukierunkowej”, 2) F-17 „koniec pasa ruchu na jezdni jednokierunkowej” uprzedzają o końcu wewnętrznego pasa ruchu na jezdni wskazanej na znaku. 3. Znak F-18 „przeciwny kierunek dla określonych pojazdów” wskazuje lewy pas ruchu przeznaczony tylko dla pojaz￾dów określonych na znaku, poruszających się w kierunku przeciwnym. 4. Znak F-19 „pas ruchu dla określonych pojazdów” wskazuje wyznaczony na jezdni pas ruchu przeznaczony dla pojaz￾dów wskazanych na znaku.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-2",
+  "code": "F-2",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "przekraczanie granicy zabronione",
+  "short_description": "Informuje, że ruch przez granicę jest zamknięty.",
+  "details": "Znak F-2 „przekraczanie granicy zabronione” informuje, że ruch przez granicę jest zamknięty. Znak F-2a „granica państwa” informuje o miejscu przekroczenia granicy Rzeczypospolitej Polskiej.",
+  "image_path": "img/znaki/F-2.png",
+  "keywords": [
+   "f-2",
+   "f2",
+   "granicy",
+   "przekraczanie",
+   "zabronione"
+  ],
+  "related_sign_ids": [
+   "F-2a"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 69",
+   "source_text": "§ 69. 1. Znak F-1 „przejście graniczne” informuje o czynnym przejściu granicznym. 2. Znak F-2 „przekraczanie granicy zabronione” informuje, że ruch przez granicę jest zamknięty. 2a. Znak F-2a „granica państwa” informuje o miejscu przekroczenia granicy Rzeczypospolitej Polskiej. 3. Znak F-3 „granica obszaru administracyjnego” z napisami „województwo”, „powiat” lub „gmina” i umieszczonymi nazwami informuje o wjeździe odpowiednio na obszar województwa, powiatu i gminy, powiatu i gminy albo gminy. 4. Znak F-4 „nazwa rzeki” podaje nazwę rzeki lub innego cieku wodnego, nad którym przebiega droga.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-20",
+  "code": "F-20",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "część drogi (pas ruchu) dla określonych pojazdów",
+  "short_description": "Wskazuje drogę lub jej część przeznaczoną dla pojazdów, których symbol został umieszczony na znaku.",
+  "details": "Znak F-20 „część drogi (pas ruchu) dla określonych pojazdów” wskazuje drogę lub jej część przeznaczoną dla pojazdów, których symbol został umieszczony na znaku.",
+  "image_path": "img/znaki/F-20.png",
+  "keywords": [
+   "część",
+   "drogi",
+   "f-20",
+   "f20",
+   "określonych",
+   "pojazdów",
+   "ruchu"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 76",
+   "source_text": "§ 76. Znak F-20 „część drogi (pas ruchu) dla określonych pojazdów” wskazuje drogę lub jej część przeznaczoną dla pojazdów, których symbol został umieszczony na znaku. Zamiast symbolu pojazdu o dopuszczalnej masie całkowitej do 3,5 t na znaku może być umieszczony symbol pojazdu stosowany na tabliczkach, o których mowa w § 23 ust. 2, odpowied￾nio do sposobu przeznaczenia drogi lub jej części.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-21",
+  "code": "F-21",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "ruch skierowany na sąsiednią jezdnię",
+  "short_description": "Wskazuje zjazd na sąsiednią jezdnię w związku z tymczaso￾wą organizacją ruchu.",
+  "details": "Znak F-21 „ruch skierowany na sąsiednią jezdnię” wskazuje zjazd na sąsiednią jezdnię w związku z tymczaso￾wą organizacją ruchu.",
+  "image_path": "img/znaki/F-21.png",
+  "keywords": [
+   "f-21",
+   "f21",
+   "jezdnię",
+   "ruch",
+   "skierowany",
+   "sąsiednią"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 77",
+   "source_text": "§ 77. 1. Znak F-21 „ruch skierowany na sąsiednią jezdnię” wskazuje zjazd na sąsiednią jezdnię w związku z tymczaso￾wą organizacją ruchu. 2. Znak F-22 „ograniczenia na pasie ruchu” wskazuje pas ruchu, na którym jest zabroniony ruch pojazdów określonych symbolem znaku zakazu. Rozdział 3 Dodatkowe znaki pionowe Dodatkowe znaki przed przejazdami kolejowymi",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-22",
+  "code": "F-22",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "ograniczenia na pasie ruchu",
+  "short_description": "Wskazuje pas ruchu, na którym jest zabroniony ruch pojazdów określonych symbolem znaku zakazu.",
+  "details": "Znak F-22 „ograniczenia na pasie ruchu” wskazuje pas ruchu, na którym jest zabroniony ruch pojazdów określonych symbolem znaku zakazu.",
+  "image_path": "img/znaki/F-22.png",
+  "keywords": [
+   "f-22",
+   "f22",
+   "ograniczenia",
+   "pasie",
+   "ruchu"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 77",
+   "source_text": "§ 77. 1. Znak F-21 „ruch skierowany na sąsiednią jezdnię” wskazuje zjazd na sąsiednią jezdnię w związku z tymczaso￾wą organizacją ruchu. 2. Znak F-22 „ograniczenia na pasie ruchu” wskazuje pas ruchu, na którym jest zabroniony ruch pojazdów określonych symbolem znaku zakazu. Rozdział 3 Dodatkowe znaki pionowe Dodatkowe znaki przed przejazdami kolejowymi",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-2a",
+  "code": "F-2a",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "granica państwa",
+  "short_description": "Informuje o miejscu przekroczenia granicy Rzeczypospolitej Polskiej.",
+  "details": "Znak F-2a „granica państwa” informuje o miejscu przekroczenia granicy Rzeczypospolitej Polskiej.",
+  "image_path": "img/znaki/F-2a.png",
+  "keywords": [
+   "f-2a",
+   "f2a",
+   "granica",
+   "państwa"
+  ],
+  "related_sign_ids": [
+   "F-2"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 69",
+   "source_text": "§ 69. 1. Znak F-1 „przejście graniczne” informuje o czynnym przejściu granicznym. 2. Znak F-2 „przekraczanie granicy zabronione” informuje, że ruch przez granicę jest zamknięty. 2a. Znak F-2a „granica państwa” informuje o miejscu przekroczenia granicy Rzeczypospolitej Polskiej. 3. Znak F-3 „granica obszaru administracyjnego” z napisami „województwo”, „powiat” lub „gmina” i umieszczonymi nazwami informuje o wjeździe odpowiednio na obszar województwa, powiatu i gminy, powiatu i gminy albo gminy. 4. Znak F-4 „nazwa rzeki” podaje nazwę rzeki lub innego cieku wodnego, nad którym przebiega droga.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-3",
+  "code": "F-3",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "granica obszaru administracyjnego",
+  "short_description": "I umieszczonymi nazwami informuje o wjeździe odpowiednio na obszar województwa, powiatu i gminy, powiatu i gminy albo gminy.",
+  "details": "Znak F-3 „granica obszaru administracyjnego” z napisami „województwo”, „powiat” lub „gmina” i umieszczonymi nazwami informuje o wjeździe odpowiednio na obszar województwa, powiatu i gminy, powiatu i gminy albo gminy.",
+  "image_path": "img/znaki/F-3.png",
+  "keywords": [
+   "administracyjnego",
+   "f-3",
+   "f3",
+   "granica",
+   "obszaru"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 69",
+   "source_text": "§ 69. 1. Znak F-1 „przejście graniczne” informuje o czynnym przejściu granicznym. 2. Znak F-2 „przekraczanie granicy zabronione” informuje, że ruch przez granicę jest zamknięty. 2a. Znak F-2a „granica państwa” informuje o miejscu przekroczenia granicy Rzeczypospolitej Polskiej. 3. Znak F-3 „granica obszaru administracyjnego” z napisami „województwo”, „powiat” lub „gmina” i umieszczonymi nazwami informuje o wjeździe odpowiednio na obszar województwa, powiatu i gminy, powiatu i gminy albo gminy. 4. Znak F-4 „nazwa rzeki” podaje nazwę rzeki lub innego cieku wodnego, nad którym przebiega droga.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-4",
+  "code": "F-4",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "nazwa rzeki",
+  "short_description": "nazwa rzeki",
+  "details": "Znak F-4 „nazwa rzeki” podaje nazwę rzeki lub innego cieku wodnego, nad którym przebiega droga.",
+  "image_path": "img/znaki/F-4.png",
+  "keywords": [
+   "f-4",
+   "f4",
+   "nazwa",
+   "rzeki"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 69",
+   "source_text": "§ 69. 1. Znak F-1 „przejście graniczne” informuje o czynnym przejściu granicznym. 2. Znak F-2 „przekraczanie granicy zabronione” informuje, że ruch przez granicę jest zamknięty. 2a. Znak F-2a „granica państwa” informuje o miejscu przekroczenia granicy Rzeczypospolitej Polskiej. 3. Znak F-3 „granica obszaru administracyjnego” z napisami „województwo”, „powiat” lub „gmina” i umieszczonymi nazwami informuje o wjeździe odpowiednio na obszar województwa, powiatu i gminy, powiatu i gminy albo gminy. 4. Znak F-4 „nazwa rzeki” podaje nazwę rzeki lub innego cieku wodnego, nad którym przebiega droga.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "F-5",
+  "code": "F-5",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "uprzedzenie o zakazie",
+  "short_description": "Uprzedza o znaku zakazu umieszczonym na drodze w odległości wskazanej na znaku.",
+  "details": "Znak F-5 „uprzedzenie o zakazie” uprzedza o znaku zakazu umieszczonym na drodze w odległości wskazanej na znaku.",
+  "image_path": "img/znaki/F-5.png",
+  "keywords": [
+   "f-5",
+   "f5",
+   "uprzedzenie",
+   "zakazie"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 70",
+   "source_text": "§ 70. 1. Znak F-5 „uprzedzenie o zakazie” uprzedza o znaku zakazu umieszczonym na drodze w odległości wskazanej na znaku. 2. Znak F-6 „znak uprzedzający umieszczany przed skrzyżowaniem” uprzedza o wskazanym na nim odpowiednim zna￾kiem niebezpieczeństwie lub zakazie występującym za skrzyżowaniem na wskazanej drodze.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-6",
+  "code": "F-6",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "znak uprzedzający umieszczany przed skrzyżowaniem",
+  "short_description": "Uprzedza o wskazanym na nim odpowiednim zna￾kiem niebezpieczeństwie lub zakazie występującym za skrzyżowaniem na wskazanej drodze.",
+  "details": "Znak F-6 „znak uprzedzający umieszczany przed skrzyżowaniem” uprzedza o wskazanym na nim odpowiednim zna￾kiem niebezpieczeństwie lub zakazie występującym za skrzyżowaniem na wskazanej drodze.",
+  "image_path": "img/znaki/F-6.png",
+  "keywords": [
+   "f-6",
+   "f6",
+   "przed",
+   "skrzyżowaniem",
+   "umieszczany",
+   "uprzedzający",
+   "znak"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 70",
+   "source_text": "§ 70. 1. Znak F-5 „uprzedzenie o zakazie” uprzedza o znaku zakazu umieszczonym na drodze w odległości wskazanej na znaku. 2. Znak F-6 „znak uprzedzający umieszczany przed skrzyżowaniem” uprzedza o wskazanym na nim odpowiednim zna￾kiem niebezpieczeństwie lub zakazie występującym za skrzyżowaniem na wskazanej drodze.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-7",
+  "code": "F-7",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "sposób jazdy w związku z zakazem skręcania w lewo",
+  "short_description": "Wskazuje dojazd do drogi, w którą skręcanie w lewo jest zabronione.",
+  "details": "Znak F-7 „sposób jazdy w związku z zakazem skręcania w lewo” wskazuje dojazd do drogi, w którą skręcanie w lewo jest zabronione.",
+  "image_path": "img/znaki/F-7.png",
+  "keywords": [
+   "f-7",
+   "f7",
+   "jazdy",
+   "lewo",
+   "skręcania",
+   "sposób",
+   "zakazem",
+   "związku"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 71",
+   "source_text": "§ 71. 1. Znak F-7 „sposób jazdy w związku z zakazem skręcania w lewo” wskazuje dojazd do drogi, w którą skręcanie w lewo jest zabronione. 2. Znak F-8 „objazd w związku z zamknięciem drogi” wskazuje wyznaczony objazd; jeżeli na znaku F-8 umieszczono znak zakazujący wjazdu określonych pojazdów, oznacza to, że objazd dotyczy pojazdów wskazanych na znaku zakazu. 3. Znak F-9 „znak prowadzący na drodze objazdowej” wskazuje kierunek ruchu pojazdów na wyznaczonym objeździe.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-8",
+  "code": "F-8",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "objazd w związku z zamknięciem drogi",
+  "short_description": "Wskazuje wyznaczony objazd; jeżeli na znaku F-8 umieszczono znak zakazujący wjazdu określonych pojazdów, oznacza to, że objazd dotyczy pojazdów wskazanych na znaku zakazu.",
+  "details": "Znak F-8 „objazd w związku z zamknięciem drogi” wskazuje wyznaczony objazd; jeżeli na znaku F-8 umieszczono znak zakazujący wjazdu określonych pojazdów, oznacza to, że objazd dotyczy pojazdów wskazanych na znaku zakazu.",
+  "image_path": "img/znaki/F-8.png",
+  "keywords": [
+   "drogi",
+   "f-8",
+   "f8",
+   "objazd",
+   "zamknięciem",
+   "związku"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 71",
+   "source_text": "§ 71. 1. Znak F-7 „sposób jazdy w związku z zakazem skręcania w lewo” wskazuje dojazd do drogi, w którą skręcanie w lewo jest zabronione. 2. Znak F-8 „objazd w związku z zamknięciem drogi” wskazuje wyznaczony objazd; jeżeli na znaku F-8 umieszczono znak zakazujący wjazdu określonych pojazdów, oznacza to, że objazd dotyczy pojazdów wskazanych na znaku zakazu. 3. Znak F-9 „znak prowadzący na drodze objazdowej” wskazuje kierunek ruchu pojazdów na wyznaczonym objeździe.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "F-9",
+  "code": "F-9",
+  "category_id": "F",
+  "category_name": "Znaki uzupełniające",
+  "name": "znak prowadzący na drodze objazdowej",
+  "short_description": "Wskazuje kierunek ruchu pojazdów na wyznaczonym objeździe.",
+  "details": "Znak F-9 „znak prowadzący na drodze objazdowej” wskazuje kierunek ruchu pojazdów na wyznaczonym objeździe.",
+  "image_path": "img/znaki/F-9.png",
+  "keywords": [
+   "drodze",
+   "f-9",
+   "f9",
+   "objazdowej",
+   "prowadzący",
+   "znak"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 71",
+   "source_text": "§ 71. 1. Znak F-7 „sposób jazdy w związku z zakazem skręcania w lewo” wskazuje dojazd do drogi, w którą skręcanie w lewo jest zabronione. 2. Znak F-8 „objazd w związku z zamknięciem drogi” wskazuje wyznaczony objazd; jeżeli na znaku F-8 umieszczono znak zakazujący wjazdu określonych pojazdów, oznacza to, że objazd dotyczy pojazdów wskazanych na znaku zakazu. 3. Znak F-9 „znak prowadzący na drodze objazdowej” wskazuje kierunek ruchu pojazdów na wyznaczonym objeździe.",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ }
+]

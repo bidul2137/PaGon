@@ -1,0 +1,237 @@
+/* ===================================================================
+   ZNAKI DROGOWE — moduł: kategorie, lista serii, szczegóły znaku.
+   Paleta aplikacji (granat + złoto); grafiki znaków są kolorowe same
+   z siebie, więc dajemy im jasne, neutralne tło, żeby były czytelne.
+   =================================================================== */
+
+.zn-page { --zn-plyta: #eef2f7; }
+
+/* ---------- wyszukiwarka ---------- */
+.zn-szukaj { position: relative; margin: 2px 0 18px; }
+.zn-szukaj-label {
+  display: block; margin-bottom: 6px;
+  font-family: var(--t-mono); font-size: 10.5px; font-weight: 700;
+  letter-spacing: .07em; text-transform: uppercase; color: var(--t-dim);
+}
+.zn-szukaj-input {
+  width: 100%; min-height: 48px; padding: 12px 14px; box-sizing: border-box;
+  font-family: var(--t-mono); font-size: 14px; color: var(--t-head);
+  background: rgba(255,255,255,.05); border: 1px solid var(--t-line); border-radius: 11px;
+}
+.zn-szukaj-input::placeholder { color: var(--t-dim); }
+.zn-szukaj-input:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: 2px; }
+
+.zn-wyniki {
+  position: absolute; z-index: 30; left: 0; right: 0; margin-top: 6px;
+  background: #131d38; border: 1px solid var(--t-line-2); border-radius: 12px;
+  overflow: hidden; box-shadow: 0 12px 30px rgba(0,0,0,.55);
+}
+.zn-wynik {
+  display: flex; align-items: center; gap: 12px; width: 100%;
+  min-height: 62px; padding: 9px 12px; text-align: left;
+  background: none; border: 0; border-bottom: 1px solid var(--t-line);
+  color: var(--t-text); cursor: pointer; text-decoration: none;
+}
+.zn-wyniki > *:last-child .zn-wynik, .zn-wyniki > a:last-child { border-bottom: 0; }
+.zn-wynik:hover, .zn-wynik:focus-visible { background: rgba(206,158,47,.12); }
+.zn-wynik:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: -2px; }
+.zn-wynik-ikona {
+  flex: none; width: 46px; height: 46px; display: flex; align-items: center; justify-content: center;
+  background: var(--zn-plyta); border-radius: 8px; overflow: hidden;
+}
+.zn-wynik-ikona img { max-width: 40px; max-height: 40px; object-fit: contain; display: block; }
+.zn-wynik-tresc { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.zn-wynik-opis { font-size: 11.5px; line-height: 1.4; color: var(--t-dim);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.zn-brak-wynikow { padding: 14px; font-size: 12.5px; line-height: 1.5; color: var(--t-dim); }
+
+/* wspólny znacznik kodu */
+.zn-kod {
+  align-self: flex-start;
+  font-family: var(--t-mono); font-size: 11.5px; font-weight: 700; letter-spacing: .04em;
+  color: var(--t-gold-2); background: rgba(206,158,47,.13);
+  border: 1px solid rgba(206,158,47,.4); border-radius: 5px; padding: 1px 6px;
+}
+.zn-brak-ikony {
+  font-family: var(--t-mono); font-size: 10px; font-weight: 700;
+  color: #6b7a92; text-align: center; padding: 4px;
+}
+
+/* ---------- kategorie ---------- */
+.zn-naglowek-kat { margin: 22px 0 9px; }
+.zn-kategorie { display: grid; gap: 9px; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); }
+.zn-kat {
+  display: flex; align-items: center; gap: 13px; min-width: 0;
+  min-height: 76px; padding: 11px 13px;
+  background: rgba(255,255,255,.035); border: 1px solid var(--t-line);
+  border-radius: 13px; text-decoration: none; color: var(--t-text);
+  transition: border-color .15s ease, background .15s ease;
+}
+.zn-kat:hover { border-color: rgba(206,158,47,.55); background: rgba(206,158,47,.07); }
+.zn-kat:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: 2px; }
+.zn-kat-ikona {
+  flex: none; width: 54px; height: 54px; display: flex; align-items: center; justify-content: center;
+  background: var(--zn-plyta); border-radius: 10px; overflow: hidden;
+}
+.zn-kat-ikona img { max-width: 46px; max-height: 46px; object-fit: contain; display: block; }
+.zn-kat-tresc { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 5px; }
+.zn-kat-nazwa { font-size: 14px; font-weight: 700; line-height: 1.3; color: var(--t-head);
+  overflow-wrap: anywhere; hyphens: auto; }
+.zn-kat-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+.zn-kat-seria {
+  font-family: var(--t-mono); font-size: 11px; font-weight: 700;
+  color: var(--t-gold-2); background: rgba(206,158,47,.13);
+  border: 1px solid rgba(206,158,47,.4); border-radius: 5px; padding: 1px 7px;
+}
+.zn-kat-liczba { font-size: 11.5px; color: var(--t-dim); }
+.zn-kat-strzalka { flex: none; font-size: 20px; color: var(--t-dim); }
+
+/* ---------- lista w kategorii ---------- */
+.zn-pasek { display: flex; flex-wrap: wrap; gap: 9px; align-items: center; margin-bottom: 14px; }
+.zn-pasek .zn-szukaj-input { flex: 1 1 200px; }
+.zn-przelacznik { display: flex; gap: 6px; }
+.zn-btn {
+  min-height: 44px; padding: 10px 14px;
+  font-family: var(--t-mono); font-size: 12px; font-weight: 700; letter-spacing: .04em;
+  color: var(--t-gold-2); background: none;
+  border: 1px solid rgba(206,158,47,.4); border-radius: 10px; cursor: pointer;
+}
+.zn-btn:hover { color: var(--t-gold); background: rgba(206,158,47,.09); border-color: var(--t-gold); }
+.zn-btn:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: 2px; }
+.zn-btn--maly { min-height: 38px; padding: 8px 12px; font-size: 11px; }
+.zn-btn[aria-pressed="true"] { color: #0b132b; background: var(--t-gold); border-color: var(--t-gold); }
+
+.zn-lista { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.zn-poz { min-width: 0; }
+.zn-poz-link {
+  display: flex; align-items: center; gap: 13px; min-width: 0;
+  min-height: 74px; padding: 10px 12px;
+  background: rgba(255,255,255,.035); border: 1px solid var(--t-line);
+  border-radius: 12px; text-decoration: none; color: var(--t-text);
+}
+.zn-poz-link:hover { border-color: rgba(206,158,47,.5); background: rgba(206,158,47,.07); }
+.zn-poz-link:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: 2px; }
+.zn-poz-ikona {
+  flex: none; width: 58px; height: 58px; display: flex; align-items: center; justify-content: center;
+  background: var(--zn-plyta); border-radius: 9px; overflow: hidden;
+}
+.zn-poz-ikona img { max-width: 50px; max-height: 50px; object-fit: contain; display: block; }
+.zn-poz-tresc { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.zn-poz-nazwa { font-size: 13.5px; font-weight: 700; line-height: 1.35; color: var(--t-head);
+  overflow-wrap: anywhere; }
+.zn-poz-opis {
+  font-size: 11.5px; line-height: 1.45; color: var(--t-dim);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.zn-poz-strzalka { flex: none; font-size: 19px; color: var(--t-dim); }
+
+/* widok kafelkowy — ten sam HTML, inny układ */
+.zn-lista--kafelki { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+.zn-lista--kafelki .zn-poz-link { flex-direction: column; align-items: stretch; text-align: center; gap: 8px; height: 100%; }
+.zn-lista--kafelki .zn-poz-ikona { width: 100%; height: 84px; }
+.zn-lista--kafelki .zn-poz-ikona img { max-width: 74px; max-height: 74px; }
+.zn-lista--kafelki .zn-kod { align-self: center; }
+.zn-lista--kafelki .zn-poz-nazwa { font-size: 12px; -webkit-line-clamp: 3; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+.zn-lista--kafelki .zn-poz-opis, .zn-lista--kafelki .zn-poz-strzalka { display: none; }
+
+/* ---------- szczegóły znaku ---------- */
+.zn-tytul { font-family: var(--t-mono); letter-spacing: .06em; }
+.zn-gwiazdka {
+  flex: none; width: 46px; height: 46px; margin-left: auto; margin-right: 4px;
+  display: flex; align-items: center; justify-content: center;
+  background: none; border: 1px solid var(--t-line); border-radius: 11px; cursor: pointer;
+}
+.zn-gwiazdka svg { fill: none; stroke: var(--t-dim); stroke-width: 1.7; }
+.zn-gwiazdka[aria-pressed="true"] { border-color: rgba(206,158,47,.6); }
+.zn-gwiazdka[aria-pressed="true"] svg { fill: var(--t-gold); stroke: var(--t-gold); }
+.zn-gwiazdka:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: 2px; }
+
+.zn-scena {
+  display: flex; flex-direction: column; align-items: center; gap: 11px;
+  padding: 20px 16px; margin-bottom: 14px;
+  background: var(--zn-plyta); border: 1px solid var(--t-line); border-radius: 14px;
+}
+.zn-scena-img { max-width: 100%; max-height: 200px; object-fit: contain; display: block; }
+.zn-scena-brak { margin: 0; font-size: 12.5px; color: #46536b; }
+.zn-scena-kat { margin: 0; font-family: var(--t-mono); font-size: 10.5px;
+  letter-spacing: .06em; text-transform: uppercase; color: #56637d; }
+.zn-scena .zn-btn { color: #22314c; border-color: rgba(34,49,76,.35); }
+.zn-scena .zn-btn:hover { color: #0b132b; background: rgba(34,49,76,.09); border-color: #22314c; }
+
+.zn-karta { margin-bottom: 12px; padding: 14px; }
+.zn-karta--glowna { border-color: rgba(206,158,47,.45); background: rgba(206,158,47,.07); }
+.zn-znaczenie { margin: 0; font-size: 15px; font-weight: 600; line-height: 1.5; color: var(--t-head); }
+.zn-szczegoly { margin: 0; font-size: 13px; line-height: 1.6; color: var(--t-text); }
+
+.zn-sekcja { margin: 18px 0; }
+.zn-sekcja-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
+.zn-sekcja-head .kal-sekcja-tytul { margin: 0; }
+
+.zn-mini { display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); }
+.zn-mini-karta {
+  display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 0;
+  padding: 10px 8px; text-decoration: none; color: var(--t-text);
+  background: rgba(255,255,255,.035); border: 1px solid var(--t-line); border-radius: 11px;
+}
+.zn-mini-karta:hover { border-color: rgba(206,158,47,.5); }
+.zn-mini-karta:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: 2px; }
+.zn-mini-ikona {
+  width: 100%; height: 58px; display: flex; align-items: center; justify-content: center;
+  background: var(--zn-plyta); border-radius: 8px; overflow: hidden;
+}
+.zn-mini-ikona img { max-width: 50px; max-height: 50px; object-fit: contain; }
+.zn-mini-kod { font-family: var(--t-mono); font-size: 11px; font-weight: 700; color: var(--t-gold-2); }
+.zn-mini-nazwa {
+  font-size: 10.5px; line-height: 1.35; text-align: center; color: var(--t-dim);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+
+.zn-podstawa { margin: 16px 0 4px; }
+.zn-podstawa > summary {
+  min-height: 46px; padding: 12px 14px; cursor: pointer; list-style: none;
+  font-family: var(--t-mono); font-size: 11.5px; font-weight: 700; letter-spacing: .05em;
+  color: var(--t-gold-2); background: rgba(206,158,47,.07);
+  border: 1px solid rgba(206,158,47,.35); border-radius: 11px;
+}
+.zn-podstawa > summary::-webkit-details-marker { display: none; }
+.zn-podstawa > summary::after { content: " ›"; }
+.zn-podstawa[open] > summary::after { content: " ⌄"; }
+.zn-podstawa > summary:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: 2px; }
+.zn-podstawa-tresc { padding: 12px 2px 0; }
+.zn-akt { margin: 0 0 3px; font-size: 12.5px; font-weight: 700; line-height: 1.45; color: var(--t-head); }
+.zn-akt-nr { margin: 0 0 10px; font-family: var(--t-mono); font-size: 11px; color: var(--t-dim); }
+.zn-cytat {
+  margin: 0 0 10px; padding: 11px 13px;
+  font-size: 12.5px; line-height: 1.6; color: var(--t-text);
+  background: rgba(255,255,255,.03); border-left: 3px solid rgba(206,158,47,.5);
+  border-radius: 0 9px 9px 0;
+}
+.zn-akt-meta { margin: 0; font-size: 11px; line-height: 1.5; color: var(--t-dim); }
+
+/* ---------- podgląd grafiki ---------- */
+.zn-podglad {
+  position: fixed; inset: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: center; padding: 24px;
+  background: rgba(4, 8, 20, .93);
+}
+.zn-podglad[hidden] { display: none; }
+.zn-podglad img { max-width: 92vw; max-height: 80vh; object-fit: contain;
+  background: var(--zn-plyta); border-radius: 14px; padding: 18px; box-sizing: border-box; }
+.zn-podglad-zamknij {
+  position: absolute; top: 14px; right: 16px;
+  width: 48px; height: 48px; font-size: 26px; line-height: 1;
+  color: var(--t-head); background: rgba(255,255,255,.08);
+  border: 1px solid var(--t-line-2); border-radius: 50%; cursor: pointer;
+}
+.zn-podglad-zamknij:focus-visible { outline: 2px solid var(--t-gold-2); outline-offset: 2px; }
+
+/* ---------- zabezpieczenia przed poziomym przewijaniem ----------
+   Kontener .tar-page ma max-width 480 px, a media queries liczyły szerokość
+   OKNA — przy szerokim ekranie siatka brała więcej kolumn, niż mieściło się
+   w kontenerze, i karty były przycinane. Wszystkie siatki modułu używają
+   teraz auto-fit (liczy dostępne miejsce), a poniżej twarde bezpieczniki. */
+.zn-page, .zn-page * { max-width: 100%; }
+.zn-page img { max-width: 100%; height: auto; }
+.zn-kategorie, .zn-lista, .zn-mini { width: 100%; }
+.zn-kat, .zn-poz, .zn-poz-link, .zn-mini-karta { box-sizing: border-box; }
+.zn-kod, .zn-kat-seria { white-space: nowrap; }

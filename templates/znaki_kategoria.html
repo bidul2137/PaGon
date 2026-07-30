@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}PaGon — {{ kategoria.name }}{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/znaki.css') }}">
+
+<div class="tar-page kpj-page zn-page" data-wersja="{{ wersja }}">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce_znaki') }}" class="tar-back" aria-label="Powrót do znaków">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">{{ kategoria.name }}</h1>
+      <p class="kpj-lead">Seria {{ kategoria.id }} — {{ kategoria.count }} znaków,
+        {{ kategoria.with_image }} z grafiką.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+    <div class="zn-pasek">
+      <input type="search" id="znFiltr" class="zn-szukaj-input" spellcheck="false"
+             placeholder="Szukaj w tej kategorii" aria-label="Szukaj w kategorii {{ kategoria.name }}">
+      <div class="zn-przelacznik" role="group" aria-label="Układ listy znaków">
+        <button type="button" class="zn-btn zn-btn--maly" id="znWidokLista" aria-pressed="true">Lista</button>
+        <button type="button" class="zn-btn zn-btn--maly" id="znWidokKafelki" aria-pressed="false">Kafelki</button>
+      </div>
+    </div>
+
+    <ul class="zn-lista" id="znLista">
+      {% for z in znaki %}
+        <li class="zn-poz" data-szukaj="{{ (z.code ~ ' ' ~ (z.name or '') ~ ' ' ~ (z.short_description or '') ~ ' ' ~ (z.keywords|join(' ')))|lower }}">
+          <a class="zn-poz-link" href="{{ url_for('pomoce_znaki_znak', kod=z.code) }}">
+            <span class="zn-poz-ikona">
+              {% if z.image_path %}
+                <img src="{{ url_for('static', filename=z.image_path) }}" alt="" loading="lazy">
+              {% else %}
+                <span class="zn-brak-ikony" aria-hidden="true">{{ z.code }}</span>
+              {% endif %}
+            </span>
+            <span class="zn-poz-tresc">
+              <span class="zn-kod">{{ z.code }}</span>
+              <span class="zn-poz-nazwa">{{ z.name or '—' }}</span>
+              <span class="zn-poz-opis">{{ z.short_description or '' }}</span>
+            </span>
+            <span class="zn-poz-strzalka" aria-hidden="true">›</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    <p class="prz-brak" id="znBrak" hidden>Brak znaków pasujących do wyszukiwania.</p>
+  </main>
+</div>
+
+<script src="{{ static_v('js/znaki.js') }}" defer></script>
+{% endblock %}

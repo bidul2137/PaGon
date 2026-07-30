@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Znaki drogowe{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/znaki.css') }}">
+
+<div class="tar-page kpj-page zn-page" data-wersja="{{ wersja }}">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Znaki drogowe</h1>
+      <p class="kpj-lead">Wyszukaj znak po symbolu, nazwie lub znaczeniu.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+
+    <div class="zn-szukaj">
+      <label class="zn-szukaj-label" for="znSzukaj">Szukaj znaku</label>
+      <input type="search" id="znSzukaj" class="zn-szukaj-input" spellcheck="false"
+             placeholder="np. A-6c, STOP, zakaz wyprzedzania"
+             aria-label="Szukaj znaku po symbolu, nazwie lub znaczeniu"
+             role="combobox" aria-expanded="false" aria-controls="znWyniki">
+      <div id="znWyniki" class="zn-wyniki" role="listbox" aria-label="Wyniki wyszukiwania" hidden></div>
+    </div>
+
+    <section id="znUlubione" class="zn-sekcja" hidden>
+      <div class="zn-sekcja-head">
+        <h2 class="kal-sekcja-tytul">Ulubione</h2>
+      </div>
+      <div class="zn-mini" id="znUlubioneLista"></div>
+    </section>
+
+    <section id="znOstatnie" class="zn-sekcja" hidden>
+      <div class="zn-sekcja-head">
+        <h2 class="kal-sekcja-tytul">Ostatnio oglądane</h2>
+        <button type="button" class="zn-btn zn-btn--maly" id="znWyczyscHistorie"
+                aria-label="Wyczyść historię oglądanych znaków">Wyczyść historię</button>
+      </div>
+      <div class="zn-mini" id="znOstatnieLista"></div>
+    </section>
+
+    <h2 class="kal-sekcja-tytul zn-naglowek-kat">Kategorie</h2>
+    <div class="zn-kategorie">
+      {% for k in kategorie %}
+        <a class="zn-kat" href="{{ url_for('pomoce_znaki_kategoria', seria=k.id) }}">
+          <span class="zn-kat-ikona">
+            {% if k.cover %}
+              <img src="{{ url_for('static', filename='img/znaki/' ~ k.cover ~ '.png') }}"
+                   alt="" loading="lazy">
+            {% endif %}
+          </span>
+          <span class="zn-kat-tresc">
+            <span class="zn-kat-nazwa">{{ k.name }}</span>
+            <span class="zn-kat-meta">
+              <span class="zn-kat-seria">{{ k.id }}</span>
+              <span class="zn-kat-liczba">{{ k.count }} znaków</span>
+            </span>
+          </span>
+          <span class="zn-kat-strzalka" aria-hidden="true">›</span>
+        </a>
+      {% endfor %}
+    </div>
+
+    <p class="kpj-zrodlo">Źródło: rozporządzenie w sprawie znaków i sygnałów drogowych
+      ({{ metadane.journal_reference }}). Baza działa offline —
+      {{ metadane.sign_count }} znaków, {{ metadane.with_image_count }} z grafiką.</p>
+  </main>
+</div>
+
+<script src="{{ static_v('js/znaki.js') }}" defer></script>
+{% endblock %}

@@ -54,3 +54,26 @@
 .kwz-taryfikator:hover{color:var(--t-gold);border-color:var(--t-gold)}
 .kwz-trzezwosc{margin:12px 0 0;font-size:11.5px;line-height:1.55;color:var(--t-dim);font-style:italic}
 .kwz-restart{margin-top:13px}
+
+/* kontrola trzeźwości — kwalifikacja prawna nad opisem wyniku */
+.ktr-kwalifikacja{margin:0 0 7px;font-family:var(--t-mono);font-size:11.5px;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--t-gold-2)}
+
+/* warianty kwalifikacji w wyniku (pojazd mechaniczny / inny pojazd) */
+.ktr-wariant{margin-top:12px;padding:11px 12px;background:rgba(255,255,255,.03);
+  border:1px solid var(--t-line);border-left:3px solid rgba(206,158,47,.55);border-radius:11px}
+.ktr-wariant .kwz-wariant-tytul{margin-top:0}
+.ktr-wariant .kal-opis{margin-bottom:0}
+.ktr-wariant .kwz-taryfikator{margin-top:10px}
+/* tryb mandatowy — informacja decydujaca o sposobie zakonczenia czynnosci,
+   dlatego wyswietlamy ja jako wyrozniony badge, a nie szary tekst */
+.ktr-mandat{display:flex;align-items:flex-start;gap:8px;margin:10px 0 0;
+  padding:9px 11px;font-size:12.5px;font-weight:700;line-height:1.45;
+  border:1px solid;border-left-width:3px;border-radius:9px}
+.ktr-mandat-ikona{flex:0 0 auto;font-size:12px;line-height:1.45}
+.ktr-mandat-tekst{flex:1 1 auto}
+
+/* czyn nie moze zakonczyc sie mandatem (wniosek do sadu / przestepstwo) */
+.ktr-mandat--brak{color:#ff9d8a;background:rgba(226,92,68,.14);border-color:rgba(226,92,68,.55)}
+/* czyn mozna zakonczyc mandatem karnym */
+.ktr-mandat--ok{color:#8fdca6;background:rgba(74,180,110,.12);border-color:rgba(74,180,110,.45)}

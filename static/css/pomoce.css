@@ -49,6 +49,10 @@
   letter-spacing:.03em;color:var(--t-gold-2)}
 .pom-kod-kraj{flex:1;min-width:0;font-size:14px;font-weight:500;line-height:1.3;color:var(--t-head)}
 .pom-kod-row--wide .pom-kod{width:150px;white-space:normal;line-height:1.25}
+/* numer telefonu — klikalny, wybiera numer na telefonie sluzbowym */
+a.pom-kod-tel{text-decoration:none;border-bottom:1px dashed rgba(243,206,92,.5)}
+a.pom-kod-tel:hover,a.pom-kod-tel:focus-visible{color:var(--t-gold);border-bottom-color:var(--t-gold)}
+.pom-kod-row--wide a.pom-kod-tel{width:150px}
 /* subkod (np. 20.01) — wcięcie pod kodem głównym, przygaszony */
 .pom-kod-sub{padding-left:30px}
 .pom-kod-sub .pom-kod{width:44px;font-size:12.5px;font-weight:600;color:var(--t-dim)}

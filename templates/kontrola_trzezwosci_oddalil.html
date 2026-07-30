@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Kontrola trzeźwości (badany oddalił się){% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kwalifikacja.css') }}">
+
+<div class="tar-page kpj-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Kontrola trzeźwości — badany oddalił się</h1>
+      <p class="kpj-lead">Tryb z § 6 rozporządzenia — badany oddalił się z miejsca zdarzenia przed pomiarem
+        albo mógł spożyć alkohol dopiero po zdarzeniu. Nie stosujesz go, jeżeli od zdarzenia upłynęło tyle
+        czasu, że badanie jest już bezzasadne (§ 6 ust. 4).</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+    <div class="kwz-sciezka" id="ktr-sciezka" aria-label="Twoje dotychczasowe odpowiedzi"></div>
+    <div id="ktr-panel" aria-live="polite"></div>
+    <p class="kpj-zrodlo">Podstawa: rozporządzenie Ministra Zdrowia i Ministra Spraw Wewnętrznych
+      i Administracji z dnia 28 grudnia 2018 r. w sprawie badań na zawartość alkoholu w organizmie
+      (Dz.U. 2018 poz. 2472). Kreator ma charakter pomocniczy — o sposobie przeprowadzenia badania
+      decyduje funkcjonariusz na podstawie całokształtu okoliczności.</p>
+  </main>
+
+</div>
+
+<script id="ktr-dane" type="application/json">{{ dane|tojson }}</script>
+<script src="{{ static_v('js/kontrola_trzezwosci.js') }}" defer></script>
+{% endblock %}

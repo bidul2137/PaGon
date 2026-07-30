@@ -1,0 +1,211 @@
+[
+ {
+  "id": "W-1",
+  "code": "W-1",
+  "category_id": "W",
+  "category_name": "Znaki W",
+  "name": "klasa obciążenia mostu o ruchu jednokierunkowym",
+  "short_description": "klasa obciążenia mostu o ruchu jednokierunkowym",
+  "details": "Znakami dla kierujących pojazdami wojskowymi są: 1) znak W-1 „klasa obciążenia mostu o ruchu jednokierunkowym”;",
+  "image_path": "img/znaki/W-1.png",
+  "keywords": [
+   "jednokierunkowym",
+   "klasa",
+   "mostu",
+   "obciążenia",
+   "ruchu",
+   "w-1",
+   "w1"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 84",
+   "source_text": "§ 84. 1. Znakami dla kierujących pojazdami wojskowymi są: 1) znak W-1 „klasa obciążenia mostu o ruchu jednokierunkowym”; 2) znak W-2 „klasa obciążenia mostu o ruchu dwukierunkowym”; 3) znak W-3 „klasa obciążenia mostu o ruchu jednokierunkowym dla pojazdów kołowych i gąsienicowych”; 4) znak W-4 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów kołowych”; 5) znak W-5 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów gąsienicowych”; 6) znak W-6 „szerokość mostu lub środka przeprawowego”; 7) znak W-7 „wysokość skrajni pionowej na moście lub w tunelu”. 2. Znaczenie znaków, o których mowa w ust. 1, określają odrębne przepisy. Rozdział 4 Znaki drogowe poziome",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "W-2",
+  "code": "W-2",
+  "category_id": "W",
+  "category_name": "Znaki W",
+  "name": "klasa obciążenia mostu o ruchu dwukierunkowym",
+  "short_description": "klasa obciążenia mostu o ruchu dwukierunkowym",
+  "details": "2) znak W-2 „klasa obciążenia mostu o ruchu dwukierunkowym”;",
+  "image_path": "img/znaki/W-2.png",
+  "keywords": [
+   "dwukierunkowym",
+   "klasa",
+   "mostu",
+   "obciążenia",
+   "ruchu",
+   "w-2",
+   "w2"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 84",
+   "source_text": "§ 84. 1. Znakami dla kierujących pojazdami wojskowymi są: 1) znak W-1 „klasa obciążenia mostu o ruchu jednokierunkowym”; 2) znak W-2 „klasa obciążenia mostu o ruchu dwukierunkowym”; 3) znak W-3 „klasa obciążenia mostu o ruchu jednokierunkowym dla pojazdów kołowych i gąsienicowych”; 4) znak W-4 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów kołowych”; 5) znak W-5 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów gąsienicowych”; 6) znak W-6 „szerokość mostu lub środka przeprawowego”; 7) znak W-7 „wysokość skrajni pionowej na moście lub w tunelu”. 2. Znaczenie znaków, o których mowa w ust. 1, określają odrębne przepisy. Rozdział 4 Znaki drogowe poziome",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "W-3",
+  "code": "W-3",
+  "category_id": "W",
+  "category_name": "Znaki W",
+  "name": "klasa obciążenia mostu o ruchu jednokierunkowym dla pojazdów kołowych i gąsienicowych",
+  "short_description": "klasa obciążenia mostu o ruchu jednokierunkowym dla pojazdów kołowych i gąsienicowych",
+  "details": "3) znak W-3 „klasa obciążenia mostu o ruchu jednokierunkowym dla pojazdów kołowych i gąsienicowych”;",
+  "image_path": "img/znaki/W-3.png",
+  "keywords": [
+   "gąsienicowych",
+   "jednokierunkowym",
+   "klasa",
+   "kołowych",
+   "mostu",
+   "obciążenia",
+   "pojazdów",
+   "ruchu",
+   "w-3",
+   "w3"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 84",
+   "source_text": "§ 84. 1. Znakami dla kierujących pojazdami wojskowymi są: 1) znak W-1 „klasa obciążenia mostu o ruchu jednokierunkowym”; 2) znak W-2 „klasa obciążenia mostu o ruchu dwukierunkowym”; 3) znak W-3 „klasa obciążenia mostu o ruchu jednokierunkowym dla pojazdów kołowych i gąsienicowych”; 4) znak W-4 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów kołowych”; 5) znak W-5 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów gąsienicowych”; 6) znak W-6 „szerokość mostu lub środka przeprawowego”; 7) znak W-7 „wysokość skrajni pionowej na moście lub w tunelu”. 2. Znaczenie znaków, o których mowa w ust. 1, określają odrębne przepisy. Rozdział 4 Znaki drogowe poziome",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "W-4",
+  "code": "W-4",
+  "category_id": "W",
+  "category_name": "Znaki W",
+  "name": "klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów kołowych",
+  "short_description": "klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów kołowych",
+  "details": "4) znak W-4 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów kołowych”;",
+  "image_path": "img/znaki/W-4.png",
+  "keywords": [
+   "dwukierunkowym",
+   "klasa",
+   "kołowych",
+   "mostu",
+   "obciążenia",
+   "pojazdów",
+   "ruchu",
+   "w-4",
+   "w4"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 84",
+   "source_text": "§ 84. 1. Znakami dla kierujących pojazdami wojskowymi są: 1) znak W-1 „klasa obciążenia mostu o ruchu jednokierunkowym”; 2) znak W-2 „klasa obciążenia mostu o ruchu dwukierunkowym”; 3) znak W-3 „klasa obciążenia mostu o ruchu jednokierunkowym dla pojazdów kołowych i gąsienicowych”; 4) znak W-4 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów kołowych”; 5) znak W-5 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów gąsienicowych”; 6) znak W-6 „szerokość mostu lub środka przeprawowego”; 7) znak W-7 „wysokość skrajni pionowej na moście lub w tunelu”. 2. Znaczenie znaków, o których mowa w ust. 1, określają odrębne przepisy. Rozdział 4 Znaki drogowe poziome",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "W-5",
+  "code": "W-5",
+  "category_id": "W",
+  "category_name": "Znaki W",
+  "name": "klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów gąsienicowych",
+  "short_description": "klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów gąsienicowych",
+  "details": "5) znak W-5 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów gąsienicowych”;",
+  "image_path": "img/znaki/W-5.png",
+  "keywords": [
+   "dwukierunkowym",
+   "gąsienicowych",
+   "klasa",
+   "mostu",
+   "obciążenia",
+   "pojazdów",
+   "ruchu",
+   "w-5",
+   "w5"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 84",
+   "source_text": "§ 84. 1. Znakami dla kierujących pojazdami wojskowymi są: 1) znak W-1 „klasa obciążenia mostu o ruchu jednokierunkowym”; 2) znak W-2 „klasa obciążenia mostu o ruchu dwukierunkowym”; 3) znak W-3 „klasa obciążenia mostu o ruchu jednokierunkowym dla pojazdów kołowych i gąsienicowych”; 4) znak W-4 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów kołowych”; 5) znak W-5 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów gąsienicowych”; 6) znak W-6 „szerokość mostu lub środka przeprawowego”; 7) znak W-7 „wysokość skrajni pionowej na moście lub w tunelu”. 2. Znaczenie znaków, o których mowa w ust. 1, określają odrębne przepisy. Rozdział 4 Znaki drogowe poziome",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "W-6",
+  "code": "W-6",
+  "category_id": "W",
+  "category_name": "Znaki W",
+  "name": "szerokość mostu lub środka przeprawowego",
+  "short_description": "szerokość mostu lub środka przeprawowego",
+  "details": "6) znak W-6 „szerokość mostu lub środka przeprawowego”;",
+  "image_path": "img/znaki/W-6.png",
+  "keywords": [
+   "mostu",
+   "przeprawowego",
+   "szerokość",
+   "w-6",
+   "w6",
+   "środka"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 84",
+   "source_text": "§ 84. 1. Znakami dla kierujących pojazdami wojskowymi są: 1) znak W-1 „klasa obciążenia mostu o ruchu jednokierunkowym”; 2) znak W-2 „klasa obciążenia mostu o ruchu dwukierunkowym”; 3) znak W-3 „klasa obciążenia mostu o ruchu jednokierunkowym dla pojazdów kołowych i gąsienicowych”; 4) znak W-4 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów kołowych”; 5) znak W-5 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów gąsienicowych”; 6) znak W-6 „szerokość mostu lub środka przeprawowego”; 7) znak W-7 „wysokość skrajni pionowej na moście lub w tunelu”. 2. Znaczenie znaków, o których mowa w ust. 1, określają odrębne przepisy. Rozdział 4 Znaki drogowe poziome",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ },
+ {
+  "id": "W-7",
+  "code": "W-7",
+  "category_id": "W",
+  "category_name": "Znaki W",
+  "name": "wysokość skrajni pionowej na moście lub w tunelu",
+  "short_description": "wysokość skrajni pionowej na moście lub w tunelu",
+  "details": "7) znak W-7 „wysokość skrajni pionowej na moście lub w tunelu”.",
+  "image_path": "img/znaki/W-7.png",
+  "keywords": [
+   "moście",
+   "pionowej",
+   "skrajni",
+   "tunelu",
+   "w-7",
+   "w7",
+   "wysokość"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 84",
+   "source_text": "§ 84. 1. Znakami dla kierujących pojazdami wojskowymi są: 1) znak W-1 „klasa obciążenia mostu o ruchu jednokierunkowym”; 2) znak W-2 „klasa obciążenia mostu o ruchu dwukierunkowym”; 3) znak W-3 „klasa obciążenia mostu o ruchu jednokierunkowym dla pojazdów kołowych i gąsienicowych”; 4) znak W-4 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów kołowych”; 5) znak W-5 „klasa obciążenia mostu o ruchu dwukierunkowym dla pojazdów gąsienicowych”; 6) znak W-6 „szerokość mostu lub środka przeprawowego”; 7) znak W-7 „wysokość skrajni pionowej na moście lub w tunelu”. 2. Znaczenie znaków, o których mowa w ust. 1, określają odrębne przepisy. Rozdział 4 Znaki drogowe poziome",
+   "verified_at": "2026-07-30"
+  },
+  "verification_status": "partial_verification",
+  "verification_note": "nie wyodrębniono zdania objaśniającego"
+ }
+]
