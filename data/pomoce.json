@@ -21,7 +21,7 @@
   },
   {
    "slug": "ograniczenia-12t",
-   "nazwa": "Link do ograniczeń ruchu pow. 12t",
+   "nazwa": "Link do informacji o ograniczeniach ruchu powyżej 12 ton",
    "ikona": "ograniczenia-12t",
    "url": "https://www.gov.pl/web/infrastruktura/ograniczenia-w-ruchu"
   },
@@ -205,7 +205,7 @@
    "slug": "kody-czynow",
    "nazwa": "Kody czynów",
    "ikona": "kody-czynow",
-   "url": null
+   "url": "/pomoce/kody-czynow"
   },
   {
    "slug": "kwalifikacja-zdarzenia",
@@ -246,16 +246,16 @@
   },
   {
    "slug": "numery-itd",
-   "nazwa": "Numery telefonów — ITD",
+   "nazwa": "Numery telefonów do ITD",
    "ikona": "numery-itd",
-   "url": null,
+   "url": "/pomoce/numery-itd",
    "grupa": "numery"
   },
   {
    "slug": "numery-straz-graniczna",
-   "nazwa": "Numery telefonów — Straż Graniczna",
+   "nazwa": "Numery telefonów do Straży Granicznej",
    "ikona": "numery-straz-graniczna",
-   "url": null,
+   "url": "/pomoce/numery-straz-graniczna",
    "grupa": "numery"
   },
   {
@@ -287,12 +287,6 @@
    "slug": "slownik-wyrazen-ustawowych",
    "nazwa": "Słownik wyrażeń ustawowych",
    "ikona": "slownik-wyrazen-ustawowych",
-   "url": null
-  },
-  {
-   "slug": "lista-firm",
-   "nazwa": "Lista firm",
-   "ikona": "lista-firm",
    "url": null
   },
   {
@@ -6865,19 +6859,6 @@
    "kod": "19 115",
    "opis": "Miejskie Centrum Kontaktu — m.st. Warszawa",
    "tel": "19115"
-  },
-  {
-   "category": "numery-itd",
-   "kod": "22 220 40 00",
-   "opis": "GITD — infolinia dla obywatela",
-   "tel": "222204000",
-   "note": "Dni robocze 8:15–16:15."
-  },
-  {
-   "category": "numery-itd",
-   "title": "Kontakt — Główny Inspektorat Transportu Drogowego",
-   "url": "https://www.gov.pl/web/gitd/kontakt11",
-   "description": "Dane kontaktowe GITD oraz odnośniki do wojewódzkich inspektoratów (WITD) z numerami dyżurnymi."
   },
   {
    "category": "numery-straz-graniczna",

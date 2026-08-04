@@ -1,0 +1,47 @@
+[
+ {
+  "id": "A",
+  "name": "Naruszenia o charakterze szczególnym",
+  "count": 11
+ },
+ {
+  "id": "B",
+  "name": "Naruszenia polegające na nieprawidłowym zachowaniu się wobec pieszych",
+  "count": 12
+ },
+ {
+  "id": "C",
+  "name": "Naruszenia polegające na niestosowaniu się do znaków i sygnałów drogowych",
+  "count": 20
+ },
+ {
+  "id": "D",
+  "name": "Naruszenia przepisów obowiązujących na skrzyżowaniach lub w innych miejscach przecinania się kierunków ruchu lub toru jazdy pojazdów",
+  "count": 6
+ },
+ {
+  "id": "E",
+  "name": "Naruszenia przepisów dotyczących dopuszczalnej prędkości Przekroczenie dopuszczalnej prędkości:",
+  "count": 11
+ },
+ {
+  "id": "F",
+  "name": "Naruszenia przepisów dotyczących wyprzedzania",
+  "count": 12
+ },
+ {
+  "id": "G",
+  "name": "Naruszenia przepisów dotyczących używania świateł zewnętrznych Niestosowanie się podczas jazdy do obowiązku używania wymaganych przepisami świateł:",
+  "count": 8
+ },
+ {
+  "id": "H",
+  "name": "Naruszenia innych przepisów o bezpieczeństwie lub porządku w ruchu drogowym Naruszenie zakazu cofania:",
+  "count": 29
+ },
+ {
+  "id": "J",
+  "name": "Naruszenia przepisów dotyczących przewożenia osób",
+  "count": 24
+ }
+]

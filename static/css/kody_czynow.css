@@ -1,0 +1,360 @@
+/* ===================================================================
+   KODY CZYNÓW — lista kompaktowa, szczegóły z oddechem.
+
+   Na liście liczy się gęstość: kod, punkty i istota naruszenia mają być
+   czytelne jednym rzutem oka. Dopiero podstrona rozkłada resztę.
+   Siatki opisane przez auto-fit, bo o zawijaniu decyduje szerokość
+   KONTENERA (panel ma 480 px), a nie okna przeglądarki.
+   =================================================================== */
+
+/* Atrybut hidden ustawia display:none w stylach przeglądarki, ale KAŻDA własna
+   reguła display (flex, grid, block) ma wyższy priorytet i go unieważnia.
+   Bez tego przycisk powrotu i krzyżyk czyszczenia byłyby widoczne mimo
+   ustawionego hidden — element „ukryty” dalej się rysował. */
+.kcz-page [hidden] { display: none !important; }
+
+.kcz-page {
+  --kcz-kresa: rgba(255, 255, 255, .10);
+  --kcz-kresa-mocna: rgba(255, 255, 255, .18);
+  --kcz-akcent: #7fb0ff;
+  --kcz-etykieta: #7d92b3;
+  /* złoto z palety aplikacji — kod czynu ma być pierwszym, co widać w wierszu */
+  --kcz-zloto: #f0b429;
+  --kcz-zloto-tlo: rgba(240, 180, 41, .14);
+  --kcz-zloto-kresa: rgba(240, 180, 41, .38);
+}
+
+/* ---------- wyszukiwarka ---------- */
+
+.kcz-szukajka { margin: 4px 0 14px; }
+.kcz-pole-wrap { position: relative; display: flex; align-items: center; }
+.kcz-pole-ikona {
+  position: absolute; left: 14px; width: 20px; height: 20px;
+  color: var(--kcz-etykieta); pointer-events: none;
+}
+.kcz-pole-ikona svg { width: 100%; height: 100%; display: block; }
+
+.kcz-pole {
+  width: 100%; min-width: 0; min-height: 52px;
+  padding: 14px 46px 14px 44px;
+  border: 1px solid var(--kcz-kresa-mocna); border-radius: 14px;
+  background: rgba(255, 255, 255, .035);
+  color: var(--text-label, #d9e6fb);
+  font: inherit; font-size: 16px;   /* poniżej 16 px iOS przybliża widok */
+  -webkit-appearance: none; appearance: none;
+}
+.kcz-pole::placeholder { color: var(--kcz-etykieta); opacity: .85; }
+.kcz-pole::-webkit-search-cancel-button { display: none; }
+.kcz-pole:focus { outline: none; border-color: var(--kcz-akcent); }
+.kcz-pole:focus-visible { outline: 2px solid var(--kcz-akcent); outline-offset: 2px; }
+
+.kcz-czysc {
+  position: absolute; right: 8px; width: 36px; height: 36px;
+  display: grid; place-items: center; padding: 0; border: 0;
+  border-radius: 50%; background: transparent; color: var(--kcz-etykieta); cursor: pointer;
+}
+.kcz-czysc svg { width: 17px; height: 17px; }
+.kcz-czysc:hover, .kcz-czysc:focus-visible { color: var(--text-label, #d9e6fb); }
+.kcz-czysc:focus-visible { outline: 2px solid var(--kcz-akcent); outline-offset: 2px; }
+
+.kcz-podpowiedz, .kcz-licznik {
+  margin: 8px 2px 0; font-size: .78rem; line-height: 1.45; color: var(--kcz-etykieta);
+}
+.kcz-licznik:empty { display: none; }
+
+.kcz-naglowek-kod { color: var(--kcz-zloto); letter-spacing: .1em; }
+
+/* ---------- powrót do wyboru działu ---------- */
+
+.kcz-powrot {
+  display: flex; align-items: center; gap: 8px;
+  width: 100%; min-height: 46px; margin: 10px 0 4px;
+  padding: 11px 14px;
+  border: 1px solid var(--kcz-kresa-mocna); border-radius: 12px;
+  background: transparent; color: #cfe0ff;
+  font: inherit; font-size: .86rem; font-weight: 600; cursor: pointer;
+}
+.kcz-powrot svg { width: 17px; height: 17px; flex: none; }
+.kcz-powrot:hover { background: rgba(255, 255, 255, .06); }
+.kcz-powrot:focus-visible { outline: 2px solid var(--kcz-akcent); outline-offset: 2px; }
+
+/* ---------- nagłówek wybranego działu ---------- */
+
+/* Nazwa działu bywa długa („Naruszenia przepisów obowiązujących na
+   skrzyżowaniach…”), więc dostaje własną szerokość zamiast walczyć o miejsce
+   z przyciskiem — wcześniej łamała się na jedno słowo w wierszu. */
+.kcz-dzial {
+  display: block; margin: 14px 0 2px; padding: 12px 14px;
+  border-left: 3px solid var(--kcz-zloto); border-radius: 0 10px 10px 0;
+  background: rgba(240, 180, 41, .07);
+}
+.kcz-dzial-litera {
+  display: inline-block; margin-right: 8px; padding: 2px 9px; border-radius: 7px;
+  background: var(--kcz-zloto-tlo); border: 1px solid var(--kcz-zloto-kresa);
+  color: var(--kcz-zloto); font-size: .86rem; font-weight: 700; letter-spacing: .06em;
+}
+.kcz-dzial-nazwa {
+  font-size: .92rem; font-weight: 600; line-height: 1.4; color: #eaf1ff;
+  overflow-wrap: anywhere;
+}
+.kcz-dzial-ile {
+  display: block; margin-top: 6px; font-size: .74rem; color: var(--kcz-etykieta);
+}
+
+/* ---------- lista wyników ---------- */
+
+.kcz-wyniki { display: grid; gap: 8px; margin: 12px 0 18px; }
+.kcz-wyniki:empty { display: none; }
+
+.kcz-poz {
+  display: block; min-height: 56px; padding: 12px 14px;
+  border: 1px solid var(--kcz-kresa); border-radius: 12px;
+  color: inherit; min-width: 0;
+}
+.kcz-poz:hover { background: rgba(255, 255, 255, .05); }
+.kcz-poz:focus-visible { outline: 2px solid var(--kcz-akcent); outline-offset: 2px; }
+
+.kcz-poz-gora {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 6px;
+}
+.kcz-kod {
+  padding: 4px 10px; border-radius: 8px;
+  background: var(--kcz-zloto-tlo); color: var(--kcz-zloto);
+  border: 1px solid var(--kcz-zloto-kresa);
+  font-size: .92rem; font-weight: 700; letter-spacing: .07em; white-space: nowrap;
+}
+/* punkty nie mogą być rozpoznawalne wyłącznie po kolorze — zawsze z tekstem */
+.kcz-pkt {
+  padding: 3px 9px; border: 1px solid var(--kcz-kresa-mocna); border-radius: 999px;
+  font-size: .74rem; font-weight: 700; color: #dce8fb; white-space: nowrap;
+}
+.kcz-mand {
+  font-size: .7rem; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--kcz-etykieta);
+}
+.kcz-poz-opis {
+  display: block; font-size: .88rem; line-height: 1.45; color: #cbd8ec;
+  overflow-wrap: anywhere;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+
+/* ---------- działy ---------- */
+
+.kcz-sekcja { margin-bottom: 18px; }
+.kcz-kategorie { display: grid; gap: 8px; margin-top: 10px; }
+.kcz-kat {
+  display: flex; align-items: center; gap: 12px; min-height: 58px;
+  padding: 10px 14px; border: 1px solid var(--kcz-kresa); border-radius: 12px;
+  color: inherit; min-width: 0;
+}
+.kcz-kat:hover { background: rgba(255, 255, 255, .05); }
+.kcz-kat:focus-visible { outline: 2px solid var(--kcz-akcent); outline-offset: 2px; }
+.kcz-kat[aria-pressed="true"] {
+  border-color: var(--kcz-zloto-kresa); background: rgba(240, 180, 41, .10);
+}
+.kcz-kat-litera {
+  flex: none; width: 34px; height: 34px; display: grid; place-items: center;
+  border-radius: 9px; background: var(--kcz-zloto-tlo);
+  border: 1px solid var(--kcz-zloto-kresa);
+  color: var(--kcz-zloto); font-weight: 700; font-size: 1rem;
+}
+.kcz-kat-tresc { min-width: 0; }
+.kcz-kat-nazwa {
+  display: block; font-size: .86rem; font-weight: 600; line-height: 1.35;
+  color: #e4ecfb; overflow-wrap: anywhere;
+}
+.kcz-kat-ile { display: block; margin-top: 2px; font-size: .74rem; color: var(--kcz-etykieta); }
+
+/* ---------- szczegóły ----------
+
+   Hierarchia zamiast równorzędnych kart. Wcześniej każda sekcja miała to samo
+   tło, ramkę i wagę, więc wszystko zlewało się w jedną plamę, a w karcie
+   taryfikatora siedziały jeszcze karty w karcie.
+
+   Teraz jest jeden akcent — karta z istotą czynu i liczbami. Reszta to bloki
+   bez ramki, rozdzielone linią i odstępem. Ciężar niesie treść, nie obramowanie.
+   ------------------------------------------------------------------------- */
+
+/* Karta wykroczenia — układ i ikony jak w module Taryfikator, żeby oba
+   moduły czytało się tak samo. Jedna karta na pozycję taryfikatora. */
+.kcz-karta {
+  margin-bottom: 14px;
+  border: 1px solid var(--kcz-kresa-mocna);
+  background: rgba(127, 176, 255, .06);
+}
+
+.kcz-kwal {
+  margin: 8px 0 0;
+  font-size: .8rem; line-height: 1.5;
+  color: var(--kcz-etykieta);
+  overflow-wrap: anywhere;
+}
+
+/* Dwie kolumny — przy 480 px panelu cztery komórki w rzędzie byłyby nieczytelne,
+   a wartości kwotowe zaczęłyby się łamać. */
+.kcz-siatka {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+.kcz-komorka {
+  display: flex; align-items: center; gap: 10px;
+  padding: 11px 12px; border-radius: 10px;
+  background: rgba(4, 12, 28, .55);
+  min-width: 0;
+}
+.kcz-ikona {
+  flex: none; width: 22px; height: 22px;
+  color: var(--kcz-etykieta);
+}
+.kcz-ikona svg { width: 100%; height: 100%; display: block; }
+.kcz-wartosc {
+  font-size: 1.02rem; font-weight: 700; color: #eaf1ff;
+  overflow-wrap: anywhere; min-width: 0;
+}
+.kcz-wartosc--zloto { color: var(--kcz-zloto); }
+.kcz-wartosc--przygaszona { font-size: .92rem; font-weight: 600; color: #b6c6de; }
+
+.kcz-wiecej {
+  display: block; margin-top: 14px; padding: 10px 12px;
+  border: 1px solid var(--kcz-kresa); border-radius: 10px;
+  text-align: center;
+  font-size: .82rem; font-weight: 600; color: #cfe0ff;
+}
+.kcz-wiecej:hover { background: rgba(255, 255, 255, .06); }
+.kcz-wiecej:focus-visible { outline: 2px solid var(--kcz-akcent); outline-offset: 2px; }
+
+.kcz-blok {
+  margin: 0 0 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--kcz-kresa);
+}
+.kcz-blok-tytul {
+  margin: 0 0 10px;
+  font-size: .7rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--kcz-etykieta);
+}
+
+/* podstawa prawna: dwa krótkie odsyłacze obok siebie, nie dwie osobne karty */
+.kcz-przepisy {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  margin: 0;
+}
+.kcz-przepisy dt {
+  font-size: .74rem;
+  color: var(--kcz-etykieta);
+  margin-bottom: 2px;
+}
+.kcz-przepisy dd {
+  margin: 0;
+  font-size: .95rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #e4ecfb;
+  overflow-wrap: anywhere;
+}
+.kcz-tytul {
+  margin: 0; font-size: 1.18rem; line-height: 1.4; font-weight: 700;
+  color: #f2f6ff; overflow-wrap: anywhere;
+}
+
+.kcz-kafle {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 8px; margin-top: 14px;
+}
+.kcz-kafel {
+  padding: 12px 14px; border-radius: 11px; background: rgba(4, 12, 28, .55);
+  min-width: 0;
+}
+.kcz-kafel-etykieta {
+  display: block; font-size: .68rem; letter-spacing: .09em; text-transform: uppercase;
+  color: var(--kcz-etykieta);
+}
+.kcz-kafel-wartosc {
+  display: block; margin-top: 4px; font-size: 1.25rem; font-weight: 700; color: #eaf1ff;
+}
+/* gdy kary nie da się podać liczbą, piszemy to słowami — nigdy „0 zł” */
+.kcz-kafel-wartosc--opis { font-size: .88rem; font-weight: 600; color: #b6c6de; }
+
+.kcz-regula, .kcz-nota, .kcz-warunek {
+  margin: 12px 0 0; font-size: .8rem; line-height: 1.55; color: var(--kcz-etykieta);
+  overflow-wrap: anywhere;
+}
+.kcz-warunek { padding-top: 10px; border-top: 1px solid var(--kcz-kresa); }
+.kcz-warunek:first-of-type { border-top: 0; padding-top: 0; }
+.kcz-kwalifikacja {
+  margin: 8px 0 0; font-size: .95rem; font-weight: 600; line-height: 1.5;
+  color: #e4ecfb; overflow-wrap: anywhere;
+}
+
+/* ---------- pozycje taryfikatora ---------- */
+
+.kcz-mandat {
+  display: block; padding: 14px 12px;
+  border-top: 1px solid var(--kcz-kresa); border-radius: 0;
+  color: inherit; min-width: 0;
+}
+.kcz-mandat:first-of-type { border-top: 0; padding-top: 4px; }
+.kcz-mandat:hover { background: rgba(255, 255, 255, .04); }
+.kcz-mandat:focus-visible { outline: 2px solid var(--kcz-akcent); outline-offset: 2px; }
+.kcz-mandat-tytul {
+  display: block; font-size: .92rem; font-weight: 600; line-height: 1.4;
+  color: #e8eefb; overflow-wrap: anywhere;
+}
+.kcz-mandat-kwal {
+  display: block; margin-top: 4px; font-size: .76rem; color: var(--kcz-etykieta);
+  overflow-wrap: anywhere;
+}
+.kcz-mandat-liczby { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 10px; }
+.kcz-liczba { font-size: .88rem; font-weight: 700; color: #dce8fb; white-space: nowrap; }
+.kcz-liczba-et {
+  display: block; font-size: .66rem; font-weight: 500; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--kcz-etykieta);
+}
+
+/* ---------- O danych ---------- */
+
+.kcz-odanych {
+  margin-bottom: 20px; border: 1px solid var(--kcz-kresa); border-radius: 14px;
+  background: rgba(255, 255, 255, .035);
+}
+.kcz-odanych-tytul {
+  display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 12px 14px;
+  font-size: .88rem; font-weight: 600; cursor: pointer; list-style: none;
+}
+.kcz-odanych-tytul::-webkit-details-marker { display: none; }
+.kcz-odanych-tytul:focus-visible { outline: 2px solid var(--kcz-akcent); outline-offset: -2px; }
+.kcz-odanych-tresc { padding: 0 14px 14px; }
+.kcz-badge {
+  margin-left: auto; padding: 4px 9px; border: 1px solid var(--kcz-kresa-mocna);
+  border-radius: 999px; font-size: .68rem; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--kcz-etykieta);
+}
+.kcz-dane {
+  display: grid; grid-template-columns: minmax(96px, auto) 1fr; gap: 8px 14px; margin: 0;
+}
+.kcz-dane dt { font-size: .78rem; color: var(--kcz-etykieta); }
+.kcz-dane dd {
+  margin: 0; font-size: .9rem; font-weight: 600; color: #e4ecfb; overflow-wrap: anywhere;
+}
+.kcz-link { color: #9cc3ff; text-decoration: underline; }
+
+.kcz-komunikat {
+  margin: 0 0 14px; padding: 12px 14px; border: 1px solid var(--kcz-kresa);
+  border-left: 3px solid #e0a33c; border-radius: 12px;
+  background: rgba(255, 255, 255, .035); font-size: .86rem; line-height: 1.5; color: #d3dff2;
+}
+.kcz-komunikat code {
+  padding: 1px 5px; border-radius: 5px; background: rgba(255, 255, 255, .08);
+  font-size: .82em; overflow-wrap: anywhere;
+}
+
+/* Nic nie może rozpychać panelu w poziomie.
+   UWAGA: reguła celuje w POTOMKÓW .kcz-page, nigdy w sam kontener — to ten sam
+   element co .tar-page, który ma max-width 480px i rozjechałby się na desktopie. */
+.kcz-page > *, .kcz-page * { max-width: 100%; }

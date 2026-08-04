@@ -21,391 +21,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 4",
    "source_text": "§ 4. 1. Znaki: 1) A-1 „niebezpieczny zakręt w prawo”, 2) A-2 „niebezpieczny zakręt w lewo” ostrzegają o niebezpiecznym zakręcie w kierunku wskazanym na znaku. 2. Znaki: 1) A-3 „niebezpieczne zakręty – pierwszy w prawo”, 2) A-4 „niebezpieczne zakręty – pierwszy w lewo” ostrzegają o niebezpiecznych zakrętach, z których pierwszy jest w kierunku wskazanym na znaku. 3. Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tabliczka T-5 wskazuje początek drogi krętej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-10",
-  "code": "A-10",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "przejazd kolejowy bez zapór",
-  "short_description": "Ostrzega o przejeździe kolejowym niewyposażonym ani w zapory, ani w półzapory.",
-  "details": "Znak A-10 „przejazd kolejowy bez zapór” ostrzega o przejeździe kolejowym niewyposażonym ani w zapory, ani w półzapory. Umieszczona pod znakiem A-9 lub A-10 tabliczka T-7 wskazuje układ torów i drogi na przejeździe.",
-  "image_path": "img/znaki/A-10.png",
-  "keywords": [
-   "a-10",
-   "a10",
-   "kolejowy",
-   "przejazd",
-   "zapór"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 6",
-   "source_text": "§ 6. 1. Znak A-9 „przejazd kolejowy z zaporami” ostrzega o przejeździe kolejowym wyposażonym w zapory lub półzapory. 2. Znak A-10 „przejazd kolejowy bez zapór” ostrzega o przejeździe kolejowym niewyposażonym ani w zapory, ani w półzapory. 3. Umieszczona pod znakiem A-9 lub A-10 tabliczka T-7 wskazuje układ torów i drogi na przejeździe.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-11",
-  "code": "A-11",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "nierówna droga",
-  "short_description": "Ostrzega o poprzecznej nierówności jezdni.",
-  "details": "Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni.",
-  "image_path": "img/znaki/A-11.png",
-  "keywords": [
-   "a-11",
-   "a11",
-   "droga",
-   "nierówna"
-  ],
-  "related_sign_ids": [
-   "A-11a"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 7",
-   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-11a",
-  "code": "A-11a",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "próg zwalniający",
-  "short_description": "Ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów.",
-  "details": "Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów.",
-  "image_path": "img/znaki/A-11a.png",
-  "keywords": [
-   "a-11a",
-   "a11a",
-   "próg",
-   "zwalniający"
-  ],
-  "related_sign_ids": [
-   "A-11"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 7",
-   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-12a",
-  "code": "A-12a",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "zwężenie jezdni – dwustronne",
-  "short_description": "Ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu.",
-  "details": "Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu.",
-  "image_path": "img/znaki/A-12a.png",
-  "keywords": [
-   "a-12a",
-   "a12a",
-   "dwustronne",
-   "jezdni",
-   "zwężenie"
-  ],
-  "related_sign_ids": [
-   "A-12b",
-   "A-12c"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 7",
-   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-12b",
-  "code": "A-12b",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "zwężenie jezdni – prawostronne",
-  "short_description": "Ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu.",
-  "details": "Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu.",
-  "image_path": "img/znaki/A-12b.png",
-  "keywords": [
-   "a-12b",
-   "a12b",
-   "jezdni",
-   "prawostronne",
-   "zwężenie"
-  ],
-  "related_sign_ids": [
-   "A-12a",
-   "A-12c"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 7",
-   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-12c",
-  "code": "A-12c",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "zwężenie jezdni – lewostronne",
-  "short_description": "Ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu.",
-  "details": "Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu.",
-  "image_path": "img/znaki/A-12c.png",
-  "keywords": [
-   "a-12c",
-   "a12c",
-   "jezdni",
-   "lewostronne",
-   "zwężenie"
-  ],
-  "related_sign_ids": [
-   "A-12a",
-   "A-12b"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 7",
-   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-13",
-  "code": "A-13",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "ruchomy most",
-  "short_description": "Ostrzega o wjeździe na most zwodzony lub obrotowy.",
-  "details": "Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy.",
-  "image_path": "img/znaki/A-13.png",
-  "keywords": [
-   "a-13",
-   "a13",
-   "most",
-   "ruchomy"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 7",
-   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-14",
-  "code": "A-14",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "roboty na drodze",
-  "short_description": "Ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych.",
-  "details": "Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych.",
-  "image_path": "img/znaki/A-14.png",
-  "keywords": [
-   "a-14",
-   "a14",
-   "drodze",
-   "roboty"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 7",
-   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-15",
-  "code": "A-15",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "śliska jezdnia",
-  "short_description": "Ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
-  "details": "Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
-  "image_path": "img/znaki/A-15.png",
-  "keywords": [
-   "a-15",
-   "a15",
-   "jezdnia",
-   "śliska"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 7",
-   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-16",
-  "code": "A-16",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "przejście dla pieszych",
-  "short_description": "Ostrzega o przejściu dla pieszych.",
-  "details": "Znak A-16 „przejście dla pieszych” ostrzega o przejściu dla pieszych.",
-  "image_path": "img/znaki/A-16.png",
-  "keywords": [
-   "a-16",
-   "a16",
-   "pieszych",
-   "przejście"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 8",
-   "source_text": "§ 8. 1. Znak A-16 „przejście dla pieszych” ostrzega o przejściu dla pieszych. 2. Znak A-17 „dzieci” ostrzega o miejscu na drodze szczególnie uczęszczanym przez dzieci lub o bliskości takiego miejsca.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-17",
-  "code": "A-17",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "dzieci",
-  "short_description": "Ostrzega o miejscu na drodze szczególnie uczęszczanym przez dzieci lub o bliskości takiego miejsca.",
-  "details": "Znak A-17 „dzieci” ostrzega o miejscu na drodze szczególnie uczęszczanym przez dzieci lub o bliskości takiego miejsca.",
-  "image_path": "img/znaki/A-17.png",
-  "keywords": [
-   "a-17",
-   "a17",
-   "dzieci"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 8",
-   "source_text": "§ 8. 1. Znak A-16 „przejście dla pieszych” ostrzega o przejściu dla pieszych. 2. Znak A-17 „dzieci” ostrzega o miejscu na drodze szczególnie uczęszczanym przez dzieci lub o bliskości takiego miejsca.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-18a",
-  "code": "A-18a",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "zwierzęta gospodarskie",
-  "short_description": "Ostrzegają o możliwości napotkania na drodze zwierząt.",
-  "details": "Znaki: 1) A-18a „zwierzęta gospodarskie”, 2) A-18b „zwierzęta dzikie” ostrzegają o możliwości napotkania na drodze zwierząt.",
-  "image_path": "img/znaki/A-18a.png",
-  "keywords": [
-   "a-18a",
-   "a18a",
-   "gospodarskie",
-   "zwierzęta"
-  ],
-  "related_sign_ids": [
-   "A-18b"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 9",
-   "source_text": "§ 9. Znaki: 1) A-18a „zwierzęta gospodarskie”, 2) A-18b „zwierzęta dzikie” ostrzegają o możliwości napotkania na drodze zwierząt.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-18b",
-  "code": "A-18b",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "zwierzęta dzikie",
-  "short_description": "Ostrzegają o możliwości napotkania na drodze zwierząt.",
-  "details": "Znaki: 1) A-18a „zwierzęta gospodarskie”, 2) A-18b „zwierzęta dzikie” ostrzegają o możliwości napotkania na drodze zwierząt.",
-  "image_path": "img/znaki/A-18b.png",
-  "keywords": [
-   "a-18b",
-   "a18b",
-   "dzikie",
-   "zwierzęta"
-  ],
-  "related_sign_ids": [
-   "A-18a"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 9",
-   "source_text": "§ 9. Znaki: 1) A-18a „zwierzęta gospodarskie”, 2) A-18b „zwierzęta dzikie” ostrzegają o możliwości napotkania na drodze zwierząt.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-19",
-  "code": "A-19",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "boczny wiatr",
-  "short_description": "Ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru.",
-  "details": "Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru.",
-  "image_path": "img/znaki/A-19.png",
-  "keywords": [
-   "a-19",
-   "a19",
-   "boczny",
-   "wiatr"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 10",
-   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -432,268 +48,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 4",
    "source_text": "§ 4. 1. Znaki: 1) A-1 „niebezpieczny zakręt w prawo”, 2) A-2 „niebezpieczny zakręt w lewo” ostrzegają o niebezpiecznym zakręcie w kierunku wskazanym na znaku. 2. Znaki: 1) A-3 „niebezpieczne zakręty – pierwszy w prawo”, 2) A-4 „niebezpieczne zakręty – pierwszy w lewo” ostrzegają o niebezpiecznych zakrętach, z których pierwszy jest w kierunku wskazanym na znaku. 3. Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tabliczka T-5 wskazuje początek drogi krętej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-20",
-  "code": "A-20",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "odcinek jezdni o ruchu dwukierunkowym",
-  "short_description": "Ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy.",
-  "details": "Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy.",
-  "image_path": "img/znaki/A-20.png",
-  "keywords": [
-   "a-20",
-   "a20",
-   "dwukierunkowym",
-   "jezdni",
-   "odcinek",
-   "ruchu"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 10",
-   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-21",
-  "code": "A-21",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "tramwaj",
-  "short_description": "Ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe.",
-  "details": "Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe.",
-  "image_path": "img/znaki/A-21.png",
-  "keywords": [
-   "a-21",
-   "a21",
-   "tramwaj"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 10",
-   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-22",
-  "code": "A-22",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "niebezpieczny zjazd",
-  "short_description": "Ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku.",
-  "details": "Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku.",
-  "image_path": "img/znaki/A-22.png",
-  "keywords": [
-   "a-22",
-   "a22",
-   "niebezpieczny",
-   "zjazd"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 10",
-   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-23",
-  "code": "A-23",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "stromy podjazd",
-  "short_description": "Ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia.",
-  "details": "Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia.",
-  "image_path": "img/znaki/A-23.png",
-  "keywords": [
-   "a-23",
-   "a23",
-   "podjazd",
-   "stromy"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 10",
-   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-24",
-  "code": "A-24",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "rowerzyści",
-  "short_description": "Ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają.",
-  "details": "Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają.",
-  "image_path": "img/znaki/A-24.png",
-  "keywords": [
-   "a-24",
-   "a24",
-   "rowerzyści"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 10",
-   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-25",
-  "code": "A-25",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "spadające odłamki skalne",
-  "short_description": "Ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych.",
-  "details": "Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych.",
-  "image_path": "img/znaki/A-25.png",
-  "keywords": [
-   "a-25",
-   "a25",
-   "odłamki",
-   "skalne",
-   "spadające"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 10",
-   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-26",
-  "code": "A-26",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "lotnisko",
-  "short_description": "Ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca.",
-  "details": "Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca.",
-  "image_path": "img/znaki/A-26.png",
-  "keywords": [
-   "a-26",
-   "a26",
-   "lotnisko"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 10",
-   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-27",
-  "code": "A-27",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "nabrzeże lub brzeg rzeki",
-  "short_description": "Ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego.",
-  "details": "Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego.",
-  "image_path": "img/znaki/A-27.png",
-  "keywords": [
-   "a-27",
-   "a27",
-   "brzeg",
-   "nabrzeże",
-   "rzeki"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 10",
-   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-28",
-  "code": "A-28",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "sypki żwir",
-  "short_description": "Ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów.",
-  "details": "Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów.",
-  "image_path": "img/znaki/A-28.png",
-  "keywords": [
-   "a-28",
-   "a28",
-   "sypki",
-   "żwir"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 10",
-   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-29",
-  "code": "A-29",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "sygnały świetlne",
-  "short_description": "Ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-  "details": "Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-  "image_path": "img/znaki/A-29.png",
-  "keywords": [
-   "a-29",
-   "a29",
-   "sygnały",
-   "świetlne"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 10",
-   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -721,137 +76,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 4",
    "source_text": "§ 4. 1. Znaki: 1) A-1 „niebezpieczny zakręt w prawo”, 2) A-2 „niebezpieczny zakręt w lewo” ostrzegają o niebezpiecznym zakręcie w kierunku wskazanym na znaku. 2. Znaki: 1) A-3 „niebezpieczne zakręty – pierwszy w prawo”, 2) A-4 „niebezpieczne zakręty – pierwszy w lewo” ostrzegają o niebezpiecznych zakrętach, z których pierwszy jest w kierunku wskazanym na znaku. 3. Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tabliczka T-5 wskazuje początek drogi krętej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-30",
-  "code": "A-30",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "inne niebezpieczeństwo",
-  "short_description": "Ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi.",
-  "details": "Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
-  "image_path": "img/znaki/A-30.png",
-  "keywords": [
-   "a-30",
-   "a30",
-   "inne",
-   "niebezpieczeństwo"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 11",
-   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-31",
-  "code": "A-31",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "niebezpieczne pobocze",
-  "short_description": "Ostrzega o niebezpiecznym poboczu (miękkim lub obniżonym); znak z odwróconym symbolem ostrzega o niebezpiecznym poboczu występującym po lewej stronie drogi.",
-  "details": "Znak A-31 „niebezpieczne pobocze” ostrzega o niebezpiecznym poboczu (miękkim lub obniżonym); znak z odwróconym symbolem ostrzega o niebezpiecznym poboczu występującym po lewej stronie drogi.",
-  "image_path": "img/znaki/A-31.png",
-  "keywords": [
-   "a-31",
-   "a31",
-   "niebezpieczne",
-   "pobocze"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 12",
-   "source_text": "§ 12. 1. Znak A-31 „niebezpieczne pobocze” ostrzega o niebezpiecznym poboczu (miękkim lub obniżonym); znak z odwróconym symbolem ostrzega o niebezpiecznym poboczu występującym po lewej stronie drogi. 2. Znak A-32 „oszronienie jezdni” ostrzega o mogącym występować na drodze oszronieniu jezdni lub gołoledzi.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-32",
-  "code": "A-32",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "oszronienie jezdni",
-  "short_description": "Ostrzega o mogącym występować na drodze oszronieniu jezdni lub gołoledzi.",
-  "details": "Znak A-32 „oszronienie jezdni” ostrzega o mogącym występować na drodze oszronieniu jezdni lub gołoledzi.",
-  "image_path": "img/znaki/A-32.png",
-  "keywords": [
-   "a-32",
-   "a32",
-   "jezdni",
-   "oszronienie"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 12",
-   "source_text": "§ 12. 1. Znak A-31 „niebezpieczne pobocze” ostrzega o niebezpiecznym poboczu (miękkim lub obniżonym); znak z odwróconym symbolem ostrzega o niebezpiecznym poboczu występującym po lewej stronie drogi. 2. Znak A-32 „oszronienie jezdni” ostrzega o mogącym występować na drodze oszronieniu jezdni lub gołoledzi.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-33",
-  "code": "A-33",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "zator drogowy",
-  "short_description": "Ostrzega o częstym występowaniu zablokowania ruchu pojazdów.",
-  "details": "Znak A-33 „zator drogowy” ostrzega o częstym występowaniu zablokowania ruchu pojazdów.",
-  "image_path": "img/znaki/A-33.png",
-  "keywords": [
-   "a-33",
-   "a33",
-   "drogowy",
-   "zator"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 13",
-   "source_text": "§ 13. 1. Znak A-33 „zator drogowy” ostrzega o częstym występowaniu zablokowania ruchu pojazdów. 2. Znak A-34 „wypadek drogowy” ostrzega o miejscu, w którym na skutek wypadku drogowego nastąpiło zablokowanie drogi lub znaczne utrudnienie ruchu pojazdów.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "A-34",
-  "code": "A-34",
-  "category_id": "A",
-  "category_name": "Znaki ostrzegawcze",
-  "name": "wypadek drogowy",
-  "short_description": "Ostrzega o miejscu, w którym na skutek wypadku drogowego nastąpiło zablokowanie drogi lub znaczne utrudnienie ruchu pojazdów.",
-  "details": "Znak A-34 „wypadek drogowy” ostrzega o miejscu, w którym na skutek wypadku drogowego nastąpiło zablokowanie drogi lub znaczne utrudnienie ruchu pojazdów.",
-  "image_path": "img/znaki/A-34.png",
-  "keywords": [
-   "a-34",
-   "a34",
-   "drogowy",
-   "wypadek"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 13",
-   "source_text": "§ 13. 1. Znak A-33 „zator drogowy” ostrzega o częstym występowaniu zablokowania ruchu pojazdów. 2. Znak A-34 „wypadek drogowy” ostrzega o miejscu, w którym na skutek wypadku drogowego nastąpiło zablokowanie drogi lub znaczne utrudnienie ruchu pojazdów.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -879,7 +104,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 4",
    "source_text": "§ 4. 1. Znaki: 1) A-1 „niebezpieczny zakręt w prawo”, 2) A-2 „niebezpieczny zakręt w lewo” ostrzegają o niebezpiecznym zakręcie w kierunku wskazanym na znaku. 2. Znaki: 1) A-3 „niebezpieczne zakręty – pierwszy w prawo”, 2) A-4 „niebezpieczne zakręty – pierwszy w lewo” ostrzegają o niebezpiecznych zakrętach, z których pierwszy jest w kierunku wskazanym na znaku. 3. Umieszczona pod znakiem A-3 lub A-4 tabliczka T-4 wskazuje liczbę zakrętów większą niż dwa, natomiast tabliczka T-5 wskazuje początek drogi krętej.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -905,7 +130,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 5",
    "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -939,7 +164,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 5",
    "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -974,7 +199,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 5",
    "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1009,7 +234,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 5",
    "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1043,7 +268,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 5",
    "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1077,7 +302,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 5",
    "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1103,7 +328,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 5",
    "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1130,7 +355,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 5",
    "source_text": "§ 5. 1. Znak A-5 „skrzyżowanie dróg” ostrzega o skrzyżowaniu dróg, na którym pierwszeństwo nie jest określone znakami. 2. Znaki: 1) A-6a „skrzyżowanie z drogą podporządkowaną występującą po obu stronach”, 2) A-6b „skrzyżowanie z drogą podporządkowaną występującą po prawej stronie”, 3) A-6c „skrzyżowanie z drogą podporządkowaną występującą po lewej stronie” ostrzegają o skrzyżowaniu z drogą podporządkowaną, występującą po stronie wskazanej na znaku. 3. Umieszczona pod znakami A-6a, A-6b lub A-6c tabliczka T-6b wskazuje układ dróg na skrzyżowaniu. 4. Znaki: 1) A-6d „wlot drogi jednokierunkowej z prawej strony”, 2) A-6e „wlot drogi jednokierunkowej z lewej strony” ostrzegają o skrzyżowaniu z jednokierunkową drogą podporządkowaną, której wlot występuje po stronie wskazanej na znaku. 5. Znak A-7 „ustąp pierwszeństwa” ostrzega o skrzyżowaniu z drogą z pierwszeństwem. Znak A-7 znajdujący się w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został umieszczony. 6. Przepis ust. 5 stosuje się odpowiednio do znaku A-7 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 7. Umieszczona pod znakiem A-7 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie. 8. Znak A-8 „skrzyżowanie o ruchu okrężnym” ostrzega o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu w kierunku wskazanym na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1157,7 +382,782 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 6",
    "source_text": "§ 6. 1. Znak A-9 „przejazd kolejowy z zaporami” ostrzega o przejeździe kolejowym wyposażonym w zapory lub półzapory. 2. Znak A-10 „przejazd kolejowy bez zapór” ostrzega o przejeździe kolejowym niewyposażonym ani w zapory, ani w półzapory. 3. Umieszczona pod znakiem A-9 lub A-10 tabliczka T-7 wskazuje układ torów i drogi na przejeździe.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-10",
+  "code": "A-10",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "przejazd kolejowy bez zapór",
+  "short_description": "Ostrzega o przejeździe kolejowym niewyposażonym ani w zapory, ani w półzapory.",
+  "details": "Znak A-10 „przejazd kolejowy bez zapór” ostrzega o przejeździe kolejowym niewyposażonym ani w zapory, ani w półzapory. Umieszczona pod znakiem A-9 lub A-10 tabliczka T-7 wskazuje układ torów i drogi na przejeździe.",
+  "image_path": "img/znaki/A-10.png",
+  "keywords": [
+   "a-10",
+   "a10",
+   "kolejowy",
+   "przejazd",
+   "zapór"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 6",
+   "source_text": "§ 6. 1. Znak A-9 „przejazd kolejowy z zaporami” ostrzega o przejeździe kolejowym wyposażonym w zapory lub półzapory. 2. Znak A-10 „przejazd kolejowy bez zapór” ostrzega o przejeździe kolejowym niewyposażonym ani w zapory, ani w półzapory. 3. Umieszczona pod znakiem A-9 lub A-10 tabliczka T-7 wskazuje układ torów i drogi na przejeździe.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-11",
+  "code": "A-11",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "nierówna droga",
+  "short_description": "Ostrzega o poprzecznej nierówności jezdni.",
+  "details": "Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni.",
+  "image_path": "img/znaki/A-11.png",
+  "keywords": [
+   "a-11",
+   "a11",
+   "droga",
+   "nierówna"
+  ],
+  "related_sign_ids": [
+   "A-11a"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 7",
+   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-11a",
+  "code": "A-11a",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "próg zwalniający",
+  "short_description": "Ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów.",
+  "details": "Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów.",
+  "image_path": "img/znaki/A-11a.png",
+  "keywords": [
+   "a-11a",
+   "a11a",
+   "próg",
+   "zwalniający"
+  ],
+  "related_sign_ids": [
+   "A-11"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 7",
+   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-12a",
+  "code": "A-12a",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "zwężenie jezdni – dwustronne",
+  "short_description": "Ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu.",
+  "details": "Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu.",
+  "image_path": "img/znaki/A-12a.png",
+  "keywords": [
+   "a-12a",
+   "a12a",
+   "dwustronne",
+   "jezdni",
+   "zwężenie"
+  ],
+  "related_sign_ids": [
+   "A-12b",
+   "A-12c"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 7",
+   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-12b",
+  "code": "A-12b",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "zwężenie jezdni – prawostronne",
+  "short_description": "Ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu.",
+  "details": "Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu.",
+  "image_path": "img/znaki/A-12b.png",
+  "keywords": [
+   "a-12b",
+   "a12b",
+   "jezdni",
+   "prawostronne",
+   "zwężenie"
+  ],
+  "related_sign_ids": [
+   "A-12a",
+   "A-12c"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 7",
+   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-12c",
+  "code": "A-12c",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "zwężenie jezdni – lewostronne",
+  "short_description": "Ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu.",
+  "details": "Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu.",
+  "image_path": "img/znaki/A-12c.png",
+  "keywords": [
+   "a-12c",
+   "a12c",
+   "jezdni",
+   "lewostronne",
+   "zwężenie"
+  ],
+  "related_sign_ids": [
+   "A-12a",
+   "A-12b"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 7",
+   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-13",
+  "code": "A-13",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "ruchomy most",
+  "short_description": "Ostrzega o wjeździe na most zwodzony lub obrotowy.",
+  "details": "Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy.",
+  "image_path": "img/znaki/A-13.png",
+  "keywords": [
+   "a-13",
+   "a13",
+   "most",
+   "ruchomy"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 7",
+   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-14",
+  "code": "A-14",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "roboty na drodze",
+  "short_description": "Ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych.",
+  "details": "Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych.",
+  "image_path": "img/znaki/A-14.png",
+  "keywords": [
+   "a-14",
+   "a14",
+   "drodze",
+   "roboty"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 7",
+   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-15",
+  "code": "A-15",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "śliska jezdnia",
+  "short_description": "Ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
+  "details": "Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
+  "image_path": "img/znaki/A-15.png",
+  "keywords": [
+   "a-15",
+   "a15",
+   "jezdnia",
+   "śliska"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 7",
+   "source_text": "§ 7. 1. Znak A-11 „nierówna droga” ostrzega o poprzecznej nierówności jezdni. 2. Znak A-11a „próg zwalniający” ostrzega o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu pojazdów. Dziennik Ustaw – 5 – Poz. 2310 3. Znaki: 1) A-12a „zwężenie jezdni – dwustronne”, 2) A-12b „zwężenie jezdni – prawostronne”, 3) A-12c „zwężenie jezdni – lewostronne” ostrzegają o zwężeniu jezdni po stronie wskazanej na znaku, które może powodować utrudnienia ruchu. 4. Znak A-13 „ruchomy most” ostrzega o wjeździe na most zwodzony lub obrotowy. 5. Znak A-14 „roboty na drodze” ostrzega o prowadzonych na drodze robotach; umieszczona pod znakiem tabliczka T-19 wskazuje na malowanie znaków poziomych. 6. Znak A-15 „śliska jezdnia” ostrzega o możliwości poślizgu pojazdu spowodowanego w szczególności zmianą nawierzchni jezdni, stałym lub okresowym jej zawilgoceniem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-16",
+  "code": "A-16",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "przejście dla pieszych",
+  "short_description": "Ostrzega o przejściu dla pieszych.",
+  "details": "Znak A-16 „przejście dla pieszych” ostrzega o przejściu dla pieszych.",
+  "image_path": "img/znaki/A-16.png",
+  "keywords": [
+   "a-16",
+   "a16",
+   "pieszych",
+   "przejście"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 8",
+   "source_text": "§ 8. 1. Znak A-16 „przejście dla pieszych” ostrzega o przejściu dla pieszych. 2. Znak A-17 „dzieci” ostrzega o miejscu na drodze szczególnie uczęszczanym przez dzieci lub o bliskości takiego miejsca.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-17",
+  "code": "A-17",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "dzieci",
+  "short_description": "Ostrzega o miejscu na drodze szczególnie uczęszczanym przez dzieci lub o bliskości takiego miejsca.",
+  "details": "Znak A-17 „dzieci” ostrzega o miejscu na drodze szczególnie uczęszczanym przez dzieci lub o bliskości takiego miejsca.",
+  "image_path": "img/znaki/A-17.png",
+  "keywords": [
+   "a-17",
+   "a17",
+   "dzieci"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 8",
+   "source_text": "§ 8. 1. Znak A-16 „przejście dla pieszych” ostrzega o przejściu dla pieszych. 2. Znak A-17 „dzieci” ostrzega o miejscu na drodze szczególnie uczęszczanym przez dzieci lub o bliskości takiego miejsca.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-18a",
+  "code": "A-18a",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "zwierzęta gospodarskie",
+  "short_description": "Ostrzegają o możliwości napotkania na drodze zwierząt.",
+  "details": "Znaki: 1) A-18a „zwierzęta gospodarskie”, 2) A-18b „zwierzęta dzikie” ostrzegają o możliwości napotkania na drodze zwierząt.",
+  "image_path": "img/znaki/A-18a.png",
+  "keywords": [
+   "a-18a",
+   "a18a",
+   "gospodarskie",
+   "zwierzęta"
+  ],
+  "related_sign_ids": [
+   "A-18b"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 9",
+   "source_text": "§ 9. Znaki: 1) A-18a „zwierzęta gospodarskie”, 2) A-18b „zwierzęta dzikie” ostrzegają o możliwości napotkania na drodze zwierząt.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-18b",
+  "code": "A-18b",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "zwierzęta dzikie",
+  "short_description": "Ostrzegają o możliwości napotkania na drodze zwierząt.",
+  "details": "Znaki: 1) A-18a „zwierzęta gospodarskie”, 2) A-18b „zwierzęta dzikie” ostrzegają o możliwości napotkania na drodze zwierząt.",
+  "image_path": "img/znaki/A-18b.png",
+  "keywords": [
+   "a-18b",
+   "a18b",
+   "dzikie",
+   "zwierzęta"
+  ],
+  "related_sign_ids": [
+   "A-18a"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 9",
+   "source_text": "§ 9. Znaki: 1) A-18a „zwierzęta gospodarskie”, 2) A-18b „zwierzęta dzikie” ostrzegają o możliwości napotkania na drodze zwierząt.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-19",
+  "code": "A-19",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "boczny wiatr",
+  "short_description": "Ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru.",
+  "details": "Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru.",
+  "image_path": "img/znaki/A-19.png",
+  "keywords": [
+   "a-19",
+   "a19",
+   "boczny",
+   "wiatr"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 10",
+   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-20",
+  "code": "A-20",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "odcinek jezdni o ruchu dwukierunkowym",
+  "short_description": "Ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy.",
+  "details": "Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy.",
+  "image_path": "img/znaki/A-20.png",
+  "keywords": [
+   "a-20",
+   "a20",
+   "dwukierunkowym",
+   "jezdni",
+   "odcinek",
+   "ruchu"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 10",
+   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-21",
+  "code": "A-21",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "tramwaj",
+  "short_description": "Ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe.",
+  "details": "Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe.",
+  "image_path": "img/znaki/A-21.png",
+  "keywords": [
+   "a-21",
+   "a21",
+   "tramwaj"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 10",
+   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-22",
+  "code": "A-22",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "niebezpieczny zjazd",
+  "short_description": "Ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku.",
+  "details": "Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku.",
+  "image_path": "img/znaki/A-22.png",
+  "keywords": [
+   "a-22",
+   "a22",
+   "niebezpieczny",
+   "zjazd"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 10",
+   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-23",
+  "code": "A-23",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "stromy podjazd",
+  "short_description": "Ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia.",
+  "details": "Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia.",
+  "image_path": "img/znaki/A-23.png",
+  "keywords": [
+   "a-23",
+   "a23",
+   "podjazd",
+   "stromy"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 10",
+   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-24",
+  "code": "A-24",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "rowerzyści",
+  "short_description": "Ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają.",
+  "details": "Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają.",
+  "image_path": "img/znaki/A-24.png",
+  "keywords": [
+   "a-24",
+   "a24",
+   "rowerzyści"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 10",
+   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-25",
+  "code": "A-25",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "spadające odłamki skalne",
+  "short_description": "Ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych.",
+  "details": "Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych.",
+  "image_path": "img/znaki/A-25.png",
+  "keywords": [
+   "a-25",
+   "a25",
+   "odłamki",
+   "skalne",
+   "spadające"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 10",
+   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-26",
+  "code": "A-26",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "lotnisko",
+  "short_description": "Ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca.",
+  "details": "Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca.",
+  "image_path": "img/znaki/A-26.png",
+  "keywords": [
+   "a-26",
+   "a26",
+   "lotnisko"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 10",
+   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-27",
+  "code": "A-27",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "nabrzeże lub brzeg rzeki",
+  "short_description": "Ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego.",
+  "details": "Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego.",
+  "image_path": "img/znaki/A-27.png",
+  "keywords": [
+   "a-27",
+   "a27",
+   "brzeg",
+   "nabrzeże",
+   "rzeki"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 10",
+   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-28",
+  "code": "A-28",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "sypki żwir",
+  "short_description": "Ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów.",
+  "details": "Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów.",
+  "image_path": "img/znaki/A-28.png",
+  "keywords": [
+   "a-28",
+   "a28",
+   "sypki",
+   "żwir"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 10",
+   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-29",
+  "code": "A-29",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "sygnały świetlne",
+  "short_description": "Ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+  "details": "Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+  "image_path": "img/znaki/A-29.png",
+  "keywords": [
+   "a-29",
+   "a29",
+   "sygnały",
+   "świetlne"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 10",
+   "source_text": "§ 10. 1. Znak A-19 „boczny wiatr” ostrzega o miejscu, w którym mogą występować silne boczne podmuchy wiatru. 2. Znak A-20 „odcinek jezdni o ruchu dwukierunkowym” ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy. 3. Znak A-21 „tramwaj” ostrzega o przejeździe przez tory tramwajowe; umieszczona pod znakiem tabliczka T-7 wskazuje układ torów i drogi na tym przejeździe. 4. Znak A-22 „niebezpieczny zjazd” ostrzega o znacznym spadku podłużnym drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość spadku. 5. Znak A-23 „stromy podjazd” ostrzega o znacznym wzniesieniu drogi; umieszczona pod znakiem tabliczka T-9 wskazuje rzeczywistą wielkość wzniesienia. 6. Znak A-24 „rowerzyści” ostrzega o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają. 7. Znak A-25 „spadające odłamki skalne” ostrzega o możliwości spadania na drogę lub zalegania na niej odłamków skalnych. 8. Znak A-26 „lotnisko” ostrzega o możliwości nagłego pojawienia się nisko przelatującego samolotu lub śmigłowca. 9. Znak A-27 „nabrzeże lub brzeg rzeki” ostrzega o odcinku drogi prowadzącym bezpośrednio do nabrzeża lub wzdłuż brzegu rzeki lub innego zbiornika wodnego. 10. Znak A-28 „sypki żwir” ostrzega o odcinku drogi pokrytej żwirem (grysem), który może być wyrzucany spod kół jadących pojazdów. 11. Znak A-29 „sygnały świetlne” ostrzega o miejscu, w którym ruch jest kierowany za pomocą sygnalizacji świetlnej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-30",
+  "code": "A-30",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "inne niebezpieczeństwo",
+  "short_description": "Ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi.",
+  "details": "Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
+  "image_path": "img/znaki/A-30.png",
+  "keywords": [
+   "a-30",
+   "a30",
+   "inne",
+   "niebezpieczeństwo"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 11",
+   "source_text": "§ 11. 1. Znak A-30 „inne niebezpieczeństwo” ostrzega o niebezpieczeństwie innego rodzaju niż określone pozostałymi znakami ostrzegawczymi. Umieszczona pod znakiem A-30 tabliczka wskazuje rodzaj niebezpieczeństwa za pomocą symbolu lub napisu. Dziennik Ustaw – 6 – Poz. 2310 2. Umieszczona pod znakiem A-30 tabliczka wskazuje: 1) T-8 – miejsce, w którym ruch pojazdów został skierowany na tory tramwajowe; 2) T-10 – przecięcie drogi z bocznicą kolejową lub torem o podobnym charakterze; w miejscu tak oznakowanym ruch na drodze jest wstrzymywany przez pracownika kolei podczas przejeżdżania (przetaczania) pociągu; 3) T-11 – przeprawę promową; 4) T-12 – podłużny uskok nawierzchni; 5) T-13 – odcinek drogi, na którym występują deformacje nawierzchni w postaci kolein; 6) T-14 – miejsce częstych wypadków o charakterze wskazanym na tabliczce; 7) T-15 – miejsce częstych wypadków spowodowanych śliską nawierzchnią jezdni ze względu na opady deszczu; 8) T-16 – miejsce wyjazdu pojazdów uprzywilejowanych wskazanych na tabliczce; 9) T-17 – granicę państwa; 10) T-18 – nieoczekiwaną zmianę kierunku ruchu o przebiegu wskazanym na tabliczce. 3. Tabliczka T-16 może być powtórzona bez znaku A-30 bezpośrednio przed miejscem wjazdu na drogę pojazdów uprzywilejowanych.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-31",
+  "code": "A-31",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "niebezpieczne pobocze",
+  "short_description": "Ostrzega o niebezpiecznym poboczu (miękkim lub obniżonym); znak z odwróconym symbolem ostrzega o niebezpiecznym poboczu występującym po lewej stronie drogi.",
+  "details": "Znak A-31 „niebezpieczne pobocze” ostrzega o niebezpiecznym poboczu (miękkim lub obniżonym); znak z odwróconym symbolem ostrzega o niebezpiecznym poboczu występującym po lewej stronie drogi.",
+  "image_path": "img/znaki/A-31.png",
+  "keywords": [
+   "a-31",
+   "a31",
+   "niebezpieczne",
+   "pobocze"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 12",
+   "source_text": "§ 12. 1. Znak A-31 „niebezpieczne pobocze” ostrzega o niebezpiecznym poboczu (miękkim lub obniżonym); znak z odwróconym symbolem ostrzega o niebezpiecznym poboczu występującym po lewej stronie drogi. 2. Znak A-32 „oszronienie jezdni” ostrzega o mogącym występować na drodze oszronieniu jezdni lub gołoledzi.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-32",
+  "code": "A-32",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "oszronienie jezdni",
+  "short_description": "Ostrzega o mogącym występować na drodze oszronieniu jezdni lub gołoledzi.",
+  "details": "Znak A-32 „oszronienie jezdni” ostrzega o mogącym występować na drodze oszronieniu jezdni lub gołoledzi.",
+  "image_path": "img/znaki/A-32.png",
+  "keywords": [
+   "a-32",
+   "a32",
+   "jezdni",
+   "oszronienie"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 12",
+   "source_text": "§ 12. 1. Znak A-31 „niebezpieczne pobocze” ostrzega o niebezpiecznym poboczu (miękkim lub obniżonym); znak z odwróconym symbolem ostrzega o niebezpiecznym poboczu występującym po lewej stronie drogi. 2. Znak A-32 „oszronienie jezdni” ostrzega o mogącym występować na drodze oszronieniu jezdni lub gołoledzi.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-33",
+  "code": "A-33",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "zator drogowy",
+  "short_description": "Ostrzega o częstym występowaniu zablokowania ruchu pojazdów.",
+  "details": "Znak A-33 „zator drogowy” ostrzega o częstym występowaniu zablokowania ruchu pojazdów.",
+  "image_path": "img/znaki/A-33.png",
+  "keywords": [
+   "a-33",
+   "a33",
+   "drogowy",
+   "zator"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 13",
+   "source_text": "§ 13. 1. Znak A-33 „zator drogowy” ostrzega o częstym występowaniu zablokowania ruchu pojazdów. 2. Znak A-34 „wypadek drogowy” ostrzega o miejscu, w którym na skutek wypadku drogowego nastąpiło zablokowanie drogi lub znaczne utrudnienie ruchu pojazdów.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "A-34",
+  "code": "A-34",
+  "category_id": "A",
+  "category_name": "Znaki ostrzegawcze",
+  "name": "wypadek drogowy",
+  "short_description": "Ostrzega o miejscu, w którym na skutek wypadku drogowego nastąpiło zablokowanie drogi lub znaczne utrudnienie ruchu pojazdów.",
+  "details": "Znak A-34 „wypadek drogowy” ostrzega o miejscu, w którym na skutek wypadku drogowego nastąpiło zablokowanie drogi lub znaczne utrudnienie ruchu pojazdów.",
+  "image_path": "img/znaki/A-34.png",
+  "keywords": [
+   "a-34",
+   "a34",
+   "drogowy",
+   "wypadek"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 13",
+   "source_text": "§ 13. 1. Znak A-33 „zator drogowy” ostrzega o częstym występowaniu zablokowania ruchu pojazdów. 2. Znak A-34 „wypadek drogowy” ostrzega o miejscu, w którym na skutek wypadku drogowego nastąpiło zablokowanie drogi lub znaczne utrudnienie ruchu pojazdów.",
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null

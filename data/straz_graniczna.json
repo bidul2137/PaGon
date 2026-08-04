@@ -1,0 +1,966 @@
+{
+  "zaktualizowano": "2026-08-04",
+  "zrodlo": "Serwisy oddziałów Straży Granicznej i ich Biuletyny Informacji Publicznej (strazgraniczna.pl)",
+  "kg": {
+    "nazwa": "Komenda Główna Straży Granicznej",
+    "adres": "al. Niepodległości 100, 02-514 Warszawa",
+    "telefon": "22 500 40 00",
+    "interwencyjny": "800 422 322",
+    "opis": "Bezpłatny całodobowy telefon interwencyjny SG w całym kraju."
+  },
+  "oddzialy": [
+    {
+      "slug": "morski",
+      "nazwa": "Morski Oddział Straży Granicznej",
+      "skrot": "MOSG",
+      "miasto": "Gdańsk",
+      "adres": "ul. Oliwska 35, 80-563 Gdańsk",
+      "telefon": "58 524 20 90",
+      "fax": "58 524 27 01",
+      "zasieg": "pomorskie, zachodniopomorskie, część warmińsko-mazurskiego",
+      "www": "https://www.morski.strazgraniczna.pl/",
+      "placowki": [
+        {
+          "nazwa": "Placówka SG w Krynicy Morskiej",
+          "adres": "ul. Wojska Polskiego 1, 82-120 Krynica Morska",
+          "telefon": "55 246 85 00",
+          "fax": "58 246 85 05",
+          "email": "sdo.krynicamorska@strazgraniczna.pl",
+          "uwaga": "Numer do kierownika zmiany"
+        },
+        {
+          "nazwa": "Placówka SG w Elblągu",
+          "adres": "ul. Kotwicza 2, 82-300 Elbląg",
+          "telefon": "55 237 64 00",
+          "fax": "55 237 64 05",
+          "email": "sdo.elblag@strazgraniczna.pl",
+          "uwaga": "Numer do kierownika zmiany"
+        },
+        {
+          "nazwa": "Placówka SG w Gdańsku",
+          "adres": "ul. Słowackiego 200, 80-298 Gdańsk",
+          "telefon": "58 522 04 80",
+          "fax": "58 522 04 05",
+          "email": "sdo.gdansk@strazgraniczna.pl",
+          "uwaga": "Lotnisko Gdańsk-Rębiechowo, port Gdańsk"
+        },
+        {
+          "nazwa": "Placówka SG w Gdyni",
+          "adres": "al. Solidarności 1B, 81-336 Gdynia",
+          "telefon": "58 627 35 00",
+          "fax": "58 627 35 07",
+          "email": "sdo.gdynia@strazgraniczna.pl",
+          "uwaga": "Kierownik zmiany 58 627 35 00, sekretariat 58 627 35 02"
+        },
+        {
+          "nazwa": "Placówka SG we Władysławowie",
+          "adres": "ul. Morska 7, 84-120 Władysławowo",
+          "telefon": "58 674 43 00",
+          "fax": "58 674 43 07",
+          "email": "sdo.wladyslawowo@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Ustce",
+          "adres": "ul. Marynarki Polskiej 5, 76-270 Ustka",
+          "telefon": "59 815 53 00",
+          "fax": "59 815 53 05",
+          "email": "sdo.ustka@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Kołobrzegu",
+          "adres": "ul. Sikorskiego 7, 78-100 Kołobrzeg",
+          "telefon": "94 358 02 19",
+          "fax": "94 358 02 05",
+          "email": "sdo.kolobrzeg@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Świnoujściu",
+          "adres": "ul. Dworcowa 1, 72-602 Świnoujście",
+          "telefon": "91 322 72 00",
+          "fax": "91 322 72 05",
+          "email": "sdo.swinoujscie@strazgraniczna.pl",
+          "uwaga": "Numer do kierownika zmiany"
+        },
+        {
+          "nazwa": "Placówka SG w Szczecinie",
+          "adres": "ul. Żołnierska 4, 71-210 Szczecin",
+          "telefon": "91 466 55 20",
+          "fax": "91 466 57 35",
+          "email": "sdo.szczecin@strazgraniczna.pl",
+          "uwaga": null
+        }
+      ]
+    },
+    {
+      "slug": "warminsko-mazurski",
+      "nazwa": "Warmińsko-Mazurski Oddział Straży Granicznej",
+      "skrot": "W-MOSG",
+      "miasto": "Kętrzyn",
+      "adres": "ul. gen. Władysława Sikorskiego 78, 11-400 Kętrzyn",
+      "telefon": "89 750 30 00",
+      "fax": "89 750 37 00",
+      "zasieg": "warmińsko-mazurskie",
+      "www": "https://www.wm.strazgraniczna.pl/",
+      "placowki": [
+        {
+          "nazwa": "Placówka SG w Braniewie",
+          "adres": "ul. Kwiatowa 2, 14-500 Braniewo",
+          "telefon": "55 244 04 20",
+          "fax": "55 244 04 25",
+          "email": "komendant.braniewo@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Grzechotkach",
+          "adres": "Drogowe Przejście Graniczne w Grzechotkach, 14-500 Braniewo",
+          "telefon": "55 235 87 00",
+          "fax": "55 235 87 25",
+          "email": "komendant.grzechotki@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Górowie Iławeckim",
+          "adres": "ul. Lipowa 6, 11-220 Górowo Iławeckie",
+          "telefon": "89 763 03 20",
+          "fax": "89 763 03 25",
+          "email": "komendant.gorowoilaweckie@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Bezledach",
+          "adres": "11-200 Bartoszyce",
+          "telefon": "89 763 02 00",
+          "fax": "89 763 02 05",
+          "email": "komendant.bezledy@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Sępopolu",
+          "adres": "al. Wojska Polskiego 22, 11-210 Sępopol",
+          "telefon": "89 763 06 20",
+          "fax": "89 763 06 25",
+          "email": "komendant.sepopol@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Barcianach",
+          "adres": "ul. Warmińska 8, 11-410 Barciany",
+          "telefon": "89 753 19 20",
+          "fax": "89 753 19 25",
+          "email": "komendant.barciany@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Węgorzewie",
+          "adres": "ul. Jana Pawła II 41, 11-600 Węgorzewo",
+          "telefon": "87 437 83 20",
+          "fax": "87 437 83 25",
+          "email": "komendant.wegorzewo@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Baniach Mazurskich",
+          "adres": "ul. Topolowa 3a, 19-520 Banie Mazurskie",
+          "telefon": "87 615 79 20",
+          "fax": "87 615 79 25",
+          "email": "komendant.baniemazurskie@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Gołdapi",
+          "adres": "ul. Przytorowa 7, 19-500 Gołdap",
+          "telefon": "87 615 43 00",
+          "fax": "87 615 45 25",
+          "email": "komendant.goldap@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Dubeninkach",
+          "adres": "ul. Krótka 11, 19-504 Dubeninki",
+          "telefon": "87 615 86 20",
+          "fax": "87 615 86 25",
+          "email": "komendant.dubeninki@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Olsztynie",
+          "adres": "ul. Augustowska 23A, 10-683 Olsztyn",
+          "telefon": "89 715 61 20",
+          "fax": "89 715 61 25",
+          "email": "komendant.olsztyn@strazgraniczna.pl",
+          "uwaga": null
+        }
+      ]
+    },
+    {
+      "slug": "podlaski",
+      "nazwa": "Podlaski Oddział Straży Granicznej",
+      "skrot": "POSG",
+      "miasto": "Białystok",
+      "adres": "ul. gen. Józefa Bema 100, 15-370 Białystok",
+      "telefon": "85 714 50 00",
+      "fax": "85 714 57 01",
+      "zasieg": "podlaskie",
+      "www": "https://www.podlaski.strazgraniczna.pl/",
+      "interwencyjny": "85 714 55 55",
+      "placowki": [
+        {
+          "nazwa": "Placówka SG w Białymstoku",
+          "adres": "ul. gen. Józefa Bema 100, 15-370 Białystok",
+          "telefon": "85 657 19 00",
+          "fax": "85 657 19 05",
+          "email": "sdo.bialystok@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Augustowie",
+          "adres": "ul. Modrzewiowa 1, 16-300 Augustów",
+          "telefon": "87 644 40 00",
+          "fax": "87 644 40 05",
+          "email": "sdo.augustow@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Białowieży",
+          "adres": "ul. Sportowa 31, 17-230 Białowieża",
+          "telefon": "85 685 46 20",
+          "fax": "85 685 46 25",
+          "email": "sdo.bialowieza@strazgraniczna.pl",
+          "uwaga": "Przejście drogowe 85 685 49 20"
+        },
+        {
+          "nazwa": "Placówka SG w Bobrownikach",
+          "adres": "Bobrowniki, 16-040 Gródek",
+          "telefon": "85 717 23 00",
+          "fax": "85 717 23 05",
+          "email": "sdo.bobrowniki@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Czeremsze",
+          "adres": "ul. Boczna 16, 17-240 Czeremcha",
+          "telefon": "85 685 43 00",
+          "fax": "85 685 43 05",
+          "email": "sdo.czeremcha@strazgraniczna.pl",
+          "uwaga": "Przejście drogowe PG Połowce: Połowce 25"
+        },
+        {
+          "nazwa": "Placówka SG w Dubiczach Cerkiewnych",
+          "adres": "ul. Główna 7A, 17-204 Dubicze Cerkiewne",
+          "telefon": "85 685 42 00",
+          "fax": "85 685 42 05",
+          "email": "sdo.dubiczecerkiewne@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Krynkach",
+          "adres": "ul. Pohulanka 39, 16-120 Krynki",
+          "telefon": "85 712 67 22",
+          "fax": "85 712 67 25",
+          "email": "sdo.krynki@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Kuźnicy",
+          "adres": "ul. Graniczna 19, 16-123 Kuźnica",
+          "telefon": "85 712 72 00",
+          "fax": "85 712 72 05",
+          "email": "sdo.kuznica@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Lipsku",
+          "adres": "ul. Pusta 34, 16-315 Lipsk",
+          "telefon": "87 643 94 00",
+          "fax": "87 643 94 05",
+          "email": "sdo.lipsk@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Michałowie",
+          "adres": "ul. Sosnowa 4A, 16-050 Michałowo",
+          "telefon": "85 717 24 00",
+          "fax": "85 717 24 05",
+          "email": "sdo.michalowo@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Mielniku",
+          "adres": "ul. Królewska 48B, 17-307 Mielnik",
+          "telefon": "85 655 92 20",
+          "fax": "85 655 92 25",
+          "email": "sdo.mielnik@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Narewce",
+          "adres": "ul. Nowa 12A, 17-220 Narewka",
+          "telefon": "85 685 92 20",
+          "fax": "85 685 92 25",
+          "email": "sdo.narewka@strazgraniczna.pl",
+          "uwaga": "Przejście kolejowe Siemianówka"
+        },
+        {
+          "nazwa": "Placówka SG w Nowym Dworze",
+          "adres": "ul. Sidrzańska 13, 16-205 Nowy Dwór",
+          "telefon": "85 712 64 20",
+          "fax": "85 712 64 25",
+          "email": "sdo.nowydwor@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Płaskiej",
+          "adres": "ul. gen. Ignacego Prądzyńskiego 5, 16-326 Płaska",
+          "telefon": "87 643 95 00",
+          "fax": "87 643 95 05",
+          "email": "sdo.plaska@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Rutce-Tartak",
+          "adres": "ul. Wojska Polskiego 13, 16-406 Rutka-Tartak",
+          "telefon": "87 566 03 00",
+          "fax": "87 566 03 05",
+          "email": "sdo.rutkatartak@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Sejnach",
+          "adres": "ul. Łąkowa 5, 16-500 Sejny",
+          "telefon": "87 517 37 20",
+          "fax": "87 517 37 25",
+          "email": "sdo.sejny@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Szudziałowie",
+          "adres": "ul. Szkolna 6A, 16-113 Szudziałowo",
+          "telefon": "85 712 65 02",
+          "fax": "85 712 65 05",
+          "email": "sdo.szudzialowo@strazgraniczna.pl",
+          "uwaga": null
+        }
+      ]
+    },
+    {
+      "slug": "nadbuzanski",
+      "nazwa": "Nadbużański Oddział Straży Granicznej",
+      "skrot": "NOSG",
+      "miasto": "Chełm",
+      "adres": "ul. Trubakowska 2, 22-100 Chełm",
+      "telefon": "82 568 50 00",
+      "fax": "82 568 57 00",
+      "zasieg": "lubelskie, część mazowieckiego",
+      "www": "https://www.nadbuzanski.strazgraniczna.pl/",
+      "interwencyjny": "82 568 55 55",
+      "dyzurny": "82 568 50 11",
+      "placowki": [
+        {
+          "nazwa": "Placówka SG w Janowie Podlaskim",
+          "adres": "ul. Brzeska 71, 21-505 Janów Podlaski",
+          "telefon": "83 341 62 00",
+          "fax": "83 341 62 05",
+          "email": "sdo.janowpodlaski@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Bohukałach",
+          "adres": "Bohukały 33, 21-550 Terespol",
+          "telefon": "83 375 81 20",
+          "fax": "83 375 81 25",
+          "email": "bohukaly@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Terespolu",
+          "adres": "ul. Wojska Polskiego 164, 21-550 Terespol",
+          "telefon": "83 377 23 00",
+          "fax": "83 377 23 05",
+          "email": "terespol@strazgraniczna.pl",
+          "uwaga": "Przejścia: drogowe Terespol, kolejowe Terespol, drogowe Kukuryki"
+        },
+        {
+          "nazwa": "Placówka SG w Białej Podlaskiej",
+          "adres": "ul. Dokudowska 19, 21-500 Biała Podlaska",
+          "telefon": "83 344 96 00",
+          "fax": "83 344 96 05",
+          "email": "bialapodlaska@strazgraniczna.pl",
+          "uwaga": "Strzeżony Ośrodek dla Cudzoziemców"
+        },
+        {
+          "nazwa": "Placówka SG w Kodniu",
+          "adres": "ul. 1 Maja 18, 21-509 Kodeń",
+          "telefon": "83 376 95 00",
+          "fax": "83 376 95 05",
+          "email": "koden@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Sławatyczach",
+          "adres": "ul. Włodawska 12, 21-515 Sławatycze",
+          "telefon": "83 376 82 00",
+          "fax": "83 376 82 05",
+          "email": "slawatycze@strazgraniczna.pl",
+          "uwaga": "Drogowe przejście graniczne Sławatycze"
+        },
+        {
+          "nazwa": "Placówka SG w Dołhobrodach",
+          "adres": "Dołhobrody 58a, 22-220 Hanna",
+          "telefon": "83 379 94 00",
+          "fax": "83 379 94 05",
+          "email": "dolhobrody@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG we Włodawie",
+          "adres": "ul. Saperów 1, 22-200 Włodawa",
+          "telefon": "82 572 74 00",
+          "fax": "82 572 74 05",
+          "email": "sdo.wlodawa@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Zbereżu",
+          "adres": "Zbereże 30, 22-230 Wola Uhruska",
+          "telefon": "82 591 75 00",
+          "fax": "82 591 75 05",
+          "email": "zbereze@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Woli Uhruskiej",
+          "adres": "ul. Turystyczna 10, 22-230 Wola Uhruska",
+          "telefon": "82 591 72 00",
+          "fax": "82 591 72 05",
+          "email": "sdo.wolauhruska@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Dorohusku",
+          "adres": "22-175 Dorohusk",
+          "telefon": "82 566 62 00",
+          "fax": "82 566 62 05",
+          "email": "dorohusk@strazgraniczna.pl",
+          "uwaga": "Przejścia: drogowe i kolejowe w Dorohusku"
+        },
+        {
+          "nazwa": "Placówka SG w Skryhiczynie",
+          "adres": "Skryhiczyn 69, 22-145 Dubienka",
+          "telefon": "82 566 74 00",
+          "fax": "82 566 74 05",
+          "email": "skryhiczyn@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Horodle",
+          "adres": "ul. Piłsudskiego 112, 22-523 Horodło",
+          "telefon": "84 651 75 00",
+          "fax": "84 651 75 05",
+          "email": "horodlo@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Hrubieszowie",
+          "adres": "ul. Wyzwolenia 56, 22-500 Hrubieszów",
+          "telefon": "84 697 56 00",
+          "fax": "84 697 56 05",
+          "email": "hrubieszow@strazgraniczna.pl",
+          "uwaga": "Przejścia: drogowe Zosin, kolejowe Hrubieszów"
+        },
+        {
+          "nazwa": "Placówka SG w Kryłowie",
+          "adres": "ul. Hrubieszowska 7, 22-530 Mircze",
+          "telefon": "84 651 83 00",
+          "fax": "84 651 83 05",
+          "email": "krylow@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Dołhobyczowie",
+          "adres": "ul. Partyzantów 15, 22-540 Dołhobyczów",
+          "telefon": "84 653 14 00",
+          "fax": "84 653 14 05",
+          "email": "dolhobyczow@strazgraniczna.pl",
+          "uwaga": "Drogowe przejście graniczne Dołhobyczów-Uhrynów"
+        },
+        {
+          "nazwa": "Placówka SG w Chłopiatynie",
+          "adres": "Chłopiatyn 41A, 22-540 Dołhobyczów",
+          "telefon": "84 666 05 00",
+          "fax": "84 666 05 05",
+          "email": "chlopiatyn@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Ulhówku",
+          "adres": "ul. Przemysłowa 5, 22-678 Ulhówek",
+          "telefon": "84 651 07 00",
+          "fax": null,
+          "email": "sdo.ulhowek@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Hrebennem",
+          "adres": "22-680 Lubycza Królewska",
+          "telefon": "84 667 45 00",
+          "fax": "84 667 45 05",
+          "email": "hrebenne@strazgraniczna.pl",
+          "uwaga": "Przejścia: drogowe i kolejowe w Hrebennem"
+        },
+        {
+          "nazwa": "Placówka SG w Lublinie",
+          "adres": "ul. Podwale 3a, 20-117 Lublin",
+          "telefon": "81 536 44 00",
+          "fax": "81 536 44 05",
+          "email": "sdo.lublin@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Lotnicze Przejście Graniczne Lublin-Świdnik",
+          "adres": "ul. Króla Jana III Sobieskiego 1, 21-040 Świdnik",
+          "telefon": "81 728 67 22",
+          "fax": "81 728 67 25",
+          "email": null,
+          "uwaga": "Podlega PSG w Lublinie"
+        },
+        {
+          "nazwa": "Grupa Zamiejscowa w Zamościu (PSG w Lublinie)",
+          "adres": "ul. Wyszyńskiego 2, 22-400 Zamość",
+          "telefon": "84 638 71 35",
+          "fax": "84 638 71 25",
+          "email": null,
+          "uwaga": "Podlega PSG w Lublinie"
+        }
+      ]
+    },
+    {
+      "slug": "bieszczadzki",
+      "nazwa": "Bieszczadzki Oddział Straży Granicznej",
+      "skrot": "BiOSG",
+      "miasto": "Przemyśl",
+      "adres": "ul. Mickiewicza 34, 37-700 Przemyśl",
+      "telefon": "16 673 20 00",
+      "fax": null,
+      "zasieg": "podkarpackie",
+      "www": "https://bieszczadzki.strazgraniczna.pl/",
+      "placowki": [
+        {
+          "nazwa": "Placówka SG w Medyce",
+          "adres": "37-732 Medyka",
+          "telefon": "16 676 55 00",
+          "fax": "16 676 55 05",
+          "email": "medyka@strazgraniczna.pl",
+          "uwaga": "Drogowe PG w Medyce, kolejowe PG w Przemyślu"
+        },
+        {
+          "nazwa": "Placówka SG w Korczowej",
+          "adres": "37-552 Młyny",
+          "telefon": "16 624 64 00",
+          "fax": "16 624 64 05",
+          "email": "korczowa@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Lubaczowie",
+          "adres": "37-625 Krowica Sama",
+          "telefon": "16 672 88 00",
+          "fax": "16 632 85 05",
+          "email": "sdo.lubaczow@strazgraniczna.pl",
+          "uwaga": "Drogowe PG w Budomierzu"
+        },
+        {
+          "nazwa": "Placówka SG w Krościenku",
+          "adres": "38-700 Ustrzyki Dolne",
+          "telefon": "13 465 83 00",
+          "fax": "13 465 83 07",
+          "email": "sdo.kroscienko@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Horyńcu-Zdroju",
+          "adres": "ul. Wojska Polskiego 36, 37-620 Horyniec",
+          "telefon": "16 632 51 00",
+          "fax": "16 632 51 25",
+          "email": "sdo.horynieczdroj@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Hermanowicach",
+          "adres": "Hermanowice 45C, 37-733 Pikulice",
+          "telefon": "16 676 65 00",
+          "fax": "16 676 65 05",
+          "email": "sdo.hermanowice@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Huwnikach",
+          "adres": "Huwniki 155, 37-734 Fredropol",
+          "telefon": "16 679 22 00",
+          "fax": "16 679 22 05",
+          "email": "sdo.huwniki@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Wojtkowej",
+          "adres": "Wojtkowa 55A, 38-712 Wojtkowa",
+          "telefon": "13 468 87 00",
+          "fax": "13 468 87 05",
+          "email": "sdo.wojtkowa@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Czarnej Górnej",
+          "adres": "Czarna Górna 191, 38-710 Czarna",
+          "telefon": "13 465 85 00",
+          "fax": "13 465 85 05",
+          "email": "sdo.czarnagorna@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Stuposianach",
+          "adres": "Stuposiany 18, 38-713 Lutowiska",
+          "telefon": "13 465 82 00",
+          "fax": "13 465 82 05",
+          "email": "sdo.stuposiany@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Ustrzykach Górnych",
+          "adres": "Ustrzyki Górne 21, 38-714 Ustrzyki Górne",
+          "telefon": "13 461 69 00",
+          "fax": "13 461 69 05",
+          "email": "sdo.ustrzykigorne@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Wetlinie",
+          "adres": "Wetlina 43, 38-607 Cisna",
+          "telefon": "13 465 94 00",
+          "fax": "13 465 94 05",
+          "email": "sdo.wetlina@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Sanoku",
+          "adres": "ul. Mickiewicza 23, 38-500 Sanok",
+          "telefon": "13 465 33 00",
+          "fax": "13 465 33 05",
+          "email": "sdo.sanok@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Rzeszowie-Jasionce",
+          "adres": "36-002 Jasionka",
+          "telefon": "17 866 82 00",
+          "fax": "17 866 82 05",
+          "email": "sdo.rzeszowjasionka@strazgraniczna.pl",
+          "uwaga": null
+        }
+      ]
+    },
+    {
+      "slug": "karpacki",
+      "nazwa": "Karpacki Oddział Straży Granicznej",
+      "skrot": "KaOSG",
+      "miasto": "Nowy Sącz",
+      "adres": "ul. 1 Pułku Strzelców Podhalańskich 5, 33-300 Nowy Sącz",
+      "telefon": "18 415 30 02",
+      "fax": "18 415 37 01",
+      "zasieg": "małopolskie, świętokrzyskie",
+      "www": "https://www.karpacki.strazgraniczna.pl/",
+      "placowki": [
+        {
+          "nazwa": "Placówka SG w Krakowie-Balicach",
+          "adres": "ul. kpt. M. Medweckiego 1, 32-083 Balice",
+          "telefon": "12 258 33 00",
+          "fax": "12 258 33 05",
+          "email": "sdo.krakowbalice@strazgraniczna.pl",
+          "uwaga": "Lotnisko Kraków Airport"
+        },
+        {
+          "nazwa": "Placówka SG w Krakowie",
+          "adres": "ul. Nad Drwiną 10, 30-741 Kraków",
+          "telefon": "12 254 20 00",
+          "fax": "12 254 20 05",
+          "email": "sdo.krakow@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Grupa Zamiejscowa w Oświęcimiu (PSG w Krakowie)",
+          "adres": "ul. Stanisława Wyspiańskiego 10, 32-600 Oświęcim",
+          "telefon": "12 254 20 00",
+          "fax": "12 254 20 05",
+          "email": "sdo.krakow@strazgraniczna.pl",
+          "uwaga": "Powiaty olkuski, chrzanowski, oświęcimski"
+        },
+        {
+          "nazwa": "Placówka SG w Tarnowie",
+          "adres": "ul. Zbylitowska 9, 33-101 Tarnów",
+          "telefon": "14 622 80 00",
+          "fax": "14 622 80 05",
+          "email": "sdo.tarnow@strazgraniczna.pl",
+          "uwaga": "Sekretariat 14 622 80 03"
+        },
+        {
+          "nazwa": "Placówka SG w Zakopanem",
+          "adres": "al. Przewodników Tatrzańskich 3, 34-500 Zakopane",
+          "telefon": "18 202 25 00",
+          "fax": "18 202 25 05",
+          "email": "sdo.zakopane@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Grupa do spraw Cudzoziemców PSG w Zakopanem",
+          "adres": "al. Tysiąclecia 44, 34-400 Nowy Targ",
+          "telefon": "18 448 43 20",
+          "fax": null,
+          "email": "gdsc.zakopane@strazgraniczna.pl",
+          "uwaga": "Także 18 448 43 59"
+        },
+        {
+          "nazwa": "Placówka SG w Kielcach",
+          "adres": "ul. Kusocińskiego 51, 25-045 Kielce",
+          "telefon": "41 348 33 30",
+          "fax": "41 348 33 25",
+          "email": "kielce@strazgraniczna.pl",
+          "uwaga": null
+        }
+      ]
+    },
+    {
+      "slug": "slaski",
+      "nazwa": "Śląski Oddział Straży Granicznej",
+      "skrot": "ŚlOSG",
+      "miasto": "Racibórz",
+      "adres": "ul. Dąbrowskiego 2, 47-400 Racibórz",
+      "telefon": "32 414 40 00",
+      "fax": "32 414 47 00",
+      "zasieg": "śląskie, opolskie",
+      "www": "https://www.slaski.strazgraniczna.pl/",
+      "dyzurny": "32 414 40 12",
+      "placowki": [
+        {
+          "nazwa": "Placówka SG w Bielsku-Białej",
+          "adres": "ul. Komorowicka 164, 43-300 Bielsko-Biała",
+          "telefon": "33 813 35 00",
+          "fax": "33 813 35 05",
+          "email": "sdo.bielskobiala@strazgraniczna.pl",
+          "uwaga": "Służba dyżurna całodobowo"
+        },
+        {
+          "nazwa": "Placówka SG w Katowicach-Pyrzowicach",
+          "adres": "ul. Wolności 90, Pyrzowice, 42-625 Ożarowice",
+          "telefon": "32 390 34 00",
+          "fax": "32 390 34 05",
+          "email": "sdo.katowicepyrzowice@strazgraniczna.pl",
+          "uwaga": "Lotnisko Katowice. Służba dyżurna całodobowo"
+        },
+        {
+          "nazwa": "Placówka SG w Opolu",
+          "adres": "ul. Drzymały 1b, 45-342 Opole",
+          "telefon": "77 451 38 20",
+          "fax": "77 451 38 25",
+          "email": "sdo.opole@strazgraniczna.pl",
+          "uwaga": "Służba dyżurna całodobowo"
+        },
+        {
+          "nazwa": "Placówka SG w Rudzie Śląskiej",
+          "adres": "ul. Główna 11a, 41-711 Ruda Śląska",
+          "telefon": "32 342 73 00",
+          "fax": "32 342 73 05",
+          "email": "sdo.rudaslaska@strazgraniczna.pl",
+          "uwaga": "Służba dyżurna całodobowo"
+        },
+        {
+          "nazwa": "Placówka SG w Sosnowcu",
+          "adres": "ul. Teatralna 1, 41-200 Sosnowiec",
+          "telefon": "32 363 93 00",
+          "fax": "32 363 93 05",
+          "email": "sdo.sosnowiec@strazgraniczna.pl",
+          "uwaga": "Służba dyżurna całodobowo"
+        },
+        {
+          "nazwa": "Placówka SG w Częstochowie",
+          "adres": "ul. Gminna 40, 42-221 Częstochowa",
+          "telefon": "34 311 41 00",
+          "fax": "34 311 41 05",
+          "email": "sdo.czestochowa@strazgraniczna.pl",
+          "uwaga": "Służba dyżurna całodobowo"
+        }
+      ]
+    },
+    {
+      "slug": "nadodrzanski",
+      "nazwa": "Nadodrzański Oddział Straży Granicznej",
+      "skrot": "NoOSG",
+      "miasto": "Krosno Odrzańskie",
+      "adres": "ul. Poprzeczna 1, 66-600 Krosno Odrzańskie",
+      "telefon": "68 358 21 11",
+      "fax": "68 358 27 00",
+      "zasieg": "lubuskie, dolnośląskie, wielkopolskie",
+      "www": "https://nadodrzanski.strazgraniczna.pl/",
+      "placowki": [
+        {
+          "nazwa": "Placówka SG w Jeleniej Górze",
+          "adres": "ul. Hirszfelda 15a, 58-560 Jelenia Góra",
+          "telefon": "75 769 94 00",
+          "fax": "75 769 94 05",
+          "email": "sdo.jeleniagora@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Kaliszu",
+          "adres": "ul. Sułkowskiego 9, 62-800 Kalisz",
+          "telefon": "62 753 80 20",
+          "fax": "62 753 80 25",
+          "email": "sdo.kalisz@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Gorzowie Wielkopolskim",
+          "adres": "ul. Strażacka 36A, 66-400 Gorzów Wielkopolski",
+          "telefon": "95 721 13 20",
+          "fax": "95 721 13 25",
+          "email": "sdo.gorzowwielkopolski@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Kłodzku",
+          "adres": "ul. Wyspiańskiego 2, 57-300 Kłodzko",
+          "telefon": "74 811 64 00",
+          "fax": "74 811 64 06",
+          "email": "sdo.klodzko@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Legnicy",
+          "adres": "ul. Partyzantów 22-23, 59-220 Legnica",
+          "telefon": "76 877 62 00",
+          "fax": "76 877 62 05",
+          "email": "sdo.legnica@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Poznaniu-Ławicy",
+          "adres": "ul. Bukowska 285, 60-189 Poznań",
+          "telefon": "61 861 13 00",
+          "fax": "61 861 13 05",
+          "email": "sdo.poznanlawica@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Słubicach",
+          "adres": "ul. Józefa Piłsudskiego 18, 69-100 Słubice",
+          "telefon": "95 757 69 00",
+          "fax": null,
+          "email": "sdo.swiecko@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Tuplicach",
+          "adres": "ul. Parkowa 1, 68-219 Tuplice",
+          "telefon": "68 362 52 00",
+          "fax": "68 362 52 05",
+          "email": "sdo.tuplice@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG we Wrocławiu-Strachowicach",
+          "adres": "ul. Graniczna 190, 54-530 Wrocław",
+          "telefon": "71 358 47 00",
+          "fax": "71 358 47 05",
+          "email": "wroclawstrachowice@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Zielonej Górze-Babimoście",
+          "adres": "ul. Kazimierza Wielkiego 12, 65-047 Zielona Góra",
+          "telefon": "68 329 58 00",
+          "fax": "68 329 58 05",
+          "email": "sdo.zielonagorababimost@strazgraniczna.pl",
+          "uwaga": null
+        },
+        {
+          "nazwa": "Placówka SG w Zgorzelcu",
+          "adres": "ul. Bohaterów II Armii Wojska Polskiego 14, 59-900 Zgorzelec",
+          "telefon": "75 779 72 00",
+          "fax": "75 779 72 05",
+          "email": "sdo.zgorzelec@strazgraniczna.pl",
+          "uwaga": null
+        }
+      ]
+    },
+    {
+      "slug": "nadwislanski",
+      "nazwa": "Nadwiślański Oddział Straży Granicznej",
+      "skrot": "NwOSG",
+      "miasto": "Warszawa",
+      "adres": "ul. Komitetu Obrony Robotników 23, 02-148 Warszawa",
+      "telefon": "22 500 33 01",
+      "fax": "22 500 37 00",
+      "zasieg": "mazowieckie, łódzkie, kujawsko-pomorskie",
+      "www": "https://www.nadwislanski.strazgraniczna.pl/",
+      "placowki": [
+        {
+          "nazwa": "Placówka SG Warszawa-Okęcie",
+          "adres": "ul. Żwirki i Wigury 1, 00-906 Warszawa",
+          "telefon": "22 500 36 00",
+          "fax": "22 500 37 80",
+          "email": "warszawaokecie@strazgraniczna.pl",
+          "uwaga": "Centrala. Faks sekretariatu 22 500 37 85 (7.30-15.30)"
+        },
+        {
+          "nazwa": "Placówka SG w Warszawie",
+          "adres": "ul. Żwirki i Wigury 1c, 02-143 Warszawa",
+          "telefon": "22 500 38 00",
+          "fax": "22 500 38 10",
+          "email": "sdo.warszawa@strazgraniczna.pl",
+          "uwaga": "Dyżurny operacyjny całodobowo. Sekretariat 22 500 38 04"
+        },
+        {
+          "nazwa": "Placówka SG Warszawa-Modlin",
+          "adres": "ul. gen. Wiktora Thommee 1A, 05-102 Nowy Dwór Mazowiecki",
+          "telefon": "22 775 07 90",
+          "fax": "22 775 07 07",
+          "email": "komendant.warszawamodlin@strazgraniczna.pl",
+          "uwaga": "Centrala"
+        },
+        {
+          "nazwa": "Placówka SG w Łodzi",
+          "adres": "ul. gen. S. Maczka 35, 94-328 Łódź",
+          "telefon": "42 689 38 20",
+          "fax": "42 689 38 28",
+          "email": "lodz@strazgraniczna.pl",
+          "uwaga": "Numer całodobowy. Sekretariat 42 689 38 51 (7.30-15.30)"
+        },
+        {
+          "nazwa": "Placówka SG w Bydgoszczy",
+          "adres": "ul. Paderewskiego 1, 86-005 Białe Błota",
+          "telefon": "52 365 40 24",
+          "fax": "52 365 40 27",
+          "email": "bydgoszcz@strazgraniczna.pl",
+          "uwaga": "Numer całodobowy. Sekretariat 52 365 40 32 (7.30-15.30)"
+        },
+        {
+          "nazwa": "Placówka SG w Lesznowoli",
+          "adres": "Lisówek 21, 05-600 Grójec",
+          "telefon": "48 332 39 50",
+          "fax": "48 332 39 56",
+          "email": "sekretariat.lesznowola@strazgraniczna.pl",
+          "uwaga": "Kierownik zmiany. Sekretariat 48 332 39 30"
+        },
+        {
+          "nazwa": "Placówka SG w Radomiu",
+          "adres": "ul. prof. Tadeusza Sołtyka 3, 26-603 Radom",
+          "telefon": "48 332 34 00",
+          "fax": null,
+          "email": "sdo.radom@strazgraniczna.pl",
+          "uwaga": "Całodobowy numer do kierownika zmiany. Sekretariat 48 332 34 01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+/* ===================================================================
+   NUMERY ITD — 16 województw, 57 oddziałów, ponad 70 pozycji razem.
+
+   Płaska lista byłaby nie do przejrzenia, więc województwa są zwinięte
+   i rozwija się tylko wybrane. Numery są dużymi celami dotykowymi —
+   to jedyna rzecz, po którą sięga się na tej stronie.
+   =================================================================== */
+
+.itd-page [hidden] { display: none !important; }
+
+.itd-page {
+  --itd-kresa: rgba(255, 255, 255, .10);
+  --itd-kresa-mocna: rgba(255, 255, 255, .18);
+  --itd-akcent: #7fb0ff;
+  --itd-etykieta: #7d92b3;
+  --itd-zloto: #f0b429;
+}
+
+/* ---------- GITD ---------- */
+
+.itd-gitd {
+  margin: 4px 0 16px; padding: 14px 16px;
+  border: 1px solid rgba(240, 180, 41, .34); border-radius: 14px;
+  background: rgba(240, 180, 41, .07);
+}
+.itd-gitd-nazwa {
+  margin: 0; font-size: .86rem; font-weight: 600; color: #eaf1ff; overflow-wrap: anywhere;
+}
+.itd-gitd-godziny { margin: 8px 0 0; font-size: .76rem; color: var(--itd-etykieta); }
+
+/* ---------- wyszukiwarka ---------- */
+
+.itd-pole-wrap { position: relative; display: flex; align-items: center; }
+.itd-pole-ikona {
+  position: absolute; left: 14px; width: 20px; height: 20px;
+  color: var(--itd-etykieta); pointer-events: none;
+}
+.itd-pole-ikona svg { width: 100%; height: 100%; display: block; }
+.itd-pole {
+  width: 100%; min-width: 0; min-height: 50px;
+  padding: 13px 14px 13px 44px;
+  border: 1px solid var(--itd-kresa-mocna); border-radius: 14px;
+  background: rgba(255, 255, 255, .035); color: var(--text-label, #d9e6fb);
+  font: inherit; font-size: 16px;   /* poniżej 16 px iOS przybliża widok */
+  -webkit-appearance: none; appearance: none;
+}
+.itd-pole::placeholder { color: var(--itd-etykieta); opacity: .85; }
+.itd-pole::-webkit-search-cancel-button { display: none; }
+.itd-pole:focus { outline: none; border-color: var(--itd-akcent); }
+.itd-pole:focus-visible { outline: 2px solid var(--itd-akcent); outline-offset: 2px; }
+
+.itd-powrot {
+  display: flex; align-items: center; gap: 8px;
+  width: 100%; min-height: 46px; margin: 10px 0 4px;
+  padding: 11px 14px;
+  border: 1px solid var(--itd-kresa-mocna); border-radius: 12px;
+  color: #cfe0ff; font-size: .86rem; font-weight: 600;
+}
+.itd-powrot svg { width: 17px; height: 17px; flex: none; }
+.itd-powrot:hover { background: rgba(255, 255, 255, .06); }
+.itd-powrot:focus-visible { outline: 2px solid var(--itd-akcent); outline-offset: 2px; }
+
+.itd-licznik { margin: 8px 2px 12px; font-size: .78rem; color: var(--itd-etykieta); }
+.itd-licznik:empty { display: none; }
+
+/* ---------- województwo ---------- */
+
+.itd-woj {
+  margin-bottom: 8px; border: 1px solid var(--itd-kresa); border-radius: 13px;
+  background: rgba(255, 255, 255, .03); overflow: hidden;
+}
+.itd-woj[open] { border-color: var(--itd-kresa-mocna); }
+.itd-woj-head {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  min-height: 58px; padding: 12px 14px; cursor: pointer; list-style: none;
+}
+.itd-woj-head::-webkit-details-marker { display: none; }
+.itd-woj-head:hover { background: rgba(255, 255, 255, .04); }
+.itd-woj-head:focus-visible { outline: 2px solid var(--itd-akcent); outline-offset: -2px; }
+.itd-woj-nazwa {
+  flex: 1; min-width: 0; font-size: .98rem; font-weight: 700; color: #eaf1ff;
+  overflow-wrap: anywhere;
+}
+.itd-woj-miasto {
+  font-size: .74rem; font-weight: 600; color: var(--itd-zloto); white-space: nowrap;
+}
+.itd-woj-ile {
+  width: 100%; font-size: .72rem; color: var(--itd-etykieta);
+}
+.itd-woj-tresc { padding: 0 14px 14px; }
+
+/* ---------- karty jednostek ---------- */
+
+.itd-karta {
+  padding: 12px 0; border-top: 1px solid var(--itd-kresa); min-width: 0;
+}
+.itd-karta--siedziba { border-top: 0; padding-top: 4px; }
+.itd-etykieta {
+  margin: 0 0 6px; font-size: .68rem; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--itd-etykieta);
+}
+.itd-etykieta--sekcja { margin-top: 16px; }
+.itd-oddzial {
+  margin: 0 0 4px; font-size: .92rem; font-weight: 600; line-height: 1.4;
+  color: #e8eefb; overflow-wrap: anywhere;
+}
+.itd-adres {
+  margin: 0; font-size: .84rem; line-height: 1.5; color: #c2d0e6; overflow-wrap: anywhere;
+}
+.itd-drobne { margin: 6px 0 0; font-size: .76rem; color: var(--itd-etykieta); }
+
+/* Numer jest tu najważniejszy — dostaje własny, duży cel dotykowy. */
+.itd-tel {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin-top: 10px; min-height: 44px; padding: 9px 14px;
+  border: 1px solid rgba(240, 180, 41, .34); border-radius: 11px;
+  background: rgba(240, 180, 41, .10);
+  color: var(--itd-zloto); font-size: 1rem; font-weight: 700; letter-spacing: .03em;
+  white-space: nowrap;
+}
+.itd-tel svg { width: 17px; height: 17px; flex: none; }
+.itd-tel:hover { background: rgba(240, 180, 41, .16); }
+.itd-tel:focus-visible { outline: 2px solid var(--itd-akcent); outline-offset: 2px; }
+.itd-tel--duzy { margin-top: 12px; font-size: 1.14rem; }
+
+.itd-linki { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: 10px; }
+.itd-link {
+  font-size: .78rem; font-weight: 600; color: #9cc3ff;
+  text-decoration: underline; overflow-wrap: anywhere;
+  display: inline-block; padding: 4px 0;
+}
+.itd-link:focus-visible { outline: 2px solid var(--itd-akcent); outline-offset: 2px; }
+
+.itd-nota {
+  margin: 18px 0 20px; font-size: .76rem; line-height: 1.55; color: var(--itd-etykieta);
+}
+
+/* UWAGA: reguła celuje w POTOMKÓW .itd-page, nigdy w sam kontener — to ten sam
+   element co .tar-page, który ma max-width 480px. */
+.itd-page > *, .itd-page * { max-width: 100%; }

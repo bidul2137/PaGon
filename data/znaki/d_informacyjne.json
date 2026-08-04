@@ -20,7 +20,312 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 43",
    "source_text": "§ 43. 1. Znak D-1 „droga z pierwszeństwem” oznacza początek lub kontynuację drogi z pierwszeństwem. 2. Umieszczona pod znakiem D-1 tabliczka T-6a albo T-6b wskazuje odpowiednio rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie lub układ dróg podporządkowanych. 3. Znak D-2 „koniec drogi z pierwszeństwem” oznacza koniec drogi z pierwszeństwem.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "D-2",
+  "code": "D-2",
+  "category_id": "D",
+  "category_name": "Znaki informacyjne",
+  "name": "koniec drogi z pierwszeństwem",
+  "short_description": "Oznacza koniec drogi z pierwszeństwem.",
+  "details": "Znak D-2 „koniec drogi z pierwszeństwem” oznacza koniec drogi z pierwszeństwem.",
+  "image_path": "img/znaki/D-2.png",
+  "keywords": [
+   "d-2",
+   "d2",
+   "drogi",
+   "koniec",
+   "pierwszeństwem"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 43",
+   "source_text": "§ 43. 1. Znak D-1 „droga z pierwszeństwem” oznacza początek lub kontynuację drogi z pierwszeństwem. 2. Umieszczona pod znakiem D-1 tabliczka T-6a albo T-6b wskazuje odpowiednio rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie lub układ dróg podporządkowanych. 3. Znak D-2 „koniec drogi z pierwszeństwem” oznacza koniec drogi z pierwszeństwem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "D-3",
+  "code": "D-3",
+  "category_id": "D",
+  "category_name": "Znaki informacyjne",
+  "name": "droga jednokierunkowa",
+  "short_description": "Oznacza początek lub kontynuację drogi lub jezdni, na której ruch odbywa się w jednym kierunku.",
+  "details": "Znak D-3 „droga jednokierunkowa” oznacza początek lub kontynuację drogi lub jezdni, na której ruch odbywa się w jednym kierunku. Umieszczona pod znakiem D-3 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że ruch pojazdów określonych tabliczką odbywa się w dwóch kierunkach. Znak D-3 z umieszczoną pod nim tabliczką z napisem „Nie dotyczy” i symbolem roweru lub wózka rowerowego umieszczony na drodze o dopuszczalnej prędkości nie większej niż 30 km/h oznacza, że ruch tych pojazdów może odbywać się bez wyznaczonych pasów ruchu.",
+  "image_path": "img/znaki/D-3.png",
+  "keywords": [
+   "d-3",
+   "d3",
+   "droga",
+   "jednokierunkowa"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 44",
+   "source_text": "§ 44. 1. Znak D-3 „droga jednokierunkowa” oznacza początek lub kontynuację drogi lub jezdni, na której ruch odbywa się w jednym kierunku. 2. Umieszczona pod znakiem D-3 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że ruch pojazdów określonych tabliczką odbywa się w dwóch kierunkach. 3. Znak D-3 z umieszczoną pod nim tabliczką z napisem „Nie dotyczy” i symbolem roweru lub wózka rowerowego umieszczony na drodze o dopuszczalnej prędkości nie większej niż 30 km/h oznacza, że ruch tych pojazdów może odbywać się bez wyznaczonych pasów ruchu.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "D-4a",
+  "code": "D-4a",
+  "category_id": "D",
+  "category_name": "Znaki informacyjne",
+  "name": "droga bez przejazdu",
+  "short_description": "Oznacza początek drogi bez przejazdu.",
+  "details": "Znak D-4a „droga bez przejazdu” oznacza początek drogi bez przejazdu. Umieszczona pod znakiem D-4a lub D-4b tabliczka z napisem „Nie dotyczy” i symbolem roweru lub wózka rowerowego oznacza, że znak nie dotyczy roweru lub wózka rowerowego.",
+  "image_path": "img/znaki/D-4a.png",
+  "keywords": [
+   "d-4a",
+   "d4a",
+   "droga",
+   "przejazdu"
+  ],
+  "related_sign_ids": [
+   "D-4b"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 45",
+   "source_text": "§ 45. 1. Znak D-4a „droga bez przejazdu” oznacza początek drogi bez przejazdu. 2. Znak D-4b „wjazd na drogę bez przejazdu” oznacza, że droga za skrzyżowaniem po stronie wskazanej na znaku jest drogą bez przejazdu. 3. Umieszczona pod znakiem D-4a lub D-4b tabliczka z napisem „Nie dotyczy” i symbolem roweru lub wózka rowerowego oznacza, że znak nie dotyczy roweru lub wózka rowerowego.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "D-4b",
+  "code": "D-4b",
+  "category_id": "D",
+  "category_name": "Znaki informacyjne",
+  "name": "wjazd na drogę bez przejazdu",
+  "short_description": "Oznacza, że droga za skrzyżowaniem po stronie wskazanej na znaku jest drogą bez przejazdu.",
+  "details": "Znak D-4b „wjazd na drogę bez przejazdu” oznacza, że droga za skrzyżowaniem po stronie wskazanej na znaku jest drogą bez przejazdu. Umieszczona pod znakiem D-4a lub D-4b tabliczka z napisem „Nie dotyczy” i symbolem roweru lub wózka rowerowego oznacza, że znak nie dotyczy roweru lub wózka rowerowego.",
+  "image_path": "img/znaki/D-4b.png",
+  "keywords": [
+   "d-4b",
+   "d4b",
+   "drogę",
+   "przejazdu",
+   "wjazd"
+  ],
+  "related_sign_ids": [
+   "D-4a"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 45",
+   "source_text": "§ 45. 1. Znak D-4a „droga bez przejazdu” oznacza początek drogi bez przejazdu. 2. Znak D-4b „wjazd na drogę bez przejazdu” oznacza, że droga za skrzyżowaniem po stronie wskazanej na znaku jest drogą bez przejazdu. 3. Umieszczona pod znakiem D-4a lub D-4b tabliczka z napisem „Nie dotyczy” i symbolem roweru lub wózka rowerowego oznacza, że znak nie dotyczy roweru lub wózka rowerowego.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "D-5",
+  "code": "D-5",
+  "category_id": "D",
+  "category_name": "Znaki informacyjne",
+  "name": "pierwszeństwo na zwężonym odcinku jezdni",
+  "short_description": "Oznacza, że kierujący przejeżdżają lub przechodzą przed kierującymi zbliżającymi się z kierunku przeciwnego.",
+  "details": "Znak D-5 „pierwszeństwo na zwężonym odcinku jezdni” oznacza, że kierujący przejeżdżają lub przechodzą przed kierującymi zbliżającymi się z kierunku przeciwnego.",
+  "image_path": "img/znaki/D-5.png",
+  "keywords": [
+   "d-5",
+   "d5",
+   "jezdni",
+   "odcinku",
+   "pierwszeństwo",
+   "zwężonym"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 46",
+   "source_text": "§ 46. Znak D-5 „pierwszeństwo na zwężonym odcinku jezdni” oznacza, że kierujący przejeżdżają lub przechodzą przed kierującymi zbliżającymi się z kierunku przeciwnego.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "D-6",
+  "code": "D-6",
+  "category_id": "D",
+  "category_name": "Znaki informacyjne",
+  "name": "przejście dla pieszych",
+  "short_description": "Oznacza miejsce przeznaczone do przechodzenia pieszych w poprzek drogi.",
+  "details": "Znak D-6 „przejście dla pieszych” oznacza miejsce przeznaczone do przechodzenia pieszych w poprzek drogi. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających. Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
+  "image_path": "img/znaki/D-6.png",
+  "keywords": [
+   "d-6",
+   "d6",
+   "pieszych",
+   "przejście"
+  ],
+  "related_sign_ids": [
+   "D-6a",
+   "D-6b"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 47",
+   "source_text": "§ 47. 1. Znak D-6 „przejście dla pieszych” oznacza miejsce przeznaczone do przechodzenia pieszych w poprzek drogi. 2. Znak D-6a „przejazd dla rowerzystów” oznacza miejsce przeznaczone do przejeżdżania rowerzystów w poprzek drogi. 3. Znak D-6b „przejście dla pieszych i przejazd dla rowerzystów” oznacza występujące obok siebie miejsca, o których mowa w ust. 1 i 2. 4. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających. 5. Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "D-6a",
+  "code": "D-6a",
+  "category_id": "D",
+  "category_name": "Znaki informacyjne",
+  "name": "przejazd dla rowerzystów",
+  "short_description": "Oznacza miejsce przeznaczone do przejeżdżania rowerzystów w poprzek drogi.",
+  "details": "Znak D-6a „przejazd dla rowerzystów” oznacza miejsce przeznaczone do przejeżdżania rowerzystów w poprzek drogi. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających.",
+  "image_path": "img/znaki/D-6a.png",
+  "keywords": [
+   "d-6a",
+   "d6a",
+   "przejazd",
+   "rowerzystów"
+  ],
+  "related_sign_ids": [
+   "D-6",
+   "D-6b"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 47",
+   "source_text": "§ 47. 1. Znak D-6 „przejście dla pieszych” oznacza miejsce przeznaczone do przechodzenia pieszych w poprzek drogi. 2. Znak D-6a „przejazd dla rowerzystów” oznacza miejsce przeznaczone do przejeżdżania rowerzystów w poprzek drogi. 3. Znak D-6b „przejście dla pieszych i przejazd dla rowerzystów” oznacza występujące obok siebie miejsca, o których mowa w ust. 1 i 2. 4. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających. 5. Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "D-6b",
+  "code": "D-6b",
+  "category_id": "D",
+  "category_name": "Znaki informacyjne",
+  "name": "przejście dla pieszych i przejazd dla rowerzystów",
+  "short_description": "Oznacza występujące obok siebie miejsca, o których mowa w ust.",
+  "details": "Znak D-6b „przejście dla pieszych i przejazd dla rowerzystów” oznacza występujące obok siebie miejsca, o których mowa w ust. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających. Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
+  "image_path": "img/znaki/D-6b.png",
+  "keywords": [
+   "d-6b",
+   "d6b",
+   "pieszych",
+   "przejazd",
+   "przejście",
+   "rowerzystów"
+  ],
+  "related_sign_ids": [
+   "D-6",
+   "D-6a"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 47",
+   "source_text": "§ 47. 1. Znak D-6 „przejście dla pieszych” oznacza miejsce przeznaczone do przechodzenia pieszych w poprzek drogi. 2. Znak D-6a „przejazd dla rowerzystów” oznacza miejsce przeznaczone do przejeżdżania rowerzystów w poprzek drogi. 3. Znak D-6b „przejście dla pieszych i przejazd dla rowerzystów” oznacza występujące obok siebie miejsca, o których mowa w ust. 1 i 2. 4. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających. 5. Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "D-7",
+  "code": "D-7",
+  "category_id": "D",
+  "category_name": "Znaki informacyjne",
+  "name": "droga ekspresowa",
+  "short_description": "Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”.",
+  "details": "Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
+  "image_path": "img/znaki/D-7.png",
+  "keywords": [
+   "d-7",
+   "d7",
+   "droga",
+   "ekspresowa"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 48",
+   "source_text": "§ 48. 1. Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”. Dziennik Ustaw – 14 – Poz. 2310 2. Znak D-9 „autostrada” oznacza początek lub kontynuację autostrady; koniec autostrady oznaczony jest znakiem D-10 „koniec autostrady”. 3. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "D-8",
+  "code": "D-8",
+  "category_id": "D",
+  "category_name": "Znaki informacyjne",
+  "name": "koniec drogi ekspresowej",
+  "short_description": "Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”.",
+  "details": "Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”.",
+  "image_path": "img/znaki/D-8.png",
+  "keywords": [
+   "d-8",
+   "d8",
+   "drogi",
+   "ekspresowej",
+   "koniec"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 48",
+   "source_text": "§ 48. 1. Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”. Dziennik Ustaw – 14 – Poz. 2310 2. Znak D-9 „autostrada” oznacza początek lub kontynuację autostrady; koniec autostrady oznaczony jest znakiem D-10 „koniec autostrady”. 3. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "D-9",
+  "code": "D-9",
+  "category_id": "D",
+  "category_name": "Znaki informacyjne",
+  "name": "autostrada",
+  "short_description": "Znak D-9 „autostrada” oznacza początek lub kontynuację autostrady; koniec autostrady oznaczony jest znakiem D-10 „koniec autostrady”.",
+  "details": "Znak D-9 „autostrada” oznacza początek lub kontynuację autostrady; koniec autostrady oznaczony jest znakiem D-10 „koniec autostrady”. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
+  "image_path": "img/znaki/D-9.png",
+  "keywords": [
+   "autostrada",
+   "d-9",
+   "d9"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 48",
+   "source_text": "§ 48. 1. Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”. Dziennik Ustaw – 14 – Poz. 2310 2. Znak D-9 „autostrada” oznacza początek lub kontynuację autostrady; koniec autostrady oznaczony jest znakiem D-10 „koniec autostrady”. 3. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -46,7 +351,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 48",
    "source_text": "§ 48. 1. Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”. Dziennik Ustaw – 14 – Poz. 2310 2. Znak D-9 „autostrada” oznacza początek lub kontynuację autostrady; koniec autostrady oznaczony jest znakiem D-10 „koniec autostrady”. 3. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -74,7 +379,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 49",
    "source_text": "§ 49. 1. Znaki: 1) D-11 „początek pasa ruchu dla autobusów”, 2) D-12 „pas ruchu dla autobusów” oznaczają odpowiednio początek lub kontynuację pasa ruchu przeznaczonego tylko dla autobusów lub trolejbusów oraz innych pojazdów wykonujących odpłatny przewóz osób na regularnych liniach. 2. Umieszczony na znakach D-11 lub D-12 napis lub symbol pojazdu oznacza, że na pasie ruchu oznaczonym tym znakiem jest dopuszczony ruch pojazdu określonego tym napisem lub symbolem. 3. Znak D-13 „początek pasa ruchu powolnego” oznacza początek pasa ruchu, z którego są obowiązani korzystać kierujący pojazdami nieosiągającymi na wzniesieniu minimalnej prędkości określonej na znaku liczbą kilometrów na godzinę. 4. Znak D-13a „początek pasa ruchu” oznacza początek pasa ruchu po stronie wskazanej na znaku. 5. Znak D-14 „koniec pasa ruchu” oznacza koniec skrajnego pasa ruchu, znajdującego się po stronie wskazanej na znaku; znak D-14 umieszczony przy pasie ruchu powolnego oznacza koniec tego pasa ruchu.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -100,7 +405,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 49",
    "source_text": "§ 49. 1. Znaki: 1) D-11 „początek pasa ruchu dla autobusów”, 2) D-12 „pas ruchu dla autobusów” oznaczają odpowiednio początek lub kontynuację pasa ruchu przeznaczonego tylko dla autobusów lub trolejbusów oraz innych pojazdów wykonujących odpłatny przewóz osób na regularnych liniach. 2. Umieszczony na znakach D-11 lub D-12 napis lub symbol pojazdu oznacza, że na pasie ruchu oznaczonym tym znakiem jest dopuszczony ruch pojazdu określonego tym napisem lub symbolem. 3. Znak D-13 „początek pasa ruchu powolnego” oznacza początek pasa ruchu, z którego są obowiązani korzystać kierujący pojazdami nieosiągającymi na wzniesieniu minimalnej prędkości określonej na znaku liczbą kilometrów na godzinę. 4. Znak D-13a „początek pasa ruchu” oznacza początek pasa ruchu po stronie wskazanej na znaku. 5. Znak D-14 „koniec pasa ruchu” oznacza koniec skrajnego pasa ruchu, znajdującego się po stronie wskazanej na znaku; znak D-14 umieszczony przy pasie ruchu powolnego oznacza koniec tego pasa ruchu.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -130,7 +435,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 49",
    "source_text": "§ 49. 1. Znaki: 1) D-11 „początek pasa ruchu dla autobusów”, 2) D-12 „pas ruchu dla autobusów” oznaczają odpowiednio początek lub kontynuację pasa ruchu przeznaczonego tylko dla autobusów lub trolejbusów oraz innych pojazdów wykonujących odpłatny przewóz osób na regularnych liniach. 2. Umieszczony na znakach D-11 lub D-12 napis lub symbol pojazdu oznacza, że na pasie ruchu oznaczonym tym znakiem jest dopuszczony ruch pojazdu określonego tym napisem lub symbolem. 3. Znak D-13 „początek pasa ruchu powolnego” oznacza początek pasa ruchu, z którego są obowiązani korzystać kierujący pojazdami nieosiągającymi na wzniesieniu minimalnej prędkości określonej na znaku liczbą kilometrów na godzinę. 4. Znak D-13a „początek pasa ruchu” oznacza początek pasa ruchu po stronie wskazanej na znaku. 5. Znak D-14 „koniec pasa ruchu” oznacza koniec skrajnego pasa ruchu, znajdującego się po stronie wskazanej na znaku; znak D-14 umieszczony przy pasie ruchu powolnego oznacza koniec tego pasa ruchu.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -159,7 +464,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 49",
    "source_text": "§ 49. 1. Znaki: 1) D-11 „początek pasa ruchu dla autobusów”, 2) D-12 „pas ruchu dla autobusów” oznaczają odpowiednio początek lub kontynuację pasa ruchu przeznaczonego tylko dla autobusów lub trolejbusów oraz innych pojazdów wykonujących odpłatny przewóz osób na regularnych liniach. 2. Umieszczony na znakach D-11 lub D-12 napis lub symbol pojazdu oznacza, że na pasie ruchu oznaczonym tym znakiem jest dopuszczony ruch pojazdu określonego tym napisem lub symbolem. 3. Znak D-13 „początek pasa ruchu powolnego” oznacza początek pasa ruchu, z którego są obowiązani korzystać kierujący pojazdami nieosiągającymi na wzniesieniu minimalnej prędkości określonej na znaku liczbą kilometrów na godzinę. 4. Znak D-13a „początek pasa ruchu” oznacza początek pasa ruchu po stronie wskazanej na znaku. 5. Znak D-14 „koniec pasa ruchu” oznacza koniec skrajnego pasa ruchu, znajdującego się po stronie wskazanej na znaku; znak D-14 umieszczony przy pasie ruchu powolnego oznacza koniec tego pasa ruchu.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -186,7 +491,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 49",
    "source_text": "§ 49. 1. Znaki: 1) D-11 „początek pasa ruchu dla autobusów”, 2) D-12 „pas ruchu dla autobusów” oznaczają odpowiednio początek lub kontynuację pasa ruchu przeznaczonego tylko dla autobusów lub trolejbusów oraz innych pojazdów wykonujących odpłatny przewóz osób na regularnych liniach. 2. Umieszczony na znakach D-11 lub D-12 napis lub symbol pojazdu oznacza, że na pasie ruchu oznaczonym tym znakiem jest dopuszczony ruch pojazdu określonego tym napisem lub symbolem. 3. Znak D-13 „początek pasa ruchu powolnego” oznacza początek pasa ruchu, z którego są obowiązani korzystać kierujący pojazdami nieosiągającymi na wzniesieniu minimalnej prędkości określonej na znaku liczbą kilometrów na godzinę. 4. Znak D-13a „początek pasa ruchu” oznacza początek pasa ruchu po stronie wskazanej na znaku. 5. Znak D-14 „koniec pasa ruchu” oznacza koniec skrajnego pasa ruchu, znajdującego się po stronie wskazanej na znaku; znak D-14 umieszczony przy pasie ruchu powolnego oznacza koniec tego pasa ruchu.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -212,7 +517,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 51",
    "source_text": "§ 51. 1. Znaki: 1) D-15 „przystanek autobusowy”, 2) D-16 „przystanek trolejbusowy”, 3) D-17 „przystanek tramwajowy” oznaczają miejsce zatrzymywania się wskazanych na znaku pojazdów wykonujących odpłatny przewóz osób na regularnych liniach. 2. Znak D-15 oznacza ponadto miejsce do zatrzymywania się innych niż autobus pojazdów samochodowych wykonujących odpłatny przewóz osób na regularnych liniach i pojazdów przeznaczonych do przewozu dzieci do szkół i przedszkoli.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -238,7 +543,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 51",
    "source_text": "§ 51. 1. Znaki: 1) D-15 „przystanek autobusowy”, 2) D-16 „przystanek trolejbusowy”, 3) D-17 „przystanek tramwajowy” oznaczają miejsce zatrzymywania się wskazanych na znaku pojazdów wykonujących odpłatny przewóz osób na regularnych liniach. 2. Znak D-15 oznacza ponadto miejsce do zatrzymywania się innych niż autobus pojazdów samochodowych wykonujących odpłatny przewóz osób na regularnych liniach i pojazdów przeznaczonych do przewozu dzieci do szkół i przedszkoli.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -264,7 +569,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 51",
    "source_text": "§ 51. 1. Znaki: 1) D-15 „przystanek autobusowy”, 2) D-16 „przystanek trolejbusowy”, 3) D-17 „przystanek tramwajowy” oznaczają miejsce zatrzymywania się wskazanych na znaku pojazdów wykonujących odpłatny przewóz osób na regularnych liniach. 2. Znak D-15 oznacza ponadto miejsce do zatrzymywania się innych niż autobus pojazdów samochodowych wykonujących odpłatny przewóz osób na regularnych liniach i pojazdów przeznaczonych do przewozu dzieci do szkół i przedszkoli.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -292,7 +597,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 52",
    "source_text": "§ 52. 1. Znak D-18 „parking” oznacza miejsce przeznaczone na postój pojazdów (zespołów pojazdów), z wyjątkiem przyczep kempingowych; umieszczona pod znakiem tabliczka T-23e oznacza, że na parkingu jest dopuszczony także postój przyczep kempingowych. 1a. Umieszczony na znaku D-18 symbol pojazdu oznacza, że parking jest przeznaczony na postój pojazdu, którego symbol znajduje się na znaku. 2. Umieszczona pod znakiem D-18 tabliczka T-30 wskazuje sposób ustawienia pojazdu względem krawędzi jezdni oznaczonej na tabliczce barwą szarą oraz że miejsce jest przeznaczone dla pojazdów samochodowych o dopuszczalnej masie całkowitej nieprzekraczającej 2,5 t. 3. Umieszczona pod znakiem D-18 tabliczka T-3a wskazuje koniec miejsca przeznaczonego na postój. 4. Znak D-18a „parking – miejsce zastrzeżone” oznacza miejsce przeznaczone na postój pojazdu uprawnionej osoby. 5. Znak D-18b „parking zadaszony” oznacza miejsce przeznaczone na postój pojazdów znajdujące się w budynku lub pod wiatą. 6. Umieszczona pod znakiem D-18, D-18a lub D-18b tabliczka T-29 informuje o miejscu przeznaczonym dla pojazdu samochodowego osoby, o której mowa w art. 8 ust. 1 i 2 ustawy. Dziennik Ustaw – 15 – Poz. 2310",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -322,7 +627,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 52",
    "source_text": "§ 52. 1. Znak D-18 „parking” oznacza miejsce przeznaczone na postój pojazdów (zespołów pojazdów), z wyjątkiem przyczep kempingowych; umieszczona pod znakiem tabliczka T-23e oznacza, że na parkingu jest dopuszczony także postój przyczep kempingowych. 1a. Umieszczony na znaku D-18 symbol pojazdu oznacza, że parking jest przeznaczony na postój pojazdu, którego symbol znajduje się na znaku. 2. Umieszczona pod znakiem D-18 tabliczka T-30 wskazuje sposób ustawienia pojazdu względem krawędzi jezdni oznaczonej na tabliczce barwą szarą oraz że miejsce jest przeznaczone dla pojazdów samochodowych o dopuszczalnej masie całkowitej nieprzekraczającej 2,5 t. 3. Umieszczona pod znakiem D-18 tabliczka T-3a wskazuje koniec miejsca przeznaczonego na postój. 4. Znak D-18a „parking – miejsce zastrzeżone” oznacza miejsce przeznaczone na postój pojazdu uprawnionej osoby. 5. Znak D-18b „parking zadaszony” oznacza miejsce przeznaczone na postój pojazdów znajdujące się w budynku lub pod wiatą. 6. Umieszczona pod znakiem D-18, D-18a lub D-18b tabliczka T-29 informuje o miejscu przeznaczonym dla pojazdu samochodowego osoby, o której mowa w art. 8 ust. 1 i 2 ustawy. Dziennik Ustaw – 15 – Poz. 2310",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -351,7 +656,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 52",
    "source_text": "§ 52. 1. Znak D-18 „parking” oznacza miejsce przeznaczone na postój pojazdów (zespołów pojazdów), z wyjątkiem przyczep kempingowych; umieszczona pod znakiem tabliczka T-23e oznacza, że na parkingu jest dopuszczony także postój przyczep kempingowych. 1a. Umieszczony na znaku D-18 symbol pojazdu oznacza, że parking jest przeznaczony na postój pojazdu, którego symbol znajduje się na znaku. 2. Umieszczona pod znakiem D-18 tabliczka T-30 wskazuje sposób ustawienia pojazdu względem krawędzi jezdni oznaczonej na tabliczce barwą szarą oraz że miejsce jest przeznaczone dla pojazdów samochodowych o dopuszczalnej masie całkowitej nieprzekraczającej 2,5 t. 3. Umieszczona pod znakiem D-18 tabliczka T-3a wskazuje koniec miejsca przeznaczonego na postój. 4. Znak D-18a „parking – miejsce zastrzeżone” oznacza miejsce przeznaczone na postój pojazdu uprawnionej osoby. 5. Znak D-18b „parking zadaszony” oznacza miejsce przeznaczone na postój pojazdów znajdujące się w budynku lub pod wiatą. 6. Umieszczona pod znakiem D-18, D-18a lub D-18b tabliczka T-29 informuje o miejscu przeznaczonym dla pojazdu samochodowego osoby, o której mowa w art. 8 ust. 1 i 2 ustawy. Dziennik Ustaw – 15 – Poz. 2310",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -377,34 +682,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 53",
    "source_text": "§ 53. 1. Znak D-19 „postój taksówek” oznacza miejsce przeznaczone na postój taksówek, z wyjątkiem taksówek zajętych. 2. Znak D-20 „koniec postoju taksówek” oznacza miejsce, w którym kończy się postój taksówek; jeżeli na postoju taksówek nie umieszczono znaku D-20, to kończy się on w odległości nie większej niż 20 m przed znakiem D-19. 3. (uchylony).",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "D-2",
-  "code": "D-2",
-  "category_id": "D",
-  "category_name": "Znaki informacyjne",
-  "name": "koniec drogi z pierwszeństwem",
-  "short_description": "Oznacza koniec drogi z pierwszeństwem.",
-  "details": "Znak D-2 „koniec drogi z pierwszeństwem” oznacza koniec drogi z pierwszeństwem.",
-  "image_path": "img/znaki/D-2.png",
-  "keywords": [
-   "d-2",
-   "d2",
-   "drogi",
-   "koniec",
-   "pierwszeństwem"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 43",
-   "source_text": "§ 43. 1. Znak D-1 „droga z pierwszeństwem” oznacza początek lub kontynuację drogi z pierwszeństwem. 2. Umieszczona pod znakiem D-1 tabliczka T-6a albo T-6b wskazuje odpowiednio rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie lub układ dróg podporządkowanych. 3. Znak D-2 „koniec drogi z pierwszeństwem” oznacza koniec drogi z pierwszeństwem.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -431,7 +709,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 53",
    "source_text": "§ 53. 1. Znak D-19 „postój taksówek” oznacza miejsce przeznaczone na postój taksówek, z wyjątkiem taksówek zajętych. 2. Znak D-20 „koniec postoju taksówek” oznacza miejsce, w którym kończy się postój taksówek; jeżeli na postoju taksówek nie umieszczono znaku D-20, to kończy się on w odległości nie większej niż 20 m przed znakiem D-19. 3. (uchylony).",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -458,7 +736,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -485,7 +763,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -511,7 +789,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -539,7 +817,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -571,7 +849,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -596,7 +874,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -621,7 +899,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -653,7 +931,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -683,7 +961,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -713,7 +991,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -744,7 +1022,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -774,7 +1052,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -800,7 +1078,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -825,7 +1103,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -851,33 +1129,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "D-3",
-  "code": "D-3",
-  "category_id": "D",
-  "category_name": "Znaki informacyjne",
-  "name": "droga jednokierunkowa",
-  "short_description": "Oznacza początek lub kontynuację drogi lub jezdni, na której ruch odbywa się w jednym kierunku.",
-  "details": "Znak D-3 „droga jednokierunkowa” oznacza początek lub kontynuację drogi lub jezdni, na której ruch odbywa się w jednym kierunku. Umieszczona pod znakiem D-3 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że ruch pojazdów określonych tabliczką odbywa się w dwóch kierunkach. Znak D-3 z umieszczoną pod nim tabliczką z napisem „Nie dotyczy” i symbolem roweru lub wózka rowerowego umieszczony na drodze o dopuszczalnej prędkości nie większej niż 30 km/h oznacza, że ruch tych pojazdów może odbywać się bez wyznaczonych pasów ruchu.",
-  "image_path": "img/znaki/D-3.png",
-  "keywords": [
-   "d-3",
-   "d3",
-   "droga",
-   "jednokierunkowa"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 44",
-   "source_text": "§ 44. 1. Znak D-3 „droga jednokierunkowa” oznacza początek lub kontynuację drogi lub jezdni, na której ruch odbywa się w jednym kierunku. 2. Umieszczona pod znakiem D-3 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że ruch pojazdów określonych tabliczką odbywa się w dwóch kierunkach. 3. Znak D-3 z umieszczoną pod nim tabliczką z napisem „Nie dotyczy” i symbolem roweru lub wózka rowerowego umieszczony na drodze o dopuszczalnej prędkości nie większej niż 30 km/h oznacza, że ruch tych pojazdów może odbywać się bez wyznaczonych pasów ruchu.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -903,7 +1155,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -933,7 +1185,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -959,7 +1211,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -985,7 +1237,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1014,7 +1266,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1044,7 +1296,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 54",
    "source_text": "§ 54. 1. Znaki: 1) D-21 „szpital”, 2) D-21a „Policja”, 3) D-22 „punkt opatrunkowy”, 4) D-23 „stacja paliwowa”, 5) D-23a „stacja paliwowa tylko z gazem do napędu pojazdów”, 6) D-24 „telefon”, 7) D-25 „poczta”, 8) D-26 „stacja obsługi technicznej”, 9) D-26a „wulkanizacja”, 10) D-26b „myjnia”, 11) D-26c „toaleta publiczna”, 12) D-26d „natrysk”, 13) D-27 „bufet lub kawiarnia”, 14) D-28 „restauracja”, 15) D-29 „hotel (motel)”, 16) D-30 „obozowisko (kemping)”, 17) D-31 „obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep”, 18) D-32 „pole biwakowe”, 19) D-33 „schronisko młodzieżowe”, 20) D-34 „punkt informacji turystycznej” informują o wskazanych na znaku obiektach znajdujących się przy drodze. 2. Umieszczony w dolnej części znaku D-23 napis „LPG GAZ” informuje, że stacja prowadzi także sprzedaż gazu do napędu pojazdów. 3. Umieszczony na znaku D-25 symbol słuchawki telefonicznej informuje, że na poczcie znajduje się ogólnodostępny telefon. 4. Umieszczony w dolnej części znaku D-26c napis „BUS” informuje o możliwości opróżniania toalet zainstalowanych w pojazdach. 5. Znak D-34a „informacja radiowa o ruchu drogowym” informuje o stacjach radiowych podających informacje o warunkach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1073,7 +1325,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 55",
    "source_text": "§ 55. Znaki: 1) D-35 „przejście podziemne dla pieszych”, 2) D-35a „schody ruchome w dół”, Dziennik Ustaw – 16 – Poz. 2310 3) D-36 „przejście nadziemne dla pieszych”, 4) D-36a „schody ruchome w górę” informują o możliwości przechodzenia pieszych pod jezdnią lub nad jezdnią w sposób wskazany na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1101,7 +1353,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 55",
    "source_text": "§ 55. Znaki: 1) D-35 „przejście podziemne dla pieszych”, 2) D-35a „schody ruchome w dół”, Dziennik Ustaw – 16 – Poz. 2310 3) D-36 „przejście nadziemne dla pieszych”, 4) D-36a „schody ruchome w górę” informują o możliwości przechodzenia pieszych pod jezdnią lub nad jezdnią w sposób wskazany na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1130,7 +1382,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 55",
    "source_text": "§ 55. Znaki: 1) D-35 „przejście podziemne dla pieszych”, 2) D-35a „schody ruchome w dół”, Dziennik Ustaw – 16 – Poz. 2310 3) D-36 „przejście nadziemne dla pieszych”, 4) D-36a „schody ruchome w górę” informują o możliwości przechodzenia pieszych pod jezdnią lub nad jezdnią w sposób wskazany na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1159,7 +1411,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 55",
    "source_text": "§ 55. Znaki: 1) D-35 „przejście podziemne dla pieszych”, 2) D-35a „schody ruchome w dół”, Dziennik Ustaw – 16 – Poz. 2310 3) D-36 „przejście nadziemne dla pieszych”, 4) D-36a „schody ruchome w górę” informują o możliwości przechodzenia pieszych pod jezdnią lub nad jezdnią w sposób wskazany na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1184,7 +1436,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 56",
    "source_text": "§ 56. 1. Znak D-37 „tunel” oznacza wjazd do tunelu. Wyjazd z tunelu jest oznaczony znakiem D-38 „koniec tunelu”. 2. Umieszczona pod znakiem D-37 tabliczka T-1b wskazuje rzeczywistą długość tunelu – w przypadku gdy długość tunelu przekracza 500 m. Rzeczywista długość tunelu może być także wskazana przez umieszczenie w dolnej części znaku napisu i symboli odpowiadających treści tabliczki T-1b. 3. W przypadku tuneli o długości przekraczającej 3000 m pozostała długość tunelu do przebycia jest wskazywana co 1000 m tabliczką T-1b. 4. Umieszczona pod znakiem D-37 tabliczka T-32 wskazuje minimalny odstęp od poprzedzającego pojazdu.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1210,7 +1462,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 56",
    "source_text": "§ 56. 1. Znak D-37 „tunel” oznacza wjazd do tunelu. Wyjazd z tunelu jest oznaczony znakiem D-38 „koniec tunelu”. 2. Umieszczona pod znakiem D-37 tabliczka T-1b wskazuje rzeczywistą długość tunelu – w przypadku gdy długość tunelu przekracza 500 m. Rzeczywista długość tunelu może być także wskazana przez umieszczenie w dolnej części znaku napisu i symboli odpowiadających treści tabliczki T-1b. 3. W przypadku tuneli o długości przekraczającej 3000 m pozostała długość tunelu do przebycia jest wskazywana co 1000 m tabliczką T-1b. 4. Umieszczona pod znakiem D-37 tabliczka T-32 wskazuje minimalny odstęp od poprzedzającego pojazdu.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": "akt podaje samą nazwę znaku, bez odrębnego objaśnienia"
@@ -1238,7 +1490,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 57",
    "source_text": "§ 57. 1. Znak D-39 „dopuszczalne prędkości” informuje o dopuszczalnych prędkościach obowiązujących na terytorium Rzeczypospolitej Polskiej. 2. Na przejściu granicznym mogą być umieszczone tablice z napisami lub symbolami, podające informacje o obowiązujących na terytorium Rzeczypospolitej Polskiej przepisach ruchu drogowego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1266,7 +1518,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 57a",
    "source_text": "§ 57a. Znak D-39a „opłaty drogowe” informuje o opłatach drogowych wnoszonych za przejazd po drogach publicznych na terytorium Rzeczypospolitej Polskiej.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1292,7 +1544,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 58",
    "source_text": "§ 58. 1. Znak D-40 „strefa zamieszkania” oznacza wjazd do strefy zamieszkania. Znak D-41 „koniec strefy zamieszkania” oznacza wyjazd ze strefy zamieszkania. 2. Znak D-40 informuje ponadto, że umieszczone w strefie zamieszkania urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi. 3. Znak D-42 „obszar zabudowany” oznacza wjazd na obszar zabudowany. Znak D-43 „koniec obszaru zabudowanego” oznacza wyjazd z obszaru zabudowanego. 4. Znak D-44 „strefa płatnego parkowania” oznacza wjazd do strefy, w której za postój pojazdu samochodowego jest pobierana opłata. Znak D-45 „koniec strefy płatnego parkowania” oznacza wyjazd ze strefy płatnego parkowania. 5. Znak D-46 „droga wewnętrzna” oznacza początek ogólnodostępnej drogi niepublicznej; napis umieszczony na znaku wskazuje zarządcę tej drogi. Znak D-47 „koniec drogi wewnętrznej” oznacza wyjazd z takiej drogi na drogę publiczną.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1319,7 +1571,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 58",
    "source_text": "§ 58. 1. Znak D-40 „strefa zamieszkania” oznacza wjazd do strefy zamieszkania. Znak D-41 „koniec strefy zamieszkania” oznacza wyjazd ze strefy zamieszkania. 2. Znak D-40 informuje ponadto, że umieszczone w strefie zamieszkania urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi. 3. Znak D-42 „obszar zabudowany” oznacza wjazd na obszar zabudowany. Znak D-43 „koniec obszaru zabudowanego” oznacza wyjazd z obszaru zabudowanego. 4. Znak D-44 „strefa płatnego parkowania” oznacza wjazd do strefy, w której za postój pojazdu samochodowego jest pobierana opłata. Znak D-45 „koniec strefy płatnego parkowania” oznacza wyjazd ze strefy płatnego parkowania. 5. Znak D-46 „droga wewnętrzna” oznacza początek ogólnodostępnej drogi niepublicznej; napis umieszczony na znaku wskazuje zarządcę tej drogi. Znak D-47 „koniec drogi wewnętrznej” oznacza wyjazd z takiej drogi na drogę publiczną.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1345,7 +1597,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 58",
    "source_text": "§ 58. 1. Znak D-40 „strefa zamieszkania” oznacza wjazd do strefy zamieszkania. Znak D-41 „koniec strefy zamieszkania” oznacza wyjazd ze strefy zamieszkania. 2. Znak D-40 informuje ponadto, że umieszczone w strefie zamieszkania urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi. 3. Znak D-42 „obszar zabudowany” oznacza wjazd na obszar zabudowany. Znak D-43 „koniec obszaru zabudowanego” oznacza wyjazd z obszaru zabudowanego. 4. Znak D-44 „strefa płatnego parkowania” oznacza wjazd do strefy, w której za postój pojazdu samochodowego jest pobierana opłata. Znak D-45 „koniec strefy płatnego parkowania” oznacza wyjazd ze strefy płatnego parkowania. 5. Znak D-46 „droga wewnętrzna” oznacza początek ogólnodostępnej drogi niepublicznej; napis umieszczony na znaku wskazuje zarządcę tej drogi. Znak D-47 „koniec drogi wewnętrznej” oznacza wyjazd z takiej drogi na drogę publiczną.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1372,7 +1624,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 58",
    "source_text": "§ 58. 1. Znak D-40 „strefa zamieszkania” oznacza wjazd do strefy zamieszkania. Znak D-41 „koniec strefy zamieszkania” oznacza wyjazd ze strefy zamieszkania. 2. Znak D-40 informuje ponadto, że umieszczone w strefie zamieszkania urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi. 3. Znak D-42 „obszar zabudowany” oznacza wjazd na obszar zabudowany. Znak D-43 „koniec obszaru zabudowanego” oznacza wyjazd z obszaru zabudowanego. 4. Znak D-44 „strefa płatnego parkowania” oznacza wjazd do strefy, w której za postój pojazdu samochodowego jest pobierana opłata. Znak D-45 „koniec strefy płatnego parkowania” oznacza wyjazd ze strefy płatnego parkowania. 5. Znak D-46 „droga wewnętrzna” oznacza początek ogólnodostępnej drogi niepublicznej; napis umieszczony na znaku wskazuje zarządcę tej drogi. Znak D-47 „koniec drogi wewnętrznej” oznacza wyjazd z takiej drogi na drogę publiczną.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1399,7 +1651,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 58",
    "source_text": "§ 58. 1. Znak D-40 „strefa zamieszkania” oznacza wjazd do strefy zamieszkania. Znak D-41 „koniec strefy zamieszkania” oznacza wyjazd ze strefy zamieszkania. 2. Znak D-40 informuje ponadto, że umieszczone w strefie zamieszkania urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi. 3. Znak D-42 „obszar zabudowany” oznacza wjazd na obszar zabudowany. Znak D-43 „koniec obszaru zabudowanego” oznacza wyjazd z obszaru zabudowanego. 4. Znak D-44 „strefa płatnego parkowania” oznacza wjazd do strefy, w której za postój pojazdu samochodowego jest pobierana opłata. Znak D-45 „koniec strefy płatnego parkowania” oznacza wyjazd ze strefy płatnego parkowania. 5. Znak D-46 „droga wewnętrzna” oznacza początek ogólnodostępnej drogi niepublicznej; napis umieszczony na znaku wskazuje zarządcę tej drogi. Znak D-47 „koniec drogi wewnętrznej” oznacza wyjazd z takiej drogi na drogę publiczną.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1427,7 +1679,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 58",
    "source_text": "§ 58. 1. Znak D-40 „strefa zamieszkania” oznacza wjazd do strefy zamieszkania. Znak D-41 „koniec strefy zamieszkania” oznacza wyjazd ze strefy zamieszkania. 2. Znak D-40 informuje ponadto, że umieszczone w strefie zamieszkania urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi. 3. Znak D-42 „obszar zabudowany” oznacza wjazd na obszar zabudowany. Znak D-43 „koniec obszaru zabudowanego” oznacza wyjazd z obszaru zabudowanego. 4. Znak D-44 „strefa płatnego parkowania” oznacza wjazd do strefy, w której za postój pojazdu samochodowego jest pobierana opłata. Znak D-45 „koniec strefy płatnego parkowania” oznacza wyjazd ze strefy płatnego parkowania. 5. Znak D-46 „droga wewnętrzna” oznacza początek ogólnodostępnej drogi niepublicznej; napis umieszczony na znaku wskazuje zarządcę tej drogi. Znak D-47 „koniec drogi wewnętrznej” oznacza wyjazd z takiej drogi na drogę publiczną.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1453,7 +1705,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 58",
    "source_text": "§ 58. 1. Znak D-40 „strefa zamieszkania” oznacza wjazd do strefy zamieszkania. Znak D-41 „koniec strefy zamieszkania” oznacza wyjazd ze strefy zamieszkania. 2. Znak D-40 informuje ponadto, że umieszczone w strefie zamieszkania urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi. 3. Znak D-42 „obszar zabudowany” oznacza wjazd na obszar zabudowany. Znak D-43 „koniec obszaru zabudowanego” oznacza wyjazd z obszaru zabudowanego. 4. Znak D-44 „strefa płatnego parkowania” oznacza wjazd do strefy, w której za postój pojazdu samochodowego jest pobierana opłata. Znak D-45 „koniec strefy płatnego parkowania” oznacza wyjazd ze strefy płatnego parkowania. 5. Znak D-46 „droga wewnętrzna” oznacza początek ogólnodostępnej drogi niepublicznej; napis umieszczony na znaku wskazuje zarządcę tej drogi. Znak D-47 „koniec drogi wewnętrznej” oznacza wyjazd z takiej drogi na drogę publiczną.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1480,7 +1732,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 58",
    "source_text": "§ 58. 1. Znak D-40 „strefa zamieszkania” oznacza wjazd do strefy zamieszkania. Znak D-41 „koniec strefy zamieszkania” oznacza wyjazd ze strefy zamieszkania. 2. Znak D-40 informuje ponadto, że umieszczone w strefie zamieszkania urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi. 3. Znak D-42 „obszar zabudowany” oznacza wjazd na obszar zabudowany. Znak D-43 „koniec obszaru zabudowanego” oznacza wyjazd z obszaru zabudowanego. 4. Znak D-44 „strefa płatnego parkowania” oznacza wjazd do strefy, w której za postój pojazdu samochodowego jest pobierana opłata. Znak D-45 „koniec strefy płatnego parkowania” oznacza wyjazd ze strefy płatnego parkowania. 5. Znak D-46 „droga wewnętrzna” oznacza początek ogólnodostępnej drogi niepublicznej; napis umieszczony na znaku wskazuje zarządcę tej drogi. Znak D-47 „koniec drogi wewnętrznej” oznacza wyjazd z takiej drogi na drogę publiczną.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1506,7 +1758,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 59",
    "source_text": "§ 59. Znak D-48 „zmiana pierwszeństwa” uprzedza o mającej nastąpić lub niedawno wprowadzonej zmianie obowiązujących dotychczas zasad pierwszeństwa na najbliższym skrzyżowaniu; umieszczony pod znakiem napis określa datę wprowadzenia nowej zasady pierwszeństwa pokazanej znakiem A-5 lub A-7.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1532,92 +1784,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 60",
    "source_text": "§ 60. Znak D-49 „pobór opłat” uprzedza o miejscu, w którym są pobierane opłaty za przejazd.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "D-4a",
-  "code": "D-4a",
-  "category_id": "D",
-  "category_name": "Znaki informacyjne",
-  "name": "droga bez przejazdu",
-  "short_description": "Oznacza początek drogi bez przejazdu.",
-  "details": "Znak D-4a „droga bez przejazdu” oznacza początek drogi bez przejazdu. Umieszczona pod znakiem D-4a lub D-4b tabliczka z napisem „Nie dotyczy” i symbolem roweru lub wózka rowerowego oznacza, że znak nie dotyczy roweru lub wózka rowerowego.",
-  "image_path": "img/znaki/D-4a.png",
-  "keywords": [
-   "d-4a",
-   "d4a",
-   "droga",
-   "przejazdu"
-  ],
-  "related_sign_ids": [
-   "D-4b"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 45",
-   "source_text": "§ 45. 1. Znak D-4a „droga bez przejazdu” oznacza początek drogi bez przejazdu. 2. Znak D-4b „wjazd na drogę bez przejazdu” oznacza, że droga za skrzyżowaniem po stronie wskazanej na znaku jest drogą bez przejazdu. 3. Umieszczona pod znakiem D-4a lub D-4b tabliczka z napisem „Nie dotyczy” i symbolem roweru lub wózka rowerowego oznacza, że znak nie dotyczy roweru lub wózka rowerowego.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "D-4b",
-  "code": "D-4b",
-  "category_id": "D",
-  "category_name": "Znaki informacyjne",
-  "name": "wjazd na drogę bez przejazdu",
-  "short_description": "Oznacza, że droga za skrzyżowaniem po stronie wskazanej na znaku jest drogą bez przejazdu.",
-  "details": "Znak D-4b „wjazd na drogę bez przejazdu” oznacza, że droga za skrzyżowaniem po stronie wskazanej na znaku jest drogą bez przejazdu. Umieszczona pod znakiem D-4a lub D-4b tabliczka z napisem „Nie dotyczy” i symbolem roweru lub wózka rowerowego oznacza, że znak nie dotyczy roweru lub wózka rowerowego.",
-  "image_path": "img/znaki/D-4b.png",
-  "keywords": [
-   "d-4b",
-   "d4b",
-   "drogę",
-   "przejazdu",
-   "wjazd"
-  ],
-  "related_sign_ids": [
-   "D-4a"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 45",
-   "source_text": "§ 45. 1. Znak D-4a „droga bez przejazdu” oznacza początek drogi bez przejazdu. 2. Znak D-4b „wjazd na drogę bez przejazdu” oznacza, że droga za skrzyżowaniem po stronie wskazanej na znaku jest drogą bez przejazdu. 3. Umieszczona pod znakiem D-4a lub D-4b tabliczka z napisem „Nie dotyczy” i symbolem roweru lub wózka rowerowego oznacza, że znak nie dotyczy roweru lub wózka rowerowego.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "D-5",
-  "code": "D-5",
-  "category_id": "D",
-  "category_name": "Znaki informacyjne",
-  "name": "pierwszeństwo na zwężonym odcinku jezdni",
-  "short_description": "Oznacza, że kierujący przejeżdżają lub przechodzą przed kierującymi zbliżającymi się z kierunku przeciwnego.",
-  "details": "Znak D-5 „pierwszeństwo na zwężonym odcinku jezdni” oznacza, że kierujący przejeżdżają lub przechodzą przed kierującymi zbliżającymi się z kierunku przeciwnego.",
-  "image_path": "img/znaki/D-5.png",
-  "keywords": [
-   "d-5",
-   "d5",
-   "jezdni",
-   "odcinku",
-   "pierwszeństwo",
-   "zwężonym"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 46",
-   "source_text": "§ 46. Znak D-5 „pierwszeństwo na zwężonym odcinku jezdni” oznacza, że kierujący przejeżdżają lub przechodzą przed kierującymi zbliżającymi się z kierunku przeciwnego.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1642,7 +1809,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 60a",
    "source_text": "§ 60a. 1. Znak D-50 „zatoka” informuje o zatoce występującej w tunelu. 2. Umieszczona pod znakiem D-50 tabliczka T-33 lub umieszczony na znaku napis „SOS” informuje, że w zatoce znajduje się telefon alarmowy i gaśnica.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1672,7 +1839,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 2",
    "source_text": "§ 2. Znak D-51 „automatyczna kontrola prędkości” z tabliczką z napisem „Kontrola średniej prędkości na odcinku…” stosowany na podstawie dotychczasowych przepisów obowiązuje do czasu zastąpienia znakami D-51a „automatyczna kontrola średniej prędkości” i D-51b „koniec automatycznej kontroli średniej prędkości”, jednak nie dłużej niż przez 24 miesiące od dnia wejścia w życie rozporządzenia.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1703,7 +1870,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 2",
    "source_text": "§ 2. Znak D-51 „automatyczna kontrola prędkości” z tabliczką z napisem „Kontrola średniej prędkości na odcinku…” stosowany na podstawie dotychczasowych przepisów obowiązuje do czasu zastąpienia znakami D-51a „automatyczna kontrola średniej prędkości” i D-51b „koniec automatycznej kontroli średniej prędkości”, jednak nie dłużej niż przez 24 miesiące od dnia wejścia w życie rozporządzenia.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1735,7 +1902,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 2",
    "source_text": "§ 2. Znak D-51 „automatyczna kontrola prędkości” z tabliczką z napisem „Kontrola średniej prędkości na odcinku…” stosowany na podstawie dotychczasowych przepisów obowiązuje do czasu zastąpienia znakami D-51a „automatyczna kontrola średniej prędkości” i D-51b „koniec automatycznej kontroli średniej prędkości”, jednak nie dłużej niż przez 24 miesiące od dnia wejścia w życie rozporządzenia.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1761,7 +1928,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 15",
    "source_text": "§ 15. 1. Znaki zakazu obowiązują na drodze, na której są umieszczone, chyba że przepisy szczególne stanowią inaczej. 2. Zakaz wyrażony znakiem zakazu obowiązuje od miejsca jego ustawienia, chyba że przepisy szczególne stanowią inaczej. 3. Znak zakazu umieszczony pod znakiem E-17a oznacza, że zakaz obowiązuje na obszarze całej miejscowości, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 4. Znak zakazu umieszczony pod znakiem D-42 oznacza, że zakaz obowiązuje do znaku D-43 lub E-18a, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 4a. Znak zakazu umieszczony pod znakiem D-52 „strefa ruchu” oznacza, że zakaz obowiązuje do znaku D-53 „koniec strefy ruchu”, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 5. Umieszczona pod znakiem zakazu tabliczka wskazuje: 1) T-20 – długość odcinka jezdni, na którym zakaz obowiązuje; 2) T-21 – odległość znaku od miejsca, od którego lub w którym zakaz obowiązuje. 6. Umieszczony na znaku zakazu albo tabliczce napis określający dni lub okres doby oznacza, że zakaz obowiązuje w tym czasie. Dziennik Ustaw – 7 – Poz. 2310 7. Umieszczone na jednej tarczy dwa lub trzy symbole znaków określonych w § 18 i 19 mają takie samo znaczenie jak znaki pojedyncze.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1788,7 +1955,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 15",
    "source_text": "§ 15. 1. Znaki zakazu obowiązują na drodze, na której są umieszczone, chyba że przepisy szczególne stanowią inaczej. 2. Zakaz wyrażony znakiem zakazu obowiązuje od miejsca jego ustawienia, chyba że przepisy szczególne stanowią inaczej. 3. Znak zakazu umieszczony pod znakiem E-17a oznacza, że zakaz obowiązuje na obszarze całej miejscowości, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 4. Znak zakazu umieszczony pod znakiem D-42 oznacza, że zakaz obowiązuje do znaku D-43 lub E-18a, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 4a. Znak zakazu umieszczony pod znakiem D-52 „strefa ruchu” oznacza, że zakaz obowiązuje do znaku D-53 „koniec strefy ruchu”, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem. 5. Umieszczona pod znakiem zakazu tabliczka wskazuje: 1) T-20 – długość odcinka jezdni, na którym zakaz obowiązuje; 2) T-21 – odległość znaku od miejsca, od którego lub w którym zakaz obowiązuje. 6. Umieszczony na znaku zakazu albo tabliczce napis określający dni lub okres doby oznacza, że zakaz obowiązuje w tym czasie. Dziennik Ustaw – 7 – Poz. 2310 7. Umieszczone na jednej tarczy dwa lub trzy symbole znaków określonych w § 18 i 19 mają takie samo znaczenie jak znaki pojedyncze.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1815,7 +1982,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 60d",
    "source_text": "§ 60d. Znak D-54 „strefa czystego transportu” oznacza wjazd do strefy czystego transportu. Znak D-55 „koniec strefy czystego transportu” oznacza wyjazd ze strefy czystego transportu.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1843,174 +2010,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 60d",
    "source_text": "§ 60d. Znak D-54 „strefa czystego transportu” oznacza wjazd do strefy czystego transportu. Znak D-55 „koniec strefy czystego transportu” oznacza wyjazd ze strefy czystego transportu.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "D-6",
-  "code": "D-6",
-  "category_id": "D",
-  "category_name": "Znaki informacyjne",
-  "name": "przejście dla pieszych",
-  "short_description": "Oznacza miejsce przeznaczone do przechodzenia pieszych w poprzek drogi.",
-  "details": "Znak D-6 „przejście dla pieszych” oznacza miejsce przeznaczone do przechodzenia pieszych w poprzek drogi. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających. Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
-  "image_path": "img/znaki/D-6.png",
-  "keywords": [
-   "d-6",
-   "d6",
-   "pieszych",
-   "przejście"
-  ],
-  "related_sign_ids": [
-   "D-6a",
-   "D-6b"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 47",
-   "source_text": "§ 47. 1. Znak D-6 „przejście dla pieszych” oznacza miejsce przeznaczone do przechodzenia pieszych w poprzek drogi. 2. Znak D-6a „przejazd dla rowerzystów” oznacza miejsce przeznaczone do przejeżdżania rowerzystów w poprzek drogi. 3. Znak D-6b „przejście dla pieszych i przejazd dla rowerzystów” oznacza występujące obok siebie miejsca, o których mowa w ust. 1 i 2. 4. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających. 5. Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "D-6a",
-  "code": "D-6a",
-  "category_id": "D",
-  "category_name": "Znaki informacyjne",
-  "name": "przejazd dla rowerzystów",
-  "short_description": "Oznacza miejsce przeznaczone do przejeżdżania rowerzystów w poprzek drogi.",
-  "details": "Znak D-6a „przejazd dla rowerzystów” oznacza miejsce przeznaczone do przejeżdżania rowerzystów w poprzek drogi. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających.",
-  "image_path": "img/znaki/D-6a.png",
-  "keywords": [
-   "d-6a",
-   "d6a",
-   "przejazd",
-   "rowerzystów"
-  ],
-  "related_sign_ids": [
-   "D-6",
-   "D-6b"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 47",
-   "source_text": "§ 47. 1. Znak D-6 „przejście dla pieszych” oznacza miejsce przeznaczone do przechodzenia pieszych w poprzek drogi. 2. Znak D-6a „przejazd dla rowerzystów” oznacza miejsce przeznaczone do przejeżdżania rowerzystów w poprzek drogi. 3. Znak D-6b „przejście dla pieszych i przejazd dla rowerzystów” oznacza występujące obok siebie miejsca, o których mowa w ust. 1 i 2. 4. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających. 5. Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "D-6b",
-  "code": "D-6b",
-  "category_id": "D",
-  "category_name": "Znaki informacyjne",
-  "name": "przejście dla pieszych i przejazd dla rowerzystów",
-  "short_description": "Oznacza występujące obok siebie miejsca, o których mowa w ust.",
-  "details": "Znak D-6b „przejście dla pieszych i przejazd dla rowerzystów” oznacza występujące obok siebie miejsca, o których mowa w ust. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających. Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
-  "image_path": "img/znaki/D-6b.png",
-  "keywords": [
-   "d-6b",
-   "d6b",
-   "pieszych",
-   "przejazd",
-   "przejście",
-   "rowerzystów"
-  ],
-  "related_sign_ids": [
-   "D-6",
-   "D-6a"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 47",
-   "source_text": "§ 47. 1. Znak D-6 „przejście dla pieszych” oznacza miejsce przeznaczone do przechodzenia pieszych w poprzek drogi. 2. Znak D-6a „przejazd dla rowerzystów” oznacza miejsce przeznaczone do przejeżdżania rowerzystów w poprzek drogi. 3. Znak D-6b „przejście dla pieszych i przejazd dla rowerzystów” oznacza występujące obok siebie miejsca, o których mowa w ust. 1 i 2. 4. Kierujący pojazdem zbliżający się do miejsca oznaczonego znakiem D-6, D-6a albo D-6b jest obowiązany zmniejszyć prędkość tak, aby nie narazić na niebezpieczeństwo pieszych lub rowerzystów znajdujących się w tych miejscach lub na nie wchodzących lub wjeżdżających. 5. Umieszczona pod znakiem D-6 lub D-6b tabliczka T-27 wskazuje, że przejście dla pieszych jest szczególnie uczęszczane przez dzieci.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "D-7",
-  "code": "D-7",
-  "category_id": "D",
-  "category_name": "Znaki informacyjne",
-  "name": "droga ekspresowa",
-  "short_description": "Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”.",
-  "details": "Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
-  "image_path": "img/znaki/D-7.png",
-  "keywords": [
-   "d-7",
-   "d7",
-   "droga",
-   "ekspresowa"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 48",
-   "source_text": "§ 48. 1. Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”. Dziennik Ustaw – 14 – Poz. 2310 2. Znak D-9 „autostrada” oznacza początek lub kontynuację autostrady; koniec autostrady oznaczony jest znakiem D-10 „koniec autostrady”. 3. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "D-8",
-  "code": "D-8",
-  "category_id": "D",
-  "category_name": "Znaki informacyjne",
-  "name": "koniec drogi ekspresowej",
-  "short_description": "Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”.",
-  "details": "Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”.",
-  "image_path": "img/znaki/D-8.png",
-  "keywords": [
-   "d-8",
-   "d8",
-   "drogi",
-   "ekspresowej",
-   "koniec"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 48",
-   "source_text": "§ 48. 1. Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”. Dziennik Ustaw – 14 – Poz. 2310 2. Znak D-9 „autostrada” oznacza początek lub kontynuację autostrady; koniec autostrady oznaczony jest znakiem D-10 „koniec autostrady”. 3. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "D-9",
-  "code": "D-9",
-  "category_id": "D",
-  "category_name": "Znaki informacyjne",
-  "name": "autostrada",
-  "short_description": "Znak D-9 „autostrada” oznacza początek lub kontynuację autostrady; koniec autostrady oznaczony jest znakiem D-10 „koniec autostrady”.",
-  "details": "Znak D-9 „autostrada” oznacza początek lub kontynuację autostrady; koniec autostrady oznaczony jest znakiem D-10 „koniec autostrady”. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
-  "image_path": "img/znaki/D-9.png",
-  "keywords": [
-   "autostrada",
-   "d-9",
-   "d9"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 48",
-   "source_text": "§ 48. 1. Znak D-7 „droga ekspresowa” oznacza początek lub kontynuację drogi ekspresowej; koniec drogi ekspresowej oznaczony jest znakiem D-8 „koniec drogi ekspresowej”. Dziennik Ustaw – 14 – Poz. 2310 2. Znak D-9 „autostrada” oznacza początek lub kontynuację autostrady; koniec autostrady oznaczony jest znakiem D-10 „koniec autostrady”. 3. Umieszczona pod znakiem D-7 lub D-9 tabliczka T-28 wskazuje, że za przejazd drogą ekspresową lub autostradą jest pobierana opłata.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null

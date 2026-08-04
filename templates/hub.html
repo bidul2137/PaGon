@@ -12,8 +12,14 @@
   <header class="tar-topbar">
     <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
     <div class="tar-brand spb-brand">
-      <h1 class="tar-title">{{ tytul|upper }}</h1>
-      {% if podtytul %}<p class="tar-subtitle">{{ podtytul }}</p>{% endif %}
+      <h1 class="tar-title hub-title">{{ tytul|upper }}</h1>
+      {# Podtytuł to lista słów, a nie gotowy HTML — encje &nbsp; przekazane
+         w zmiennej Jinja wyszedłby jako widoczny tekst. Odstępy robi CSS. #}
+      {% if podtytul %}
+        <p class="tar-subtitle hub-subtitle">
+          {%- for czesc in podtytul %}<span>{{ czesc }}</span>{% endfor -%}
+        </p>
+      {% endif %}
     </div>
   </header>
 

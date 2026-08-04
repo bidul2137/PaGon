@@ -84,7 +84,12 @@
         {% elif kategoria %}
           <p class="prz-kontekst">{{ kategoria.nazwa }}</p>
         {% endif %}
-        <a href="{{ url_for('przepisy') }}" class="prz-wroc">&lsaquo; Wróć do kategorii</a>
+        <a href="{{ url_for('przepisy') }}" class="prz-wroc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M15 5l-7 7 7 7"/>
+          </svg>
+          Powrót do kategorii</a>
       </div>
 
       {% if widok == "rekordy" and kategoria and kategoria.pdf %}

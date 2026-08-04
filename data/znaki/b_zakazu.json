@@ -21,333 +21,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 16",
    "source_text": "§ 16. 1. Znak B-1 „zakaz ruchu w obu kierunkach” oznacza zakaz ruchu na drodze pojazdów, kolumn pieszych oraz jeźdźców i poganiaczy; znak może być ustawiony na jezdni. 2. Umieszczona pod znakiem B-1 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-10",
-  "code": "B-10",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wjazdu motorowerów",
-  "short_description": "Oznacza zakaz ruchu motorowerów.",
-  "details": "Znak B-10 „zakaz wjazdu motorowerów” oznacza zakaz ruchu motorowerów.",
-  "image_path": "img/znaki/B-10.png",
-  "keywords": [
-   "b-10",
-   "b10",
-   "motorowerów",
-   "wjazdu",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 18",
-   "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-11",
-  "code": "B-11",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wjazdu wózków rowerowych",
-  "short_description": "Oznacza zakaz ruchu wózków rowerowych.",
-  "details": "Znak B-11 „zakaz wjazdu wózków rowerowych” oznacza zakaz ruchu wózków rowerowych.",
-  "image_path": "img/znaki/B-11.png",
-  "keywords": [
-   "b-11",
-   "b11",
-   "rowerowych",
-   "wjazdu",
-   "wózków",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 18",
-   "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-12",
-  "code": "B-12",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wjazdu wózków ręcznych",
-  "short_description": "Oznacza zakaz ruchu na jezdni i poboczu wózków ręcznych przeznaczonych do używania na jezdni, prowadzonych, ciągniętych lub pchanych.",
-  "details": "Znak B-12 „zakaz wjazdu wózków ręcznych” oznacza zakaz ruchu na jezdni i poboczu wózków ręcznych przeznaczonych do używania na jezdni, prowadzonych, ciągniętych lub pchanych.",
-  "image_path": "img/znaki/B-12.png",
-  "keywords": [
-   "b-12",
-   "b12",
-   "ręcznych",
-   "wjazdu",
-   "wózków",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 18",
-   "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-13",
-  "code": "B-13",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi",
-  "short_description": "Oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 1, 3, 4.1, 4.2, 4.3, 5.1, 5.2 lub gazy palne klasy 2 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
-  "details": "Znak B-13 „zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 1, 3, 4.1, 4.2, 4.3, 5.1, 5.2 lub gazy palne klasy 2 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
-  "image_path": "img/znaki/B-13.png",
-  "keywords": [
-   "b-13",
-   "b13",
-   "pojazdów",
-   "towarami",
-   "wjazdu",
-   "wybuchowymi",
-   "zakaz",
-   "zapalnymi",
-   "łatwo"
-  ],
-  "related_sign_ids": [
-   "B-13a"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 19",
-   "source_text": "§ 19. 1. Znak B-13 „zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 1, 3, 4.1, 4.2, 4.3, 5.1, 5.2 lub gazy palne klasy 2 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Dziennik Ustaw – 8 – Poz. 2310 2. Znak B-13a „zakaz wjazdu pojazdów z towarami niebezpiecznymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Umieszczona pod znakiem tabliczka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz dotyczy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów. 3. Znak B-14 „zakaz wjazdu pojazdów z towarami, które mogą skazić wodę” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 3, 4.3, 6.1, 6.2, 8, gazy trujące lub gazy żrące klasy 2, lub towary niebezpieczne zagrażające środowisku klasy 9 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-13a",
-  "code": "B-13a",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wjazdu pojazdów z towarami niebezpiecznymi",
-  "short_description": "Oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
-  "details": "Znak B-13a „zakaz wjazdu pojazdów z towarami niebezpiecznymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
-  "image_path": "img/znaki/B-13a.png",
-  "keywords": [
-   "b-13a",
-   "b13a",
-   "niebezpiecznymi",
-   "pojazdów",
-   "towarami",
-   "wjazdu",
-   "zakaz"
-  ],
-  "related_sign_ids": [
-   "B-13"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 19",
-   "source_text": "§ 19. 1. Znak B-13 „zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 1, 3, 4.1, 4.2, 4.3, 5.1, 5.2 lub gazy palne klasy 2 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Dziennik Ustaw – 8 – Poz. 2310 2. Znak B-13a „zakaz wjazdu pojazdów z towarami niebezpiecznymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Umieszczona pod znakiem tabliczka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz dotyczy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów. 3. Znak B-14 „zakaz wjazdu pojazdów z towarami, które mogą skazić wodę” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 3, 4.3, 6.1, 6.2, 8, gazy trujące lub gazy żrące klasy 2, lub towary niebezpieczne zagrażające środowisku klasy 9 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-14",
-  "code": "B-14",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wjazdu pojazdów z towarami, które mogą skazić wodę",
-  "short_description": "Oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 3, 4.3, 6.1, 6.2, 8, gazy trujące lub gazy żrące klasy 2, lub towary niebezpieczne zagrażające środowisku klasy 9 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
-  "details": "Znak B-14 „zakaz wjazdu pojazdów z towarami, które mogą skazić wodę” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 3, 4.3, 6.1, 6.2, 8, gazy trujące lub gazy żrące klasy 2, lub towary niebezpieczne zagrażające środowisku klasy 9 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
-  "image_path": "img/znaki/B-14.png",
-  "keywords": [
-   "b-14",
-   "b14",
-   "które",
-   "mogą",
-   "pojazdów",
-   "skazić",
-   "towarami",
-   "wjazdu",
-   "wodę",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 19",
-   "source_text": "§ 19. 1. Znak B-13 „zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 1, 3, 4.1, 4.2, 4.3, 5.1, 5.2 lub gazy palne klasy 2 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Dziennik Ustaw – 8 – Poz. 2310 2. Znak B-13a „zakaz wjazdu pojazdów z towarami niebezpiecznymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Umieszczona pod znakiem tabliczka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz dotyczy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów. 3. Znak B-14 „zakaz wjazdu pojazdów z towarami, które mogą skazić wodę” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 3, 4.3, 6.1, 6.2, 8, gazy trujące lub gazy żrące klasy 2, lub towary niebezpieczne zagrażające środowisku klasy 9 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-15",
-  "code": "B-15",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wjazdu pojazdów o szerokości ponad ...... m",
-  "short_description": "Oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku.",
-  "details": "Znak B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m” oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku.",
-  "image_path": "img/znaki/B-15.png",
-  "keywords": [
-   "b-15",
-   "b15",
-   "pojazdów",
-   "ponad",
-   "szerokości",
-   "wjazdu",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 20",
-   "source_text": "§ 20. 1. Znak B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m” oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku. 2. Znak B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku. 3. Znak B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku. 4. Znak B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t” oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy. 5. Znak B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ..... t” oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku. 6. Jeżeli na znaku B-19 podano wartość 8 t lub 10 t, oznacza to dopuszczalny nacisk osi pojedynczej odpowiadający masie do 8 t lub 10 t, a osi wielokrotnej – odpowiednio większej masie, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-16",
-  "code": "B-16",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wjazdu pojazdów o wysokości ponad ...... m",
-  "short_description": "Oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku.",
-  "details": "Znak B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku.",
-  "image_path": "img/znaki/B-16.png",
-  "keywords": [
-   "b-16",
-   "b16",
-   "pojazdów",
-   "ponad",
-   "wjazdu",
-   "wysokości",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 20",
-   "source_text": "§ 20. 1. Znak B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m” oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku. 2. Znak B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku. 3. Znak B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku. 4. Znak B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t” oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy. 5. Znak B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ..... t” oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku. 6. Jeżeli na znaku B-19 podano wartość 8 t lub 10 t, oznacza to dopuszczalny nacisk osi pojedynczej odpowiadający masie do 8 t lub 10 t, a osi wielokrotnej – odpowiednio większej masie, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-17",
-  "code": "B-17",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wjazdu pojazdów o długości ponad ...... m",
-  "short_description": "Oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku.",
-  "details": "Znak B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku.",
-  "image_path": "img/znaki/B-17.png",
-  "keywords": [
-   "b-17",
-   "b17",
-   "długości",
-   "pojazdów",
-   "ponad",
-   "wjazdu",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 20",
-   "source_text": "§ 20. 1. Znak B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m” oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku. 2. Znak B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku. 3. Znak B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku. 4. Znak B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t” oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy. 5. Znak B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ..... t” oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku. 6. Jeżeli na znaku B-19 podano wartość 8 t lub 10 t, oznacza to dopuszczalny nacisk osi pojedynczej odpowiadający masie do 8 t lub 10 t, a osi wielokrotnej – odpowiednio większej masie, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-18",
-  "code": "B-18",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t",
-  "short_description": "Oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy.",
-  "details": "Znak B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t” oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy.",
-  "image_path": "img/znaki/B-18.png",
-  "keywords": [
-   "b-18",
-   "b18",
-   "całkowitej",
-   "masie",
-   "pojazdów",
-   "ponad",
-   "rzeczywistej",
-   "wjazdu",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 20",
-   "source_text": "§ 20. 1. Znak B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m” oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku. 2. Znak B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku. 3. Znak B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku. 4. Znak B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t” oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy. 5. Znak B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ..... t” oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku. 6. Jeżeli na znaku B-19 podano wartość 8 t lub 10 t, oznacza to dopuszczalny nacisk osi pojedynczej odpowiadający masie do 8 t lub 10 t, a osi wielokrotnej – odpowiednio większej masie, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-19",
-  "code": "B-19",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wjazdu pojazdów o nacisku osi większym niż ..... t",
-  "short_description": "Oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku.",
-  "details": "Znak B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ..... t” oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku. Jeżeli na znaku B-19 podano wartość 8 t lub 10 t, oznacza to dopuszczalny nacisk osi pojedynczej odpowiadający masie do 8 t lub 10 t, a osi wielokrotnej – odpowiednio większej masie, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
-  "image_path": "img/znaki/B-19.png",
-  "keywords": [
-   "b-19",
-   "b19",
-   "nacisku",
-   "pojazdów",
-   "większym",
-   "wjazdu",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 20",
-   "source_text": "§ 20. 1. Znak B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m” oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku. 2. Znak B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku. 3. Znak B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku. 4. Znak B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t” oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy. 5. Znak B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ..... t” oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku. 6. Jeżeli na znaku B-19 podano wartość 8 t lub 10 t, oznacza to dopuszczalny nacisk osi pojedynczej odpowiadający masie do 8 t lub 10 t, a osi wielokrotnej – odpowiednio większej masie, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -373,279 +47,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 17",
    "source_text": "§ 17. 1. Znak B-2 „zakaz wjazdu” oznacza zakaz wjazdu pojazdów na drogę lub jezdnię od strony jego umieszczenia; zakaz dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy. 2. Umieszczona pod znakiem B-2 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-20",
-  "code": "B-20",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "stop",
-  "short_description": "Oznacza: 1) zakaz wjazdu na skrzyżowanie bez zatrzymania się przed drogą z pierwszeństwem;",
-  "details": "Znak B-20 „stop” oznacza: 1) zakaz wjazdu na skrzyżowanie bez zatrzymania się przed drogą z pierwszeństwem; Znak B-20 umieszczony w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został ustawiony. 1–3 stosuje się odpowiednio do znaku B-20 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. Umieszczona pod znakiem B-20 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie.",
-  "image_path": "img/znaki/B-20.png",
-  "keywords": [
-   "b-20",
-   "b20",
-   "stop"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 21",
-   "source_text": "§ 21. 1. Znak B-20 „stop” oznacza: 1) zakaz wjazdu na skrzyżowanie bez zatrzymania się przed drogą z pierwszeństwem; 2) obowiązek ustąpienia pierwszeństwa kierującym poruszającym się tą drogą. 2. Zatrzymanie powinno nastąpić w wyznaczonym w tym celu miejscu, a w razie jego braku – w takim miejscu, w którym kierujący może upewnić się, że nie utrudni ruchu na drodze z pierwszeństwem. 3. Znak B-20 umieszczony w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został ustawiony. 4. Przepisy ust. 1–3 stosuje się odpowiednio do znaku B-20 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 5. Umieszczona pod znakiem B-20 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-21",
-  "code": "B-21",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz skręcania w lewo",
-  "short_description": "Zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania.",
-  "details": "Znaki: 1) B-21 „zakaz skręcania w lewo”, 2) B-22 „zakaz skręcania w prawo” zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania. Zakazy wyrażone znakami B-21 i B-22 obowiązują na najbliższym skrzyżowaniu, z zastrzeżeniem ust. Znaki B-21 i B-22 znajdujące się w obrębie skrzyżowania dotyczą tylko najbliższej jezdni, przed którą zostały umieszczone. Umieszczona pod znakiem B-21 lub B-22 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką.",
-  "image_path": "img/znaki/B-21.png",
-  "keywords": [
-   "b-21",
-   "b21",
-   "lewo",
-   "skręcania",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 22",
-   "source_text": "§ 22. 1. Znaki: 1) B-21 „zakaz skręcania w lewo”, 2) B-22 „zakaz skręcania w prawo” zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania. 2. Zakazy wyrażone znakami B-21 i B-22 obowiązują na najbliższym skrzyżowaniu, z zastrzeżeniem ust. 3. 3. Znaki B-21 i B-22 znajdujące się w obrębie skrzyżowania dotyczą tylko najbliższej jezdni, przed którą zostały umieszczone. Dziennik Ustaw – 9 – Poz. 2310 4. Umieszczona pod znakiem B-21 lub B-22 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką. 5. Znak B-23 „zakaz zawracania” zabrania kierującym zawracania do najbliższego skrzyżowania włącznie. 6. Znak B-24 „koniec zakazu zawracania” oznacza odwołanie zakazu zawracania przed skrzyżowaniem.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-22",
-  "code": "B-22",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz skręcania w prawo",
-  "short_description": "Zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania.",
-  "details": "Znaki: 1) B-21 „zakaz skręcania w lewo”, 2) B-22 „zakaz skręcania w prawo” zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania. Zakazy wyrażone znakami B-21 i B-22 obowiązują na najbliższym skrzyżowaniu, z zastrzeżeniem ust. Znaki B-21 i B-22 znajdujące się w obrębie skrzyżowania dotyczą tylko najbliższej jezdni, przed którą zostały umieszczone. Umieszczona pod znakiem B-21 lub B-22 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką.",
-  "image_path": "img/znaki/B-22.png",
-  "keywords": [
-   "b-22",
-   "b22",
-   "prawo",
-   "skręcania",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 22",
-   "source_text": "§ 22. 1. Znaki: 1) B-21 „zakaz skręcania w lewo”, 2) B-22 „zakaz skręcania w prawo” zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania. 2. Zakazy wyrażone znakami B-21 i B-22 obowiązują na najbliższym skrzyżowaniu, z zastrzeżeniem ust. 3. 3. Znaki B-21 i B-22 znajdujące się w obrębie skrzyżowania dotyczą tylko najbliższej jezdni, przed którą zostały umieszczone. Dziennik Ustaw – 9 – Poz. 2310 4. Umieszczona pod znakiem B-21 lub B-22 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką. 5. Znak B-23 „zakaz zawracania” zabrania kierującym zawracania do najbliższego skrzyżowania włącznie. 6. Znak B-24 „koniec zakazu zawracania” oznacza odwołanie zakazu zawracania przed skrzyżowaniem.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-23",
-  "code": "B-23",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz zawracania",
-  "short_description": "Zabrania kierującym zawracania do najbliższego skrzyżowania włącznie.",
-  "details": "Znak B-23 „zakaz zawracania” zabrania kierującym zawracania do najbliższego skrzyżowania włącznie.",
-  "image_path": "img/znaki/B-23.png",
-  "keywords": [
-   "b-23",
-   "b23",
-   "zakaz",
-   "zawracania"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 22",
-   "source_text": "§ 22. 1. Znaki: 1) B-21 „zakaz skręcania w lewo”, 2) B-22 „zakaz skręcania w prawo” zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania. 2. Zakazy wyrażone znakami B-21 i B-22 obowiązują na najbliższym skrzyżowaniu, z zastrzeżeniem ust. 3. 3. Znaki B-21 i B-22 znajdujące się w obrębie skrzyżowania dotyczą tylko najbliższej jezdni, przed którą zostały umieszczone. Dziennik Ustaw – 9 – Poz. 2310 4. Umieszczona pod znakiem B-21 lub B-22 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką. 5. Znak B-23 „zakaz zawracania” zabrania kierującym zawracania do najbliższego skrzyżowania włącznie. 6. Znak B-24 „koniec zakazu zawracania” oznacza odwołanie zakazu zawracania przed skrzyżowaniem.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-24",
-  "code": "B-24",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "koniec zakazu zawracania",
-  "short_description": "Oznacza odwołanie zakazu zawracania przed skrzyżowaniem.",
-  "details": "Znak B-24 „koniec zakazu zawracania” oznacza odwołanie zakazu zawracania przed skrzyżowaniem.",
-  "image_path": "img/znaki/B-24.png",
-  "keywords": [
-   "b-24",
-   "b24",
-   "koniec",
-   "zakazu",
-   "zawracania"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 22",
-   "source_text": "§ 22. 1. Znaki: 1) B-21 „zakaz skręcania w lewo”, 2) B-22 „zakaz skręcania w prawo” zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania. 2. Zakazy wyrażone znakami B-21 i B-22 obowiązują na najbliższym skrzyżowaniu, z zastrzeżeniem ust. 3. 3. Znaki B-21 i B-22 znajdujące się w obrębie skrzyżowania dotyczą tylko najbliższej jezdni, przed którą zostały umieszczone. Dziennik Ustaw – 9 – Poz. 2310 4. Umieszczona pod znakiem B-21 lub B-22 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką. 5. Znak B-23 „zakaz zawracania” zabrania kierującym zawracania do najbliższego skrzyżowania włącznie. 6. Znak B-24 „koniec zakazu zawracania” oznacza odwołanie zakazu zawracania przed skrzyżowaniem.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-25",
-  "code": "B-25",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wyprzedzania",
-  "short_description": "Zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych.",
-  "details": "Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25.",
-  "image_path": "img/znaki/B-25.png",
-  "keywords": [
-   "b-25",
-   "b25",
-   "wyprzedzania",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-26",
-  "code": "B-26",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz wyprzedzania przez samochody ciężarowe",
-  "short_description": "Zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t;",
-  "details": "Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiązywania zakazu określonego znakiem B-26.",
-  "image_path": "img/znaki/B-26.png",
-  "keywords": [
-   "b-26",
-   "b26",
-   "ciężarowe",
-   "przez",
-   "samochody",
-   "wyprzedzania",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-27",
-  "code": "B-27",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "koniec zakazu wyprzedzania",
-  "short_description": "Oznacza koniec obowiązywania zakazu określonego znakiem B-25.",
-  "details": "Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25.",
-  "image_path": "img/znaki/B-27.png",
-  "keywords": [
-   "b-27",
-   "b27",
-   "koniec",
-   "wyprzedzania",
-   "zakazu"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-28",
-  "code": "B-28",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "koniec zakazu wyprzedzania przez samochody ciężarowe",
-  "short_description": "Oznacza koniec obowiązywania zakazu określonego znakiem B-26.",
-  "details": "Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiązywania zakazu określonego znakiem B-26.",
-  "image_path": "img/znaki/B-28.png",
-  "keywords": [
-   "b-28",
-   "b28",
-   "ciężarowe",
-   "koniec",
-   "przez",
-   "samochody",
-   "wyprzedzania",
-   "zakazu"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 23",
-   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-29",
-  "code": "B-29",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz używania sygnałów dźwiękowych",
-  "short_description": "Zabrania używania tych sygnałów, chyba że jest to konieczne w celu ostrzeżenia o bezpośrednim zagrożeniu bezpieczeństwa ruchu.",
-  "details": "Znak B-29 „zakaz używania sygnałów dźwiękowych” zabrania używania tych sygnałów, chyba że jest to konieczne w celu ostrzeżenia o bezpośrednim zagrożeniu bezpieczeństwa ruchu. Znak B-30 „koniec zakazu używania sygnałów dźwiękowych” oznacza koniec obowiązywania zakazu określonego znakiem B-29.",
-  "image_path": "img/znaki/B-29.png",
-  "keywords": [
-   "b-29",
-   "b29",
-   "dźwiękowych",
-   "sygnałów",
-   "używania",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 24",
-   "source_text": "§ 24. 1. Znak B-29 „zakaz używania sygnałów dźwiękowych” zabrania używania tych sygnałów, chyba że jest to konieczne w celu ostrzeżenia o bezpośrednim zagrożeniu bezpieczeństwa ruchu. 2. Znak B-30 „koniec zakazu używania sygnałów dźwiękowych” oznacza koniec obowiązywania zakazu określonego znakiem B-29.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -678,276 +80,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 18",
    "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-30",
-  "code": "B-30",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "koniec zakazu używania sygnałów dźwiękowych",
-  "short_description": "Oznacza koniec obowiązywania zakazu określonego znakiem B-29.",
-  "details": "Znak B-30 „koniec zakazu używania sygnałów dźwiękowych” oznacza koniec obowiązywania zakazu określonego znakiem B-29.",
-  "image_path": "img/znaki/B-30.png",
-  "keywords": [
-   "b-30",
-   "b30",
-   "dźwiękowych",
-   "koniec",
-   "sygnałów",
-   "używania",
-   "zakazu"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 24",
-   "source_text": "§ 24. 1. Znak B-29 „zakaz używania sygnałów dźwiękowych” zabrania używania tych sygnałów, chyba że jest to konieczne w celu ostrzeżenia o bezpośrednim zagrożeniu bezpieczeństwa ruchu. 2. Znak B-30 „koniec zakazu używania sygnałów dźwiękowych” oznacza koniec obowiązywania zakazu określonego znakiem B-29.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-31",
-  "code": "B-31",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "pierwszeństwo dla nadjeżdżających z przeciwka",
-  "short_description": "Zabrania kierującym wjazdu lub wejścia na zwężony odcinek jezdni, jeżeli zmusiłoby to kierujących znajdujących się na tym odcinku lub zbliżających się do niego z przeciwnej strony do zatrzymania się.",
-  "details": "Znak B-31 „pierwszeństwo dla nadjeżdżających z przeciwka” zabrania kierującym wjazdu lub wejścia na zwężony odcinek jezdni, jeżeli zmusiłoby to kierujących znajdujących się na tym odcinku lub zbliżających się do niego z przeciwnej strony do zatrzymania się.",
-  "image_path": "img/znaki/B-31.png",
-  "keywords": [
-   "b-31",
-   "b31",
-   "nadjeżdżających",
-   "pierwszeństwo",
-   "przeciwka"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 25",
-   "source_text": "§ 25. Znak B-31 „pierwszeństwo dla nadjeżdżających z przeciwka” zabrania kierującym wjazdu lub wejścia na zwężony odcinek jezdni, jeżeli zmusiłoby to kierujących znajdujących się na tym odcinku lub zbliżających się do niego z przeciwnej strony do zatrzymania się.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-32",
-  "code": "B-32",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "stój – kontrola celna",
-  "short_description": "Oznacza obowiązek zatrzymania się.",
-  "details": "Znak B-32 „stój – kontrola celna” oznacza obowiązek zatrzymania się.",
-  "image_path": "img/znaki/B-32.png",
-  "keywords": [
-   "b-32",
-   "b32",
-   "celna",
-   "kontrola",
-   "stój"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 26",
-   "source_text": "§ 26. 1. Znak B-32 „stój – kontrola celna” oznacza obowiązek zatrzymania się. Zamiast napisu „Cło-Zoll” na znaku mogą być umieszczone napisy „Kontrola graniczna”, „Rogatka uszkodzona”, „Sygnalizacja uszkodzona”, „Wjazd na prom”, „Kontrola drogowa” lub „Pobór opłat” – odpowiednio do przyczyny zatrzymania. 2. Zatrzymanie powinno nastąpić w miejscu wyznaczonym w tym celu, a jeżeli nie jest ono wyznaczone – przed znakiem. Dalszy ruch może nastąpić za zgodą uprawnionej osoby lub po nadaniu sygnału zezwalającego na ruch. Dziennik Ustaw – 10 – Poz. 2310",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-33",
-  "code": "B-33",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "ograniczenie prędkości",
-  "short_description": "Oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę.",
-  "details": "Znak B-33 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę. 4 i § 32, do miejsca: 1) wprowadzenia innej dopuszczalnej prędkości znakiem B-33 lub B-43; Umieszczona pod znakiem B-33 tabliczka, o której mowa w § 23 ust. Znak B-33, określający dopuszczalną prędkość większą niż 50 km/h, umieszczony na obszarze zabudowanym, dotyczy samochodu osobowego, motocykla i samochodu ciężarowego o dopuszczalnej masie całkowitej nieprzekraczającej 3,5 t, z wyjątkiem: 1) pojazdu przewożącego towary niebezpieczne;",
-  "image_path": "img/znaki/B-33.png",
-  "keywords": [
-   "b-33",
-   "b33",
-   "ograniczenie",
-   "prędkości"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 27",
-   "source_text": "§ 27. 1. Znak B-33 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę. Dopuszczalna prędkość określona na znaku obowiązuje, z zastrzeżeniem ust. 4 i § 32, do miejsca: 1) wprowadzenia innej dopuszczalnej prędkości znakiem B-33 lub B-43; 2) umieszczenia znaku D-40 oznaczającego początek strefy zamieszkania; 3) umieszczenia znaków oznaczających odpowiednio początek lub koniec obszaru zabudowanego, o których mowa w § 58 ust. 3 i w § 114 ust. 1 pkt 1 i 2. 2. Umieszczona pod znakiem B-33 tabliczka, o której mowa w § 23 ust. 2, wskazuje, że ograniczenie prędkości dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-33, określający dopuszczalną prędkość większą niż 50 km/h, umieszczony na obszarze zabudowanym, dotyczy samochodu osobowego, motocykla i samochodu ciężarowego o dopuszczalnej masie całkowitej nieprzekraczającej 3,5 t, z wyjątkiem: 1) pojazdu przewożącego towary niebezpieczne; 2) pojazdu z urządzeniem wystającym do przodu więcej niż 1,5 m od siedzenia kierującego, o którym mowa w art. 20 ust. 6 pkt 2 ustawy; 3) pojazdu holującego pojazd silnikowy, o którym mowa w art. 31 ust. 1 pkt 1 ustawy; 4) motocykla, którym przewozi się dziecko w wieku do lat 7, o którym mowa w art. 20 ust. 6 pkt 3 ustawy; 5) samochodu ciężarowego przewożącego osoby poza kabiną kierowcy, o którym mowa w art. 63 ust. 2 pkt 4 ustawy. 4. Znak B-34 „koniec ograniczenia prędkości” oznacza odwołanie ograniczenia prędko",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-34",
-  "code": "B-34",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "koniec ograniczenia prędkości",
-  "short_description": "Oznacza odwołanie ograniczenia prędkości wprowadzonego znakiem B-33.",
-  "details": "Znak B-34 „koniec ograniczenia prędkości” oznacza odwołanie ograniczenia prędkości wprowadzonego znakiem B-33.",
-  "image_path": "img/znaki/B-34.png",
-  "keywords": [
-   "b-34",
-   "b34",
-   "koniec",
-   "ograniczenia",
-   "prędkości"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 27",
-   "source_text": "§ 27. 1. Znak B-33 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę. Dopuszczalna prędkość określona na znaku obowiązuje, z zastrzeżeniem ust. 4 i § 32, do miejsca: 1) wprowadzenia innej dopuszczalnej prędkości znakiem B-33 lub B-43; 2) umieszczenia znaku D-40 oznaczającego początek strefy zamieszkania; 3) umieszczenia znaków oznaczających odpowiednio początek lub koniec obszaru zabudowanego, o których mowa w § 58 ust. 3 i w § 114 ust. 1 pkt 1 i 2. 2. Umieszczona pod znakiem B-33 tabliczka, o której mowa w § 23 ust. 2, wskazuje, że ograniczenie prędkości dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-33, określający dopuszczalną prędkość większą niż 50 km/h, umieszczony na obszarze zabudowanym, dotyczy samochodu osobowego, motocykla i samochodu ciężarowego o dopuszczalnej masie całkowitej nieprzekraczającej 3,5 t, z wyjątkiem: 1) pojazdu przewożącego towary niebezpieczne; 2) pojazdu z urządzeniem wystającym do przodu więcej niż 1,5 m od siedzenia kierującego, o którym mowa w art. 20 ust. 6 pkt 2 ustawy; 3) pojazdu holującego pojazd silnikowy, o którym mowa w art. 31 ust. 1 pkt 1 ustawy; 4) motocykla, którym przewozi się dziecko w wieku do lat 7, o którym mowa w art. 20 ust. 6 pkt 3 ustawy; 5) samochodu ciężarowego przewożącego osoby poza kabiną kierowcy, o którym mowa w art. 63 ust. 2 pkt 4 ustawy. 4. Znak B-34 „koniec ograniczenia prędkości” oznacza odwołanie ograniczenia prędko",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-35",
-  "code": "B-35",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz postoju",
-  "short_description": "Oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce.",
-  "details": "Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2, do odwołania lub do miejsca umieszczenia znaku B-35. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela.",
-  "image_path": "img/znaki/B-35.png",
-  "keywords": [
-   "b-35",
-   "b35",
-   "postoju",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 28",
-   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-36",
-  "code": "B-36",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz zatrzymywania się",
-  "short_description": "Oznacza zakaz zatrzymania pojazdu.",
-  "details": "Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela.",
-  "image_path": "img/znaki/B-36.png",
-  "keywords": [
-   "b-36",
-   "b36",
-   "zakaz",
-   "zatrzymywania"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 28",
-   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-37",
-  "code": "B-37",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz postoju w dni nieparzyste",
-  "short_description": "Oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust.",
-  "details": "Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; Znak B-35, B-36, B-37 lub B-38 wraz z tabliczką T-26, umieszczony na placu równolegle do krawędzi jezdni, oznacza, że zakaz wyrażony tym znakiem dotyczy strony placu, przy której został ustawiony.",
-  "image_path": "img/znaki/B-37.png",
-  "keywords": [
-   "b-37",
-   "b37",
-   "nieparzyste",
-   "postoju",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 28",
-   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-38",
-  "code": "B-38",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz postoju w dni parzyste",
-  "short_description": "Oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust.",
-  "details": "Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; Znak B-35, B-36, B-37 lub B-38 wraz z tabliczką T-26, umieszczony na placu równolegle do krawędzi jezdni, oznacza, że zakaz wyrażony tym znakiem dotyczy strony placu, przy której został ustawiony.",
-  "image_path": "img/znaki/B-38.png",
-  "keywords": [
-   "b-38",
-   "b38",
-   "parzyste",
-   "postoju",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 28",
-   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-39",
-  "code": "B-39",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "strefa ograniczonego postoju",
-  "short_description": "Oznacza wjazd do strefy, w której obowiązuje zakaz postoju pojazdów na wszystkich drogach; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku.",
-  "details": "Znak B-39 „strefa ograniczonego postoju” oznacza wjazd do strefy, w której obowiązuje zakaz postoju pojazdów na wszystkich drogach; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku. Znak B-39 nie dotyczy: 1) pojazdu komunikacji publicznej zatrzymującego się na wyznaczonym dla niego miejscu;",
-  "image_path": "img/znaki/B-39.png",
-  "keywords": [
-   "b-39",
-   "b39",
-   "ograniczonego",
-   "postoju",
-   "strefa"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 29",
-   "source_text": "§ 29. 1. Znak B-39 „strefa ograniczonego postoju” oznacza wjazd do strefy, w której obowiązuje zakaz postoju pojazdów na wszystkich drogach; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku. 2. Znak B-39 nie dotyczy: 1) pojazdu komunikacji publicznej zatrzymującego się na wyznaczonym dla niego miejscu; 2) pojazdu zatrzymującego się w miejscu oznaczonym znakiem D-18, D-18a, D-18b lub D-44; 3) pojazdu unieruchomionego ze względu na warunki lub przepisy ruchu drogowego; 4) autobusu szkolnego. 3. Znak B-40 „koniec strefy ograniczonego postoju” oznacza wyjazd ze strefy ograniczonego postoju.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -976,7 +109,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 18",
    "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1003,143 +136,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 18",
    "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-40",
-  "code": "B-40",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "koniec strefy ograniczonego postoju",
-  "short_description": "Oznacza wyjazd ze strefy ograniczonego postoju.",
-  "details": "Znak B-40 „koniec strefy ograniczonego postoju” oznacza wyjazd ze strefy ograniczonego postoju.",
-  "image_path": "img/znaki/B-40.png",
-  "keywords": [
-   "b-40",
-   "b40",
-   "koniec",
-   "ograniczonego",
-   "postoju",
-   "strefy"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 29",
-   "source_text": "§ 29. 1. Znak B-39 „strefa ograniczonego postoju” oznacza wjazd do strefy, w której obowiązuje zakaz postoju pojazdów na wszystkich drogach; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku. 2. Znak B-39 nie dotyczy: 1) pojazdu komunikacji publicznej zatrzymującego się na wyznaczonym dla niego miejscu; 2) pojazdu zatrzymującego się w miejscu oznaczonym znakiem D-18, D-18a, D-18b lub D-44; 3) pojazdu unieruchomionego ze względu na warunki lub przepisy ruchu drogowego; 4) autobusu szkolnego. 3. Znak B-40 „koniec strefy ograniczonego postoju” oznacza wyjazd ze strefy ograniczonego postoju.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-41",
-  "code": "B-41",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "zakaz ruchu pieszych",
-  "short_description": "Oznacza zakaz ruchu pieszych po tej stronie drogi, po której znak jest umieszczony.",
-  "details": "Znak B-41 „zakaz ruchu pieszych” oznacza zakaz ruchu pieszych po tej stronie drogi, po której znak jest umieszczony.",
-  "image_path": "img/znaki/B-41.png",
-  "keywords": [
-   "b-41",
-   "b41",
-   "pieszych",
-   "ruchu",
-   "zakaz"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 30",
-   "source_text": "§ 30. Znak B-41 „zakaz ruchu pieszych” oznacza zakaz ruchu pieszych po tej stronie drogi, po której znak jest umieszczony.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-42",
-  "code": "B-42",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "koniec zakazów",
-  "short_description": "Oznacza odwołanie zakazów wyrażonych znakami: B-23, B-25, B-26, B-29 i B-33.",
-  "details": "Znak B-42 „koniec zakazów” oznacza odwołanie zakazów wyrażonych znakami: B-23, B-25, B-26, B-29 i B-33.",
-  "image_path": "img/znaki/B-42.png",
-  "keywords": [
-   "b-42",
-   "b42",
-   "koniec",
-   "zakazów"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 32",
-   "source_text": "§ 32. 1. Znak B-42 „koniec zakazów” oznacza odwołanie zakazów wyrażonych znakami: B-23, B-25, B-26, B-29 i B-33. 2. Jeżeli zakaz wyrażony przez znaki B-25, B-26, B-29, B-33, B-35, B-36, B-37 i B-38 nie jest uprzednio odwołany znakiem oznaczającym koniec zakazu, to obowiązuje on do najbliższego skrzyżowania; nie dotyczy to skrzyżowania na drodze dwujezdniowej, na którym wlot drogi poprzecznej znajduje się tylko z lewej strony i nie ma połączenia z prawą jezdnią.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-43",
-  "code": "B-43",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "strefa ograniczonej prędkości",
-  "short_description": "Oznacza wjazd do strefy, w której obowiązuje zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę.",
-  "details": "Znak B-43 „strefa ograniczonej prędkości” oznacza wjazd do strefy, w której obowiązuje zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę. Znak B-43, określający dopuszczalną prędkość mniejszą lub równą 30 km/h, oznacza ponadto, że umieszczone w strefie urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi.",
-  "image_path": "img/znaki/B-43.png",
-  "keywords": [
-   "b-43",
-   "b43",
-   "ograniczonej",
-   "prędkości",
-   "strefa"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 31",
-   "source_text": "§ 31. 1. Znak B-43 „strefa ograniczonej prędkości” oznacza wjazd do strefy, w której obowiązuje zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę. 2. Znak B-43, określający dopuszczalną prędkość mniejszą lub równą 30 km/h, oznacza ponadto, że umieszczone w strefie urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi. 3. Znak B-44 „koniec strefy ograniczonej prędkości” oznacza wyjazd ze strefy ograniczonej prędkości.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "B-44",
-  "code": "B-44",
-  "category_id": "B",
-  "category_name": "Znaki zakazu",
-  "name": "koniec strefy ograniczonej prędkości",
-  "short_description": "Oznacza wyjazd ze strefy ograniczonej prędkości.",
-  "details": "Znak B-44 „koniec strefy ograniczonej prędkości” oznacza wyjazd ze strefy ograniczonej prędkości.",
-  "image_path": "img/znaki/B-44.png",
-  "keywords": [
-   "b-44",
-   "b44",
-   "koniec",
-   "ograniczonej",
-   "prędkości",
-   "strefy"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 31",
-   "source_text": "§ 31. 1. Znak B-43 „strefa ograniczonej prędkości” oznacza wjazd do strefy, w której obowiązuje zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę. 2. Znak B-43, określający dopuszczalną prędkość mniejszą lub równą 30 km/h, oznacza ponadto, że umieszczone w strefie urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi. 3. Znak B-44 „koniec strefy ograniczonej prędkości” oznacza wyjazd ze strefy ograniczonej prędkości.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1167,7 +164,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 18",
    "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1195,7 +192,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 18",
    "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1224,7 +221,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 18",
    "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1252,7 +249,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 18",
    "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1279,7 +276,1010 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 18",
    "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-10",
+  "code": "B-10",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wjazdu motorowerów",
+  "short_description": "Oznacza zakaz ruchu motorowerów.",
+  "details": "Znak B-10 „zakaz wjazdu motorowerów” oznacza zakaz ruchu motorowerów.",
+  "image_path": "img/znaki/B-10.png",
+  "keywords": [
+   "b-10",
+   "b10",
+   "motorowerów",
+   "wjazdu",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 18",
+   "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-11",
+  "code": "B-11",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wjazdu wózków rowerowych",
+  "short_description": "Oznacza zakaz ruchu wózków rowerowych.",
+  "details": "Znak B-11 „zakaz wjazdu wózków rowerowych” oznacza zakaz ruchu wózków rowerowych.",
+  "image_path": "img/znaki/B-11.png",
+  "keywords": [
+   "b-11",
+   "b11",
+   "rowerowych",
+   "wjazdu",
+   "wózków",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 18",
+   "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-12",
+  "code": "B-12",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wjazdu wózków ręcznych",
+  "short_description": "Oznacza zakaz ruchu na jezdni i poboczu wózków ręcznych przeznaczonych do używania na jezdni, prowadzonych, ciągniętych lub pchanych.",
+  "details": "Znak B-12 „zakaz wjazdu wózków ręcznych” oznacza zakaz ruchu na jezdni i poboczu wózków ręcznych przeznaczonych do używania na jezdni, prowadzonych, ciągniętych lub pchanych.",
+  "image_path": "img/znaki/B-12.png",
+  "keywords": [
+   "b-12",
+   "b12",
+   "ręcznych",
+   "wjazdu",
+   "wózków",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 18",
+   "source_text": "§ 18. 1. Znak B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, oznacza zakaz ruchu pojazdów silnikowych; zakaz nie dotyczy motocykli jednośladowych. 2. Znak B-3a „zakaz wjazdu autobusów” oznacza zakaz ruchu autobusów. 3. Znak B-4 „zakaz wjazdu motocykli” oznacza zakaz ruchu motocykli. 4. Znak B-5 „zakaz wjazdu samochodów ciężarowych” oznacza zakaz ruchu: 1) samochodów ciężarowych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągników samochodowych; 3) pojazdów specjalnych i używanych do celów specjalnych o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 4) ciągników rolniczych; 5) pojazdów wolnobieżnych. 5. Określona na znaku B-5 albo na tabliczce umieszczonej pod nim masa oznacza, że zakaz dotyczy pojazdu (zespołu pojazdów), którego dopuszczalna masa całkowita przekracza masę podaną na znaku albo na tabliczce. 6. Znak B-6 „zakaz wjazdu ciągników rolniczych” oznacza zakaz ruchu ciągników rolniczych i pojazdów wolnobieżnych. 7. Znak B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą” oznacza zakaz ruchu pojazdów silnikowych z przyczepą (przyczepami); zakaz nie dotyczy pojazdów z przyczepą jednoosiową lub naczepą. 8. Określona na znaku B-7 lub na tabliczce umieszczonej pod nim masa dotyczy dopuszczalnej masy całkowitej przyczepy, a w razie ciągnięcia dwóch przyczep – sumy ich mas. 9. Znak B-8 „zakaz wjazdu pojazdów zaprzęgowych” oznacza zakaz ruchu pojazdów zaprzęgowych oraz jeźdźców i poganiaczy. 10. Znak B-9 „zakaz wjazdu rowe",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-13",
+  "code": "B-13",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi",
+  "short_description": "Oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 1, 3, 4.1, 4.2, 4.3, 5.1, 5.2 lub gazy palne klasy 2 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
+  "details": "Znak B-13 „zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 1, 3, 4.1, 4.2, 4.3, 5.1, 5.2 lub gazy palne klasy 2 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
+  "image_path": "img/znaki/B-13.png",
+  "keywords": [
+   "b-13",
+   "b13",
+   "pojazdów",
+   "towarami",
+   "wjazdu",
+   "wybuchowymi",
+   "zakaz",
+   "zapalnymi",
+   "łatwo"
+  ],
+  "related_sign_ids": [
+   "B-13a"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 19",
+   "source_text": "§ 19. 1. Znak B-13 „zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 1, 3, 4.1, 4.2, 4.3, 5.1, 5.2 lub gazy palne klasy 2 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Dziennik Ustaw – 8 – Poz. 2310 2. Znak B-13a „zakaz wjazdu pojazdów z towarami niebezpiecznymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Umieszczona pod znakiem tabliczka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz dotyczy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów. 3. Znak B-14 „zakaz wjazdu pojazdów z towarami, które mogą skazić wodę” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 3, 4.3, 6.1, 6.2, 8, gazy trujące lub gazy żrące klasy 2, lub towary niebezpieczne zagrażające środowisku klasy 9 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-13a",
+  "code": "B-13a",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wjazdu pojazdów z towarami niebezpiecznymi",
+  "short_description": "Oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
+  "details": "Znak B-13a „zakaz wjazdu pojazdów z towarami niebezpiecznymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
+  "image_path": "img/znaki/B-13a.png",
+  "keywords": [
+   "b-13a",
+   "b13a",
+   "niebezpiecznymi",
+   "pojazdów",
+   "towarami",
+   "wjazdu",
+   "zakaz"
+  ],
+  "related_sign_ids": [
+   "B-13"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 19",
+   "source_text": "§ 19. 1. Znak B-13 „zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 1, 3, 4.1, 4.2, 4.3, 5.1, 5.2 lub gazy palne klasy 2 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Dziennik Ustaw – 8 – Poz. 2310 2. Znak B-13a „zakaz wjazdu pojazdów z towarami niebezpiecznymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Umieszczona pod znakiem tabliczka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz dotyczy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów. 3. Znak B-14 „zakaz wjazdu pojazdów z towarami, które mogą skazić wodę” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 3, 4.3, 6.1, 6.2, 8, gazy trujące lub gazy żrące klasy 2, lub towary niebezpieczne zagrażające środowisku klasy 9 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-14",
+  "code": "B-14",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wjazdu pojazdów z towarami, które mogą skazić wodę",
+  "short_description": "Oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 3, 4.3, 6.1, 6.2, 8, gazy trujące lub gazy żrące klasy 2, lub towary niebezpieczne zagrażające środowisku klasy 9 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
+  "details": "Znak B-14 „zakaz wjazdu pojazdów z towarami, które mogą skazić wodę” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 3, 4.3, 6.1, 6.2, 8, gazy trujące lub gazy żrące klasy 2, lub towary niebezpieczne zagrażające środowisku klasy 9 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
+  "image_path": "img/znaki/B-14.png",
+  "keywords": [
+   "b-14",
+   "b14",
+   "które",
+   "mogą",
+   "pojazdów",
+   "skazić",
+   "towarami",
+   "wjazdu",
+   "wodę",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 19",
+   "source_text": "§ 19. 1. Znak B-13 „zakaz wjazdu pojazdów z towarami wybuchowymi lub łatwo zapalnymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 1, 3, 4.1, 4.2, 4.3, 5.1, 5.2 lub gazy palne klasy 2 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Dziennik Ustaw – 8 – Poz. 2310 2. Znak B-13a „zakaz wjazdu pojazdów z towarami niebezpiecznymi” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej. Umieszczona pod znakiem tabliczka T-31 z literą B, C, D lub E oznaczającą kategorię tunelu lub tabliczka z odpowiednim napisem wskazuje, że zakaz dotyczy tylko określonych klas lub grup towarów niebezpiecznych lub określonego sposobu przewozu tych towarów. 3. Znak B-14 „zakaz wjazdu pojazdów z towarami, które mogą skazić wodę” oznacza zakaz ruchu pojazdów przewożących, określone w przepisach o przewozie drogowym towarów niebezpiecznych, towary niebezpieczne klas: 3, 4.3, 6.1, 6.2, 8, gazy trujące lub gazy żrące klasy 2, lub towary niebezpieczne zagrażające środowisku klasy 9 w ilościach, dla których jest wymagane oznakowanie pojazdu tablicami ostrzegawczymi barwy pomarańczowej.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-15",
+  "code": "B-15",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wjazdu pojazdów o szerokości ponad ...... m",
+  "short_description": "Oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku.",
+  "details": "Znak B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m” oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku.",
+  "image_path": "img/znaki/B-15.png",
+  "keywords": [
+   "b-15",
+   "b15",
+   "pojazdów",
+   "ponad",
+   "szerokości",
+   "wjazdu",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 20",
+   "source_text": "§ 20. 1. Znak B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m” oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku. 2. Znak B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku. 3. Znak B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku. 4. Znak B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t” oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy. 5. Znak B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ..... t” oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku. 6. Jeżeli na znaku B-19 podano wartość 8 t lub 10 t, oznacza to dopuszczalny nacisk osi pojedynczej odpowiadający masie do 8 t lub 10 t, a osi wielokrotnej – odpowiednio większej masie, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-16",
+  "code": "B-16",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wjazdu pojazdów o wysokości ponad ...... m",
+  "short_description": "Oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku.",
+  "details": "Znak B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku.",
+  "image_path": "img/znaki/B-16.png",
+  "keywords": [
+   "b-16",
+   "b16",
+   "pojazdów",
+   "ponad",
+   "wjazdu",
+   "wysokości",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 20",
+   "source_text": "§ 20. 1. Znak B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m” oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku. 2. Znak B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku. 3. Znak B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku. 4. Znak B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t” oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy. 5. Znak B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ..... t” oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku. 6. Jeżeli na znaku B-19 podano wartość 8 t lub 10 t, oznacza to dopuszczalny nacisk osi pojedynczej odpowiadający masie do 8 t lub 10 t, a osi wielokrotnej – odpowiednio większej masie, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-17",
+  "code": "B-17",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wjazdu pojazdów o długości ponad ...... m",
+  "short_description": "Oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku.",
+  "details": "Znak B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku.",
+  "image_path": "img/znaki/B-17.png",
+  "keywords": [
+   "b-17",
+   "b17",
+   "długości",
+   "pojazdów",
+   "ponad",
+   "wjazdu",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 20",
+   "source_text": "§ 20. 1. Znak B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m” oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku. 2. Znak B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku. 3. Znak B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku. 4. Znak B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t” oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy. 5. Znak B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ..... t” oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku. 6. Jeżeli na znaku B-19 podano wartość 8 t lub 10 t, oznacza to dopuszczalny nacisk osi pojedynczej odpowiadający masie do 8 t lub 10 t, a osi wielokrotnej – odpowiednio większej masie, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-18",
+  "code": "B-18",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t",
+  "short_description": "Oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy.",
+  "details": "Znak B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t” oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy.",
+  "image_path": "img/znaki/B-18.png",
+  "keywords": [
+   "b-18",
+   "b18",
+   "całkowitej",
+   "masie",
+   "pojazdów",
+   "ponad",
+   "rzeczywistej",
+   "wjazdu",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 20",
+   "source_text": "§ 20. 1. Znak B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m” oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku. 2. Znak B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku. 3. Znak B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku. 4. Znak B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t” oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy. 5. Znak B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ..... t” oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku. 6. Jeżeli na znaku B-19 podano wartość 8 t lub 10 t, oznacza to dopuszczalny nacisk osi pojedynczej odpowiadający masie do 8 t lub 10 t, a osi wielokrotnej – odpowiednio większej masie, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-19",
+  "code": "B-19",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wjazdu pojazdów o nacisku osi większym niż ..... t",
+  "short_description": "Oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku.",
+  "details": "Znak B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ..... t” oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku. Jeżeli na znaku B-19 podano wartość 8 t lub 10 t, oznacza to dopuszczalny nacisk osi pojedynczej odpowiadający masie do 8 t lub 10 t, a osi wielokrotnej – odpowiednio większej masie, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
+  "image_path": "img/znaki/B-19.png",
+  "keywords": [
+   "b-19",
+   "b19",
+   "nacisku",
+   "pojazdów",
+   "większym",
+   "wjazdu",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 20",
+   "source_text": "§ 20. 1. Znak B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m” oznacza zakaz ruchu pojazdów, których szerokość (również z ładunkiem) jest większa od wartości podanej na znaku. 2. Znak B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od wartości podanej na znaku. 3. Znak B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” oznacza zakaz ruchu pojazdów lub zespołów pojazdów, których długość (również z ładunkiem) jest większa od wartości podanej na znaku. 4. Znak B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ..... t” oznacza zakaz ruchu pojazdów, których rzeczywista masa całkowita jest większa od wartości podanej na znaku; w przypadku zespołu pojazdów zakaz dotyczy ich łącznej masy. 5. Znak B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ..... t” oznacza zakaz ruchu pojazdów, których nacisk osi jest większy od nacisku odpowiadającego masie podanej na znaku; w przypadku osi wielokrotnej nacisk żadnej z osi składowych nie może odpowiadać masie większej niż 80% masy podanej na znaku. 6. Jeżeli na znaku B-19 podano wartość 8 t lub 10 t, oznacza to dopuszczalny nacisk osi pojedynczej odpowiadający masie do 8 t lub 10 t, a osi wielokrotnej – odpowiednio większej masie, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-20",
+  "code": "B-20",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "stop",
+  "short_description": "Oznacza: 1) zakaz wjazdu na skrzyżowanie bez zatrzymania się przed drogą z pierwszeństwem;",
+  "details": "Znak B-20 „stop” oznacza: 1) zakaz wjazdu na skrzyżowanie bez zatrzymania się przed drogą z pierwszeństwem; Znak B-20 umieszczony w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został ustawiony. 1–3 stosuje się odpowiednio do znaku B-20 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. Umieszczona pod znakiem B-20 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie.",
+  "image_path": "img/znaki/B-20.png",
+  "keywords": [
+   "b-20",
+   "b20",
+   "stop"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 21",
+   "source_text": "§ 21. 1. Znak B-20 „stop” oznacza: 1) zakaz wjazdu na skrzyżowanie bez zatrzymania się przed drogą z pierwszeństwem; 2) obowiązek ustąpienia pierwszeństwa kierującym poruszającym się tą drogą. 2. Zatrzymanie powinno nastąpić w wyznaczonym w tym celu miejscu, a w razie jego braku – w takim miejscu, w którym kierujący może upewnić się, że nie utrudni ruchu na drodze z pierwszeństwem. 3. Znak B-20 umieszczony w obrębie skrzyżowania dotyczy tylko najbliższej jezdni, przed którą został ustawiony. 4. Przepisy ust. 1–3 stosuje się odpowiednio do znaku B-20 umieszczonego przed torowiskiem pojazdów szynowych lub w innych miejscach przecinania się kierunków ruchu. 5. Umieszczona pod znakiem B-20 tabliczka T-6c lub T-6d wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-21",
+  "code": "B-21",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz skręcania w lewo",
+  "short_description": "Zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania.",
+  "details": "Znaki: 1) B-21 „zakaz skręcania w lewo”, 2) B-22 „zakaz skręcania w prawo” zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania. Zakazy wyrażone znakami B-21 i B-22 obowiązują na najbliższym skrzyżowaniu, z zastrzeżeniem ust. Znaki B-21 i B-22 znajdujące się w obrębie skrzyżowania dotyczą tylko najbliższej jezdni, przed którą zostały umieszczone. Umieszczona pod znakiem B-21 lub B-22 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką.",
+  "image_path": "img/znaki/B-21.png",
+  "keywords": [
+   "b-21",
+   "b21",
+   "lewo",
+   "skręcania",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 22",
+   "source_text": "§ 22. 1. Znaki: 1) B-21 „zakaz skręcania w lewo”, 2) B-22 „zakaz skręcania w prawo” zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania. 2. Zakazy wyrażone znakami B-21 i B-22 obowiązują na najbliższym skrzyżowaniu, z zastrzeżeniem ust. 3. 3. Znaki B-21 i B-22 znajdujące się w obrębie skrzyżowania dotyczą tylko najbliższej jezdni, przed którą zostały umieszczone. Dziennik Ustaw – 9 – Poz. 2310 4. Umieszczona pod znakiem B-21 lub B-22 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką. 5. Znak B-23 „zakaz zawracania” zabrania kierującym zawracania do najbliższego skrzyżowania włącznie. 6. Znak B-24 „koniec zakazu zawracania” oznacza odwołanie zakazu zawracania przed skrzyżowaniem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-22",
+  "code": "B-22",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz skręcania w prawo",
+  "short_description": "Zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania.",
+  "details": "Znaki: 1) B-21 „zakaz skręcania w lewo”, 2) B-22 „zakaz skręcania w prawo” zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania. Zakazy wyrażone znakami B-21 i B-22 obowiązują na najbliższym skrzyżowaniu, z zastrzeżeniem ust. Znaki B-21 i B-22 znajdujące się w obrębie skrzyżowania dotyczą tylko najbliższej jezdni, przed którą zostały umieszczone. Umieszczona pod znakiem B-21 lub B-22 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką.",
+  "image_path": "img/znaki/B-22.png",
+  "keywords": [
+   "b-22",
+   "b22",
+   "prawo",
+   "skręcania",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 22",
+   "source_text": "§ 22. 1. Znaki: 1) B-21 „zakaz skręcania w lewo”, 2) B-22 „zakaz skręcania w prawo” zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania. 2. Zakazy wyrażone znakami B-21 i B-22 obowiązują na najbliższym skrzyżowaniu, z zastrzeżeniem ust. 3. 3. Znaki B-21 i B-22 znajdujące się w obrębie skrzyżowania dotyczą tylko najbliższej jezdni, przed którą zostały umieszczone. Dziennik Ustaw – 9 – Poz. 2310 4. Umieszczona pod znakiem B-21 lub B-22 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką. 5. Znak B-23 „zakaz zawracania” zabrania kierującym zawracania do najbliższego skrzyżowania włącznie. 6. Znak B-24 „koniec zakazu zawracania” oznacza odwołanie zakazu zawracania przed skrzyżowaniem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-23",
+  "code": "B-23",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz zawracania",
+  "short_description": "Zabrania kierującym zawracania do najbliższego skrzyżowania włącznie.",
+  "details": "Znak B-23 „zakaz zawracania” zabrania kierującym zawracania do najbliższego skrzyżowania włącznie.",
+  "image_path": "img/znaki/B-23.png",
+  "keywords": [
+   "b-23",
+   "b23",
+   "zakaz",
+   "zawracania"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 22",
+   "source_text": "§ 22. 1. Znaki: 1) B-21 „zakaz skręcania w lewo”, 2) B-22 „zakaz skręcania w prawo” zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania. 2. Zakazy wyrażone znakami B-21 i B-22 obowiązują na najbliższym skrzyżowaniu, z zastrzeżeniem ust. 3. 3. Znaki B-21 i B-22 znajdujące się w obrębie skrzyżowania dotyczą tylko najbliższej jezdni, przed którą zostały umieszczone. Dziennik Ustaw – 9 – Poz. 2310 4. Umieszczona pod znakiem B-21 lub B-22 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką. 5. Znak B-23 „zakaz zawracania” zabrania kierującym zawracania do najbliższego skrzyżowania włącznie. 6. Znak B-24 „koniec zakazu zawracania” oznacza odwołanie zakazu zawracania przed skrzyżowaniem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-24",
+  "code": "B-24",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "koniec zakazu zawracania",
+  "short_description": "Oznacza odwołanie zakazu zawracania przed skrzyżowaniem.",
+  "details": "Znak B-24 „koniec zakazu zawracania” oznacza odwołanie zakazu zawracania przed skrzyżowaniem.",
+  "image_path": "img/znaki/B-24.png",
+  "keywords": [
+   "b-24",
+   "b24",
+   "koniec",
+   "zakazu",
+   "zawracania"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 22",
+   "source_text": "§ 22. 1. Znaki: 1) B-21 „zakaz skręcania w lewo”, 2) B-22 „zakaz skręcania w prawo” zabraniają skręcania w kierunku wskazanym na znaku; ponadto znak B-21 zabrania zawracania. 2. Zakazy wyrażone znakami B-21 i B-22 obowiązują na najbliższym skrzyżowaniu, z zastrzeżeniem ust. 3. 3. Znaki B-21 i B-22 znajdujące się w obrębie skrzyżowania dotyczą tylko najbliższej jezdni, przed którą zostały umieszczone. Dziennik Ustaw – 9 – Poz. 2310 4. Umieszczona pod znakiem B-21 lub B-22 tabliczka z napisem „Nie dotyczy” wraz z symbolem pojazdu lub wyrażeniem określającym pojazd wskazuje, że zakaz nie dotyczy pojazdu określonego tabliczką. 5. Znak B-23 „zakaz zawracania” zabrania kierującym zawracania do najbliższego skrzyżowania włącznie. 6. Znak B-24 „koniec zakazu zawracania” oznacza odwołanie zakazu zawracania przed skrzyżowaniem.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-25",
+  "code": "B-25",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wyprzedzania",
+  "short_description": "Zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych.",
+  "details": "Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25.",
+  "image_path": "img/znaki/B-25.png",
+  "keywords": [
+   "b-25",
+   "b25",
+   "wyprzedzania",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 23",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-26",
+  "code": "B-26",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz wyprzedzania przez samochody ciężarowe",
+  "short_description": "Zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t;",
+  "details": "Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiązywania zakazu określonego znakiem B-26.",
+  "image_path": "img/znaki/B-26.png",
+  "keywords": [
+   "b-26",
+   "b26",
+   "ciężarowe",
+   "przez",
+   "samochody",
+   "wyprzedzania",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 23",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-27",
+  "code": "B-27",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "koniec zakazu wyprzedzania",
+  "short_description": "Oznacza koniec obowiązywania zakazu określonego znakiem B-25.",
+  "details": "Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25.",
+  "image_path": "img/znaki/B-27.png",
+  "keywords": [
+   "b-27",
+   "b27",
+   "koniec",
+   "wyprzedzania",
+   "zakazu"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 23",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-28",
+  "code": "B-28",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "koniec zakazu wyprzedzania przez samochody ciężarowe",
+  "short_description": "Oznacza koniec obowiązywania zakazu określonego znakiem B-26.",
+  "details": "Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiązywania zakazu określonego znakiem B-26.",
+  "image_path": "img/znaki/B-28.png",
+  "keywords": [
+   "b-28",
+   "b28",
+   "ciężarowe",
+   "koniec",
+   "przez",
+   "samochody",
+   "wyprzedzania",
+   "zakazu"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 23",
+   "source_text": "§ 23. 1. Znak B-25 „zakaz wyprzedzania” zabrania kierującym pojazdami silnikowymi wyprzedzania pojazdów silnikowych wielośladowych. 2. Umieszczona pod znakiem B-25 tabliczka: 1) T-23a – motocykl, 2) T-23b – samochód ciężarowy, pojazd specjalny, pojazd używany do celów specjalnych, o dopuszczalnej masie całkowitej przekraczającej 3,5 t oraz ciągnik samochodowy, 3) T-23c – ciągnik rolniczy i pojazd wolnobieżny, 4) T-23d – pojazd silnikowy z przyczepą, z wyjątkiem pojazdów z przyczepą jednoosiową lub naczepą, 5) T-23e – pojazd z przyczepą kempingową, 6) T-23f – autobus, 7) T-23g – trolejbus, 8) T-23h – pojazd przewożący towary niebezpieczne określone w § 19 ust. 2, 9) T-23i – pojazd przewożący towary wybuchowe lub łatwo zapalne określone w § 19 ust. 1, 10) T-23j – pojazd przewożący towary, które mogą skazić wodę, określone w § 19 ust. 3, wskazuje, że zakaz wyprzedzania dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-26 „zakaz wyprzedzania przez samochody ciężarowe” zabrania wyprzedzania pojazdów silnikowych wielośladowych kierującemu: 1) samochodem ciężarowym o dopuszczalnej masie całkowitej przekraczającej 3,5 t; 2) ciągnikiem samochodowym; 3) pojazdem specjalnym lub używanym do celów specjalnych – o dopuszczalnej masie całkowitej przekraczającej 3,5 t. 4. Znak B-27 „koniec zakazu wyprzedzania” oznacza koniec obowiązywania zakazu określonego znakiem B-25. 5. Znak B-28 „koniec zakazu wyprzedzania przez samochody ciężarowe” oznacza koniec obowiąz",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-29",
+  "code": "B-29",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz używania sygnałów dźwiękowych",
+  "short_description": "Zabrania używania tych sygnałów, chyba że jest to konieczne w celu ostrzeżenia o bezpośrednim zagrożeniu bezpieczeństwa ruchu.",
+  "details": "Znak B-29 „zakaz używania sygnałów dźwiękowych” zabrania używania tych sygnałów, chyba że jest to konieczne w celu ostrzeżenia o bezpośrednim zagrożeniu bezpieczeństwa ruchu. Znak B-30 „koniec zakazu używania sygnałów dźwiękowych” oznacza koniec obowiązywania zakazu określonego znakiem B-29.",
+  "image_path": "img/znaki/B-29.png",
+  "keywords": [
+   "b-29",
+   "b29",
+   "dźwiękowych",
+   "sygnałów",
+   "używania",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 24",
+   "source_text": "§ 24. 1. Znak B-29 „zakaz używania sygnałów dźwiękowych” zabrania używania tych sygnałów, chyba że jest to konieczne w celu ostrzeżenia o bezpośrednim zagrożeniu bezpieczeństwa ruchu. 2. Znak B-30 „koniec zakazu używania sygnałów dźwiękowych” oznacza koniec obowiązywania zakazu określonego znakiem B-29.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-30",
+  "code": "B-30",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "koniec zakazu używania sygnałów dźwiękowych",
+  "short_description": "Oznacza koniec obowiązywania zakazu określonego znakiem B-29.",
+  "details": "Znak B-30 „koniec zakazu używania sygnałów dźwiękowych” oznacza koniec obowiązywania zakazu określonego znakiem B-29.",
+  "image_path": "img/znaki/B-30.png",
+  "keywords": [
+   "b-30",
+   "b30",
+   "dźwiękowych",
+   "koniec",
+   "sygnałów",
+   "używania",
+   "zakazu"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 24",
+   "source_text": "§ 24. 1. Znak B-29 „zakaz używania sygnałów dźwiękowych” zabrania używania tych sygnałów, chyba że jest to konieczne w celu ostrzeżenia o bezpośrednim zagrożeniu bezpieczeństwa ruchu. 2. Znak B-30 „koniec zakazu używania sygnałów dźwiękowych” oznacza koniec obowiązywania zakazu określonego znakiem B-29.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-31",
+  "code": "B-31",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "pierwszeństwo dla nadjeżdżających z przeciwka",
+  "short_description": "Zabrania kierującym wjazdu lub wejścia na zwężony odcinek jezdni, jeżeli zmusiłoby to kierujących znajdujących się na tym odcinku lub zbliżających się do niego z przeciwnej strony do zatrzymania się.",
+  "details": "Znak B-31 „pierwszeństwo dla nadjeżdżających z przeciwka” zabrania kierującym wjazdu lub wejścia na zwężony odcinek jezdni, jeżeli zmusiłoby to kierujących znajdujących się na tym odcinku lub zbliżających się do niego z przeciwnej strony do zatrzymania się.",
+  "image_path": "img/znaki/B-31.png",
+  "keywords": [
+   "b-31",
+   "b31",
+   "nadjeżdżających",
+   "pierwszeństwo",
+   "przeciwka"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 25",
+   "source_text": "§ 25. Znak B-31 „pierwszeństwo dla nadjeżdżających z przeciwka” zabrania kierującym wjazdu lub wejścia na zwężony odcinek jezdni, jeżeli zmusiłoby to kierujących znajdujących się na tym odcinku lub zbliżających się do niego z przeciwnej strony do zatrzymania się.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-32",
+  "code": "B-32",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "stój – kontrola celna",
+  "short_description": "Oznacza obowiązek zatrzymania się.",
+  "details": "Znak B-32 „stój – kontrola celna” oznacza obowiązek zatrzymania się.",
+  "image_path": "img/znaki/B-32.png",
+  "keywords": [
+   "b-32",
+   "b32",
+   "celna",
+   "kontrola",
+   "stój"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 26",
+   "source_text": "§ 26. 1. Znak B-32 „stój – kontrola celna” oznacza obowiązek zatrzymania się. Zamiast napisu „Cło-Zoll” na znaku mogą być umieszczone napisy „Kontrola graniczna”, „Rogatka uszkodzona”, „Sygnalizacja uszkodzona”, „Wjazd na prom”, „Kontrola drogowa” lub „Pobór opłat” – odpowiednio do przyczyny zatrzymania. 2. Zatrzymanie powinno nastąpić w miejscu wyznaczonym w tym celu, a jeżeli nie jest ono wyznaczone – przed znakiem. Dalszy ruch może nastąpić za zgodą uprawnionej osoby lub po nadaniu sygnału zezwalającego na ruch. Dziennik Ustaw – 10 – Poz. 2310",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-33",
+  "code": "B-33",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "ograniczenie prędkości",
+  "short_description": "Oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę.",
+  "details": "Znak B-33 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę. 4 i § 32, do miejsca: 1) wprowadzenia innej dopuszczalnej prędkości znakiem B-33 lub B-43; Umieszczona pod znakiem B-33 tabliczka, o której mowa w § 23 ust. Znak B-33, określający dopuszczalną prędkość większą niż 50 km/h, umieszczony na obszarze zabudowanym, dotyczy samochodu osobowego, motocykla i samochodu ciężarowego o dopuszczalnej masie całkowitej nieprzekraczającej 3,5 t, z wyjątkiem: 1) pojazdu przewożącego towary niebezpieczne;",
+  "image_path": "img/znaki/B-33.png",
+  "keywords": [
+   "b-33",
+   "b33",
+   "ograniczenie",
+   "prędkości"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 27",
+   "source_text": "§ 27. 1. Znak B-33 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę. Dopuszczalna prędkość określona na znaku obowiązuje, z zastrzeżeniem ust. 4 i § 32, do miejsca: 1) wprowadzenia innej dopuszczalnej prędkości znakiem B-33 lub B-43; 2) umieszczenia znaku D-40 oznaczającego początek strefy zamieszkania; 3) umieszczenia znaków oznaczających odpowiednio początek lub koniec obszaru zabudowanego, o których mowa w § 58 ust. 3 i w § 114 ust. 1 pkt 1 i 2. 2. Umieszczona pod znakiem B-33 tabliczka, o której mowa w § 23 ust. 2, wskazuje, że ograniczenie prędkości dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-33, określający dopuszczalną prędkość większą niż 50 km/h, umieszczony na obszarze zabudowanym, dotyczy samochodu osobowego, motocykla i samochodu ciężarowego o dopuszczalnej masie całkowitej nieprzekraczającej 3,5 t, z wyjątkiem: 1) pojazdu przewożącego towary niebezpieczne; 2) pojazdu z urządzeniem wystającym do przodu więcej niż 1,5 m od siedzenia kierującego, o którym mowa w art. 20 ust. 6 pkt 2 ustawy; 3) pojazdu holującego pojazd silnikowy, o którym mowa w art. 31 ust. 1 pkt 1 ustawy; 4) motocykla, którym przewozi się dziecko w wieku do lat 7, o którym mowa w art. 20 ust. 6 pkt 3 ustawy; 5) samochodu ciężarowego przewożącego osoby poza kabiną kierowcy, o którym mowa w art. 63 ust. 2 pkt 4 ustawy. 4. Znak B-34 „koniec ograniczenia prędkości” oznacza odwołanie ograniczenia prędko",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-34",
+  "code": "B-34",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "koniec ograniczenia prędkości",
+  "short_description": "Oznacza odwołanie ograniczenia prędkości wprowadzonego znakiem B-33.",
+  "details": "Znak B-34 „koniec ograniczenia prędkości” oznacza odwołanie ograniczenia prędkości wprowadzonego znakiem B-33.",
+  "image_path": "img/znaki/B-34.png",
+  "keywords": [
+   "b-34",
+   "b34",
+   "koniec",
+   "ograniczenia",
+   "prędkości"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 27",
+   "source_text": "§ 27. 1. Znak B-33 „ograniczenie prędkości” oznacza zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę. Dopuszczalna prędkość określona na znaku obowiązuje, z zastrzeżeniem ust. 4 i § 32, do miejsca: 1) wprowadzenia innej dopuszczalnej prędkości znakiem B-33 lub B-43; 2) umieszczenia znaku D-40 oznaczającego początek strefy zamieszkania; 3) umieszczenia znaków oznaczających odpowiednio początek lub koniec obszaru zabudowanego, o których mowa w § 58 ust. 3 i w § 114 ust. 1 pkt 1 i 2. 2. Umieszczona pod znakiem B-33 tabliczka, o której mowa w § 23 ust. 2, wskazuje, że ograniczenie prędkości dotyczy kierującego pojazdem, którego symbol znajduje się na tabliczce. 3. Znak B-33, określający dopuszczalną prędkość większą niż 50 km/h, umieszczony na obszarze zabudowanym, dotyczy samochodu osobowego, motocykla i samochodu ciężarowego o dopuszczalnej masie całkowitej nieprzekraczającej 3,5 t, z wyjątkiem: 1) pojazdu przewożącego towary niebezpieczne; 2) pojazdu z urządzeniem wystającym do przodu więcej niż 1,5 m od siedzenia kierującego, o którym mowa w art. 20 ust. 6 pkt 2 ustawy; 3) pojazdu holującego pojazd silnikowy, o którym mowa w art. 31 ust. 1 pkt 1 ustawy; 4) motocykla, którym przewozi się dziecko w wieku do lat 7, o którym mowa w art. 20 ust. 6 pkt 3 ustawy; 5) samochodu ciężarowego przewożącego osoby poza kabiną kierowcy, o którym mowa w art. 63 ust. 2 pkt 4 ustawy. 4. Znak B-34 „koniec ograniczenia prędkości” oznacza odwołanie ograniczenia prędko",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-35",
+  "code": "B-35",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz postoju",
+  "short_description": "Oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce.",
+  "details": "Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2, do odwołania lub do miejsca umieszczenia znaku B-35. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela.",
+  "image_path": "img/znaki/B-35.png",
+  "keywords": [
+   "b-35",
+   "b35",
+   "postoju",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 28",
+   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-36",
+  "code": "B-36",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz zatrzymywania się",
+  "short_description": "Oznacza zakaz zatrzymania pojazdu.",
+  "details": "Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela.",
+  "image_path": "img/znaki/B-36.png",
+  "keywords": [
+   "b-36",
+   "b36",
+   "zakaz",
+   "zatrzymywania"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 28",
+   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-37",
+  "code": "B-37",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz postoju w dni nieparzyste",
+  "short_description": "Oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust.",
+  "details": "Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; Znak B-35, B-36, B-37 lub B-38 wraz z tabliczką T-26, umieszczony na placu równolegle do krawędzi jezdni, oznacza, że zakaz wyrażony tym znakiem dotyczy strony placu, przy której został ustawiony.",
+  "image_path": "img/znaki/B-37.png",
+  "keywords": [
+   "b-37",
+   "b37",
+   "nieparzyste",
+   "postoju",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 28",
+   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-38",
+  "code": "B-38",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz postoju w dni parzyste",
+  "short_description": "Oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust.",
+  "details": "Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; Znak B-35, B-36, B-37 lub B-38 wraz z tabliczką T-26, umieszczony na placu równolegle do krawędzi jezdni, oznacza, że zakaz wyrażony tym znakiem dotyczy strony placu, przy której został ustawiony.",
+  "image_path": "img/znaki/B-38.png",
+  "keywords": [
+   "b-38",
+   "b38",
+   "parzyste",
+   "postoju",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 28",
+   "source_text": "§ 28. 1. Znak B-35 „zakaz postoju” oznacza zakaz postoju pojazdu; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku albo na umieszczonej pod nim tabliczce. 2. Znak B-36 „zakaz zatrzymywania się” oznacza zakaz zatrzymania pojazdu. 3. Zakaz wyrażony znakiem B-35 lub B-36: 1) dotyczy tej strony drogi, po której znak się znajduje, z wyjątkiem miejsc, gdzie za pomocą znaku dopuszcza się postój lub zatrzymanie; 2) dotyczy również kolumn pieszych oraz jeźdźców i poganiaczy; 3) nie dotyczy pojazdów unieruchomionych ze względu na warunki lub przepisy ruchu drogowego. 4. Zakaz wyrażony znakiem B-36 obowiązuje, z zastrzeżeniem § 32 ust. 2, do odwołania lub do miejsca umieszczenia znaku B-35. 5. Umieszczona pod znakiem B-35 lub B-36 tabliczka T-24 wskazuje, że pojazd pozostawiony w miejscu, w którym obowiązuje zakaz wyrażony tym znakiem, zostanie usunięty z drogi na koszt właściciela. 6. Znaki: 1) B-37 „zakaz postoju w dni nieparzyste”, 2) B-38 „zakaz postoju w dni parzyste” oznaczają zakaz postoju pojazdów odpowiednio w nieparzyste lub parzyste dni miesiąca; zakaz nie obowiązuje od godziny 21 do 24; przepisy ust. 1 i 3–5 stosuje się odpowiednio do tych znaków. 7. Umieszczone pod znakiem B-35, B-36, B-37 lub B-38 tabliczki wskazują: 1) T-25a – początek zakazu wyrażonego znakiem; 2) T-25b – kontynuację zakazu wyrażonego znakiem; 3) T-25c – odwołanie zakazu wyrażonego znakiem. Dziennik Ustaw – 11 – Poz. 2310 8. Znak B-35, B-36, B-37 lub B-38 ",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-39",
+  "code": "B-39",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "strefa ograniczonego postoju",
+  "short_description": "Oznacza wjazd do strefy, w której obowiązuje zakaz postoju pojazdów na wszystkich drogach; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku.",
+  "details": "Znak B-39 „strefa ograniczonego postoju” oznacza wjazd do strefy, w której obowiązuje zakaz postoju pojazdów na wszystkich drogach; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku. Znak B-39 nie dotyczy: 1) pojazdu komunikacji publicznej zatrzymującego się na wyznaczonym dla niego miejscu;",
+  "image_path": "img/znaki/B-39.png",
+  "keywords": [
+   "b-39",
+   "b39",
+   "ograniczonego",
+   "postoju",
+   "strefa"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 29",
+   "source_text": "§ 29. 1. Znak B-39 „strefa ograniczonego postoju” oznacza wjazd do strefy, w której obowiązuje zakaz postoju pojazdów na wszystkich drogach; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku. 2. Znak B-39 nie dotyczy: 1) pojazdu komunikacji publicznej zatrzymującego się na wyznaczonym dla niego miejscu; 2) pojazdu zatrzymującego się w miejscu oznaczonym znakiem D-18, D-18a, D-18b lub D-44; 3) pojazdu unieruchomionego ze względu na warunki lub przepisy ruchu drogowego; 4) autobusu szkolnego. 3. Znak B-40 „koniec strefy ograniczonego postoju” oznacza wyjazd ze strefy ograniczonego postoju.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-40",
+  "code": "B-40",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "koniec strefy ograniczonego postoju",
+  "short_description": "Oznacza wyjazd ze strefy ograniczonego postoju.",
+  "details": "Znak B-40 „koniec strefy ograniczonego postoju” oznacza wyjazd ze strefy ograniczonego postoju.",
+  "image_path": "img/znaki/B-40.png",
+  "keywords": [
+   "b-40",
+   "b40",
+   "koniec",
+   "ograniczonego",
+   "postoju",
+   "strefy"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 29",
+   "source_text": "§ 29. 1. Znak B-39 „strefa ograniczonego postoju” oznacza wjazd do strefy, w której obowiązuje zakaz postoju pojazdów na wszystkich drogach; dopuszczalny czas unieruchomienia pojazdu dłuższy niż jedna minuta jest wskazany napisem na znaku. 2. Znak B-39 nie dotyczy: 1) pojazdu komunikacji publicznej zatrzymującego się na wyznaczonym dla niego miejscu; 2) pojazdu zatrzymującego się w miejscu oznaczonym znakiem D-18, D-18a, D-18b lub D-44; 3) pojazdu unieruchomionego ze względu na warunki lub przepisy ruchu drogowego; 4) autobusu szkolnego. 3. Znak B-40 „koniec strefy ograniczonego postoju” oznacza wyjazd ze strefy ograniczonego postoju.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-41",
+  "code": "B-41",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "zakaz ruchu pieszych",
+  "short_description": "Oznacza zakaz ruchu pieszych po tej stronie drogi, po której znak jest umieszczony.",
+  "details": "Znak B-41 „zakaz ruchu pieszych” oznacza zakaz ruchu pieszych po tej stronie drogi, po której znak jest umieszczony.",
+  "image_path": "img/znaki/B-41.png",
+  "keywords": [
+   "b-41",
+   "b41",
+   "pieszych",
+   "ruchu",
+   "zakaz"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 30",
+   "source_text": "§ 30. Znak B-41 „zakaz ruchu pieszych” oznacza zakaz ruchu pieszych po tej stronie drogi, po której znak jest umieszczony.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-42",
+  "code": "B-42",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "koniec zakazów",
+  "short_description": "Oznacza odwołanie zakazów wyrażonych znakami: B-23, B-25, B-26, B-29 i B-33.",
+  "details": "Znak B-42 „koniec zakazów” oznacza odwołanie zakazów wyrażonych znakami: B-23, B-25, B-26, B-29 i B-33.",
+  "image_path": "img/znaki/B-42.png",
+  "keywords": [
+   "b-42",
+   "b42",
+   "koniec",
+   "zakazów"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 32",
+   "source_text": "§ 32. 1. Znak B-42 „koniec zakazów” oznacza odwołanie zakazów wyrażonych znakami: B-23, B-25, B-26, B-29 i B-33. 2. Jeżeli zakaz wyrażony przez znaki B-25, B-26, B-29, B-33, B-35, B-36, B-37 i B-38 nie jest uprzednio odwołany znakiem oznaczającym koniec zakazu, to obowiązuje on do najbliższego skrzyżowania; nie dotyczy to skrzyżowania na drodze dwujezdniowej, na którym wlot drogi poprzecznej znajduje się tylko z lewej strony i nie ma połączenia z prawą jezdnią.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-43",
+  "code": "B-43",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "strefa ograniczonej prędkości",
+  "short_description": "Oznacza wjazd do strefy, w której obowiązuje zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę.",
+  "details": "Znak B-43 „strefa ograniczonej prędkości” oznacza wjazd do strefy, w której obowiązuje zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę. Znak B-43, określający dopuszczalną prędkość mniejszą lub równą 30 km/h, oznacza ponadto, że umieszczone w strefie urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi.",
+  "image_path": "img/znaki/B-43.png",
+  "keywords": [
+   "b-43",
+   "b43",
+   "ograniczonej",
+   "prędkości",
+   "strefa"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 31",
+   "source_text": "§ 31. 1. Znak B-43 „strefa ograniczonej prędkości” oznacza wjazd do strefy, w której obowiązuje zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę. 2. Znak B-43, określający dopuszczalną prędkość mniejszą lub równą 30 km/h, oznacza ponadto, że umieszczone w strefie urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi. 3. Znak B-44 „koniec strefy ograniczonej prędkości” oznacza wyjazd ze strefy ograniczonej prędkości.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "B-44",
+  "code": "B-44",
+  "category_id": "B",
+  "category_name": "Znaki zakazu",
+  "name": "koniec strefy ograniczonej prędkości",
+  "short_description": "Oznacza wyjazd ze strefy ograniczonej prędkości.",
+  "details": "Znak B-44 „koniec strefy ograniczonej prędkości” oznacza wyjazd ze strefy ograniczonej prędkości.",
+  "image_path": "img/znaki/B-44.png",
+  "keywords": [
+   "b-44",
+   "b44",
+   "koniec",
+   "ograniczonej",
+   "prędkości",
+   "strefy"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 31",
+   "source_text": "§ 31. 1. Znak B-43 „strefa ograniczonej prędkości” oznacza wjazd do strefy, w której obowiązuje zakaz przekraczania prędkości określonej na znaku liczbą kilometrów na godzinę. 2. Znak B-43, określający dopuszczalną prędkość mniejszą lub równą 30 km/h, oznacza ponadto, że umieszczone w strefie urządzenia i rozwiązania wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi. 3. Znak B-44 „koniec strefy ograniczonej prędkości” oznacza wyjazd ze strefy ograniczonej prędkości.",
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null

@@ -238,10 +238,20 @@ def pomoce():
         )
 
     if kategoria_slug:
+        # Podkafelek nalezacy do huba (numery, SPB) dostaje wlasny powrot DO HUBA.
+        # Strzalka w lewym gornym rogu prowadzi do Pomocy — gdyby powrot robil to
+        # samo, uzytkownik wypadalby z grupy i musial wchodzic w nia od nowa.
+        HUBY = {
+            "numery": ("pomoce_numery_telefonow", "Powrót do numerów telefonów"),
+            "spb": ("pomoce_spb", "Powrót do środków przymusu"),
+        }
+        hub = HUBY.get((aktualna_kategoria or {}).get("grupa"))
         return render_template(
             "pomoce.html", widok="linki", kategorie=kategorie,
             kategoria=aktualna_kategoria, query="",
             linki=[r for r in linki if r.get("category") == kategoria_slug],
+            hub_url=url_for(hub[0]) if hub else None,
+            hub_etykieta=hub[1] if hub else None,
         )
 
     # Indeks wyszukiwania dla kafelkow: dla kazdej kategorii sklejamy tekst
@@ -357,6 +367,24 @@ def pomoce_znaki_kategoria(seria):
                            wersja=dane["wersja"])
 
 
+def _wykroczenia_dla_znaku(kod):
+    """Rekordy taryfikatora dotyczace danego znaku.
+
+    Wiazemy WYLACZNIE po tytule i streszczeniu rekordu, bo tam kod znaku pada
+    celowo ("Niestosowanie sie do znaku B-2 ..."). Pole legal_qualification_text
+    cytuje przepis, ktory wylicza kilkanascie znakow naraz — dopasowanie po nim
+    dawaloby powiazania wrecz falszywe (B-33 trafialby do wykroczenia o B-37).
+
+    Kod porownujemy jako osobny wyraz, zeby B-2 nie zlapalo B-25 ani B-2a.
+    """
+    wzor = re.compile(r"(?<![A-Za-z0-9-])" + re.escape(kod) + r"(?![A-Za-z0-9])")
+    wynik = []
+    for r in load_taryfikator()["rekordy"]:
+        if wzor.search(r.get("title") or "") or wzor.search(r.get("summary") or ""):
+            wynik.append(r)
+    return wynik
+
+
 @app.route("/pomoce/znaki/znak/<kod>")
 def pomoce_znaki_znak(kod):
     """Podstrona pojedynczego znaku."""
@@ -369,7 +397,8 @@ def pomoce_znaki_znak(kod):
     powiazane = [dane["indeks"][k] for k in znak.get("related_sign_ids", [])
                  if k in dane["indeks"]]
     return render_template("znaki_znak.html", znak=znak, kategoria=kat,
-                           powiazane=powiazane, wersja=dane["wersja"])
+                           powiazane=powiazane, wersja=dane["wersja"],
+                           wykroczenia=_wykroczenia_dla_znaku(znak["code"]))
 
 
 @app.route("/pomoce/znaki/dane")
@@ -453,6 +482,108 @@ def pomoce_tablica_adr_dane():
     return odp
 
 
+_CZYNY_CACHE = None
+
+
+def _kody_czynow_dane():
+    """Kody czynow z zalacznika + kwoty mandatow dolaczone z taryfikatora.
+
+    Mandatow NIE trzymamy w bazie kodow czynow. Wynikaja z innego aktu i leza juz
+    w data/taryfikator.json, wiec laczymy jedno z drugim po kodzie czynu dopiero
+    tutaj. Dzieki temu kwota istnieje w jednym miejscu — poprawka w taryfikatorze
+    jest od razu widoczna w obu modulach i nie da sie doprowadzic do rozbieznosci.
+
+    Jeden kod czynu obejmuje zwykle wiele konkretnych naruszen (C 20 ma ich 26),
+    dlatego mandaty sa lista, a nie pojedyncza wartoscia.
+    """
+    global _CZYNY_CACHE
+    katalog = BASE_DIR / "data" / "kody_czynow"
+    pliki = [katalog / "codes.json", katalog / "categories.json",
+             katalog / "metadata.json", BASE_DIR / "data" / "taryfikator.json"]
+    try:
+        znacznik = tuple(p.stat().st_mtime_ns for p in pliki)
+    except OSError:
+        return None
+    if _CZYNY_CACHE is not None and _CZYNY_CACHE["znacznik"] == znacznik:
+        return _CZYNY_CACHE
+
+    with open(pliki[0], encoding="utf-8") as f:
+        kody = json.load(f)
+    with open(pliki[1], encoding="utf-8") as f:
+        kategorie = json.load(f)
+    with open(pliki[2], encoding="utf-8") as f:
+        meta = json.load(f)
+
+    mandaty = {}
+    for r in load_taryfikator()["rekordy"]:
+        if r.get("code"):
+            mandaty.setdefault(r["code"], []).append(r)
+
+    indeks = {}
+    for k in kody:
+        k["mandaty"] = mandaty.get(k["code"], [])
+        indeks[k["code_normalized"]] = k
+    for kat in kategorie:
+        kat["count"] = sum(1 for k in kody if k["category_id"] == kat["id"])
+
+    _CZYNY_CACHE = {"znacznik": znacznik, "kody": kody, "kategorie": kategorie,
+                    "meta": meta, "indeks": indeks,
+                    "wersja": "%s-%d" % (meta.get("dataset_version", "0"),
+                                         int(pliki[0].stat().st_mtime))}
+    return _CZYNY_CACHE
+
+
+def _normalizuj_kod_czynu(wpis):
+    """'a-02', ' A 02 ', 'A02' -> 'A02'. Inaczej None."""
+    s = re.sub(r"[^A-Za-z0-9]", "", str(wpis or "")).upper()
+    m = re.match(r"^([A-J])(\d{1,2})$", s)
+    return "%s%02d" % (m.group(1), int(m.group(2))) if m else None
+
+
+@app.route("/pomoce/kody-czynow")
+def pomoce_kody_czynow():
+    """Lista kodow czynow z wyszukiwarka."""
+    dane = _kody_czynow_dane()
+    return render_template("kody_czynow.html",
+                           kategorie=(dane or {}).get("kategorie") or [],
+                           meta=(dane or {}).get("meta"),
+                           wersja=(dane or {}).get("wersja", "0"))
+
+
+@app.route("/pomoce/kody-czynow/dane")
+def pomoce_kody_czynow_dane():
+    """Lekki indeks do wyszukiwarki — bez kwalifikacji i zrodel."""
+    dane = _kody_czynow_dane()
+    if dane is None:
+        abort(404)
+    lekkie = [{"k": k["code"], "n": k["code_normalized"], "t": k["title"],
+               "p": k["points"], "c": k["category_id"],
+               "m": bool(k["mandaty"]), "w": k.get("keywords") or []}
+              for k in dane["kody"]]
+    odp = Response(json.dumps(lekkie, ensure_ascii=False, separators=(",", ":")),
+                   mimetype="application/json")
+    odp.headers["Cache-Control"] = "public, max-age=604800, immutable"
+    return odp
+
+
+@app.route("/pomoce/kody-czynow/kod/<kod>")
+def pomoce_kody_czynow_kod(kod):
+    """Podstrona pojedynczego kodu czynu."""
+    dane = _kody_czynow_dane()
+    if dane is None:
+        abort(404)
+    czyn = dane["indeks"].get(_normalizuj_kod_czynu(kod) or "")
+    if not czyn:
+        abort(404)
+    kat = next((k for k in dane["kategorie"] if k["id"] == czyn["category_id"]), None)
+    # powiazane: sasiednie kody tego samego dzialu, a nie dobrane przypadkowo
+    tenzial = [k for k in dane["kody"] if k["category_id"] == czyn["category_id"]]
+    i = tenzial.index(czyn)
+    powiazane = [k for k in tenzial[max(0, i - 2):i + 3] if k is not czyn][:4]
+    return render_template("kody_czynow_kod.html", czyn=czyn, kategoria=kat,
+                           powiazane=powiazane, meta=dane["meta"])
+
+
 _KODY_CACHE = None
 
 
@@ -525,6 +656,31 @@ def pomoce_kody_pocztowe_dane():
     return odp
 
 
+@app.route("/pomoce/numery-itd")
+def pomoce_numery_itd():
+    """Wojewodzkie inspektoraty transportu drogowego wraz z oddzialami.
+
+    Ponad 70 pozycji, wiec plaska lista bylaby nie do przejrzenia — widok
+    grupuje je po wojewodztwie i rozwija dopiero wybrane.
+    """
+    with open(BASE_DIR / "data" / "witd.json", encoding="utf-8") as f:
+        dane = json.load(f)
+    return render_template("numery_itd.html", dane=dane)
+
+
+@app.route("/pomoce/numery-straz-graniczna")
+def pomoce_numery_sg():
+    """Oddzialy Strazy Granicznej wraz z placowkami.
+
+    Ponad 100 placowek, wiec — jak w module ITD — grupujemy je po oddziale
+    i rozwijamy dopiero wybrany. Szablon korzysta ze stylow numery_itd.css,
+    bo uklad jest ten sam; wystarczy ta sama klasa kontenera .itd-page.
+    """
+    with open(BASE_DIR / "data" / "straz_graniczna.json", encoding="utf-8") as f:
+        dane = json.load(f)
+    return render_template("numery_sg.html", dane=dane)
+
+
 @app.route("/pomoce/numery-telefonow")
 def pomoce_numery_telefonow():
     """Hub 'Numery telefonów i CKT' — podkafelki z numerami poszczegolnych sluzb.
@@ -538,8 +694,8 @@ def pomoce_numery_telefonow():
     return render_template(
         "hub.html",
         kategorie=podkafelki,
-        tytul="Numery telefonów i CKT",
-        podtytul="ALARMOWE&nbsp;&nbsp;SŁUŻBOWE&nbsp;&nbsp;KSIĄŻKA&nbsp;&nbsp;TELEFONICZNA",
+        tytul="Numery telefonów",
+        podtytul=["ALARMOWE", "SŁUŻBOWE", "KSIĄŻKA TELEFONICZNA"],
     )
 
 

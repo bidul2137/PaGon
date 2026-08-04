@@ -1,0 +1,133 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Numery telefonów do Straży Granicznej{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+{# Ten sam układ co w module ITD, więc te same style i ten sam skrypt —
+   obydwa są zakresowane klasą .itd-page, którą nosi kontener niżej. #}
+<link rel="stylesheet" href="{{ static_v('css/numery_itd.css') }}">
+
+<div class="tar-page kpj-page itd-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce_numery_telefonow') }}" class="tar-back"
+       aria-label="Powrót do numerów telefonów">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Numery telefonów do Straży Granicznej</h1>
+      <p class="kpj-lead">Oddziały Straży Granicznej i wszystkie ich placówki.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+
+    {# Telefon interwencyjny jest wspólny dla całego kraju i zwykle od niego
+       zaczyna się szukanie, więc stoi nad listą oddziałów. #}
+    <section class="itd-gitd">
+      <p class="itd-gitd-nazwa">Telefon interwencyjny Straży Granicznej</p>
+      <a class="itd-tel itd-tel--duzy" href="tel:{{ dane.kg.interwencyjny|replace(' ','') }}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M7.4 3.6h2.9l1.5 3.7-1.9 1.2a10 10 0 0 0 4.6 4.6l1.2-1.9 3.7 1.5v2.9a1.6 1.6 0 0 1-1.7 1.6C11.1 16.8 6.6 12.3 6 5.3a1.6 1.6 0 0 1 1.4-1.7z"/>
+        </svg>
+        {{ dane.kg.interwencyjny }}
+      </a>
+      <p class="itd-gitd-godziny">{{ dane.kg.opis }}
+        Komenda Główna SG: {{ dane.kg.telefon }}.</p>
+    </section>
+
+    <div class="itd-pole-wrap">
+      <span class="itd-pole-ikona" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+             stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="6.4"/><path d="M15.8 15.8L21 21"/>
+        </svg>
+      </span>
+      <input type="search" id="itdSzukaj" class="itd-pole"
+             placeholder="Np. Terespol, Medyka, morski"
+             aria-label="Szukaj oddziału, placówki lub miejscowości"
+             spellcheck="false" maxlength="60">
+    </div>
+
+    {# Powrót do huba numerów — strzałka w rogu wraca do Pomocy,
+       a ten przycisk o poziom wyżej w module. #}
+    <a class="itd-powrot" href="{{ url_for('pomoce_numery_telefonow') }}">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M15 5l-7 7 7 7"/>
+      </svg>
+      Powrót do numerów telefonów
+    </a>
+
+    <p class="itd-licznik" id="itdLicznik" aria-live="polite"></p>
+
+    {# Ponad 100 placówek — rozwijamy tylko wybrany oddział. Element details
+       działa bez JavaScriptu, więc lista pozostaje użyteczna nawet gdy skrypt
+       się nie wykona. #}
+    {% for o in dane.oddzialy %}
+    <details class="itd-woj" data-szukaj="{{ o.nazwa }} {{ o.skrot }} {{ o.miasto }} {{ o.adres }} {{ o.zasieg }}
+      {% for pl in o.placowki %}{{ pl.nazwa }} {{ pl.adres }} {% endfor %}">
+      <summary class="itd-woj-head">
+        <span class="itd-woj-nazwa">{{ o.nazwa }}</span>
+        <span class="itd-woj-miasto">{{ o.miasto }}</span>
+        <span class="itd-woj-ile">{{ o.placowki|length }}
+          {{ 'placówka' if o.placowki|length == 1 else 'placówki' if o.placowki|length < 5 else 'placówek' }}</span>
+      </summary>
+
+      <div class="itd-woj-tresc">
+        <div class="itd-karta itd-karta--siedziba">
+          <p class="itd-etykieta">Komenda oddziału</p>
+          <p class="itd-adres">{{ o.adres }}</p>
+          {% if o.telefon %}
+            <a class="itd-tel" href="tel:{{ o.telefon|replace(' ','') }}">{{ o.telefon }}</a>
+          {% endif %}
+          {% if o.dyzurny %}
+            <p class="itd-drobne">służba dyżurna (całodobowo) {{ o.dyzurny }}</p>
+          {% endif %}
+          {% if o.interwencyjny %}
+            <p class="itd-drobne">telefon interwencyjny oddziału {{ o.interwencyjny }}</p>
+          {% endif %}
+          {% if o.fax %}<p class="itd-drobne">faks {{ o.fax }}</p>{% endif %}
+          {% if o.zasieg %}<p class="itd-drobne">zasięg: {{ o.zasieg }}</p>{% endif %}
+          {% if o.www %}
+          <div class="itd-linki">
+            <a class="itd-link" href="{{ o.www }}" target="_blank" rel="noopener">Strona oddziału</a>
+          </div>
+          {% endif %}
+        </div>
+
+        {% if o.placowki %}
+        <p class="itd-etykieta itd-etykieta--sekcja">Placówki</p>
+        {% for pl in o.placowki %}
+        <div class="itd-karta">
+          <p class="itd-oddzial">{{ pl.nazwa }}</p>
+          <p class="itd-adres">{{ pl.adres }}</p>
+          {% if pl.telefon %}
+            <a class="itd-tel" href="tel:{{ pl.telefon|replace(' ','') }}">{{ pl.telefon }}</a>
+          {% endif %}
+          {% if pl.uwaga %}<p class="itd-drobne">{{ pl.uwaga }}</p>{% endif %}
+          {% if pl.fax %}<p class="itd-drobne">faks {{ pl.fax }}</p>{% endif %}
+          {% if pl.email %}
+            <div class="itd-linki">
+              <a class="itd-link" href="mailto:{{ pl.email }}">{{ pl.email }}</a>
+            </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+        {% endif %}
+      </div>
+    </details>
+    {% endfor %}
+
+    <p class="itd-nota">Dane teleadresowe ze stron oddziałów Straży Granicznej
+      i ich Biuletynów Informacji Publicznej. Zaktualizowano {{ dane.zaktualizowano }}.
+      Przed użyciem operacyjnym warto potwierdzić numer na stronie oddziału.</p>
+
+  </main>
+</div>
+
+<script src="{{ static_v('js/numery_itd.js') }}" defer></script>
+{% endblock %}

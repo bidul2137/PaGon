@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Numery telefonów do ITD{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/numery_itd.css') }}">
+
+<div class="tar-page kpj-page itd-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce_numery_telefonow') }}" class="tar-back"
+       aria-label="Powrót do numerów telefonów">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Numery telefonów do ITD</h1>
+      <p class="kpj-lead">Wojewódzkie inspektoraty transportu drogowego i ich oddziały.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+
+    {# GITD stoi nad wojewódzkimi, bo jest wspólny dla całego kraju
+       i najczęściej to od niego zaczyna się szukanie. #}
+    <section class="itd-gitd">
+      <p class="itd-gitd-nazwa">{{ dane.gitd.nazwa }}</p>
+      <a class="itd-tel itd-tel--duzy" href="tel:{{ dane.gitd.telefon|replace(' ','') }}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M7.4 3.6h2.9l1.5 3.7-1.9 1.2a10 10 0 0 0 4.6 4.6l1.2-1.9 3.7 1.5v2.9a1.6 1.6 0 0 1-1.7 1.6C11.1 16.8 6.6 12.3 6 5.3a1.6 1.6 0 0 1 1.4-1.7z"/>
+        </svg>
+        {{ dane.gitd.telefon }}
+      </a>
+      <p class="itd-gitd-godziny">{{ dane.gitd.godziny }}</p>
+    </section>
+
+    <div class="itd-pole-wrap">
+      <span class="itd-pole-ikona" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+             stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="6.4"/><path d="M15.8 15.8L21 21"/>
+        </svg>
+      </span>
+      <input type="search" id="itdSzukaj" class="itd-pole"
+             placeholder="Np. Olsztyn, mazowieckie, Ełk"
+             aria-label="Szukaj województwa, miasta lub oddziału"
+             spellcheck="false" maxlength="60">
+    </div>
+    {# Powrót do huba numerów — ta sama zasada co w kodach czynów: strzałka
+       w rogu wraca do Pomocy, a przycisk do poziomu wyżej w module. #}
+    <a class="itd-powrot" href="{{ url_for('pomoce_numery_telefonow') }}">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M15 5l-7 7 7 7"/>
+      </svg>
+      Powrót do numerów telefonów
+    </a>
+
+    <p class="itd-licznik" id="itdLicznik" aria-live="polite"></p>
+
+    {# Ponad 70 pozycji — rozwijamy tylko wybrane województwo, reszta zostaje
+       zwinięta. Element details działa bez JavaScriptu, więc lista pozostaje
+       użyteczna nawet gdy skrypt się nie wykona. #}
+    {% for w in dane.inspektoraty %}
+    <details class="itd-woj" data-szukaj="{{ w.wojewodztwo }} {{ w.miasto }} {{ w.adres }}
+      {% for o in w.oddzialy %}{{ o.nazwa }} {{ o.adres }} {% endfor %}">
+      <summary class="itd-woj-head">
+        <span class="itd-woj-nazwa">{{ w.wojewodztwo[0]|upper ~ w.wojewodztwo[1:] }}</span>
+        <span class="itd-woj-miasto">WITD {{ w.miasto }}</span>
+        <span class="itd-woj-ile">{{ w.oddzialy|length }}
+          {{ 'oddział' if w.oddzialy|length == 1 else 'oddziały' if w.oddzialy|length < 5 else 'oddziałów' }}</span>
+      </summary>
+
+      <div class="itd-woj-tresc">
+        <div class="itd-karta itd-karta--siedziba">
+          <p class="itd-etykieta">Siedziba</p>
+          <p class="itd-adres">{{ w.adres }}</p>
+          {% if w.telefon %}
+            <a class="itd-tel" href="tel:{{ w.telefon|replace(' ','') }}">{{ w.telefon }}</a>
+          {% endif %}
+          {% if w.fax %}<p class="itd-drobne">faks {{ w.fax }}</p>{% endif %}
+          <p class="itd-drobne">{{ w.godziny }}</p>
+          <div class="itd-linki">
+            {% if w.www %}
+              <a class="itd-link" href="{{ w.www }}" target="_blank" rel="noopener">Strona</a>
+            {% endif %}
+            {% if w.email %}
+              <a class="itd-link" href="mailto:{{ w.email }}">{{ w.email }}</a>
+            {% endif %}
+          </div>
+        </div>
+
+        {% if w.oddzialy %}
+        <p class="itd-etykieta itd-etykieta--sekcja">Oddziały</p>
+        {% for o in w.oddzialy %}
+        <div class="itd-karta">
+          <p class="itd-oddzial">{{ o.nazwa }}</p>
+          <p class="itd-adres">{{ o.adres }}</p>
+          {% if o.telefon %}
+            <a class="itd-tel" href="tel:{{ o.telefon|replace(' ','') }}">{{ o.telefon }}</a>
+          {% endif %}
+          {% if o.email %}
+            <a class="itd-link" href="mailto:{{ o.email }}">{{ o.email }}</a>
+          {% endif %}
+        </div>
+        {% endfor %}
+        {% endif %}
+      </div>
+    </details>
+    {% endfor %}
+
+    <p class="itd-nota">Dane teleadresowe ze stron wojewódzkich inspektoratów.
+      Zaktualizowano {{ dane.zaktualizowano }}. Przed użyciem operacyjnym warto
+      potwierdzić numer na stronie inspektoratu.</p>
+
+  </main>
+</div>
+
+<script src="{{ static_v('js/numery_itd.js') }}" defer></script>
+{% endblock %}

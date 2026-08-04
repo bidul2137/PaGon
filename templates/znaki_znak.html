@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
 <link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
 <link rel="stylesheet" href="{{ static_v('css/znaki.css') }}">
+{# Karty wykroczeń rysujemy dokładnie tak jak w module Kody czynów — te same
+   klasy, te same ikony, jeden wygląd w całej aplikacji. #}
+<link rel="stylesheet" href="{{ static_v('css/kody_czynow.css') }}">
 
 <div class="tar-page kpj-page zn-page" data-wersja="{{ wersja }}"
      data-kod="{{ znak.code }}" data-nazwa="{{ znak.name or '' }}"
@@ -54,6 +57,71 @@
         <p class="zn-szczegoly">{{ znak.details }}</p>
       </section>
     {% endif %}
+
+    {# Wykroczenia z taryfikatora wiązane po kodzie znaku w tytule rekordu.
+       Gdy nic nie pasuje, nie pokazujemy pustej sekcji ani niczego nie sugerujemy —
+       zostaje sam odnośnik do wyszukania w taryfikatorze. #}
+    {% if wykroczenia %}
+      {% macro ikona(nazwa) -%}
+        {%- if nazwa == 'mandat' -%}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="6" width="19" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6 9.2v5.6M18 9.2v5.6" stroke-linecap="round"/></svg>
+        {%- elif nazwa == 'recydywa' -%}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8a8 8 0 0 1 13.3-2.5L20 8"/><path d="M20 4v4h-4"/><path d="M20 16a8 8 0 0 1-13.3 2.5L4 16"/><path d="M4 20v-4h4"/></svg>
+        {%- elif nazwa == 'punkty' -%}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7" r="3.2"/><path d="M5 20c0-3.6 3.1-6 7-6s7 2.4 7 6"/><path d="M8.5 9.5 5 11l1 3M15.5 9.5 19 11l-1 3" stroke-linecap="round"/></svg>
+        {%- else -%}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2 2 0 0 1 6 4h5v15H6a2 2 0 0 0-2 1.4z"/><path d="M20 5.5A2 2 0 0 0 18 4h-5v15h5a2 2 0 0 1 2 1.4z"/></svg>
+        {%- endif -%}
+      {%- endmacro %}
+
+      {# Klasa kcz-page nie zmienia układu — wnosi tylko zmienne kolorów,
+         na których opierają się karty z modułu Kody czynów. #}
+      <div class="kcz-page zn-taryf">
+        <p class="kal-sekcja-tytul zn-taryf-naglowek">
+          {{ 'Wykroczenie' if wykroczenia|length == 1 else 'Wykroczenia' }} — taryfikator
+        </p>
+        {% for w in wykroczenia %}
+        <section class="kal-karta kcz-karta">
+          <p class="kcz-tytul">{{ w.title }}</p>
+          {% if w.legal_qualification %}
+            <p class="kcz-kwal">{{ w.legal_qualification }}</p>
+          {% endif %}
+          <div class="kcz-siatka">
+            <div class="kcz-komorka">
+              <span class="kcz-ikona">{{ ikona('mandat') }}</span>
+              <span class="kcz-wartosc kcz-wartosc--zloto">{{ w.mandate_base ~ ' zł'
+                if w.mandate_base else '–' }}</span>
+            </div>
+            <div class="kcz-komorka">
+              <span class="kcz-ikona">{{ ikona('punkty') }}</span>
+              <span class="kcz-wartosc">
+                {%- if w.points_max -%}
+                  {%- if w.points_min and w.points_min != w.points_max -%}
+                    {{ w.points_min }}–{{ w.points_max }} pkt
+                  {%- else -%}
+                    {{ w.points_max }} pkt
+                  {%- endif -%}
+                {%- else -%}–{%- endif -%}
+              </span>
+            </div>
+            <div class="kcz-komorka">
+              <span class="kcz-ikona">{{ ikona('recydywa') }}</span>
+              <span class="kcz-wartosc kcz-wartosc--przygaszona">{{ w.mandate_recidive ~ ' zł'
+                if w.mandate_recidive else '–' }}</span>
+            </div>
+            <div class="kcz-komorka">
+              <span class="kcz-ikona">{{ ikona('kod') }}</span>
+              <span class="kcz-wartosc kcz-wartosc--przygaszona">{{ w.code or '–' }}</span>
+            </div>
+          </div>
+          <a class="kcz-wiecej" href="{{ url_for('taryfikator') }}?q={{ w.title|urlencode }}">
+            Otwórz w taryfikatorze
+          </a>
+        </section>
+        {% endfor %}
+      </div>
+    {% endif %}
+
 
     {% if powiazane %}
       <section class="zn-sekcja">

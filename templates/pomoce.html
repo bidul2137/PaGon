@@ -73,7 +73,14 @@
         {% elif kategoria %}
           <p class="prz-kontekst">{{ kategoria.nazwa }}</p>
         {% endif %}
-        <a href="{{ url_for('pomoce') }}" class="prz-wroc">&lsaquo; Wróć do kategorii</a>
+        {# Podkafelek z huba (numery, SPB) wraca DO HUBA, a nie do Pomocy —
+           od cofania do Pomocy jest strzałka w lewym górnym rogu. #}
+        <a href="{{ hub_url or url_for('pomoce') }}" class="prz-wroc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M15 5l-7 7 7 7"/>
+          </svg>
+          {{ hub_etykieta or 'Powrót do kategorii' }}</a>
       </div>
 
       {% if linki %}

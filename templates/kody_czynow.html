@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Kody czynów{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kody_czynow.css') }}">
+
+<div class="tar-page kpj-page kcz-page" data-wersja="{{ wersja }}">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back" aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Kody czynów</h1>
+      <p class="kpj-lead">Wyszukaj kod, naruszenie albo liczbę punktów.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+
+    {% if not meta %}
+    <p class="kcz-komunikat" role="status">Baza kodów czynów nie została jeszcze
+      zaimportowana. Uruchom <code>python tools/import_kody_czynow.py</code>.</p>
+    {% endif %}
+
+    <form class="kcz-szukajka" id="kczForm" autocomplete="off" novalidate role="search">
+      <div class="kcz-pole-wrap">
+        <span class="kcz-pole-ikona" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+               stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="6.4"/><path d="M15.8 15.8L21 21"/>
+          </svg>
+        </span>
+        <input type="search" id="kczWejscie" class="kcz-pole" name="q"
+               placeholder="Np. A 02, A02, alkohol, pierwszeństwo"
+               aria-label="Kod czynu lub opis naruszenia"
+               aria-describedby="kczPodpowiedz" enterkeyhint="search"
+               spellcheck="false" maxlength="60">
+        <button type="button" class="kcz-czysc" id="kczCzysc" aria-label="Wyczyść pole" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"
+               stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <p class="kcz-podpowiedz" id="kczPodpowiedz">
+        Kod wpisz w dowolnym zapisie — A 02, A02 albo a-02.
+      </p>
+    </form>
+
+    {# Powrót do wyboru działu stoi pod wyszukiwarką, a nie w pasku nad wynikami:
+       jest zawsze w tym samym miejscu i nie ściska nazwy działu do jednej kolumny. #}
+    <button type="button" class="kcz-powrot" id="kczPowrot" hidden>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M15 5l-7 7 7 7"/>
+      </svg>
+      Powrót do wyboru kodów
+    </button>
+
+    <p class="kcz-licznik" id="kczLicznik" aria-live="polite"></p>
+    <div id="kczWyniki" class="kcz-wyniki"></div>
+
+    <section id="kczKategorie" class="kcz-sekcja">
+      <h2 class="kal-sekcja-tytul">Działy</h2>
+      <div class="kcz-kategorie">
+        {% for k in kategorie %}
+          <a class="kcz-kat" href="#" data-dzial="{{ k.id }}">
+            <span class="kcz-kat-litera">{{ k.id }}</span>
+            <span class="kcz-kat-tresc">
+              <span class="kcz-kat-nazwa">{{ k.name }}</span>
+              <span class="kcz-kat-ile">{{ k.count }} kodów</span>
+            </span>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+
+    {% if meta %}
+    <details class="kcz-odanych">
+      <summary class="kcz-odanych-tytul">O danych
+        <span class="kcz-badge">Baza lokalna</span></summary>
+      <div class="kcz-odanych-tresc">
+        <dl class="kcz-dane">
+          <dt>Źródło</dt><dd>{{ meta.source.title }}</dd>
+          <dt>Akt</dt><dd>{{ meta.source.legal_reference }}</dd>
+          <dt>Obowiązuje od</dt><dd>{{ meta.source.in_force_since }}</dd>
+          <dt>Kodów</dt><dd>{{ meta.record_count }}</dd>
+          <dt>Sprawdzono</dt><dd>{{ meta.verified_at }}</dd>
+        </dl>
+        <p class="kcz-nota">Kwoty mandatów nie są częścią tego zbioru — pochodzą
+          z taryfikatora i są dołączane po kodzie czynu.</p>
+        <p class="kcz-nota">Dane wymagają okresowej weryfikacji z obowiązującymi
+          przepisami.</p>
+      </div>
+    </details>
+    {% endif %}
+
+  </main>
+</div>
+
+<script src="{{ static_v('js/kody_czynow.js') }}" defer></script>
+{% endblock %}

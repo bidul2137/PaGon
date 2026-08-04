@@ -1,0 +1,546 @@
+{
+ "_opis": "Wojewódzkie inspektoraty transportu drogowego i ich oddziały. Dane wprowadzone ręcznie ze stron WITD.",
+ "gitd": {
+  "nazwa": "GITD — infolinia dla obywatela",
+  "telefon": "22 220 40 00",
+  "godziny": "dni robocze 8:15–16:15",
+  "www": "https://www.gov.pl/web/gitd/kontakt11"
+ },
+ "zaktualizowano": "2026-08-04",
+ "inspektoraty": [
+  {
+   "wojewodztwo": "dolnośląskie",
+   "miasto": "Wrocław",
+   "adres": "ul. Bolesława Krzywoustego 28, 51-165 Wrocław",
+   "telefon": "71 326 51 60",
+   "fax": "71 326 51 61",
+   "www": "https://dolnyslask.witd.gov.pl/",
+   "email": "sekretariat@dolnyslask.witd.gov.pl",
+   "godziny": "pn–pt 7:30–15:00",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Legnicy",
+     "adres": "ul. Skarbka 3, 59-220 Legnica",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Jeleniej Górze",
+     "adres": "ul. Sudecka 2, 58-560 Jelenia Góra",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Kłodzku",
+     "adres": "ul. Wyspiańskiego 2, 57-300 Kłodzko",
+     "telefon": null,
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "kujawsko-pomorskie",
+   "miasto": "Bydgoszcz",
+   "adres": "ul. Hetmańska 28, 85-039 Bydgoszcz",
+   "telefon": "52 323 83 43",
+   "fax": "52 323 83 45",
+   "www": "https://www.gov.pl/web/witd-bydgoszcz",
+   "email": "bydgoszcz@witd.bydgoszcz.pl",
+   "godziny": "pn, śr, czw, pt 7:30–15:30 · wt 8:00–16:00",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Terenowy w Grudziądzu",
+     "adres": "ul. Marszałka Józefa Piłsudskiego 51, 86-300 Grudziądz",
+     "telefon": "56 477 00 11",
+     "email": "grudziadz@witd.bydgoszcz.pl"
+    },
+    {
+     "nazwa": "Oddział Terenowy w Inowrocławiu",
+     "adres": "Latkowo 11, 88-100 Inowrocław",
+     "telefon": "52 353 75 82",
+     "email": "inowroclaw@witd.bydgoszcz.pl"
+    },
+    {
+     "nazwa": "Oddział Terenowy we Włocławku",
+     "adres": "ul. Okrężna 25, 87-800 Włocławek",
+     "telefon": "54 231 46 01",
+     "email": "wloclawek@witd.bydgoszcz.pl"
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "lubelskie",
+   "miasto": "Lublin",
+   "adres": "ul. Diamentowa 2, 20-447 Lublin",
+   "telefon": "81 740 69 71",
+   "fax": "81 740 64 37",
+   "www": "http://www.witd.lublin.pl/",
+   "email": "sekretariat@witd.lublin.pl",
+   "godziny": "pn–pt 7:30–15:30",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Zamościu",
+     "adres": "ul. Szczebrzeska 21, 22-400 Zamość",
+     "telefon": "725 560 165",
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Międzyrzecu Podlaskim",
+     "adres": "ul. Radzyńska 11, 21-560 Międzyrzec Podlaski",
+     "telefon": "725 560 177",
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "lubuskie",
+   "miasto": "Gorzów Wielkopolski",
+   "adres": "ul. Teatralna 30, 66-400 Gorzów Wlkp.",
+   "telefon": "95 72 55 113",
+   "fax": "95 72 55 114",
+   "www": "http://www.witd.gorzow.pl/",
+   "email": "sekretariat@gorzow.witd.gov.pl",
+   "godziny": "pn–pt 7:30–15:30",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Zielona Góra",
+     "adres": "ul. Partyzantów 40, 65-332 Zielona Góra",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział w Sulęcinie",
+     "adres": "ul. Lipowa 20, 69-200 Sulęcin",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział w Słubicach",
+     "adres": "Terminal Towarowych Odpraw Celnych, Świecko 37, 69-100 Słubice",
+     "telefon": null,
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "mazowieckie",
+   "miasto": "Radom",
+   "adres": "ul. Bolesława Limanowskiego 29A, 26-610 Radom",
+   "telefon": "48 363 51 87",
+   "fax": null,
+   "www": "http://www.mazowsze.witd.gov.pl/",
+   "email": null,
+   "godziny": "pn 7:00–17:00 · wt–pt 7:00–15:00",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Warszawa",
+     "adres": "ul. Żółkiewskiego 17, 05-075 Warszawa-Wesoła",
+     "telefon": "22 831 60 82",
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Siedlce",
+     "adres": "ul. Piłsudskiego 38, 08-110 Siedlce",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Płock",
+     "adres": "ul. Kolegialna 15, 09-402 Płock",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Ostrołęka",
+     "adres": "ul. Fieldorfa „Nila” 15, 07-410 Ostrołęka",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Garwolin",
+     "adres": "ul. Staszica 18, 08-400 Garwolin",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Ciechanów",
+     "adres": "ul. Płocka 32, 06-400 Ciechanów",
+     "telefon": null,
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "małopolskie",
+   "miasto": "Kraków",
+   "adres": "ul. Bratysławska 5, 31-201 Kraków",
+   "telefon": "12 41 65 120",
+   "fax": "12 41 65 130",
+   "www": "http://www.krakow.witd.gov.pl/",
+   "email": "sekretariat@krakow.witd.gov.pl",
+   "godziny": "pn 8:00–16:00 · wt–pt 7:30–15:30",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Zamiejscowy w Tarnowie",
+     "adres": "Al. Solidarności 5-9, 33-100 Tarnów",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Zamiejscowy w Nowym Sączu",
+     "adres": "ul. Głowackiego 33, 33-300 Nowy Sącz",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Zamiejscowy w Nowym Targu",
+     "adres": "ul. Konfederacji Tatrzańskiej 1, 34-400 Nowy Targ",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Zamiejscowy w Olkuszu",
+     "adres": "ul. Jana Pawła II 32, 32-300 Olkusz",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Zamiejscowy w Miechowie",
+     "adres": "Wielki Dół 70, 32-200 Miechów",
+     "telefon": null,
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "opolskie",
+   "miasto": "Opole",
+   "adres": "ul. Wrocławska 170, 45-836 Opole",
+   "telefon": "77 47 42 122",
+   "fax": null,
+   "www": "http://www.witd.opole.pl/",
+   "email": "biuro@witd.opole.pl",
+   "godziny": "pn–pt 7:30–15:30",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Wydziału Inspekcji Byczyna",
+     "adres": "ul. Poznańska 19, 46-220 Byczyna",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji Kędzierzyn-Koźle",
+     "adres": "ul. 24 Kwietnia 4, 47-200 Kędzierzyn-Koźle",
+     "telefon": null,
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "podkarpackie",
+   "miasto": "Rzeszów",
+   "adres": "ul. Hanasiewicza 21, 35-103 Rzeszów",
+   "telefon": "17 850 46 71",
+   "fax": "17 850 46 77",
+   "www": "http://www.witd.rzeszow.pl/",
+   "email": null,
+   "godziny": "pn–pt 7:30–15:30",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Krośnie",
+     "adres": "ul. Bieszczadzka 1, 38-400 Krosno",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Mirocinie",
+     "adres": "Mirocin 401 A, 37-200 Mirocin",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Nisku",
+     "adres": "ul. Rzeszowska 42, 37-400 Nisko",
+     "telefon": null,
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "podlaskie",
+   "miasto": "Białystok",
+   "adres": "ul. Kombatantów 4, 15-110 Białystok",
+   "telefon": "85 662 30 77",
+   "fax": null,
+   "www": "http://www.bialystok.witd.gov.pl/",
+   "email": "witd@bialystok.witd.gov.pl",
+   "godziny": "pn 7:30–18:00 · wt–pt 7:30–15:30",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Suwałkach",
+     "adres": "ul. Pułaskiego 26, 16-400 Suwałki",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Łomży",
+     "adres": "ul. Polna 16, 18-400 Łomża",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Siemiatyczach",
+     "adres": "ul. Kilińskiego 32, 17-300 Siemiatycze",
+     "telefon": null,
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "pomorskie",
+   "miasto": "Gdańsk",
+   "adres": "ul. Jaśkowa Dolina 50, 80-286 Gdańsk",
+   "telefon": "58 524 12 80",
+   "fax": "58 524 12 92",
+   "www": "http://www.witd.gdansk.pl/",
+   "email": "sekretariat@witd.gdansk.pl",
+   "godziny": "pn–pt 7:00–15:00",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Chojnicach",
+     "adres": "ul. Gdańska 110A, 89-600 Chojnice",
+     "telefon": "52 583 57 51",
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Bytowie",
+     "adres": "ul. Styp-Rekowskiego 2, 77-100 Bytów",
+     "telefon": "59 844 49 99",
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Starogardzie Gdańskim",
+     "adres": "ul. Pelplińska 21, 83-200 Starogard Gdański",
+     "telefon": null,
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "warmińsko-mazurskie",
+   "miasto": "Olsztyn",
+   "adres": "ul. Dworcowa 60, 10-437 Olsztyn",
+   "telefon": "89 533 46 16",
+   "fax": null,
+   "www": "http://www.witd.olsztyn.pl/",
+   "email": "sekretariat@witd.olsztyn.pl",
+   "godziny": "pn–pt 7:15–15:15",
+   "oddzialy": [
+    {
+     "nazwa": "Placówka Terenowa w Ełku",
+     "adres": "ul. Krzemowa 1, 19-300 Ełk",
+     "telefon": "87 520 12 75",
+     "email": null
+    },
+    {
+     "nazwa": "Placówka Terenowa w Iławie",
+     "adres": "ul. Lubawska 12, 14-200 Iława",
+     "telefon": "89 648 69 51",
+     "email": null
+    },
+    {
+     "nazwa": "Placówka Terenowa w Elblągu",
+     "adres": "ul. Wojska Polskiego 1, 82-300 Elbląg",
+     "telefon": "55 641 20 35",
+     "email": null
+    },
+    {
+     "nazwa": "Placówka Terenowa w Kanigowie",
+     "adres": "Kanigowo 60, 13-100 Nidzica",
+     "telefon": "505 912 574",
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "wielkopolskie",
+   "miasto": "Poznań",
+   "adres": "ul. Szwajcarska 5, 61-285 Poznań",
+   "telefon": "61 656 77 11",
+   "fax": "61 656 77 10",
+   "www": "http://www.witdpoznan.pl/",
+   "email": "witd@poznan.uw.gov.pl",
+   "godziny": "pn–pt 7:00–15:00",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Wydziału Inspekcji Ostrów Wielkopolski",
+     "adres": "ul. Odolanowska 19, 63-400 Ostrów Wielkopolski",
+     "telefon": "62 721 02 56",
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji Piła",
+     "adres": "ul. Bydgoska 115, 64-920 Piła",
+     "telefon": "512 050 645",
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji Konin",
+     "adres": "ul. Przemysłowa 2, 62-510 Konin",
+     "telefon": "63 249 18 07",
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji Leszno",
+     "adres": "ul. Dekana 4, 64-100 Leszno",
+     "telefon": "65 526 61 04",
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji Gniezno",
+     "adres": "Al. Reymonta 32, 62-200 Gniezno",
+     "telefon": "515 861 566",
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji Poznań",
+     "adres": "ul. Szwajcarska 5, 61-285 Poznań",
+     "telefon": "61 656 77 11",
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "zachodniopomorskie",
+   "miasto": "Szczecin",
+   "adres": "Lubieszyn 10J, 72-002 Dołuje",
+   "telefon": "91 311 56 33",
+   "fax": "91 311 56 41",
+   "www": "https://www.gov.pl/web/witd-szczecin",
+   "email": "biuro@witd.szczecin.pl",
+   "godziny": "pn 7:30–18:00 · wt–pt 7:30–15:30",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Koszalin",
+     "adres": "ul. Jedności 5, 75-401 Koszalin",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wałcz",
+     "adres": "ul. Kościuszki 4a, 78-600 Wałcz",
+     "telefon": null,
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "łódzkie",
+   "miasto": "Łódź",
+   "adres": "ul. Łagiewnicka 54/56, 91-463 Łódź",
+   "telefon": "42 63 98 068",
+   "fax": "42 63 98 102",
+   "www": "https://www.gov.pl/web/witd-lodz",
+   "email": "sekretariat@witd.lodz.pl",
+   "godziny": "pn–pt 7:00–15:00",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Łowiczu",
+     "adres": "ul. Jana Pawła II 173/175, 99-400 Łowicz",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Piotrkowie Trybunalskim",
+     "adres": "ul. Szkolna 28, 97-300 Piotrków Trybunalski",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Sieradzu",
+     "adres": "ul. Spółdzielcza 4, 98-200 Sieradz",
+     "telefon": null,
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "śląskie",
+   "miasto": "Katowice",
+   "adres": "ul. Żeliwna 38, 40-599 Katowice",
+   "telefon": "32 42 88 150",
+   "fax": "32 42 88 151",
+   "www": "http://www.katowice.witd.gov.pl/",
+   "email": "biuro@katowice.witd.gov.pl",
+   "godziny": "pn 7:00–18:00 · wt–pt 7:00–15:00",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Wodzisławiu Śląskim",
+     "adres": "ul. Bogumińska 8, 44-300 Wodzisław Śląski",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Gliwicach",
+     "adres": "Aleja Jana Nowaka-Jeziorańskiego 6, 44-102 Gliwice",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Częstochowie",
+     "adres": "ul. Sabinowska 62, 42-225 Częstochowa",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Myszkowie",
+     "adres": "ul. Kościuszki 105, 42-300 Myszków",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Cieszynie",
+     "adres": "ul. Stawowa 71, 43-400 Cieszyn",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Bielsku-Białej",
+     "adres": "ul. Leszczyńska 43, 43-300 Bielsko-Biała",
+     "telefon": null,
+     "email": null
+    }
+   ]
+  },
+  {
+   "wojewodztwo": "świętokrzyskie",
+   "miasto": "Kielce",
+   "adres": "ul. Zagnańska 232, 25-563 Kielce",
+   "telefon": "41 362 54 00",
+   "fax": "41 362 48 47",
+   "www": "http://www.witd.kielce.pl/",
+   "email": null,
+   "godziny": "pn–pt 7:30–15:30",
+   "oddzialy": [
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Jędrzejowie",
+     "adres": "ul. Okrzei 83, 28-300 Jędrzejów",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Opatowie",
+     "adres": "ul. Sienkiewicza 17, 27-500 Opatów",
+     "telefon": null,
+     "email": null
+    },
+    {
+     "nazwa": "Oddział Wydziału Inspekcji w Końskich",
+     "adres": "ul. Staszica 2, 26-200 Końskie",
+     "telefon": null,
+     "email": null
+    }
+   ]
+  }
+ ]
+}

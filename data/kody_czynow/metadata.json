@@ -1,0 +1,17 @@
+{
+ "dataset_name": "Kody czynów — załącznik nr 1",
+ "dataset_version": "1.0.0",
+ "source": {
+  "title": "Rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 29 maja 2026 r. w sprawie ewidencji kierujących pojazdami naruszających przepisy ruchu drogowego",
+  "legal_reference": "Dz. U. 2026 poz. 724",
+  "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000724",
+  "in_force_since": "2026-06-03",
+  "annex": "Załącznik nr 1"
+ },
+ "coverage": "Wszystkie kody czynów z załącznika nr 1. Kwoty mandatów nie wchodzą w skład tego zbioru — pochodzą z data/taryfikator.json i są dołączane po kodzie czynu.",
+ "verified_at": "2026-08-04",
+ "record_count": 133,
+ "fully_verified_count": 133,
+ "partially_verified_count": 0,
+ "manual_approval_required": true
+}

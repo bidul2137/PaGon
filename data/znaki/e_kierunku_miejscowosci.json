@@ -23,598 +23,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 62",
    "source_text": "§ 62. 1. Znak E-1 „tablica przeddrogowskazowa” uprzedza o skrzyżowaniu. 2. Znak E-1a „tablica przeddrogowskazowa na autostradzie” uprzedza o wyjeździe z autostrady. 3. Znak E-1b „tablica przeddrogowskazowa przed wjazdem na autostradę” uprzedza o skrzyżowaniu z wjazdem na autostradę lub drogą prowadzącą do autostrady. 4. Umieszczone na znakach, o których mowa w ust. 1–3, wzory innych znaków informują o występowaniu tych znaków na drogach, wskazanych na znaku.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-10",
-  "code": "E-10",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "drogowskaz do zabytku jako dobra kultury",
-  "short_description": "Wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "image_path": "img/znaki/E-10.png",
-  "keywords": [
-   "dobra",
-   "drogowskaz",
-   "e-10",
-   "e10",
-   "jako",
-   "kultury",
-   "zabytku"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 63",
-   "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-11",
-  "code": "E-11",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "drogowskaz do zabytku przyrody",
-  "short_description": "Wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "image_path": "img/znaki/E-11.png",
-  "keywords": [
-   "drogowskaz",
-   "e-11",
-   "e11",
-   "przyrody",
-   "zabytku"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 63",
-   "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-12",
-  "code": "E-12",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "drogowskaz do punktu widokowego",
-  "short_description": "Wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "image_path": "img/znaki/E-12.png",
-  "keywords": [
-   "drogowskaz",
-   "e-12",
-   "e12",
-   "punktu",
-   "widokowego"
-  ],
-  "related_sign_ids": [
-   "E-12a"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 63",
-   "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-12a",
-  "code": "E-12a",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "drogowskaz do szlaku rowerowego",
-  "short_description": "Wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
-  "image_path": "img/znaki/E-12a.png",
-  "keywords": [
-   "drogowskaz",
-   "e-12a",
-   "e12a",
-   "rowerowego",
-   "szlaku"
-  ],
-  "related_sign_ids": [
-   "E-12"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 63",
-   "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-13",
-  "code": "E-13",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "tablica kierunkowa",
-  "short_description": "Wskazuje kierunek i odległość do głównych miejscowości położonych przy danej drodze.",
-  "details": "Znak E-13 „tablica kierunkowa” wskazuje kierunek i odległość do głównych miejscowości położonych przy danej drodze.",
-  "image_path": "img/znaki/E-13.png",
-  "keywords": [
-   "e-13",
-   "e13",
-   "kierunkowa",
-   "tablica"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 64",
-   "source_text": "§ 64. 1. Znak E-13 „tablica kierunkowa” wskazuje kierunek i odległość do głównych miejscowości położonych przy danej drodze. 2. Znaki E-14 „tablica szlaku drogowego”, E-14a „tablica szlaku drogowego na autostradzie” wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-14",
-  "code": "E-14",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "tablica szlaku drogowego",
-  "short_description": "Wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
-  "details": "Znaki E-14 „tablica szlaku drogowego”, E-14a „tablica szlaku drogowego na autostradzie” wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
-  "image_path": "img/znaki/E-14.png",
-  "keywords": [
-   "drogowego",
-   "e-14",
-   "e14",
-   "szlaku",
-   "tablica"
-  ],
-  "related_sign_ids": [
-   "E-14a"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 64",
-   "source_text": "§ 64. 1. Znak E-13 „tablica kierunkowa” wskazuje kierunek i odległość do głównych miejscowości położonych przy danej drodze. 2. Znaki E-14 „tablica szlaku drogowego”, E-14a „tablica szlaku drogowego na autostradzie” wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-14a",
-  "code": "E-14a",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "tablica szlaku drogowego na autostradzie",
-  "short_description": "Wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
-  "details": "Znaki E-14 „tablica szlaku drogowego”, E-14a „tablica szlaku drogowego na autostradzie” wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
-  "image_path": "img/znaki/E-14a.png",
-  "keywords": [
-   "autostradzie",
-   "drogowego",
-   "e-14a",
-   "e14a",
-   "szlaku",
-   "tablica"
-  ],
-  "related_sign_ids": [
-   "E-14"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 64",
-   "source_text": "§ 64. 1. Znak E-13 „tablica kierunkowa” wskazuje kierunek i odległość do głównych miejscowości położonych przy danej drodze. 2. Znaki E-14 „tablica szlaku drogowego”, E-14a „tablica szlaku drogowego na autostradzie” wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-15a",
-  "code": "E-15a",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t",
-  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
-  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-  "image_path": "img/znaki/E-15a.png",
-  "keywords": [
-   "dopuszczalnym",
-   "drogi",
-   "e-15a",
-   "e15a",
-   "krajowej",
-   "nacisku",
-   "numer",
-   "pojazdu"
-  ],
-  "related_sign_ids": [
-   "E-15b",
-   "E-15c",
-   "E-15d",
-   "E-15e",
-   "E-15f",
-   "E-15g"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 65",
-   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-15b",
-  "code": "E-15b",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t",
-  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
-  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
-  "image_path": "img/znaki/E-15b.png",
-  "keywords": [
-   "dopuszczalnym",
-   "drogi",
-   "e-15b",
-   "e15b",
-   "nacisku",
-   "numer",
-   "pojazdu",
-   "wojewódzkiej"
-  ],
-  "related_sign_ids": [
-   "E-15a",
-   "E-15c",
-   "E-15d",
-   "E-15e",
-   "E-15f",
-   "E-15g"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 65",
-   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-15c",
-  "code": "E-15c",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "numer autostrady",
-  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
-  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-  "image_path": "img/znaki/E-15c.png",
-  "keywords": [
-   "autostrady",
-   "e-15c",
-   "e15c",
-   "numer"
-  ],
-  "related_sign_ids": [
-   "E-15a",
-   "E-15b",
-   "E-15d",
-   "E-15e",
-   "E-15f",
-   "E-15g"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 65",
-   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-15d",
-  "code": "E-15d",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "numer drogi ekspresowej",
-  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
-  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-  "image_path": "img/znaki/E-15d.png",
-  "keywords": [
-   "drogi",
-   "e-15d",
-   "e15d",
-   "ekspresowej",
-   "numer"
-  ],
-  "related_sign_ids": [
-   "E-15a",
-   "E-15b",
-   "E-15c",
-   "E-15e",
-   "E-15f",
-   "E-15g"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 65",
-   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-15e",
-  "code": "E-15e",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t",
-  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
-  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
-  "image_path": "img/znaki/E-15e.png",
-  "keywords": [
-   "dopuszczalnym",
-   "drogi",
-   "e-15e",
-   "e15e",
-   "nacisku",
-   "numer",
-   "pojazdu",
-   "wojewódzkiej"
-  ],
-  "related_sign_ids": [
-   "E-15a",
-   "E-15b",
-   "E-15c",
-   "E-15d",
-   "E-15f",
-   "E-15g"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 65",
-   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-15f",
-  "code": "E-15f",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t",
-  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
-  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-  "image_path": "img/znaki/E-15f.png",
-  "keywords": [
-   "dopuszczalnym",
-   "drogi",
-   "e-15f",
-   "e15f",
-   "krajowej",
-   "nacisku",
-   "numer",
-   "pojazdu"
-  ],
-  "related_sign_ids": [
-   "E-15a",
-   "E-15b",
-   "E-15c",
-   "E-15d",
-   "E-15e",
-   "E-15g"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 65",
-   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-15g",
-  "code": "E-15g",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t",
-  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
-  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-  "image_path": "img/znaki/E-15g.png",
-  "keywords": [
-   "dopuszczalnym",
-   "drogi",
-   "e-15g",
-   "e15g",
-   "krajowej",
-   "nacisku",
-   "numer",
-   "pojazdu"
-  ],
-  "related_sign_ids": [
-   "E-15a",
-   "E-15b",
-   "E-15c",
-   "E-15d",
-   "E-15e",
-   "E-15f"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 65",
-   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-15h",
-  "code": "E-15h",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t",
-  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
-  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
-  "image_path": "img/znaki/E-15h.png",
-  "keywords": [
-   "dopuszczalnym",
-   "drogi",
-   "e-15h",
-   "e15h",
-   "nacisku",
-   "numer",
-   "pojazdu",
-   "wojewódzkiej"
-  ],
-  "related_sign_ids": [
-   "E-15a",
-   "E-15b",
-   "E-15c",
-   "E-15d",
-   "E-15e",
-   "E-15f"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 65",
-   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-16",
-  "code": "E-16",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "numer szlaku międzynarodowego",
-  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
-  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi.",
-  "image_path": "img/znaki/E-16.png",
-  "keywords": [
-   "e-16",
-   "e16",
-   "międzynarodowego",
-   "numer",
-   "szlaku"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 65",
-   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-17a",
-  "code": "E-17a",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "miejscowość",
-  "short_description": "Oznacza wjazd do miejscowości.",
-  "details": "Znak E-17a „miejscowość” oznacza wjazd do miejscowości.",
-  "image_path": "img/znaki/E-17a.png",
-  "keywords": [
-   "e-17a",
-   "e17a",
-   "miejscowość"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 66",
-   "source_text": "§ 66. 1. Znak E-17a „miejscowość” oznacza wjazd do miejscowości. 2. Znak E-18a „koniec miejscowości” oznacza wyjazd z miejscowości. 3. Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta. Dziennik Ustaw – 19 – Poz. 2310 4. Znak E-20 „tablica węzła drogowego na autostradzie” informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła. 5. Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-18a",
-  "code": "E-18a",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "koniec miejscowości",
-  "short_description": "Oznacza wyjazd z miejscowości.",
-  "details": "Znak E-18a „koniec miejscowości” oznacza wyjazd z miejscowości.",
-  "image_path": "img/znaki/E-18a.png",
-  "keywords": [
-   "e-18a",
-   "e18a",
-   "koniec",
-   "miejscowości"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 66",
-   "source_text": "§ 66. 1. Znak E-17a „miejscowość” oznacza wjazd do miejscowości. 2. Znak E-18a „koniec miejscowości” oznacza wyjazd z miejscowości. 3. Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta. Dziennik Ustaw – 19 – Poz. 2310 4. Znak E-20 „tablica węzła drogowego na autostradzie” informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła. 5. Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-19a",
-  "code": "E-19a",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "obwodnica",
-  "short_description": "Wskazuje na skrzyżowaniu kierunek do obwodnicy miasta.",
-  "details": "Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta.",
-  "image_path": "img/znaki/E-19a.png",
-  "keywords": [
-   "e-19a",
-   "e19a",
-   "obwodnica"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 66",
-   "source_text": "§ 66. 1. Znak E-17a „miejscowość” oznacza wjazd do miejscowości. 2. Znak E-18a „koniec miejscowości” oznacza wyjazd z miejscowości. 3. Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta. Dziennik Ustaw – 19 – Poz. 2310 4. Znak E-20 „tablica węzła drogowego na autostradzie” informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła. 5. Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -644,7 +53,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 62",
    "source_text": "§ 62. 1. Znak E-1 „tablica przeddrogowskazowa” uprzedza o skrzyżowaniu. 2. Znak E-1a „tablica przeddrogowskazowa na autostradzie” uprzedza o wyjeździe z autostrady. 3. Znak E-1b „tablica przeddrogowskazowa przed wjazdem na autostradę” uprzedza o skrzyżowaniu z wjazdem na autostradę lub drogą prowadzącą do autostrady. 4. Umieszczone na znakach, o których mowa w ust. 1–3, wzory innych znaków informują o występowaniu tych znaków na drogach, wskazanych na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -676,152 +85,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 62",
    "source_text": "§ 62. 1. Znak E-1 „tablica przeddrogowskazowa” uprzedza o skrzyżowaniu. 2. Znak E-1a „tablica przeddrogowskazowa na autostradzie” uprzedza o wyjeździe z autostrady. 3. Znak E-1b „tablica przeddrogowskazowa przed wjazdem na autostradę” uprzedza o skrzyżowaniu z wjazdem na autostradę lub drogą prowadzącą do autostrady. 4. Umieszczone na znakach, o których mowa w ust. 1–3, wzory innych znaków informują o występowaniu tych znaków na drogach, wskazanych na znaku.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-20",
-  "code": "E-20",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "tablica węzła drogowego na autostradzie",
-  "short_description": "Informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła.",
-  "details": "Znak E-20 „tablica węzła drogowego na autostradzie” informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła.",
-  "image_path": "img/znaki/E-20.png",
-  "keywords": [
-   "autostradzie",
-   "drogowego",
-   "e-20",
-   "e20",
-   "tablica",
-   "węzła"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 66",
-   "source_text": "§ 66. 1. Znak E-17a „miejscowość” oznacza wjazd do miejscowości. 2. Znak E-18a „koniec miejscowości” oznacza wyjazd z miejscowości. 3. Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta. Dziennik Ustaw – 19 – Poz. 2310 4. Znak E-20 „tablica węzła drogowego na autostradzie” informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła. 5. Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-21",
-  "code": "E-21",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "dzielnica (osiedle)",
-  "short_description": "Informuje o wjeździe do centrum miasta.",
-  "details": "Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
-  "image_path": "img/znaki/E-21.png",
-  "keywords": [
-   "dzielnica",
-   "e-21",
-   "e21",
-   "osiedle"
-  ],
-  "related_sign_ids": [],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 66",
-   "source_text": "§ 66. 1. Znak E-17a „miejscowość” oznacza wjazd do miejscowości. 2. Znak E-18a „koniec miejscowości” oznacza wyjazd z miejscowości. 3. Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta. Dziennik Ustaw – 19 – Poz. 2310 4. Znak E-20 „tablica węzła drogowego na autostradzie” informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła. 5. Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-22a",
-  "code": "E-22a",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "samochodowy szlak turystyczny",
-  "short_description": "Wskazuje początek wyznaczonego samochodowego szlaku turystycznego; na znaku obok nazwy szlaku mogą być umieszczone symbol szlaku oraz symbol organizacji turystycznej wytyczającej szlak.",
-  "details": "Znak E-22a „samochodowy szlak turystyczny” wskazuje początek wyznaczonego samochodowego szlaku turystycznego; na znaku obok nazwy szlaku mogą być umieszczone symbol szlaku oraz symbol organizacji turystycznej wytyczającej szlak.",
-  "image_path": "img/znaki/E-22a.png",
-  "keywords": [
-   "e-22a",
-   "e22a",
-   "samochodowy",
-   "szlak",
-   "turystyczny"
-  ],
-  "related_sign_ids": [
-   "E-22b",
-   "E-22c"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 67",
-   "source_text": "§ 67. 1. Znak E-22a „samochodowy szlak turystyczny” wskazuje początek wyznaczonego samochodowego szlaku turystycznego; na znaku obok nazwy szlaku mogą być umieszczone symbol szlaku oraz symbol organizacji turystycznej wytyczającej szlak. 2. Znak E-22b „obiekt na samochodowym szlaku turystycznym” wskazuje obiekt turystyczny na samochodowym szlaku turystycznym; na znaku umieszcza się symbol obiektu turystycznego lub wypoczynkowego. 3. Znak E-22c „informacja o obiektach turystycznych” informuje o występujących obiektach turystycznych na terenie wskazanym na znaku.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-22b",
-  "code": "E-22b",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "obiekt na samochodowym szlaku turystycznym",
-  "short_description": "Wskazuje obiekt turystyczny na samochodowym szlaku turystycznym; na znaku umieszcza się symbol obiektu turystycznego lub wypoczynkowego.",
-  "details": "Znak E-22b „obiekt na samochodowym szlaku turystycznym” wskazuje obiekt turystyczny na samochodowym szlaku turystycznym; na znaku umieszcza się symbol obiektu turystycznego lub wypoczynkowego.",
-  "image_path": "img/znaki/E-22b.png",
-  "keywords": [
-   "e-22b",
-   "e22b",
-   "obiekt",
-   "samochodowym",
-   "szlaku",
-   "turystycznym"
-  ],
-  "related_sign_ids": [
-   "E-22a",
-   "E-22c"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 67",
-   "source_text": "§ 67. 1. Znak E-22a „samochodowy szlak turystyczny” wskazuje początek wyznaczonego samochodowego szlaku turystycznego; na znaku obok nazwy szlaku mogą być umieszczone symbol szlaku oraz symbol organizacji turystycznej wytyczającej szlak. 2. Znak E-22b „obiekt na samochodowym szlaku turystycznym” wskazuje obiekt turystyczny na samochodowym szlaku turystycznym; na znaku umieszcza się symbol obiektu turystycznego lub wypoczynkowego. 3. Znak E-22c „informacja o obiektach turystycznych” informuje o występujących obiektach turystycznych na terenie wskazanym na znaku.",
-   "verified_at": "2026-07-30"
-  },
-  "verification_status": "verified",
-  "verification_note": null
- },
- {
-  "id": "E-22c",
-  "code": "E-22c",
-  "category_id": "E",
-  "category_name": "Znaki kierunku i miejscowości",
-  "name": "informacja o obiektach turystycznych",
-  "short_description": "Informuje o występujących obiektach turystycznych na terenie wskazanym na znaku.",
-  "details": "Znak E-22c „informacja o obiektach turystycznych” informuje o występujących obiektach turystycznych na terenie wskazanym na znaku.",
-  "image_path": "img/znaki/E-22c.png",
-  "keywords": [
-   "e-22c",
-   "e22c",
-   "informacja",
-   "obiektach",
-   "turystycznych"
-  ],
-  "related_sign_ids": [
-   "E-22a",
-   "E-22b"
-  ],
-  "legal_basis": {
-   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
-   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
-   "provision_reference": "§ 67",
-   "source_text": "§ 67. 1. Znak E-22a „samochodowy szlak turystyczny” wskazuje początek wyznaczonego samochodowego szlaku turystycznego; na znaku obok nazwy szlaku mogą być umieszczone symbol szlaku oraz symbol organizacji turystycznej wytyczającej szlak. 2. Znak E-22b „obiekt na samochodowym szlaku turystycznym” wskazuje obiekt turystyczny na samochodowym szlaku turystycznym; na znaku umieszcza się symbol obiektu turystycznego lub wypoczynkowego. 3. Znak E-22c „informacja o obiektach turystycznych” informuje o występujących obiektach turystycznych na terenie wskazanym na znaku.",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -856,7 +120,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -890,7 +154,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -926,7 +190,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -961,7 +225,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -999,7 +263,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1036,7 +300,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1067,7 +331,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1098,7 +362,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1125,7 +389,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1155,7 +419,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1187,7 +451,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1218,7 +482,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1249,7 +513,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1277,7 +541,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1305,7 +569,7 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null
@@ -1331,7 +595,743 @@
    "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
    "provision_reference": "§ 63",
    "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
-   "verified_at": "2026-07-30"
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-10",
+  "code": "E-10",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "drogowskaz do zabytku jako dobra kultury",
+  "short_description": "Wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
+  "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
+  "image_path": "img/znaki/E-10.png",
+  "keywords": [
+   "dobra",
+   "drogowskaz",
+   "e-10",
+   "e10",
+   "jako",
+   "kultury",
+   "zabytku"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 63",
+   "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-11",
+  "code": "E-11",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "drogowskaz do zabytku przyrody",
+  "short_description": "Wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
+  "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
+  "image_path": "img/znaki/E-11.png",
+  "keywords": [
+   "drogowskaz",
+   "e-11",
+   "e11",
+   "przyrody",
+   "zabytku"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 63",
+   "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-12",
+  "code": "E-12",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "drogowskaz do punktu widokowego",
+  "short_description": "Wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
+  "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
+  "image_path": "img/znaki/E-12.png",
+  "keywords": [
+   "drogowskaz",
+   "e-12",
+   "e12",
+   "punktu",
+   "widokowego"
+  ],
+  "related_sign_ids": [
+   "E-12a"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 63",
+   "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-12a",
+  "code": "E-12a",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "drogowskaz do szlaku rowerowego",
+  "short_description": "Wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
+  "details": "Znaki: 1) E-7 „drogowskaz do przystani wodnej lub żeglugi”, 2) E-8 „drogowskaz do plaży lub miejsca kąpielowego”, 3) E-9 „drogowskaz do muzeum”, 4) E-10 „drogowskaz do zabytku jako dobra kultury”, 5) E-11 „drogowskaz do zabytku przyrody”, 6) E-12 „drogowskaz do punktu widokowego”, 7) E-12a „drogowskaz do szlaku rowerowego” wskazują kierunek do obiektu turystycznego lub wypoczynkowego wskazanego na znaku.",
+  "image_path": "img/znaki/E-12a.png",
+  "keywords": [
+   "drogowskaz",
+   "e-12a",
+   "e12a",
+   "rowerowego",
+   "szlaku"
+  ],
+  "related_sign_ids": [
+   "E-12"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 63",
+   "source_text": "§ 63. 1. Znaki: 1) E-2a „drogowskaz tablicowy umieszczany obok jezdni”, 2) E-2b „drogowskaz tablicowy umieszczany nad jezdnią”, 3) E-2c „drogowskaz tablicowy umieszczany obok jezdni na autostradzie”, 4) E-2d „drogowskaz tablicowy umieszczany nad jezdnią na autostradzie”, 5) E-2e „drogowskaz tablicowy umieszczany obok jezdni przed wjazdem na autostradę”, 6) E-2f „drogowskaz tablicowy umieszczany nad jezdnią przed wjazdem na autostradę”, 7) E-3 „drogowskaz w kształcie strzały do miejscowości wskazujący numer drogi”, 8) E-4 „drogowskaz w kształcie strzały do miejscowości podający do niej odległość”, 9) E-5 „drogowskaz do dzielnicy miasta” wskazują na skrzyżowaniu lub bezpośrednio przed nim kierunki do miejscowości lub dzielnic miast; znak E-5 z napisem „Centrum” wskazuje kierunek do centrum miasta. 2. Znaki: 1) E-6 „drogowskaz do lotniska”, 2) E-6a „drogowskaz do dworca lub stacji kolejowej”, 3) E-6b „drogowskaz do dworca autobusowego”, 4) E-6c „drogowskaz do przystani promowej” wskazują kierunek do obiektu komunikacyjnego wskazanego na znaku; znak E-6c może oznaczać ponadto dworzec morski. 3. Na drogowskazach według wzoru znaku E-6 mogą być podawane odpowiednim napisem lub symbolem kierunki do jednostek Policji, pogotowia ratunkowego, urzędów administracji publicznej, zarządów drogi oraz jednostek prowadzących odprawę celną. 4. Umieszczone obok nazwy miejscowości znak z literami „PL” oraz znak wyróżniający państwo przyjęty do oznaczania pojazdów uczestniczących w ruchu międzyna",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-13",
+  "code": "E-13",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "tablica kierunkowa",
+  "short_description": "Wskazuje kierunek i odległość do głównych miejscowości położonych przy danej drodze.",
+  "details": "Znak E-13 „tablica kierunkowa” wskazuje kierunek i odległość do głównych miejscowości położonych przy danej drodze.",
+  "image_path": "img/znaki/E-13.png",
+  "keywords": [
+   "e-13",
+   "e13",
+   "kierunkowa",
+   "tablica"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 64",
+   "source_text": "§ 64. 1. Znak E-13 „tablica kierunkowa” wskazuje kierunek i odległość do głównych miejscowości położonych przy danej drodze. 2. Znaki E-14 „tablica szlaku drogowego”, E-14a „tablica szlaku drogowego na autostradzie” wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-14",
+  "code": "E-14",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "tablica szlaku drogowego",
+  "short_description": "Wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
+  "details": "Znaki E-14 „tablica szlaku drogowego”, E-14a „tablica szlaku drogowego na autostradzie” wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
+  "image_path": "img/znaki/E-14.png",
+  "keywords": [
+   "drogowego",
+   "e-14",
+   "e14",
+   "szlaku",
+   "tablica"
+  ],
+  "related_sign_ids": [
+   "E-14a"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 64",
+   "source_text": "§ 64. 1. Znak E-13 „tablica kierunkowa” wskazuje kierunek i odległość do głównych miejscowości położonych przy danej drodze. 2. Znaki E-14 „tablica szlaku drogowego”, E-14a „tablica szlaku drogowego na autostradzie” wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-14a",
+  "code": "E-14a",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "tablica szlaku drogowego na autostradzie",
+  "short_description": "Wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
+  "details": "Znaki E-14 „tablica szlaku drogowego”, E-14a „tablica szlaku drogowego na autostradzie” wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
+  "image_path": "img/znaki/E-14a.png",
+  "keywords": [
+   "autostradzie",
+   "drogowego",
+   "e-14a",
+   "e14a",
+   "szlaku",
+   "tablica"
+  ],
+  "related_sign_ids": [
+   "E-14"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 64",
+   "source_text": "§ 64. 1. Znak E-13 „tablica kierunkowa” wskazuje kierunek i odległość do głównych miejscowości położonych przy danej drodze. 2. Znaki E-14 „tablica szlaku drogowego”, E-14a „tablica szlaku drogowego na autostradzie” wskazują numer drogi i odległość do głównych miejscowości położonych przy danym szlaku drogowym.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-15a",
+  "code": "E-15a",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t",
+  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
+  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+  "image_path": "img/znaki/E-15a.png",
+  "keywords": [
+   "dopuszczalnym",
+   "drogi",
+   "e-15a",
+   "e15a",
+   "krajowej",
+   "nacisku",
+   "numer",
+   "pojazdu"
+  ],
+  "related_sign_ids": [
+   "E-15b",
+   "E-15c",
+   "E-15d",
+   "E-15e",
+   "E-15f",
+   "E-15g"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 65",
+   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-15b",
+  "code": "E-15b",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t",
+  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
+  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
+  "image_path": "img/znaki/E-15b.png",
+  "keywords": [
+   "dopuszczalnym",
+   "drogi",
+   "e-15b",
+   "e15b",
+   "nacisku",
+   "numer",
+   "pojazdu",
+   "wojewódzkiej"
+  ],
+  "related_sign_ids": [
+   "E-15a",
+   "E-15c",
+   "E-15d",
+   "E-15e",
+   "E-15f",
+   "E-15g"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 65",
+   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-15c",
+  "code": "E-15c",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "numer autostrady",
+  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
+  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+  "image_path": "img/znaki/E-15c.png",
+  "keywords": [
+   "autostrady",
+   "e-15c",
+   "e15c",
+   "numer"
+  ],
+  "related_sign_ids": [
+   "E-15a",
+   "E-15b",
+   "E-15d",
+   "E-15e",
+   "E-15f",
+   "E-15g"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 65",
+   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-15d",
+  "code": "E-15d",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "numer drogi ekspresowej",
+  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
+  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+  "image_path": "img/znaki/E-15d.png",
+  "keywords": [
+   "drogi",
+   "e-15d",
+   "e15d",
+   "ekspresowej",
+   "numer"
+  ],
+  "related_sign_ids": [
+   "E-15a",
+   "E-15b",
+   "E-15c",
+   "E-15e",
+   "E-15f",
+   "E-15g"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 65",
+   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-15e",
+  "code": "E-15e",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t",
+  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
+  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
+  "image_path": "img/znaki/E-15e.png",
+  "keywords": [
+   "dopuszczalnym",
+   "drogi",
+   "e-15e",
+   "e15e",
+   "nacisku",
+   "numer",
+   "pojazdu",
+   "wojewódzkiej"
+  ],
+  "related_sign_ids": [
+   "E-15a",
+   "E-15b",
+   "E-15c",
+   "E-15d",
+   "E-15f",
+   "E-15g"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 65",
+   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-15f",
+  "code": "E-15f",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t",
+  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
+  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+  "image_path": "img/znaki/E-15f.png",
+  "keywords": [
+   "dopuszczalnym",
+   "drogi",
+   "e-15f",
+   "e15f",
+   "krajowej",
+   "nacisku",
+   "numer",
+   "pojazdu"
+  ],
+  "related_sign_ids": [
+   "E-15a",
+   "E-15b",
+   "E-15c",
+   "E-15d",
+   "E-15e",
+   "E-15g"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 65",
+   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-15g",
+  "code": "E-15g",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t",
+  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
+  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+  "image_path": "img/znaki/E-15g.png",
+  "keywords": [
+   "dopuszczalnym",
+   "drogi",
+   "e-15g",
+   "e15g",
+   "krajowej",
+   "nacisku",
+   "numer",
+   "pojazdu"
+  ],
+  "related_sign_ids": [
+   "E-15a",
+   "E-15b",
+   "E-15c",
+   "E-15d",
+   "E-15e",
+   "E-15f"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 65",
+   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-15h",
+  "code": "E-15h",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t",
+  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
+  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach.",
+  "image_path": "img/znaki/E-15h.png",
+  "keywords": [
+   "dopuszczalnym",
+   "drogi",
+   "e-15h",
+   "e15h",
+   "nacisku",
+   "numer",
+   "pojazdu",
+   "wojewódzkiej"
+  ],
+  "related_sign_ids": [
+   "E-15a",
+   "E-15b",
+   "E-15c",
+   "E-15d",
+   "E-15e",
+   "E-15f"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 65",
+   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-16",
+  "code": "E-16",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "numer szlaku międzynarodowego",
+  "short_description": "Wskazują numer i rodzaj (kategorię) drogi.",
+  "details": "Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi.",
+  "image_path": "img/znaki/E-16.png",
+  "keywords": [
+   "e-16",
+   "e16",
+   "międzynarodowego",
+   "numer",
+   "szlaku"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 65",
+   "source_text": "§ 65. 1. Znaki: 1) E-15a „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 2) E-15b „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 8 t”, 3) E-15c „numer autostrady”, 4) E-15d „numer drogi ekspresowej”, 5) E-15e „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 10 t”, 6) E-15f „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 10 t”, 7) E-15g „numer drogi krajowej o dopuszczalnym nacisku osi pojazdu do 8 t”, 8) E-15h „numer drogi wojewódzkiej o dopuszczalnym nacisku osi pojazdu do 11,5 t”, 9) E-16 „numer szlaku międzynarodowego” wskazują numer i rodzaj (kategorię) drogi. 2. Znaki wymienione w ust. 1 pkt 1–8 oznaczają także, że drogą mogą poruszać się pojazdy o nacisku osi pojedynczej nieprzekraczającym: 1) 11,5 t – w przypadku znaków: E-15a, E-15c, E-15d oraz E-15h, 2) 10 t – w przypadku znaków: E-15e oraz E-15f, 3) 8 t – w przypadku znaków: E-15b oraz E-15g i odpowiednio większym nacisku osi wielokrotnej, zgodnie z przepisami określającymi warunki techniczne pojazdów poruszających się po drogach. 3. Umieszczona pod znakiem E-15a, E-15c, E-15d, E-15f albo E-15g tabliczka T-34 oznacza, że za przejazd odcinkiem drogi publicznej tak oznaczonym pobiera się opłatę elektroniczną.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-17a",
+  "code": "E-17a",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "miejscowość",
+  "short_description": "Oznacza wjazd do miejscowości.",
+  "details": "Znak E-17a „miejscowość” oznacza wjazd do miejscowości.",
+  "image_path": "img/znaki/E-17a.png",
+  "keywords": [
+   "e-17a",
+   "e17a",
+   "miejscowość"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 66",
+   "source_text": "§ 66. 1. Znak E-17a „miejscowość” oznacza wjazd do miejscowości. 2. Znak E-18a „koniec miejscowości” oznacza wyjazd z miejscowości. 3. Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta. Dziennik Ustaw – 19 – Poz. 2310 4. Znak E-20 „tablica węzła drogowego na autostradzie” informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła. 5. Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-18a",
+  "code": "E-18a",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "koniec miejscowości",
+  "short_description": "Oznacza wyjazd z miejscowości.",
+  "details": "Znak E-18a „koniec miejscowości” oznacza wyjazd z miejscowości.",
+  "image_path": "img/znaki/E-18a.png",
+  "keywords": [
+   "e-18a",
+   "e18a",
+   "koniec",
+   "miejscowości"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 66",
+   "source_text": "§ 66. 1. Znak E-17a „miejscowość” oznacza wjazd do miejscowości. 2. Znak E-18a „koniec miejscowości” oznacza wyjazd z miejscowości. 3. Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta. Dziennik Ustaw – 19 – Poz. 2310 4. Znak E-20 „tablica węzła drogowego na autostradzie” informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła. 5. Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-19a",
+  "code": "E-19a",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "obwodnica",
+  "short_description": "Wskazuje na skrzyżowaniu kierunek do obwodnicy miasta.",
+  "details": "Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta.",
+  "image_path": "img/znaki/E-19a.png",
+  "keywords": [
+   "e-19a",
+   "e19a",
+   "obwodnica"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 66",
+   "source_text": "§ 66. 1. Znak E-17a „miejscowość” oznacza wjazd do miejscowości. 2. Znak E-18a „koniec miejscowości” oznacza wyjazd z miejscowości. 3. Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta. Dziennik Ustaw – 19 – Poz. 2310 4. Znak E-20 „tablica węzła drogowego na autostradzie” informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła. 5. Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-20",
+  "code": "E-20",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "tablica węzła drogowego na autostradzie",
+  "short_description": "Informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła.",
+  "details": "Znak E-20 „tablica węzła drogowego na autostradzie” informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła.",
+  "image_path": "img/znaki/E-20.png",
+  "keywords": [
+   "autostradzie",
+   "drogowego",
+   "e-20",
+   "e20",
+   "tablica",
+   "węzła"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 66",
+   "source_text": "§ 66. 1. Znak E-17a „miejscowość” oznacza wjazd do miejscowości. 2. Znak E-18a „koniec miejscowości” oznacza wyjazd z miejscowości. 3. Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta. Dziennik Ustaw – 19 – Poz. 2310 4. Znak E-20 „tablica węzła drogowego na autostradzie” informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła. 5. Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-21",
+  "code": "E-21",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "dzielnica (osiedle)",
+  "short_description": "Informuje o wjeździe do centrum miasta.",
+  "details": "Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
+  "image_path": "img/znaki/E-21.png",
+  "keywords": [
+   "dzielnica",
+   "e-21",
+   "e21",
+   "osiedle"
+  ],
+  "related_sign_ids": [],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 66",
+   "source_text": "§ 66. 1. Znak E-17a „miejscowość” oznacza wjazd do miejscowości. 2. Znak E-18a „koniec miejscowości” oznacza wyjazd z miejscowości. 3. Znak E-19a „obwodnica” wskazuje na skrzyżowaniu kierunek do obwodnicy miasta. Dziennik Ustaw – 19 – Poz. 2310 4. Znak E-20 „tablica węzła drogowego na autostradzie” informuje o zbliżaniu się do wyjazdu z autostrady; liczby umieszczone na znaku wskazują: górna – numer wyjazdu, dolna – odległość tablicy od wyjazdu; zamiast liczby wskazującej numer wyjazdu na znaku może być podawana nazwa węzła. 5. Znak E-21 „dzielnica (osiedle) ” informuje o wjeździe do dzielnicy lub osiedla; znak z napisem „Centrum” informuje o wjeździe do centrum miasta.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-22a",
+  "code": "E-22a",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "samochodowy szlak turystyczny",
+  "short_description": "Wskazuje początek wyznaczonego samochodowego szlaku turystycznego; na znaku obok nazwy szlaku mogą być umieszczone symbol szlaku oraz symbol organizacji turystycznej wytyczającej szlak.",
+  "details": "Znak E-22a „samochodowy szlak turystyczny” wskazuje początek wyznaczonego samochodowego szlaku turystycznego; na znaku obok nazwy szlaku mogą być umieszczone symbol szlaku oraz symbol organizacji turystycznej wytyczającej szlak.",
+  "image_path": "img/znaki/E-22a.png",
+  "keywords": [
+   "e-22a",
+   "e22a",
+   "samochodowy",
+   "szlak",
+   "turystyczny"
+  ],
+  "related_sign_ids": [
+   "E-22b",
+   "E-22c"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 67",
+   "source_text": "§ 67. 1. Znak E-22a „samochodowy szlak turystyczny” wskazuje początek wyznaczonego samochodowego szlaku turystycznego; na znaku obok nazwy szlaku mogą być umieszczone symbol szlaku oraz symbol organizacji turystycznej wytyczającej szlak. 2. Znak E-22b „obiekt na samochodowym szlaku turystycznym” wskazuje obiekt turystyczny na samochodowym szlaku turystycznym; na znaku umieszcza się symbol obiektu turystycznego lub wypoczynkowego. 3. Znak E-22c „informacja o obiektach turystycznych” informuje o występujących obiektach turystycznych na terenie wskazanym na znaku.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-22b",
+  "code": "E-22b",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "obiekt na samochodowym szlaku turystycznym",
+  "short_description": "Wskazuje obiekt turystyczny na samochodowym szlaku turystycznym; na znaku umieszcza się symbol obiektu turystycznego lub wypoczynkowego.",
+  "details": "Znak E-22b „obiekt na samochodowym szlaku turystycznym” wskazuje obiekt turystyczny na samochodowym szlaku turystycznym; na znaku umieszcza się symbol obiektu turystycznego lub wypoczynkowego.",
+  "image_path": "img/znaki/E-22b.png",
+  "keywords": [
+   "e-22b",
+   "e22b",
+   "obiekt",
+   "samochodowym",
+   "szlaku",
+   "turystycznym"
+  ],
+  "related_sign_ids": [
+   "E-22a",
+   "E-22c"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 67",
+   "source_text": "§ 67. 1. Znak E-22a „samochodowy szlak turystyczny” wskazuje początek wyznaczonego samochodowego szlaku turystycznego; na znaku obok nazwy szlaku mogą być umieszczone symbol szlaku oraz symbol organizacji turystycznej wytyczającej szlak. 2. Znak E-22b „obiekt na samochodowym szlaku turystycznym” wskazuje obiekt turystyczny na samochodowym szlaku turystycznym; na znaku umieszcza się symbol obiektu turystycznego lub wypoczynkowego. 3. Znak E-22c „informacja o obiektach turystycznych” informuje o występujących obiektach turystycznych na terenie wskazanym na znaku.",
+   "verified_at": "2026-08-04"
+  },
+  "verification_status": "verified",
+  "verification_note": null
+ },
+ {
+  "id": "E-22c",
+  "code": "E-22c",
+  "category_id": "E",
+  "category_name": "Znaki kierunku i miejscowości",
+  "name": "informacja o obiektach turystycznych",
+  "short_description": "Informuje o występujących obiektach turystycznych na terenie wskazanym na znaku.",
+  "details": "Znak E-22c „informacja o obiektach turystycznych” informuje o występujących obiektach turystycznych na terenie wskazanym na znaku.",
+  "image_path": "img/znaki/E-22c.png",
+  "keywords": [
+   "e-22c",
+   "e22c",
+   "informacja",
+   "obiektach",
+   "turystycznych"
+  ],
+  "related_sign_ids": [
+   "E-22a",
+   "E-22b"
+  ],
+  "legal_basis": {
+   "act_title": "Rozporządzenie Ministrów Infrastruktury oraz Spraw Wewnętrznych i Administracji w sprawie znaków i sygnałów drogowych",
+   "journal_reference": "Dz.U. 2019 poz. 2310 z późn. zm. (tekst jednolity)",
+   "provision_reference": "§ 67",
+   "source_text": "§ 67. 1. Znak E-22a „samochodowy szlak turystyczny” wskazuje początek wyznaczonego samochodowego szlaku turystycznego; na znaku obok nazwy szlaku mogą być umieszczone symbol szlaku oraz symbol organizacji turystycznej wytyczającej szlak. 2. Znak E-22b „obiekt na samochodowym szlaku turystycznym” wskazuje obiekt turystyczny na samochodowym szlaku turystycznym; na znaku umieszcza się symbol obiektu turystycznego lub wypoczynkowego. 3. Znak E-22c „informacja o obiektach turystycznych” informuje o występujących obiektach turystycznych na terenie wskazanym na znaku.",
+   "verified_at": "2026-08-04"
   },
   "verification_status": "verified",
   "verification_note": null

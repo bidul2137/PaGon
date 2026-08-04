@@ -87,3 +87,11 @@ a.pom-kod-tel:hover,a.pom-kod-tel:focus-visible{color:var(--t-gold);border-botto
 .pom-zpj-desc{margin-top:4px}
 .pom-zpj-desc[hidden]{display:none}
 .pom-zpj-desc .prz-rekord-content{margin:0}
+
+/* ===== hub podkafelków (Numery telefonów, ŚPB) =====
+   Tytuł huba bywa dłuższy niż szerokość ekranu, a globalny .tar-title ma
+   white-space:nowrap — bez tego napis wychodził poza kadr i był ucinany. */
+.hub-title{white-space:normal;line-height:1.15;font-size:clamp(20px,6.2vw,30px)}
+/* Odstępy między słowami podtytułu robi gap, a nie encje &nbsp; — te przekazane
+   w zmiennej Jinja wyświetliłyby się jako zwykły tekst. */
+.hub-subtitle{display:flex;flex-wrap:wrap;gap:2px 14px}

@@ -230,6 +230,14 @@
    OKNA — przy szerokim ekranie siatka brała więcej kolumn, niż mieściło się
    w kontenerze, i karty były przycinane. Wszystkie siatki modułu używają
    teraz auto-fit (liczy dostępne miejsce), a poniżej twarde bezpieczniki. */
+/* ---------- odniesienie do taryfikatora ----------
+   Same karty rysuje kody_czynow.css (.kcz-karta i siatka z ikonami) — tutaj
+   zostaje wyłącznie nagłówek sekcji i odstępy, żeby jeden wygląd wykroczenia
+   był opisany w jednym miejscu. */
+
+.zn-taryf { margin: 0 0 18px; }
+.zn-taryf-naglowek { margin: 0 2px 10px; }
+
 /* UWAGA: nie obejmować samego .zn-page — to ten sam element co .tar-page,
    który ma max-width 480px. Reguła z max-width:100% by go rozpychała. */
 .zn-page > * , .zn-page * { max-width: 100%; }

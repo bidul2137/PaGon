@@ -83,6 +83,18 @@ RE_CZASOWNIK = re.compile(
     r"potwierdza|odwołuje|zapowiada|sygnalizuj|wyznacza|wprowadza")
 
 
+def klucz_kodu(kod: str) -> tuple:
+    """Porzadek naturalny: A-1, A-2, … A-9, A-10, A-11, A-11a, A-12a.
+
+    Zwykle sortowanie tekstowe stawia A-10 przed A-2, bo porownuje znak po
+    znaku. Rozbijamy wiec kod na serie, liczbe i literowy przyrostek.
+    """
+    m = re.match(r"^((?:BT|AT|[ABCDEFGPRSTUW]))-(\d{1,3})([a-z]?)$", kod)
+    if not m:
+        return (kod, 0, "")
+    return (m.group(1), int(m.group(2)), m.group(3))
+
+
 def RE_KOD_W_ZDANIU(kod: str):
     """Kod jako osobny wyraz — zeby T-1 nie trafialo w T-1a."""
     return re.compile(r"(?<![A-Za-z0-9-])" + re.escape(kod) + r"(?![A-Za-z0-9])")
@@ -154,7 +166,7 @@ def zbuduj(tekst: str) -> list[dict]:
         for kod in set(RE_KOD.findall(tresc)):
             wspomnienia.setdefault(kod, (par, tresc))
 
-    wszystkie = sorted(set(RE_KOD.findall(tekst)))
+    wszystkie = sorted(set(RE_KOD.findall(tekst)), key=klucz_kodu)
     rekordy = []
     for kod in wszystkie:
         seria = kod.split("-")[0]
