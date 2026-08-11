@@ -15,5 +15,10 @@
 <body>
   {% block content %}{% endblock %}
   <script src="{{ static_v('js/clock.js') }}" defer></script>
+  {# Podświetlanie trafień działa na gotowych wynikach, więc jeden skrypt
+     obsługuje wszystkie wyszukiwarki — i te javascriptowe, i te renderowane
+     po stronie serwera. Ładujemy go globalnie; na stronach bez wyszukiwarki
+     nie robi nic. #}
+  <script src="{{ static_v('js/podswietl.js') }}" defer></script>
 </body>
 </html>

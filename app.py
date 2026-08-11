@@ -207,6 +207,23 @@ def pomoce():
         tab = str.maketrans("ąćęłńóśżź", "acelnoszz")
         return s.lower().translate(tab)
 
+    def tekst_listy(rekord):
+        """Splaszcza list_items rekordu do jednego ciagu.
+
+        Tresc wielu pozycji Pomocy (przypadki uzycia SPB, broni palnej) siedzi
+        wylacznie w list_items, a pozycje sub bywaja raz tekstem, raz obiektem
+        {"text": ...}. Bez tego wyszukiwarka nie widziala niemal calej strony.
+        """
+        czesci = []
+        for it in rekord.get("list_items") or []:
+            if isinstance(it, str):
+                czesci.append(it)
+                continue
+            czesci.append(it.get("text") or "")
+            for s in it.get("sub") or []:
+                czesci.append(s if isinstance(s, str) else (s.get("text") or ""))
+        return " ".join(czesci)
+
     def szukaj_linkow(items, q, slug=None):
         ql = bez_ogonkow(q.strip())
         out = []
@@ -218,6 +235,7 @@ def pomoce():
                 r.get("tag", ""), r.get("article", ""), r.get("summary", ""),
                 r.get("effect", ""), r.get("kod", ""), r.get("country", ""),
                 r.get("opis", ""), r.get("note", ""), r.get("list_intro", ""),
+                tekst_listy(r),
                 " ".join(r.get("keywords", [])),
             ]))
             # krotkie zapytania (np. "uk", "zea") dopasowujemy jako cale slowo,
@@ -666,6 +684,129 @@ def pomoce_numery_itd():
     with open(BASE_DIR / "data" / "witd.json", encoding="utf-8") as f:
         dane = json.load(f)
     return render_template("numery_itd.html", dane=dane)
+
+
+_USTERKI_CACHE = None
+
+
+def _kody_usterek_dane():
+    """Baza usterek okresowego badania technicznego (zalacznik nr 1).
+
+    Zalacznik nr 2 celowo NIE jest tu wczytywany. Jego dzial I ma te sama
+    budowe kolumn, ale usterek nie oznacza literami, przez co pierwszy przebieg
+    importu rozbil opisy i zgubil kategorie. Do czasu poprawienia parsera modul
+    pokazuje wylacznie dane, za ktore mozna reczyc.
+    """
+    global _USTERKI_CACHE
+    katalog = BASE_DIR / "data" / "kody_usterek"
+    pliki = [katalog / "periodic_defects.json", katalog / "categories.json",
+             katalog / "metadata.json"]
+    try:
+        znacznik = tuple(p.stat().st_mtime_ns for p in pliki)
+    except OSError:
+        return None
+    if _USTERKI_CACHE is not None and _USTERKI_CACHE["znacznik"] == znacznik:
+        return _USTERKI_CACHE
+
+    with open(pliki[0], encoding="utf-8") as f:
+        rekordy = json.load(f)["records"]
+    with open(pliki[1], encoding="utf-8") as f:
+        kategorie = json.load(f)
+    with open(pliki[2], encoding="utf-8") as f:
+        metadane = json.load(f)
+    # Nazwy podgrup ("1.1. Stan techniczny i działanie") nie maja wlasnych
+    # usterek, wiec nie ma ich w rekordach — a to one daja naglowkowi karty
+    # srodkowy poziom hierarchii, tak jak w tabeli rozporzadzenia.
+    try:
+        with open(katalog / "inspection_items.json", encoding="utf-8") as f:
+            elementy = json.load(f).get("annex_1", {})
+    except OSError:
+        elementy = {}
+
+    # Dzialy w kolejnosci z rozporzadzenia (0–10), a nie alfabetycznie.
+    dzialy, widziane = [], set()
+    for r in rekordy:
+        kod = r.get("section_code")
+        if kod is None or kod in widziane:
+            continue
+        widziane.add(kod)
+        dzialy.append({"kod": kod, "nazwa": r.get("section_name") or "",
+                       "ile": sum(1 for x in rekordy if x.get("section_code") == kod)})
+    dzialy.sort(key=lambda d: int(d["kod"]) if d["kod"].isdigit() else 999)
+
+    _USTERKI_CACHE = {
+        "znacznik": znacznik,
+        "wersja": f'{metadane.get("dataset_version", "0")}-{max(znacznik) // 1000000000}',
+        "rekordy": rekordy,
+        "indeks": {r["code_normalized"]: r for r in rekordy},
+        "dzialy": dzialy,
+        "kategorie": kategorie.get("categories", []),
+        "elementy": elementy,
+        "metadane": metadane,
+    }
+    return _USTERKI_CACHE
+
+
+@app.route("/pomoce/kody-usterek")
+def pomoce_kody_usterek():
+    """Wyszukiwarka usterek okresowego badania technicznego pojazdu."""
+    dane = _kody_usterek_dane()
+    if dane is None:
+        abort(404)
+    return render_template("kody_usterek.html", wersja=dane["wersja"],
+                           dzialy=dane["dzialy"], kategorie=dane["kategorie"],
+                           metadane=dane["metadane"], ile=len(dane["rekordy"]))
+
+
+@app.route("/pomoce/kody-usterek/dane")
+def pomoce_kody_usterek_dane():
+    """Lekki indeks do wyszukiwarki — bez podstaw prawnych i metod badania.
+
+    Nazwy pol sa jednoliterowe, bo ten plik siedzi w cache przegladarki i idzie
+    do niej w calosci; przy 635 rekordach pelne nazwy kosztowalyby kilkadziesiat
+    kilobajtow bez zadnego zysku.
+    """
+    dane = _kody_usterek_dane()
+    if dane is None:
+        abort(404)
+    lekkie = [{
+        "k": r["code"], "n": r["code_normalized"], "o": r["defect"],
+        "s": r.get("section_code"), "e": r.get("inspection_item_code"),
+        "i": r.get("inspection_item_name") or "",
+        "g": dane["elementy"].get(".".join(
+            (r.get("inspection_item_code") or "").split(".")[:2]), ""),
+        "sn": r.get("section_name") or "",
+        "m": r.get("inspection_method") or "",
+        "u": r.get("warnings") or [],
+        "p": [o["severity_code"] for o in r["assessment_options"]],
+        "w": r.get("keywords") or [],
+    } for r in dane["rekordy"]]
+    odp = Response(json.dumps(lekkie, ensure_ascii=False, separators=(",", ":")),
+                   mimetype="application/json")
+    odp.headers["Cache-Control"] = "public, max-age=604800, immutable"
+    return odp
+
+
+@app.route("/pomoce/kody-usterek/kod/<kod>")
+def pomoce_kody_usterek_kod(kod):
+    """Szczegoly jednej usterki."""
+    dane = _kody_usterek_dane()
+    if dane is None:
+        abort(404)
+    klucz = re.sub(r"[^A-Za-z0-9]", "", kod).upper()
+    usterka = dane["indeks"].get(klucz)
+    if not usterka:
+        abort(404)
+    # sasiedzi z tego samego elementu kontroli — najczestszy ruch to porownanie
+    # wariantow tej samej pozycji, a nie skok do innego dzialu
+    sasiedzi = [r for r in dane["rekordy"]
+                if r["inspection_item_code"] == usterka["inspection_item_code"]
+                and r["code"] != usterka["code"]][:8]
+    podgrupa = dane["elementy"].get(
+        ".".join((usterka.get("inspection_item_code") or "").split(".")[:2]))
+    return render_template("kody_usterek_kod.html", usterka=usterka,
+                           sasiedzi=sasiedzi, podgrupa=podgrupa,
+                           metadane=dane["metadane"])
 
 
 @app.route("/pomoce/numery-straz-graniczna")

@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+{% block title %}PaGon — usterka {{ usterka.code }}{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kody_usterek.css') }}">
+
+<div class="tar-page kpj-page kus-page kus-page--szczegoly">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce_kody_usterek') }}" class="tar-back"
+       aria-label="Powrót do wyszukiwarki usterek">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">{{ usterka.code }}</h1>
+      <p class="kpj-lead">{{ usterka.section_code }}. {{ usterka.section_name }}</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+
+    <p class="kus-znacznik">
+      <span class="kus-plakietka kus-plakietka--zal">Załącznik 1 · Okresowe</span>
+      {% for o in usterka.assessment_options %}
+        <span class="kus-sev kus-sev--{{ o.severity_code|lower }}">
+          {{ o.severity_code }} · Priorytet {{ o.priority }} ·
+          {{ o.severity_label|replace('Usterka ','') }}</span>
+      {% endfor %}
+    </p>
+
+    <section class="kal-karta">
+      <p class="kus-blok-tytul">Opis usterki</p>
+      <p class="kus-def">{{ usterka.defect }}</p>
+    </section>
+
+    {% if usterka.assessment_options|length > 1 %}
+    <section class="kus-blok">
+      <p class="kus-blok-tytul">Możliwe oceny</p>
+      {% for o in usterka.assessment_options %}
+        <p class="kus-poz-gora">
+          <span class="kus-sev kus-sev--{{ o.severity_code|lower }}">
+            {{ o.severity_code }} · Priorytet {{ o.priority }}</span>
+          <span class="kus-drobne">{{ o.severity_label }}</span>
+        </p>
+        {% if o.condition %}<p class="kus-warunek">{{ o.condition }}</p>{% endif %}
+      {% endfor %}
+      <p class="kus-nota">Rozporządzenie dopuszcza tu więcej niż jedną kwalifikację.
+        Decyzję podejmuje uprawniony diagnosta (§ 2 ust. 6 rozporządzenia).</p>
+    </section>
+    {% endif %}
+
+    <section class="kus-blok">
+      <p class="kus-blok-tytul">Zakres i metoda kontroli</p>
+      <dl class="kus-dane">
+        <dt>Dział</dt><dd>{{ usterka.section_code }}. {{ usterka.section_name }}</dd>
+        {% if podgrupa and podgrupa != usterka.inspection_item_name %}
+          <dt>Grupa</dt><dd>{{ podgrupa }}</dd>
+        {% endif %}
+        <dt>Element</dt>
+        <dd>{{ usterka.inspection_item_code }}
+          {{ usterka.inspection_item_name or '—' }}</dd>
+        <dt>Metoda</dt><dd>{{ usterka.inspection_method or '—' }}</dd>
+        <dt>Rodzaj badania</dt><dd>{{ usterka.test_type_label }}</dd>
+      </dl>
+    </section>
+
+    {% if usterka.warnings %}
+    <section class="kus-blok">
+      <p class="kus-blok-tytul">Uwagi</p>
+      {% for u in usterka.warnings %}<p class="kus-warunek">{{ u }}</p>{% endfor %}
+    </section>
+    {% endif %}
+
+    {% if sasiedzi %}
+    <section class="kus-blok">
+      <p class="kus-blok-tytul">Pozostałe usterki tego elementu</p>
+      <div class="kus-wyniki">
+        {% for s in sasiedzi %}
+        <div class="kus-poz">
+          <a class="kus-poz-tresc"
+             href="{{ url_for('pomoce_kody_usterek_kod', kod=s.code_normalized) }}">
+            <span class="kus-poz-gora">
+              <span class="kus-kod">{{ s.code }}</span>
+              {% for o in s.assessment_options %}
+                <span class="kus-sev kus-sev--{{ o.severity_code|lower }}">
+                  {{ o.severity_code }}</span>
+              {% endfor %}
+            </span>
+            <span class="kus-poz-opis">{{ s.defect }}</span>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    <details class="kus-odanych">
+      <summary class="kus-odanych-tytul">Podstawa prawna i aktualność</summary>
+      <div class="kus-odanych-tresc">
+        <dl class="kus-dane">
+          <dt>Akt</dt>
+          <dd>Rozporządzenie Ministra Transportu, Budownictwa i Gospodarki Morskiej
+            z dnia 26 czerwca 2012 r. w sprawie zakresu i sposobu przeprowadzania badań
+            technicznych pojazdów oraz wzorów dokumentów stosowanych przy tych badaniach</dd>
+          <dt>Podstawa</dt><dd>{{ usterka.source.legal_reference }}</dd>
+          <dt>Jednostka</dt><dd>{{ usterka.source.provision_reference }}</dd>
+          <dt>Stan prawny</dt><dd>{{ metadane.effective_legal_state_at }}</dd>
+          <dt>Sprawdzono</dt><dd>{{ usterka.source.verified_at }}</dd>
+          <dt>Status</dt>
+          <dd>{{ 'pełna weryfikacja' if usterka.verification_status == 'verified'
+                 else 'weryfikacja częściowa' }}</dd>
+        </dl>
+        {% if usterka.verification_note %}
+          <p class="kus-nota">{{ usterka.verification_note }}</p>
+        {% endif %}
+        <p class="kus-nota">
+          <a class="kus-link" href="{{ usterka.source.official_url }}"
+             target="_blank" rel="noopener">Otwórz tekst aktu (ELI, Kancelaria Sejmu)</a>
+        </p>
+        <p class="kus-nota kus-zastrzezenie">Informacje mają charakter pomocniczy.
+          Ostateczną ocenę stanu technicznego, kwalifikację usterki i wynik badania ustala
+          uprawniony diagnosta.</p>
+      </div>
+    </details>
+
+  </main>
+</div>
+{% endblock %}

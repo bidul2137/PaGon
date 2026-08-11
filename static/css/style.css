@@ -1420,3 +1420,16 @@ body {
   color: var(--t-dim);
   letter-spacing: 0.02em;
 }
+
+/* ===== podświetlenie trafień wyszukiwarki (wspólne dla całej aplikacji) =====
+   Domyślne żółte tło <mark> na ciemnym motywie krzyczy i psuje kontrast,
+   więc nadpisujemy je barwą akcentu aplikacji. */
+mark.pg-traf,
+mark.kus-traf {
+  padding: 0 2px;
+  border-radius: 3px;
+  background: rgba(240, 180, 41, .26);
+  color: inherit;
+  font-weight: 700;
+  box-shadow: inset 0 -1px 0 rgba(240, 180, 41, .7);
+}

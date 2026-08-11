@@ -86,7 +86,19 @@
       {% if linki %}
         <ul class="prz-lista">
           {% for l in linki %}
-            {% set szukaj_txt = (l.title or '') ~ ' ' ~ (l.article or '') ~ ' ' ~ (l.summary or '') ~ ' ' ~ (l.tag or '') ~ ' ' ~ (l.kod or '') ~ ' ' ~ (l.country or '') ~ ' ' ~ (l.opis or '') ~ ' ' ~ (l.note or '') ~ ' ' ~ (l.effect or '') ~ ' ' ~ (l.description or '') ~ ' ' ~ (l.list_intro or '') ~ ' ' ~ (l.keywords|join(' ') if l.keywords else '') %}
+            {# Treść rekordu siedzi w list_items (z zagnieżdżonym sub), a nie w
+               samym list_intro. Bez spłaszczenia tej listy wyszukiwarka nie
+               widziała 90% tekstu — np. „konieczność” w przypadkach użycia
+               broni palnej. Pozycje sub bywają tekstem albo obiektem {text}. #}
+            {% set lista_txt %}
+              {%- for it in (l.list_items or []) -%}
+                {{ ' ' }}{{ it.text or '' }}
+                {%- for s in (it.sub or []) -%}
+                  {{ ' ' }}{{ s if s is string else (s.text or '') }}
+                {%- endfor -%}
+              {%- endfor -%}
+            {% endset %}
+            {% set szukaj_txt = (l.title or '') ~ ' ' ~ (l.article or '') ~ ' ' ~ (l.summary or '') ~ ' ' ~ (l.tag or '') ~ ' ' ~ (l.kod or '') ~ ' ' ~ (l.country or '') ~ ' ' ~ (l.opis or '') ~ ' ' ~ (l.note or '') ~ ' ' ~ (l.effect or '') ~ ' ' ~ (l.description or '') ~ ' ' ~ (l.list_intro or '') ~ ' ' ~ lista_txt ~ ' ' ~ (l.keywords|join(' ') if l.keywords else '') %}
             {% if l.section %}
             <li class="prz-rekord pom-kod-head" data-szukaj=" ">{{ l.section }}</li>
             {% elif l.kod %}

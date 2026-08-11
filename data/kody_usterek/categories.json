@@ -1,0 +1,31 @@
+{
+ "categories": [
+  {
+   "severity_code": "UD",
+   "priority": 1,
+   "severity_label": "Usterka drobna",
+   "priority_label": "Priorytet 1 — drobna",
+   "definition": "Usterki niemające istotnego wpływu na bezpieczeństwo ruchu drogowego i ochrony środowiska, które nie powodują ograniczenia w dalszym używaniu pojazdu."
+  },
+  {
+   "severity_code": "UP",
+   "priority": 2,
+   "severity_label": "Usterka poważna",
+   "priority_label": "Priorytet 2 — poważna",
+   "definition": "Usterki mogące zagrażać bezpieczeństwu ruchu drogowego lub naruszać wymagania ochrony środowiska albo inne istotne nieprawidłowości, które dają podstawę do ograniczenia dalszego używania pojazdu oraz określenia warunków tego używania."
+  },
+  {
+   "severity_code": "UN",
+   "priority": 3,
+   "severity_label": "Usterka niebezpieczna",
+   "priority_label": "Priorytet 3 — niebezpieczna",
+   "definition": "Usterki powodujące bezpośrednie zagrożenie dla bezpieczeństwa ruchu drogowego lub naruszające wymagania ochrony środowiska, w stopniu uniemożliwiającym używanie pojazdu w ruchu drogowym, które powodują niedopuszczenie do dalszego używania pojazdu."
+  }
+ ],
+ "source": {
+  "legal_reference": "Dz.U. 2024 poz. 141 ze zmianą Dz.U. 2024 poz. 1811",
+  "provision_reference": "§ 2 ust. 4 rozporządzenia",
+  "official_url": "https://api.sejm.gov.pl/eli/acts/DU/2024/141/text.pdf",
+  "verified_at": "2026-08-11"
+ }
+}

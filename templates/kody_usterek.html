@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+{% block title %}PaGon — Kody usterek{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kody_usterek.css') }}">
+
+<div class="tar-page kpj-page kus-page" data-wersja="{{ wersja }}">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back"
+       aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Kody usterek</h1>
+      <p class="kpj-lead">Wyszukaj usterkę okresowego badania technicznego pojazdu.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+
+    <p class="kus-znacznik">
+      <span class="kus-plakietka">Baza lokalna</span>
+      <span class="kus-plakietka kus-plakietka--zal">Załącznik 1 · Okresowe</span>
+      <span class="kus-drobne">{{ ile }} usterek · stan prawny
+        {{ metadane.effective_legal_state_at }}</span>
+    </p>
+
+    <form class="kus-szukajka" id="kusForm" role="search" autocomplete="off">
+      <div class="kus-pole-wrap">
+        <span class="kus-pole-ikona" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+               stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="6.4"/><path d="M15.8 15.8L21 21"/>
+          </svg>
+        </span>
+        <input type="search" id="kusWejscie" class="kus-pole"
+               placeholder="Np. 0.1.a, hamulec, tablica rejestracyjna, opona"
+               aria-label="Kod, element lub opis usterki"
+               spellcheck="false" maxlength="80">
+        <button type="button" class="kus-czysc" id="kusCzysc" hidden
+                aria-label="Wyczyść wyszukiwanie">×</button>
+      </div>
+    </form>
+
+    <details class="kus-filtry" id="kusFiltry">
+      <summary class="kus-filtry-head">Filtry</summary>
+      <div class="kus-filtry-tresc">
+        <p class="kus-etykieta" id="kusEtKat">Kategoria usterki</p>
+        <div class="kus-chipy" role="group" aria-labelledby="kusEtKat">
+          {% for k in kategorie %}
+            <button type="button" class="kus-chip kus-chip--{{ k.severity_code|lower }}"
+                    data-kategoria="{{ k.severity_code }}" aria-pressed="false">
+              {{ k.severity_code }} · {{ k.severity_label|replace('Usterka ','') }}
+            </button>
+          {% endfor %}
+        </div>
+        <p class="kus-etykieta" id="kusEtDzial">Dział kontroli</p>
+        <div class="kus-chipy" role="group" aria-labelledby="kusEtDzial">
+          {% for d in dzialy %}
+            <button type="button" class="kus-chip" data-dzial="{{ d.kod }}"
+                    aria-pressed="false">{{ d.kod }}. {{ d.nazwa|truncate(34, True, '…') }}
+              <span class="kus-chip-ile">{{ d.ile }}</span></button>
+          {% endfor %}
+        </div>
+      </div>
+    </details>
+
+    <p class="kus-licznik" id="kusLicznik" aria-live="polite"></p>
+
+    <div class="kus-wyniki" id="kusWyniki"></div>
+
+    <button type="button" class="kus-wiecej" id="kusWiecej" hidden>Pokaż kolejne</button>
+
+    <p class="kus-nota">Dane z rozporządzenia w sprawie zakresu i sposobu przeprowadzania
+      badań technicznych pojazdów. Podstawa: {{ metadane.legal_basis|join(', ') }}.
+      Zweryfikowano {{ metadane.verified_at }}.</p>
+
+  </main>
+
+  {# Pasek wybranych usterek — przypięty do dołu, bo to jedyny element, do
+     którego wraca się w trakcie całej pracy z listą. #}
+  <div class="kus-pasek" id="kusPasek" hidden>
+    <div class="kus-pasek-status" id="kusStatus" aria-live="polite"></div>
+    <div class="kus-pasek-chipy" id="kusWybrane"></div>
+    <div class="kus-pasek-akcje">
+      <button type="button" class="kus-btn kus-btn--glowny" id="kusPodsumowanie">
+        Zobacz podsumowanie</button>
+      <button type="button" class="kus-btn" id="kusWyczysc">Wyczyść listę</button>
+    </div>
+  </div>
+</div>
+
+{# Wybór kategorii — pokazywany tylko wtedy, gdy źródło dopuszcza więcej niż
+   jedną ocenę tej samej usterki (§ 2 ust. 6 rozporządzenia). #}
+<div class="kus-modal" id="kusModal" hidden role="dialog" aria-modal="true"
+     aria-labelledby="kusModalTytul">
+  <div class="kus-modal-tlo" data-zamknij></div>
+  <div class="kus-modal-panel">
+    <h2 class="kus-modal-tytul" id="kusModalTytul">Wybierz kategorię oceny</h2>
+    <p class="kus-modal-opis" id="kusModalOpis"></p>
+    <div class="kus-modal-opcje" id="kusModalOpcje"></div>
+    <p class="kus-modal-nota">Rozporządzenie dopuszcza tu więcej niż jedną ocenę.
+      Kwalifikację wybiera uprawniony diagnosta.</p>
+    <div class="kus-modal-akcje">
+      <button type="button" class="kus-btn" data-zamknij>Anuluj</button>
+      <button type="button" class="kus-btn kus-btn--glowny" id="kusModalDodaj" disabled>
+        Dodaj do listy</button>
+    </div>
+  </div>
+</div>
+
+<div class="kus-modal" id="kusPodsum" hidden role="dialog" aria-modal="true"
+     aria-labelledby="kusPodsumTytul">
+  <div class="kus-modal-tlo" data-zamknij></div>
+  <div class="kus-modal-panel kus-modal-panel--szeroki">
+    <h2 class="kus-modal-tytul" id="kusPodsumTytul">Podsumowanie</h2>
+    <div id="kusPodsumTresc"></div>
+    <p class="kus-modal-nota kus-zastrzezenie">To narzędzie ma charakter pomocniczy.
+      Ostateczną ocenę stanu technicznego, kwalifikację usterki i wynik badania ustala
+      uprawniony diagnosta, uwzględniając obowiązujące przepisy oraz stan faktyczny
+      pojazdu.</p>
+    <div class="kus-modal-akcje">
+      <button type="button" class="kus-btn" data-zamknij>Zamknij</button>
+      <button type="button" class="kus-btn kus-btn--glowny" id="kusKopiuj">
+        Kopiuj podsumowanie</button>
+    </div>
+  </div>
+</div>
+
+<script src="{{ static_v('js/kody_usterek.js') }}" defer></script>
+{% endblock %}

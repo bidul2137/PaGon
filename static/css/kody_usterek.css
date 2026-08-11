@@ -1,0 +1,397 @@
+/* ===================================================================
+   KODY USTEREK — lista gęsta, szczegóły z oddechem.
+
+   Kategoria usterki NIGDY nie jest sygnalizowana samym kolorem: obok
+   barwy stoi zawsze kod (UD/UP/UN) i słowo. Kolor jest wzmocnieniem,
+   nie nośnikiem znaczenia.
+
+   Siatki opisane przez auto-fit, bo o zawijaniu decyduje szerokość
+   KONTENERA (panel ma 480 px), a nie okna przeglądarki.
+   =================================================================== */
+
+.kus-page [hidden] { display: none !important; }
+
+.kus-page {
+  --kus-kresa: rgba(255, 255, 255, .10);
+  --kus-kresa-mocna: rgba(255, 255, 255, .18);
+  --kus-akcent: #7fb0ff;
+  --kus-etykieta: #7d92b3;
+  --kus-zloto: #f0b429;
+  --kus-ud: #4ac97e;
+  --kus-up: #f0b429;
+  --kus-un: #ef5f4c;
+  padding-bottom: 190px;   /* miejsce na przypięty pasek wybranych */
+}
+
+/* ---------- nagłówek ---------- */
+
+.kus-znacznik {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+  margin: 2px 0 14px;
+}
+.kus-plakietka {
+  padding: 4px 10px; border-radius: 999px;
+  border: 1px solid var(--kus-kresa-mocna);
+  font-size: .7rem; font-weight: 700; letter-spacing: .05em;
+  text-transform: uppercase; color: #cfe0ff;
+}
+.kus-plakietka--zal {
+  border-color: rgba(240, 180, 41, .38);
+  background: rgba(240, 180, 41, .10); color: var(--kus-zloto);
+}
+.kus-drobne { font-size: .74rem; color: var(--kus-etykieta); }
+
+/* ---------- wyszukiwarka ---------- */
+
+.kus-szukajka { margin: 0 0 10px; }
+.kus-pole-wrap { position: relative; display: flex; align-items: center; }
+.kus-pole-ikona {
+  position: absolute; left: 14px; width: 20px; height: 20px;
+  color: var(--kus-etykieta); pointer-events: none;
+}
+.kus-pole-ikona svg { width: 100%; height: 100%; display: block; }
+.kus-pole {
+  width: 100%; min-width: 0; min-height: 52px;
+  padding: 14px 46px 14px 44px;
+  border: 1px solid var(--kus-kresa-mocna); border-radius: 14px;
+  background: rgba(255, 255, 255, .035); color: var(--text-label, #d9e6fb);
+  font: inherit; font-size: 16px;   /* poniżej 16 px iOS przybliża widok */
+  -webkit-appearance: none; appearance: none;
+}
+.kus-pole::placeholder { color: var(--kus-etykieta); opacity: .85; }
+.kus-pole::-webkit-search-cancel-button { display: none; }
+.kus-pole:focus { outline: none; border-color: var(--kus-akcent); }
+.kus-pole:focus-visible { outline: 2px solid var(--kus-akcent); outline-offset: 2px; }
+.kus-czysc {
+  position: absolute; right: 8px; width: 36px; height: 36px;
+  border: 0; border-radius: 10px; background: transparent;
+  color: var(--kus-etykieta); font-size: 1.4rem; line-height: 1; cursor: pointer;
+}
+.kus-czysc:hover { background: rgba(255, 255, 255, .07); color: #eaf1ff; }
+
+/* ---------- filtry ---------- */
+
+.kus-filtry {
+  margin: 0 0 12px; border: 1px solid var(--kus-kresa); border-radius: 12px;
+  background: rgba(255, 255, 255, .03);
+}
+.kus-filtry-head {
+  min-height: 46px; padding: 12px 14px; cursor: pointer; list-style: none;
+  font-size: .86rem; font-weight: 600; color: #cfe0ff;
+  display: flex; align-items: center;
+}
+.kus-filtry-head::-webkit-details-marker { display: none; }
+.kus-filtry-head::after { content: "▾"; margin-left: auto; font-size: .7rem; }
+.kus-filtry[open] .kus-filtry-head::after { content: "▴"; }
+.kus-filtry-head:focus-visible { outline: 2px solid var(--kus-akcent); outline-offset: -2px; }
+.kus-filtry-tresc { padding: 0 14px 14px; }
+.kus-etykieta {
+  margin: 10px 0 8px; font-size: .68rem; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--kus-etykieta);
+}
+.kus-chipy { display: flex; flex-wrap: wrap; gap: 8px; }
+.kus-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  min-height: 40px; padding: 8px 12px;
+  border: 1px solid var(--kus-kresa-mocna); border-radius: 10px;
+  background: transparent; color: #cfe0ff;
+  font: inherit; font-size: .8rem; font-weight: 600; cursor: pointer;
+  text-align: left;
+}
+.kus-chip:hover { background: rgba(255, 255, 255, .06); }
+.kus-chip:focus-visible { outline: 2px solid var(--kus-akcent); outline-offset: 2px; }
+.kus-chip[aria-pressed="true"] {
+  border-color: var(--kus-akcent); background: rgba(127, 176, 255, .16); color: #eaf1ff;
+}
+.kus-chip-ile { font-size: .7rem; color: var(--kus-etykieta); }
+.kus-chip--ud[aria-pressed="true"] { border-color: var(--kus-ud); background: rgba(74, 201, 126, .16); }
+.kus-chip--up[aria-pressed="true"] { border-color: var(--kus-up); background: rgba(240, 180, 41, .16); }
+.kus-chip--un[aria-pressed="true"] { border-color: var(--kus-un); background: rgba(239, 95, 76, .16); }
+
+.kus-licznik { margin: 6px 2px 10px; font-size: .78rem; color: var(--kus-etykieta); }
+.kus-licznik:empty { display: none; }
+
+/* ---------- wiersz usterki ---------- */
+
+.kus-wyniki { display: flex; flex-direction: column; gap: 8px; }
+
+.kus-poz {
+  display: flex; align-items: stretch; gap: 10px; min-width: 0;
+  border: 1px solid var(--kus-kresa); border-radius: 12px;
+  background: rgba(255, 255, 255, .03); padding: 12px 12px 12px 14px;
+}
+.kus-poz:hover { border-color: var(--kus-kresa-mocna); }
+.kus-poz-tresc {
+  display: flex; flex-direction: column; gap: 6px; flex: 1; min-width: 0;
+  color: inherit; text-decoration: none;
+}
+.kus-poz-tresc:focus-visible { outline: 2px solid var(--kus-akcent); outline-offset: 3px; }
+.kus-poz-gora { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.kus-kod {
+  font-family: var(--t-mono, monospace); font-size: .92rem; font-weight: 700;
+  letter-spacing: .04em; color: var(--kus-zloto);
+}
+.kus-sev {
+  padding: 2px 8px; border-radius: 999px;
+  font-size: .68rem; font-weight: 700; letter-spacing: .04em;
+  border: 1px solid currentColor;
+}
+.kus-sev--ud { color: var(--kus-ud); }
+.kus-sev--up { color: var(--kus-up); }
+.kus-sev--un { color: var(--kus-un); }
+.kus-wielo {
+  font-size: .66rem; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--kus-etykieta);
+}
+.kus-poz-opis {
+  font-size: .9rem; line-height: 1.45; color: #e4ecfb; overflow-wrap: anywhere;
+}
+.kus-poz-el { font-size: .74rem; color: var(--kus-etykieta); overflow-wrap: anywhere; }
+
+/* Przycisk stoi obok treści, a nie w niej — kliknięcie w wiersz ma otwierać
+   szczegóły, a nie dopisywać usterkę przez nieuwagę. */
+.kus-dodaj {
+  flex: none; align-self: center;
+  display: inline-flex; align-items: center; gap: 6px;
+  min-height: 44px; min-width: 84px; padding: 10px 12px;
+  border: 1px solid var(--kus-kresa-mocna); border-radius: 11px;
+  background: rgba(127, 176, 255, .10); color: #cfe0ff;
+  font: inherit; font-size: .8rem; font-weight: 700; cursor: pointer;
+  justify-content: center;
+}
+.kus-dodaj svg { width: 16px; height: 16px; flex: none; }
+.kus-dodaj:hover { background: rgba(127, 176, 255, .18); }
+.kus-dodaj:focus-visible { outline: 2px solid var(--kus-akcent); outline-offset: 2px; }
+.kus-dodaj--jest {
+  border-color: rgba(239, 95, 76, .45); background: rgba(239, 95, 76, .12); color: #ffb9ae;
+}
+
+.kus-wiecej {
+  display: block; width: 100%; min-height: 46px; margin: 12px 0 0; padding: 12px;
+  border: 1px solid var(--kus-kresa-mocna); border-radius: 12px;
+  background: transparent; color: #cfe0ff;
+  font: inherit; font-size: .84rem; font-weight: 600; cursor: pointer;
+}
+.kus-wiecej:hover { background: rgba(255, 255, 255, .06); }
+
+.kus-nota { margin: 18px 0 8px; font-size: .74rem; line-height: 1.55; color: var(--kus-etykieta); }
+
+/* ---------- pasek wybranych ---------- */
+
+.kus-pasek {
+  position: fixed; left: 50%; transform: translateX(-50%); bottom: 0;
+  width: 100%; max-width: 480px; z-index: 40;
+  padding: 12px 14px calc(12px + env(safe-area-inset-bottom, 0px));
+  border-top: 1px solid var(--kus-kresa-mocna);
+  background: rgba(8, 16, 34, .97);
+  backdrop-filter: blur(8px);
+}
+.kus-pasek-status {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px;
+  padding-left: 12px; margin-bottom: 8px;
+  border-left: 3px solid var(--kus-etykieta);
+  font-size: .86rem; color: #eaf1ff;
+}
+.kus-pasek-status--ud { border-left-color: var(--kus-ud); }
+.kus-pasek-status--up { border-left-color: var(--kus-up); }
+.kus-pasek-status--un { border-left-color: var(--kus-un); }
+.kus-pasek-opis { font-size: .74rem; color: var(--kus-etykieta); }
+
+.kus-pasek-chipy {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  max-height: 76px; overflow-y: auto; margin-bottom: 10px;
+}
+.kus-wchip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 5px 6px 5px 10px; border-radius: 999px;
+  border: 1px solid var(--kus-kresa-mocna); font-size: .76rem;
+}
+.kus-wchip--ud { border-color: rgba(74, 201, 126, .5); }
+.kus-wchip--up { border-color: rgba(240, 180, 41, .5); }
+.kus-wchip--un { border-color: rgba(239, 95, 76, .5); }
+.kus-wchip-kod { font-family: var(--t-mono, monospace); font-weight: 700; color: #eaf1ff; }
+.kus-wchip-sev { font-size: .64rem; font-weight: 700; color: var(--kus-etykieta); }
+.kus-wchip-x {
+  width: 26px; height: 26px; border: 0; border-radius: 50%;
+  background: rgba(255, 255, 255, .07); color: #cfe0ff;
+  font-size: 1rem; line-height: 1; cursor: pointer;
+}
+.kus-wchip-x:hover { background: rgba(239, 95, 76, .25); }
+.kus-wchip-x:focus-visible { outline: 2px solid var(--kus-akcent); outline-offset: 2px; }
+
+.kus-pasek-akcje { display: flex; gap: 8px; }
+.kus-btn {
+  flex: 1; min-height: 46px; padding: 12px;
+  border: 1px solid var(--kus-kresa-mocna); border-radius: 12px;
+  background: transparent; color: #cfe0ff;
+  font: inherit; font-size: .84rem; font-weight: 600; cursor: pointer;
+}
+.kus-btn:hover { background: rgba(255, 255, 255, .06); }
+.kus-btn:focus-visible { outline: 2px solid var(--kus-akcent); outline-offset: 2px; }
+.kus-btn--glowny {
+  border-color: rgba(240, 180, 41, .45); background: rgba(240, 180, 41, .14);
+  color: var(--kus-zloto);
+}
+.kus-btn:disabled { opacity: .45; cursor: not-allowed; }
+
+/* ---------- okna ---------- */
+
+/* Okna stoją POZA .kus-page, więc nie obejmuje ich reguła ukrywania wyżej,
+   a własne `display: flex` unieważnia display:none ze stylów przeglądarki.
+   Bez tej linii oba modale są widoczne od wejścia i nie da się ich zamknąć —
+   klik w „Zamknij” ustawia hidden, które nic nie robi. */
+.kus-modal[hidden] { display: none !important; }
+
+.kus-modal { position: fixed; inset: 0; z-index: 60; display: flex;
+  align-items: flex-end; justify-content: center; }
+.kus-modal-tlo { position: absolute; inset: 0; background: rgba(3, 8, 20, .72); }
+.kus-modal-panel {
+  position: relative; width: 100%; max-width: 480px;
+  max-height: 88vh; overflow-y: auto;
+  padding: 20px 18px calc(20px + env(safe-area-inset-bottom, 0px));
+  border-radius: 18px 18px 0 0;
+  border: 1px solid var(--kus-kresa-mocna); border-bottom: 0;
+  background: #101a30;
+}
+.kus-modal-tytul { margin: 0 0 6px; font-size: 1.06rem; color: #f2f6ff; }
+.kus-modal-opis { margin: 0 0 14px; font-size: .84rem; line-height: 1.5; color: #c2d0e6; }
+.kus-modal-opcje { display: flex; flex-direction: column; gap: 8px; }
+.kus-opcja {
+  display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 12px 14px;
+  border: 1px solid var(--kus-kresa-mocna); border-radius: 12px; cursor: pointer;
+}
+.kus-opcja:hover { background: rgba(255, 255, 255, .05); }
+.kus-opcja:focus-within { outline: 2px solid var(--kus-akcent); outline-offset: 2px; }
+.kus-opcja-radio { width: 20px; height: 20px; flex: none; accent-color: #7fb0ff; }
+.kus-opcja-tresc { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.kus-opcja-tytul { font-size: .9rem; font-weight: 600; color: #eaf1ff; }
+.kus-opcja-kod { font-size: .7rem; font-weight: 700; letter-spacing: .06em; }
+.kus-opcja--ud { border-color: rgba(74, 201, 126, .45); }
+.kus-opcja--ud .kus-opcja-kod { color: var(--kus-ud); }
+.kus-opcja--up { border-color: rgba(240, 180, 41, .45); }
+.kus-opcja--up .kus-opcja-kod { color: var(--kus-up); }
+.kus-opcja--un { border-color: rgba(239, 95, 76, .45); }
+.kus-opcja--un .kus-opcja-kod { color: var(--kus-un); }
+.kus-modal-nota { margin: 14px 0 0; font-size: .74rem; line-height: 1.55; color: var(--kus-etykieta); }
+.kus-zastrzezenie {
+  padding: 11px 12px; border-radius: 10px;
+  border: 1px solid var(--kus-kresa); background: rgba(255, 255, 255, .03);
+}
+.kus-modal-akcje { display: flex; gap: 8px; margin-top: 16px; }
+
+/* ---------- podsumowanie ---------- */
+
+.kus-ps-typ { margin: 0 0 12px; font-size: .78rem; color: var(--kus-etykieta); }
+.kus-ps-poz { padding: 11px 0; border-top: 1px solid var(--kus-kresa); }
+.kus-ps-gora { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 5px; }
+.kus-ps-opis { margin: 0; font-size: .86rem; line-height: 1.45; color: #e4ecfb; overflow-wrap: anywhere; }
+.kus-ps-el { margin: 4px 0 0; font-size: .74rem; color: var(--kus-etykieta); }
+.kus-ps-ocena {
+  margin-top: 16px; padding: 13px 14px; border-radius: 12px;
+  border: 1px solid var(--kus-kresa-mocna); background: rgba(255, 255, 255, .04);
+}
+.kus-ps-ocena--ud { border-color: rgba(74, 201, 126, .45); background: rgba(74, 201, 126, .09); }
+.kus-ps-ocena--up { border-color: rgba(240, 180, 41, .45); background: rgba(240, 180, 41, .09); }
+.kus-ps-ocena--un { border-color: rgba(239, 95, 76, .5); background: rgba(239, 95, 76, .10); }
+.kus-ps-ocena-tytul {
+  margin: 0 0 5px; font-size: .68rem; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--kus-etykieta);
+}
+.kus-ps-ocena-tekst { margin: 0; font-size: .88rem; line-height: 1.5; color: #f2f6ff; }
+
+/* ---------- szczegóły wpisu ---------- */
+
+.kus-blok { margin: 0 0 20px; padding-top: 16px; border-top: 1px solid var(--kus-kresa); }
+.kus-blok-tytul {
+  margin: 0 0 8px; font-size: .68rem; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--kus-etykieta);
+}
+.kus-def { margin: 0; font-size: 1.02rem; line-height: 1.5; color: #f2f6ff; overflow-wrap: anywhere; }
+.kus-dane { display: grid; grid-template-columns: auto 1fr; gap: 7px 14px; margin: 0; }
+.kus-dane dt { font-size: .74rem; color: var(--kus-etykieta); }
+.kus-dane dd { margin: 0; font-size: .82rem; color: #dbe6f8; overflow-wrap: anywhere; }
+.kus-warunek {
+  margin: 6px 0 0; padding-left: 11px; border-left: 2px solid var(--kus-kresa-mocna);
+  font-size: .8rem; line-height: 1.5; color: #c2d0e6;
+}
+.kus-odanych { margin: 4px 0 22px; border: 1px solid var(--kus-kresa); border-radius: 12px; }
+.kus-odanych-tytul {
+  min-height: 46px; padding: 13px 14px; cursor: pointer; list-style: none;
+  font-size: .84rem; font-weight: 600; color: #cfe0ff;
+}
+.kus-odanych-tytul::-webkit-details-marker { display: none; }
+.kus-odanych-tresc { padding: 0 14px 14px; }
+.kus-link { color: #9cc3ff; text-decoration: underline; font-size: .8rem; overflow-wrap: anywhere; }
+
+/* Twardy bezpiecznik: reguła celuje w POTOMKÓW .kus-page, nigdy w sam
+   kontener — to ten sam element co .tar-page, z max-width 480 px. */
+.kus-page > *, .kus-page * { max-width: 100%; }
+
+/* ...ale pasek jest position:fixed, więc jego „100%” to szerokość OKNA, a nie
+   panelu. Bezpiecznik wyżej ma tę samą wagę co .kus-pasek i stoi za nim, więc
+   nadpisywał limit 480 px i pasek rozlewał się na cały ekran. Przywracamy go
+   po bezpieczniku, żeby kolejność w pliku działała na naszą korzyść. */
+.kus-page .kus-pasek { max-width: 480px; }
+
+/* ===== karta badanego elementu =====
+   Odwzorowuje hierarchię z tabeli rozporządzenia: dział → podgrupa → element,
+   pod tym metoda i uwaga, a dopiero niżej usterki. Bez nagłówka sam opis
+   usterki nie mówi, czego dotyczy. */
+
+.kus-grupa {
+  margin: 0 0 14px;
+  border: 1px solid var(--kus-kresa-mocna); border-radius: 14px;
+  background: rgba(255, 255, 255, .028);
+  overflow: hidden;
+}
+.kus-grupa-head { padding: 14px 14px 12px; text-align: center; }
+.kus-grupa-dzial {
+  margin: 0 0 3px; font-size: .82rem; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--kus-akcent); overflow-wrap: anywhere;
+}
+.kus-grupa-pod {
+  margin: 0 0 3px; font-size: .8rem; color: #b9cbe8; overflow-wrap: anywhere;
+}
+.kus-grupa-el {
+  margin: 0; font-size: .9rem; font-weight: 600; line-height: 1.4;
+  color: #eaf1ff; overflow-wrap: anywhere;
+}
+.kus-grupa-metoda {
+  display: flex; flex-direction: column; gap: 3px;
+  margin-top: 11px; padding-top: 11px; border-top: 1px solid var(--kus-kresa);
+}
+.kus-grupa-etykieta {
+  font-size: .66rem; letter-spacing: .11em; text-transform: uppercase;
+  color: var(--kus-etykieta);
+}
+.kus-grupa-metoda-tekst {
+  font-size: .82rem; line-height: 1.45; color: #c2d0e6; overflow-wrap: anywhere;
+}
+/* Uwaga ma inną wagę niż metoda — to ostrzeżenie o sposobie badania,
+   więc dostaje ikonę i wyrównanie do lewej, żeby dało się je wyłowić. */
+.kus-grupa-uwaga {
+  display: flex; align-items: flex-start; gap: 9px; text-align: left;
+  margin-top: 10px; padding: 10px 11px; border-radius: 10px;
+  border: 1px solid rgba(240, 180, 41, .32); background: rgba(240, 180, 41, .07);
+  font-size: .8rem; line-height: 1.45; color: #e8dcbe; overflow-wrap: anywhere;
+}
+.kus-grupa-uwaga svg { width: 18px; height: 18px; flex: none; margin-top: 1px; color: var(--kus-zloto); }
+.kus-grupa-uwaga strong { color: var(--kus-zloto); }
+
+.kus-grupa-lista { display: flex; flex-direction: column; }
+/* Wiersze w karcie nie potrzebują własnej ramki — rozdziela je kreska. */
+.kus-grupa-lista .kus-poz {
+  border: 0; border-top: 1px solid var(--kus-kresa); border-radius: 0;
+  background: transparent;
+}
+.kus-grupa-lista .kus-poz:hover { background: rgba(255, 255, 255, .035); }
+
+/* Trafienie wyszukiwarki. Nie polegamy na domyślnym żółtym tle <mark> — na
+   ciemnym motywie byłoby krzykliwe i psułoby kontrast tekstu. */
+.kus-traf {
+  padding: 0 2px; border-radius: 3px;
+  background: rgba(240, 180, 41, .26);
+  color: inherit; font-weight: 700;
+  box-shadow: inset 0 -1px 0 rgba(240, 180, 41, .7);
+}
+.kus-grupa-el .kus-traf, .kus-grupa-pod .kus-traf { font-weight: 800; }
