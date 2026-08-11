@@ -56,14 +56,31 @@ Działy załącznika nr 1 (0–10) odwzorowane w komplecie; kody usterek unikaln
   **0 rekordów** ma zanieczyszczoną nazwę działu, elementu ani metody, i żaden z tych
   trzech pól nie jest pusty.
 
-### Załącznik nr 2 — WYMAGA DRUGIEGO PRZEBIEGU
+### Załącznik nr 2 — ODRZUCONY, W KWARANTANNIE
 
-Dział I załącznika nr 2 jest tabelą usterek o tej samej budowie kolumn co załącznik nr 1,
-ale usterki nie są w nim oznaczane literami — część jest numerowana cyframi, część nie ma
-żadnego oznacznika. Obecny przebieg dał tylko 31 rekordów, w tym 8 bez kategorii
-i widoczne rozbicia opisu na fragmenty. **Tych danych nie należy publikować w aplikacji
-przed poprawieniem parsera.** Załącznik nr 2 zawiera ponadto dział II (ustalanie danych
-technicznych), który nie jest tabelą usterek i wymaga osobnej struktury.
+**Te dane nie są wyświetlane ani wykorzystywane przez aplikację.**
+
+Plik przeniesiono do `data/kody_usterek/quarantine/additional_inspection.json`.
+Nie czyta go żaden endpoint ani szablon; `metadata.json` wykazuje dla załącznika
+nr 2 `record_count: 0` i `status: disabled_pending_verification`.
+
+Powód odrzucenia: dział I załącznika nr 2 ma tę samą budowę kolumn co załącznik
+nr 1, ale **nie oznacza usterek literami** — część numeruje cyframi, część nie ma
+żadnego oznacznika, przez co parser napisany pod załącznik nr 1 dzieli je błędnie.
+
+Stwierdzone wady ekstrakcji:
+
+- 31 rekordów zamiast pełnego wykazu;
+- 8 rekordów bez kategorii UD/UP/UN;
+- duplikaty kodów `1.1.2.1` oraz `1.2.1`;
+- opisy porozrywane na fragmenty (rekord `1.1.1` = „wyrywkowo śrub lub nakrętek.”).
+
+Pliku nie usunięto — służy jako materiał do poprawienia parsera. Ponowne
+podłączenie danych wymaga nowego importu, weryfikacji i ręcznej akceptacji.
+
+Dział II załącznika nr 2 (ustalanie danych technicznych) nie jest tabelą usterek
+i wymaga osobnej struktury danych.
+
 
 ## Kompletność metadanych rekordu
 

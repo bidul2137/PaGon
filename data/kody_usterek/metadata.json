@@ -9,12 +9,17 @@
   {
    "number": 1,
    "label": "Okresowe badanie techniczne",
-   "record_count": 635
+   "record_count": 635,
+   "status": "active"
   },
   {
    "number": 2,
    "label": "Dodatkowe badanie techniczne",
-   "record_count": 31
+   "record_count": 0,
+   "status": "disabled_pending_verification",
+   "records_in_quarantine": 31,
+   "quarantine_path": "data/kody_usterek/quarantine/additional_inspection.json",
+   "note": "Zbior odrzucony przy weryfikacji importu: rozbite opisy, 8 rekordow bez kategorii, duplikaty kodow. Nie jest serwowany uzytkownikowi. Wymaga poprawienia parsera i ponownego importu."
   }
  ],
  "downloaded_at": "2026-08-11",
@@ -23,5 +28,5 @@
  "fully_verified_count": 634,
  "partially_verified_count": 1,
  "manual_approval_required": true,
- "status": "draft — załącznik nr 1 gotowy do przeglądu, załącznik nr 2 wymaga drugiego przebiegu"
+ "status": "zalacznik nr 1 aktywny; zalacznik nr 2 wylaczony do czasu weryfikacji"
 }

@@ -20,9 +20,9 @@ data/kody_pocztowe/snapshots/
 *.sqlite3
 *.db
 
-# Dane odrzucone przez weryfikacje. Plik zostaje na dysku do czasu poprawienia
-# parsera, ale nie jest czescia danych aplikacji.
-data/kody_usterek/quarantine/
+# Katalog data/kody_usterek/quarantine/ jest SLEDZONY celowo: odrzucone dane sa
+# materialem do poprawienia parsera, a historia zmian ma pokazywac, co i dlaczego
+# odrzucono. Nie sa serwowane uzytkownikowi — pilnuje tego test bezpieczenstwa.
 
 *.log
 *.tmp

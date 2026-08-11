@@ -1,6 +1,8 @@
 import json
+import os
 import re
 import ssl
+import urllib.error
 import urllib.request
 from datetime import datetime
 from pathlib import Path
@@ -9,10 +11,20 @@ from flask import Flask, render_template, request, jsonify, Response, redirect, 
 
 app = Flask(__name__)
 
-# W trybie dev nie cache'ujemy plikow statycznych, a do URL-i CSS/JS doklejamy
-# znacznik czasu modyfikacji (static_v) -- dzieki temu po kazdej zmianie przegladarka
-# (takze na telefonie) pobiera swieza wersje, bez recznego czyszczenia cache.
-app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 0
+
+def _flaga(nazwa, domyslnie="0"):
+    """Zmienna srodowiskowa traktowana jako przelacznik 0/1."""
+    return os.environ.get(nazwa, domyslnie).strip().lower() in ("1", "true", "yes", "on")
+
+
+# Debugger Werkzeuga daje dostep do interaktywnej konsoli Pythona, wiec wlaczamy
+# go wylacznie na jawne zadanie (PAGON_DEBUG=1) i nigdy domyslnie.
+TRYB_DEBUG = _flaga("PAGON_DEBUG")
+
+# Zerowy cache plikow statycznych to ustawienie DEWELOPERSKIE. W produkcji
+# oznaczaloby ponowne pobieranie kilkudziesieciu megabajtow przy kazdym wejsciu,
+# a swiezosc CSS/JS i tak zapewnia static_v() doklejajacy znacznik czasu pliku.
+app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 0 if TRYB_DEBUG else 604800
 
 
 @app.context_processor
@@ -47,17 +59,51 @@ PDF_ZRODLA = {
 PDF_CACHE_DIR = BASE_DIR / "static" / "pdf_cache"
 
 
+#: Jedna proba i krotki limit czasu. Wczesniej byly dwie proby po 60 s, wiec
+#: jedno zadanie potrafilo zajac watek serwera na dwie minuty — przy jednym
+#: workerze wystarczylo kilka takich, zeby aplikacja przestala odpowiadac.
+PDF_TIMEOUT_S = 10
+
+
+def _kontekst_tls():
+    """Kontekst TLS z pelna weryfikacja certyfikatu.
+
+    Swiadomie NIE MA tu wariantu bez weryfikacji. Wczesniej po nieudanej probie
+    kod ponawial zadanie z ssl._create_unverified_context(), czyli akceptowal
+    dowolny certyfikat i zapisywal pobrany plik na dysk — to pozwalalo podstawic
+    spreparowany dokument prawny, ktory potem byl serwowany z zaufanego origin.
+
+    Gdy systemowy magazyn CA jest niekompletny (typowe na Windows), korzystamy
+    z certifi. To rozwiazuje ten sam problem co wylaczenie weryfikacji, ale bez
+    rezygnacji z bezpieczenstwa.
+    """
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except ImportError:
+        return ssl.create_default_context()
+
+
 def _pobierz_pdf(url):
-    """Pobiera PDF probujac najpierw z weryfikacja SSL, potem bez (typowy problem
-    certyfikatow na Windows). Zwraca bajty albo None przy niepowodzeniu."""
-    for ctx in (ssl.create_default_context(), ssl._create_unverified_context()):
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=60, context=ctx) as resp:
-                return resp.read()
-        except Exception:
-            continue
-    return None
+    """Pobiera PDF z weryfikacja TLS. Zwraca (bajty, None) albo (None, powod).
+
+    Powod jest krotkim komunikatem dla uzytkownika — nie zawiera adresu ani
+    szczegolow technicznych, ktore nie sa mu do niczego potrzebne.
+    """
+    req = urllib.request.Request(url, headers={"User-Agent": "PaGon/1.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=PDF_TIMEOUT_S,
+                                    context=_kontekst_tls()) as odp:
+            if odp.status != 200:
+                return None, f"Serwer źródła odpowiedział kodem {odp.status}."
+            return odp.read(), None
+    except ssl.SSLCertVerificationError:
+        return None, ("Nie udało się potwierdzić certyfikatu serwera źródła. "
+                      "Dokument nie został pobrany.")
+    except urllib.error.HTTPError as e:
+        return None, f"Serwer źródła odpowiedział kodem {e.code}."
+    except (urllib.error.URLError, TimeoutError, OSError):
+        return None, "Nie udało się połączyć ze źródłem dokumentu."
 
 
 def load_przepisy():
@@ -85,6 +131,22 @@ def load_taryfikator():
     """Wczytuje kategorie i rekordy taryfikatora z pliku JSON (bez bazy danych)."""
     with open(TARYFIKATOR_JSON, encoding="utf-8") as f:
         return json.load(f)
+
+
+def _wersja_taryfikatora():
+    """Znacznik wersji danych taryfikatora — czasy modyfikacji plików zrodlowych.
+
+    Sluzy do wersjonowania adresu /api/taryfikator i jako ETag. Po podmianie
+    stawek zmienia sie sam, wiec przegladarka pobiera nowa tresc mimo dlugiego
+    cache; bez tego uzytkownik zostalby ze starymi kwotami mandatow.
+    """
+    znaczniki = []
+    for p in (TARYFIKATOR_JSON, BASE_DIR / "data" / "nazwy_artykulow.json"):
+        try:
+            znaczniki.append(int(p.stat().st_mtime))
+        except OSError:
+            znaczniki.append(0)
+    return "-".join(str(z) for z in znaczniki)
 
 
 def find_kategoria(kategorie, slug):
@@ -1096,26 +1158,23 @@ def pomoce_pdf(klucz):
     if cache_path.exists():
         return inline(cache_path.read_bytes())
 
-    # 2) pobierz raz, zapisz do cache, podaj inline
-    dane = _pobierz_pdf(url)
+    # 2) pobranie: jedna proba, 10 s, z pelna weryfikacja TLS.
+    #    Zachodzi wylacznie w reakcji na klikniecie kafelka przez uzytkownika.
+    dane, powod = _pobierz_pdf(url)
     if dane:
         try:
             PDF_CACHE_DIR.mkdir(parents=True, exist_ok=True)
             cache_path.write_bytes(dane)
-        except Exception:
-            pass
+        except OSError:
+            pass          # brak cache tylko spowolni kolejne wejscie
         return inline(dane)
 
-    # 3) ostatecznosc: osadz PDF w stronie zamiast wymuszac pobieranie
+    # 3) niepowodzenie: NIE osadzamy dokumentu z zewnetrznego adresu i nie
+    #    zapisujemy niczego w cache. Pokazujemy powod i odsylacz do zrodla,
+    #    zeby uzytkownik mogl otworzyc dokument sam i swiadomie.
     return Response(
-        "<!doctype html><meta charset='utf-8'><title>Podgląd PDF</title>"
-        "<style>html,body{margin:0;height:100%;background:#0b132b}</style>"
-        f"<object data='{url}' type='application/pdf' width='100%' height='100%'>"
-        "<p style='color:#c1cfe6;font-family:sans-serif;padding:20px'>"
-        "Nie udało się wyświetlić dokumentu w podglądzie. "
-        f"<a style='color:#e0b23a' href='{url}' target='_blank' rel='noopener'>"
-        "Otwórz w nowej karcie</a></p></object>",
-        mimetype="text/html",
+        render_template("pdf_blad.html", powod=powod, url=url, klucz=klucz),
+        mimetype="text/html", status=502,
     )
 
 
@@ -1128,7 +1187,8 @@ def taryfikator():
     dzieja sie w calosci w JS (localStorage, bez sesji/logowania).
     """
     dane = load_taryfikator()
-    return render_template("taryfikator.html", kategorie=dane["kategorie"])
+    return render_template("taryfikator.html", kategorie=dane["kategorie"],
+                           wersja_danych=_wersja_taryfikatora())
 
 
 @app.route("/api/taryfikator")
@@ -1145,7 +1205,16 @@ def api_taryfikator():
             dane["nazwy_artykulow"] = json.load(f).get("nazwy", {})
     except OSError:
         dane["nazwy_artykulow"] = {}
-    return jsonify(dane)
+
+    odp = jsonify(dane)
+    # Ten sam schemat co pozostale endpointy danych, ale z ETagiem. Sam
+    # "immutable" bez wersjonowania adresu zamrozilby uzytkownika na starym
+    # taryfikatorze po zmianie stawek — a to juz bylaby bledna informacja
+    # o wysokosci mandatu. Adres jest wersjonowany w szablonie (znacznik czasu
+    # pliku), ETag zabezpiecza dodatkowo wpisy z cache sprzed tej zmiany.
+    odp.headers["Cache-Control"] = "public, max-age=604800, immutable"
+    odp.headers["ETag"] = f'"{_wersja_taryfikatora()}"'
+    return odp
 
 
 @app.route("/konto")
@@ -1159,4 +1228,22 @@ def konto():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    # Domyslnie serwer nasluchuje wylacznie na tej maszynie i bez debuggera.
+    # Debugger Werkzeuga udostepnia interaktywna konsole Pythona, wiec
+    # wystawiony na 0.0.0.0 oznacza zdalne wykonanie kodu przez kazdego w sieci.
+    # Oba ustawienia wymagaja teraz jawnej decyzji przez zmienne srodowiskowe.
+    host = os.environ.get("PAGON_HOST", "127.0.0.1").strip() or "127.0.0.1"
+    try:
+        port = int(os.environ.get("PAGON_PORT", "5000"))
+    except ValueError:
+        port = 5000
+
+    if TRYB_DEBUG and host != "127.0.0.1":
+        # Sama kombinacja jest na tyle grozna, ze nie pozwalamy jej wlaczyc
+        # przez nieuwage — trzeba wybrac jedno albo drugie.
+        raise SystemExit(
+            "Odmowa startu: PAGON_DEBUG=1 razem z PAGON_HOST=%s wystawia konsole "
+            "debuggera na siec. Wylacz debugger albo nasluchuj na 127.0.0.1." % host
+        )
+
+    app.run(debug=TRYB_DEBUG, host=host, port=port)

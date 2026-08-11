@@ -94,7 +94,9 @@
 </div>
 
 <script>
-  window.TARYFIKATOR_API_URL = "{{ url_for('api_taryfikator') }}";
+  {# Adres wersjonowany znacznikiem czasu danych: dlugi cache jest bezpieczny,
+     bo po podmianie stawek zmienia sie sam adres. #}
+  window.TARYFIKATOR_API_URL = "{{ url_for('api_taryfikator') }}?v={{ wersja_danych }}";
   window.STAR_FULL_URL = "{{ url_for('static', filename='img/star-full.png') }}";
   window.STAR_EMPTY_URL = "{{ url_for('static', filename='img/star-empty.png') }}";
 </script>

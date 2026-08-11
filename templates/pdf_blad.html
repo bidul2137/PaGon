@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}PaGon — nie udało się pobrać dokumentu{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+
+<div class="tar-page kpj-page">
+
+  <header class="tar-topbar">
+    <a href="{{ url_for('pomoce') }}" class="tar-back"
+       aria-label="Powrót do Pomoce / Linki">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Dokument niedostępny</h1>
+      <p class="kpj-lead">Nie udało się pobrać dokumentu ze źródła.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+    <section class="kal-karta">
+      <p class="kal-sekcja-tytul">Powód</p>
+      <p style="margin:0;font-size:.92rem;line-height:1.55;color:#e4ecfb">
+        {{ powod or "Nie udało się połączyć ze źródłem dokumentu." }}</p>
+    </section>
+
+    {# Dokumentu z niezweryfikowanego połączenia świadomie nie osadzamy w stronie.
+       Zamiast tego dajemy odsyłacz do oficjalnego źródła — decyzję o otwarciu
+       podejmuje użytkownik, a adres widzi w pasku przeglądarki. #}
+    <p style="margin:18px 0 10px;font-size:.86rem;line-height:1.6;color:#c2d0e6">
+      Dokument nie został zapisany w pamięci aplikacji. Możesz otworzyć go
+      bezpośrednio ze strony źródłowej:
+    </p>
+    <a class="prz-wroc" href="{{ url }}" target="_blank" rel="noopener noreferrer"
+       style="justify-content:center">
+      Otwórz dokument w oficjalnym źródle
+    </a>
+
+    <p style="margin:18px 0;font-size:.76rem;line-height:1.55;color:#7d92b3">
+      Jeżeli błąd się powtarza, sprawdź połączenie z internetem. Dokumenty
+      pobrane wcześniej otwierają się bez sieci.
+    </p>
+  </main>
+</div>
+{% endblock %}
