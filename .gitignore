@@ -8,3 +8,22 @@ tools/arkusze/
 tools/arkusze_sklejone/
 data/kody_pocztowe/postal_codes.sqlite
 data/kody_pocztowe/snapshots/
+
+# --- dodane przy porzadkowaniu bezpieczenstwa (08.2026) ---
+# Sekrety srodowiska: do repozytorium trafia wylacznie .env.example.
+.env
+.env.*
+!.env.example
+
+# Pozostale bazy SQLite sa produktem importerow, nie zrodlem danych.
+*.sqlite
+*.sqlite3
+*.db
+
+# Dane odrzucone przez weryfikacje. Plik zostaje na dysku do czasu poprawienia
+# parsera, ale nie jest czescia danych aplikacji.
+data/kody_usterek/quarantine/
+
+*.log
+*.tmp
+*.bak

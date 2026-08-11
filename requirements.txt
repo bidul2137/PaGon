@@ -1,1 +1,23 @@
+# PaGon — zależności
+#
+# Podział jest celowy: aplikacja webowa potrzebuje dwóch pakietów, cała reszta
+# służy wyłącznie importerom danych uruchamianym ręcznie. Na serwerze można
+# zainstalować samą sekcję "aplikacja".
+#
+# UWAGA co do wersji: wersje pakietów importerów odczytano ze środowiska,
+# w którym powstawał ten plik. Wersja Flaska pochodzi z wcześniejszej treści
+# tego pliku w repozytorium. Jedynie truststore pozostaje nieprzypięty, bo nie
+# udało się go zweryfikować — uzupełnij poleceniem
+# `pip freeze | grep -i truststore` na maszynie roboczej.
+
+# --- aplikacja (wymagane do uruchomienia serwera) ---
 Flask==3.0.3
+certifi==2026.5.20       # magazyn CA do weryfikacji TLS przy pobieraniu PDF
+
+# --- importery danych (uruchamiane ręcznie, nie na serwerze) ---
+pdfplumber==0.11.9       # tabele w PDF: ADR, kody usterek
+pypdfium2==5.9.0         # tekst znaków drogowych
+pytesseract==0.3.13      # OCR kontrolny grafik znaków (wymaga systemowego tesseract)
+Pillow==12.2.0           # cięcie i składanie grafik znaków
+numpy==2.2.6             # profile rzutowania przy cięciu arkuszy
+truststore>=0.9          # TODO: przypiąć; systemowy magazyn CA w imporcie ADR
