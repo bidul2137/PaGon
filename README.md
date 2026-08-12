@@ -52,14 +52,29 @@ PAGON_HOST=0.0.0.0 python app.py
 ## Testy
 
 ```bash
-python -m unittest discover -s tests -p "test_*.py" -v   # testy Pythona
+python -m unittest discover -s tests -p "test_*.py" -v   # testy Pythona (41)
 node tests/kalkulator.test.js                            # testy JS
 ```
 
-Testy bezpieczeństwa (`tests/test_bezpieczenstwo.py`) sprawdzają konfigurację
-uruchomienia, weryfikację TLS przy pobieraniu dokumentów, limit czasu, nagłówki
-cache oraz to, że dane w kwarantannie nie trafiają do żadnego endpointu.
-Działają bez zainstalowanego Flaska — analizują kod źródłowy i pliki danych.
+Test PWA/offline wymaga przeglądarki i uruchomionego serwera:
+
+```bash
+npm i -D @playwright/test && npx playwright install chromium
+PAGON_HOST=127.0.0.1 python app.py            # w osobnym terminalu
+npx playwright test tests/pwa_offline.spec.js
+```
+
+**Dopóki `pwa_offline.spec.js` nie przejdzie na zielono, interfejs nie może
+deklarować działania offline** — pilnuje tego `tests/test_pwa.py`.
+
+`tests/test_bezpieczenstwo.py` sprawdza konfigurację uruchomienia, weryfikację
+TLS przy pobieraniu dokumentów, limit czasu, nagłówki cache oraz to, że dane
+w kwarantannie nie trafiają do żadnego endpointu.
+
+`tests/test_pwa.py` pilnuje manifestu, strategii cache w service workerze,
+wersjonowania magazynów i tego, czego SW nie ma prawa zapisywać.
+
+Oba działają bez zainstalowanego Flaska — analizują kod źródłowy i pliki danych.
 
 ## Gdzie leżą dane
 
