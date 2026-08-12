@@ -20,9 +20,10 @@ data/kody_pocztowe/snapshots/
 *.sqlite3
 *.db
 
-# Katalog data/kody_usterek/quarantine/ jest SLEDZONY celowo: odrzucone dane sa
-# materialem do poprawienia parsera, a historia zmian ma pokazywac, co i dlaczego
-# odrzucono. Nie sa serwowane uzytkownikowi — pilnuje tego test bezpieczenstwa.
+# Odrzucone wyniki ekstrakcji NIE trafiaja do repozytorium (usunieto katalog
+# data/kody_usterek/quarantine/ w 2026-08-12). Zrodlem prawdy jest dokument
+# w zrodla/; importer musi jawnie wykluczac taki zbior, zeby ponowne
+# uruchomienie go nie odtworzylo — pilnuje tego test bezpieczenstwa.
 
 *.log
 *.tmp

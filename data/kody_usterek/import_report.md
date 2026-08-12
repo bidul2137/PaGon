@@ -34,15 +34,17 @@ Zaimportowane kody i kategorie są aktualne na 10.12.2024.
 
 ## Statystyki
 
-| | Załącznik nr 1 | Załącznik nr 2 |
-|---|---:|---:|
-| Rekordów usterek | 635 | 31 |
-| Z kategorią UD | 132 | 0 |
-| Z kategorią UP | 580 | 21 |
-| Z kategorią UN | 142 | 4 |
-| Z wieloma możliwymi kategoriami | 212 | 2 |
-| W pełni zweryfikowanych | 635 | 23 |
-| Częściowo zweryfikowanych | 0 | 8 |
+Statystyki dotyczą wyłącznie załącznika nr 1 — jedynego, który wchodzi do aplikacji.
+
+| | Załącznik nr 1 |
+|---|---:|
+| Rekordów usterek | 635 |
+| Z kategorią UD | 132 |
+| Z kategorią UP | 580 |
+| Z kategorią UN | 142 |
+| Z wieloma możliwymi kategoriami | 212 |
+| W pełni zweryfikowanych | 635 |
+| Częściowo zweryfikowanych | 0 |
 
 Działy załącznika nr 1 (0–10) odwzorowane w komplecie; kody usterek unikalne, bez duplikatów.
 
@@ -70,27 +72,31 @@ Działy załącznika nr 1 (0–10) odwzorowane w komplecie; kody usterek unikaln
   **0 rekordów** ma zanieczyszczoną nazwę działu, elementu ani metody, i żaden z tych
   trzech pól nie jest pusty.
 
-### Załącznik nr 2 — ODRZUCONY, W KWARANTANNIE
+### Załącznik nr 2 — NIE WPROWADZONY
 
-**Te dane nie są wyświetlane ani wykorzystywane przez aplikację.**
+**Aplikacja nie zawiera danych załącznika nr 2 i ich nie wyświetla.**
 
-Plik przeniesiono do `data/kody_usterek/quarantine/additional_inspection.json`.
-Nie czyta go żaden endpoint ani szablon; `metadata.json` wykazuje dla załącznika
-nr 2 `record_count: 0` i `status: disabled_pending_verification`.
+Decyzja z 2026-08-12: załącznik nr 2 (dodatkowe badanie techniczne) na razie
+nie wchodzi do aplikacji. Wygenerowany wcześniej plik usunięto z repozytorium
+zamiast trzymać go w kwarantannie — źródłem prawdy jest PDF, a nie odrzucony
+wynik ekstrakcji. Importer pomija ten załącznik (`ZALACZNIKI_DO_IMPORTU = (1,)`),
+więc ponowne uruchomienie go nie odtworzy.
 
-Powód odrzucenia: dział I załącznika nr 2 ma tę samą budowę kolumn co załącznik
-nr 1, ale **nie oznacza usterek literami** — część numeruje cyframi, część nie ma
-żadnego oznacznika, przez co parser napisany pod załącznik nr 1 dzieli je błędnie.
+Powód odrzucenia ekstrakcji: dział I załącznika nr 2 ma tę samą budowę kolumn co
+załącznik nr 1, ale **nie oznacza usterek literami** — część numeruje cyframi,
+część nie ma żadnego oznacznika, przez co parser napisany pod załącznik nr 1
+dzieli je błędnie.
 
-Stwierdzone wady ekstrakcji:
+Stwierdzone wady ekstrakcji (stan na 2026-08-11):
 
 - 31 rekordów zamiast pełnego wykazu;
 - 8 rekordów bez kategorii UD/UP/UN;
 - duplikaty kodów `1.1.2.1` oraz `1.2.1`;
 - opisy porozrywane na fragmenty (rekord `1.1.1` = „wyrywkowo śrub lub nakrętek.”).
 
-Pliku nie usunięto — służy jako materiał do poprawienia parsera. Ponowne
-podłączenie danych wymaga nowego importu, weryfikacji i ręcznej akceptacji.
+Powrót do załącznika nr 2 wymaga: poprawienia parsera pod jego sposób oznaczania
+usterek, nowego importu ze `zrodla/DU_2024_141_badania_techniczne.pdf`
+(strony 82–89), weryfikacji i ręcznej akceptacji.
 
 Dział II załącznika nr 2 (ustalanie danych technicznych) nie jest tabelą usterek
 i wymaga osobnej struktury danych.

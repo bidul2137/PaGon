@@ -35,8 +35,12 @@ PDF_1811 = ZRODLA / "DU_2024_1811_zmiana.pdf"
 # Strony ustalone przez oglegdziny dokumentu (numeracja od 1).
 STRONY = {
     1: range(13, 63),   # zalacznik nr 1, dzial I — tabela usterek
-    2: range(82, 90),   # zalacznik nr 2, dzial I — tabela usterek
+    2: range(82, 90),   # zalacznik nr 2, dzial I — tabela usterek (NIE importowany)
 }
+# Zalacznik nr 2 zostaje poza aplikacja do czasu poprawienia parsera:
+# przy ostatnim imporcie dawal poszatkowane opisy, 8 rekordow bez kategorii
+# i duplikaty kodow (1.1.2.1, 1.2.1). Zeby go wrocic — dopisz tu 2.
+ZALACZNIKI_DO_IMPORTU = (1,)
 # Udzial szerokosci czesci opisowej, na ktorym stoja separatory kolumn 1|2 i 2|3.
 # Wartosci sa wzgledne, wiec dzialaja mimo przesuniec ramki na poszczegolnych
 # stronach (spotykane odchylki to nawet 30 pkt).
@@ -509,7 +513,13 @@ def main():
     raport = []
     wszystkie = {}
     elementy = {}
-    for zal in (1, 2):
+    # Importujemy wylacznie zalacznik nr 1. Zalacznik nr 2 (dodatkowe badanie
+    # techniczne) nie przeszedl weryfikacji — rozbite opisy, rekordy bez
+    # kategorii, duplikaty kodow — i decyzja Krystiana z 2026-08-12 nie
+    # wprowadzamy go na razie do aplikacji. Kod parsera zostaje: zeby wrocic
+    # do zalacznika nr 2, wystarczy dopisac 2 do ZALACZNIKI_DO_IMPORTU
+    # i poprawic parser, bo STRONY[2] wciaz wskazuje wlasciwe strony PDF.
+    for zal in ZALACZNIKI_DO_IMPORTU:
         rek, niepelne, osierocone, bez_ramki, pozycje = zbuduj_rekordy(pdf, zal, metadane)
         dopisz_metody(pdf, rek, zal)
         wszystkie[zal] = rek
@@ -536,17 +546,8 @@ def main():
     (KATALOG / "periodic_defects.json").write_text(
         json.dumps({"records": wszystkie[1]}, ensure_ascii=False, indent=1),
         encoding="utf-8")
-    # Zalacznik nr 2 nie przeszedl weryfikacji (kody duplikaty, rekordy bez
-    # kategorii, poszatkowane opisy), wiec importer odklada go od razu do
-    # kwarantanny. Zapis do katalogu danych uzbroilby go z powrotem przy
-    # kazdym ponownym uruchomieniu importera.
-    kwarantanna = KATALOG / "quarantine"
-    kwarantanna.mkdir(parents=True, exist_ok=True)
-    (kwarantanna / "additional_inspection.json").write_text(
-        json.dumps({"records": wszystkie[2]}, ensure_ascii=False, indent=1),
-        encoding="utf-8")
     (KATALOG / "inspection_items.json").write_text(json.dumps(
-        {"annex_1": elementy[1], "annex_2": elementy[2]},
+        {f"annex_{z}": elementy[z] for z in ZALACZNIKI_DO_IMPORTU},
         ensure_ascii=False, indent=1), encoding="utf-8")
     (KATALOG / "categories.json").write_text(json.dumps({
         "categories": [

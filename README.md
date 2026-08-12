@@ -69,7 +69,10 @@ deklarować działania offline** — pilnuje tego `tests/test_pwa.py`.
 
 `tests/test_bezpieczenstwo.py` sprawdza konfigurację uruchomienia, weryfikację
 TLS przy pobieraniu dokumentów, limit czasu, nagłówki cache oraz to, że dane
-w kwarantannie nie trafiają do żadnego endpointu.
+odrzucone przy weryfikacji nie wracają do repozytorium ani do żadnego endpointu.
+
+`tests/test_kody_usterek.py` sprawdza kompletność kategorii UD/UP/UN oraz
+przypadki kontrolne odczytane ręcznie z rozporządzenia.
 
 `tests/test_pwa.py` pilnuje manifestu, strategii cache w service workerze,
 wersjonowania magazynów i tego, czego SW nie ma prawa zapisywać.
@@ -85,8 +88,7 @@ Oba działają bez zainstalowanego Flaska — analizują kod źródłowy i pliki
 | `data/adr/` | ADR 2025: substancje i kody zagrożenia |
 | `data/kody_pocztowe/` | indeks wyszukiwania; baza SQLite **nie jest w repozytorium** |
 | `data/kody_czynow/` | kody czynów z taryfikatora punktowego |
-| `data/kody_usterek/` | usterki badania technicznego, załącznik nr 1 |
-| `data/kody_usterek/quarantine/` | dane odrzucone przez weryfikację, poza repozytorium |
+| `data/kody_usterek/` | usterki badania technicznego, **wyłącznie załącznik nr 1** |
 | `tools/`, `data/*/scripts/` | importery uruchamiane ręcznie |
 
 Kilka rzeczy jest celowo poza repozytorium i trzeba je odtworzyć lokalnie:
@@ -112,8 +114,12 @@ Kilka rzeczy jest celowo poza repozytorium i trzeba je odtworzyć lokalnie:
 5. `metadata.json` ma `manual_approval_required: true`, dopóki zbiór nie zostanie
    przejrzany przez człowieka. Zbiory oznaczone jako `draft` albo
    `disabled_pending_verification` nie są serwowane użytkownikowi.
-6. Dane, które nie przeszły weryfikacji, trafiają do `quarantine/` — nie są
-   kasowane, ale też nie są wykorzystywane przez aplikację.
+6. Dane, które nie przeszły weryfikacji, nie wchodzą do repozytorium. Źródłem
+   prawdy jest dokument w `zrodla/`, a nie odrzucony wynik ekstrakcji — trzymanie
+   złych danych „na później" grozi tylko tym, że ktoś je kiedyś podłączy.
+   Importer musi jawnie wykluczać taki zbiór, żeby ponowne uruchomienie go nie
+   odtworzyło (przykład: `ZALACZNIKI_DO_IMPORTU` w importerze kodów usterek —
+   załącznik nr 2 rozporządzenia o badaniach technicznych nie jest importowany).
 
 Informacje w aplikacji mają charakter pomocniczy. Ostateczna kwalifikacja prawna
 należy do funkcjonariusza, a ocena stanu technicznego pojazdu — do uprawnionego

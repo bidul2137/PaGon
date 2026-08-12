@@ -130,16 +130,29 @@ class TestCache(unittest.TestCase):
         self.assertIn("wersja_danych", szablon)
 
 
-class TestKwarantannaZalacznika2(unittest.TestCase):
-    """WY-01 — dane odrzucone nie moga trafic do uzytkownika."""
+class TestZalacznik2PozaAplikacja(unittest.TestCase):
+    """WY-01 — dane odrzucone nie moga trafic do uzytkownika.
+
+    Zalacznik nr 2 zostal usuniety z repozytorium 2026-08-12. Zrodlem prawdy
+    jest PDF w zrodla/, a importer ma go nie odtwarzac (ZALACZNIKI_DO_IMPORTU).
+    """
 
     KAT = KATALOG / "data" / "kody_usterek"
 
-    def test_plik_zalacznika_2_jest_w_kwarantannie(self):
-        self.assertFalse((self.KAT / "additional_inspection.json").exists(),
-                         "Plik zalacznika nr 2 nie moze lezec wsrod danych aplikacji.")
-        self.assertTrue((self.KAT / "quarantine" / "additional_inspection.json").exists(),
-                        "Plik ma byc zachowany w kwarantannie, a nie usuniety.")
+    def test_dane_zalacznika_2_nie_leza_w_repozytorium(self):
+        znalezione = [str(p.relative_to(self.KAT))
+                      for p in self.KAT.rglob("additional_inspection*")]
+        self.assertEqual(znalezione, [],
+                         f"Dane zalacznika nr 2 wrocily do repozytorium: {znalezione}")
+
+    def test_importer_pomija_zalacznik_2(self):
+        zrodlo = (self.KAT / "scripts" / "import_vehicle_defects.py").read_text(encoding="utf-8")
+        self.assertRegex(zrodlo, r"ZALACZNIKI_DO_IMPORTU\s*=\s*\(1,\)",
+                         "Importer znow bralby zalacznik nr 2.")
+
+    def test_wykaz_elementow_ma_tylko_zalacznik_1(self):
+        d = json.loads((self.KAT / "inspection_items.json").read_text(encoding="utf-8"))
+        self.assertEqual(sorted(d), ["annex_1"])
 
     def test_zaden_endpoint_nie_czyta_zalacznika_2(self):
         self.assertNotIn("additional_inspection", ZRODLO_APP)
@@ -156,16 +169,15 @@ class TestKwarantannaZalacznika2(unittest.TestCase):
         self.assertIn("periodic_defects.json", blok)
         self.assertNotIn("additional_inspection", blok)
 
-    def test_metadane_wykazuja_zero_rekordow_zalacznika_2(self):
+    def test_metadane_nie_wykazuja_zalacznika_2_jako_aktywnego(self):
         m = json.loads((self.KAT / "metadata.json").read_text(encoding="utf-8"))
-        z2 = next(z for z in m["annexes"] if z["number"] == 2)
-        self.assertEqual(z2["record_count"], 0)
-        self.assertEqual(z2["status"], "disabled_pending_verification")
+        self.assertEqual([z["number"] for z in m["annexes"]], [1])
+        wykluczony = next(z for z in m["excluded_annexes"] if z["number"] == 2)
+        self.assertEqual(wykluczony["status"], "not_imported")
 
-    def test_raport_importu_opisuje_kwarantanne(self):
+    def test_raport_importu_wyjasnia_brak_zalacznika_2(self):
         raport = (self.KAT / "import_report.md").read_text(encoding="utf-8")
-        self.assertIn("KWARANTANNIE", raport)
-        self.assertIn("nie są wyświetlane ani wykorzystywane", raport)
+        self.assertIn("NIE WPROWADZONY", raport)
 
 
 if __name__ == "__main__":

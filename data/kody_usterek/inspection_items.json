@@ -212,26 +212,5 @@
   "10.4": "Pojazd wolnobieżny, przyczepa, wchodzące w skład kolejki turystycznej",
   "10.5": "Pojazd przystosowany do zasilania gazem",
   "10.6": "Pojazd samochodowy o dopuszczalnej masie całkowitej powyżej 3,5 tony, przystosowany do ciągnięcia przyczepy"
- },
- "annex_2": {
-  "1.1": "Dodatkowa kontrola układu kierowniczego",
-  "1.1.1": "Stan techniczny",
-  "1.1.2": "Wartość skrętności kół (różnicy kąta skrętu kół przy skręcie koła zewnętrznego o 20°) oraz maksymalnego kąta skrętu kół – prawidłowość montażu układu kierowniczego",
-  "1.1.3": "Działanie mechanizmu wspomagającego układ kierowniczy",
-  "1.2": "Dodatkowa kontrola zawieszenia",
-  "1.2.1": "Pomiar skuteczności tłumienia zawieszenia (dotyczy tylko samochodu osobowego)",
-  "1.3": "Dodatkowa kontrola ustawienia kół jezdnych",
-  "1.3.1": "Pomiar geometrii ustawienia kół przednich: – pomiar kąta pochylenia koła lewego i prawego, – pomiar kąta wyprzedzenia osi zwrotnicy kół lewego i prawego, – pomiar zbieżności kół, – pomiar śladowości kół, – pomiar nierównoległości osi",
-  "1.3.2": "Pomiar geometrii ustawienia kół tylnej osi (jeżeli jest wymagana przez producenta pojazdu): – pomiar kąta pochylenia koła lewego i prawego, – pomiar zbieżności kół",
-  "1.4": "Urządzenia podlegające dozorowi technicznemu",
-  "2.1": "Badanie zgodności dokonanych zmian z ustawą i rozporządzeniem o warunkach technicznych",
-  "3.1": "Taksówka",
-  "4.1": "Pojazd samochodowy uprzywilejowany",
-  "5.1": "Pojazd do nauki jazdy i egzaminowania",
-  "6.1": "Dodatkowe warunki techniczne",
-  "7.1": "Dodatkowe warunki techniczne",
-  "8.1": "Charakterystyka techniczna pojazdu",
-  "9.1": "Dodatkowe warunki techniczne",
-  "10.1": "Dodatkowe warunki techniczne"
  }
 }

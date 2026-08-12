@@ -11,15 +11,6 @@
    "label": "Okresowe badanie techniczne",
    "record_count": 635,
    "status": "active"
-  },
-  {
-   "number": 2,
-   "label": "Dodatkowe badanie techniczne",
-   "record_count": 0,
-   "status": "disabled_pending_verification",
-   "records_in_quarantine": 31,
-   "quarantine_path": "data/kody_usterek/quarantine/additional_inspection.json",
-   "note": "Zbior odrzucony przy weryfikacji importu: rozbite opisy, 8 rekordow bez kategorii, duplikaty kodow. Nie jest serwowany uzytkownikowi. Wymaga poprawienia parsera i ponownego importu."
   }
  ],
  "downloaded_at": "2026-08-11",
@@ -28,5 +19,13 @@
  "fully_verified_count": 635,
  "partially_verified_count": 0,
  "manual_approval_required": true,
- "status": "zalacznik nr 1 aktywny; zalacznik nr 2 wylaczony do czasu weryfikacji"
+ "status": "zalacznik nr 1 aktywny; zalacznik nr 2 nie jest importowany",
+ "excluded_annexes": [
+  {
+   "number": 2,
+   "label": "Dodatkowe badanie techniczne",
+   "status": "not_imported",
+   "note": "Nie wprowadzony do aplikacji (decyzja 2026-08-12). Ostatni import dawal poszatkowane opisy, 8 rekordow bez kategorii i duplikaty kodow. Zrodlo pozostaje w zrodla/DU_2024_141_badania_techniczne.pdf, strony 82-89; powrot wymaga poprawienia parsera i ponownej weryfikacji."
+  }
+ ]
 }
