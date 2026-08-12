@@ -809,6 +809,57 @@ def _kody_usterek_dane():
     return _USTERKI_CACHE
 
 
+@app.route("/sw.js")
+def service_worker():
+    """Service worker musi byc serwowany z korzenia, inaczej jego zasieg
+    ograniczylby sie do /static/ i nie objalby zadnej strony aplikacji.
+
+    Bez cache po stronie przegladarki: to jedyny plik, ktory decyduje
+    o wszystkich pozostalych, wiec nie moze sie zaciac na starej wersji.
+    """
+    sciezka = Path(app.static_folder) / "sw.js"
+    try:
+        tresc = sciezka.read_text(encoding="utf-8")
+    except OSError:
+        abort(404)
+    odp = Response(tresc, mimetype="application/javascript")
+    odp.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+    odp.headers["Service-Worker-Allowed"] = "/"
+    return odp
+
+
+@app.route("/offline")
+def offline():
+    """Strona zastepcza, gdy nie ma ani sieci, ani wpisu w cache."""
+    return render_template("offline.html")
+
+
+@app.route("/static/precache.json")
+def precache_lista():
+    """Lista zasobow do precache, budowana z katalogu — nie z reki.
+
+    Recznie utrzymywana lista rozjezdza sie z projektem przy pierwszym nowym
+    pliku CSS. Adresy niosa znacznik czasu modyfikacji (jak static_v), wiec po
+    zmianie pliku powstaje nowy klucz cache.
+    """
+    katalog = Path(app.static_folder)
+    lista = []
+    for wzor in ("css/*.css", "js/*.js", "icons/*.png"):
+        for plik in sorted(katalog.glob(wzor)):
+            wzgledna = plik.relative_to(katalog).as_posix()
+            lista.append(f"/static/{wzgledna}?v={int(plik.stat().st_mtime)}")
+    for nazwa in ("manifest.json", "img/logo-pagon.png", "img/ic-przepisy.png",
+                  "img/ic-pomoce.png", "img/ic-taryfikator.png", "img/ic-konto.png"):
+        plik = katalog / nazwa
+        if plik.exists():
+            lista.append(f"/static/{nazwa}?v={int(plik.stat().st_mtime)}")
+
+    odp = Response(json.dumps(lista, ensure_ascii=False, separators=(",", ":")),
+                   mimetype="application/json")
+    odp.headers["Cache-Control"] = "no-cache"
+    return odp
+
+
 @app.route("/pomoce/kody-usterek")
 def pomoce_kody_usterek():
     """Wyszukiwarka usterek okresowego badania technicznego pojazdu."""

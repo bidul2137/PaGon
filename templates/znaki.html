@@ -70,8 +70,10 @@
       {% endfor %}
     </div>
 
+    {# Deklarację o działaniu offline zdjęto do czasu wdrożenia i przetestowania
+       service workera — aplikacja go nie miała, więc zdanie było nieprawdziwe. #}
     <p class="kpj-zrodlo">Źródło: rozporządzenie w sprawie znaków i sygnałów drogowych
-      ({{ metadane.journal_reference }}). Baza działa offline —
+      ({{ metadane.journal_reference }}). Baza lokalna —
       {{ metadane.sign_count }} znaków, {{ metadane.with_image_count }} z grafiką.</p>
   </main>
 </div>

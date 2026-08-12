@@ -11,6 +11,13 @@
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ static_v('css/style.css') }}">
+
+  {# PWA: manifest i ikony. Service worker rejestruje pwa.js na końcu body. #}
+  <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+  <link rel="apple-touch-icon" href="{{ url_for('static', filename='icons/apple-touch-icon.png') }}">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="PaGon">
 </head>
 <body>
   {% block content %}{% endblock %}
@@ -20,5 +27,6 @@
      po stronie serwera. Ładujemy go globalnie; na stronach bez wyszukiwarki
      nie robi nic. #}
   <script src="{{ static_v('js/podswietl.js') }}" defer></script>
+  <script src="{{ static_v('js/pwa.js') }}" defer></script>
 </body>
 </html>

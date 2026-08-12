@@ -1433,3 +1433,31 @@ mark.kus-traf {
   font-weight: 700;
   box-shadow: inset 0 -1px 0 rgba(240, 180, 41, .7);
 }
+
+/* ===== pasek aktualizacji PWA =====
+   Nowa wersja service workera czeka na zgodę użytkownika, żeby przeładowanie
+   nie wypadło w trakcie pracy z listą wyników. */
+.pwa-pasek {
+  position: fixed; left: 50%; transform: translateX(-50%);
+  bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  z-index: 90;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 10px;
+  width: calc(100% - 24px); max-width: 456px;
+  padding: 12px 14px;
+  border: 1px solid rgba(240, 180, 41, .45); border-radius: 14px;
+  background: rgba(16, 26, 48, .97);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .45);
+}
+.pwa-pasek-tekst { flex: 1; min-width: 150px; font-size: .84rem; color: #eaf1ff; }
+.pwa-pasek-btn {
+  min-height: 40px; padding: 9px 14px;
+  border: 1px solid rgba(255, 255, 255, .18); border-radius: 10px;
+  background: transparent; color: #cfe0ff;
+  font: inherit; font-size: .82rem; font-weight: 600; cursor: pointer;
+}
+.pwa-pasek-btn:hover { background: rgba(255, 255, 255, .06); }
+.pwa-pasek-btn:focus-visible { outline: 2px solid #7fb0ff; outline-offset: 2px; }
+.pwa-pasek-btn--glowny {
+  border-color: rgba(240, 180, 41, .5); background: rgba(240, 180, 41, .16);
+  color: #f0b429;
+}

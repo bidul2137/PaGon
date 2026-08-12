@@ -1,0 +1,54 @@
+{
+  "name": "PaGon — pomoce dla policjantów",
+  "short_name": "PaGon",
+  "description": "Przepisy, procedury, taryfikator, znaki drogowe, tablice ADR, kody pocztowe, kody czynów i kody usterek badania technicznego.",
+  "lang": "pl",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b132b",
+  "theme_color": "#0b132b",
+  "categories": ["utilities", "productivity", "reference"],
+  "icons": [
+    {
+      "src": "/static/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Taryfikator",
+      "short_name": "Taryfikator",
+      "url": "/taryfikator",
+      "icons": [{ "src": "/static/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Znaki drogowe",
+      "short_name": "Znaki",
+      "url": "/pomoce/znaki",
+      "icons": [{ "src": "/static/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Tablice ADR",
+      "short_name": "ADR",
+      "url": "/pomoce/tablica-adr",
+      "icons": [{ "src": "/static/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}PaGon — brak połączenia{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
+<link rel="stylesheet" href="{{ static_v('css/kalkulator.css') }}">
+
+<div class="tar-page kpj-page">
+
+  <header class="tar-topbar">
+    <a href="/" class="tar-back" aria-label="Powrót do ekranu głównego">&lsaquo;</a>
+    <div class="tar-brand kpj-brand">
+      <h1 class="tar-title kpj-title">Brak połączenia</h1>
+      <p class="kpj-lead">Ta strona nie jest jeszcze zapisana w pamięci aplikacji.</p>
+    </div>
+  </header>
+
+  <div class="tar-rule"></div>
+
+  <main class="tar-frame">
+    <section class="kal-karta">
+      <p class="kal-sekcja-tytul">Co działa bez sieci</p>
+      <p style="margin:0;font-size:.9rem;line-height:1.6;color:#e4ecfb">
+        Moduły, które zostały wcześniej otwarte, oraz ich bazy danych. Reszta
+        pojawi się po ponownym połączeniu.
+      </p>
+    </section>
+
+    {# Odsyłacze do modułów z lokalną bazą — jeśli użytkownik był w nich
+       wcześniej, otworzą się z cache mimo braku sieci. #}
+    <p class="kus-blok-tytul" style="margin:20px 0 10px;font-size:.68rem;
+       letter-spacing:.11em;text-transform:uppercase;color:#7d92b3">
+      Spróbuj otworzyć</p>
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <a class="prz-wroc" href="/pomoce/znaki" style="justify-content:center">Znaki drogowe</a>
+      <a class="prz-wroc" href="/pomoce/tablica-adr" style="justify-content:center">Tablice ADR</a>
+      <a class="prz-wroc" href="/pomoce/kody-czynow" style="justify-content:center">Kody czynów</a>
+      <a class="prz-wroc" href="/pomoce/kody-usterek" style="justify-content:center">Kody usterek</a>
+      <a class="prz-wroc" href="/pomoce/kody-pocztowe" style="justify-content:center">Kody pocztowe</a>
+      <a class="prz-wroc" href="/taryfikator" style="justify-content:center">Taryfikator</a>
+    </div>
+
+    <p style="margin:20px 0;font-size:.78rem;line-height:1.55;color:#7d92b3">
+      Aby przygotować aplikację na pracę bez zasięgu, otwórz każdy potrzebny
+      moduł przy dostępnym połączeniu — jego baza zapisze się na urządzeniu.
+    </p>
+  </main>
+</div>
+{% endblock %}
