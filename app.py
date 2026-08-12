@@ -522,7 +522,7 @@ def pomoce_tablica_adr():
         wersja = "%s-%d" % (wersja, int(plik.stat().st_mtime))
     except OSError:
         pass
-    return render_template("adr.html", wersja_bazy=wersja)
+    return render_template("adr.html", wersja_dane=wersja)
 
 
 @app.route("/pomoce/tablica-adr/dane")
@@ -715,7 +715,7 @@ def pomoce_kody_pocztowe():
     dane = _kody_pocztowe_dane()
     return render_template(
         "kody_pocztowe.html",
-        wersja_bazy=(dane or {}).get("wersja", "0"),
+        wersja_dane=(dane or {}).get("wersja", "0"),
         meta=(dane or {}).get("meta"),
     )
 
@@ -855,55 +855,54 @@ METADANE_BAZ = {
 _BAZY_CACHE = None
 
 
-@app.context_processor
-def _inject_wersje_baz():
-    """Udostepnia szablonom `wersja_bazy(nazwa)` — wersje i date weryfikacji.
-
-    Wystawiamy to jako procesor kontekstu, a nie argument widoku, zeby dolozenie
-    stopki z wersja nie wymagalo zmiany sygnatury zadnej funkcji widoku.
+def wersja_bazy(nazwa):
+    """Wersja i data weryfikacji bazy danych dla stopki `_baza.html`.
 
     Data weryfikacji NIE jest zgadywana: gdy zbior jej nie ma (tak jest dzis
     ze znakami), zwracamy date importu i inna etykiete, zeby nie sugerowac
     kontroli, ktorej nikt nie przeprowadzil.
     """
-    def wersja_bazy(nazwa):
-        global _BAZY_CACHE
-        sciezka, etykieta = METADANE_BAZ.get(nazwa, (None, None))
-        if not sciezka:
-            return None
-        plik = BASE_DIR / sciezka
-        try:
-            znacznik = plik.stat().st_mtime_ns
-        except OSError:
-            return None
-        if _BAZY_CACHE is None:
-            _BAZY_CACHE = {}
-        wpis = _BAZY_CACHE.get(nazwa)
-        if wpis and wpis["znacznik"] == znacznik:
-            return wpis["dane"]
-        try:
-            with open(plik, encoding="utf-8") as f:
-                m = json.load(f)
-        except (OSError, ValueError):
-            return None
+    global _BAZY_CACHE
+    sciezka, etykieta = METADANE_BAZ.get(nazwa, (None, None))
+    if not sciezka:
+        return None
+    plik = BASE_DIR / sciezka
+    try:
+        znacznik = plik.stat().st_mtime_ns
+    except OSError:
+        return None
+    if _BAZY_CACHE is None:
+        _BAZY_CACHE = {}
+    wpis = _BAZY_CACHE.get(nazwa)
+    if wpis and wpis["znacznik"] == znacznik:
+        return wpis["dane"]
+    try:
+        with open(plik, encoding="utf-8") as f:
+            m = json.load(f)
+    except (OSError, ValueError):
+        return None
 
-        data = m.get("verified_at")
-        etykieta_daty = "zweryfikowano"
-        if not data:
-            data = m.get("downloaded_at") or m.get("imported_at")
-            etykieta_daty = "zaimportowano"
-        dane = {
-            "modul": etykieta,
-            "wersja": m.get("dataset_version") or m.get("adr_version") or "—",
-            "data": (data or "—")[:10],
-            "etykieta_daty": etykieta_daty,
-            "roboczy": bool(m.get("manual_approval_required"))
-                       or "draft" in str(m.get("dataset_version", "")).lower(),
-        }
-        _BAZY_CACHE[nazwa] = {"znacznik": znacznik, "dane": dane}
-        return dane
+    data = m.get("verified_at")
+    etykieta_daty = "zweryfikowano"
+    if not data:
+        data = m.get("downloaded_at") or m.get("imported_at")
+        etykieta_daty = "zaimportowano"
+    dane = {
+        "modul": etykieta,
+        "wersja": m.get("dataset_version") or m.get("adr_version") or "—",
+        "data": (data or "—")[:10],
+        "etykieta_daty": etykieta_daty,
+        "roboczy": bool(m.get("manual_approval_required"))
+                   or "draft" in str(m.get("dataset_version", "")).lower(),
+    }
+    _BAZY_CACHE[nazwa] = {"znacznik": znacznik, "dane": dane}
+    return dane
 
-    return {"wersja_bazy": wersja_bazy}
+
+# Zarejestrowane jako prawdziwy Jinja global (nie context_processor), zeby
+# stopka dzialala takze w _baza.html importowanym przez {% import ... %} bez
+# "with context" — importy bez "with context" nie widza zmiennych kontekstu.
+app.jinja_env.globals["wersja_bazy"] = wersja_bazy
 
 
 @app.route("/sw.js")
