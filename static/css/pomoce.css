@@ -95,3 +95,20 @@ a.pom-kod-tel:hover,a.pom-kod-tel:focus-visible{color:var(--t-gold);border-botto
 /* Odstępy między słowami podtytułu robi gap, a nie encje &nbsp; — te przekazane
    w zmiennej Jinja wyświetliłyby się jako zwykły tekst. */
 .hub-subtitle{display:flex;flex-wrap:wrap;gap:2px 14px}
+
+/* ===================================================================
+   Wąskie ekrany (iPhone SE i podobne, 320 px).
+   .tar-page zostawia 294 px treści, wiersz zjada 28 px na własny padding.
+   Przy stałej kolumnie kodu 150 px + odstęp 16 px na opis zostaje ~100 px,
+   a w podkodach (wcięcie 30 px) już tylko ~70 px — nazwa łamała się wtedy
+   na cztery linie. Poniżej 360 px układamy kod i opis jeden pod drugim.
+   =================================================================== */
+@media (max-width:360px){
+  .pom-kod-row{padding:11px 12px;gap:3px 12px}
+  .pom-kod-row--wide{flex-direction:column;align-items:stretch}
+  .pom-kod-row--wide .pom-kod,
+  .pom-kod-row--wide a.pom-kod-tel{width:100%;font-size:13px}
+  .pom-kod-row--wide .pom-kod-kraj{width:100%;font-size:13.5px}
+  .pom-kod-sub{padding-left:16px}
+  .pom-kod-sub .pom-kod{width:40px}
+}
