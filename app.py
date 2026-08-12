@@ -809,6 +809,40 @@ def _kody_usterek_dane():
     return _USTERKI_CACHE
 
 
+#: Polityka bezpieczenstwa tresci — na razie WYLACZNIE w trybie raportowania.
+#: Aplikacja korzysta z Google Fonts oraz ma inline'owe <script> i style="…"
+#: w trzech szablonach, wiec polityka egzekwowana od razu wylaczylaby fonty
+#: i czesc widokow. Tryb Report-Only pozwala zebrac naruszenia bez psucia
+#: aplikacji; przelaczenie na Content-Security-Policy dopiero po ich usunieciu.
+CSP_RAPORT = "; ".join([
+    "default-src 'self'",
+    "script-src 'self' 'unsafe-inline'",
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+    "font-src 'self' https://fonts.gstatic.com",
+    "img-src 'self' data:",
+    "connect-src 'self'",
+    "object-src 'self'",
+    "frame-ancestors 'self'",
+    "base-uri 'self'",
+    "form-action 'self'",
+])
+
+
+@app.after_request
+def _naglowki_bezpieczenstwa(odp):
+    """Naglowki ochronne dla kazdej odpowiedzi.
+
+    X-Frame-Options: SAMEORIGIN, a nie DENY — DENY blokuje takze osadzenie
+    z wlasnego origin, a podglad PDF jest serwowany z tej samej domeny wlasnie
+    po to, zeby dalo sie go pokazac w aplikacji.
+    """
+    odp.headers.setdefault("X-Content-Type-Options", "nosniff")
+    odp.headers.setdefault("X-Frame-Options", "SAMEORIGIN")
+    odp.headers.setdefault("Referrer-Policy", "no-referrer")
+    odp.headers.setdefault("Content-Security-Policy-Report-Only", CSP_RAPORT)
+    return odp
+
+
 #: Gdzie leza metadane poszczegolnych baz. Klucz jest identyfikatorem modulu.
 METADANE_BAZ = {
     "znaki": ("data/znaki/metadata.json", "Znaki drogowe"),
