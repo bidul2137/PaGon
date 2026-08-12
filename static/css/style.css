@@ -1461,3 +1461,20 @@ mark.kus-traf {
   border-color: rgba(240, 180, 41, .5); background: rgba(240, 180, 41, .16);
   color: #f0b429;
 }
+
+/* ===== stopka z wersją bazy (makro _baza.html) ===== */
+.baza-stopka {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px;
+  margin: 16px 0 10px; font-size: .72rem; color: #7d92b3;
+}
+.baza-stopka-etykieta {
+  letter-spacing: .11em; text-transform: uppercase; font-size: .64rem;
+}
+.baza-stopka-wersja { color: #b9cbe8; font-weight: 600; }
+/* Zbiór roboczy musi być widoczny słowem, nie samym kolorem — użytkownik
+   ma wiedzieć, że dane nie przeszły jeszcze ręcznej kontroli. */
+.baza-stopka-roboczy {
+  padding: 2px 8px; border-radius: 999px;
+  border: 1px solid rgba(240, 180, 41, .45); background: rgba(240, 180, 41, .10);
+  color: #f0b429; font-weight: 700; letter-spacing: .04em;
+}

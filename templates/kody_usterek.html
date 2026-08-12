@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block title %}PaGon — Kody usterek{% endblock %}
 
+{% import "_baza.html" as baza %}
 {% block content %}
 <link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
 <link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
@@ -79,6 +80,8 @@
       badań technicznych pojazdów. Podstawa: {{ metadane.legal_basis|join(', ') }}.
       Zweryfikowano {{ metadane.verified_at }}.</p>
 
+  
+    {{ baza.stopka('kody_usterek') }}
   </main>
 
   {# Pasek wybranych usterek — przypięty do dołu, bo to jedyny element, do

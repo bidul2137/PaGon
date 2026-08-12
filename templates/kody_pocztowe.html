@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block title %}PaGon — Wyszukiwarka kodów pocztowych{% endblock %}
 
+{% import "_baza.html" as baza %}
 {% block content %}
 <link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
 <link rel="stylesheet" href="{{ static_v('css/kategorie.css') }}">
@@ -147,6 +148,8 @@
         i aktualności.</span>
     </p>
 
+  
+    {{ baza.stopka('kody_pocztowe') }}
   </main>
 </div>
 

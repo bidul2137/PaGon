@@ -1,0 +1,25 @@
+{# Stopka z wersją bazy i datą weryfikacji.
+
+   Użycie w szablonie modułu:
+     {% import "_baza.html" as baza %}
+     {{ baza.stopka('kody_usterek') }}
+
+   Data weryfikacji nie jest zmyślana — gdy zbiór jej nie ma, makro pokazuje
+   datę importu i inną etykietę. Zbiór roboczy (wersja z „draft" albo
+   manual_approval_required) dostaje widoczne ostrzeżenie, żeby nikt nie brał
+   go za zatwierdzony. #}
+
+{% macro stopka(nazwa) %}
+  {% set b = wersja_bazy(nazwa) %}
+  {% if b %}
+  <p class="baza-stopka">
+    <span class="baza-stopka-etykieta">Baza</span>
+    <span class="baza-stopka-wersja">{{ b.modul }} {{ b.wersja }}</span>
+    <span class="baza-stopka-data">{{ b.etykieta_daty }} {{ b.data }}</span>
+    {% if b.roboczy %}
+      <span class="baza-stopka-roboczy" title="Zbiór nie został jeszcze
+        zatwierdzony po ręcznej kontroli danych">wersja robocza</span>
+    {% endif %}
+  </p>
+  {% endif %}
+{% endmacro %}

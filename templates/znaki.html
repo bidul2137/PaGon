@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block title %}PaGon — Znaki drogowe{% endblock %}
 
+{% import "_baza.html" as baza %}
 {% block content %}
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
@@ -75,6 +76,8 @@
     <p class="kpj-zrodlo">Źródło: rozporządzenie w sprawie znaków i sygnałów drogowych
       ({{ metadane.journal_reference }}). Baza lokalna —
       {{ metadane.sign_count }} znaków, {{ metadane.with_image_count }} z grafiką.</p>
+  
+    {{ baza.stopka('znaki') }}
   </main>
 </div>
 

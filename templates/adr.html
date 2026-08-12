@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block title %}PaGon — Tablica ADR{% endblock %}
 
+{% import "_baza.html" as baza %}
 {% block content %}
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ static_v('css/przepisy.css') }}">
@@ -77,6 +78,8 @@
        service workera — aplikacja go nie miała, więc zdanie było nieprawdziwe. #}
     <p class="kpj-zrodlo" id="adrZrodlo">Dane: ADR 2025, Dz.U. 2025 poz. 642. Baza lokalna.</p>
 
+  
+    {{ baza.stopka('adr') }}
   </main>
 
 </div>

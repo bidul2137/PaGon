@@ -809,6 +809,69 @@ def _kody_usterek_dane():
     return _USTERKI_CACHE
 
 
+#: Gdzie leza metadane poszczegolnych baz. Klucz jest identyfikatorem modulu.
+METADANE_BAZ = {
+    "znaki": ("data/znaki/metadata.json", "Znaki drogowe"),
+    "adr": ("data/adr/adr_2025_metadata.json", "Tablice ADR"),
+    "kody_czynow": ("data/kody_czynow/metadata.json", "Kody czynów"),
+    "kody_pocztowe": ("data/kody_pocztowe/metadata.json", "Kody pocztowe"),
+    "kody_usterek": ("data/kody_usterek/metadata.json", "Kody usterek"),
+}
+
+_BAZY_CACHE = None
+
+
+@app.context_processor
+def _inject_wersje_baz():
+    """Udostepnia szablonom `wersja_bazy(nazwa)` — wersje i date weryfikacji.
+
+    Wystawiamy to jako procesor kontekstu, a nie argument widoku, zeby dolozenie
+    stopki z wersja nie wymagalo zmiany sygnatury zadnej funkcji widoku.
+
+    Data weryfikacji NIE jest zgadywana: gdy zbior jej nie ma (tak jest dzis
+    ze znakami), zwracamy date importu i inna etykiete, zeby nie sugerowac
+    kontroli, ktorej nikt nie przeprowadzil.
+    """
+    def wersja_bazy(nazwa):
+        global _BAZY_CACHE
+        sciezka, etykieta = METADANE_BAZ.get(nazwa, (None, None))
+        if not sciezka:
+            return None
+        plik = BASE_DIR / sciezka
+        try:
+            znacznik = plik.stat().st_mtime_ns
+        except OSError:
+            return None
+        if _BAZY_CACHE is None:
+            _BAZY_CACHE = {}
+        wpis = _BAZY_CACHE.get(nazwa)
+        if wpis and wpis["znacznik"] == znacznik:
+            return wpis["dane"]
+        try:
+            with open(plik, encoding="utf-8") as f:
+                m = json.load(f)
+        except (OSError, ValueError):
+            return None
+
+        data = m.get("verified_at")
+        etykieta_daty = "zweryfikowano"
+        if not data:
+            data = m.get("downloaded_at") or m.get("imported_at")
+            etykieta_daty = "zaimportowano"
+        dane = {
+            "modul": etykieta,
+            "wersja": m.get("dataset_version") or m.get("adr_version") or "—",
+            "data": (data or "—")[:10],
+            "etykieta_daty": etykieta_daty,
+            "roboczy": bool(m.get("manual_approval_required"))
+                       or "draft" in str(m.get("dataset_version", "")).lower(),
+        }
+        _BAZY_CACHE[nazwa] = {"znacznik": znacznik, "dane": dane}
+        return dane
+
+    return {"wersja_bazy": wersja_bazy}
+
+
 @app.route("/sw.js")
 def service_worker():
     """Service worker musi byc serwowany z korzenia, inaczej jego zasieg
