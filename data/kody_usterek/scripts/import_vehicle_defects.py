@@ -136,6 +136,22 @@ def linie_strony(strona, granice):
         elif ud <= srodek < prawa and s["text"].strip().upper() == "X":
             w["ocena"] = "UD" if srodek < up else ("UP" if srodek < un else "UN")
 
+    # Krzyzyk bywa zlozony o 1–2 pkt wyzej niz opis usterki, przez co przy
+    # kubelkowaniu co 3 pkt trafia do SASIEDNIEJ linii — a tam nie ma tekstu
+    # usterki, wiec ocena przyklejala sie do poprzedniej usterki albo ginela
+    # jako duplikat. Tak zgubila sie kategoria UN przy 6.2.11.c.
+    # Przenosimy takie sieroty do najblizszej linii, ktora ma tekst usterki.
+    z_tekstem = [k for k, w in wiersze.items() if w["usterka"]]
+    for klucz in sorted(wiersze):
+        w = wiersze[klucz]
+        if not w["ocena"] or w["usterka"]:
+            continue
+        bliskie = [k for k in z_tekstem if abs(k - klucz) <= 2 and not wiersze[k]["ocena"]]
+        if bliskie:
+            cel = min(bliskie, key=lambda k: (abs(k - klucz), k))
+            wiersze[cel]["ocena"] = w["ocena"]
+            w["ocena"] = None
+
     out = []
     for klucz in sorted(wiersze):
         w = wiersze[klucz]
@@ -520,7 +536,13 @@ def main():
     (KATALOG / "periodic_defects.json").write_text(
         json.dumps({"records": wszystkie[1]}, ensure_ascii=False, indent=1),
         encoding="utf-8")
-    (KATALOG / "additional_inspection.json").write_text(
+    # Zalacznik nr 2 nie przeszedl weryfikacji (kody duplikaty, rekordy bez
+    # kategorii, poszatkowane opisy), wiec importer odklada go od razu do
+    # kwarantanny. Zapis do katalogu danych uzbroilby go z powrotem przy
+    # kazdym ponownym uruchomieniu importera.
+    kwarantanna = KATALOG / "quarantine"
+    kwarantanna.mkdir(parents=True, exist_ok=True)
+    (kwarantanna / "additional_inspection.json").write_text(
         json.dumps({"records": wszystkie[2]}, ensure_ascii=False, indent=1),
         encoding="utf-8")
     (KATALOG / "inspection_items.json").write_text(json.dumps(

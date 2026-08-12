@@ -38,11 +38,11 @@ Zaimportowane kody i kategorie są aktualne na 10.12.2024.
 |---|---:|---:|
 | Rekordów usterek | 635 | 31 |
 | Z kategorią UD | 132 | 0 |
-| Z kategorią UP | 579 | 21 |
+| Z kategorią UP | 580 | 21 |
 | Z kategorią UN | 142 | 4 |
 | Z wieloma możliwymi kategoriami | 212 | 2 |
-| W pełni zweryfikowanych | 634 | 23 |
-| Częściowo zweryfikowanych | 1 | 8 |
+| W pełni zweryfikowanych | 635 | 23 |
+| Częściowo zweryfikowanych | 0 | 8 |
 
 Działy załącznika nr 1 (0–10) odwzorowane w komplecie; kody usterek unikalne, bez duplikatów.
 
@@ -50,7 +50,21 @@ Działy załącznika nr 1 (0–10) odwzorowane w komplecie; kody usterek unikaln
 
 ### Załącznik nr 1
 
-- `6.2.11.c` — nie odnaleziono krzyżyka w kolumnie UD/UP/UN; kategoria nieustalona.
+- ~~`6.2.11.c` — nie odnaleziono krzyżyka w kolumnie UD/UP/UN~~ — **rozwiązane 2026-08-12.**
+  Krzyżyk bywa złożony 1–2 pkt wyżej niż opis usterki, więc przy kubełkowaniu linii
+  co 3 pkt trafiał do sąsiedniego kubełka. Dotyczyło to 9 z 916 krzyżyków (1,0%).
+  Osierocone oceny są teraz przenoszone do najbliższej linii z tekstem usterki.
+  Skutki w danych, każdy sprawdzony ręcznie w PDF ze współrzędnymi kolumn:
+
+  | Kod | Było | Jest | Podstawa (strona / y krzyżyka / pasmo) |
+  |---|---|---|---|
+  | `6.2.11.b` | UN | **UP** | s. 51, y=192, pasmo UP 690–732 |
+  | `6.2.11.c` | brak | **UN** | s. 51, y=211, pasmo UN 732–766 |
+  | `1.1.11.b` | UN bez warunku | UN + warunek „Nieszczelność przewodów lub połączeń w hydraulicznym układzie hamulcowym." | s. 17, y=503, pasmo UN 732–768 |
+  | `1.1.21.b` | UP bez warunku | UP + warunek „Wpływa na działanie układu." | s. 20, y=306, pasmo UP 690–732 |
+  | `7.3.b` | UN bez warunku | UN + warunek „Samoistne zamykanie lub blokowanie drzwi." | s. 52, y=515, pasmo UN 732–766 |
+
+  Poza tymi pięcioma rekordami zbiór jest bez zmian (635 rekordów, 0 dodanych, 0 usuniętych).
 - Fragmenty przypisu nr 34 ze strony tytułowej załącznika, które wcześniej wsiąkały
   w nazwy elementów i opisy metod, są usuwane przez `bez_przypisow()`. Po poprawce
   **0 rekordów** ma zanieczyszczoną nazwę działu, elementu ani metody, i żaden z tych
